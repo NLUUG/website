@@ -1,7 +1,7 @@
 
 
 # Contact
-Hieronder vindt je alle NLUUG gerelateerde contactinformatie. Momenteel draait de administratie van de NLUUG op vrijwilligers. Daarom geven wij sterk de voorkeur aan communicatie per e-mail. Doorgaans krijg je binnen een dag antwoord.
+Hieronder vindt je alle NLUUG gerelateerde contactinformatie. De administratie van NLUUG draait op vrijwilligers. Daarom geven wij sterk de voorkeur aan communicatie per e-mail. Doorgaans krijg je binnen een dag antwoord.
 
 Onze vereniging heeft verschillende mensen in wisselende samenstelling.
 
