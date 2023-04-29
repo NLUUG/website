@@ -129,9 +129,9 @@ Wettelijke grondslag voor gegevensverwerking
 We verzamelen en verwerken jouw persoonsgegevens uitsluitend wanneer wij hiervoor een wettelijke grondslag hebben. De volgende grondslagen zijn van toepassing:
 * De verwerking is noodzakelijk voor de uitvoering van je overeenkomst;
 * De verwerking is noodzakelijk voor de behartiging van onze gerechtvaardigde belangen, bijvoorbeeld 
-  i. voor het kunnen uitvoeren van onze diensten; 
-  ii. ten behoeve van bepaalde vormen van direct marketing en profiling; of 
-  iii. ten behoeve van de beveiliging van ons netwerk en systemen;
+  i voor het kunnen uitvoeren van onze diensten; 
+  ii ten behoeve van bepaalde vormen van direct marketing en profiling; of 
+  iii ten behoeve van de beveiliging van ons netwerk en systemen;
 * De verwerking is noodzakelijk om aan een wettelijke verplichting te voldoen, zoals de bewaarplicht voor administratieve gegevens;
 * Wanneer je ons uitdrukkelijk toestemming hebt gegeven voor een verwerking, bijvoorbeeld voor het delen van gegevens met partners voor commerciële doeleinden.
 
