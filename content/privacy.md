@@ -22,9 +22,10 @@ Wanneer je lid wordt, je registreert voor een dienst of op andere wijze van onze
 * Je woon- of zakelijk adres;
 * E-mailadres;
 * Je telefoonnummer;
-* De bedrijfsnaam van je werkgever (optioneel)
+* De bedrijfsnaam van je werkgever (optioneel);
 * Het adres van je werkgever (optioneel);
 * Betaal- en factureringsinformatie, zoals bankrekeningnummer;
+
 
 Cookies en soortgelijke technologie
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
