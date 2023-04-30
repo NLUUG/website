@@ -16,4 +16,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - run: |
+          nikola build
       - run: echo "🍏 This job's status is ${{ job.status }}."
