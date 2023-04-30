@@ -48,7 +48,7 @@ Het beeld en geluid (stream) dat de gebruiker naar de andere gebruikers verstuur
 De volgende (persoons)gegevens worden verwerkt bij het gebruik van de dienst:
 * Elke videoconferentie krijgt een unieke conferentie identifier. Deze identifiers zijn benodigd om gebruikers van één conferentie aan elkaar te kunnen koppelen op de servers van NLUUG. Deze identifiers worden voor een periode van 4 dagen opgeslagen.
 * Elke gebruiker van een videoconferentie krijgt een unieke identifier op de servers van NLUUG. Deze identifier is benodigd om acties van de gebruikers van de dienst te verwerken en beschikbaar te stellen aan andere gebruikers in dezelfde videoconferentie. Deze identifiers worden voor een periode van 4 dagen opgeslagen.
-*Tijdens het gebruik van de dienst is het IP-adres van de gebruiker bekend bij NLUUG, dit IP-adres is benodigd om de streams te kunnen ontvangen en uit te sturen. De IP-adressen van de gebruikers worden niet door NLUUG opgeslagen.
+* Tijdens het gebruik van de dienst is het IP-adres van de gebruiker bekend bij NLUUG, dit IP-adres is benodigd om de streams te kunnen ontvangen en uit te sturen. De IP-adressen van de gebruikers worden niet door NLUUG opgeslagen.
 
 Jitsi zet geen cookies op de apparatuur van de gebruiker. Als de browser van de gebruiker ruimte (local storage) beschikbaar stelt, wordt er op het apparaat van de gebruiker vastgelegd welke conferentie identifiers de gebruiker gebruikt heeft en met welke gebruikersinstellingen nieuwe conferenties gestart of bijgewoond moeten worden. Deze informatie wordt alleen in en door de client gebruikt.
 
