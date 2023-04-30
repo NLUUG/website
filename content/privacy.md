@@ -34,7 +34,12 @@ Bij gebruik van onze website verzamelen we GEEN gegevens via cookies en soortgel
 Videoconferentie via Jitsi
 --------------------------
 
-Voor dit deel is gebruik gemaakt van versie 2020-03-26 van de privacyverklaring van (https://www.bit.nl/privacyverklaring-meetmebitnl, BIT) ((https://creativecommons.org/licenses/by-sa/4.0/, CC BY-SA)).
+Voor dit deel is gebruik gemaakt van versie 2020-03-26 van de privacyverklaring van 
+.. raw:: html
+
+   <a href="https://www.bit.nl/privacyverklaring-meetmebitnl">BIT</a>
+
+   (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>).
 
 Met jitsi.nluug.nl biedt NLUUG een videoconferentiedienst die door een ieder gebruikt kan worden. Met het gebruiken van deze dienst gaat de gebruiker akkoord met deze privacyverklaring. De (persoons)gegevens die door NLUUG verwerkt worden bij het gebruik van de dienst zijn noodzakelijk voor het leveren van de dienst, voor het bijhouden van gebruikstatistieken en voor het oplossen van problemen mochten die zich voordoen. De rechtsgrond op basis waarvan de gegevens verwerkt worden is een gerechtvaardigd belang.
 
