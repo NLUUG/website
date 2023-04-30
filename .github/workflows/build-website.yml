@@ -17,5 +17,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: |
+          pip install "Nikola[extras]"
+      - run: |
           nikola build
       - run: echo "🍏 This job's status is ${{ job.status }}."
