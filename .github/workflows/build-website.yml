@@ -16,8 +16,10 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: |
+      - name: Install Nikola
+        run: |
           pip install "Nikola[extras]"
-      - run: |
+      - name: Run nikola build
+        run: |
           nikola build
       - run: echo "🍏 This job's status is ${{ job.status }}."
