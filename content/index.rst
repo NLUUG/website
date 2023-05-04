@@ -1,4 +1,4 @@
-.. title: Welcome To The Fake Site
+.. title: NLUUG
 .. slug: index
 .. date: 1970-01-01 00:00:00 UTC
 .. tags:
@@ -8,13 +8,13 @@
 
 .. class:: jumbotron col-md-6
 
-.. admonition:: This is a Fake Site
+.. admonition:: Dit is een nieuwe website
 
-    It pretends to be about things, but is really just an example.
+    In stappen gaat deze website vooruit.
 
     .. raw:: html
 
-       <a href="https://getnikola.com/" class="btn btn-primary btn-lg">Click Me!</a>
+       <a href="https://nluug.nl/" class="btn btn-primary btn-lg">Klikken maar!</a>
 
 
 .. class:: col-md-5
