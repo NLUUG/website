@@ -1,6 +1,13 @@
+.. title: Contactgegevens
+.. slug: index
+.. date: 2023-05-04 00:00:00 UTC
+.. tags:
+.. link:
+.. description: Contactgegevens NLUUG
 
+Emailadressen
+---
 
-# Contact
 Hieronder vindt je alle NLUUG gerelateerde contactinformatie. De administratie van NLUUG draait op vrijwilligers. Daarom geven wij sterk de voorkeur aan communicatie per e-mail. Doorgaans krijg je binnen een dag antwoord.
 
 Onze vereniging heeft verschillende mensen in wisselende samenstelling.
