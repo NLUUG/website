@@ -1,5 +1,5 @@
 .. title: Contactgegevens
-.. slug: index
+.. slug: contact
 .. date: 2023-05-04 00:00:00 UTC
 .. tags:
 .. link:
