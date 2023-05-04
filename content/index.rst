@@ -19,13 +19,20 @@
 
 .. class:: col-md-5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
-Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
-gravida quam a mi dignissim consequat. Morbi sed iaculis mi. Vivamus ultrices
-mattis euismod. Mauris aliquet magna eget mauris volutpat a egestas leo rhoncus.
-In hac habitasse platea dictumst. Ut sed mi arcu. Nullam id massa eu orci
-convallis accumsan. Nunc faucibus sodales justo ac ornare. In eu congue eros.
-Pellentesque iaculis risus urna. Proin est lorem, scelerisque non elementum at,
-semper vel velit. Phasellus consectetur orci vel tortor tempus imperdiet. Class
-aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-himenaeos.
+De NederLandse Unix User Group NLUUG is een vereniging voor (professionele) gebruikers van UNIX/Linux, Open Source, Open Systemen en Open Standaarden in Nederland. Onder de NLUUG gemeenschap vallen bijvoorbeeld systeembeheerders, programmeurs en netwerkspecialisten. Daarmee is niet gezegd dat NLUUG niet ook interessant kan zijn voor bijvoorbeeld architecten.
+
+Ben je als professional bezig met ‘Open’, dan is NLUUG de vereniging bij uitstek waar je je technische kennis kunt bijhouden, bijvoorbeeld tijdens onze halfjaarlijkse conferenties. Het doel van NLUUG is namelijk de verspreiding van de toepassing van en kennis over “Open” en UNIX/Linux.
+
+NLUUG onderhoudt nauwe banden met vele organisaties en personen die de "Open" gedachten nastreven.
+
+
+Nieuws
+De presentaties voor- en najaarsconferentie 2022 zijn allemaal te zien op YouTube.
+Bekijk onze 14 vEvents seizoen 2020-2021, waarmee wij de Corona-periode zijn doorgekomen.
+Ouder nieuws en persberichten.
+
+Blijf op de hoogte:
+
+Word lid van onze vereniging. Leden kunnen zich abonneren op de leden mailinglist.
+Volg groep "NLUUG Netherlands" op de LinkedIn groepspagina
+Bijeenkomsten worden onder andere aangekondigd op Meetup
