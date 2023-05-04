@@ -1,7 +1,7 @@
 name: Build website
 run-name: ${{ github.actor }} has initiated the build process 🚀
 on:
-  workflow_dispatch
+  push
 jobs:
   Start-Website-Build:
     runs-on: ubuntu-latest
