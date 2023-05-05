@@ -15,11 +15,10 @@ Onze vereniging heeft verschillende mensen in wisselende samenstelling.
 * Bestuur: bestuur@nluug.nl
 * FTP-mirrors en -server: ftp-admin@nluug.nl
 * Ledenadministratie: buro@nluug.nl
-* Programmacommissie: pc@nluug.nl 
+* Programmacommissie: pc@nluug.nl
 * Website: website@nluug.nl
 
 Niet zeker aan wie de e-mail te adresseren? Gebruik dan info@nluug.nl.
-
 
 Post
 ====
@@ -28,7 +27,6 @@ Post
 |   Postbus 8189
 |   6710 AD, Ede
 |   Netherland
-|
 
 Contributies
 ============
@@ -47,4 +45,3 @@ Registraties
 
 |   Sweelincklaan 8
 |   6815BH, Arnhem
-
