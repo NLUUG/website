@@ -1,10 +1,13 @@
-.. title: Aanmelden Lidmaatschap
-.. slug: aanmelden-lidmaatschap
+.. title: Het NLUUG Lidmaatschap
+.. slug: het-nluug-lidmaatschap
 .. date: 2023-05-05 00:00:00 UTC
 .. tags:
 .. link:
-.. description: Aanmelden voor het NLUUG lidmaatschap
+.. description: Aanmelden voor en wijzigen van het NLUUG lidmaatschap
 
+
+Het NLUUG lidmaatschap
+======================
 
 Toon uw hart voor 'Open', meldt u aan als lid!
 
