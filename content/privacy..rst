@@ -28,7 +28,7 @@ Wanneer je lid wordt, je registreert voor een dienst of op andere wijze van onze
 
 
 Cookies en soortgelijke technologie
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Bij gebruik van onze website verzamelen we GEEN gegevens via cookies en soortgelijke technologieën. Binnen de website gebruikte cookies zijn functioneel en niet bedoeld voor tracking.
 
@@ -36,9 +36,8 @@ Videoconferentie via Jitsi
 --------------------------
 
 Voor dit deel is gebruik gemaakt van versie 2020-03-26 van de privacyverklaring van 
-.. raw:: html
 
-   <a href="https://www.bit.nl/privacyverklaring-meetmebitnl">BIT</a>
+.. _BIT: <https://www.bit.nl/privacyverklaring-meetmebitnl>
 
    (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>).
 
@@ -59,17 +58,17 @@ Hoe gebruiken we jouw persoonsgegevens
 We gebruiken jouw persoonsgegevens uitsluitend voor de doeleinden waarvoor deze zijn verzameld, en waar van toepassing, om te voldoen aan wettelijke verplichtingen. We gebruiken jouw persoonsgegevens voor de volgende doeleinden:
 
 Beheer van je lidmaatschap
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We verwerken jouw persoonsgegevens om je NLUUG-gerelateerde diensten van jouw keuze te leveren. Zo gebruiken wij deze informatie om betaling van je lidmaatschapsgeld te faciliteren en om je aanmelding voor een dienst te registreren.
 
 Support
-~~~~~~~
+^^^^^^^
 
 We gebruiken jouw informatie om je te ondersteunen in het gebruik van onze diensten en site. Dit omvat het gebruik van persoonsgegevens om problemen met onze diensten op te lossen en vragen rondom je lidmaatschap te beantwoorden.
 
 Contact en communicatie
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
 
 We gebruiken jouw gegevens om in verband met onze dienstverlening met je te communiceren via e-mail, telefoon of andere (elektronische) media;
 * Zo ontvang je van ons facturen,
@@ -78,22 +77,22 @@ We gebruiken jouw gegevens om in verband met onze dienstverlening met je te comm
 * en om je op de hoogte te brengen van het wel en wee van NLUUG.
 
 Marketing
-~~~~~~~~~
+^^^^^^^^^
 
 We willen je graag via e-mail of andere elektronische media op de hoogte houden van onze diensten, of die van een beperkt aantal bevriende verenigingen. Je hebt het recht om je te allen tijde af te melden voor deze informatievoorziening. Afhankelijk van jouw voorkeuren kun je je uitschrijven, je instellingen direct online wijzigen, of contact opnemen met ons bureau om dit voor jou te doen.
 
 Beslechting van geschillen
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In voorkomend geval kunnen we jouw gegevens gebruiken in het kader van geschillenbeslechting of om nakoming van de lidmaatschapsverplichtingen af te dwingen.
 
 Wettelijke verplichtingen
-~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We kunnen jouw informatie verwerken om te voldoen aan wettelijke verplichtingen, bijvoorbeeld het bijhouden van een administratie of om te voldoen aan legitieme verzoeken van bevoegde autoriteiten (bijvoorbeeld politie/justitie).
 
 Onderhoud, ontwikkeling en incidentmanagement
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Indien je problemen ondervindt met één van onze diensten of de website, kan het zijn dat we persoonsgegevens, zoals je naam en emailadres, moeten verwerken om het betreffende probleem op te lossen. We verwerken je persoonsgegevens ook voor sommige interne operationele processen, bijvoorbeeld wanneer we lidmaatschapsgegevens naar een nieuwe database overbrengen.
 
