@@ -44,9 +44,9 @@ Bij gebruik van onze website verzamelen we GEEN gegevens via cookies en soortgel
 Videoconferentie via Jitsi
 --------------------------
 
-Voor dit deel is gebruik gemaakt van versie 2020-03-26 van de privacyverklaring van `BIT <https://www.bit.nl/privacyverklaring-meetmebitnl>`_. (`CC BY-SA <https://creativecommons.org/licenses/by-sa/4.0/>`_.).
+Voor dit deel is gebruik gemaakt van versie 2020-03-26 van de privacyverklaring van `BIT <https://www.bit.nl/privacyverklaring-meetmebitnl>`_ (`CC BY-SA <https://creativecommons.org/licenses/by-sa/4.0/>`_).
 
-Met jitsi.nluug.nl biedt NLUUG een videoconferentiedienst die door een ieder gebruikt kan worden. Met het gebruiken van deze dienst gaat de gebruiker akkoord met deze privacyverklaring. De (persoons)gegevens die door NLUUG verwerkt worden bij het gebruik van de dienst zijn noodzakelijk voor het leveren van de dienst, voor het bijhouden van gebruikstatistieken en voor het oplossen van problemen mochten die zich voordoen. De rechtsgrond op basis waarvan de gegevens verwerkt worden is een gerechtvaardigd belang.
+Met `Jitsi <https://jitsi.nluug.nl>`_ biedt NLUUG een videoconferentiedienst die door een ieder gebruikt kan worden. Met het gebruiken van deze dienst gaat de gebruiker akkoord met deze privacyverklaring. De (persoons)gegevens die door NLUUG verwerkt worden bij het gebruik van de dienst zijn noodzakelijk voor het leveren van de dienst, voor het bijhouden van gebruikstatistieken en voor het oplossen van problemen mochten die zich voordoen. De rechtsgrond op basis waarvan de gegevens verwerkt worden is een gerechtvaardigd belang.
 
 Het beeld en geluid (stream) dat de gebruiker naar de andere gebruikers verstuurt, wordt versleuteld op het apparaat van de gebruiker dat voor de videoconferentie gebruikt wordt. Deze stream wordt ontsleuteld op de infrastructuur van NLUUG en opnieuw versleuteld voordat de stream wordt doorgestuurd naar de andere gebruikers van dezelfde videoconferentie. De gebruikte techniek voor deze dienst, WebRTC, maakt end-to-end encryptie onmogelijk. NLUUG slaat de streams van de gebruikers niet op en bekijkt noch beluistert deze streams.
 
@@ -150,11 +150,14 @@ Wettelijke grondslag voor gegevensverwerking
 --------------------------------------------
 
 We verzamelen en verwerken jouw persoonsgegevens uitsluitend wanneer wij hiervoor een wettelijke grondslag hebben. De volgende grondslagen zijn van toepassing:
+
 * De verwerking is noodzakelijk voor de uitvoering van je overeenkomst;
 * De verwerking is noodzakelijk voor de behartiging van onze gerechtvaardigde belangen, bijvoorbeeld 
+
   i voor het kunnen uitvoeren van onze diensten; 
   ii ten behoeve van bepaalde vormen van direct marketing en profiling; of 
   iii ten behoeve van de beveiliging van ons netwerk en systemen;
+
 * De verwerking is noodzakelijk om aan een wettelijke verplichting te voldoen, zoals de bewaarplicht voor administratieve gegevens;
 * Wanneer je ons uitdrukkelijk toestemming hebt gegeven voor een verwerking, bijvoorbeeld voor het delen van gegevens met partners voor commerciële doeleinden.
 
