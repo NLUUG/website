@@ -1,4 +1,4 @@
-name = "NLUUG
+name = "NLUUG"
 license = "MIT"
 licenselink = "https://github.com/canhtran/maverick/blob/main/LICENSE"
 description = "Based initially on Maverick, a minimal Hugo blog theme"
