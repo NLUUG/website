@@ -1,10 +1,13 @@
-.. title: Het NLUUG Lidmaatschap
-.. slug: het-nluug-lidmaatschap
-.. date: 2023-05-05 00:00:00 UTC
-.. tags:
-.. link:
-.. description: Aanmelden voor en wijzigen van het NLUUG lidmaatschap
-
+---
+date: 2023-05-05T19:00:45+02:00
+description: "Alle relevante gegevens om aan te melden bij de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
+lastmod: 2023-05-05T19:00:45+02:00
+categories:
+- lidmaatschap
+tags:
+- lidmaatschap
+title: "Aanmelden voor lidmaatschap NLUUG"
+---
 
 Het NLUUG lidmaatschap
 ======================
@@ -53,3 +56,5 @@ Facturering en opzegging
 
 Aan het begin van ieder kalenderjaar ontvangen NLUUG Leden en deelnemers aan de Bedrijfsregeling voor Organisaties een factuur voor de contributie van dat jaar. U kunt zich na ontvangst van de factuur nog afmelden als lid. Een e-mail volstaat. Wilt u daarin duidelijk uw naam zetten en liefst ook uw lidmaatschapsnummer of het nummer van de laatste factuur?
 Opzeggingen worden door ons per e-mail bevestigd.
+
+

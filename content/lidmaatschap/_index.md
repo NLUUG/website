@@ -7,7 +7,6 @@ categories:
 tags:
 - lidmaatschap
 title: "Lidmaatschap NLUUG"
-type: post
 ---
 
 De NLUUG (Nederlandse Unix User Group) is een onafhankelijke vereniging voor (professionele) gebruikers van Open Systemen en Open Standaarden. De NLUUG heeft aan de wieg van het internet in Nederland gestaan en mede daarom vormen internettechnologieën en Open Source de speerpunten van de vereniging. U kunt zich als Unix/Linux professional (of als geïnteresseerde) bij onze actieve vereniging aansluiten.
