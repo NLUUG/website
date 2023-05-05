@@ -1,0 +1,90 @@
+baseURL = 'https://www3.nluug.nl/'
+languageCode = 'nl'
+title = 'NLUUG'
+theme = 'maverick'
+
+languagecode = "nl"
+defaultcontentlanguage = "nl"
+
+
+[permalinks]
+  pages = "/:slug"
+
+[params]
+  # logo = '/assets/favicon.ico'
+  description = "A minimal hugo theme focus on content"
+  author = 'NLUUG'
+
+[menu]
+  [[menu.main]]
+    identifier = "lidmaatschap"
+    name = "Lidmaatschap"
+    url = "/lidmaatschap/"
+    weight = 10
+  [[menu.main]]
+    identifier = "organisatie"
+    name = "Organisatie"
+    url = "/organisatie/"
+    weight = 20
+  [[menu.main]]
+    identifier = "nieuws"
+    name = "Nieuws"
+    url = "/nieuws/"
+    weight = 30
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "feed"
+
+#ignoreErrors = ["error-remote-getjson"]
+
+[security]
+  enableInlineShortcodes = false
+
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^rst2html$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|GIT_EXEC_PATH|LD_LIBRARY_PATH|npm_config_(cache|init_module|userconfig)|pandoc_datadir|PYTHONHOME|RUBYLIB|SNAP)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+
+# EOF
