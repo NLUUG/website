@@ -24,8 +24,9 @@ U kunt op drie manieren lid worden van de vereniging:
 
 |   Als u aantoonbaar voltijds student bent komt u in aanmerking voor een Studentlidmaatschap. Geeft u dat dan ook duidelijk aan in uw e-mailtje?
 
-* U ontvangt van ons een factuur voor de contributie. Uw lidmaatschap gaat pas in als de factuur betaald is.
-Als u gebruik wilt maken van de lidmaatschapsruimte van uw organisatie omdat uw die de NLUUG steunt via de Bedrijfsregeling, stuurt u een e-mailtje aan het buro. In dat geval moet u natuurlijk, naast uw naam en bij voorkeur uw privé e-mailadres, de naam van uw organisatie en eventueel de afdeling in uw e-mailtje opgeven.
+|   U ontvangt van ons een factuur voor de contributie. Uw lidmaatschap gaat pas in als de factuur betaald is.
+
+* Als u gebruik wilt maken van de lidmaatschapsruimte van uw organisatie omdat uw die de NLUUG steunt via de Bedrijfsregeling, stuurt u een e-mailtje aan het buro. In dat geval moet u natuurlijk, naast uw naam en bij voorkeur uw privé e-mailadres, de naam van uw organisatie en eventueel de afdeling in uw e-mailtje opgeven.
 
 |   Let op: het lidmaatschap is persoonlijk, dus als u van werkgever verandert moet u dat zelf aangeven. Als uw nieuwe werkgever geen Bedrijfsregeling heeft getroffen dan moet u het lidmaatschap verder zelf betalen.
 
