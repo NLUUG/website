@@ -23,10 +23,10 @@ Niet zeker aan wie de e-mail te adresseren? Gebruik dan info@nluug.nl.
 Post
 ====
 
-|   NLUUG
-|   Postbus 8189
-|   6710 AD, Ede
-|   Netherland
+|	NLUUG
+| 	Postbus 8189
+|	6710 AD, Ede
+|	Netherland
 
 Contributies
 ============
@@ -43,5 +43,5 @@ Registraties
 * BTW-nummer: NL803474386B01
 * Vestiging:
 
-|   Sweelincklaan 8
-|   6815BH, Arnhem
+|	Sweelincklaan 8
+|	6815BH, Arnhem
