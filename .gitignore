@@ -4,3 +4,4 @@ cache/
 output/
 .hugo_build.lock
 public/
+resources/_gen/
