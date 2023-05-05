@@ -22,11 +22,13 @@ U kunt op drie manieren lid worden van de vereniging:
 
 * Als u op persoonlijke titel lid wil worden, en dus ook zelf betaalt, stuur dan een e-mailtje aan het buro. Zet daarin uw naam, uw e-mailadres (bij voorkeur uw privé adres) en uw adres, postcode en woonplaats.
 
-Als u aantoonbaar voltijds student bent komt u in aanmerking voor een Studentlidmaatschap. Geeft u dat dan ook duidelijk aan in uw e-mailtje?
+Als u aantoonbaar voltijds student bent komt u in aanmerking voor een Studentlidmaatschap. Geeft u dat dan ook duidelijk aan in uw e-mailtje?::
+
 * U ontvangt van ons een factuur voor de contributie. Uw lidmaatschap gaat pas in als de factuur betaald is.
 Als u gebruik wilt maken van de lidmaatschapsruimte van uw organisatie omdat uw die de NLUUG steunt via de Bedrijfsregeling, stuurt u een e-mailtje aan het buro. In dat geval moet u natuurlijk, naast uw naam en bij voorkeur uw privé e-mailadres, de naam van uw organisatie en eventueel de afdeling in uw e-mailtje opgeven.
 
-Let op: het lidmaatschap is persoonlijk, dus als u van werkgever verandert moet u dat zelf aangeven. Als uw nieuwe werkgever geen Bedrijfsregeling heeft getroffen dan moet u het lidmaatschap verder zelf betalen.
+Let op: het lidmaatschap is persoonlijk, dus als u van werkgever verandert moet u dat zelf aangeven. Als uw nieuwe werkgever geen Bedrijfsregeling heeft getroffen dan moet u het lidmaatschap verder zelf betalen.::
+
 * U kunt ook naar een dag-conferentie komen, en daar ter plaatse lid worden. U dient dan met PIN ter plaatse de lidmaatschapscontributie te voldoen. Deze optie is €25,-- exclusief BTW duurder wegens administratiekosten. U kunt nadien bij de penningmeester een pro-forma BTW-factuur opvragen voor uw boekhouding of declaratie.
 
 
