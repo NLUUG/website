@@ -1,7 +1,7 @@
 baseURL = 'https://www3.nluug.nl/'
 languageCode = 'nl'
 title = 'NLUUG'
-theme = 'maverick'
+theme = 'nluug'
 
 languagecode = "nl"
 defaultcontentlanguage = "nl"
