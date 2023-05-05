@@ -10,7 +10,7 @@
 
 .. admonition:: Dit is een nieuwe website
 
-    In stappen gaat deze website vooruit.
+    In stappen gaat deze website vooruit. Off we GO !!!
 
     .. raw:: html
 
