@@ -30,7 +30,7 @@ Een deel van de technische presentaties die op NLUUG-evenementen wordt gegeven w
 FTP-server
 ==========
 
-De NLUUG beheert de grote FTP-server `ftp.nluug.nl <http://ftp.nluug.nl/>`_ die de laatste versie bevat van heel veel Open Source-projecten, zoals vele Linux- en BSD-distributies, windowmanagers en programmeertalen.
+De NLUUG beheert de grote FTP-server `ftp.nluug.nl <https://ftp.nluug.nl/>`_ die de laatste versie bevat van heel veel Open Source-projecten, zoals vele Linux- en BSD-distributies, windowmanagers en programmeertalen.
 
 Mike Hulsman doet het operationeel beheer van het systeem, terwijl Jan-Christiaan van Winkel de content op de server beheert.
 
