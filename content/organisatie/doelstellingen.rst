@@ -21,12 +21,15 @@ Doel, Artikel 2
 ===============
 
 #. Het doel van de vereniging is:
+
    #.in het algemeen, het behartigen van de belangen van gebruikers van op Open standaarden gebaseerde software en Open systemen.
    #. het onder de leden verspreiden van kennis over Open standaarden en de software en infrastructuur die daar gebruik van maakt.
    #. het onder de leden verspreiden van kennis over de werking van Open systemen.
    #. het stimuleren van de toepassing van Open standaarden en Open systemen in de professionele omgeving van onder andere bedrijven, organisaties, overheid en onderwijs.
    #. het verbeteren van de contacten tussen professionele gebruikers en de bedrijven die zich bezighouden met systemen gebaseerd op de UNIX traditie van Open systemen, zowel nationaal als internationaal.
+
 #. Zij tracht dit doel onder meer te bereiken door:
+
    #. het met regelmaat organiseren van onafhankelijke technische conferenties voor leden, waarbij ook leveranciers en gelieerde groepen zich kunnen presenteren.
    #. het stimuleren, initiëren en organiseren van thema-bijeenkomsten en andere ontmoetingen.
    #. het distribueren van software en documentatie, voor zover zij daartoe in staat en gerechtigd is.
