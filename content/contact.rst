@@ -1,7 +1,7 @@
 .. title: Contactgegevens
 .. slug: contact
 .. date: 2023-05-04 00:00:00 UTC
-.. tags:
+.. tags: 
 .. link:
 .. description: Contactgegevens NLUUG
 
@@ -14,9 +14,10 @@ Emailadressen
 
 Hieronder vindt je alle NLUUG gerelateerde contactinformatie. De administratie van NLUUG draait op vrijwilligers. Daarom geven wij sterk de voorkeur aan communicatie per e-mail. Doorgaans krijg je binnen een dag antwoord.
 
-Onze vereniging heeft verschillende mensen in wisselende samenstelling.
+Onze vereniging heeft, naast het bestuur, verschillende commissies in wisselende samenstelling van vrijwilligers.
 
 * Bestuur: bestuur@nluug.nl
+* Filmteam: filmteam@nluug.nl
 * FTP-mirrors en -server: ftp-admin@nluug.nl
 * Ledenadministratie: buro@nluug.nl
 * Programmacommissie: pc@nluug.nl
@@ -49,6 +50,7 @@ Registraties
 * KvK: 40533872
 * BTW-nummer: NL803474386B01
 * Vestiging:
+
 
    Sweelincklaan 8
 
