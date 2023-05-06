@@ -33,7 +33,7 @@ Post
 
    6710 AD, Ede
 
-   Netherland
+   Nederland
 
 Contributies
 ============
