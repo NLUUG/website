@@ -34,9 +34,9 @@ De NLUUG beheert de grote FTP-server `ftp.nluug.nl <http://ftp.nluug.nl/>`_ die 
 
 Mike Hulsman doet het operationeel beheer van het systeem, terwijl Jan-Christiaan van Winkel de content op de server beheert.
 
-De kosten voor de netwerkverbinding en rackspace worden gedragen door `SURFnet <https://www.surfnet.nl/`_.
+De kosten voor de netwerkverbinding en rackspace worden gedragen door `SURFnet <https://www.surfnet.nl/>`_.
 
-* `Meer over de ftp-server <https://www.nluug.nl/activiteiten/ftp-server/index.html`_
+* `Meer over de ftp-server <https://www.nluug.nl/activiteiten/ftp-server/index.html>`_
 
 Column in Linux Magazine
 ========================
@@ -50,8 +50,3 @@ Overige
 
 Natuurlijk zijn er nog meer voordelen om lid te zijn van de NLUUG. Zie `lidmaatschap <https://www.nluug.nl/lidmaatschap/index.html>`_ voor de complete lijst.
 
-   test indentation
-
-      test indentation
-
-         test indentation
