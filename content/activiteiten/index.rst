@@ -1,13 +1,13 @@
-.. title: Activiteiten
 .. slug: activiteiten
 .. date: 2023-05-05 00:00:00 UTC
 .. tags:
 .. link:
 .. description: NLUUG activiteiten
+.. title: Activiteiten
 
 
 Bijeenkomsten
--------------
+=============
 
 Een belangrijke en gewaardeerde activiteit van de vereniging bestaat uit het (mede)organiseren van avond- en dagconferenties. Normaal gesproken organiseren we twee dagconferenties (de voorjaars- en najaarsconferentie) en enkele avondevenementen. De dagconferenties hebben vaak drie tracks (dus drie zalen). De avondevenementen zijn meestal in een wat kleinere setting.
 
@@ -22,7 +22,7 @@ De FTP-server van de vereniging
 De YouTube-playlists van de vereniging
 
 FTP-server
-----------
+==========
 
 De NLUUG beheert de grote FTP-server ftp.nluug.nl die de laatste versie bevat van heel veel Open Source-projecten, zoals vele Linux- en BSD-distributies, windowmanagers en programmeertalen.
 
@@ -32,13 +32,13 @@ De kosten voor de netwerkverbinding en rackspace worden gedragen door SURFnet.
 Meer over de ftp-server.
 
 Column in Linux Magazine
-------------------------
+========================
 
 Af en toe schrijft een actief lid van de NLUUG in het Nederlandse tijdschrift Linux Magazine over interessante onderwerpen in de wereld van Open Systemen en Open Standaarden.
 
 Alle onze Linux Magazine-bijdragen als PDF.
 
 Overige
--------
+=======
 
 Natuurlijk zijn er nog meer voordelen om lid te zijn van de NLUUG. Zie lidmaatschap voor de complete lijst.
