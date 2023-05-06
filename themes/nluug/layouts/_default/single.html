@@ -7,7 +7,8 @@
   <div class="content">
     {{ partial "header.html" . }}
     <section>
-      <h2 class="post">{{ .Title }}</h2>
+      <!-- <h2 class="post">{{ .Title }}</h2> -->
+
       {{ .Content }}
       {{ if eq .Section "posts" }}
       <div class="post-date">
