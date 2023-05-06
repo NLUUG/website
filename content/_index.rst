@@ -22,6 +22,6 @@ Bekijk onze 14 vEvents seizoen 2020-2021, waarmee wij de Corona-periode zijn doo
 
 Blijf op de hoogte
 ==================
-* Word lid van onze vereniging. Leden kunnen zich abonneren op de leden mailinglist.
-* Volg groep "NLUUG Netherlands" op de LinkedIn groepspagina
-* Bijeenkomsten worden onder andere aangekondigd op Meetup
+* `Word lid </lidmaatschap/>`_ van onze vereniging. Leden kunnen zich abonneren op de leden mailinglist.
+* Volg groep `"NLUUG Netherlands" <https://www.linkedin.com/groups/130891/>`_ op de LinkedIn groepspagina
+* Bijeenkomsten worden onder andere aangekondigd op `Meetup <https://www.meetup.com/nluug-dutch-unix-linux-user-group/>`_
