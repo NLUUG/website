@@ -16,8 +16,8 @@ Een belangrijke en gewaardeerde activiteit van de vereniging bestaat uit het (me
 
 Het doel van elke bijeenkomst, groot of klein, is het verspreiden van kennis over open systemen en open standaarden waarbij Unix/Linux daarin vaak een sleutelrol heeft. Voor specialistische thema's die een terugkerend karakter hebben zijn er technical communities. Dit levert meestal avondevenementen op.
 
-* `Overzicht bijeenkomsten <activiteiten/events/index.html>`_
-* In het ledendeel van de site vindt u `slides en meer materiaal <leden/events/index.html>`_ van de gegeven presentaties
+* `Overzicht bijeenkomsten </activiteiten/events/index.html>`_
+* In het ledendeel van de site vindt u `slides en meer materiaal </leden/events/index.html>`_ van de gegeven presentaties
 
 Online presentaties
 ===================
@@ -36,17 +36,17 @@ Mike Hulsman doet het operationeel beheer van het systeem, terwijl Jan-Christiaa
 
 De kosten voor de netwerkverbinding en rackspace worden gedragen door `SURFnet <https://www.surfnet.nl/>`_.
 
-* `Meer over de ftp-server <activiteiten/ftp-server/index.html>`_
+* `Meer over de ftp-server </activiteiten/ftp-server/index.html>`_
 
 Column in Linux Magazine
 ========================
 
 Af en toe schrijft een actief lid van de NLUUG in het Nederlandse tijdschrift `Linux Magazine <https://www.linuxmag.nl/>`_ over interessante onderwerpen in de wereld van Open Systemen en Open Standaarden.
 
-* `Alle onze Linux Magazine-bijdragen als PDF <activiteiten/lm/index.html>`_
+* `Alle onze Linux Magazine-bijdragen als PDF </activiteiten/lm/index.html>`_
 
 Overige
 =======
 
-Natuurlijk zijn er nog meer voordelen om lid te zijn van de NLUUG. Zie `lidmaatschap <lidmaatschap/index.html>`_ voor de complete lijst.
+Natuurlijk zijn er nog meer voordelen om lid te zijn van de NLUUG. Zie `lidmaatschap </lidmaatschap/index.html>`_ voor de complete lijst.
 
