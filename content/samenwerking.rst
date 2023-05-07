@@ -20,12 +20,15 @@ Het NLUUG-bestuur werkt met verschillende organisaties en bedrijven samen bij he
 
 De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee typen relaties in gedachten hebben.
 
-======================================================= =======================================================
-Samen sterk	                                            Co-branding
-======================================================= =======================================================
-Met non-profit groepen met `Open' filosofie. Inspanning van beide partijen.	Met pro-profit organisaties en bedrijven, die contact zoeken met NLUUG-leden.
-Uitgangspunten
----------------------------------------------------------------------------------------------------------------
++---------------------------------------------------------+---------------------------------------------------------+
+| Samen sterk	                                        |   Co-branding                                           |
++---------------------------------------------------------+---------------------------------------------------------+
+| Met non-profit groepen met `Open' filosofie. Inspanning | Met pro-profit organisaties en bedrijven, die contact   |
+| van beide partijen                                      | zoeken met NLUUG-leden                                  |
++---------------------------------------------------------+---------------------------------------------------------+
+| Uitgangspunten                                                                                                    |
++---------------------------------------------------------+---------------------------------------------------------+
+
 Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)	Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
 NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro.	Organiserende partij `trekt zelf de kar'.
 Partijen kunnen op elk moment de samenwerking stoppen.
