@@ -33,20 +33,27 @@ Samen sterk                                               Co-branding
 Partijen kunnen op elk moment de samenwerking stoppen
 -------------------------------------------------------------------------------------------------------------------
 **Voorwaarden vanuit de NLUUG**
+-------------------------------------------------------------------------------------------------------------------
 Zichtbaarheid van het NLUUG-logo op de uitnodigingen en website van het event.
+-------------------------------------------------------------------------------------------------------------------
 Toegankelijk voor NLUUG-leden, met korting op toegangsprijs (indien van toepassing).
+-------------------------------------------------------------------------------------------------------------------
+Event heeft een technische focus, dus geen verkoop- of recruitment-praatje.
+-------------------------------------------------------------------------------------------------------------------
+Acquisitie is op conferenties niet toegestaan, ook niet via folders.
+-------------------------------------------------------------------------------------------------------------------
+Het event heeft Open Systemen en/of Open Standaarden als focus. Dit sluit behandeling van een commercieel systeem niet uit.
+-------------------------------------------------------------------------------------------------------------------
+Het event dient een NLUUG-waardige kwaliteit te kennen. Mocht blijken dat een event hier niet aan voldaan heeft naar de mening van meerdere NLUUG leden, dan leidt dit tot een gesprek tussen NLUUG en de organisator. Een en ander kan uiteindelijk leiden tot het stop zetten van samenwerking met de betreffende organisatie, zulks ter overweging van het NLUUG bestuur.
+-------------------------------------------------------------------------------------------------------------------
+De datum van het event dient afgestemd te zijn met de data van NLUUG events om overlap in datum van events te voorkomen.
+-------------------------------------------------------------------------------------------------------------------
+NLUUG krijgt de mogelijkhied om folders neer te leggen en/of met een standje aanwezig te zijn en/of een vlag en/of roll-out banner neer te zetten (zo'n 50cm breed, 200cm hoog)
 -------------------------------------------------------------------------------------------------------------------
 ========================================================= =========================================================
 
 
 ========================================================= =========================================================
-
-Event heeft een technische focus, dus geen verkoop- of recruitment-praatje.
-Acquisitie is op conferenties niet toegestaan, ook niet via folders.
-Het event heeft Open Systemen en/of Open Standaarden als focus. Dit sluit behandeling van een commercieel systeem niet uit.
-Het event dient een NLUUG-waardige kwaliteit te kennen. Mocht blijken dat een event hier niet aan voldaan heeft naar de mening van meerdere NLUUG leden, dan leidt dit tot een gesprek tussen NLUUG en de organisator. Een en ander kan uiteindelijk leiden tot het stop zetten van samenwerking met de betreffende organisatie, zulks ter overweging van het NLUUG bestuur.
-De datum van het event dient afgestemd te zijn met de data van NLUUG events om overlap in datum van events te voorkomen.
-NLUUG krijgt de mogelijkhied om folders neer te leggen en/of met een standje aanwezig te zijn en/of een vlag en/of roll-out banner neer te zetten (zo'n 50cm breed, 200cm hoog)
 -------------------------------------------------------------------------------------------------------------------
 **Bijdrage NLUUG**
 -------------------------------------------------------------------------------------------------------------------
