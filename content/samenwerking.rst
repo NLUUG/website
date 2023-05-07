@@ -68,12 +68,10 @@ vermelding op een "future events" flyer in de conferentietas van een NLUUG confe
 -------------------------------------------------------------------------------------------------------------------
 in eventuele papieren communicatie van NLUUG naar de leden
 -------------------------------------------------------------------------------------------------------------------
-========================================================= =========================================================
-
-
-========================================================= =========================================================
 Hulp bij het zoeken naar en contacteren van sprekers
 -------------------------------------------------------------------------------------------------------------------
+|langetekst6|                                             |langetekst7|
+|langetekst8|
 ========================================================= =========================================================
 
 
@@ -87,16 +85,10 @@ Hulp bij het zoeken naar en contacteren van sprekers
                                                                                                     
 .. |langetekst5| replace:: NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro
 
+.. |langetekst6| replace:: Ondersteuning door NLUUG-buro mogelijk (alleen na goedkeuring NLUUG bestuur)
 
+.. |langetekst7| replace:: Sponsor kan eventueel zelf man-kracht van het NLUUG-buro inhuren
 
+.. |langetekst8| replace:: Financiële ondersteuning van het event middels, bijvoorbeeld, eenmalige sponsoring, eenmalige garantstelling of vergoeding van reiskosten sprekers mogelijk (alleen na goedkeuring NLUUG-bestuur)
 
-
-
-
-
-
-Ondersteuning door NLUUG-buro mogelijk (alleen na goedkeuring NLUUG bestuur)	Sponsor kan eventueel zelf man-kracht van het NLUUG-buro inhuren
-
-Financiële ondersteuning van het event middels, bijvoorbeeld, eenmalige sponsoring, eenmalige garantstelling of vergoeding van reiskosten sprekers mogelijk (alleen na goedkeuring NLUUG-bestuur)
-Financiële ondersteuning van het event middels, bijvoorbeeld, eenmalige sponsoring, eenmalige garantstelling of vergoeding van reiskosten sprekers mogelijk (alleen na goedkeuring NLUUG-bestuur)
  
