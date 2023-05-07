@@ -14,12 +14,6 @@ Ben je als professional bezig met ‘Open’, dan is NLUUG de vereniging bij uit
 
 NLUUG onderhoudt nauwe banden met vele organisaties en personen die de "Open" gedachten nastreven.
 
-Nieuws
-======
-
-De presentaties voor- en najaarsconferentie 2022 zijn allemaal te zien op YouTube.
-Bekijk onze 14 vEvents seizoen 2020-2021, waarmee wij de Corona-periode zijn doorgekomen.
-
 Blijf op de hoogte
 ==================
 * `Word lid </lidmaatschap/>`_ van onze vereniging. Leden kunnen zich abonneren op de leden mailinglist.
