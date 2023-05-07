@@ -20,19 +20,20 @@ Het NLUUG-bestuur werkt met verschillende organisaties en bedrijven samen bij he
 
 De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee typen relaties in gedachten hebben.
 
-+---------------------------------------------------------+---------------------------------------------------------+
-| Samen sterk	                                        |   Co-branding                                           |
-+=========================================================+=========================================================+
-| Met non-profit groepen met `Open' filosofie. Inspanning | Met pro-profit organisaties en bedrijven, die contact   |
-| van beide partijen                                      | zoeken met NLUUG-leden                                  |
-+---------------------------------------------------------+---------------------------------------------------------+
-| Uitgangspunten                                                                                                    |
-+---------------------------------------------------------+---------------------------------------------------------+
+========================================================= =========================================================
+ Samen sterk	                                            Co-branding                                             
+========================================================= =========================================================
+ Met non-profit groepen met `Open' filosofie. Inspanning   Met pro-profit organisaties en bedrijven, die contact   
+ van beide partijen                                        zoeken met NLUUG-leden                                  
+========================================================= =========================================================
+
+ Uitgangspunten                                                                                                    
+
 
 Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)	Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
 NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro.	Organiserende partij `trekt zelf de kar'.
 Partijen kunnen op elk moment de samenwerking stoppen.
----------------------------------------------------------------------------------------------------------------
+
 Voorwaarden vanuit de NLUUG
 Zichtbaarheid van het NLUUG-logo op de uitnodigingen en website van het event.
 Toegankelijk voor NLUUG-leden, met korting op toegangsprijs (indien van toepassing).
@@ -52,9 +53,9 @@ op de NLUUG LinkedIn groep
 Vermelding op een "future events" flyer in de conferentietas van een NLUUG conferentie
 in eventuele papieren communicatie van NLUUG naar de leden
 Hulp bij het zoeken naar en contacteren van sprekers
----------------------------------------------------------------------------------------------------------------
+
 Ondersteuning door NLUUG-buro mogelijk (alleen na goedkeuring NLUUG bestuur)	Sponsor kan eventueel zelf man-kracht van het NLUUG-buro inhuren
-======================================================= =======================================================
+
 Financiële ondersteuning van het event middels, bijvoorbeeld, eenmalige sponsoring, eenmalige garantstelling of vergoeding van reiskosten sprekers mogelijk (alleen na goedkeuring NLUUG-bestuur)
 Financiële ondersteuning van het event middels, bijvoorbeeld, eenmalige sponsoring, eenmalige garantstelling of vergoeding van reiskosten sprekers mogelijk (alleen na goedkeuring NLUUG-bestuur)
-======================================================= ======================================================= 
+ 
