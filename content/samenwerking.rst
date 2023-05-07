@@ -21,12 +21,12 @@ Het NLUUG-bestuur werkt met verschillende organisaties en bedrijven samen bij he
 De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee typen relaties in gedachten hebben.
 
 +---------------------------------------------------------+---------------------------------------------------------+
-| Samen sterk	                                        |   Co-branding                                           | 
+| Samen sterk	                                        | Co-branding                                             | 
 +---------------------------------------------------------+---------------------------------------------------------+
-| Met non-profit groepen met 'Open' filosofie. Inspanning | Met pro-profit organisaties en bedrijven, die contact   |
-| van beide partijen                                      | zoeken met NLUUG-leden                                  |
+| |lange tekst|                                           |                                                         |
 +---------------------------------------------------------+---------------------------------------------------------+
 
+.. |lange tekst| replace :: Met non-profit groepen met 'Open' filosofie. Inspanning van beide partijen
 
  Uitgangspunten                                                                                                    
 -------------------------------------------------------------------------------------------------------------------
