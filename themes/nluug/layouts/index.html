@@ -4,12 +4,15 @@
   {{ if gt (len (where .Site.RegularPages "Section" "nieuws")) 0 }}
       <h2>Laatste nieuws</h2>
       <section>
+      <ul reversed class="list">
         {{ range (first 3 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
-          <p>
-            <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>&nbsp;
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          <p>
-        {{ end }}
+          <li>
+            <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            <hr class="hr-list">
+            <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
+          </li>
+          {{ end }}
+      </ul>
       </section>
   {{ end }}
 
