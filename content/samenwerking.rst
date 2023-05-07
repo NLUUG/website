@@ -33,13 +33,14 @@ Samen sterk                                               Co-branding
 Partijen kunnen op elk moment de samenwerking stoppen
 -------------------------------------------------------------------------------------------------------------------
 **Voorwaarden vanuit de NLUUG**
+Zichtbaarheid van het NLUUG-logo op de uitnodigingen en website van het event.
+Toegankelijk voor NLUUG-leden, met korting op toegangsprijs (indien van toepassing).
 -------------------------------------------------------------------------------------------------------------------
 ========================================================= =========================================================
 
 
 ========================================================= =========================================================
-Zichtbaarheid van het NLUUG-logo op de uitnodigingen en website van het event.
-Toegankelijk voor NLUUG-leden, met korting op toegangsprijs (indien van toepassing).
+
 Event heeft een technische focus, dus geen verkoop- of recruitment-praatje.
 Acquisitie is op conferenties niet toegestaan, ook niet via folders.
 Het event heeft Open Systemen en/of Open Standaarden als focus. Dit sluit behandeling van een commercieel systeem niet uit.
