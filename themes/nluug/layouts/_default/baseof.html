@@ -6,7 +6,7 @@
     <a class="skip-link" href="#main">Ga naar hoofd</a>
       <main id="main">
         <div class="content">
-          {{ partial "header.html" . }}
+          {{ partialCached "header.html" . }}
           <section>
             <!-- <h2 class="post">{{ .Title }}</h2> -->
             {{- block "main" . }}
