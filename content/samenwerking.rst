@@ -25,7 +25,7 @@ De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee t
 +---------------------------------------------------------+---------------------------------------------------------+
 | | Met non-profit groepen met 'Open' filosofie. Inspanning | | Met pro-profit organisaties en bedrijven, die contact   |
 | van beide partijen                                        | zoeken met NLUUG-leden                                    |
-|                                                           |                                                           |
+
 +---------------------------------------------------------+---------------------------------------------------------+
 
 
