@@ -5,7 +5,7 @@ date: 2023-05-07T17:31:30+02:00
 description: "Placeholder: duidelijke beschrijving"
 lastmod: 2023-05-07T17:31:30+02:00
 tags:
-- Voorwaarden
+- NLUUG-Voorwaarden
 slug:
 title: "NLUUG Voorwaarden"
 ---
