@@ -41,16 +41,14 @@ Het event dient een NLUUG-waardige kwaliteit te kennen. Mocht blijken dat een ev
 De datum van het event dient afgestemd te zijn met de data van NLUUG events om overlap in datum van events te voorkomen.
 NLUUG krijgt de mogelijkhied om folders neer te leggen en/of met een standje aanwezig te zijn en/of een vlag en/of roll-out banner neer te zetten (zo'n 50cm breed, 200cm hoog)
 **Bijdrage NLUUG**
-
-* Prominente vermelding van het event met de naam van de organiserende partij
-* op de NLUUG-website in de agenda
-* op de NLUUG-website als samenwerkings-partner
-* in een mail naar de leden
-* middels een tweet
-* op de NLUUG LinkedIn groep
-* Vermelding op een "future events" flyer in de conferentietas van een NLUUG conferentie
-* in eventuele papieren communicatie van NLUUG naar de leden
-
+Prominente vermelding van het event met de naam van de organiserende partij
+op de NLUUG-website in de agenda
+op de NLUUG-website als samenwerkings-partner
+in een mail naar de leden
+middels een tweet
+op de NLUUG LinkedIn groep
+Vermelding op een "future events" flyer in de conferentietas van een NLUUG conferentie
+in eventuele papieren communicatie van NLUUG naar de leden
 Hulp bij het zoeken naar en contacteren van sprekers
 -------------------------------------------------------------------------------------------------------------------
 ========================================================= =========================================================
