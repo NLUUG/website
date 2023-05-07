@@ -26,9 +26,8 @@ De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee t
  Met non-profit groepen met 'Open' filosofie. Inspanning   Met pro-profit organisaties en bedrijven, die contact   
  van beide partijen                                        zoeken met NLUUG-leden                                  
 ========================================================= =========================================================
-
  Uitgangspunten                                                                                                    
-
+-------------------------------------------------------------------------------------------------------------------
 
 Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)	Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
 NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro.	Organiserende partij 'trekt zelf de kar'.
