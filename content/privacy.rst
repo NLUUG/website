@@ -5,9 +5,12 @@
 .. link:
 .. description: Privacyverklaring NLUUG
 
+***********************
+Privacyverklaring NLUUG
+***********************
 
-
-**Versie 1.2, d.d. 30 maart 2020**
+Versie 1.2, d.d. 30 maart 2020
+##############################
 
 In deze privacyverklaring leggen we uit welke persoonsgegevens wij verzamelen wanneer je lid bent van NLUUG en van conferenties en andere sessies gebruikmaakt, en waarom we deze gegevens nodig hebben. We gebruiken jouw persoonsgegevens uitsluitend om je lidmaatschap te beheren, onze conferenties en andere sessies aan je te leveren en om je te informeren over onze conferenties en andere sessies. Jouw privacy is belangrijk voor ons!
 
