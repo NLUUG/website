@@ -1,8 +1,13 @@
-.. date: 2023-05-05T19:00:45+02:00
-.. description: "Alle relevante gegevens om aan te melden bij de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
-.. lastmod: 2023-05-05T19:00:45+02:00
-.. categories: lidmaatschap
-.. tags: lidmaatschap
+---
+date: 2023-05-05T19:00:45+02:00
+description: "Alle relevante gegevens om aan te melden bij de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
+lastmod: 2023-05-05T19:00:45+02:00
+categories:
+- lidmaatschap
+tags:
+- lidmaatschap
+title: "Aanmelden voor NLUUG lidmaatschap"
+---
 
 **********************
 Het NLUUG lidmaatschap
