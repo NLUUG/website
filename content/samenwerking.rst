@@ -31,7 +31,7 @@ De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee t
 
 
 Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)	Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
-NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro.	Organiserende partij `trekt zelf de kar'.
+NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro.	Organiserende partij 'trekt zelf de kar'.
 Partijen kunnen op elk moment de samenwerking stoppen.
 
 Voorwaarden vanuit de NLUUG
