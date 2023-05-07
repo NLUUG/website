@@ -16,7 +16,7 @@ Samenwerking
 Het NLUUG-bestuur werkt met verschillende organisaties en bedrijven samen bij het realiseren van evenementen. Deze relaties zijn in twee groepen te verdelen:
 
 #. Non-profit groepen met vergelijkbare doelstellingen als onze vereniging; promoten van het `Open' gedachtengoed zonder winstoogmerk;
-# Bedrijven die veel met `Open' werken, en kennis willen aanbieden in ruil voor contact met de leden van NLUUG.
+#. Bedrijven die veel met `Open' werken, en kennis willen aanbieden in ruil voor contact met de leden van NLUUG.
 
 De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee typen relaties in gedachten hebben.
 
