@@ -9,7 +9,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 2rem;
-    background: hsla(93, 0%, 96%, 1.00);
+    // background: hsla(93, 0%, 96%, 1.00);
     color: #000;
 }
 
@@ -115,7 +115,7 @@ ul, ol {
 }
 
 .content {
-    max-width: 70ch;
+    max-width: 800px;
     margin: 0 auto;
     // text-align: justify;
 }
