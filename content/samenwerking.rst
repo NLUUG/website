@@ -24,6 +24,9 @@ De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee t
 Samen sterk                                               Co-branding                                             
 |langetekst1|                                             |langetekst2|                                          
 ========================================================= =========================================================
+Uitgangspunten
+-------------------------------------------------------------------------------------------------------------------
+
 
 .. |langetekst1| replace:: Met non-profit groepen met 'Open' filosofie. Inspanning van beide partijen
 
@@ -31,7 +34,7 @@ Samen sterk                                               Co-branding
 
 
 
-Uitgangspunten                                                                                                    
+                                                                                                    
 
 
 
