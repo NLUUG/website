@@ -1,12 +1,14 @@
 <header>
-<p style="padding: 0;margin: 0;"><a href="/"><strong>{{ .Site.Title }}</strong></a></p>
-<ul style="padding: 0;margin: 0;">
-  {{ $currentPage := . }}
-  {{ range .Site.Menus.main }}
-  <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-    <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
-    {{ end }}
-  </li>
-</ul>
+  <nav style="padding:0;width:100%;">
+    <a href="/"><img src="/afbeeldingen/logo/nluug-logo.png" alt="NLUUG-logo" title="{{ .Site.Title }}"></a>
+    <ul style="padding:0;padding-right:15px;margin:0;text-align:right;background-color:#6A2060;color:white;text-align:right;">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+        <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">
