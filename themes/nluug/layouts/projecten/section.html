@@ -1,0 +1,7 @@
+{{ define "main" }}
+<h2>Open projecten</h2>
+  {{ range $.Site.Data.projecten.open }}
+    <h3>{{ .name }}</h3>
+    <p>{{ .description }}</p>
+  {{ end }}
+{{ end }}

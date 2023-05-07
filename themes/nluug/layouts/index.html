@@ -1,9 +1,10 @@
-{{ define "content" }}
+{{ define "main" }}
   {{ .Content }}
-  {{ if gt (len ( where .Site.RegularPages "Section" "posts" )) 0 }}
-      <h1>Latest Post</h1>
+
+  {{ if gt (len (where .Site.RegularPages "Section" "nieuws")) 0 }}
+      <h2>Laatste nieuws</h2>
       <section>
-        {{ range (first 3 (where .Site.RegularPages "Section" "posts" ).ByDate.Reverse) }}
+        {{ range (first 3 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
           <p>
             <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>&nbsp;
             <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -11,4 +12,15 @@
         {{ end }}
       </section>
   {{ end }}
+
+  {{ if gt (len (.Site.Data.projecten.open)) 0 }}
+    <h2>Lopende projecten</h2>
+    <ul>
+      {{ range $.Site.Data.projecten.open }}
+      <li>{{ .name }} ({{ .description_short }})</li>
+      {{ end }}
+    </ul>
+    <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
+  {{ end }}
+
 {{ end }}
