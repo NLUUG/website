@@ -1,10 +1,5 @@
 <header>
-<p style="padding: 0;margin: 0;">
-  <a href="/">
-    <b>{{ .Site.Title }}</b>
-    <span class="text-stone-500 animate-blink">▮</span>
-  </a>
-</p>
+<p style="padding: 0;margin: 0;"><a href="/"><strong>{{ .Site.Title }}</strong></a></p>
 <ul style="padding: 0;margin: 0;">
   {{ $currentPage := . }}
   {{ range .Site.Menus.main }}
