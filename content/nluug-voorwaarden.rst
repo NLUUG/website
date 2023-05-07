@@ -29,7 +29,7 @@ Juridisch bestaat bij computers "dienstverlening" simpelweg uit *Hardware en Sof
 
 * zelf ontwikkelde applicaties,
 * het configureren van applicaties of hardware en
-*systeembeheer, zoals aanpassen van scripts en configuratie files op computers en routers
+* systeembeheer, zoals aanpassen van scripts en configuratie files op computers en routers
 
 Volgens onze inschatting vallen de werkzaamheden van al onze leden voornamelijk onder de juridische definitie van "Software".
 
