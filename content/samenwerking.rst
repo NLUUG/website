@@ -27,7 +27,7 @@ Samen sterk                                               Co-branding
 
 .. |lange tekst| replace:: Met non-profit groepen met 'Open' filosofie. Inspanning van beide partijen
 
-.. |lange tekst2| replace:: Met pro-profit organisaties en bedrijven, die contact zoeken met NLUUG-leden
+.. |lange tekst 2| replace:: Met pro-profit organisaties en bedrijven, die contact zoeken met NLUUG-leden
 
  Uitgangspunten                                                                                                    
 -------------------------------------------------------------------------------------------------------------------
