@@ -28,6 +28,7 @@ Samen sterk                                               Co-branding
 **Uitgangspunten**
 -------------------------------------------------------------------------------------------------------------------
 |langetekst3|                                             |langetekst4|
+|langetekst5|                                             Organiserende partij 'trekt zelf de kar'
 --------------------------------------------------------- ---------------------------------------------------------
 ========================================================= =========================================================
 
@@ -38,12 +39,14 @@ Samen sterk                                               Co-branding
 
 .. |langetekst3| replace:: Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)
 
-.. |langetekst3| replace:: Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
+.. |langetekst4| replace:: Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
                                                                                                     
+.. |langetekst5| replace:: NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro
 
 
 
-Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)	Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
+
+
 NLUUG kan ondersteuning bieden bij organisatie van het event, onder andere door het inschakelen van het buro.	Organiserende partij 'trekt zelf de kar'.
 Partijen kunnen op elk moment de samenwerking stoppen.
 
