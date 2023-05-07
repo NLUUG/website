@@ -24,6 +24,22 @@ Momenteel is er geen sitemap. Hierdoor krijgen de zoekmachines geen signaal als
 er nieuwe content is of wijzigingen zijn doorgevoerd. Moderne tooling biedt de
 optie om deze sitemap automatisch te genereren inclusief een 'last modified'.
 
+## Opschonen
+
+### Content
+
+Diverse teksten zijn drastisch verouderd. In de nieuwe opzet pakken we meteen
+deze verouderde teksten aan en versimpelen waar mogelijk. Consistentie en tevens
+leesbaar staan hierbij hoog op de agenda.
+
+### Mix van links
+
+De huidige website heeft vele pagina's die niet samenhangend zijn gepubliceerd.
+In deze nieuwe opzet gaan we opnieuw structureren en waar nodig oude pagina's
+opruimen. Overigens zullen oude pagina's niet verloren gaan, maar eindigen in
+een archief.
+
+
 
 To be continued...
 
