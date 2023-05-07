@@ -8,7 +8,6 @@ tags:
 - Open Standaarden
 slug:
 title: "Open Standaarden"
-draft: true
 ---
 
 Open Standaarden
