@@ -4,12 +4,17 @@
   "email": "michael@nluug.nl",
   "gender": "male",
   "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/michael-boelen.png",
+  "website": {
+    "name": "michaelboelen.com",
+    "url": "https://michaelboelen.com/"
+  },
   "social": {
     "github": "mboelen",
     "twitter": "mboelen",
     "instagram": "",
     "linkedin": "michael-boelen",
-    "mastodon": "mboelen@mastodon.social",
-    "mastodon_url": "https://mastodon.social/mboelen"
+    "mastodon": "@mboelen@mastodon.social",
+    "mastodon_url": "https://mastodon.social/@mboelen"
   }
 }

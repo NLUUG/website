@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -4)) }}
+    {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
+
+    {{ .Content }}
+
+    <h3>Contact</h3>
+    <ul>
+    {{ if .email }}<li>E-mail: {{ .email }}</li>{{ end }}
+    {{ if .website }}<li><a href="{{ .website.url }}" rel="nofollow">{{ .website.name }}</a></li>{{ end }}
+    </ul>
+    <h3>Social media</h3>
+    {{ if .social.mastodon }}<a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a>{{ end }}
+  {{ end }}
+{{ end }}
