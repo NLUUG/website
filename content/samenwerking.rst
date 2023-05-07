@@ -54,13 +54,13 @@ NLUUG krijgt de mogelijkhied om folders neer te leggen en/of met een standje aan
 -------------------------------------------------------------------------------------------------------------------
 Prominente vermelding van het event met de naam van de organiserende partij
 
-* op de NLUUG-website in de agenda
-* op de NLUUG-website als samenwerkings-partner
-* in een mail naar de leden
-* middels een tweet
-* op de NLUUG LinkedIn groep
-* vermelding op een "future events" flyer in de conferentietas van een NLUUG conferentie
-* in eventuele papieren communicatie van NLUUG naar de leden
+op de NLUUG-website in de agenda
+op de NLUUG-website als samenwerkings-partner
+in een mail naar de leden
+middels een tweet
+op de NLUUG LinkedIn groep
+vermelding op een "future events" flyer in de conferentietas van een NLUUG conferentie
+in eventuele papieren communicatie van NLUUG naar de leden
 
 -------------------------------------------------------------------------------------------------------------------
 ========================================================= =========================================================
