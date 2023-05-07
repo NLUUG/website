@@ -5,9 +5,6 @@
 .. link:
 .. description: Contactgegevens NLUUG
 
-***************
-Contactgegevens
-***************
 
 Emailadressen
 =============

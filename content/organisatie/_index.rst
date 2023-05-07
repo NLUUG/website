@@ -30,3 +30,10 @@ Programmacommissie
 ------------------
 Het samenstellen van het programma voor onze conferenties gebeurt door onze programmacommissie.
 
+PR-Commissie
+------------
+De PR-Commissie regelt de volledige communicatie rondom evenementen en andere verenigingsaangelegenheden richting leden en andere geïnteresseerden.
+
+Beheerteam
+----------
+Dit team onderhoud de diverse sites en systemen van NLUUG

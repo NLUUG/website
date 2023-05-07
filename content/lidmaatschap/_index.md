@@ -18,7 +18,7 @@ De NLUUG houdt zich bezig met het verspreiden van kennis, biedt diensten aan de 
 De NLUUG kent het lidmaatschap voor personen (met stemrecht) en een Bedrijfsregeling voor organisaties (niet alleen voor commerciële bedrijven maar ook voor instellingen, stichtingen en kenniscentra). Organisaties kunnen zich aansluiten en op deze manier contributies van werknemers voldoen. Grotere organisatie hebben ook recht op andere voordelen. Lees verder.
 
 # Lidmaatschapstarieven
-Afhankelijk van de vorm van uw lidmaatschapsvorm betaalt u jaarlijks een bijdrage. Lees verder.
+Afhankelijk van de vorm van uw lidmaatschapsvorm betaalt u jaarlijks een bijdrage.
 
 # Aanmelden, wijzigen, opzeggen
-Word lid! Betaling geschiedt per kalenderjaar. Betaalt u uw contributie niet op tijd, dan heeft u impliciet opgezegd. Lees verder.
+Word lid! Betaling geschiedt per kalenderjaar. Betaalt u uw contributie niet op tijd, dan heeft u impliciet opgezegd.
