@@ -1,0 +1,15 @@
+open:
+  - migratie-website:
+    name: "Migratie website"
+    description_short: "omzetten huidige website naar een moderne variant"
+    description: "De website is al enige tijd een onderwerp van discussie. Met dit project zetten we de grote stap om onze website te vernieuwen en integraal onderdeel te maken van onze communicatie naar leden en niet-leden. Met bijgewerkte content, focus op vindbaarheid en betere communicatie als enkele hoofddoelen."
+    start_date: 2023-04-28
+    project_owners:
+      - michael-boelen
+      - patrick-reijnen
+  - migratie-ftp:
+    name: "Migratie FTP-server"
+    description_short: "migreren data van oude architectuur naar nieuwe hardware"
+    description: "Onze huidige FTP-server heeft de nodige problemen gehad, voornamelijk met de hardware. Deze migratie maakt het mogelijk om afscheid te gaan nemen van de oude onstabiele hardware."
+closed:
+  - geen:
