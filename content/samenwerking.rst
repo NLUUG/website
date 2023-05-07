@@ -27,6 +27,8 @@ Samen sterk                                               Co-branding
 --------------------------------------------------------- ---------------------------------------------------------
 Uitgangspunten
 ===================================================================================================================
+|langetekst3|                                             |langetekst4|
+--------------------------------------------------------- ---------------------------------------------------------
 ========================================================= =========================================================
 
 
@@ -34,8 +36,9 @@ Uitgangspunten
 
 .. |langetekst2| replace:: Met pro-profit organisaties en bedrijven, die contact zoeken met NLUUG-leden
 
+.. |langetekst3| replace:: Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)
 
-
+.. |langetekst3| replace:: Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
                                                                                                     
 
 
