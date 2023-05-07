@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<schedule>
+    <generator name="pretalx" version="2.3.2post0" />
+    <version>0.1</version>
+    <conference>
+        <acronym>openembedded-workshop-2023</acronym>
+        <title>OpenEmbedded Workshop 2023</title>
+        <start>2023-02-06</start>
+        <end>2023-02-06</end>
+        <days>1</days>
+        <timeslot_duration>00:05</timeslot_duration>
+        <base_url>https://pretalx.com/openembedded-workshop-2023/schedule/</base_url>
+        <time_zone_name>Europe/Brussels</time_zone_name>
+    </conference>
+    <day index='1' date='2023-02-06' start='2023-02-06T04:00:00+01:00' end='2023-02-07T03:59:00+01:00'>
+        <room name='Agora'>
+            <event guid='69411404-f9c1-5ce1-baac-7bda1b7eab65' id='25041'>
+                <date>2023-02-06T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-25041-cve-check-all-you-wanted-to-know</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/ZGGJZM/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>cve-check: all you wanted to know</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Building and maintaining and embedded product nearly always requires taking care of security metrics. In this talk Marta is going to show how to use YP cve-check in practice. The talk will include, the legacy text and JSON format, checking an image or all recipes, managing the database update interval, using additional tools in addition to cve-check. It will also cover a workflow to fix a security issue or update the security database record.</abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='18791'>Marta Rybczynska</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='0cc0b1f4-0c4d-52df-86fb-941663ca4c39' id='24744'>
+                <date>2023-02-06T09:30:00+01:00</date>
+                <start>09:30</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-24744-developing-building-and-testing-your-baremetal-applications-using-openembedded</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/FHXTP9/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Developing, Building and Testing Your Baremetal Applications Using OpenEmbedded</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Multiarchitecture SoCs are more widely used, usually containing a large architecture where it can run a full operating system such as Linux, and one or more small architectures designed to run an RTOS or a baremetal application,requiring less hardware resources,leveraging suitable tasks from one to another creating a more efficient product. 
+
+While the OpenEmbedded is well known for its capabilities on creating customized Embedded Linux Distributions,bitbake is also capable of building a toolchain to create Baremetal applications or an RTOS. 
+
+In this presentation Alejandro will show how to create baremetal applications using the same flow currently used in OpenEmbedded to develop Linux applications, using recipes, classes and user configuration files, he will show how users from the community can benefit from a single flow, showcasing how to run these applications on QEMU and create tests for them to be automatically tested using the OpenEmbedded infrastructure along with their corresponding Linux distributions. Anyone from the community interested in learning about baremetal programming or about the Yocto Project and OpenEmbedded might find the contents of this presentation interesting.</abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='24733'>Alejandro Hernandez Samaniego</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='15dee10c-b0ce-5559-9e04-cba34d11c554' id='25391'>
+                <date>2023-02-06T10:30:00+01:00</date>
+                <start>10:30</start>
+                <duration>00:45</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-25391-integrating-zephyr-using-yocto</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/BXFJ9G/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Integrating Zephyr using Yocto</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk with discussion</type>
+                <language>en</language>
+                <abstract>The meta-zephyr Yocto layer has had a recent resurgence and we are using it at Arm to support reference stacks for automotive use cases. Find out what&#8217;s new, how we are using meta-zephyr at Arm and how to start integrating Zephyr into your stack.</abstract>
+                <description>In the Automotive, Industrial and Edge Solutions (AIES) team in Arm&#8217;s Open Source Software Group we develop reference stacks for automotive use cases using Arm IP. We wanted to integrate Zephyr applications into our Yocto-built stacks, but we also wanted to use Zephyr&#8217;s pre-compiled SDK instead of the Yocto toolchain, as supported by meta-zephyr at the time. We therefore started refactoring meta-zephyr. 
+
+I will be presenting a description of the changes made as well as some demonstrations of how we are integrating and validating Zephyr applications in AIES.</description>
+                <logo></logo>
+                <persons>
+                    <person id='25133'>Peter Hoyes</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='0fdac2be-5b7f-5686-9284-bfa2501cbf0e' id='25618'>
+                <date>2023-02-06T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-25618-configuring-embedded-fpgas-in-u-boot-linux-using-an-mtd-driver</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/D3AQ3R/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Configuring Embedded FPGAs in U-Boot/Linux using an MTD driver</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>When configuring an FPGA using a processor, the bootloader has to be extended with an additional command set, and you have to add dedicated applications to configure the FPGA in Linux.
+Connecting the configuration interface to an ordinary SPI bus using an Memory Technology Device (MTD) driver with the FPGA installed as a &quot;Write-Only Memory&quot; allows the FPGA to be configured using standard tools.</abstract>
+                <description>The presentation will go through the board design for a CPU with FPGAs to allow uploading firmware to an empty board containing CPU and FPGAs, and the U-boot modifications to allow the FPGAs to be installed as MTD devices in the U-Boot device-tree. A Linux driver in development will allow getting rid of FPGA tools and FPGA reconfiguration can be made using standard linux tools.</description>
+                <logo>/media/openembedded-workshop-2023/submissions/D3AQ3R/eMagii_Logo_RHpzndi.jpg</logo>
+                <persons>
+                    <person id='25302'>Ulf Samuelsson</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='7538233d-8cea-5545-8b48-da1334f3f2dc' id='25452'>
+                <date>2023-02-06T13:30:00+01:00</date>
+                <start>13:30</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-25452-unified-key-access-and-code-signing-in-oe-core</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/3C8MFF/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>unified key access and code signing in oe-core</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Three years have passed since the previous talk on PKCS#11-based code signing (OE Workshop 2020) and this approach has be used successfully for several projects. Also, there&apos;s been interest from the community and from customers to have this properly upstream in oe-core.
+
+In this session, Jan will first explain the infrastructure (signing.bbclass) and the recipe-level integration submitted for inclusion and then show some examples on how to use the class with custom recipes and keys.</abstract>
+                <description>The approach taken with signing.bbclass is to pass all key access through the PKCS#11 API, which is supported by most Hardware Security Modules (HSMs) and can be emulated for simple key files as well. This results in a unified API at the recipe level.
+
+Many upstream projects which support signing of build artifacts already support PKCS#11 keys, so the amount of required patches is low.</description>
+                <logo></logo>
+                <persons>
+                    <person id='3239'>Jan L&#252;bbe</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='8d4ed2b0-33c8-5573-af86-1ab7373b6852' id='25672'>
+                <date>2023-02-06T14:00:00+01:00</date>
+                <start>14:00</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-25672-our-ptest-story</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/B3KBPM/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Our ptest story</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>&#8220;testing is hard and complex&#8221; they say!?</abstract>
+                <description>This talk shows what we do with Yocto ptests to check the different software recipes in meta-aws and the struggles we had.</description>
+                <logo></logo>
+                <persons>
+                    <person id='23423'>Thomas Roos, AWS, Embedded Linux Engineer</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='c44cd5a0-da3b-5701-b7c9-4b146454a6a5' id='24290'>
+                <date>2023-02-06T15:00:00+01:00</date>
+                <start>15:00</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-24290-generating-sboms-with-openembedded</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/UWBEG9/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Generating SBoMs with OpenEmbedded</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Maintaining a comprehensive description of the Software Supply Chain has become increasingly important in software development today. As the industry has started to form around standardized mechanisms for reporting the Software Supply Chain via a Software Bill of Materials, OpenEmbedded has a unique position to be able to describe complex supply chains owing to the rich, complex, and comprehensive metadata it uses to build software.</abstract>
+                <description>In this talk, Joshua will describe why you need a SBoM, how to generate one with OpenEmbedded, what to do with it after it&apos;s created, and what the future of SBoMs in the project looks like.</description>
+                <logo></logo>
+                <persons>
+                    <person id='10832'>Joshua Watt</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='a464f027-41fc-5616-8b93-f7b8ea992c25' id='26727'>
+                <date>2023-02-06T15:30:00+01:00</date>
+                <start>15:30</start>
+                <duration>00:30</duration>
+                <room>Agora</room>
+                <slug>openembedded-workshop-2023-26727-applied-git-submodules</slug>
+                <url>https://pretalx.com/openembedded-workshop-2023/talk/BG8LWP/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Applied git submodules</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>There are many approaches used to manage a collection of layers for OpenEmbedded projects. One of the more popular, yet polarizing methods uses the submodules feature of git. This talk will attempt to demystify the process and show you how to manage layers without any custom tooling.</abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    <person id='2858'>Philip Balister</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+</schedule>
