@@ -22,12 +22,13 @@ De tabel hier onder geeft aan welke manier van samenwerking wij voor deze twee t
 
 ========================================================= =========================================================
 Samen sterk                                               Co-branding                                             
-|lange tekst|                                             |lange tekst 2|                                          
+|langetekst1|                                             |langetekst2|                                          
 ========================================================= =========================================================
 
-.. |lange tekst| replace:: Met non-profit groepen met 'Open' filosofie. Inspanning van beide partijen
+.. |langetekst1| replace:: Met non-profit groepen met 'Open' filosofie. Inspanning van beide partijen
 
-.. |lange tekst 2| replace:: Met pro-profit organisaties en bedrijven, die contact zoeken met NLUUG-leden
+.. |langetekst2| replace:: Met pro-profit organisaties en bedrijven, die contact zoeken met NLUUG-leden
+
 
  Uitgangspunten                                                                                                    
 -------------------------------------------------------------------------------------------------------------------
