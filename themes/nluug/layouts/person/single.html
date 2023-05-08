@@ -1,9 +1,9 @@
 {{ define "main" }}
+  {{ $icon_size := 20 }}
+  {{ $text := .Content }}
   {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -4)) }}
     {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
-
-    {{ .Content }}
-
+    {{ $text }}
     <h3>Contact</h3>
     <ul>
     {{ if .email }}<li>E-mail: {{ .email }}</li>{{ end }}
@@ -13,12 +13,21 @@
           {{ end }}
     {{ end }}
     </ul>
-    <h3>Social media</h3>
-    {{ if .social.mastodon }}
-      <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a><img src="/afbeeldingen/iconen/mastodon.svg" height="200" width="200" alt="Mastodon" /></a>
+
+    {{ if or
+      (.social.mastodon)
+      (.social.twitter)
+    }}
+      <h3>Social media</h3>
+      <ul class="list">
+      {{ if .social.mastodon }}
+      <li><a href="{{ .social.mastodon_url }}"><img src="/afbeeldingen/iconen/mastodon.svg" height="{{ $icon_size }}" width="{{ $icon_size }}" alt="Mastodon" /> {{ .social.mastodon }}</a></li>
+      {{ end }}
+      {{ if .social.twitter }}
+      <li><a href="https://twitter.com/{{ .social.twitter }}"><img src="/afbeeldingen/iconen/twitter.svg" height="{{ $icon_size }}" width="{{ $icon_size }}" alt="Twitter" /> {{ .social.twitter }}</a></li>
+      {{ end }}
+      </ul>
     {{ end }}
-    {{ if .social.twitter }}
-    <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a><img src="/afbeeldingen/iconen/twitter.svg" height="200" width="200" alt="Twitter" /></a>
-    {{ end }}
+
   {{ end }}
 {{ end }}
