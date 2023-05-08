@@ -1,15 +1,15 @@
 {
   "name": "Patrick Reijnen",
-  "email": "",
+  "email": "patrick@nluug.nl",
   "gender": "male",
   "nationality": "Dutch",
   "thumbnail": "/afbeeldingen/personen/patrick-reijnen-200x200.jpg",
   "social": {
-    "github": "",
+    "github": "https://github.com/patrickreijnen",
     "instagram": "",
-    "linkedin": "",
-    "mastodon": "",
-    "mastodon_url": "",
+    "linkedin": "https://www.linkedin.com/in/patrickreijnen/",
+    "mastodon": "@patrickr@nluug.social",
+    "mastodon_url": "https://nluug.social/@patrickr",
     "twitter": "patrick_reijnen"
   }
 }
