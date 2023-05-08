@@ -1,12 +1,20 @@
 {{ define "main" }}
   {{ .Content }}
+
+  <section>
+  <h2>Actieve leden</h2>
+  {{ if .Params.active_members }}
+  {{ .Scratch.Set "active_members" .Params.active_members }}
+  {{ partial "show-active-members-small.html" . }}
+  {{ end }}
+  </section>
+
   <section>
     <p>Relevante pagina's:</p>
-    <ul class="list">
+    <ul>
       {{ range .Pages }}
         <li>
-          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}
-          </a>
+          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | default "Geen titel" }}</a>
         </li>
         {{ end }}
     </ul>

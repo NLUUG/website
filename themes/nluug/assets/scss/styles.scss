@@ -33,6 +33,23 @@ body {
   top: 0;
 }
 
+figure {
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+.grid-team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1px;
+}
+
+.grid-team-members-small-photos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1px;
+}
+
 h1, h2, h3, h4, h5, strong, b {
     font-size: inherit;
     font-weight: 600;

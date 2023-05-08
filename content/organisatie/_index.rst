@@ -8,6 +8,21 @@ tags:
 - organisatie
 slug:
 title: "Organisatie"
+active_members:
+- brenda-langedijk
+- debbie-reijnders
+- fred-donck
+- hans-van-de-looy
+- jan-sepp
+- jeroen-jonkman
+- koen-de-jonge
+- mark-janssen
+- michael-boelen
+- patrick-reijnen
+- rogier-spoor
+- ronny-lam
+- rudi-van-drunen
+- willem-toorop
 ---
 
 Op dagelijkse basis zijn vrijwilligers actief binnen onze vereniging. De taken variëren van ledenadministratie tot aan het vinden van nieuwe sprekers. Ook niet geheel belangrijk zijn de activiteiten die verricht worden door ons bestuur en ondersteuning van de diverse commissies.

@@ -14,6 +14,11 @@
     {{ end }}
     </ul>
     <h3>Social media</h3>
-    {{ if .social.mastodon }}<a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a>{{ end }}
+    {{ if .social.mastodon }}
+      <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a><img src="/afbeeldingen/iconen/mastodon.svg" height="200" width="200" alt="Mastodon" /></a>
+    {{ end }}
+    {{ if .social.twitter }}
+    <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a><img src="/afbeeldingen/iconen/twitter.svg" height="200" width="200" alt="Twitter" /></a>
+    {{ end }}
   {{ end }}
 {{ end }}

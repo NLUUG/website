@@ -1,0 +1,16 @@
+{
+  "id": "jan-sepp",
+  "name": "Jan Sepp",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/jan-sepp-200x200.jpg",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  }
+}

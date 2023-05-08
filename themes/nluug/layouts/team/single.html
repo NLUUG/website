@@ -9,13 +9,17 @@
 
   <h2>Team</h2>
 
-  <div style="display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 5px;">
+  <div class="grid-team-members">
     {{ range $key,$val := .Params.team_members }}
       {{ with (index $.Site.Data.personen $val) }}
         <div>
             {{ if .thumbnail }}
               <figure>
-                <img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" />
+                {{ if .profile_page }}
+                  <a href="{{ .profile_page }}"><img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" /></a>
+                {{ else }}
+                  <img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" />
+                {{ end }}
                 <figcaption>
                   <strong>{{ .name }}</strong>
                 </figcaption>
