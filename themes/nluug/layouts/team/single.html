@@ -1,6 +1,12 @@
 {{ define "main" }}
   {{ .Content }}
 
+  {{ if .Params.contact_email }}
+    <h2>Contact</h2>
+    <p>Wil je iets weten of heb je een suggestie voor dit team?</p>
+    <a href="mailto:{{ .Params.contact_email }}" class="button">Neem contact op</a>
+  {{ end }}
+
   <h2>Team</h2>
 
   <div style="display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 5px;">
@@ -19,4 +25,6 @@
       {{ end }}
     {{ end }}
   </div>
+
+
 {{ end }}
