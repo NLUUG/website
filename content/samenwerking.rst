@@ -23,10 +23,8 @@ Het secties hieronder geven aan welke manier van samenwerking wij voor deze twee
 Samen sterk
 -----------
 
-.. role:: red
 
-
-* Met :red:`non-profit` groepen met 'Open' filosofie. Inspanning van beide partijen
+* Met *non-profit* groepen met 'Open' filosofie. Inspanning van beide partijen
 * **Uitgangspunten**
 
   * Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)
@@ -64,9 +62,8 @@ Samen sterk
 Co-branding
 -----------
 
-.. role:: red
 
-* Met :red:`pro-profit` organisaties en bedrijven, die contact zoeken met NLUUG-leden
+* Met *pro-profit* organisaties en bedrijven, die contact zoeken met NLUUG-leden
 * **Uitgangspunten**
 
   * Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
