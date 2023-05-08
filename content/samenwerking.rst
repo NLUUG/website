@@ -10,8 +10,6 @@ slug:
 title: "Samenwerking"
 ---
 
-.. role:: red
-
 Samenwerking
 ============
 
@@ -24,6 +22,9 @@ Het secties hieronder geven aan welke manier van samenwerking wij voor deze twee
 
 Samen sterk
 -----------
+
+.. role:: red
+
 
 * Met :red:`non-profit` groepen met 'Open' filosofie. Inspanning van beide partijen
 * **Uitgangspunten**
@@ -62,6 +63,8 @@ Samen sterk
 
 Co-branding
 -----------
+
+.. role:: red
 
 * Met :red:`pro-profit` organisaties en bedrijven, die contact zoeken met NLUUG-leden
 * **Uitgangspunten**
