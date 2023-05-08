@@ -4,11 +4,16 @@
   "email": "michael@nluug.nl",
   "gender": "male",
   "nationality": "Dutch",
-  "thumbnail": "/afbeeldingen/personen/michael-boelen.png",
-  "website": {
+  "thumbnail": "/afbeeldingen/personen/michael-boelen-200x200.png",
+  "websites": [{
+    "id": 1,
     "name": "michaelboelen.com",
     "url": "https://michaelboelen.com/"
-  },
+  },{
+    "id": 2,
+    "name": "Linux security blog",
+    "url": "https://linux-audit.com/"
+  }],
   "social": {
     "github": "mboelen",
     "twitter": "mboelen",
