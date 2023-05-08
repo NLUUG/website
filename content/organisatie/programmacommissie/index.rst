@@ -1,6 +1,7 @@
 ---
 categories:
 - organisatie
+contact_email: pc@nluug.nl
 date: 2023-05-07T17:01:05+02:00
 description: "De programmacommissie is ons grootste team en verantwoordelijk voor het vinden van sprekers en beheren van relevante contacten."
 lastmod: 2023-05-07T17:01:05+02:00
@@ -11,14 +12,14 @@ slug:
 title: "Programmacommissie"
 type: team
 team_members:
+- brenda-langedijk
+- fred-donck
+- hans-van-de-looy
+- koen-de-jonge
 - michael-boelen
 - rudi-van-drunen
-- michael-boelen
-- michael-boelen
-- michael-boelen
-- michael-boelen
-- michael-boelen
-- michael-boelen
+- rogier-spoor
+- willem-toorop
 ---
 
 Programmacommissie
