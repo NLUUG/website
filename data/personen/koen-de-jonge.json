@@ -1,15 +1,16 @@
 {
+  "id": "koen-de-jonge",
   "name": "Koen de Jonge",
   "email": "",
   "gender": "male",
   "nationality": "Dutch",
   "thumbnail": "/afbeeldingen/personen/koen-de-jonge-200x200.jpg",
   "social": {
-    "github": "",
-    "twitter": "",
+    "github": "synq",
     "instagram": "",
     "linkedin": "",
-    "mastodon": "",
-    "mastodon_url": ""
+    "mastodon": "@koen@procolix.social",
+    "mastodon_url": "https://procolix.social/@koen",
+    "twitter": "koendejonge"
   }
 }

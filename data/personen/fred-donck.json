@@ -1,4 +1,5 @@
 {
+  "id": "fred-donck",
   "name": "Fred Donck",
   "email": "",
   "gender": "male",
@@ -6,10 +7,10 @@
   "thumbnail": "/afbeeldingen/personen/fred-donck-200x200.jpg",
   "social": {
     "github": "",
-    "twitter": "",
     "instagram": "",
     "linkedin": "",
     "mastodon": "",
-    "mastodon_url": ""
+    "mastodon_url": "",
+    "twitter": ""
   }
 }

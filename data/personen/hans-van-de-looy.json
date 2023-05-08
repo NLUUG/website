@@ -1,4 +1,5 @@
 {
+  "id": "hans-van-de-looy",
   "name": "Hans Van de Looy",
   "email": "",
   "gender": "male",
@@ -11,10 +12,10 @@
   }],
   "social": {
     "github": "",
-    "twitter": "",
     "instagram": "",
     "linkedin": "",
     "mastodon": "",
-    "mastodon_url": ""
+    "mastodon_url": "",
+    "twitter": ""
   }
 }
