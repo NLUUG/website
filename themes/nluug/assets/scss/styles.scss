@@ -1,3 +1,8 @@
+
+$color-button: #1D3160;
+$color-button-hover: #17274d;
+$color-header: #1D3160;
+
 *, :after, :before {
     box-sizing: border-box;
     padding: 0;
@@ -52,9 +57,24 @@ header {
     text-decoration: none;
 }
 
+a.button:link, a.button:visited {
+  background-color: $color-button;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: $color-button-hover;
+}
+
+
 .time {
-	font-variant-numeric: tabular-nums;
-	white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
 }
 
 blockquote {
@@ -138,8 +158,6 @@ header a {
 header ul {
     list-style-type: none;
     padding: 0;
-    //border-right: 1px solid #edf2f7;
-
 }
 
 header li, header a {
