@@ -7,7 +7,11 @@
     <h3>Contact</h3>
     <ul>
     {{ if .email }}<li>E-mail: {{ .email }}</li>{{ end }}
-    {{ if .website }}<li><a href="{{ .website.url }}" rel="nofollow">{{ .website.name }}</a></li>{{ end }}
+    {{ if .websites }}
+        {{ range .websites }}
+          <li><a href="{{ .url }}" rel="nofollow">{{ .name }}</a></li>
+          {{ end }}
+    {{ end }}
     </ul>
     <h3>Social media</h3>
     {{ if .social.mastodon }}<a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a>{{ end }}
