@@ -1,0 +1,20 @@
+{
+  "name": "Hans Van de Looy",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/hans-van-de-looy-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "UNICORN Security",
+    "url": "https://unicorn-security.nl/"
+  }],
+  "social": {
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": ""
+  }
+}
