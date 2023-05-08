@@ -1,0 +1,20 @@
+{
+  "name": "Rudi van Drunen",
+  "email": "michael@nluug.nl",
+  "gender": "male",
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/rudi-van-drunen-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Persoonlijke website",
+    "url": "https://www.rudi.photography/"
+  }],
+  "social": {
+    "github": "",
+    "twitter": "dvidur",
+    "instagram": "rudivandrunen",
+    "linkedin": "michael-boelen",
+    "mastodon": "",
+    "mastodon_url": ""
+  }
+}
