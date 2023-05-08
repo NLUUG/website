@@ -1,4 +1,5 @@
 {
+  "id": "brenda-langedijk",
   "name": "Brenda Langedijk",
   "email": "",
   "gender": "female",
@@ -6,10 +7,10 @@
   "thumbnail": "/afbeeldingen/personen/brenda-langedijk-200x200.jpg",
   "social": {
     "github": "",
-    "twitter": "",
     "instagram": "",
     "linkedin": "",
     "mastodon": "",
-    "mastodon_url": ""
+    "mastodon_url": "",
+    "twitter": ""
   }
 }
