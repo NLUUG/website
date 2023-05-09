@@ -17,25 +17,30 @@ defaultcontentlanguage = "nl"
 
 [menu]
   [[menu.main]]
-    identifier = "lidmaatschap"
-    name = "Lidmaatschap"
-    url = "/lidmaatschap/"
-    weight = 10
-  [[menu.main]]
     identifier = "organisatie"
     name = "Organisatie"
     url = "/organisatie/"
+    weight = 10
+  [[menu.main]]
+    identifier = "evenementen"
+    name = "Evenementen"
+    url = "/evenementen/"
     weight = 20
+  [[menu.main]]
+    identifier = "lidmaatschap"
+    name = "Lidmaatschap"
+    url = "/lidmaatschap/"
+    weight = 30
   [[menu.main]]
     identifier = "nieuws"
     name = "Nieuws"
     url = "/nieuws/"
-    weight = 30
+    weight = 40
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 40
+    weight = 50
 
 [markup]
   [markup.goldmark.renderer]
