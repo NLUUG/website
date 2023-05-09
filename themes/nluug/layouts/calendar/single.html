@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <h2>Aankomende evenementen</h2>
+  <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide evenementenkalender voor meer details.</p>
+    {{ $upcoming_events := .Site.Data.evenementen.kalender }}
+    {{ $upcoming_events := sort $upcoming_events ".date_start" "desc" }}
+    <ul>
+      {{ range first 100 $upcoming_events }}
+        <li>{{ .date_start }} - {{ .name }}</li>
+      {{ end }}
+    </ul>
+
+
+{{ end }}

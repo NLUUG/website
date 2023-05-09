@@ -1,8 +1,8 @@
+{{ if not (isset .Params "no-ics-file") }}
 BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-{{ if not (isset .Params "h") }}
 SUMMARY:{{ .Title }}
 DESCRIPTION:{{ trim (.Content | plainify) "\n" }} Voor meer informatie zie {{ .Site.Params.LiveSiteUrl }}{{ .Permalink }}
 DTSTART;TZID=Europe/Amsterdam:{{ dateFormat "20060102T150405" .Params.event_start }}
@@ -15,10 +15,7 @@ DESCRIPTION: Voor meer informatie zie {{ index . 0 }}.
 {{ else }}
 DESCRIPTION: Voor meer informatie zie {{ .Site.Params.LiveSiteUrl }}{{ .Permalink }}
 {{ end }}
-DTSTART;TZID=Europe/Amsterdam:{{ dateFormat "20060102T150405" (index .Params.Properties.start 0) }}
-DTEND;TZID=Europe/Amsterdam:{{ dateFormat "20060102T150405" (index .Params.Properties.end 0) }}
 {{ with .Params.Properties.location }}LOCATION:{{ index . 0 }}{{ end }}
 {{ end }}
 END:VEVENT
 END:VCALENDAR
-
