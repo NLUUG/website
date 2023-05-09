@@ -18,15 +18,13 @@ Het NLUUG-bestuur werkt met verschillende organisaties en bedrijven samen bij he
 #. Non-profit groepen met vergelijkbare doelstellingen als onze vereniging; promoten van het 'Open' gedachtengoed zonder winstoogmerk;
 #. Bedrijven die veel met 'Open' werken, en kennis willen aanbieden in ruil voor contact met de leden van NLUUG.
 
-Het secties hieronder geven aan welke manier van samenwerking wij voor deze twee typen relaties, 'Samen sterk' en 'Co-branding', in gedachten hebben.
+De secties hieronder geven aan welke manier van samenwerking wij voor deze twee typen relaties, 'Samen sterk' en 'Co-branding', in gedachten hebben.
 
 Samen sterk
 -----------
 
-.. role:: red
 
-
-* Met :red:`non-profit` groepen met 'Open' filosofie. Inspanning van beide partijen
+* Met *non-profit* groepen met 'Open' filosofie. Inspanning van beide partijen
 * **Uitgangspunten**
 
   * Wederzijdse financiële verplichtingen mogelijk (sponsoring, garantstelling)
@@ -64,9 +62,8 @@ Samen sterk
 Co-branding
 -----------
 
-.. role:: red
 
-* Met :red:`pro-profit` organisaties en bedrijven, die contact zoeken met NLUUG-leden
+* Met *pro-profit* organisaties en bedrijven, die contact zoeken met NLUUG-leden
 * **Uitgangspunten**
 
   * Geen onderlinge financiële verplichtingen (geen sponsoring, geen garantstelling)
