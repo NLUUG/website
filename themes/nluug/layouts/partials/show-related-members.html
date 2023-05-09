@@ -1,0 +1,23 @@
+
+{{ $size_in_pixels := 150 }}
+
+<div class="grid-team-members-small-photos">
+  {{ range $key,$val := .Scratch.Get "related_members" }}
+      {{ with (index $.Site.Data.personen .) }}
+        <div>
+            {{ if .thumbnail }}
+              <figure>
+                {{ if .profile_page }}
+                  <a href="{{ .profile_page }}"><img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" height="{{ $size_in_pixels }}" width="{{ $size_in_pixels }}" /></a>
+                {{ else }}
+                <img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" height="{{ $size_in_pixels }}" width="{{ $size_in_pixels }}" />
+                {{ end }}
+                <figcaption>
+                  <small><strong>{{ .name }}</strong></small>
+                </figcaption>
+              </figure>
+            {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>

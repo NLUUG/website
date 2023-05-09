@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+  {{ $icon_size := 20 }}
+  {{ $text := .Content }}
+    {{ $text }}
+
+  {{ if .Params.related_members }}
+    {{ .Scratch.Set "related_members" .Params.related_members }}
+    {{ partial "show-related-members.html" . }}
+  {{ end }}
+
+{{ end }}
