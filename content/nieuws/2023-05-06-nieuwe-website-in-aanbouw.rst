@@ -10,6 +10,10 @@ tags:
 - website
 slug: nieuwe-website-in-aanbouw
 title: "Nieuwe website in aanbouw"
+type: news
+related_members:
+- michael-boelen
+- patrick-reijnen
 ---
 
 Nieuwe website in aanbouw

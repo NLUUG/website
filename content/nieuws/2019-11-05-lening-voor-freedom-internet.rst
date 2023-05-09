@@ -7,7 +7,11 @@ slug: lening-voor-freedom-internet
 tags:
 - nieuws
 title: "Lening voor Freedom Internet"
-type: news
+related_members:
+- koen-de-jonge
+- mark-janssen
+- patrick-reijnen
+- ronny-lam
 ---
 
 Nieuwe provider: Freedom Internet
