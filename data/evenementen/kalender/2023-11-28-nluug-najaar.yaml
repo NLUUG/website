@@ -1,9 +1,12 @@
-id: nluug-najaar-2023
+id: nluug-2023-najaarsconferentie
 date_start: 2023-05-28
 date_end: 2023-05-28
 event_timezone: Europe/Amsterdam
 event_start: 2023-11-28T09:00:00+0200
 event_end: 2023-11-28T17:00:00+0200
+event_url: "/evenementen/nluug/2023-najaarsconferentie/"
+event_location_name: Van der Valk Hotel Utrecht
+event_address: Winthontlaan 4-6, 3526KV, Utrecht
 name: NLUUG najaarsconferentie 2023
-nluug-event: true
-highlight-on-homepage: true
+nluug_event: true
+highlight_on_homepage: true
