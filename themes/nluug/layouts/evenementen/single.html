@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+  <hr>
+  {{ .Content }}
+  {{ if isset .Params "event_start" }}
+
+    {{ $event_start := .Params.event_start | time }}
+
+    <div class="highlight-box">
+      <ul>
+        <li>Start: {{ time.Format "02-01-2006 15:04" .Params.event_start }}</li>
+        <li>Einde: {{ time.Format "02-01-2006 15:04" .Params.event_end }}</li>
+      </ul>
+    </div>
+
+    {{ with .OutputFormats.Get "calendarevent" }}
+      <a href="{{ .RelPermalink }}" class="button">Kalender (iCal-bestand)</a>
+    {{ end }}
+
+    {{ with .Params.event_register_link }}
+      {{ if le now $event_start }}
+        <a href="{{ . }}" class="button">Inschrijven</a>
+      {{ else }}
+        <p>Dit evenement is al afgelopen, inschrijven is daarom niet meer mogelijk.</p>
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <p>Waarschuwing: dit evenement mist gegevens zoals start en einddatum.</p>
+  {{ end }}
+{{ end }}
