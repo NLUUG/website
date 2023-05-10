@@ -9,7 +9,7 @@
           <li>
             <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
             <hr class="hr-list">
-            <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
+            <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02-01-2006" .Date }}</time>
           </li>
           {{ end }}
       </ul>
@@ -29,10 +29,10 @@
   <h2>Aankomende evenementen</h2>
   <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide evenementenkalender voor meer details.</p>
     {{ $upcoming_events := .Site.Data.evenementen.kalender }}
-    {{ $upcoming_events := sort $upcoming_events ".date_start" "desc" }}
+    {{ $upcoming_events := sort $upcoming_events ".date_start" "asc" }}
     <ul>
       {{ range first 10 $upcoming_events }}
-        <li>{{ .date_start }} - {{ .name }}</li>
+        <li>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</li>
       {{ end }}
     </ul>
 

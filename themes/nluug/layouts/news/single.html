@@ -2,8 +2,13 @@
 
   {{ $icon_size := 20 }}
   {{ $text := .Content }}
+  {{ $date := .Date.Format "02-01-2006" }}
+  {{ $lastmod := .Lastmod.Format "02-01-2006" }}
+  <small>Gepubliceerd op {{ $date }} door {{ .Params.author | default .Site.Params.author }}.{{ if gt .Params.lastmod .Params.date }} Artikel bijgewerkt op {{ $lastmod }}{{ end }}</small>
+  <section>
     {{ $text }}
-
+    {{ if .Params.signed_by }}<em>{{ .Params.signed_by }}</em>{{ end }}
+  </section>
   {{ if .Params.related_members }}
     {{ .Scratch.Set "related_members" .Params.related_members }}
     {{ partial "show-related-members.html" . }}
