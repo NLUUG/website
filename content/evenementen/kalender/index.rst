@@ -12,7 +12,7 @@ type: calendar
 no-ics-file: true
 ---
 
-Op deze kalender verzamelen evenementen in de regio met onderwerpen zoals:
+Op deze kalender verzamelen we de evenementen in de regio met onderwerpen zoals:
 
 - Open source software
 - Open standaarden
