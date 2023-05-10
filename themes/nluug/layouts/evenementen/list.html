@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <section>
+    <ul reversed class="list">
+      {{ range .Pages }}
+        <li>
+          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          <hr class="hr-list">
+          {{ if isset .Params "event_start" }}
+          <time class="g time" datetime="{{ dateFormat "02-01-2006" .Params.event_start }}">{{ dateFormat "02-01-2006" .Params.event_start }}</time>
+          {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+  </section>
+{{ end }}
