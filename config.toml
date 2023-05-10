@@ -12,9 +12,12 @@ defaultcontentlanguage = "nl"
 
 [params]
   logo = '/assets/favicon.ico'
-  description = "A minimal hugo theme focus on content"
+  description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
   # Fallback-auteur voor posts die geen echte auteur hebben
   author = 'NLUUG'
+  # Datum-formaat en tijdzone
+  dateFormat = "02-01-2006"
+  timeZone = "Europe/Amsterdam"
 
 [menu]
   [[menu.main]]
@@ -67,8 +70,8 @@ defaultcontentlanguage = "nl"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML"]
-  #page = ["HTML", "CalendarEvent", "XMLEvent"]
-  page = ["HTML", "CalendarEvent"]
+  # page = ["HTML", "CalendarEvent"]
+  page = ["HTML"]
 
 [outputFormats.RSS]
   mediatype = "application/rss"
