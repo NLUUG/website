@@ -1,14 +1,3 @@
 {{ define "main" }}
   {{ .Content }}
-  <section>
-    <p>Relevante pagina's:</p>
-    <ul class="list">
-      {{ range .Pages }}
-        <li>
-          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}
-          </a>
-        </li>
-        {{ end }}
-    </ul>
-  </section>
 {{ end }}

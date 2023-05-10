@@ -8,6 +8,7 @@ tags:
 - organisatie
 slug:
 title: "Organisatie"
+show_child_pages: true
 active_members:
 - brenda-langedijk
 - debbie-reijnders
