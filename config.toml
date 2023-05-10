@@ -13,6 +13,7 @@ defaultcontentlanguage = "nl"
 [params]
   logo = '/assets/favicon.ico'
   description = "A minimal hugo theme focus on content"
+  # Fallback-auteur voor posts die geen echte auteur hebben
   author = 'NLUUG'
 
 [menu]
