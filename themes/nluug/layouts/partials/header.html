@@ -1,7 +1,8 @@
 <header>
   <nav style="padding:0;width:100%;">
     <a href="/"><img src="/afbeeldingen/logo/nluug-logo.png" alt="NLUUG-logo" title="{{ .Site.Title }}"></a>
-    <ul style="padding:0;padding-right:15px;margin:0;text-align:right;background-color:#6A2060;color:white;text-align:right;">
+    <div class="header">
+    <ul>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
         <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
@@ -9,6 +10,7 @@
         </li>
       {{ end }}
     </ul>
+    </div>
   </nav>
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">

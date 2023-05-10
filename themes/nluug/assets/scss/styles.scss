@@ -1,7 +1,11 @@
 
 $color-button: #1D3160;
 $color-button-hover: #17274d;
-$color-header: #1D3160;
+$color-header: #6A2060;
+$color-highlight-box-border: #6A2060;
+$color-highlight-box-background: #EBBCE5; // omgezet naar lichtere kleur via https://encycolorpedia.com/6a2060
+$color-border: #6A2060;
+$color-text-inverse: white;
 
 *, :after, :before {
     box-sizing: border-box;
@@ -64,8 +68,28 @@ header {
     padding-bottom: 1.5rem;
 }
 
+.header {
+  padding:0;
+  margin:0;
+  background-color: $color-header;
+  color: $color-text-inverse;
+  text-align:right;
+}
+
+.header ul li:last-child {
+  padding-right: 10px;
+}
+
+// Highlight-box om bijvoorbeeld onze evenementen opvallend op homepage te laten zien
+.highlight-box {
+  background-color: $color-highlight-box-background;
+  padding: 10px;
+  margin: 2px;
+  border: 2px solid $color-highlight-box-border;
+  border-radius: 4px;
+}
+
 .link {
-	//white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

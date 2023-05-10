@@ -27,13 +27,27 @@
   {{ end }}
 
   <h2>Aankomende evenementen</h2>
-  <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide evenementenkalender voor meer details.</p>
+
     {{ $upcoming_events := .Site.Data.evenementen.kalender }}
     {{ $upcoming_events := sort $upcoming_events ".date_start" "asc" }}
+
+    {{ range $upcoming_events }}
+      {{ if eq .highlight_on_homepage true }}
+        <div class="highlight-box">
+          <div><strong>{{ .name }}</strong></div>
+          {{ with .date_start }}<p>Datum: {{ . }}</p>{{ end }}
+          {{ with .event_address }}<p>Adres: {{ . }}</p>{{ end }}
+          {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+
+  <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide evenementenkalender voor meer details.</p>
     <ul>
       {{ range first 10 $upcoming_events }}
         <li>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</li>
       {{ end }}
     </ul>
+
 
 {{ end }}
