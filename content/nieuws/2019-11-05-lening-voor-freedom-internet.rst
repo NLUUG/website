@@ -12,6 +12,7 @@ related_members:
 - mark-janssen
 - patrick-reijnen
 - ronny-lam
+signed_by: "Koen, Mark, Patrick, Ronny"
 ---
 
 Nieuwe provider: Freedom Internet
