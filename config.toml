@@ -70,8 +70,7 @@ defaultcontentlanguage = "nl"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML"]
-  # page = ["HTML", "CalendarEvent"]
-  page = ["HTML"]
+  page = ["HTML", "CalendarEvent"]
 
 [outputFormats.RSS]
   mediatype = "application/rss"
