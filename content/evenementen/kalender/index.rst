@@ -12,4 +12,11 @@ type: calendar
 no-ics-file: true
 ---
 
-Aankomende evenementen
+Op deze kalender verzamelen evenementen in de regio met onderwerpen zoals:
+
+- Open source software
+- Open standaarden
+- Software development
+- Informatiebeveiliging
+
+Heb je een suggestie of mis je een event dat voor onze doelgroep ook relevant is? Deel hem met onze webmasters!
