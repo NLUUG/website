@@ -1,5 +1,4 @@
-{{ if not (isset .Params "no-ics-file") }}
-BEGIN:VCALENDAR
+{{ if not (isset .Params "no-ics-file") }}BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
