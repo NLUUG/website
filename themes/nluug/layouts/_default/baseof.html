@@ -12,6 +12,24 @@
             {{- block "main" . }}
                 {{ .Content }}
             {{- end }}
+
+            {{ partial "show-call-to-action.html" . }}
+
+            {{ if isset .Params "show_child_pages" }}
+              {{ if eq .Params.show_child_pages true }}
+                 <section>
+    <p>Relevante pagina's:</p>
+    <ul>
+      {{ range .Pages }}
+        <li>
+          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | default "Geen titel" }}</a>
+        </li>
+        {{ end }}
+    </ul>
+  </section>
+              {{ end }}
+            {{ end }}
+
             {{ if eq .Section "posts" }}
             <div class="post-date">
               <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;

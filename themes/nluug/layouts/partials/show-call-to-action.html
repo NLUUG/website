@@ -1,0 +1,3 @@
+{{ if isset .Params "call_to_action" }}
+  <a class="button" href="{{ .Params.call_to_action_url }}">{{ .Params.call_to_action }}</a>
+{{ end }}
