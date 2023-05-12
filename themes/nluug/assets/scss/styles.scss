@@ -308,7 +308,6 @@ ul, ol {
 
 header {
     line-height: 2;
-    //padding-bottom: 1.5rem;
     //flex-basis: 10rem;
     //flex-grow: 1;
     //position: relative;
@@ -341,13 +340,6 @@ header ul a:first-child {
     padding-left: 1rem;
 }
 
-//.nav {
-//    height: 1px;
-//    background: #000;
-//    content: '';
-//    max-width: 10%;
-//}
-
 .list li {
     display: flex;
     align-items: baseline;
@@ -369,8 +361,7 @@ header ul a:first-child {
     //opacity: .25;
 }
 
-.m,
-hr {
+.m,hr {
     border: 0;
     margin: 3rem 0
 }
@@ -388,26 +379,6 @@ img {
     color: #9a9a9a;
 }
 
-.animate-blink {
-    animation: opacity 1s infinite;
-    opacity: 1;
-    // margin-left: -1%;
-}
-
-@keyframes opacity {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
 .tags {
     display: flex;
     justify-content: space-between;
@@ -422,11 +393,3 @@ img {
     display: inline;
 }
 
-.avatar {
-    height: 120px;
-    width: 120px;
-    position: relative;
-    margin: -10px 0 0 15px;
-    float: right;
-    border-radius: 50%;
-}
