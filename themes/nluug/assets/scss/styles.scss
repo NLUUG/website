@@ -60,24 +60,169 @@ h1, h2, h3, h4, h5, strong, b {
     //text-transform: uppercase;
 }
 
-header {
-    //display: flex;
-    //justify-content: space-between;
-    //padding-bottom: 0.5rem;
+//header {
+//    //display: flex;
+//    //justify-content: space-between;
+//    //padding-bottom: 0.5rem;
+//    line-height: 2;
+//    padding-bottom: 1.5rem;
+//}
+
+//.header {
+//  padding:0;
+//  margin:0;
+//  background-color: $color-header;
+//  color: $color-text-inverse;
+//  text-align:right;
+//}
+//
+//.header ul li:last-child {
+//  padding-right: 10px;
+//}
+
+.header{
+    background-color: $color-header;
+    box-shadow: 1px 1px 5px 0px grey;
+    position: sticky;
+    //top: 100px;
+    width: 100%;
     line-height: 2;
-    padding-bottom: 1.5rem;
+  }
+
+/* Nav menu */
+.nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: $color-header;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    color: $color-text-inverse;
+}
+.menu a:visited {
+    color: $color-text-inverse;
+}
+.menu a:hover{
+    background-color: $color-header;
+    color: gray;
+    text-decoration: none;
 }
 
-.header {
-  padding:0;
-  margin:0;
-  background-color: $color-header;
+/* Menu Icon */
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+.hamb-line {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+}
+
+.hamb-line::before,
+.hamb-line::after{
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+} /* Hide checkbox */
+
+/* Toggle menu icon */
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+/* Sub nav */
+.subnav-content {
+    background-color: $color-header;
+    color: black;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0 ;
+    display: none;
+  }
+.subnav-content a {
+    color: $color-text-inverse;
+    text-decoration: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+.subnav-content a:visited {
   color: $color-text-inverse;
-  text-align:right;
+}
+.subnav:hover .subnav-content {
+    display: block;
 }
 
-.header ul li:last-child {
-  padding-right: 10px;
+/* Responsiveness */
+@media (min-width: 768px) {
+    /* Sub nav */
+    .subnav-content {
+        padding: 8px 0;
+        display: none;
+        background-color: $color-header;
+        color: $color-text-inverse;
+    }
+    .header {
+      text-alignt: right;
+    }
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a,a:link,a:visited {
+      color: $color-text-inverse;
+    }
+    .menu a:hover {
+        background-color: transparent;
+        color: gray;
+    }
+
+    .hamb{
+        display: none;
+    }
 }
 
 // Highlight-box om bijvoorbeeld onze evenementen opvallend op homepage te laten zien
@@ -131,7 +276,7 @@ a:visited {
 
 a:hover,
 a.heading-link {
-    text-decoration: none
+    text-decoration: underline;
 }
 
 pre {
@@ -216,12 +361,12 @@ header ul a:first-child {
     padding-left: 1rem;
 }
 
-.nav {
-    height: 1px;
-    background: #000;
-    content: '';
-    max-width: 10%;
-}
+//.nav {
+//    height: 1px;
+//    background: #000;
+//    content: '';
+//    max-width: 10%;
+//}
 
 .list li {
     display: flex;
