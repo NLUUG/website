@@ -18,6 +18,7 @@ defaultcontentlanguage = "nl"
   # Datum-formaat en tijdzone
   dateFormat = "02-01-2006"
   timeZone = "Europe/Amsterdam"
+  twitter = "@nluug"
 
 [menu]
   [[menu.main]]
