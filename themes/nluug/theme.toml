@@ -1,18 +1,18 @@
 name = "NLUUG"
 license = "MIT"
-licenselink = "https://github.com/canhtran/maverick/blob/main/LICENSE"
+licenselink = "https://github.com/NLUUG/website/blob/main/themes/nluug/LICENSE"
 description = "Based initially on Maverick, a minimal Hugo blog theme"
 
 # The home page of the theme, where the source can be found.
-homepage = "https://github.com/canhtran/maverick"
+homepage = "https://github.com/NLUUG/website/tree/main/themes"
 
 # If you have a running demo of the theme.
-# demosite = "https://maverick.canhtran.me"
+demosite = "https://nluug.nl/"
 
 tags = ["blog"]
-features = ["ultra fast", "github comment", "responsive"]
+features = ["ultra fast", "responsive"]
 
 # If the theme has a single author
 [author]
     name = "Michael Boelen"
-    homepage = "https://michaelboelen.com"
+    homepage = "https://michaelboelen.com/"
