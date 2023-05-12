@@ -6,7 +6,7 @@ defaultcontentlanguage = "nl"
 title = "NLUUG"
 theme = "nluug"
 enableGitInfo = true
-
+disableHugoGeneratorInject = true
 
 [markup]
   [markup.goldmark.renderer]
