@@ -60,26 +60,6 @@ h1, h2, h3, h4, h5, strong, b {
     //text-transform: uppercase;
 }
 
-//header {
-//    //display: flex;
-//    //justify-content: space-between;
-//    //padding-bottom: 0.5rem;
-//    line-height: 2;
-//    padding-bottom: 1.5rem;
-//}
-
-//.header {
-//  padding:0;
-//  margin:0;
-//  background-color: $color-header;
-//  color: $color-text-inverse;
-//  text-align:right;
-//}
-//
-//.header ul li:last-child {
-//  padding-right: 10px;
-//}
-
 .header{
     background-color: $color-header;
     box-shadow: 1px 1px 5px 0px grey;
@@ -173,7 +153,7 @@ h1, h2, h3, h4, h5, strong, b {
     width: 100%;
     z-index: 1;
     padding: 10px 0 ;
-    display: none;
+    //display: none;
   }
 .subnav-content a {
     color: $color-text-inverse;
@@ -198,15 +178,15 @@ h1, h2, h3, h4, h5, strong, b {
         background-color: $color-header;
         color: $color-text-inverse;
     }
-    .header {
-      text-align: right;
+    .header ul {
+      float: right;
     }
     .nav{
         max-height: none;
         top: 0;
         position: relative;
         float: right;
-        width: fit-content;
+        //width: fit-content;
         background-color: transparent;
     }
     .menu li{
