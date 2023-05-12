@@ -1,45 +1,23 @@
-
-
-   <header class="header">
-
-        <input class="side-menu" type="checkbox" id="side-menu">
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-        <nav class="nav">
-
-          <ul class="menu">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                {{ if .Children }}
-                  <li class="subnav">
-                    <a href="{{ .URL }}">{{ .Name }}</a>
-                    <ul class="subnav-content">
-                      {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                      {{ end }}
-                    </ul>
-                  </li>
-              {{ else }}
-                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
+ <header class="header">
+  <input class="side-menu" type="checkbox" id="side-menu">
+  <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+  <nav class="nav">
+        <ul class="menu">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+              {{ if .Children }}
+                <li class="subnav">
+                  <a href="{{ .URL }}">{{ .Name }}</a>
+                  <ul class="subnav-content">
+                    {{ range .Children }}
+                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                  </ul>
+                </li>
+            {{ else }}
+              <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
-          </ul>
-        </nav>
-    </header>
-<!--
-<header>
-  <nav style="padding:0;width:100%;">
-    <a href="/"><img src="/afbeeldingen/logo/nluug-logo.png" alt="NLUUG-logo" title="{{ .Site.Title }}"></a>
-    <div class="header">
-    <ul>
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.main }}
-        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-        <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
-        </li>
-      {{ end }}
-    </ul>
-    </div>
+          {{ end }}
+        </ul>
   </nav>
 </header>
--->
-<hr class="hr-list" style="padding: 0;margin: 0;">
