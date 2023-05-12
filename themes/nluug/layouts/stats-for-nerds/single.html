@@ -1,13 +1,11 @@
 {{ define "main" }}
-
-
 <h2>Website basis</h2>
 
 Titel: {{ .Site.Title }}
 Hugo-versie: {{ hugo.Version }}
 
 <h2>Laatste wijzigingen binnen website</h2>
-Moment van bouwen {{ now }}
+Moment van bouwen = {{ now }}
 Laatste wijziging op de website {{ .Site.LastChange }}
 
 
@@ -20,16 +18,18 @@ Aantal secties: {{ .Site.Sections }}
 Laatste wijzigingen van deze pagina
 
 .Date = {{ .Date }}
-.ExpiryDate = {{ .ExpiryDate}}
+.ExpiryDate = {{ .ExpiryDate }}
 .PublishDate = {{ .PublishDate }}
-.Lastmod = {{ .Lastmod. }}
+.Lastmod = {{ .Lastmod }}
 
 Is deze pagina vertaald? {{ .IsTranslated }}
 
 
 <h2>Git</h2>
 
-<code>{{.GitInfo | jsonify}}</code>
+{{ if .GitInfo }}
+<pre>{{ .GitInfo | jsonify }}</pre>
+{{ end }}
 
 <h2>Datum en tijd</h2>
 {{ if .GitInfo }}
