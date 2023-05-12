@@ -5,7 +5,7 @@ languageCode = "nl"
 defaultcontentlanguage = "nl"
 title = "NLUUG"
 theme = "nluug"
-
+enableGitInfo = true
 
 
 [markup]
