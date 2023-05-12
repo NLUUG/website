@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+
+<h2>Website basis</h2>
+
+Titel: {{ .Site.Title }}
+
+
+<h2>Laatste wijzigingen binnen website</h2>
+Moment van bouwen {{ now }}
+{{ .Site.LastChange }}
+
+
+<h2>Alle pagina's</h2>
+{{ .Site.Pages }}
+{{ .Site.Sections }}
+
+<h2>Deze pagina</h2>
+
+Laatste wijzigingen van deze pagina
+
+.Date pulls from the date field in a content’s front matter. See also .ExpiryDate, .PublishDate, and .Lastmod.
+
+Is pagina vertaald? {{ .IsTranslated }}
+
+
+<h2>Git</h2>
+
+{{.GitInfo | jsonify}}
+
+<h2>Datum en tijd</h2>
+{{ if .GitInfo }}
+  Git datum van laaste wijziging: {{ .GitInfo.AuthorDate }}a
+{{ else }}
+  Geen git-informatie beschikbaar.
+{{ end }}
+
+
+<h2>Taalondersteuning</h2>
+
+
+Ondersteunt deze website meerdere talen? {{ .Site.IsMultiLingual }}
+Welke talen? {{ .Site.Languages }}
+
+Taal: {{ .Site.Language }}
+Taalcode: {{ .Site.LanguageCode }}
+Gekozen taal: {{ .Site.Language.Lang }} (naam: {{ .Site.Language.LanguageName }}, gewicht: {{ .Site.Language.Weight }}
+
+
+
+
+
+  <div>{{ .Content }}</div>
+{{ end }}
