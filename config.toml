@@ -70,6 +70,9 @@ defaultcontentlanguage = "nl"
     style = 'monokailight'
     tabWidth = 4
 
+[social]
+  twitter = "NLUUG"
+
 [taxonomies]
   tag = "tags"
 

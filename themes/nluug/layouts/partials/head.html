@@ -2,18 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Liste - {{ .Site.BaseURL }}">
     <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <!-- Social media -->
     {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/schema.html" . }}
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@nluug">
-    <meta name="twitter:creater" content="@nluug">
-    <meta name="twitter:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
-
+    {{ template "_internal/twitter_cards.html" . }}
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" href="{{ .Site.BaseURL }}/assets/favicon.ico">
     <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}/atom.xml" />
@@ -22,7 +15,7 @@
     {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
     {{ $styles_extra := resources.Get "scss/_extra.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
     <style>{{ $styles.Content | safeCSS }} {{ $styles_extra.Content | safeCSS }}</style>
-
+<!--
     {{ if .IsHome -}}
   <script type="application/ld+json">
   {
@@ -89,5 +82,5 @@
   }
   </script>
   {{ end }}
-
+-->
   </head>
