@@ -1,6 +1,5 @@
-{{ $currentLang := $.Site.Language.Lang }}
 <!doctype html>
-<html lang="{{ $currentLang | default "nl" }}">
+<html{{ with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end }}>
   {{ partial "head.html" . }}
   <body>
     <a class="skip-link" href="#main">Ga naar hoofd</a>

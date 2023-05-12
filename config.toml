@@ -1,23 +1,30 @@
-baseURL = 'https://www3.nluug.nl/'
-languageCode = 'nl'
-title = 'NLUUG'
-theme = 'nluug'
+# Configuratie voor de website
 
-languagecode = "nl"
+baseURL = "https://www3.nluug.nl/"
+languageCode = "nl"
 defaultcontentlanguage = "nl"
+title = "NLUUG"
+theme = "nluug"
 
 
-[permalinks]
-  pages = "/:slug"
 
-[params]
-  logo = '/assets/favicon.ico'
-  description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
-  # Fallback-auteur voor posts die geen echte auteur hebben
-  author = 'NLUUG'
-  # Datum-formaat en tijdzone
-  dateFormat = "02-01-2006"
-  timeZone = "Europe/Amsterdam"
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
 
 [menu]
   [[menu.main]]
@@ -52,30 +59,6 @@ defaultcontentlanguage = "nl"
     url = "/contact/"
     weight = 50
 
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    hl_inline = false
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    noHl = false
-    style = 'monokailight'
-    tabWidth = 4
-
-[social]
-  twitter = "NLUUG"
-
-[taxonomies]
-  tag = "tags"
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML"]
@@ -97,8 +80,18 @@ defaultcontentlanguage = "nl"
 #  mediaType = "application/xml"
 #  baseName = "schedule"
 
+[params]
+  description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
+  # Fallback-auteur voor posts die geen echte auteur hebben
+  author = "NLUUG"
+  # Datum-formaat en tijdzone, de gebruikte waardes in datum en tijd zijn van belang
+  dateFormat = "02-01-2006"
+  timeZone = "Europe/Amsterdam"
+  # Grafisch
+  logo = "/assets/favicon.ico"
 
-#ignoreErrors = ["error-remote-getjson"]
+[permalinks]
+  pages = "/:slug"
 
 [security]
   enableInlineShortcodes = false
@@ -114,5 +107,16 @@ defaultcontentlanguage = "nl"
     methods = ['(?i)GET|POST']
     urls = ['.*']
 
+[social]
+  twitter = "NLUUG"
+
+[taxonomies]
+  tag = "tags"
+
+
+
+
+
+#ignoreErrors = ["error-remote-getjson"]
 
 # EOF
