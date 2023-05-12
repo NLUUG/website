@@ -7,7 +7,13 @@
     <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/schema.html" . }}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@nluug">
+    <meta name="twitter:creater" content="@nluug">
+    <meta name="twitter:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" href="{{ .Site.BaseURL }}/assets/favicon.ico">
     <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}/atom.xml" />
