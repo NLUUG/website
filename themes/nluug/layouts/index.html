@@ -4,7 +4,7 @@
   {{ if gt (len (where .Site.RegularPages "Section" "nieuws")) 0 }}
       <h2>Laatste nieuws</h2>
       <section>
-      <ul reversed class="list">
+      <ul class="list">
         {{ range (first 3 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
           <li>
             <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
@@ -34,8 +34,8 @@
     {{ range $upcoming_events }}
       {{ if eq .highlight_on_homepage true }}
         <div class="highlight-box">
-          <div><strong>{{ .name }}</strong></div>
-          {{ with .date_start }}<p>Datum: {{ . }}</p>{{ end }}
+          <h3>{{ .name }}</h3>
+          {{ with .date_start | dateFormat "02-01-2006" }}<p>Datum: {{ . }}</p>{{ end }}
           {{ with .event_address }}<p>Adres: {{ . }}</p>{{ end }}
           {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
         </div>
