@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<h2>Laatste wijzigingen</h2>
+    {{ $byLastMod :=  .Site.RegularPages.ByLastmod.Reverse }}
+
+    <table>
+    {{ range $byLastMod }}
+    <tr>
+      <td>{{ .Lastmod }}</td>
+      <td>{{ .Title }}</td>
+      <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+      <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+    </tr>
+    {{ end }}
+    </table>
+
+  <div>{{ .Content }}</div>
+{{ end }}
