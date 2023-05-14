@@ -1,7 +1,9 @@
 ---
 cascade:
-  type: news
+  type: posts
+  layout: news
 title: "Nieuwsberichten"
+type: section
 ---
 
 Hier staan alle nieuwsberichten

@@ -1,8 +1,8 @@
 # Configuratie voor de website
 
-baseURL = "https://www3.nluug.nl"
+baseURL = "https://www3.nluug.nl/"
 languageCode = "nl"
-defaultcontentlanguage = "nl"
+defaultContentLanguage = "nl"
 title = "NLUUG"
 theme = "nluug"
 enableGitInfo = true

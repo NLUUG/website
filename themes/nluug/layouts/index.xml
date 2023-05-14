@@ -1,23 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <!-- Required channel elements -->
+    {{- $author := or (.Site.Params.author) (.Site.Author.name) -}}
+    {{- $language := or (.Site.LanguageCode) (.Site.Language.Lang) -}}
     <title>{{ .Site.Title }}</title>
     <description>{{ .Site.Params.description }}</description>
-    <link>{{ .Site.BaseURL }}</link>
-    <!-- Optional channel elements -->
-    <language>en</language>
-    <copyright>Copyright {{ now.Format "2006"}}, Calvin Tran</copyright>
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
-    <generator>Hugo - gohugo.io</generator>
+    <link>{{ absURL "" }}</link>
+    <language>{{ $language | default "en" }}</language>
+    <copyright>Copyright {{ now.Format "2006"}}, {{ $author }}</copyright>
+    <lastBuildDate>{{ .Site.LastChange.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ with .Site.Params.webmaster }}
+      <webMaster>{{ . }}</webMaster>
+    {{ end }}
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="{{ .Site.BaseURL }}/atom.xml" rel="self" type="application/atom+xml"/>
-    {{ $author :=  or (.Site.Params.author) (.Site.Author.name) }}
-    {{ range where .Site.RegularPages "Section" "posts" }}
+    <atom:link href="{{ absURL "atom.xml" }}" rel="self" type="application/atom+xml"/>
+    {{ range where .Site.RegularPages "Type" "posts" }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <description>{{ .Content | html }}</description>
-      <author>{{ $author }}</author>
+      <description>{{ .Content | plainify }}</description>
+      <author>{{ .Params.Author | default $author }}</author>
       <guid>{{ .Permalink }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     </item>
