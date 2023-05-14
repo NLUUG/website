@@ -11,8 +11,3 @@ title: "Stats for Nerds"
 type: stats-for-nerds
 ---
 
-
-Voor onze website hebben we de optie om zowel RST (reStructuredText) als MD (Markdown) te gebruiken. We geven de voorkeur aan RST omdat dit formaat wat meer mogelijkheden kent.
-
-
-
