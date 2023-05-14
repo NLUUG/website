@@ -40,7 +40,7 @@
       {{ end }}
     {{ end }}
 
-  <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide evenementenkalender voor meer details.</p>
+    <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide <a href="/evenementen/kalender/">evenementenkalender</a> voor meer details.</p>
     <ul>
       {{ range first 10 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
         <li>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</li>
