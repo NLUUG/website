@@ -6,7 +6,7 @@
     {{ $upcoming_events := sort $upcoming_events ".date_start" "desc" }}
     <ul>
       {{ range first 100 $upcoming_events }}
-        <li>{{ .date_start }} - {{ .name }}</li>
+        <li>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</li>
       {{ end }}
     </ul>
 {{ end }}
