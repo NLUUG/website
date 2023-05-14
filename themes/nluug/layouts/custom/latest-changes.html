@@ -1,18 +1,28 @@
 {{ define "main" }}
 
 <h2>Laatste wijzigingen</h2>
-    {{ $byLastMod :=  .Site.RegularPages.ByLastmod.Reverse }}
+  {{ $byLastMod :=  .Site.RegularPages.ByLastmod.Reverse }}
 
-    <table>
+  <table>
+      <thead>
+        <tr>
+          <th>Datum</th>
+          <th>Titel</th>
+          <th>Taal</th>
+          <th>Bestandsnaam</th>
+        </tr>
+      </thead>
+      <tbody>
     {{ range $byLastMod }}
     <tr>
-      <td>{{ .Lastmod }}</td>
+      <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
       <td>{{ .Title }}</td>
       <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
       <td>{{ with .File }}{{ .Path }}{{ end }}</td>
     </tr>
     {{ end }}
-    </table>
+      </tbody>
+  </table>
 
   <div>{{ .Content }}</div>
 {{ end }}
