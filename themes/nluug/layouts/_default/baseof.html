@@ -2,11 +2,13 @@
 <html{{ with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end }}>
   {{ partial "head.html" . }}
   <body>
+    <!-- Accessibility: skip-link voor mobiele apparaten -->
     <a class="skip-link" href="#main">Ga naar hoofd</a>
       <main id="main">
         <div class="content">
           <a href="/"><img src="/afbeeldingen/logo/nluug-logo.png" alt="NLUUG-logo" title="{{ .Site.Title }}"></a>
           {{ partialCached "header.html" . }}
+          {{ partial "breadcrumb.html" . }}
           <section>
             <!-- <h2 class="post">{{ .Title }}</h2> -->
             {{- block "main" . }}
@@ -22,7 +24,7 @@
     <ul>
       {{ range .Pages }}
         <li>
-          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | default "Geen titel" }}</a>
+          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
         </li>
         {{ end }}
     </ul>

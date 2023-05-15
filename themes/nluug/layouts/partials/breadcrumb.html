@@ -1,0 +1,16 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    {{ range $index,$element := .Ancestors.Reverse }}
+      {{ if eq $index 0 }}
+        <li><a href="{{ .Permalink }}">🏠</a></li>
+      {{ else }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    <li class="active">
+      <a aria-current="page" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    </li>
+  </ol>
+</nav>
