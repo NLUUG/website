@@ -1,14 +1,24 @@
 <footer>
 
   <h2>Help mee</h2>
-  {{ with .File }}<a class="button" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}">Verbeter deze pagina</a>{{ end }}
+  {{ with .File }}<a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}">Verbeter deze pagina</a>{{ end }}
 
   <h2>Volg ons</h2>
-  <p>Beschikbare feeds: 
+  {{ $iconsize := .Site.Params.mediumIconSize }}
+  {{ with .Site.Params.twitter_handle }}
+    <a href="https://twitter.com/{{ . }}"><img src="/afbeeldingen/iconen/twitter.svg" height="{{ $iconsize }}" width="{{ $iconsize }}" alt="Twitter"></a>
+  {{ end }}
+  {{ if and
+    (.Site.Params.mastodon_handle)
+    (.Site.Params.mastodon_instance)
+  }}
+    <a href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}"><img src="/afbeeldingen/iconen/mastodon.svg" height="{{ $iconsize }}" width="{{ $iconsize }}" alt="Mastodon"></a>
+  {{ end }}
+  <p>Beschikbare feeds:
 <a href="{{ absURL "atom.xml" }}">Atom</a> | <a href="{{ absURL "feed.json" }}">JSON</a>
-{{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }}| <a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
-{{ with .Site.GetPage "/website" }}| <a href="{{ .Permalink }}">Website details</a>{{ end }}
-  </p>
+{{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }} | <a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+{{ with .Site.GetPage "/website/sitemap" }} | <a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+</p>
 
 {{ if .Site.IsServer }}
   <div style="background-color: yellow;">
