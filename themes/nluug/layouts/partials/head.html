@@ -12,9 +12,7 @@
     <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ absURL "atom.xml" }}" />
     <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ absURL "feed.json" }}" />
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
-    {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-    {{ $styles_extra := resources.Get "scss/_extra.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-    <style>{{ $styles.Content | safeCSS }} {{ $styles_extra.Content | safeCSS }}</style>
+    {{ partialCached "style.html" . }}
 <!--
     {{ if .IsHome -}}
   <script type="application/ld+json">

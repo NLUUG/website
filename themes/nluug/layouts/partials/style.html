@@ -1,0 +1,3 @@
+{{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+{{ $styles_extra := resources.Get "scss/_extra.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+<style>{{ $styles.Content | safeCSS }} {{ $styles_extra.Content | safeCSS }}</style>
