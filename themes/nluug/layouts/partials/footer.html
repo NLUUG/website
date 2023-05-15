@@ -1,7 +1,10 @@
 <footer>
 
-  {{ with .File }}<a href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}">Verbeter deze pagina</a>{{ end }}
-Feeds: <a href="{{ absURL "atom.xml" }}">Atom</a><a href="{{ absURL "feed.json" }}">JSON</a>
+  <h2>Help mee</h2>
+  {{ with .File }}<a class="button" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}">Verbeter deze pagina</a>{{ end }}
+
+  <h2>Volg ons</h2>
+  <p>Beschikbare feeds: <a href="{{ absURL "atom.xml" }}">Atom</a> | <a href="{{ absURL "feed.json" }}">JSON</a>, <a href="/website/laatste-wijzigingen/">Laatste wijzigingen</a></p>
 
 {{ if .Site.IsServer }}
   <div style="background-color: yellow;">
