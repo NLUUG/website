@@ -8,11 +8,11 @@ tags:
 title: "NLUUG"
 ---
 
-De NederLandse Unix User Group NLUUG is een vereniging voor (professionele) gebruikers van UNIX/Linux, Open Source, Open Systemen en Open Standaarden in Nederland. Onder de NLUUG gemeenschap vallen bijvoorbeeld systeembeheerders, programmeurs en netwerkspecialisten. Daarmee is niet gezegd dat NLUUG niet ook interessant kan zijn voor bijvoorbeeld architecten.
+De Nederlandse Unix User Group (NLUUG) is een vereniging voor (professionele) gebruikers van UNIX/Linux, Open Source, Open Systemen en Open Standaarden in Nederland. Onder de NLUUG-gemeenschap vallen bijvoorbeeld systeembeheerders, programmeurs en netwerkspecialisten.
 
-Ben je als professional bezig met ‘Open’, dan is NLUUG de vereniging bij uitstek waar je je technische kennis kunt bijhouden, bijvoorbeeld tijdens onze halfjaarlijkse conferenties. Het `doel van NLUUG </organisatie/doelstellingen/>`_ is namelijk de verspreiding van de toepassing van en kennis over “Open” en UNIX/Linux.
+Ben je als professional bezig met "open", dan is NLUUG de vereniging bij uitstek waar je je technische kennis kunt bijhouden, bijvoorbeeld tijdens onze halfjaarlijkse conferenties. Het `doel van NLUUG </organisatie/doelstellingen/>`_ is namelijk de verspreiding van de toepassing van en kennis over open standaarden en UNIX/Linux.
 
-NLUUG onderhoudt nauwe banden met vele organisaties en personen die de "Open" gedachten nastreven.
+NLUUG onderhoudt nauwe banden met vele organisaties en personen die de *open* gedachten nastreven.
 
 Blijf op de hoogte
 ==================
