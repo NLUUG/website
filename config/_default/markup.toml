@@ -1,0 +1,20 @@
+# Configuratie voor highlighting snippets e.d.
+
+[markup.goldmark.renderer]
+    unsafe = true
+[markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
+
+# EOF

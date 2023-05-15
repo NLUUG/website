@@ -1,0 +1,22 @@
+# Configuratie tbv exporteerde formaten
+
+# RSS-feed (Atom)
+[RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+# JSON Feed, index.json
+[JSON]
+  mediatype = "application/json"
+  baseName = "feed"
+
+# CalendarEvent genereerd een iCal-bestand voor evenementen
+[CalendarEvent]
+  mediaType = "text/calendar"
+  baseName = "calendar"
+
+#[outputFormats.XMLEvent]
+#  mediaType = "application/xml"
+#  baseName = "schedule"
+
+# EOF

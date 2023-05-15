@@ -1,0 +1,49 @@
+# Menu-configuratie
+
+  [[main]]
+    identifier = "organisatie"
+    name = "Organisatie"
+    url = "/organisatie/"
+    weight = 10
+
+  [[main]]
+    identifier = "evenementen"
+    name = "Evenementen"
+    url = "/evenementen/"
+    weight = 20
+
+  [[main]]
+    identifier = "evenementen-kalender"
+    name = "Kalender"
+    url = "/evenementen/kalender/"
+    parent = "evenementen"
+    weight = 21
+
+  [[main]]
+    identifier = "lidmaatschap"
+    name = "Lidmaatschap"
+    url = "/lidmaatschap/"
+    weight = 30
+
+  [[main]]
+    identifier = "nieuws"
+    name = "Nieuws"
+    url = "/nieuws/"
+    weight = 40
+
+  [[main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+
+[[footer]]
+  name = 'Terms'
+  pageRef = '/terms'
+  weight = 10
+[[footer]]
+  name = 'Privacy'
+  pageRef = '/privacy'
+  weight = 20
+
+# EOF

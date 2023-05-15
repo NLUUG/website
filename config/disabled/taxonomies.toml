@@ -1,0 +1,6 @@
+# Configuratie voor het aanmaken van category-/tags-pagina's
+
+[taxonomies]
+  tag = "tags"
+
+# EOF

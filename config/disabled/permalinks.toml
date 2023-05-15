@@ -1,0 +1,6 @@
+# Configuratie voor URL-opbouw
+
+[permalinks]
+  pages = "/:slug"
+
+# EOF

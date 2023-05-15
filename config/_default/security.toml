@@ -1,0 +1,16 @@
+# Configuratie tbv extra beveiliging en toegestane functies tijdens render en testen
+
+enableInlineShortcodes = false
+
+[exec]
+  allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^rst2html$']
+  osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|GIT_EXEC_PATH|LD_LIBRARY_PATH|npm_config_(cache|init_module|userconfig)|pandoc_datadir|PYTHONHOME|RUBYLIB|SNAP)$']
+
+[funcs]
+  getenv = ['^HUGO_', '^CI$']
+
+[http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+# EOF
