@@ -1,12 +1,11 @@
 ---
 date: 2023-05-05T19:00:45+02:00
 description: "Leer meer over het lidmaatschap van de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
-lastmod: 2023-05-05T19:00:45+02:00
 categories:
 - lidmaatschap
 tags:
 - lidmaatschap
-title: "Lidmaatschap NLUUG"
+title: "Lidmaatschap"
 call_to_action: "Word lid"
 call_to_action_url: "/lidmaatschap/aanmelden/"
 show_child_pages: true
