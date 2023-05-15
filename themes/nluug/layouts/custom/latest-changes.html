@@ -1,28 +1,33 @@
 {{ define "main" }}
 
+<div>{{ .Content }}</div>
+
 <h2>Laatste wijzigingen</h2>
-  {{ $byLastMod :=  .Site.RegularPages.ByLastmod.Reverse }}
-
-  <table>
-      <thead>
-        <tr>
-          <th>Datum</th>
-          <th>Titel</th>
-          <th>Taal</th>
-          <th>Bestandsnaam</th>
-        </tr>
-      </thead>
-      <tbody>
-    {{ range $byLastMod }}
-    <tr>
-      <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
-      <td>{{ .Title }}</td>
-      <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
-      <td>{{ with .File }}{{ .Path }}{{ end }}</td>
-    </tr>
-    {{ end }}
-      </tbody>
-  </table>
-
-  <div>{{ .Content }}</div>
+  {{ $byLastMod := .Site.RegularPages.ByLastmod.Reverse }}
+  <div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+          <tr>
+            <th>Datum</th>
+            <th>Titel</th>
+            {{ if .Site.IsServer }}
+              <th>Taal</th>
+              <th>Bestandsnaam</th>
+            {{ end }}
+          </tr>
+        </thead>
+        <tbody>
+      {{ range first 50 $byLastMod }}
+      <tr>
+        <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        {{ if .Site.IsServer }}
+          <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+          <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+        {{ end }}
+      </tr>
+      {{ end }}
+        </tbody>
+    </table>
+  </div>
 {{ end }}

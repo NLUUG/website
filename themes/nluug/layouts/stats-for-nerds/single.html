@@ -1,152 +1,198 @@
 {{ define "main" }}
 
+<div class="table-wrapper">
+  <table class="fl-table" summary="Statistieken van de website">
+    <thead>
+        <tr>
+            <th id="key" scope="col">
+                Kenmerk
+            </th>
+            <th id="value" scope="col">
+                Waarde
+            </th>
+        </tr>
+    </thead>
 
-<table summary="Statistieken van de website" style="border: 1px solid gray; width:80%;">
-<caption>
-    Alle statistieken van deze website. More is more?
-</caption>
-<thead>
-    <tr>
-        <th id="key" scope="col">
-            Kenmerk
-        </th>
-        <th id="value" scope="col">
-            Waarde
-        </th>
-    </tr>
-</thead>
-
-<tbody>
-    <tr>
-        <th id="website-basics" class="span" colspan="2" scope="colgroup">
-            Website basis
-        </th>
-    </tr>
-    <tr>
-      <td headers="website-basics key">
-        Titel van website
-      </td>
-      <td headers="website-basics value">
-        {{ .Site.Title }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-basics key">
-        Hugo-versie
-      </td>
-      <td headers="website-basics value">
-        {{ hugo.Version }}
-      </td>
-    </tr>
-    <tr>
-        <th id="website-content" class="span" colspan="2" scope="colgroup">
+    <tbody>
+        <tr>
+          <th id="website-basics" colspan="2" scope="colgroup">
+                Website basis
+          </th>
+        </tr>
+        <tr>
+          <td headers="website-basics key">
+            Titel van website
+          </td>
+          <td headers="website-basics value">
+            {{ .Site.Title }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-basics key">
+            Hugo-versie
+          </td>
+          <td headers="website-basics value">
+            {{ hugo.Version }}
+          </td>
+        </tr>
+        <tr>
+          <th id="website-content" colspan="2" scope="colgroup">
             Content en updates
-        </th>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Moment van bouwen
-      </td>
-      <td headers="website-content value">
-        {{ now }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Laatste wijziging op de website (Git)
-      </td>
-      <td headers="website-content value">
-        {{ .Site.LastChange }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Aantal pagina's binnen website
-      </td>
-      <td headers="website-content value">
-        {{ .Site.Pages }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Aantal secties
-      </td>
-      <td headers="website-content value">
-        {{ .Site.Sections }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Datum dat deze pagina is aangemaakt
-      </td>
-      <td headers="website-content value">
-        {{ .Date }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Datum waarop deze pagina verloopt
-      </td>
-      <td headers="website-content value">
-        {{ .ExpiryDate }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Datum waarop deze pagina is gepubliceerd
-      </td>
-      <td headers="website-content value">
-        {{ .PublishDate }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Datum dat deze pagina voor het laatst is gewijzigd{{ if .GitInfo }} (data komt uit Git){{ end }}
-      </td>
-      <td headers="website-content value">
-        {{ .Lastmod }}
-      </td>
-    </tr>
-    <tr>
-      <td headers="website-content key">
-        Is deze pagina vertaald?
-      </td>
-      <td headers="website-content value">
-        {{ .IsTranslated }}
-      </td>
-    </tr>
-</tbody>
-</table>
+          </th>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Moment van bouwen
+          </td>
+          <td headers="website-content value">
+            {{ now }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Laatste wijziging op de website (Git)
+          </td>
+          <td headers="website-content value">
+            {{ .Site.LastChange }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Aantal pagina's binnen website
+          </td>
+          <td headers="website-content value">
+            {{ .Site.Pages }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Aantal secties
+          </td>
+          <td headers="website-content value">
+            {{ .Site.Sections }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Datum dat deze pagina is aangemaakt
+          </td>
+          <td headers="website-content value">
+            {{ .Date }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Datum waarop deze pagina verloopt
+          </td>
+          <td headers="website-content value">
+            {{ .ExpiryDate }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Datum waarop deze pagina is gepubliceerd
+          </td>
+          <td headers="website-content value">
+            {{ .PublishDate }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Datum dat deze pagina voor het laatst is gewijzigd{{ if .GitInfo }} (data komt uit Git){{ end }}
+          </td>
+          <td headers="website-content value">
+            {{ .Lastmod }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Is deze pagina vertaald?
+          </td>
+          <td headers="website-content value">
+            {{ .IsTranslated }}
+          </td>
+        </tr>
+        <tr>
+            <th id="website-git" colspan="2" scope="colgroup">
+                Git-ondersteuning
+            </th>
+        </tr>
+        <tr>
+          <td headers="website-git key">
+            GitInfo geactiveerd?
+          </td>
+          <td headers="website-git value">
+            {{ if .GitInfo }}Ja{{ else }}Nee{{ end }}
+          </td>
+        </tr>
+        {{ if .GitInfo }}
+        <tr>
+          <td headers="website-git key">
+            GitInfo: AuthorDate
+          </td>
+          <td headers="website-git value">
+            {{ .GitInfo.AuthorDate }}
+          </td>
+        </tr>
+        {{ end }}
+        {{ if .GitInfo }}
+        <tr>
+          <td headers="website-git key">
+            GitInfo-data
+          </td>
+          <td headers="website-git value">
+            {{ .GitInfo }}
+          </td>
+        </tr>
+        {{ end }}
+        <tr>
+            <th id="website-language" colspan="2" scope="colgroup">
+                Taalondersteuning
+            </th>
+        </tr>
+        <tr>
+          <td headers="website-language key">
+              Ondersteunt deze website meerdere talen?
+          </td>
+          <td headers="website-language value">
+            {{ .Site.IsMultiLingual }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-language key">
+              Geconfigureerde talen
+          </td>
+          <td headers="website-language value">
+            {{ .Site.Languages }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-language key">
+              Taal
+          </td>
+          <td headers="website-language value">
+            {{ .Site.Language }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-language key">
+              Taalcode
+          </td>
+          <td headers="website-language value">
+            {{ .Site.LanguageCode }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-language key">
+              Gekozen taal
+          </td>
+          <td headers="website-language value">
+            {{ .Site.Language.Lang }} (naam: {{ .Site.Language.LanguageName }}, gewicht: {{ .Site.Language.Weight }}
+          </td>
+        </tr>
+    </tbody>
+  </table>
+</div>
 
-
-
-<h2>Git</h2>
-
-{{ if .GitInfo }}
-<pre>{{ .GitInfo | jsonify }}</pre>
-{{ end }}
-
-<h2>Datum en tijd</h2>
-{{ if .GitInfo }}
-  Git datum van laatste wijziging: {{ .GitInfo.AuthorDate }}
-{{ else }}
-  Geen git-informatie beschikbaar.
-{{ end }}
-
-
-<h2>Taalondersteuning</h2>
-
-
-Ondersteunt deze website meerdere talen? {{ .Site.IsMultiLingual }}
-Welke talen? {{ .Site.Languages }}
-
-Taal: {{ .Site.Language }}
-Taalcode: {{ .Site.LanguageCode }}
-Gekozen taal: {{ .Site.Language.Lang }} (naam: {{ .Site.Language.LanguageName }}, gewicht: {{ .Site.Language.Weight }}
-
-
-
-
-
-  <div>{{ .Content }}</div>
+<div>{{ .Content }}</div>
 {{ end }}
