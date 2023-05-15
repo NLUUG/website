@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="table-wrapper">
-  <table class="fl-table" summary="Statistieken van de website">
+  <table class="fl-table">
     <thead>
         <tr>
             <th id="key" scope="col">
@@ -16,7 +16,7 @@
     <tbody>
         <tr>
           <th id="website-basics" colspan="2" scope="colgroup">
-                Website basis
+            Website basis
           </th>
         </tr>
         <tr>
@@ -113,9 +113,9 @@
           </td>
         </tr>
         <tr>
-            <th id="website-git" colspan="2" scope="colgroup">
-                Git-ondersteuning
-            </th>
+          <th id="website-git" colspan="2" scope="colgroup">
+            Git-ondersteuning
+          </th>
         </tr>
         <tr>
           <td headers="website-git key">
@@ -146,13 +146,13 @@
         </tr>
         {{ end }}
         <tr>
-            <th id="website-language" colspan="2" scope="colgroup">
-                Taalondersteuning
-            </th>
+          <th id="website-language" colspan="2" scope="colgroup">
+            Taalondersteuning
+          </th>
         </tr>
         <tr>
           <td headers="website-language key">
-              Ondersteunt deze website meerdere talen?
+            Ondersteunt deze website meerdere talen?
           </td>
           <td headers="website-language value">
             {{ .Site.IsMultiLingual }}
@@ -160,7 +160,7 @@
         </tr>
         <tr>
           <td headers="website-language key">
-              Geconfigureerde talen
+            Geconfigureerde talen
           </td>
           <td headers="website-language value">
             {{ .Site.Languages }}
@@ -168,7 +168,7 @@
         </tr>
         <tr>
           <td headers="website-language key">
-              Taal
+            Taal
           </td>
           <td headers="website-language value">
             {{ .Site.Language }}
@@ -176,7 +176,7 @@
         </tr>
         <tr>
           <td headers="website-language key">
-              Taalcode
+            Taalcode
           </td>
           <td headers="website-language value">
             {{ .Site.LanguageCode }}
@@ -184,7 +184,7 @@
         </tr>
         <tr>
           <td headers="website-language key">
-              Gekozen taal
+            Gekozen taal
           </td>
           <td headers="website-language value">
             {{ .Site.Language.Lang }} (naam: {{ .Site.Language.LanguageName }}, gewicht: {{ .Site.Language.Weight }}
