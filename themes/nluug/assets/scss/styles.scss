@@ -1,11 +1,14 @@
 
 $color-button: #1D3160;
 $color-button-hover: #17274d;
+$color-button-call-to-action: #138808;
+$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
 $color-header: #6A2060;
 $color-highlight-box-border: #6A2060;
 $color-highlight-box-background: #EBBCE5; // omgezet naar lichtere kleur via https://encycolorpedia.com/6a2060
 $color-border: #6A2060;
 $color-text-inverse: white;
+
 
 *, :after, :before {
     box-sizing: border-box;
@@ -13,13 +16,14 @@ $color-text-inverse: white;
 }
 
 body {
-    font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    //font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font: 1rem/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 1.2rem;
     // background: hsla(93, 0%, 96%, 1.00);
-    color: #000;
+    color: #2E2E2E;
 }
 
 .skip-link {
@@ -40,6 +44,13 @@ body {
 figure {
   margin-inline-start: 10px;
   margin-inline-end: 10px;
+}
+
+footer {
+  background-color: #E3E9F7;
+  border-top: 1px solid #99AFE2;
+  margin-top: 40px;
+  padding: 20px;
 }
 
 .grid-team-members {
@@ -237,6 +248,23 @@ a.button:hover, a.button:active {
   background-color: $color-button-hover;
 }
 
+// Button 
+.btn:link, .btn:visited {
+  border-radius: 4px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+// Button voor call-to-action, <a href="#" class="btn btn-cta">#</a>
+.btn-cta:link, .btn-cta:visited {
+  background-color: $color-button-call-to-action;
+}
+.btn-cta:hover, .btn-cta:active {
+  background-color: $color-button-call-to-action-hover;
+}
 
 .time {
     font-variant-numeric: tabular-nums;
