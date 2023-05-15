@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $.Scratch.Set "counter" 0 }}
+  {{ with .Params.project.title }}<h2>{{ . }}</h2>{{ end }}
+  <div>{{ .Content }}</div>
+  {{ with .Params.project }}
+    {{ with .title }}<p>Project: <strong>{{ . }}</strong></p>{{ end }}
+    {{ with .description }}<p><em>{{ . }}</em></p>{{ end }}
+    <h2>Taken</h2>
+    {{ with .tasks }}
+      {{ range . }}
+        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+        {{ with .name }}<h3>{{$.Scratch.Get "counter"}}. {{ . }}</h3>{{ end }}
+        {{ with .description }}<p><em>{{ . }}</em></p>{{ end }}
+        {{ with .goal }}<p>Doel: {{ . }}</p>{{ end }}
+        {{ with .link }}<p>Relevante link: <a href="{{ .url }}">{{ .name }}</a></p>{{ end }}
+        {{ if .finished }}<p>✔️ Hoofdtaak is afgerond</p>{{ end }}
+        {{ $.Scratch.Set "counter2" 0 }}
+        {{ with .subtasks }}
+          {{ range . }}
+            {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+            <h4>{{ $.Scratch.Get "counter" }}.{{ $.Scratch.Get "counter2" }}. {{ .name }}</h4>
+            {{ with .description }}<p><em>{{ . }}</em></p>{{ end }}
+            {{ if .finished }}<p>✔️ Subtaak is afgerond</p>{{ end }}
+            {{ with .link }}<p>Relevante link: <a href="{{ .url }}">{{ .name }}</a></p>{{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <p>Waarschuwing: dit project is niet goed geconfigureerd in de front matter.</p>
+  {{ end }}
+{{ end }}

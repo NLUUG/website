@@ -1,7 +1,8 @@
 {{ define "main" }}
-<h2>Open projecten</h2>
-  {{ range $.Site.Data.projecten.open }}
-    <h3>{{ .name }}</h3>
-    <p>{{ .description }}</p>
+<h2>Projecten</h2>
+{{ range $.Pages }}
+    <h3>{{ .Params.project.title }}</h3>
+    <p>{{ .Params.project.description }}</p>
+    <a href="{{ .RelPermalink }}">Meer informatie</a>
   {{ end }}
 {{ end }}
