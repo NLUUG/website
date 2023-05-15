@@ -1,4 +1,17 @@
-
 <footer>
-<p>© {{ dateFormat "2022" now }}</p>
+
+  {{ with .File }}<a href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}">Verbeter deze pagina</a>{{ end }}
+Feeds: <a href="{{ absURL "atom.xml" }}">Atom</a><a href="{{ absURL "feed.json" }}">JSON</a>
+
+{{ if .Site.IsServer }}
+  <div style="background-color: yellow;">
+  Kind = {{ .Kind }}<br>
+  Layout = {{ .Layout }}<br>
+  Type = {{ .Type }}<br>
+  Section = {{ .Section }}<br>
+  BundleType = {{ .BundleType }}<br>
+  IsPage = {{ .IsPage }}<br>
+  IsSection = {{ .IsSection }}<br>
+  </div>
+{{ end }}
 </footer>
