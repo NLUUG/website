@@ -413,17 +413,13 @@ img {
 }
 
 .fl-table td, .fl-table th {
-    //text-align: center;
+    text-align: left;
     padding: 8px;
 }
 
 .fl-table td {
     border-right: 1px solid #f8f8f8;
     font-size: 12px;
-}
-
-.fl-table tbody tr th {
-    text-align: left;
 }
 
 .fl-table thead th {
@@ -480,8 +476,7 @@ img {
         font-size: 13px;
         text-overflow: ellipsis;
     }
-    .fl-table thead th {
-        text-align: left;
+    .fl-table thead tr th {
         border-bottom: 1px solid #f7f7f9;
     }
     .fl-table tbody tr {
