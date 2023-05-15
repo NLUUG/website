@@ -4,7 +4,11 @@
   {{ with .File }}<a class="button" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}">Verbeter deze pagina</a>{{ end }}
 
   <h2>Volg ons</h2>
-  <p>Beschikbare feeds: <a href="{{ absURL "atom.xml" }}">Atom</a> | <a href="{{ absURL "feed.json" }}">JSON</a>, <a href="/website/laatste-wijzigingen/">Laatste wijzigingen</a></p>
+  <p>Beschikbare feeds: 
+<a href="{{ absURL "atom.xml" }}">Atom</a> | <a href="{{ absURL "feed.json" }}">JSON</a>
+{{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }}| <a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+{{ with .Site.GetPage "/website" }}| <a href="{{ .Permalink }}">Website details</a>{{ end }}
+  </p>
 
 {{ if .Site.IsServer }}
   <div style="background-color: yellow;">
