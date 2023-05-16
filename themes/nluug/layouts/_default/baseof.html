@@ -19,16 +19,16 @@
 
             {{ if isset .Params "show_child_pages" }}
               {{ if eq .Params.show_child_pages true }}
-                 <section>
-    <p>Relevante pagina's:</p>
-    <ul>
-      {{ range .Pages }}
-        <li>
-          <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
-        </li>
-        {{ end }}
-    </ul>
-  </section>
+                <section>
+                  <p>Relevante pagina's:</p>
+                  <ul>
+                    {{ range .Pages }}
+                      <li>
+                        <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
+                      </li>
+                      {{ end }}
+                  </ul>
+                </section>
               {{ end }}
             {{ end }}
 
