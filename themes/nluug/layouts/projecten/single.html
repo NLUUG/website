@@ -10,20 +10,30 @@
       {{ range . }}
         {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         {{ with .name }}<h3>{{$.Scratch.Get "counter"}}. {{ . }}</h3>{{ end }}
-        {{ with .description }}<p><em>{{ . }}</em></p>{{ end }}
-        {{ with .goal }}<p>Doel: {{ . }}</p>{{ end }}
-        {{ with .link }}<p>Relevante link: <a href="{{ .url }}">{{ .name }}</a></p>{{ end }}
-        {{ if .finished }}<p>✔️ Hoofdtaak is afgerond</p>{{ end }}
-        {{ $.Scratch.Set "counter2" 0 }}
-        {{ with .subtasks }}
-          {{ range . }}
-            {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
-            <h4>{{ $.Scratch.Get "counter" }}.{{ $.Scratch.Get "counter2" }}. {{ .name }}</h4>
-            {{ with .description }}<p><em>{{ . }}</em></p>{{ end }}
-            {{ if .finished }}<p>✔️ Subtaak is afgerond</p>{{ end }}
-            {{ with .link }}<p>Relevante link: <a href="{{ .url }}">{{ .name }}</a></p>{{ end }}
+        <div class="m-sm">
+          {{ with .description }}<blockquote>{{ . }}</blockquote>{{ end }}
+          {{ with .goal }}<p><b>Doel</b>: {{ . }}</p>{{ end }}
+          {{ with .comment }}<p><em>{{ . }}</em></p>{{ end }}
+          {{ if .finished }}
+            <p>✔️  Afgerond{{ with .link }}, zie <a href="{{ .url }}">{{ .name }}</a>{{ end }}</p>
+          {{ else }}
+            <p>🛠️ Nog af te ronden</p>
           {{ end }}
-        {{ end }}
+          {{ $.Scratch.Set "counter2" 0 }}
+          {{ with .subtasks }}
+              {{ range . }}
+                {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+                <h4>{{ $.Scratch.Get "counter" }}.{{ $.Scratch.Get "counter2" }}. {{ .name }}</h4>
+                {{ with .description }}<blockquote>{{ . }}</blockquote>{{ end }}
+                {{ with .comment }}<p><em>{{ . }}</em></p>{{ end }}
+                {{ if .finished }}
+                  <p>✔️  Subtaak afgerond{{ with .link }}, zie <a href="{{ .url }}">{{ .name }}</a>{{ end }}</p>
+                {{ else }}
+                  <p>🛠️ Subtaak wordt nog aan gewerkt</p>
+                {{ end }}
+              {{ end }}
+          {{ end }}
+        </div>
       {{ end }}
     {{ end }}
   {{ else }}
