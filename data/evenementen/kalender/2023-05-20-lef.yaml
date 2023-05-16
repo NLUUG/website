@@ -1,0 +1,16 @@
+id: 2023-05-20-linux-education-foundation
+date_start: 2023-05-20
+date_end: 2023-05-20
+event_address:
+  street_address: Burgemeester Brokxlaan 1000
+  postal_code: 5041 SG
+  city: Tilburg
+  country: NL
+event_timezone: Europe/Amsterdam
+event_start: 2023-05-20T13:00:00+0200
+event_end: 2023-05-20T16:00:00+0200
+event_timezone: Europe/Amsterdam
+event_location: Bibliotheek LocHal Tilburg
+link_external: https://linuxeducatie.nl/index.php/lochal-open-source-event/
+name: LocHal Open Source Event
+organizer: Linux Education Foundation
