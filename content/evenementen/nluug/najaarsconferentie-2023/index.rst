@@ -154,8 +154,8 @@ event_schedule:
         title: Ja hallo, dit hadden we niet afgesproken
     - column:
       talk:
-        speaker: De Politie
-        title: Geen centje pijn op ons glitterfestijn
+        speaker:
+        title:
   - row:
     columns:
     - column:
