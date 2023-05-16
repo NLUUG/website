@@ -19,6 +19,9 @@ project:
     subtasks:
     - name: Uitgelichte evenementen op hoofdpagina
       description: Sommige evenementen zijn voor onze bezoekers en leden meer relevant.
+      link:
+        name: Homepage
+        url: /
       finished: true
   - task:
     name: Evenementenkalender
@@ -29,27 +32,48 @@ project:
       url: /evenementen/kalender/
     finished: true
   - task:
-    name: Responsive navigatiemenu met subitems
-    description: Implementeren van een hoofdmenu waarbij subitems optioneel toegevoegd kunnen worden. Hierbij dient het menu zonder Javascript te werken zodat er maximale compabiliteit is en de website ook werkt als bezoekers scripts uit hebben staan.
+    name: Eenvoudige navigatie
     goal: Goede navigatiemogelijkheden en verbeterde vindbaarheid van veelgebruikte secties binnen de website
-    finished: true
+    finished: false
     subtasks:
     - name: Hamburgermenu voor mobiele apparaten
       description: Toevoegen van een zogeheten hamburgermenu dat opengeklapt kan worden op mobiele apparaten
       goal: Verbeterde leesbaarheid van content en flexibiliteit om de website te navigeren op kleinere schermen
       finished: true
+    - name: Responsive navigatiemenu met subitems
+      description: Implementeren van een hoofdmenu waarbij subitems optioneel toegevoegd kunnen worden. Hierbij dient het menu zonder Javascript te werken zodat er maximale compabiliteit is en de website ook werkt als bezoekers scripts uit hebben staan.
+      comment: Menu zit er al wel in, maar werkt nog niet lekker
+      finished: false
   - task:
     name: Implementatie breadcrumbs
-    description: Toepassen van zogeheten breadcrumbs
+    description: Toepassen van zogeheten breadcrumbs die het eenvoudiger maken om terug te navigeren of sneller de hoofdsecties van de website te bereiken. Dit is zeker zinvol als bezoekers via een zoekmachine op een diepergelegen pagina terecht zijn komen.
     goal: verbeterde navigatiemogelijkheid
     state: in-progress
+    finished: true
+    subtasks:
+    - name: Toevoegen navigatie-links aan pagina's
+      finished: true
+    - name: Opmaak van navigatie-links (style)
+      finished: true
+  - task:
+    name: Aanbrengen van Structured Data (Schema.org)
+    description: Schema.org is een methode om data, content en elementen te markeren binnen webpagina's. Het is een initiatief sinds juni 2011 van bedrijven zoals Google, Microsoft, Yahoo en Yandex om de beschikbare data beter te kunnen verwerken.
+    goal: Betere indexering van onze data en content
     finished: false
     subtasks:
-    - name: Toevoegen navigatie-links
-      finished: true
-    - name: Opmaak van navigatie-links
-      finished: true
-    - name: Toevoegen Schema.org
+    - name: Toevoegen Schema Article
+      finished: false
+    - name: Toevoegen Schema BreadcrumbList
+      finished: false
+    - name: Toevoegen Schema Event
+      finished: false
+    - name: Toevoegen Schema FAQ
+      finished: false
+    - name: Toevoegen Schema Person
+      finished: false
+    - name: Toevoegen Schema SiteNavigationElement
+      finished: false
+    - name: Toevoegen Schema WebSite
       finished: false
   - task:
     name: Zoekfunctie
@@ -71,5 +95,8 @@ project:
       description: Sitemap voor bezoekers om content gemakkelijker vindbaar te maken
       finished: true
       url: /website/sitemap/
+    - name: Sitemap aanmelden bij zoekmachines
+      description: Nadat website live staat mag XML-sitemap aangemeld worden bij zoekmachines voor snellere (her)indexering.
+      finished: false
   finished: false
 ---
