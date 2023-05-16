@@ -3,10 +3,23 @@
 
   <h2>Aankomende evenementen</h2>
     {{ $upcoming_events := .Site.Data.evenementen.kalender }}
-    {{ $upcoming_events := sort $upcoming_events ".date_start" "desc" }}
-    <ul>
-      {{ range first 100 $upcoming_events }}
-        <li>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</li>
+    {{ $upcoming_events := sort $upcoming_events ".date_start" "asc" }}
+    {{ range first 50 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
+    <div style="border: 1px solid darkgray; border-radius: 2px; padding:10px; margin:2px;">
+      <h3>{{ .name }}</h3>
+      {{ with .organizer }}<p><em>Georganizeerd door {{ .}}</em></p>{{ end }}
+      {{ if eq .date_start .date_end }}
+        {{ .date_start | dateFormat "02-01-2006" }}
+      {{ else }}
+        Van {{ .date_start | dateFormat "02-01-2006" }} t/m {{ .date_end | dateFormat "02-01-2006" }}
       {{ end }}
-    </ul>
+
+      {{ with .event_address }}
+      <p><strong>Adres</strong>: {{ with .street_address }}{{ . }}{{ end }}{{ with .postal_code }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}</p>
+      {{ end }}
+      {{ with .link_external }}
+        <a href="{{ . }}" rel="nofollow">Meer informatie (externe link)</a>
+      {{ end }}
+      </div>
+    {{ end }}
 {{ end }}
