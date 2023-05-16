@@ -34,7 +34,7 @@
         <div class="highlight-box">
           <h3>{{ .name }}</h3>
           {{ with .date_start | dateFormat "02-01-2006" }}<p>Datum: {{ . }}</p>{{ end }}
-          {{ with .event_address }}<p>Adres: {{ . }}</p>{{ end }}
+          {{ with .event_address }}<p><strong>Adres</strong>: {{ with .street_address }}{{ . }}{{ end }}{{ with .postal_code }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}</p>{{ end }}
           {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
         </div>
       {{ end }}
