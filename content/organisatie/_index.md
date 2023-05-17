@@ -26,30 +26,7 @@ active_members:
 - willem-toorop
 ---
 
-Op dagelijkse basis zijn vrijwilligers actief binnen onze vereniging. De taken variëren van ledenadministratie tot aan het vinden van nieuwe sprekers. Ook niet geheel belangrijk zijn de activiteiten die verricht worden door ons bestuur en ondersteuning van de diverse commissies.
+Op dagelijkse basis zijn vrijwilligers actief binnen onze vereniging. De taken variëren van het dagelijks bestuur tot aan het vinden van nieuwe sprekers voor conferenties en alles er tussenin.
 
-Bestuur
--------
-Het dagelijks bestuur bepaalt het beleid en gekozen visie van onze vereniging.
+Het dagelijks [bestuur](/organisatie/bestuur/) bepaalt het beleid van de vereniging en deelt een visie met haar leden. Ter ondersteuning zijn er diverse [commissies](/organisatie/commissies/) actief.
 
-Buro
-----
-Vragen rondom de ledenadministratie ligt bij ons buro.
-
-Filmteam
---------
-Het filmteam maakt, met toestemming van sprekers, zoveel mogelijk opnames. Zo kunnen leden en niet-leden de lezingen terugkijken die zij hebben gemist.
-
-In het verlengde van de filmopnames, valt ook het maken van foto's binnen dit team.
-
-Programmacommissie
-------------------
-Het samenstellen van het programma voor onze conferenties gebeurt door onze programmacommissie.
-
-PR-Commissie
-------------
-De PR-Commissie regelt de volledige communicatie rondom evenementen en andere verenigingsaangelegenheden richting leden en andere geïnteresseerden.
-
-Beheerteam
-----------
-Dit team onderhoud de diverse sites en systemen van NLUUG
