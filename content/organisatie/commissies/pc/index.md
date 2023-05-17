@@ -22,13 +22,11 @@ team_members:
 - willem-toorop
 ---
 
-Programmacommissie
-==================
+# Programmacommissie
 
 De programmacommissie (PC) stelt het programma van de conferenties samen. Met meestal drie gelijktijdige tracks vergt dit veel voorbereiding. Het is dan ook niet verwonderlijk dat de programmacommissie het grootste team vormt.
 
-Taken
------
+## Taken
 
 * Contacteren mogelijke sprekers
 * Begeleiding van sprekers voor en tijdens de conferentie
