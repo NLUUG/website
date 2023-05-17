@@ -1,0 +1,21 @@
+{
+  "id": "jeroen-baten",
+  "name": "Jeroen Baten",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/jeroen-baten-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Persoonlijke website",
+    "url": "https://www.jeroenbaten.nl/"
+  }],
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/jeroenbaten/",
+    "mastodon": "@JeroenBaten@mastodon.cloud",
+    "mastodon_url": "https://mastodon.cloud/@JeroenBaten",
+    "twitter": ""
+  }
+}
