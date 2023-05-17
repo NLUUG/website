@@ -35,13 +35,16 @@
       {{ if eq .highlight_on_homepage true }}
         <div class="highlight-box">
           <h3>{{ .name }}</h3>
-          <p><strong>Datum</strong>: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" | strings.FirstUpper }}</time></p>
-          <div class="m-b-sm">
-          {{ with .event_location }}<strong>{{ . }}</strong><br>{{ end }}
+          <p><strong>Datum</strong><br><time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" | strings.FirstUpper }}</time></p>
+          <!-- <div class="m-b-sm"> -->
+          {{ if .event_location }}
+            <p><strong>Locatie</strong><br>
+            {{ with .event_location }}{{ . }}<br>{{ end }}
             {{ with .event_address }}
-            {{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}
+              {{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}
+            {{ end }}
+            </p>
           {{ end }}
-          </div>
           {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
         </div>
       {{ end }}
