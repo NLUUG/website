@@ -10,19 +10,14 @@ title: "Commissies"
 show_child_pages: true
 ---
 
-## Buro
-Vragen rondom de ledenadministratie ligt bij ons buro.
+Door middel van meerdere commissies verspreiden we de werkzaamheden. Nagenoeg iedereen is vrijwilliger en hij of zij kiest zelf een relevante commissie om te ondersteunen.
 
-## Filmteam
-Het filmteam maakt, met toestemming van sprekers, zoveel mogelijk opnames. Zo kunnen leden en niet-leden de lezingen terugkijken die zij hebben gemist.
-
-In het verlengde van de filmopnames, valt ook het maken van foto's binnen dit team.
-
-## Programmacommissie
-Het samenstellen van het programma voor onze conferenties gebeurt door onze programmacommissie.
-
-## PR
-De PR-Commissie regelt o.a. de communicatie rondom evenementen en andere verenigingsaangelegenheden richting leden en andere geïnteresseerden.
-
-## Beheerteam
-Dit team onderhoud de diverse sites en systemen van NLUUG
+| Commissie   | Taken |
+| :--- | :--- |
+| Buro        | Ledenadministratie |
+| Filmteam    | Opnames en foto's van evenementen |
+| FTP         | Beheer van FTP-server |
+| Kascontrole | Verslag over gevoerde financiële beleid |
+| Programma   | Organiseren conferentie |
+| PR          | Communicatie |
+| Website     | Beheer van website en content |
