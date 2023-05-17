@@ -9,7 +9,7 @@
       <h3>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</h3>
       {{ with .organizer }}<p><em>Georganizeerd door {{ .}}</em></p>{{ end }}
       {{ if ne .date_start .date_end }}
-        <p>Event van meerdere dagen: {{ .date_start | dateFormat "02-01-2006" }} t/m {{ .date_end | dateFormat "02-01-2006" }}</p>
+      <p>Event van meerdere dagen: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | dateFormat "02-01-2006" }}</time> t/m <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_end }}">{{ .date_end | dateFormat "02-01-2006" }}</time></p>
       {{ end }}
       {{ $event_location := .event_location | default "Locatie onbekend" }}
       {{ with .event_address }}
