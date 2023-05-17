@@ -1,6 +1,18 @@
 ---
+categories:
+- organisatie
+date: 2023-05-17T11:02:43+02:00
+description: "Leer meer over het filmteam, die o.a. opnames en foto's van onze evenementen."
+tags:
+- organisatie
+- film
+- foto
+slug:
 title: "Filmteam"
-date: 2023-05-05T14:54:46+02:00
+type: team
+team_members:
+- mark-janssen
+- nick-cohn
 ---
 
 Het filmteam is vooral actief op de conferentie. Bij voldoende capaciteit wordt in alle zalen gefilmd.
