@@ -2,10 +2,10 @@
   {{ .Content }}
 
   {{ if gt (len (where .Site.RegularPages "Section" "nieuws")) 0 }}
+    <section>
       <h2>Laatste nieuws</h2>
-      <section>
       <ul class="list">
-        {{ range (first 3 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
+        {{ range (first 5 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
           <li>
             <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
             <hr class="hr-list">
@@ -13,17 +13,19 @@
           </li>
           {{ end }}
       </ul>
-      </section>
+    </section>
   {{ end }}
 
   {{ if gt (len (.Site.Data.projecten.open)) 0 }}
-    <h2>Lopende projecten</h2>
-    <ul>
-      {{ range $.Site.Data.projecten.open }}
-      <li>{{ .name }} ({{ .description_short }})</li>
-      {{ end }}
-    </ul>
-    <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
+    <section>
+      <h2>Lopende projecten</h2>
+      <ul>
+        {{ range $.Site.Data.projecten.open }}
+          <li>{{ .name }} ({{ .description_short }})</li>
+        {{ end }}
+      </ul>
+      <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
+    </section>
   {{ end }}
 
   <h2>Aankomende evenementen</h2>
@@ -33,8 +35,13 @@
       {{ if eq .highlight_on_homepage true }}
         <div class="highlight-box">
           <h3>{{ .name }}</h3>
-          {{ with .date_start | dateFormat "02-01-2006" }}<p>Datum: {{ . }}</p>{{ end }}
-          {{ with .event_address }}<p><strong>Adres</strong>: {{ with .street_address }}{{ . }}{{ end }}{{ with .postal_code }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}</p>{{ end }}
+          <p><strong>Datum</strong>: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" | strings.FirstUpper }}</time></p>
+          <div class="m-b-sm">
+          {{ with .event_location }}<strong>{{ . }}</strong><br>{{ end }}
+            {{ with .event_address }}
+            {{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}
+          {{ end }}
+          </div>
           {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
         </div>
       {{ end }}
