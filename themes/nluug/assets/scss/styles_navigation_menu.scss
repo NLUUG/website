@@ -47,7 +47,7 @@ label span::after, label span::before {
   background: inherit;
   width: inherit;
   height: inherit;
-} 
+}
 
 label span::before{
   top: 8px;
@@ -55,7 +55,7 @@ label span::before{
 
 label span::after {
   bottom: 8px;
-} 
+}
 
 label::before {
   position: absolute;
@@ -81,6 +81,8 @@ ul.menu li {
 
 ul.menu li button {
     font-size: inherit;
+    font-family: inherit;
+    font-weight: bold;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -103,7 +105,7 @@ ul.menu li a, ul li button {
   top: 3.2rem;
   left: 0;
   right: 0;
-  
+
   /*  hide dropdown on small screens  */
   visibility: hidden;
   /*  smooth transitioning  */
@@ -158,11 +160,10 @@ li:focus-within > button > .arrow {
     max-width: 200px;
   }
 }
-@media (min-width: 640px) {
+@media (min-width: 800px) {
   .header-content {
     display: flex;
   }
-  
   .menus {
     position: static;
     visibility: visible;
@@ -196,11 +197,9 @@ li:focus-within > button > .arrow {
     background-color: #fff;
     border-radius: 0 0 0.5rem 0.5rem; 
   }
-  
   ul.menu li:hover .dropdown {
     height: 135px;
   }
-  
   ul.menu li:hover > button > .arrow {
     transform: rotate(-225deg);
     margin-top: 4px;
