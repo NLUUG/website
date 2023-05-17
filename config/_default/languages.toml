@@ -1,0 +1,8 @@
+[nl]
+  weight = 1
+  languageName = 'Nederlands'
+[en]
+  #title = "NLUUG"
+  weight = 2
+  languageName = 'English'
+
