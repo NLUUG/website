@@ -1,3 +1,6 @@
+{{ $.Scratch.Set "counter" 0 }}
+{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+
 <header>
   <div class="header-content">
 
@@ -12,9 +15,10 @@
            {{ $currentPage := . }}
            {{ range .Site.Menus.main }}
              {{ if .Children }}
+               {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
                <li>
-                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown1">{{ .Name }}<span class="arrow"></span></button>
-                 <ul class="dropdown" id="dropdown1">
+                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown{{ $.Scratch.Get "counter" }}">{{ .Name }}<span class="arrow"></span></button>
+                 <ul class="dropdown" id="dropdown{{ $.Scratch.Get "counter" }}">
                    {{ range .Children }}
                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                    {{ end }}
