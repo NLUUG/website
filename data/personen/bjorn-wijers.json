@@ -1,0 +1,21 @@
+{
+  "id": "bjorn-wijers",
+  "name": "Björn Wijers",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/bjorn-wijers-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Burobjorn",
+    "url": "https://burobjorn.nl/"
+  }],
+  "social": {
+    "github": "BjornW",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/bjornwijers/",
+    "mastodon": "@BjornW@mastodon.social",
+    "mastodon_url": "https://mastodon.social/@BjornW",
+    "twitter": ""
+  }
+}
