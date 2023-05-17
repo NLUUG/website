@@ -3,11 +3,10 @@ categories:
 - organisatie
 date: 2023-05-06T13:08:32+02:00
 description: "Leer meer over de doelstellingen van de NLUUG, de vereniging voor open standaarden en open systemen."
-lastmod: 2023-05-06T13:08:32+02:00
 tags:
 - organisatie
 slug:
-title: "Doelstelingen NLUUG"
+title: "Doelstelingen"
 ---
 
 ********************
