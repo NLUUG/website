@@ -12,7 +12,9 @@
     {{ $pages := (where $.Site.RegularPages ".Section" $sectionName) }}
     <ul>
     {{ range $pages.ByParam "title" }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></li>
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
+      </li>
     {{ end }}
     </ul>
 {{ end }}

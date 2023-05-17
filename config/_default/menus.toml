@@ -7,6 +7,27 @@
     weight = 10
 
   [[main]]
+    identifier = "organisatie-doelstellingen"
+    name = "Doelstellingen"
+    url = "/organisatie/doelstellingen/"
+    parent = "organisatie"
+    weight = 11
+
+  [[main]]
+    identifier = "organisatie-bestuur"
+    name = "Bestuur"
+    url = "/organisatie/bestuur/"
+    parent = "organisatie"
+    weight = 12
+
+  [[main]]
+    identifier = "organisatie-commissies"
+    name = "Commissies"
+    url = "/organisatie/commissies/"
+    parent = "organisatie"
+    weight = 13
+
+  [[main]]
     identifier = "evenementen"
     name = "Evenementen"
     url = "/evenementen/"
