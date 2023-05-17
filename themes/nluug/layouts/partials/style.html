@@ -1,4 +1,5 @@
 {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
 {{ $styles_breadcrumb := resources.Get "scss/styles_breadcrumb.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+{{ $styles_navigation_menu := resources.Get "scss/styles_navigation_menu.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
 {{ $styles_extra := resources.Get "scss/_extra.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-<style>{{ $styles.Content | safeCSS }} {{ $styles_breadcrumb.Content | safeCSS }} {{ $styles_extra.Content | safeCSS }}</style>
+<style>{{ $styles.Content | safeCSS }} {{ $styles_breadcrumb.Content | safeCSS }}{{ $styles_navigation_menu.Content | safeCSS }} {{ $styles_extra.Content | safeCSS }}</style>
