@@ -7,8 +7,9 @@ tags:
 - organisatie
 slug:
 title: "Bestuur"
+contact_email: bestuur@nluug.nl
 type: team
-active_members:
+team_members:
 - bjorn-wijers
 - hans-van-de-looy
 - koen-de-jonge
