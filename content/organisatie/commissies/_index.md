@@ -7,6 +7,7 @@ tags:
 - organisatie
 slug:
 title: "Commissies"
+show_child_pages: true
 ---
 
 ## Buro
