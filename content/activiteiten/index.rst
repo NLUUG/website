@@ -1,9 +1,13 @@
-.. slug: activiteiten
-.. date: 2023-05-05 00:00:00 UTC
-.. tags:
-.. link:
-.. description: NLUUG activiteiten
-.. title: Activiteiten
+---
+categories:
+- Activiteiten
+date: 2023-05-07T17:36:06+02:00
+description: "NLUUG Activiteiten"
+tags:
+- activiteiten
+slug: activiteiten
+title: "Activiteiten"
+---
 
 ************
 Activiteiten
