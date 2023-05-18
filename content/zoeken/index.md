@@ -1,4 +1,5 @@
 ---
+description: "Dit is de pagina met zoekfunctie en bijbehorende zoekresultaten binnen onze website"
 title: "Zoekresultaten"
 sitemap:
   priority : 0.1
