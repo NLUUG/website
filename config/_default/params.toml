@@ -17,6 +17,7 @@ mediumIconSize = 32
 
 # Kanarie: Deze tekst (en vogel) gebruiken we om lege waardes op te sporen in output
 textNoTitle = "Geen titel 🐦"
+textEmptyValue = "Geen waarde 🐦"
 
 # Social
 mastodon_instance = "https://nluug.social/"
