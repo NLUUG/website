@@ -1,0 +1,15 @@
+<script src="{{ "js/search.js" | absURL }}"></script>
+
+{{ $assetBusting := not .Site.Params.disableAssetsBusting }}
+{{ $scripts := getJSON "assets/js/scripts.json" }}
+
+{{ $.Scratch.Set "jslibs" slice }}
+{{ range $scripts.scripts }}
+{{ $.Scratch.Add "jslibs" (resources.Get . ) }}
+{{ end }}
+
+{{ $js := .Scratch.Get "jslibs" | resources.Concat "js/combined-scripts.js" | resources.Minify | fingerprint }}
+<script
+    src="{{ $js.RelPermalink }}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"
+    integrity="{{ $js.Data.Integrity }}"
+></script>

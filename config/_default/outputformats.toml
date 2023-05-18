@@ -15,6 +15,10 @@
   mediaType = "text/calendar"
   baseName = "calendar"
 
+[SearchIndex]
+  mediatype = "application/json"
+  basename = "searchindex"
+
 #[outputFormats.XMLEvent]
 #  mediaType = "application/xml"
 #  baseName = "schedule"

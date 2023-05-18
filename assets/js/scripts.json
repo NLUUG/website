@@ -1,0 +1,6 @@
+{
+  "scripts": [
+    "js/fuse.js",
+    "js/mark.min.js"
+  ]
+}

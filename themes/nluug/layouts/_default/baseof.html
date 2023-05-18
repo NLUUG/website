@@ -8,7 +8,6 @@
         <div class="content">
           {{ partialCached "header.html" . }}
           {{ partial "breadcrumb.html" . }}
-          <section>
             <!-- <h2 class="post">{{ .Title }}</h2> -->
             {{- block "main" . }}
                 {{ .Content }}
@@ -19,7 +18,7 @@
             {{ if isset .Params "show_child_pages" }}
               {{ if eq .Params.show_child_pages true }}
                 <section>
-                  <p>Relevante pagina's:</p>
+                  <h3>Gerelateerde pagina's</h3>
                   <ul>
                     {{ range .Pages }}
                       <li>
@@ -32,19 +31,23 @@
             {{ end }}
 
             {{ if eq .Section "posts" }}
-            <div class="post-date">
-              <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;
-              {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
-              {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
-              $taxonomy $tag) -}}
-              <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
-              {{- end -}} {{- end -}}
-              {{ end }}
-            </div>
-            {{ end }}
+          <section>
+            <h3>Tags</h3>
+              <div class="post-date">
+                <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;
+                {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+                {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+                  <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+                {{- end -}} {{- end -}}
+                {{ end }}
+              </div>
           </section>
+              {{ end }}
+
         </div>
       </main>
       {{ partial "footer.html" . }}
   </body>
+  {{ partialCached "scripts_loadlast.html" . }}
+
 </html>

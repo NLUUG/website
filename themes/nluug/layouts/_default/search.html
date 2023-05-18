@@ -1,0 +1,26 @@
+{{ define "main" }}
+<h2>Zoeken</h2>
+{{ partial "search-form.html" . }}
+
+<div class="container">
+
+   <div id="search-results"></div>
+   <div class="search-loading">Wachten op zoekopdracht of resulten... (JavaScript is voor deze pagina vereist)</div>
+
+<!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
+    <script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+        <h3><a href="${link}">${title}</a></h3>
+        <p>${snippet}</p>
+        <p>
+            <small>
+                ${ isset tags }Tags: ${tags}<br>${ end }
+            </small>
+        </p>
+    </div>
+    </script>
+
+  </div>
+
+
+{{ end }}
