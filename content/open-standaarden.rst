@@ -5,7 +5,7 @@ date: 2023-05-07T17:33:46+02:00
 description: "Wat wordt verstaan onder Open Standaarden"
 lastmod: 2023-05-07T17:33:46+02:00
 tags:
-- Open Standaarden
+- open-standaarden
 slug:
 title: "Open Standaarden"
 ---
