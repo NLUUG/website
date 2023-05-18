@@ -1,10 +1,12 @@
-.. title: Contactgegevens
-.. slug: contact
-.. date: 2023-05-04 00:00:00 UTC
-.. tags: 
-.. link:
-.. description: Contactgegevens NLUUG
-
+---
+categories:
+- Organistie
+date: 2023-05-07T17:36:06+02:00
+description: "Contactgegevens NLUUG"
+tags:
+slug: contact
+title: "Contactgegevens"
+---
 
 Emailadressen
 =============
