@@ -1,0 +1,12 @@
+{{ if .IsHome -}}
+
+  {{ partial "schemas/schema_Organization.html" . }}
+  {{ partial "schemas/schema_WebSite.html" . }}
+
+{{- else if .IsPage -}}
+
+  {{ if or (in .Params.content_types "Person") }}
+    {{ partial "schemas/schema_Person.html" . }}
+  {{ end }}
+
+{{ end }}

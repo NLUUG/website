@@ -5,13 +5,13 @@
  {
   "@context": "https://schema.org",
   "@type": "Webpage",
-  "specialty": "{{ .Site.Params.description | default .Site.Params.textNoTitle }}",
+  "specialty": "{{ .Site.Params.description | default .Site.Params.textEmptyValue }}",
   "mainContentOfPage": {
    "@context": "https://schema.org/",
    "@type": "WebPageElement",
    "cssSelector": ".body-contentTODO"
   },
-  "primaryImageOfPage": "{{ .Site.Params.imageurl | absURL }}"
+  "primaryImageOfPage": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textEmptyValue }}"
  },
 	{
 		"@context": "https://schema.org",

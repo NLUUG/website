@@ -15,11 +15,5 @@
     {{ partialCached "style.html" . }}
 
     <!-- Schema.org opmaak -->
-    {{ if .IsHome -}}
-      {{ partial "schemas/schema_WebSite.html" . }}
-    {{- else if .IsPage -}}
-      {{ if or (in .Params.content_types "Person") }}
-        {{ partial "schemas/schema_Person.html" . }}
-      {{ end }}
-    {{ end }}
+    {{ partial "schemas/include-relevant-schemas.html" . }}
 </head>
