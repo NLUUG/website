@@ -11,6 +11,9 @@ timeZone = "Europe/Amsterdam"
 # Grafisch
 logo = "/assets/favicon.ico"
 
+# Logo gebruikt in Schema.org (Organization)
+logoHiRes="/afbeeldingen/logo/nluug-logo-high-resolution.jpg"
+
 # Grootte van iconen (SVG-bestanden) zoals van social media
 smallIconSize = 16
 mediumIconSize = 32

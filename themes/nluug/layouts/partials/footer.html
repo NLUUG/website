@@ -1,19 +1,23 @@
 <footer>
 
+  {{ $iconsize_footer := 32 }}
   <h2>Help mee</h2>
   {{ with .File }}<a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}" target="_blank" rel="noopener">Verbeter deze pagina</a>{{ end }}
 
   <h2>Volg ons</h2>
   {{ $iconsize := .Site.Params.mediumIconSize }}
   {{ with .Site.Params.twitter_handle }}
-    <a href="https://twitter.com/{{ . }}"><img src="/afbeeldingen/iconen/twitter.svg" height="{{ $iconsize }}" width="{{ $iconsize }}" alt="Twitter"></a>
+    <a class="footer-social" href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">{{- partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer) -}}</a>
   {{ end }}
   {{ if and
     (.Site.Params.mastodon_handle)
     (.Site.Params.mastodon_instance)
   }}
-    <a href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}"><img src="/afbeeldingen/iconen/mastodon.svg" height="{{ $iconsize }}" width="{{ $iconsize }}" alt="Mastodon"></a>
+    <a class="footer-social" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer) }}</a>
   {{ end }}
+  <a class="footer-social" href="https://www.linkedin.com/groups/130891/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "linkedin" "iconsize" $iconsize_footer) }}</a>
+  <a class="footer-social" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer) }}</a>
+
   <p>Beschikbare feeds:
 <a href="{{ absURL "atom.xml" }}">Atom</a> | <a href="{{ absURL "feed.json" }}">JSON</a>
 {{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }} | <a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}

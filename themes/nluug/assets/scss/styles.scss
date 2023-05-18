@@ -102,6 +102,11 @@ a.button:hover, a.button:active {
   background-color: $color-button-hover;
 }
 
+a.footer-social:link, .a.footer-social:hover {
+  text-decoration: none;
+  margin: 5px;
+}
+
 // Button 
 .btn:link, .btn:visited {
   border-radius: 4px;

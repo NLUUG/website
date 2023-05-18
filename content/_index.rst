@@ -14,8 +14,3 @@ Ben je als professional bezig met "open", dan is NLUUG de vereniging bij uitstek
 
 NLUUG onderhoudt nauwe banden met vele organisaties en personen die de *open* gedachten nastreven.
 
-Blijf op de hoogte
-==================
-* `Word lid </lidmaatschap/>`_ van onze vereniging. Leden kunnen zich abonneren op de leden mailinglist.
-* Volg groep `"NLUUG Netherlands" <https://www.linkedin.com/groups/130891/>`_ op de LinkedIn groepspagina
-* Bijeenkomsten worden onder andere aangekondigd op `Meetup <https://www.meetup.com/nluug-dutch-unix-linux-user-group/>`_

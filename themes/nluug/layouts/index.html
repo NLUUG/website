@@ -16,19 +16,8 @@
     </section>
   {{ end }}
 
-  {{ if gt (len (.Site.Data.projecten.open)) 0 }}
-    <section>
-      <h2>Lopende projecten</h2>
-      <ul>
-        {{ range $.Site.Data.projecten.open }}
-          <li>{{ .name }} ({{ .description_short }})</li>
-        {{ end }}
-      </ul>
-      <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
-    </section>
-  {{ end }}
-
-  <h2>Aankomende evenementen</h2>
+  <section>
+    <h2>Aankomende evenementen</h2>
 
     {{ $upcoming_events := sort .Site.Data.evenementen.kalender "date_start" "asc" }}
     {{ range $upcoming_events }}
@@ -50,12 +39,28 @@
       {{ end }}
     {{ end }}
 
-    <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda. Zie de uitgebreide <a href="/evenementen/kalender/">evenementenkalender</a> voor meer details.</p>
+    <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda.</p>
     <ul>
       {{ range first 10 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
-        <li>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</li>
+      <li>{{ .date_start | dateFormat "02-01-2006" }} - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
+    <p>&raquo; <a href="/evenementen/kalender/">Volledige evenementenkalender</a></p>
+
+  </section>
+
+  {{ if gt (len (.Site.Data.projecten.open)) 0 }}
+    <section>
+      <h2>Lopende projecten</h2>
+      <ul>
+        {{ range $.Site.Data.projecten.open }}
+          <li>{{ .name }} ({{ .description_short }})</li>
+        {{ end }}
+      </ul>
+      <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
+    </section>
+  {{ end }}
+
 
 
 {{ end }}
