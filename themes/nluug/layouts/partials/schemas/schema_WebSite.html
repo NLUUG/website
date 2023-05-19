@@ -1,5 +1,7 @@
 {{ $baseUrl := .Site.BaseURL }}
 {{ $location := index .Site.Data.location .Site.Params.primarylocation }}
+{{ $logoresource := resources.Get ($.Site.Params.logoNormal | replaceRE "^/" "") }}
+
 <script type="application/ld+json">
 [
  {
@@ -13,61 +15,43 @@
   },
   "primaryImageOfPage": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textEmptyValue }}"
  },
-	{
-		"@context": "https://schema.org",
-		"@type": "WebSite",
-		"@id": "{{ .Site.BaseURL }}",
-		"additionalType": ["CreativeWork", "Person"],
-		"url": "{{ .Site.BaseURL }}",
-		"name": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
-		"alternateName": "{{ .Site.Title  | default .Site.Params.textNoTitle }}",
-		"headline": "{{ .Site.Params.description | default .Site.Params.textNoTitle }}",
-		"image": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textNoTitle }}",
-		"inLanguage": "{{ .Site.LanguageCode }}",
-		"author": "{{ .Site.Params.author | default .Site.Params.textNoTitle }}",
-		"description": "{{ .Site.Params.description }}",
-		"disambiguatingDescription": "{{ .Site.Params.description | default .Site.Params.textNoTitle }}",
-		"isFamilyFriendly": "True",
-		"sourceOrganization": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
-		"publisher": {
-		  "@type": "Organization",
-		  "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
-		  "logo": {
-		    "@type": "ImageObject",
-		    "url": "{{ .Site.Params.logourl | absURL | default .Site.Params.textNoTitle }}",
-		    "height": 60,
-		    "width": 107
-		  }
-		},
-		"mainEntity": {
-			"@context": "https://schema.org",
-			"@type": "localBusiness",
-			"name": "{{ .Site.Title }}",
-			"image":"{{ $location.thumbnail | absURL }}",
-			"priceRange":"{{ .Site.Params.pricerange }}",
-			"telephone":"{{ .Site.Params.phone }}",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "{{ $location.address.street }}",
-				"addressLocality": "{{ $location.address.city }}",
-				"addressRegion": "{{ $location.address.region }}",
-				"addressCountry": "{{ $location.address.country }}",
-				"postalCode": "{{ $location.address.postalcode | default .Site.Params.textNoTitle }}"
-			},
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "4.5",
-				"reviewCount": "50"
-			}
-		},
-		"potentialAction": {
-			"@type": "SearchAction",
-			"target": "{{ .Site.BaseURL }}?search={search_term}",
-			"query-input": "required name=search_term"
-		},
-		"keywords":[
-			{{ range $i, $e := .Site.Params.keywords }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}
-		],
+ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ .Site.BaseURL }}",
+  "additionalType": ["CreativeWork", "Person"],
+  "url": "{{ .Site.BaseURL }}",
+  "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
+  "alternateName": "{{ .Site.Title  | default .Site.Params.textNoTitle }}",
+  "headline": "{{ .Site.Params.description | default .Site.Params.textNoTitle }}",
+  "image": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textNoTitle }}",
+  "inLanguage": "{{ .Site.LanguageCode }}",
+  "author": "{{ .Site.Params.author | default .Site.Params.textNoValue }}",
+  "description": "{{ .Site.Params.description }}",
+  "disambiguatingDescription": "{{ .Site.Params.description | default .Site.Params.textNoValue }}",
+  "isFamilyFriendly": "True",
+  "sourceOrganization": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ $logoresource.Permalink | default .Site.Params.textNoValue }}",
+        "height": "{{ printf "%d" $logoresource.Height }}",
+        "width": {{ printf "%d" $logoresource.Width }}
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ absURL "/zoeken/" }}?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "keywords":[
+   {{ range $i, $e := .Site.Params.keywords }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}
+  ],
 		"hasPart": [
 			{
 				"@context": "http://schema.org/",
@@ -103,16 +87,16 @@
 				{{ range $i, $e := .Site.Menus.main }}{{ if $i }}, {{ end }}"{{ $e.URL | absURL }}"{{ end }}
 				]
 			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "WPFooter",
-				"cssSelector": ".footer",
-				"@id": "#footer",
-				"copyrightHolder":"{{ .Site.Title }}",
-				"publisher": "{{ .Site.Title }}",
-				"copyrightYear":"{{ now.Format "2006"}}"
-			}
-		]
-	}
+   {
+    "@context": "http://schema.org/",
+    "@type": "WPFooter",
+    "cssSelector": ".footer",
+    "@id": "#footer",
+    "copyrightHolder":"{{ .Site.Title }}",
+    "publisher": "{{ .Site.Title }}",
+    "copyrightYear":"{{ now.Format "2006"}}"
+  }
+  ]
+ }
 ]
 </script>

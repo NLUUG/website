@@ -1,8 +1,26 @@
+{{ $logoresource := resources.Get ($.Site.Params.logoNormal | replaceRE "^/" "") }}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
-    "@type": "Organization",
+    "@type": "NGO",
     "url": "{{ .Site.BaseURL }}",
-    "logo": "{{ .Site.Params.logoHiRes | absURL | default .Site.Params.textEmptyValue }}"
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ $logoresource.Permalink | default .Site.Params.textNoValue }}",
+        "height": "{{ $logoresource.Height }}",
+        "width": {{ printf "%d" $logoresource.Width }}
+    },
+{{- with .Site.Params.address -}}
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ .street | default .Site.Params.textNoValue }}",
+      "addressLocality": "{{ .city | default .Site.Params.textNoValue }}",
+      "addressRegion": "{{ .region | default .Site.Params.textNoValue }}",
+      "addressCountry": "{{ .country | default .Site.Params.textNoValue }}",
+      "postalCode": "{{ .postalcode | default .Site.Params.textNoValue }}"
+    },
+{{- end -}}
+    "telephone":"{{ .Site.Params.phone }}"
   }
 </script>
