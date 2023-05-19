@@ -256,7 +256,29 @@ img {
 .tags li {
     display: inline;
 }
+i
 
+/* Kolommen voor de footer */
+
+// container
+.three-column-grid {
+    display:block; 
+}
+
+/* columns */
+.three-column-grid > * {
+    padding:1rem;
+}
+
+@media (min-width:768px) {
+    .three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Width definitions */
 .w-10 { width: 10%; }
 .w-20 { width: 20%; }
 .w-30 { width: 30%; }
