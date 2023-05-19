@@ -8,8 +8,12 @@ author = "NLUUG"
 dateFormat = "02-01-2006"
 timeZone = "Europe/Amsterdam"
 
-# Grafisch
+### Grafisch
+# TODO - vervangen van logo door icon
 logo = "/assets/favicon.ico"
+
+# Logo op normale weergave
+logoNormal = "/afbeeldingen/logo/nluug-logo.png"
 
 # Logo gebruikt in Schema.org (Organization)
 logoHiRes="/afbeeldingen/logo/nluug-logo-high-resolution.jpg"
