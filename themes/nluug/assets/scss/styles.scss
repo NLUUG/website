@@ -102,12 +102,23 @@ a.button:hover, a.button:active {
   background-color: $color-button-hover;
 }
 
-a.footer-social:link, .a.footer-social:hover {
+.icon {
+  margin: 3px;
+}
+.icon:link {
   text-decoration: none;
-  margin: 5px;
+}
+.icon:visited {
+  text-decoration: none;
+}
+.icon:hover {
+  text-decoration: none;
+}
+.icon:active {
+  text-decoration: none;
 }
 
-// Button 
+// Button
 .btn:link, .btn:visited {
   border-radius: 4px;
   color: white;
