@@ -23,6 +23,8 @@ body {
     padding: 1.2rem;
     // background: hsla(93, 0%, 96%, 1.00);
     color: #2E2E2E;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .skip-link {
@@ -198,11 +200,11 @@ ul, ol {
     color: #777
 }
 
-.content {
-    max-width: 1024px;
-    margin: 0 auto;
-    // text-align: justify;
-}
+//.content {
+//    max-width: 1024px;
+//    margin: 0 auto;
+//    // text-align: justify;
+//}
 
 h2.post {
     padding-top: .5rem;
