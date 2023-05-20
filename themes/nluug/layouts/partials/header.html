@@ -4,12 +4,14 @@
 <header>
   <div class="header-content">
 
-    <a href="/" class="logo"><img src="{{ .Site.Params.logoNormal }}" alt="NLUUG-logo" title="{{ .Site.Title }}"></a>
+    {{ $logoresource := resources.Get (.Site.Params.logoNormal | replaceRE "^/" "") }}
+
+    <a href="/" class="logo" title="Terug naar hoofdpagina"><img src="{{ $logoresource | relURL }}" alt="NLUUG-logo" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}"></a>
 
     <input type="checkbox" id="hamburger" aria-label="menu button">
     <label for="hamburger"><span></span></label>
 
-    <nav aria-label="main navigation">
+    <nav aria-label="Main navigation">
 
        <ul class="menus menu">
            {{ $currentPage := . }}
@@ -17,19 +19,21 @@
                {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
              {{ if .Children }}
                <li>
-                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown{{ $.Scratch.Get "counter" }}"><a href="{{ .URL }}">{{ .Name }}</a><!-- <span class="arrow"></span>--></button>
-                 <ul class="dropdown" id="dropdown{{ $.Scratch.Get "counter" }}">
+                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown-{{ $.Scratch.Get "counter" }}">
+                   <a href="{{ .URL }}">{{ .Name }}</a>
+                 </button>
+                 <ul class="dropdown" id="dropdown-{{ $.Scratch.Get "counter" }}">
                    {{ range .Children }}
                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                    {{ end }}
                  </ul>
                </li>
              {{ else }}
-             <li><button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown{{ $.Scratch.Get "counter" }}"><a href="{{ .URL }}">{{ .Name }}</a></button></li>
+             <li><button type="button" aria-haspopup="true" aria-expanded="true"><a href="{{ .URL }}">{{ .Name }}</a></button></li>
              {{ end }}
            {{ end }}
+           <li><button type="button" aria-haspopup="false" aria-expanded="true"><a href="{{ relLangURL "/zoeken/"}}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass" "class" "shownormal") }}</a></button></li>
          </ul>
     </nav>
-    <a href="/zoeken/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass") }}</a>
   </div>
 </header>

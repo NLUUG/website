@@ -68,13 +68,16 @@ footer {
   column-gap: 1px;
 }
 
-h1, h2, h3, h4, h5, strong, b {
+h1, h2, h3 {
     //font-size: inherit;
     font-size: 1.1em;
     font-weight: 600;
     //text-transform: uppercase;
 }
-
+h4, h5, strong, b {
+    font-size: inherit;
+    font-weight: 600;
+}
 // Highlight-box om bijvoorbeeld onze evenementen opvallend op homepage te laten zien
 .highlight-box {
   border-radius: 4px;
@@ -218,10 +221,6 @@ ul, ol {
 //    // text-align: justify;
 //}
 
-h2.post {
-    padding-top: .5rem;
-}
-
 .list li {
     display: flex;
     align-items: baseline;
@@ -255,9 +254,14 @@ h2.post {
 .m-sm {
   margin: 1rem;
 }
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+img.shownormal {
+  max-width: initial;
 }
 
 .post-date {

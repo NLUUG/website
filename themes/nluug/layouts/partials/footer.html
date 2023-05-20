@@ -7,8 +7,10 @@
       {{ with .File }}<a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}" target="_blank" rel="noopener">Verbeter deze pagina</a>{{ end }}
     </div>
     <div>
-      <h2>Volg ons</h2>
       {{ $iconsize := .Site.Params.mediumIconSize }}
+      <h2>Volg ons</h2>
+
+      <nav aria-label="Social media">
       {{ with .Site.Params.twitter_handle }}
         <a class="icon" href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">{{- partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer) -}}</a>
       {{ end }}
@@ -22,13 +24,16 @@
       <a class="icon" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer) }}</a>
       <a class="icon" href="{{ absURL "atom.xml" }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "rss" "iconsize" $iconsize_footer) }}</a>
       <a class="icon" href="{{ absURL "feed.json" }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "database" "iconsize" $iconsize_footer) }}</a>
+      </nav>
     </div>
     <div>
       <h2>Nuttige links</h2>
-      <ul>
-        <li><a href="{{ absURL "contact/" }}">Contact</a></li>
-        <li><a href="{{ absURL "privacy/" }}">Privacy</a></li>
-      </ul>
+      <nav aria-label="Footer links">
+        <ul>
+          <li><a href="{{ absURL "contact/" }}">Contact</a></li>
+          <li><a href="{{ absURL "privacy/" }}">Privacy</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
   <small>Voor meer informatie over deze {{ with .Site.GetPage "/website/" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, zie de {{ with .Site.GetPage "/website/sitemap" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, {{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }} en de {{ with .Site.GetPage "/website/stats-for-nerds" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</small>

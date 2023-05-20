@@ -1,82 +1,82 @@
 header {
-  position: relative;
-  //box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    //box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .header-content {
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
-  color: #212529;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #212529;
 }
 
 .logo {
-  text-decoration: none;
-  font-size: 25px;
-  color: inherit;
-  margin-right: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: inherit;
+    margin-right: 20px;
 }
 
 label {
-  padding: 23px 20px;
-  position: absolute;
-  cursor: pointer;
-  right: 0;
-  top: 0;
+    padding: 23px 20px;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
 }
 
 input[type="checkbox"] {
-  opacity: 0;
-  position: absolute;
-  right: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
 }
 
 label span {
-  width: 20px;
-  height: 3px;
-  display: block;
-  background: #4f3e3e;
-  position: relative;
+    width: 20px;
+    height: 3px;
+    display: block;
+    background: #4f3e3e;
+    position: relative;
 }
 
 label span::after, label span::before {
-  content: "";
-  position: absolute;
-  display: block;
-  background: inherit;
-  width: inherit;
-  height: inherit;
+    background: inherit;
+    content: "";
+    display: block;
+    height: inherit;
+    position: absolute;
+    width: inherit;
 }
 
 label span::before{
-  top: 8px;
+    top: 8px;
 }
 
 label span::after {
-  bottom: 8px;
+    bottom: 8px;
 }
 
 label::before {
-  position: absolute;
-  content: "";
-  width: 58px;
-  height: 49px;
-  top: 0;
-  right: 0;
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 49px;
+    top: 0;
+    right: 0;
 }
 
 input[type="checkbox"]:focus + label::before {
-  box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
 }
 
 ul.menu {
-  background: #f2f2f2;
+    background: #f2f2f2;
 }
 
 ul.menu li {
-   list-style: none;
-   font-size: 18px;
+    list-style: none;
+    font-size: 18px;
 }
 
 ul.menu li button {
@@ -90,14 +90,14 @@ ul.menu li button {
 }
 
 ul.menu li a {
-   display: block;
-   color: inherit;
-   text-decoration: none;
+    display: block;
+    color: inherit;
+    text-decoration: none;
 }
 
 ul.menu li a, ul li button {
-  padding: 0.7rem 1rem;
-  text-align: left;
+    padding: 0.7rem 0.5rem;
+    text-align: left;
 }
 
 .menus {
@@ -128,9 +128,11 @@ input[type="checkbox"]:checked ~ nav > ul {
 }
 
 li:focus-within .dropdown {
-  height: 135px;
+    // height: 135px;
+    height: auto;
 }
 
+/*
 .arrow {
   width: 0.5em;
   height: 0.5em;
@@ -148,6 +150,8 @@ li:focus-within > button > .arrow {
   transform: rotate(-225deg);
   margin-top: 4px;
 }
+*/
+
 
 /* MEDIA QUERIES  */
 @media (max-width: 360px) {
@@ -198,7 +202,8 @@ li:focus-within > button > .arrow {
     border-radius: 0 0 0.5rem 0.5rem; 
   }
   ul.menu li:hover .dropdown {
-    height: 135px;
+    // height: 135px;
+    height: auto;
   }
   ul.menu li:hover > button > .arrow {
     transform: rotate(-225deg);

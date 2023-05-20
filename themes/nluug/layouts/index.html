@@ -1,4 +1,5 @@
 {{ define "main" }}
+<article>
   {{ .Content }}
 
   {{ if gt (len (where .Site.RegularPages "Section" "nieuws")) 0 }}
@@ -42,7 +43,7 @@
     </div>
     <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda.</p>
     <ul>
-      {{ range first 10 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
+      {{ range first 10 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
       <li>{{ .date_start | dateFormat "02-01-2006" }} - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
@@ -61,7 +62,5 @@
       <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
     </section>
   {{ end }}
-
-
-
+</article>
 {{ end }}
