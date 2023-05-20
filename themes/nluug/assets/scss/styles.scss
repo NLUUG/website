@@ -158,11 +158,6 @@ a.button:hover, a.button:active {
     white-space: nowrap;
 }
 
-blockquote {
-    border-left: 5px solid #eee;
-    padding-left: 1rem;
-    margin: 0;
-}
 
 a,
 a:visited {
@@ -173,6 +168,12 @@ a:hover,
 a.heading-link {
     color: inherit;
     text-decoration: underline;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    padding-left: 1rem;
+    margin: 0;
 }
 
 pre {
@@ -198,7 +199,7 @@ ul {
 }
 
 ul, ol {
-    padding-left: 1.2rem;
+    padding-left: 2rem;
 }
 
 .list {
