@@ -4,7 +4,6 @@ categories:
 - cat2
 date: {{ .Date }}
 description: "Placeholder: duidelijke beschrijving"
-lastmod: {{ .Date }}
 tags:
 - tag1
 - tag2
