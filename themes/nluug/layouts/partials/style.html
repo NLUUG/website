@@ -1,5 +1,19 @@
-{{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-{{ $styles_breadcrumb := resources.Get "scss/styles_breadcrumb.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-{{ $styles_navigation_menu := resources.Get "scss/styles_navigation_menu.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-{{ $styles_extra := resources.Get "scss/_extra.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
-<style>{{ $styles.Content | safeCSS }} {{ $styles_breadcrumb.Content | safeCSS }}{{ $styles_navigation_menu.Content | safeCSS }} {{ $styles_extra.Content | safeCSS }}</style>
+{{/* Zoek alle scss-bestanden, combineer ze, zet om naar CSS, verkleinen en voorzien van fingerprint */}}
+{{ $styles := resources.Match "scss/**.scss" | resources.Concat "combined.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
+<style integrity="{{ $styles.Data.Integrity }}">{{ $styles.Content | safeCSS }}</style>
+
+
+{{/*
+  Work in progress
+  {{ if eq (getenv "HUGO_ENV") "development" }}
+  {{ $cssOpts := (dict "enableSourceMap" true "includePaths" (slice "node_modules/bulma" "assets/scss")) }}
+  {{ $styles := resources.Match "scss/**.scss" | resources.Concat "combined.scss" | toCSS $cssOpts | postCSS }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  {{ else }}
+  {{ $cssOpts := (dict "enableSourceMap" false "includePaths" (slice "node_modules/bulma" "assets/scss")) }}
+
+  {{ with $combined_styles := resources.Match "scss/*.scss" | toCSS $cssOpts | postCSS | minify | fingerprint }}
+  <style>{{ .Content | safeCSS }}</style>
+  {{ end }}
+  {{ end }}
+*/}}

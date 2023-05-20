@@ -33,14 +33,15 @@
             {{ if .Params.tags }}
               <section>
                 <h3>Tags</h3>
-                  <div class="post-date">
-                    <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;
+                <div class="tags">
                     {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+                    <ul>
                     {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
-                      <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+                    <li><a href="{{ .Permalink }}">{{ $tag | urlize }}</a></li>
                     {{- end -}} {{- end -}}
+                    </ul>
                     {{ end }}
-                  </div>
+                </div>
               </section>
             {{ end }}
         </div>

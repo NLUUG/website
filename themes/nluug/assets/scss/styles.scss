@@ -1,4 +1,8 @@
 
+// purple: #6A2060
+// light purple-grey: #DCC9DB
+// darkblue: #1D3160
+
 $color-button: #1D3160;
 $color-button-hover: #17274d;
 $color-button-call-to-action: #138808;
@@ -10,6 +14,8 @@ $color-highlight-box-nluug-border: #6A2060;
 $color-highlight-box-nluug-background: #EBBCE5; // omgezet naar lichtere kleur via https://encycolorpedia.com/6a2060
 $color-border: #6A2060;
 $color-text-inverse: white;
+$color-tags-background: #6A2060;
+$color-tags-text: white;
 
 
 *, :after, :before {
@@ -68,6 +74,9 @@ footer {
   column-gap: 1px;
 }
 
+h1, h2 {
+    padding-top: 10px;
+  }
 h1, h2, h3 {
     //font-size: inherit;
     font-size: 1.1em;
@@ -284,7 +293,17 @@ img.shownormal {
 }
 
 .tags li {
+    background-color: $color-tags-background;
+    border-radius: 2px;
+    color: $color-tags-text;
     display: inline;
+    padding: 3px 8px;
+}
+
+.tags li a {
+  font-size: 0.8em;
+    text-decoration: none;
+
 }
 
 /* Kolommen voor de footer */
@@ -314,7 +333,8 @@ img.shownormal {
 .w-40 { width: 40%; }
 .w-50 { width: 50%; }
 
-/* Table Styles */
+
+/*
 
 .table-wrapper{
     margin: 10px 10px 30px;
@@ -357,4 +377,4 @@ img.shownormal {
 .fl-table tr:nth-child(even) {
     background: #F8F8F8;
 }
-
+*/
