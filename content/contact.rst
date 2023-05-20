@@ -1,11 +1,11 @@
 ---
 categories:
-- Organistie
 date: 2023-05-07T17:36:06+02:00
-description: "Contactgegevens NLUUG"
+description: "Neem contact op met ons bestuur of een commissie aan de hand van de contactgegevens op deze pagina."
 tags:
+- contact
 slug: contact
-title: "Contactgegevens"
+title: "Contact"
 ---
 
 Emailadressen

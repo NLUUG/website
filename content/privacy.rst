@@ -1,9 +1,12 @@
-.. title: Privacyverklaring NLUUG
-.. slug: privacy
-.. date: 2023-05-05 00:00:00 UTC
-.. tags:
-.. link:
-.. description: Privacyverklaring NLUUG
+---
+categories:
+date: 2023-05-07T17:36:06+02:00
+description: "Leer meer over onze privacyverklaring en hoe wij omgaan met en welke persoongegevens binnen onze vereniging"
+tags:
+- privacy
+slug:
+title: "Privacy"
+---
 
 ***********************
 Privacyverklaring NLUUG
@@ -155,10 +158,10 @@ Wettelijke grondslag voor gegevensverwerking
 We verzamelen en verwerken jouw persoonsgegevens uitsluitend wanneer wij hiervoor een wettelijke grondslag hebben. De volgende grondslagen zijn van toepassing:
 
 * De verwerking is noodzakelijk voor de uitvoering van je overeenkomst;
-* De verwerking is noodzakelijk voor de behartiging van onze gerechtvaardigde belangen, bijvoorbeeld 
+* De verwerking is noodzakelijk voor de behartiging van onze gerechtvaardigde belangen, bijvoorbeeld
 
-  #. voor het kunnen uitvoeren van onze diensten; 
-  #. ten behoeve van bepaalde vormen van direct marketing en profiling; of 
+  #. voor het kunnen uitvoeren van onze diensten;
+  #. ten behoeve van bepaalde vormen van direct marketing en profiling; of
   #. ten behoeve van de beveiliging van ons netwerk en systemen;
 
 * De verwerking is noodzakelijk om aan een wettelijke verplichting te voldoen, zoals de bewaarplicht voor administratieve gegevens;
