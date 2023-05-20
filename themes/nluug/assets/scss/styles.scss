@@ -4,8 +4,10 @@ $color-button-hover: #17274d;
 $color-button-call-to-action: #138808;
 $color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
 $color-header: #6A2060;
-$color-highlight-box-border: #6A2060;
-$color-highlight-box-background: #EBBCE5; // omgezet naar lichtere kleur via https://encycolorpedia.com/6a2060
+$color-highlight-box-other-border: #99AFE2;
+$color-highlight-box-other-background: #E3E9F7;
+$color-highlight-box-nluug-border: #6A2060;
+$color-highlight-box-nluug-background: #EBBCE5; // omgezet naar lichtere kleur via https://encycolorpedia.com/6a2060
 $color-border: #6A2060;
 $color-text-inverse: white;
 
@@ -67,19 +69,29 @@ footer {
 }
 
 h1, h2, h3, h4, h5, strong, b {
-    font-size: inherit;
+    //font-size: inherit;
+    font-size: 1.1em;
     font-weight: 600;
     //text-transform: uppercase;
 }
 
 // Highlight-box om bijvoorbeeld onze evenementen opvallend op homepage te laten zien
 .highlight-box {
-  background-color: $color-highlight-box-background;
-  padding: 10px;
-  margin: 2px;
-  border: 2px solid $color-highlight-box-border;
   border-radius: 4px;
+  margin: 2px;
+  padding: 20px;
 }
+
+// Events voor alleen NLUUG-leden krijgen een andere kleur dan events in samenwerking met of die extra aandacht nodig hebben.
+.highlight-box-nluug {
+  background-color: $color-highlight-box-nluug-background;
+  border: 1px solid $color-highlight-box-nluug-border;
+}
+.highlight-box-other {
+  background-color: $color-highlight-box-other-background;
+  border: 1px solid $color-highlight-box-other-border;
+}
+
 
 .link {
     overflow: hidden;
