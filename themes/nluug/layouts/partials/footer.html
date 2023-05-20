@@ -4,7 +4,11 @@
   <div class="three-column-grid">
     <div>
       <h2>Help mee</h2>
-      {{ with .File }}<a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .Path }}" target="_blank" rel="noopener">Verbeter deze pagina</a>{{ end }}
+        {{ if .File }}
+          <a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .File.Path }}" target="_blank" rel="noopener">Verbeter deze pagina</a>
+        {{ else }}
+          <a class="btn btn-cta" href="{{ relURL "website/feedback/" }}">Deel feedback</a>
+        {{ end }}
     </div>
     <div>
       {{ $iconsize := .Site.Params.mediumIconSize }}
