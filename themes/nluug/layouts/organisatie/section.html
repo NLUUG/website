@@ -1,11 +1,12 @@
 {{ define "main" }}
   {{ .Content }}
 
-  <section>
-    <h2>Actieve leden</h2>
-    {{ if .Params.active_members }}
+  {{ if .Params.active_members }}
+    <section>
+      <h2>Actieve leden</h2>
       {{ .Scratch.Set "active_members" .Params.active_members }}
       {{ partial "show-active-members-small.html" . }}
-    {{ end }}
-  </section>
+    </section>
+  {{ end }}
+
 {{ end }}
