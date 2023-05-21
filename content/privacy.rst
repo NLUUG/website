@@ -57,6 +57,7 @@ Met `Jitsi <https://jitsi.nluug.nl>`_ biedt NLUUG een videoconferentiedienst die
 Het beeld en geluid (stream) dat de gebruiker naar de andere gebruikers verstuurt, wordt versleuteld op het apparaat van de gebruiker dat voor de videoconferentie gebruikt wordt. Deze stream wordt ontsleuteld op de infrastructuur van NLUUG en opnieuw versleuteld voordat de stream wordt doorgestuurd naar de andere gebruikers van dezelfde videoconferentie. De gebruikte techniek voor deze dienst, WebRTC, maakt end-to-end encryptie onmogelijk. NLUUG slaat de streams van de gebruikers niet op en bekijkt noch beluistert deze streams.
 
 De volgende (persoons)gegevens worden verwerkt bij het gebruik van de dienst:
+
 * Elke videoconferentie krijgt een unieke conferentie identifier. Deze identifiers zijn benodigd om gebruikers van één conferentie aan elkaar te kunnen koppelen op de servers van NLUUG. Deze identifiers worden voor een periode van 4 dagen opgeslagen.
 * Elke gebruiker van een videoconferentie krijgt een unieke identifier op de servers van NLUUG. Deze identifier is benodigd om acties van de gebruikers van de dienst te verwerken en beschikbaar te stellen aan andere gebruikers in dezelfde videoconferentie. Deze identifiers worden voor een periode van 4 dagen opgeslagen.
 * Tijdens het gebruik van de dienst is het IP-adres van de gebruiker bekend bij NLUUG, dit IP-adres is benodigd om de streams te kunnen ontvangen en uit te sturen. De IP-adressen van de gebruikers worden niet door NLUUG opgeslagen.
@@ -86,6 +87,7 @@ Contact en communicatie
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 We gebruiken jouw gegevens om in verband met onze dienstverlening met je te communiceren via e-mail, telefoon of andere (elektronische) media;
+
 * Zo ontvang je van ons facturen,
 * kunnen wij met je communiceren om administratieve vragen rond je account te beantwoorden,
 * je uitnodigingen en herinneringen met betrekking tot onze diensten sturen,
@@ -120,6 +122,7 @@ Met wie delen we jouw persoonsgegevens
 --------------------------------------
 
 We delen jouw persoonsgegevens met derden zoals de door ons gebruikte mail service, onze logistieke support, onze boekhouder en andere partijen waar relevant. We delen jouw gegevens:
+
 * Voor zover nodig om onze diensten te verlenen. Het gaat daarbij bijvoorbeeld om het uit kunnen voeren van registratie voor en bezoek van diensten, het administreren en innen van betalingen en het met jou kunnen communiceren in verband met onze diensten;
 * In gevallen waarin je ons uitdrukkelijk toestemming hebt gegeven om dit te doen;
 * Als wij daartoe rechtmatig worden verzocht in het kader van rechtshandhaving. Bijvoorbeeld in het geval van calamiteiten bij een van ons afgenomen dienst;
