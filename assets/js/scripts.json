@@ -1,6 +1,7 @@
 {
   "scripts": [
     "js/fuse.js",
-    "js/mark.min.js"
+    "js/mark.min.js",
+    "js/search.js"
   ]
 }
