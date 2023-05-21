@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ .Content }}
+
+    <h2>Ereleden</h2>
+    <ul>
+    {{ range $key,$val := $.Site.Data.personen }}
+      {{ if eq $val.honorary_member true }}
+      <li>{{ if .profile_page }}<a href="{{ .profile_page }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</li>
+      {{ end }}
+    {{ end }}
+    </ul>
+
+{{ end }}

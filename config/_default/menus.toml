@@ -61,6 +61,13 @@
     weight = 32
 
   [[main]]
+    identifier = "lidmaatschap-ereleden"
+    name = "Ereleden"
+    url = "/lidmaatschap/ereleden/"
+    parent = "lidmaatschap"
+    weight = 33
+
+  [[main]]
     identifier = "nieuws"
     name = "Nieuws"
     url = "/nieuws/"
