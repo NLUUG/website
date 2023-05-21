@@ -1,0 +1,17 @@
+{
+  "id": "patricia-otter",
+  "name": "Patricia Otter",
+  "email": "",
+  "gender": "Female",
+  "honorary_member": true,
+  "nationality": "Dutch",
+  "thumbnail": "",
+  "social": {
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": ""
+  }
+}

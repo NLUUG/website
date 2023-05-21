@@ -1,17 +1,17 @@
 {
-  "id": "fred-donck",
-  "name": "Fred Donck",
+  "id": "hendrik-jan-thomassen",
+  "name": "Hendrik Jan Thomassen",
   "email": "",
   "gender": "male",
   "honorary_member": true,
   "nationality": "Dutch",
-  "thumbnail": "/afbeeldingen/personen/fred-donck-200x200.jpg",
+  "thumbnail": "",
   "social": {
     "github": "",
+    "twitter": "",
     "instagram": "",
     "linkedin": "",
     "mastodon": "",
-    "mastodon_url": "",
-    "twitter": ""
+    "mastodon_url": ""
   }
 }

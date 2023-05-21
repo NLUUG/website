@@ -3,6 +3,7 @@
   "name": "Mark Janssen",
   "email": "",
   "gender": "male",
+  "honorary_member": true,
   "nationality": "Dutch",
   "thumbnail": "/afbeeldingen/personen/mark-janssen-200x200.jpg",
   "social": {
