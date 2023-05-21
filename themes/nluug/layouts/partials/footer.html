@@ -43,14 +43,17 @@
   <small>Voor meer informatie over deze {{ with .Site.GetPage "/website/" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, zie de {{ with .Site.GetPage "/website/sitemap" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, {{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }} en de {{ with .Site.GetPage "/website/stats-for-nerds" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</small>
 
 {{ if .Site.IsServer }}
-  <div style="background-color: yellow;">
-  Kind = {{ .Kind }}<br>
-  Layout = {{ .Layout }}<br>
-  Type = {{ .Type }}<br>
-  Section = {{ .Section }}<br>
-  BundleType = {{ .BundleType }}<br>
-  IsPage = {{ .IsPage }}<br>
-  IsSection = {{ .IsSection }}<br>
+  <div style="background-color: yellow; border: 2px solid black; padding: 10px; margin-top: 20px;">
+    <strong>Ingebouwde webserver van Hugo gedetecteerd. Deze melding zal niet in productie worden getoond en is voor ontwikkeling.</strong><br>
+    <ul>
+      <li>Kind = {{ .Kind }}</li>
+      <li>Layout = {{ .Layout }}</li>
+      <li>Type = {{ .Type }}</li>
+      <li>Section = {{ .Section }}</li>
+      <li>BundleType = {{ .BundleType }}</li>
+      <li>IsPage = {{ .IsPage }}</li>
+      <li>IsSection = {{ .IsSection }}</li>
+    </ul>
   </div>
 {{ end }}
 </footer>
