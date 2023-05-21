@@ -24,7 +24,7 @@ Het NLUUG bestuur beoordeelt iedere voordracht zorgvuldig en geeft een gemotivee
 Geheimhouding
 -------------
 
-Indien een individu of instelling wordt voorgedragen voor de NLUUG Award, is het de bedoeling dat deze voordracht, ook na acceptatie ervan door het NLUUG bestuur, voor individu of instelling geheim blijft. De Programma Commissie zal na acceptatie van een voordracht gaan proberen individu of instelling te verleiden tot het geven van een presentatie tijdens één van de volgende conferentie. De NLUUG Award zal dan aan het eind van betreffende conferentie aan individu of instelling als verrassing worden uitgereikt.
+Indien een individu of instelling wordt voorgedragen voor de NLUUG Award, is het de bedoeling dat deze voordracht, ook na acceptatie ervan door het NLUUG bestuur, voor individu of instelling geheim blijft. De Programma Commissie zal na acceptatie van een voordracht gaan proberen individu of instelling te verleiden tot het geven van een presentatie tijdens één van de volgende conferenties. De NLUUG Award zal dan aan het eind van betreffende conferentie aan individu of instelling als verrassing worden uitgereikt.
 
 Uitgereikte NLUUG Awards
 ========================
