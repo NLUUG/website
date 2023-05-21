@@ -80,9 +80,9 @@ ul.menu li {
 }
 
 ul.menu li button {
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: bold;
+    //font-size: inherit;
+    //font-family: inherit;
+    //font-weight: bold;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -92,11 +92,14 @@ ul.menu li button {
 ul.menu li a {
     display: block;
     color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 600;
     text-decoration: none;
 }
 
 ul.menu li a, ul li button {
-    padding: 0.7rem 0.5rem;
+    padding: 0.7rem 0.8rem;
     text-align: left;
 }
 
@@ -205,8 +208,8 @@ li:focus-within > button > .arrow {
     // height: 135px;
     height: auto;
   }
-  ul.menu li:hover > button > .arrow {
-    transform: rotate(-225deg);
-    margin-top: 4px;
-  }
+  //ul.menu li:hover > button > .arrow {
+  //  transform: rotate(-225deg);
+  //  margin-top: 4px;
+  //}
 }
