@@ -2,7 +2,7 @@
 categories:
 - Organisatie
 date: 2023-05-21T16:21:46+02:00
-description: "Achtergrond van en verdere informatie rondom de NLUUG Award"
+description: "Achtergrond van en informatie over de NLUUG Award"
 tags:
 - nluug-award
 slug:
