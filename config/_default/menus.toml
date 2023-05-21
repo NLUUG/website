@@ -28,6 +28,13 @@
     weight = 13
 
   [[main]]
+    identifier = "nluug-award"
+    name = "NLUUG Award"
+    url = "/organisatie/nluug-award/"
+    parent = "organisatie"
+    weight = 14
+
+  [[main]]
     identifier = "evenementen"
     name = "Evenementen"
     url = "/evenementen/"
