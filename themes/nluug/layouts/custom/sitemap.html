@@ -3,21 +3,12 @@
 <div>{{ .Content }}</div>
 
 <h2>Secties</h2>
-{{ $sections := (where $.Site.Pages ".Kind" "section").ByTitle }}
 
-
-{{ range $sections }}
-    <h3><a href="{{ .Permalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></h3>
-    {{ $sectionName := .Section | singularize }}
-    {{ $pages := (where $.Site.RegularPages ".Section" $sectionName) }}
-    <ul>
-    {{ range $pages.ByParam "title" }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
-      </li>
-    {{ end }}
-    </ul>
+{{ range $.Site.Sections.ByTitle }}
+  <h3><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></h3>
+  {{ partial "recursive-pages.html" . }}
 {{ end }}
+
 
 <h2>Laatste wijzigingen</h2>
   {{ $byLastMod := .Site.RegularPages.ByLastmod.Reverse }}
@@ -34,7 +25,7 @@
           </tr>
         </thead>
         <tbody>
-      {{ range first 50 $byLastMod }}
+      {{ range first 20 $byLastMod }}
       <tr>
         <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
