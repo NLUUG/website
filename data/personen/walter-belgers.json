@@ -1,0 +1,17 @@
+{
+  "id": "walter-belgers",
+  "name": "Walter Belgers",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": true,
+  "nationality": "Dutch",
+  "thumbnail": "",
+  "social": {
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": ""
+  }
+}

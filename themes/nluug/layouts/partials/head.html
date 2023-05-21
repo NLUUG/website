@@ -5,12 +5,12 @@
     <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <!-- Social media -->
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
+    {{ partial "opengraph/opengraph.html" . }}
+    {{ partial "opengraph/twitter_cards.html" . }}
     <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="icon" href="{{ absURL "assets/favicon.ico" }} ">
-    <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ absURL "atom.xml" }}" />
-    <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ absURL "feed.json" }}" />
+    <link rel="icon" href="{{ absURL "assets/favicon.ico" }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ absURL "atom.xml" }}">
+    <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ absURL "feed.json" }}">
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
     {{ partialCached "style.html" . }}
 

@@ -47,7 +47,6 @@
         </div>
       </main>
       {{ partial "footer.html" . }}
+      {{ partialCached "scripts_loadlast.html" . }}
   </body>
-  {{ partialCached "scripts_loadlast.html" . }}
-
 </html>

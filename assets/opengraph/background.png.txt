@@ -1,0 +1,11 @@
+Created with https://angrytools.com/gradient/image/
+
+Alpha: 100
+
+linksonder:
+RGB 255, 255, 255
+location 0%
+
+rechtsonder:
+RGB 106, 32, 96
+location 84%

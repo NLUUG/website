@@ -16,9 +16,9 @@
             {{ if .thumbnail }}
               <figure>
                 {{ if .profile_page }}
-                  <a href="{{ .profile_page }}"><img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" /></a>
+                  <a href="{{ .profile_page }}"><img src="{{ .thumbnail }}" alt="Foto van {{ .name }}"></a>
                 {{ else }}
-                  <img src="{{ .thumbnail }}" alt="Foto van {{ .name }}" />
+                  <img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">
                 {{ end }}
                 <figcaption>
                   <strong>{{ .name }}</strong>
