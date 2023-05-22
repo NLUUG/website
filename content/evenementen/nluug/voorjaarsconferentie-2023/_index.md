@@ -23,7 +23,7 @@ event_members_only: true
 event_register_link: "https://nluug.nl/aanmelden/index.cgi?action=event"
 event_schedule:
   title: Programma
-  description: Alleen maar geweldige sprekers
+  description:
   columns: 4
   headers:
   - header:
@@ -236,7 +236,3 @@ event_schedule:
       center: true
       size: 3
 ---
-
-We zijn weer aan de slag voor de najaarsconferentie!
-
-Meer informatie volgt...

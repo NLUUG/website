@@ -3,14 +3,14 @@ categories:
 - conferenties
 - evenementen
 date: 2023-05-06T21:17:47+02:00
-description: "De NLUUG najaarsconferentie is gepland op dinsdag 28 november 2023, locatie Van der Valk Hotel Utrecht."
+description: "De NLUUG najaarsconferentie is gepland op dinsdag 28 november 2023 in het Van der Valk Hotel Utrecht."
 lastmod: 2023-05-10T15:17:47+02:00
 tags:
 - conferenties
 slug:
-title: "NLUUG Najaarsconferentie 2023"
+title: "NLUUG najaarsconferentie 2023"
 layout: schedule-event
-event_title: "NLUUG Najaarsconferentie 2023"
+event_title: "NLUUG najaarsconferentie 2023"
 event_start: 2023-11-28T08:30:00+02:00
 event_end: 2023-11-28T18:00:00+02:00
 event_timezone: Europe/Amsterdam
@@ -66,10 +66,10 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker: Patrick Reijnen
-        title: Beste keynote ever
+        speaker:
+        title: nog niet bekend
         keynote: true
-        link: /
+        link:
       center: true
       size: 3
   - row:
@@ -87,17 +87,17 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker: Ronny Lam
-        title: Goed met Geld
-        link: /
+        speaker:
+        title:
+        link:
     - column:
       talk:
-        speaker: Koen de Jonge
-        title: PC-voorzitter staat niet voor Personal Computer Voorzitter
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Hans Van de Looy
-        title: Eenhoorns, de ultieme magische wezens
+        speaker:
+        title:
   - row:
     columns:
     - column:
@@ -110,16 +110,16 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker: Mark Janssen
-        title: Niet te filmen...
+        speaker:
+        title:
     - column:
       talk:
-        speaker: H. Acker
-        title: XSS = €
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Brenda Langedijk
-        title: "Penningmeester: Ik controleer alle uitgegeven centen!"
+        speaker:
+        title:
   - row:
     columns:
     - column:
@@ -146,12 +146,12 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker: Luc Nieland
-        title: Draaien maar!
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Geluidsman van het Hotel
-        title: Ja hallo, dit hadden we niet afgesproken
+        speaker:
+        title:
     - column:
       talk:
         speaker:
@@ -168,16 +168,16 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker: Debbie Reinders
-        title: Jaja, dat zal allemaal wel
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Rogier Spoor en Willem Toorop
-        title: Een duo-presentatie, want waarom ook niet?
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Hans van Zijst
-        title: Een titel zonder spelfouten, of toch niet?
+        speaker:
+        title:
   - row:
     columns:
     - column:
@@ -193,17 +193,17 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker: Rudi van Drunen
-        title: Woont niet in Drunen
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Jan Sepp
-        title: Tijd om lid te worden!
-        link: /lidmaatschap/aanmelden/
+        speaker:
+        title:
+        link:
     - column:
       talk:
-        speaker: Fred Donck
-        title: Pixels en nog meer pixels
+        speaker:
+        title:
   - row:
     columns:
     - column:
@@ -216,17 +216,17 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        speaker: Björn Wijers
-        title: Hersenspoeling
+        speaker:
+        title:
     - column:
       talk:
-        speaker: Michael Boelen
-        title: Hyper Technical Machine Learning
-        link: /website/
+        speaker:
+        title:
+        link:
     - column:
       talk:
-        speaker: Reinoud van Leeuwen
-        title: Kiek, ik heb je!
+        speaker:
+        title:
   - row:
     columns:
     - column:
