@@ -1,15 +1,15 @@
 ---
-author: "Patrick Reijnen"
+author: Patrick Reijnen
 categories:
 - nieuws
 date: 2023-05-12T14:56:33+02:00
 description: "Tijdens de NLUUG voorjaarsconferentie 2023 heeft NLUUG haar Award uitgereikt aan Bert Hubert"
-tags:
-- nieuws
-slug: bert-hubert-nluug-award
-title: "Uitreiking NLUUG Award aan Bert Hubert"
 related_members:
 - rudi-van-drunen
+slug: bert-hubert-nluug-award
+tags:
+- nieuws
+title: "Uitreiking NLUUG Award aan Bert Hubert"
 ---
 
 ## Uitreiking NLUUG Award aan Bert Hubert
@@ -20,8 +20,8 @@ Tijdens de Closing Ceremony van haar voorjaarsconferentie 2023 heeft Rudi van Dr
 
 Onderstaande motivatie is tijdens de uitreiking door Rudi van Drunen uitgesproken
 
-
-> Iedereen van ons herkent de uitdrukking "It always is a f*cking DNS problem". DNS is wel één van de
+```
+Iedereen van ons herkent de uitdrukking "It always is a f*cking DNS problem". DNS is wel één van de
 onderwerpen die een zeer prominente rol hebben gespeeld in de carrière van Bert Hubert. Bert, die
 aan de wieg van de ons aller bekende PowerDNS server heeft gestaan en hierin als ontwikkelaar en
 succesvol entrepreneur zijn sporen heeft verdiend, begon zijn carrière met de studie technische
@@ -31,7 +31,7 @@ technologische concepten. Ook vervolgens hun werking op een begrijpelijke manier
 code of presentaties binnen community maar ook ver daarbuiten verspreiden hoort daarbij. Lokaal,
 maar ook op internationale conferenties.
 
-> Ondertussen heeft Bert in verschillende gremia als nerd of nerdfluisteraar de noodzakelijke bestuur
+Ondertussen heeft Bert in verschillende gremia als nerd of nerdfluisteraar de noodzakelijke bestuur
 sensitiviteit opgedaan, maar blijF hij de rasechte techneut, met alle eigenschappen van dien, zoals
 de al genoemde curiositeit. Een techneut die graag, en altijd zeer goed gefundeerd, zijn hoofd ver
 boven het maaiveld wil uitsteken, en hier dan ook de credits meer dan voor verdient.
@@ -46,7 +46,7 @@ data verzameld uit open bronnen. Zojuist heeft Bert hier een lezing gehouden ove
 learning, weer zo'n onderwerp wat voor velen vaag was, maar nu na de duidelijke uitleg voor ons te
 begrijpen en "geopend" is.
 
-> Verder heeft Bert aan de wieg gestaan van enkele Tientallen (andere) open source projecten die vaak
+Verder heeft Bert aan de wieg gestaan van enkele Tientallen (andere) open source projecten die vaak
 te vatten zijn onder de noemer security, privacy, en vooral openheid in alle lagen van de technologie
 stack maar ook daar buiten. Waarden die in onze community heel normaal en vanzelfsprekend zijn,
 maar waaraan bij het grotere publiek en in de "echte" wereld nog veel werk te verrichten is. Deze
@@ -57,12 +57,13 @@ standaarden community voor je inzet tot nu toe en in de toekomst voor onze commu
 daarbuiten. Dit willen we illustreren middels de toekenning van de NLUUG award voor lifetime
 achievement aan jou: Bert Hubert. Laat dit een aanmoediging voor zijn om door te gaan.
 
-> De NLUUG award kan worden toegekend aan individuen of instellingen die op bijzondere wijze
+De NLUUG award kan worden toegekend aan individuen of instellingen die op bijzondere wijze
 hebben bijgedragen aan de verbetering of bevordering (van het gebruik van) van Open systemen of
 Open standaarden, en bestaat uit een sculptuur en eeuwig durende roem en waardering binnen en
 buiten onze community.
 
-> Hierbij schaar je in het al dan niet illustere gezelschap van onder anderen Michiel Leenaars, Olaf
+Hierbij schaar je in het al dan niet illustere gezelschap van onder anderen Michiel Leenaars, Olaf
 Kolkman, Wietze Venema en Andy Tanenbaum.
 
-> Van Harte gefeliciteerd met deze erkenning
+Van Harte gefeliciteerd met deze erkenning
+```
