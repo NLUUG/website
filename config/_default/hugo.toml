@@ -1,11 +1,21 @@
 # Basisconfiguratie voor de website
 
 baseURL = "https://www3.nluug.nl/"
+
+# Talen
 languageCode = "nl"
 defaultContentLanguage = "nl"
 title = "NLUUG"
 theme = "nluug"
+
+# Git-ondersteuning, zodat lastmod automatisch wordt ingevuld met data van git.
 enableGitInfo = true
+
+# Kleine optimalisatie door geen onnodige header toe te voegen
 disableHugoGeneratorInject = true
+
+# Genereer /robots.txt (template in layouts)
+enableRobotsTXT = true
+
 
 # EOF
