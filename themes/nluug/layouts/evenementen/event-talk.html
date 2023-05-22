@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+  <div>{{ .Content }}</div>
+
+  {{ if .Params.recording }}
+    {{ if .Params.recording.platform }}
+      {{ if eq .Params.recording.platform "youtube" }}{{ partial "show-svg-icon.html" (dict "context" . "icon" "youtube" "iconsize" "64") }}{{ end }}
+    {{ end }}
+    {{ if .Params.recording.url }}
+      <a href="{{ .Params.recording.url }}">Bekijk opname</a>
+    {{ end }}
+  {{ end }}
+
+{{ end }}
