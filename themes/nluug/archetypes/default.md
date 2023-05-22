@@ -4,6 +4,10 @@ categories:
 - cat2
 date: {{ .Date }}
 description: "Placeholder: duidelijke beschrijving"
+review:
+  last_review: {{ now.Format "2006-01-02" }}
+  reviewed_by:
+  period: 365
 slug:
 tags:
 - tag1
