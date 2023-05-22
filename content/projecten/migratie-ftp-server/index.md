@@ -5,7 +5,7 @@ date: 2023-05-22T16:16:42+02:00
 description: "Dit project heeft als doel de migratie van de huidige FTP-server en haar content naar een nieuwe, virtuele opzet."
 tags:
 - projecten
-- website
+- ftp-server
 slug:
 title: "Migratie FTP-server"
 project:
@@ -28,23 +28,7 @@ project:
   - task:
     name: Inrichten updates van alle pakketten
     description: Het updaten van pakketten vanaf de bron moet weer ingeregeld worden, zodat de nieuwe FTP omgeving weer bij de tijd is met pakketversies
+    goal: Alle pakketten weer in sync met hun bron
     state: in-progress
-    finished: true
+    finished: false
 ---
-
-# Titel van pagina
-
-## Heading level 2
-
-Dit is een [link](https://example.com/) naar example.com.
-
-### Heading level 3
-
-* Lijstitem 1
-* Lijstitem 2
-* Lijstitem 3
-
-## Opgelet
-
-Standaard staat het document op draft, deze regel in frontmatter dient verwijderd te worden.
-
