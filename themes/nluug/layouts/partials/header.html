@@ -16,11 +16,11 @@
        <ul class="menus menu">
            {{ $currentPage := . }}
            {{ range .Site.Menus.main }}
-               {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+             {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
              {{ if .Children }}
                <li>
-                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown-{{ $.Scratch.Get "counter" }}"></button>
-                 <a href="{{ .URL }}">{{ .Name }}</a>
+                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown-{{ $.Scratch.Get "counter" }}" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button>
+                 <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}">{{ .Name }}</a>
                  <ul class="dropdown" id="dropdown-{{ $.Scratch.Get "counter" }}">
                    {{ range .Children }}
                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -29,13 +29,13 @@
                </li>
              {{ else }}
              <li>
-               <button type="button" aria-haspopup="true" aria-expanded="true"></button>
-               <a href="{{ .URL }}">{{ .Name }}</a>
+               <button type="button" aria-haspopup="true" aria-expanded="true" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button>
+               <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}">{{ .Name }}</a>
              </li>
              {{ end }}
            {{ end }}
            <li>
-             <button type="button" aria-haspopup="false" aria-expanded="true"></button>
+             <button type="button" aria-haspopup="false" aria-expanded="true" aria-label="Zoeken"></button>
              <a href="{{ relLangURL "/zoeken/"}}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass" "class" "shownormal") }}</a>
            </li>
          </ul>
