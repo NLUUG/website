@@ -14,11 +14,11 @@ title: "Uitreiking NLUUG Award aan Bert Hubert"
 
 ## Uitreiking NLUUG Award aan Bert Hubert
 
-Tijdens de Closing Ceremony van haar voorjaarsconferentie 2023 heeft Rudi van Drunen namens NLUUG de NLUUG Award uitgereikt aan een totaal verraste Bert Hubert.
+Tijdens de Closing Ceremony van voorjaarsconferentie 2023 heeft Rudi van Drunen de NLUUG Award uitgereikt aan een totaal verraste Bert Hubert. Bert liet de aanwezigen weten dat hij met veel plezier lezingen geeft. Met een lach voegde hij daar aan toe dat op zijn verjaardag, een dag later, niemand hem zou kunnen evenaren met een beter cadeau.
 
-## Motivatie voor het uitreiken van de NLUUG Award aan Bert Hubert
+## Motivatie voor het uitreiken van de NLUUG Award
 
-Onderstaande motivatie is tijdens de uitreiking door Rudi van Drunen uitgesproken
+Onderstaande motivatie is tijdens de uitreiking door Rudi van Drunen uitgesproken.
 
 ```
 Iedereen van ons herkent de uitdrukking "It always is a f*cking DNS problem". DNS is wel één van de
@@ -67,3 +67,5 @@ Kolkman, Wietze Venema en Andy Tanenbaum.
 
 Van Harte gefeliciteerd met deze erkenning
 ```
+
+Namens de organisatie feliciteren wij Bert nogmaals met de Award. Uiteraard hopen wij hem in de toekomst weer te mogen verwelkomen, als spreker of wellicht bezoeker van de conferentie.
