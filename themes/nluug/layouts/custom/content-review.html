@@ -1,0 +1,83 @@
+{{ define "main" }}
+{{ $.Scratch.Set "counter" 0 }}
+
+<div>{{ .Content }}</div>
+
+<h2>Documenten voor Content Review</h2>
+  <div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+          <tr>
+            <th>Titel</th>
+            <th>Laatste wijziging</th>
+            <th>Laatste review</th>
+            <th>Review voor datum</th>
+            <th>Reviewperiode</th>
+            <th>Review nodig?</th>
+            <th>Taal</th>
+            <th>Bestandsnaam</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range where .Site.Pages "Params.review" "!=" nil }}
+            {{ if .Params.review.last_review }}
+              {{ $reviewdate := .Params.review.last_review | time.AsTime }}
+              {{ $reviewdate := $reviewdate.AddDate 0 0 .Params.review.period | time.Format "2006-01-02" }}
+              <tr>
+                <td><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></td>
+                <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
+                <td>{{ if .Params.review.last_review }}{{ .Params.review.last_review }}{{ else }}Onbekend{{ end }}</td>
+                <td>{{ with $reviewdate }}{{ . }}{{ end }}</td>
+                <td>{{ with .Params.review.period }}{{ . }} dagen{{ end }}</td>
+                <td>
+                    {{ if .Params.review.last_review }}
+                      {{ if gt (now | time.Format "2006-01-02") $reviewdate }}
+                        {{ if .Params.review.disabled }}
+                          Uitgeschakeld
+                        {{ else }}
+                          <strong>Ja</strong> 🛠️
+                          {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                        {{ end }}
+                      {{ else }}
+                        Nee
+                      {{ end }}
+                    {{ else }}
+                       Onbekend
+                    {{ end }}
+                </td>
+                <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+                <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+              </tr>
+            {{ end }}
+          {{ end }}
+        </tbody>
+    </table>
+  </div>
+
+  <p>Aantal documenten die review nodig hebben: {{ $.Scratch.Get "counter" }}</p>
+
+  <h2>Geen data beschikbaar voor Content Review</h2>
+  <div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+          <tr>
+            <th>Titel</th>
+            <th>Laatste wijziging</th>
+            <th>Taal</th>
+            <th>Bestandsnaam</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range where .Site.RegularPages "Params.review" "==" nil }}
+              <tr>
+                <td><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></td>
+                <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
+                <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+                <td>{{ with .File }}{{ .Path }}{{ end }}</td>
+              </tr>
+          {{ end }}
+        </tbody>
+    </table>
+  </div>
+
+{{ end }}
