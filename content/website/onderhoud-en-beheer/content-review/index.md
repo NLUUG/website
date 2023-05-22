@@ -2,7 +2,7 @@
 categories:
 - website
 date: 2023-05-22T12:58:11+02:00
-description: "Alle informatie rondom de website van de NLUUG, de vereniging voor open standaarden"
+description: "Deze pagina toont onze ingebouwde tool om een content review te doen van alle pagina's binnen onze website."
 layout: content-review
 review:
   last_review: 2023-05-22
@@ -12,7 +12,7 @@ slug:
 tags:
 - processen
 - website
-title: "Content-review"
+title: "Content review"
 type: custom
 ---
 
