@@ -48,7 +48,6 @@ project:
     name: Implementatie breadcrumbs
     description: Toepassen van zogeheten breadcrumbs die het eenvoudiger maken om terug te navigeren of sneller de hoofdsecties van de website te bereiken. Dit is zeker zinvol als bezoekers via een zoekmachine op een diepergelegen pagina terecht zijn komen.
     goal: verbeterde navigatiemogelijkheid
-    state: in-progress
     finished: true
     subtasks:
     - name: Toevoegen navigatie-links aan pagina's
