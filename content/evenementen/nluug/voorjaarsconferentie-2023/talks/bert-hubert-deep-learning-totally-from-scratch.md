@@ -2,11 +2,15 @@
 categories:
 date: 2023-05-11T20:31:43+02:00
 description:
+layout: event-talk
 slug:
 tags:
 title: "Bert Hubert - Deep Learning Totally From Scratch"
 persons:
 - bert-hubert
+recording:
+  platform: youtube
+  url: https://www.youtube.com/watch?v=hnpY8SQ4JZ0
 ---
 
 ## Abstract
