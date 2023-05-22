@@ -6,11 +6,9 @@ date: 2023-05-12T14:56:33+02:00
 description: "Tijdens de NLUUG voorjaarsconferentie 2023 heeft NLUUG haar Award uitgereikt aan Bert Hubert"
 tags:
 - nieuws
-- website
 slug: bert-hubert-nluug-award
 title: "Uitreiking NLUUG Award aan Bert Hubert"
 related_members:
-- bert-hubert
 - rudi-van-drunen
 ---
 
