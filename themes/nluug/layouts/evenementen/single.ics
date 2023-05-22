@@ -1,4 +1,4 @@
-{{ if not (isset .Params "no-ics-file") }}BEGIN:VCALENDAR
+{{ if not (isset .Params "no-ics-file") }}{{ if (isset .Params "event_start") }}BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
@@ -34,6 +34,6 @@ DESCRIPTION: Voor meer informatie zie {{ index . 0 }}.
 DESCRIPTION: Voor meer informatie zie {{ .Site.Params.LiveSiteUrl }}{{ .Permalink }}
 {{ end }}
 {{ with .Params.Properties.location }}LOCATION:{{ index . 0 }}{{ end }}
-{{ end }}
 END:VEVENT
 END:VCALENDAR
+{{ end }}{{ end }}
