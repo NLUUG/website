@@ -41,5 +41,5 @@ Het actueel houden van informatie op een website is uitdagend te noemen. Zo hebb
 
 #### Content Reviews
 
-Door middel van de ingebouwde [reviewtool]({{< relref "website/onderhoud-en-beheer/content-review/index.md" >}}) kunnen we content vinden die mogelijk verouderd is. Door regelmatige reviews houden we onze website up-to-date. Per pagina kan er een reviewcycle (in dagen) worden opgegeven of waar nodig uitgeschakeld. Dit laatste is vooral nuttig voor nieuwsberichten en pagina's van eerdere conferenties.
+Door middel van de ingebouwde [reviewtool]({{< relref "website/beheer-en-onderhoud/content-review/index.md" >}}) kunnen we content vinden die mogelijk verouderd is. Door regelmatige reviews houden we onze website up-to-date. Per pagina kan er een reviewcycle (in dagen) worden opgegeven of waar nodig uitgeschakeld. Dit laatste is vooral nuttig voor nieuwsberichten en pagina's van eerdere conferenties.
 

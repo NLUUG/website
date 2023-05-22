@@ -17,18 +17,3 @@ type: custom
 ---
 
 Deze pagina toont de documenten die weer een review kunnen gebruiken. Pagina's zonder de 'review'-data zullen in de onderste lijst worden weergegeven.
-
-```
-review:
-  last_review: 1970-01-01
-  reviewed_by: Michael Boelen
-  period: 90
-```
-
-Om reviews uit te schakelen voor een bepaalde pagina of post:
-
-```
-review:
-  disabled: true
-  disabled_by: Michael Boelen
-```
