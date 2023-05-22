@@ -5,8 +5,7 @@
   {{ if isset .Params "event_start" }}
 
     {{ $event_start := .Params.event_start | time }}
-    <div class="highlight-box">
-
+    <div class="highlight-box highlight-box-nluug">
       <h3>Locatie</h3>
       <strong>{{ .Params.event_location }}</strong>
       <p>{{ .Params.event_address.street_address }}<br>{{ .Params.event_address.postal_code }}, {{ .Params.event_address.city }}<br>{{ .Params.event_address.country_name }}</p>
@@ -39,6 +38,11 @@
   {{ else }}
     <p>Waarschuwing: dit evenement mist gegevens zoals start en einddatum.</p>
   {{ end }}
+
+  <!-- TODO
+  <h2>Sprekers</h2>
+  Nog in te vullen
+  -->
 
   <h2>Programma</h2>
 
@@ -104,7 +108,7 @@
     </table>
     </div>
   {{ else }}
-    <p>Waarschuwing: dit project is niet goed geconfigureerd in de front matter.</p>
+    <p>Waarschuwing: dit conferentieprogramma is niet goed geconfigureerd in de front matter.</p>
   {{ end }}
 
 {{ end }}
