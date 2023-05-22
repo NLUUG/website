@@ -1,4 +1,5 @@
 ---
+author: Michael Boelen
 categories:
 - website
 date: 2023-05-20T23:19:44+02:00
@@ -44,3 +45,19 @@ De hoofdsecties van een pagina worden voorzien van H2. Op een doorsnee pagina is
 ### H3 en H4
 
 Waar de content wat langer is kan het gebruik van H3 en zelfs H4 worden toegepast.
+
+## Afbeeldingen
+
+Op onze website gebruiken we een aantal verschillende type afbeeldingen:
+
+* Foto's van personen
+* Iconen
+* Logo
+
+### Iconen
+
+Waar mogelijk gebruiken we iconen in het SVG-formaat. Deze zijn compact en relatief eenvoudig te voorzien van kleuren in de huisstijl.
+
+Om de iconen te kleuren maken we gebruik van een CSS-filter. Aangezien hierbij het niet mogelijk om deze direct te kleuren aan de hand van de hex-waarde, worden deze omgezet.
+
+Tool: https://isotropic.co/tool/hex-color-to-css-filter/
