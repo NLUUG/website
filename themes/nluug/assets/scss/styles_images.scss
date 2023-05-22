@@ -1,0 +1,29 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.shownormal {
+  max-width: initial;
+}
+
+.icon {
+  filter: invert(18%) sepia(32%) saturate(1326%) hue-rotate(183deg) brightness(93%) contrast(95%);
+  margin: 3px;
+}
+
+.icon:link {
+  text-decoration: none;
+}
+.icon:visited {
+  text-decoration: none;
+}
+.icon:hover {
+  filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(338deg) brightness(106%) contrast(109%);
+  text-decoration: none;
+}
+.icon:active {
+  text-decoration: none;
+}
+
+
