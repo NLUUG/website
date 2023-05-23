@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+  {{ $text := .Content }}
+
+  {{ if .Params.related_person }}
+    {{ $person := .Params.related_person }}
+    {{ with (index .Site.Data.personen $person) }}
+      {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
+      {{ $text }}
+      <h3>Contact</h3>
+      <ul>
+      {{ if .email }}<li>E-mail: {{ .email }}</li>{{ end }}
+      {{ if .websites }}
+          {{ range .websites }}
+            <li><a href="{{ .url }}" rel="nofollow noopener">{{ .name }}</a></li>
+            {{ end }}
+      {{ end }}
+      </ul>
+
+      {{ if or
+        (.social.mastodon)
+        (.social.twitter)
+      }}
+        <h3>Social media</h3>
+
+        <ul class="list">
+        {{ if .social.mastodon }}
+          <li><img src="/afbeeldingen/iconen/mastodon.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Mastodon"> <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a></li>
+        {{ end }}
+        {{ if .social.twitter }}
+          <li><img src="/afbeeldingen/iconen/twitter.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Twitter"> <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a></li>
+        {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <p>Error: geen persoon toegekend met 'related_person'</p>
+  {{ end }}
+{{ end }}
