@@ -34,7 +34,7 @@ project:
   - task:
     name: Eenvoudige navigatie
     goal: Goede navigatiemogelijkheden en verbeterde vindbaarheid van veelgebruikte secties binnen de website
-    finished: false
+    finished: true
     subtasks:
     - name: Hamburgermenu voor mobiele apparaten
       description: Toevoegen van een zogeheten hamburgermenu dat opengeklapt kan worden op mobiele apparaten
@@ -43,7 +43,7 @@ project:
     - name: Responsive navigatiemenu met subitems
       description: Implementeren van een hoofdmenu waarbij subitems optioneel toegevoegd kunnen worden. Hierbij dient het menu zonder Javascript te werken zodat er maximale compabiliteit is en de website ook werkt als bezoekers scripts uit hebben staan.
       comment: Menu zit er al wel in, maar werkt nog niet lekker
-      finished: false
+      finished: true
   - task:
     name: Implementatie breadcrumbs
     description: Toepassen van zogeheten breadcrumbs die het eenvoudiger maken om terug te navigeren of sneller de hoofdsecties van de website te bereiken. Dit is zeker zinvol als bezoekers via een zoekmachine op een diepergelegen pagina terecht zijn komen.
@@ -60,6 +60,8 @@ project:
     goal: Betere indexering van onze data en content
     finished: false
     subtasks:
+    - name: Template aanmaken zodat dynamisch het juiste Schema geactiveerd wordt
+      finished: true
     - name: Toevoegen Schema Article
       finished: false
     - name: Toevoegen Schema BreadcrumbList
@@ -73,12 +75,12 @@ project:
     - name: Toevoegen Schema SiteNavigationElement
       finished: false
     - name: Toevoegen Schema WebSite
-      finished: false
+      finished: true
   - task:
     name: Zoekfunctie
     description: Implementatie van zoekfunctionaliteit die client-side draait.
     goal: Verbeterde vindbaarheid van content
-    finished: false
+    finished: true
   - task:
     name: Sitemap
     description: Het implementeren van zowel een sitemap voor zoekmachines als voor bezoekers.
