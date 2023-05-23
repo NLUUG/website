@@ -2,7 +2,7 @@
 
 # RSS-feed (Atom)
 [RSS]
-  mediatype = "application/rss"
+  mediatype = "application/xml"
   baseName = "atom"
 
 # JSON Feed, index.json
@@ -15,6 +15,7 @@
   mediaType = "text/calendar"
   baseName = "calendar"
 
+# Index voor zoekfunctionaliteit op de website
 [SearchIndex]
   mediatype = "application/json"
   basename = "searchindex"
