@@ -17,7 +17,7 @@
           {{ if .finished }}
             <p>✔️  Afgerond{{ with .link }}, zie <a href="{{ .url }}">{{ .name }}</a>{{ end }}</p>
           {{ else }}
-            <p>🛠️ Nog af te ronden</p>
+            <p>🛠️ Nog af te ronden (eventueel afhankelijk van subtaak)</p>
           {{ end }}
           {{ $.Scratch.Set "counter2" 0 }}
           {{ with .subtasks }}
