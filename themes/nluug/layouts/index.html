@@ -44,7 +44,7 @@
     <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda.</p>
     <ul>
       {{ range first 10 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
-      <li>{{ .date_start | dateFormat "02-01-2006" }} - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
+      <li><time datetime="{{ .date_start | dateFormat "2006-01-02" }}">{{ .date_start | dateFormat "02-01-2006" }}</time> - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
     <p>&raquo; <a href="/evenementen/kalender/">Volledige evenementenkalender</a></p>

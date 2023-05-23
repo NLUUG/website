@@ -19,7 +19,7 @@
         <tbody>
       {{ range first 50 $byLastMod }}
       <tr>
-        <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
+        <td><time datetime="{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}">{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</time></td>
         <td><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></td>
         {{ if .Site.IsServer }}
           <td>{{ with .File }}{{ .Lang }}{{ end }}</td>

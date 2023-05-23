@@ -25,9 +25,9 @@
               {{ $reviewdate := $reviewdate.AddDate 0 0 .Params.review.period | time.Format "2006-01-02" }}
               <tr>
                 <td><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></td>
-                <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
-                <td>{{ if .Params.review.last_review }}{{ .Params.review.last_review }}{{ else }}Onbekend{{ end }}</td>
-                <td>{{ with $reviewdate }}{{ . }}{{ end }}</td>
+                <td><time datetime="{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}">{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</time></td>
+                <td>{{ if .Params.review.last_review }}<time datetime="{{ .Params.review.last_review | dateFormat "2006-01-02" }}">{{ .Params.review.last_review }}</time>{{ else }}Onbekend{{ end }}</td>
+                <td><time datetime="{{ $reviewdate | dateFormat "2006-01-02" }}">{{ $reviewdate }}</time></td>
                 <td>{{ with .Params.review.period }}{{ . }} dagen{{ end }}</td>
                 <td>
                     {{ if .Params.review.last_review }}
@@ -71,7 +71,7 @@
           {{ range where .Site.RegularPages "Params.review" "==" nil }}
               <tr>
                 <td><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></td>
-                <td>{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</td>
+                <td><time datetime="{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}">{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</time></td>
                 <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
                 <td>{{ with .File }}{{ .Path }}{{ end }}</td>
               </tr>
