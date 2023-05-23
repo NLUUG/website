@@ -7,7 +7,7 @@ tags:
 - projecten
 - website
 slug:
-title: "Nieuwe website"
+title: "Project: Nieuwe website"
 project:
   title: Vernieuwen website
   description: Onze huidige website is verouderd qua techniek en content. Dit project zal de onderliggende techniek vervangen en alle content herzien. De huidige website blijft beschikbaar als archief en tevens als fallback indien bepaalde content (nog) niet is overgezet.
