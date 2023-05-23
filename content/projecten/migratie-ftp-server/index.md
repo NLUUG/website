@@ -7,7 +7,7 @@ tags:
 - projecten
 - ftp-server
 slug:
-title: "Migratie FTP-server"
+title: "Project: Migratie FTP-server"
 project:
   title: Migratie FTP-server
   description: Enerzijds is de hardware van de bestaande FTP-server aan het einde van z'n levensduur en is de hardware ook voor wat betreft performance achterhaald, anderzijds is de beschikbare diskruimte vrijwel vol. De nieuwe omgeving is virtueel en kent veel meer diskruimte. Gezien het virtuele karakter is deze makkelijker uitbreidbaar.
