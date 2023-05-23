@@ -42,7 +42,7 @@ project:
       finished: true
     - name: Responsive navigatiemenu met subitems
       description: Implementeren van een hoofdmenu waarbij subitems optioneel toegevoegd kunnen worden. Hierbij dient het menu zonder Javascript te werken zodat er maximale compabiliteit is en de website ook werkt als bezoekers scripts uit hebben staan.
-      comment: Menu zit er al wel in, maar werkt nog niet lekker
+      comment:
       finished: true
   - task:
     name: Implementatie breadcrumbs
@@ -85,6 +85,7 @@ project:
     name: Sitemap
     description: Het implementeren van zowel een sitemap voor zoekmachines als voor bezoekers.
     goal: Goede indexering en vindbaarheid van content
+    finished: true
     subtasks:
     - name: XML-sitemap
       description: Sitemap t.b.v. zoekmachines voor snellere indexering van onze content
@@ -99,5 +100,51 @@ project:
     - name: Sitemap aanmelden bij zoekmachines
       description: Nadat website live staat mag XML-sitemap aangemeld worden bij zoekmachines voor snellere (her)indexering.
       finished: false
+  - task:
+    name: Implementeren van feeds
+    description: Toevoegen van RSS/Atom/JSON-feed
+    goal: Bezoekers de gelegenheid geven ons nieuws te volgen
+    finished: true
+    subtasks:
+    - name: RSS/Atom
+      description: Toevoegen van feed in RSS of Atom. Keuze is Atom geworden, aangezien deze iets uitgebreider is.
+      finished: true
+      link:
+        name: Atom-feed
+        url: /atom.xml
+    - name: JSON Feed
+      description: Toevoegen van JSON Feed. Dit is een wat nieuwer formaat dan RSS/Atom en geeft onze bezoekers een extra keuze.
+      finished: true
+      link:
+        name: JSON Feed
+        url: /feed.json
+  - task:
+    name: Documenteren van website-structuur en -techniek
+    description: Beschrijven van de diverse componenten binnen de website, inclusief hoe men kan bijdragen aan het geheel.
+    goal: Volledig inzicht geven aan leden en bezoekers over hoe onze website is opgebouwd. Hierbij is dan te denken aan de techniek, maar ook het bijbehorende beheer.
+    finished: false
+    subtasks:
+    - name: Beheer en Onderhoud
+      description: Beschrijven welk onderhoud er nodig is aan de webserver, de website zelf en de gebruikte softwarecomponenten.
+      finished: false
+      link:
+        name: Beheer en Onderhoud
+        url: /website/beheer-en-onderhoud/
+    - name: Tips voor het leveren van een bijdrage aan de website
+      description: Artikel over op welke manier leden en niet-leden een bijdrage kunnen leveren, zoals het indienen van een nieuw evenement, het melden van een foutje in de tekst, etc.
+      finished: false
+    - name: Stijlgids
+      description: Beschrijven van gebruikte kleuren, hoe content opgebouwd dient te worden aan de hand van headings, tabellen, afbeeldingen, etc
+      comment: Eerste versie van stijlgids staat online, dit zal een document worden dat gedurende de tijd bijgewerkt wordt.
+      finished: true
+      link:
+        name: Stijlgids
+        url: /website/stijlgids/
+    - name: Stats for Nerds
+      description: Statistieken tonen van de website. Dit zijn geen bezoekersaantallen, maar details rondom de website zelf (aantal pagina's, laatst bijgewerkt, ondersteuning voor talen, etc.).
+      finished: true
+      link:
+        name: Stats for Nerds
+        url: /website/stats-for-nerds/
   finished: false
 ---
