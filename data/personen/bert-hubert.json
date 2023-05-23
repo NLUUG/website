@@ -1,0 +1,23 @@
+{
+  "id": "bert-hubert",
+  "name": "Bert Hubert",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "profile_page": "",
+  "thumbnail": "/afbeeldingen/personen/bert-hubert-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Bert's blog",
+    "url": "https://berthub.eu/"
+  }],
+  "social": {
+    "facebook": "",
+    "github": "ahuPowerDNS",
+    "instagram": "",
+    "linkedin": "bert-hubert-b05452",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  }
+}
