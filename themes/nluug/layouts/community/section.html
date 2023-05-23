@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+  {{ $communities := slice }}
+  {{ range sort site.Data.community "name" "asec" }}
+    {{ $communities = $communities | append . }}
+  {{ end }}
+
+  {{ $categories := slice }}
+  {{ range .Site.Data.community }}
+      {{ if .category }}
+        {{ $categories = $categories | append .category }}
+      {{ end }}
+  {{ end }}
+  {{ $categories = uniq $categories }}
+
+  {{ range index $categories }}
+    <h3>{{ . | title }}</h3>
+    <blockquote>
+    {{ range where $communities "category" . }}
+      <div>
+        {{ if .url }}
+          <h4><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></h4>
+        {{ else }}
+          <h4>{{ .name }}</h4>
+        {{ end }}
+        <p>{{ .description }}</p>
+      </div>
+    {{ end }}
+    </blockquote>
+  {{ end }}
+
+
+{{ end }}
