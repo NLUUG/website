@@ -4,7 +4,13 @@
   {{ $text := .Content }}
   {{ $date := .Date.Format "02-01-2006" }}
   {{ $lastmod := .Lastmod.Format "02-01-2006" }}
-  <small>Gepubliceerd op {{ $date }} door {{ .Params.author | default .Site.Params.author }}.{{ if gt .Params.lastmod .Params.date }} Artikel bijgewerkt op {{ $lastmod }}{{ end }}</small>
+  {{ if isset .Params "author" }}
+    {{ $author := index .Site.Data.authors .Params.author }}
+    <small>Gepubliceerd op {{ $date }} door {{ $author.name }}.{{ if gt .Params.lastmod .Params.date }} Artikel bijgewerkt op {{ $lastmod }}{{ end }}</small>
+  {{ else }}
+    {{ $author := .Site.Params.author }}
+    <small>Gepubliceerd op {{ $date }} door {{ .Site.Params.author }}.{{ if gt .Params.lastmod .Params.date }} Artikel bijgewerkt op {{ $lastmod }}{{ end }}</small>
+  {{ end }}
   <section>
     {{ $text }}
     {{ if .Params.signed_by }}<em>{{ .Params.signed_by }}</em>{{ end }}

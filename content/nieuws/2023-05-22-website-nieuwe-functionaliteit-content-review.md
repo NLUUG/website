@@ -1,5 +1,5 @@
 ---
-author: Michael Boelen
+author: michael-boelen
 categories:
 - nieuws
 date: 2023-05-22T21:06:43+02:00

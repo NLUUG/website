@@ -1,5 +1,5 @@
 ---
-author: Patrick Reijnen
+author: patrick-reijnen
 categories:
 - nieuws
 date: 2023-05-12T14:56:33+02:00
