@@ -1,19 +1,9 @@
-{{ $size_in_pixels := 150 }}
 {{ if .profile_details }}
       <div>
           {{ if .profile_details.thumbnail }}
-            <figure>
-              {{ if .profile_details.profile_page }}
-                <a href="{{ .profile_details.profile_page }}"><img src="{{ .profile_details.thumbnail }}" alt="Foto van {{ .profile_details.name }}" height="{{ $size_in_pixels }}" width="{{ $size_in_pixels }}"></a>
-              {{ else }}
-                <img src="{{ .profile_details.thumbnail }}" alt="Foto van {{ .profile_details.name }}" height="{{ $size_in_pixels }}" width="{{ $size_in_pixels }}">
-              {{ end }}
-              {{ if not .hide_figcaption }}
-              <figcaption>
-                <small><strong>{{ .profile_details.name }}</strong></small>
-              </figcaption>
-              {{ end }}
-            </figure>
+            {{ $image := replace .profile_details.thumbnail "200x200" "150x150" }}
+            {{ $alttext := printf "Foto van %s" .profile_details.name }}
+            {{ partial "show-image.html" (dict "context" . "image" $image "alt" $alttext) }}
           {{ end }}
       </div>
 {{ end }}

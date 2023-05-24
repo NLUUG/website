@@ -1,8 +1,50 @@
-<img
-  src="{{ .Destination | safeURL }}"
-  alt="{{ .Text }}"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
+<picture>
+  {{ $isJPG := eq (path.Ext .Destination) ".jpg" }}
+  {{ $isPNG := eq (path.Ext .Destination) ".png" }}
 
+  {{ if ($isJPG) -}}
+    {{ $avifPath:= replaceRE "(jpg|jpeg)$i" ".avif" .Destination }}
+    {{ $avifPathStatic:= printf "static/%s" $avifPath }}
+
+    {{ if (fileExists $avifPathStatic) -}}
+      <source srcset="{{ $avifPath | safeURL }}" type="image/avif" >
+    {{- end }}
+
+    {{ $webpPath:= replace .Destination ".jpg" ".webp" }}
+    {{ $webpPathStatic:= printf "static/%s" $webpPath }}
+
+    {{ if (fileExists $webpPathStatic) -}}
+      <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
+    {{- end }}
+  {{- end }}
+
+  {{ if ($isPNG) -}}
+    {{ $avifPath:= replace .Destination ".png" ".avif" }}
+    {{ $avifPathStatic:= printf "static/%s" $avifPath }}
+
+    {{ if (fileExists $avifPathStatic) -}}
+      <source srcset="{{ $avifPath | safeURL }}" type="image/avif" >
+    {{- end }}
+
+    {{ $webpPath:= replace .Destination ".png" ".webp" }}
+    {{ $webpPathStatic:= printf "static/%s" $webpPath }}
+
+    {{ if (fileExists $webpPathStatic) -}}
+      <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
+    {{- end }}
+  {{- end }}
+
+  {{- $img := .Page.Resources.GetMatch .Destination -}}
+  {{- if and (not $img) .Page.File -}}
+      {{ $path := path.Join .Page.File.Dir .Destination }}
+      {{- $img = resources.Get $path -}}
+  {{- end -}}
+  <img
+    src="{{ .Destination | safeURL }}"
+    alt="{{ .Text }}"
+    loading="lazy"
+    decoding="async"
+    width="{{ $img.Width }}"
+    height="{{ $img.Height }}"
+  />
+</picture>
