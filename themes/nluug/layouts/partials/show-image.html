@@ -1,33 +1,34 @@
+{{ if .link }}<a href="{{ .link }}">{{ end }}
 <figure>
-<picture>
-  {{ $isJPG := eq (path.Ext .image) ".jpg" }}
-  {{ $isPNG := eq (path.Ext .image) ".png" }}
+  <picture>
+    {{ $isJPG := eq (path.Ext .image) ".jpg" }}
+    {{ $isPNG := eq (path.Ext .image) ".png" }}
 
-  {{ if ($isJPG) -}}
-    {{ $webpPath:= replace .image ".jpg" ".webp" }}
-    {{ $webpPathStatic:= printf "static/%s" $webpPath }}
+    {{ if ($isJPG) -}}
+      {{ $webpPath:= replace .image ".jpg" ".webp" }}
+      {{ $webpPathStatic:= printf "static/%s" $webpPath }}
 
-    {{ if (fileExists $webpPathStatic) -}}
-      <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+      {{ if (fileExists $webpPathStatic) -}}
+        <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+      {{- end }}
     {{- end }}
-  {{- end }}
 
-  {{ if ($isPNG) -}}
-    {{ $webpPath:= replace .image ".png" ".webp" }}
-    {{ $webpPathStatic:= printf "static/%s" $webpPath }}
+    {{ if ($isPNG) -}}
+      {{ $webpPath:= replace .image ".png" ".webp" }}
+      {{ $webpPathStatic:= printf "static/%s" $webpPath }}
 
-    {{ if (fileExists $webpPathStatic) -}}
-      <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+      {{ if (fileExists $webpPathStatic) -}}
+        <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+      {{- end }}
     {{- end }}
-  {{- end }}
-  {{ $img := imageConfig (add "/static" (.image | safeURL)) }}
-  {{ if .link }}<a href="{{ .link }}">{{ end }}
-    <img src="{{ .image | safeURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
-  {{ if .link }}</a>{{ end }}
-</picture>
-{{ if .figcaption }}
-<figcaption>
-<small><strong>{{ .figcaption }}</strong></small>
-</figcaption>
+    {{ $img := imageConfig (add "/static" (.image | safeURL)) }}
+
+      <img src="{{ .image | safeURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
+  </picture>
+  {{ if .figcaption }}
+    <figcaption>
+      <small><strong>{{ .figcaption }}</strong></small>
+    </figcaption>
+  {{ end }}
 </figure>
-{{ end }}
+{{ if .link }}</a>{{ end }}
