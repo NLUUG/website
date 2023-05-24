@@ -9,26 +9,18 @@
 
   <h2>Team</h2>
 
-  <div class="grid-team-members">
+  <div class="grid-team-members-small-photos">
     {{ range $key,$val := .Params.team_members }}
       {{ with (index $.Site.Data.personen $val) }}
-        <div>
-            {{ if .thumbnail }}
-              <figure>
-                {{ if .profile_page }}
-                  <a href="{{ .profile_page }}"><img src="{{ .thumbnail }}" alt="Foto van {{ .name }}"></a>
-                {{ else }}
-                  <img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">
-                {{ end }}
-                <figcaption>
-                  <strong>{{ .name }}</strong>
-                </figcaption>
-              </figure>
-            {{ end }}
-        </div>
-      {{ end }}
+      <div>
+        {{ if .thumbnail }}
+          {{ $image := replace .thumbnail "200x200" "150x150" }}
+          {{ $alttext := printf "Foto van %s" .name }}
+          {{ partial "show-image.html" (dict "context" . "image" $image "alt" $alttext "figcaption" .name "link" .profile_page) }}
+        {{ end }}
+      </div>
     {{ end }}
+  {{ end }}
   </div>
-
 
 {{ end }}
