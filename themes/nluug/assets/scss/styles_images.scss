@@ -1,11 +1,11 @@
-img {
+img.max-width {
     max-width: 100%;
     height: auto;
 }
 
-img.shownormal {
-  max-width: initial;
-}
+//img.shownormal {
+//  max-width: initial;
+//}
 
 .icon {
   filter: invert(18%) sepia(32%) saturate(1326%) hue-rotate(183deg) brightness(93%) contrast(95%);
