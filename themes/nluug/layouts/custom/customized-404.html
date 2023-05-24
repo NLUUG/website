@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<div>{{ .Content }}</div>
+
+<h3>Suggesties</h3>
+
+<p>Op zoek naar een bepaalde pagina of informatie? De onderstaande zoekfunctie weet het hopelijk wel te vinden:</p>
+
+{{ partial "search-form.html" . }}
+
+{{ end }}
