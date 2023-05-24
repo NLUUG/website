@@ -67,4 +67,8 @@ Tool: https://isotropic.co/tool/hex-color-to-css-filter/
 
 Ten behoeve van de zichtbaarheid heeft de website ook ondersteunende afbeeldingen. Deze vaak niet direct zichtbaar, maar worden gebruikt op o.a. social media. Bij het delen van een URL die op onze website uitkomt, zal aan de hand van de meta-tags hier de juiste informatie bij geplaatst worden. Zo worden een ondersteunende afbeelding toegevoegd die dynamisch wordt gegenereerd.
 
-Tool: https://www.opengraph.xyz/
+Tools:
+* [Controle OpenGraph](https://www.opengraph.xyz/)
+* [Genereren van achtergronden](https://angrytools.com/gradient/image/)
+
+
