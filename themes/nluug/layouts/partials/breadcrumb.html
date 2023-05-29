@@ -3,7 +3,7 @@
   <ol class="breadcrumb">
     {{ range $index,$element := .Ancestors.Reverse }}
       {{ if eq $index 0 }}
-        <li><img src="/afbeeldingen/iconen/home.svg" height="{{ .Site.Params.smallIconSize }}" width="{{ .Site.Params.smallIconSize }}" alt="Terug naar hoofdpagina">&nbsp;<a href="{{ .Permalink }}">Hoofdpagina</a></li>
+      <li><img src="/afbeeldingen/iconen/home.svg" height="{{ .Site.Params.smallIconSize }}" width="{{ .Site.Params.smallIconSize }}" alt="{{ i18n "back_to_home" }}">&nbsp;<a href="{{ .Permalink }}">{{ .Title }}</a></li>
       {{ else }}
       <li>
         <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
