@@ -1,5 +1,5 @@
 User-agent: *
 {{ range where .Site.Pages "Params.noindex" true -}}
-Disallow: {{ .Permalink }}
+Disallow: {{ .RelPermalink }}
 {{- end }}
 Sitemap: {{ absURL site.Home.Sitemap.Filename }}
