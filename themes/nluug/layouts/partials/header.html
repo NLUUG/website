@@ -6,7 +6,7 @@
 
     {{ $logoresource := resources.Get (.Site.Params.logoNormal | replaceRE "^/" "") }}
 
-    <a href="/" class="logo" title="Terug naar hoofdpagina"><img class="max-width" src="{{ $logoresource | relURL }}" alt="NLUUG-logo" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}"></a>
+    <a href="{{ "/" | relLangURL }}" class="logo" title="Terug naar hoofdpagina"><img class="max-width" src="{{ $logoresource | relURL }}" alt="NLUUG-logo" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}"></a>
 
     <input type="checkbox" id="hamburger" aria-label="menu button">
     <label for="hamburger"><span></span></label>
