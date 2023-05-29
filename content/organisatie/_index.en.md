@@ -5,7 +5,7 @@ date: 2023-05-06T13:08:32+02:00
 description: "Learn more about the NLUUG organization and the active members within the different committees"
 tags:
 - organization
-slug: organization
+url: organization/
 title: "Organization"
 show_child_pages: true
 active_members:
