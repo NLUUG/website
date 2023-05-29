@@ -3,7 +3,7 @@
 # The pageRef entries have Dutch names, as the Dutch content section is the primary source for the translations
 
   [[main]]
-    identifier = "organization"
+    identifier = "organisatie"
     name = "Organization"
     pageRef = "/organisatie"
     weight = 10

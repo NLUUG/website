@@ -1,54 +1,54 @@
 # Menu-configuratie
 
   [[main]]
-    identifier = "organization"
+    identifier = "organisatie"
     name = "Organisatie"
     pageRef = "/organisatie"
     weight = 10
 
   [[main]]
-    identifier = "organization-goals"
+    identifier = "organisatie-goals"
     name = "Doelstellingen"
     url = "/organisatie/doelstellingen/"
-    parent = "organization"
+    parent = "organisatie"
     weight = 11
 
   [[main]]
-    identifier = "organization-board"
+    identifier = "organisatie-bestuur"
     name = "Bestuur"
     url = "/organisatie/bestuur/"
-    parent = "organization"
+    parent = "organisatie"
     weight = 12
 
   [[main]]
-    identifier = "organization-committees"
+    identifier = "organisatie-commissies"
     name = "Commissies"
     url = "/organisatie/commissies/"
-    parent = "organization"
+    parent = "organisatie"
     weight = 13
 
   [[main]]
     identifier = "nluug-award"
     name = "NLUUG Award"
     url = "/organisatie/nluug-award/"
-    parent = "organization"
+    parent = "organisatie"
     weight = 14
 
   [[main]]
-    identifier = "events"
+    identifier = "evenementen"
     name = "Evenementen"
     url = "/evenementen/"
     weight = 20
 
   [[main]]
-    identifier = "events-calendar"
+    identifier = "evenementen-kalender"
     name = "Kalender"
     url = "/evenementen/kalender/"
-    parent = "events"
+    parent = "evenementen"
     weight = 21
 
   [[main]]
-    identifier = "membership"
+    identifier = "lidmaatschap"
     name = "Lidmaatschap"
     url = "/lidmaatschap/"
     weight = 30
@@ -57,25 +57,25 @@
     identifier = "lidmaatschap-tarieven"
     name = "Tarieven"
     url = "/lidmaatschap/tarieven/"
-    parent = "membership"
+    parent = "lidmaatschap"
     weight = 31
 
   [[main]]
     identifier = "lidmaatschap-aanmelden"
     name = "Aanmelden"
     url = "/lidmaatschap/aanmelden/"
-    parent = "membership"
+    parent = "lidmaatschap"
     weight = 32
 
   [[main]]
     identifier = "lidmaatschap-ereleden"
     name = "Ereleden"
     url = "/lidmaatschap/ereleden/"
-    parent = "membership"
+    parent = "lidmaatschap"
     weight = 33
 
   [[main]]
-    identifier = "news"
+    identifier = "nieuws"
     name = "Nieuws"
     url = "/nieuws/"
     weight = 40
@@ -87,7 +87,7 @@
     weight = 50
 
   [[footer]]
-    identifier = "terms"
+    identifier = "voorwaarden"
     name = "Algemene Voorwaarden"
     pageRef = "/algemene-voorwaarden/"
     weight = 10

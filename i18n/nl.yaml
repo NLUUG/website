@@ -1,0 +1,17 @@
+- id: back_to_home
+  translation: "Terug naar hoofdpagina"
+- id: contact
+  translation: contact
+- id: events
+  translation: evenementen
+- id: membership
+  translation: lidmaatschap
+- id: news
+  translation: nieuws
+- id: organization
+  translation: organisatie
+- id: privacy
+  translation: privacy
+- id: search
+  translation: zoeken
+
