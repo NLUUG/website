@@ -1,0 +1,11 @@
+# Menu configuration for the English part of the website
+#
+# The pageRef entries have Dutch names, as the Dutch content section is the primary source for the translations
+
+  [[main]]
+    identifier = "organization"
+    name = "Organization"
+    pageRef = "/organisatie"
+    weight = 10
+
+# EOF
