@@ -1,8 +1,7 @@
 [nl]
+  languageName = "Nederlands"
   weight = 1
-  languageName = 'Nederlands'
-[en]
-  #title = "NLUUG"
-  weight = 2
-  languageName = 'English'
 
+[en]
+  languageName = "English"
+  weight = 2
