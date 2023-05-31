@@ -19,7 +19,7 @@
              {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
              {{ if .Children }}
                <li>
-                 <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown-{{ $.Scratch.Get "counter" }}" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button>
+                 <!-- <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown-{{ $.Scratch.Get "counter" }}" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button> -->
                  <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a>
                  <ul class="dropdown" id="dropdown-{{ $.Scratch.Get "counter" }}">
                    {{ range .Children }}
@@ -29,14 +29,14 @@
                </li>
              {{ else }}
              <li>
-               <button type="button" aria-haspopup="true" aria-expanded="true" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button>
+               <!-- <button type="button" aria-haspopup="true" aria-expanded="true" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button> -->
                <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a>
              </li>
              {{ end }}
            {{ end }}
            <li>
              {{ $search := safeHTML (strings.FirstUpper (i18n "search")) }}
-             <button type="button" aria-haspopup="false" aria-expanded="true" aria-label="{{ $search }}"></button>
+             <!-- <button type="button" aria-haspopup="false" aria-expanded="true" aria-label="{{ $search }}"></button> -->
              <a href="{{ relLangURL "/zoeken/" }}">
                {{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass" "title" $search) }}
              </a>
