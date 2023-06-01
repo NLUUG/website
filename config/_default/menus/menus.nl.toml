@@ -75,6 +75,13 @@
     weight = 33
 
   [[main]]
+    identifier = "lidmaatschap-ledendeel"
+    name = "Inloggen voor leden"
+    url = "https://leden.nluug.nl/leden/"
+    parent = "lidmaatschap"
+    weight = 34
+
+  [[main]]
     identifier = "nieuws"
     name = "Nieuws"
     url = "/nieuws/"
