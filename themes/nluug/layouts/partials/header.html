@@ -41,6 +41,12 @@
                {{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass" "title" $search) }}
              </a>
            </li>
+           <li>
+             {{ $text := safeHTML (strings.FirstUpper (i18n "ledendeel")) }}
+             <a href="https://leden.nluug.nl/leden/">
+               {{ partial "show-svg-icon.html" (dict "context" . "icon" "user" "title" $text) }}
+             </a>
+           </li>
          </ul>
     </nav>
   </div>
