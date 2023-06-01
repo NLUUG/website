@@ -7,7 +7,4 @@
 {{ end }}
 
 {{ $js := .Scratch.Get "jslibs" | resources.Concat "js/combined-scripts.js" | resources.Minify | fingerprint }}
-<script
-    src="{{ $js.RelPermalink }}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"
-    integrity="{{ $js.Data.Integrity }}"
-></script>
+<script src="{{ $js.RelPermalink }}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" crossorigin="anonymous" integrity="{{ $js.Data.Integrity }}"></script>
