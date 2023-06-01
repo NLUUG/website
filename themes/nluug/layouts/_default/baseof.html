@@ -47,6 +47,8 @@
         </div>
       </main>
       {{ partial "footer.html" . }}
-      {{ partialCached "scripts_loadlast.html" . }}
+      {{ if findRE `[zZ]oek|[sS]earch` .Title 1 }}
+        {{ partialCached "scripts_loadlast.html" . }}
+      {{ end }}
   </body>
 </html>
