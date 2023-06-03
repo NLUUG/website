@@ -16,18 +16,18 @@
 
       <nav aria-label="Social media">
       {{ with .Site.Params.twitter_handle }}
-        <a class="icon" href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer "title" "Twitter mee") }}</a>
+        <a class="icon" href="https://twitter.com/{{ . }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer "title" "Twitter mee") }}</a>
       {{ end }}
       {{ if and
         (.Site.Params.mastodon_handle)
         (.Site.Params.mastodon_instance)
       }}
-      <a class="icon" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}" target="_blank">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer "title" "Toots van NLUUG") }}</a>
+      <a class="icon" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer "title" "Toots van NLUUG") }}</a>
       {{ end }}
-      <a class="icon" href="https://www.linkedin.com/groups/130891/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "linkedin" "iconsize" $iconsize_footer "title" "Vind ons op LinkedIn") }}</a>
-      <a class="icon" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer "title" "Bekijk onze geplande evenementen") }}</a>
-      <a class="icon" href="{{ absURL "atom.xml" }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "rss" "iconsize" $iconsize_footer "title" "RSS-feed voor nieuwsberichten") }}</a>
-      <a class="icon" href="{{ absURL "feed.json" }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "database" "iconsize" $iconsize_footer "title" "JSON Feed voor actueel nieuws") }}</a>
+      <a class="icon" href="https://www.linkedin.com/groups/130891/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "linkedin" "iconsize" $iconsize_footer "title" "Vind ons op LinkedIn") }}</a>
+      <a class="icon" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer "title" "Bekijk onze geplande evenementen") }}</a>
+      <a class="icon" href="{{ absURL "atom.xml" }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "rss" "iconsize" $iconsize_footer "title" "RSS-feed voor nieuwsberichten") }}</a>
+      <a class="icon" href="{{ absURL "feed.json" }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "database" "iconsize" $iconsize_footer "title" "JSON Feed voor actueel nieuws") }}</a>
       </nav>
     </div>
     <div>
