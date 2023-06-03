@@ -5,7 +5,7 @@
     <div>
       <h2>Help mee</h2>
         {{ if .File }}
-          <a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .File.Path }}" target="_blank" rel="noopener">Verbeter deze pagina</a>
+          <a class="btn btn-cta" href="https://github.com/NLUUG/website/edit/main/content/{{ .File.Path }}">Verbeter deze pagina</a>
         {{ else }}
           <a class="btn btn-cta" href="{{ relURL "website/feedback/" }}">Deel feedback</a>
         {{ end }}
@@ -22,7 +22,7 @@
         (.Site.Params.mastodon_handle)
         (.Site.Params.mastodon_instance)
       }}
-      <a class="icon" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer "title" "Toots van NLUUG") }}</a>
+      <a class="icon" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}" target="_blank">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer "title" "Toots van NLUUG") }}</a>
       {{ end }}
       <a class="icon" href="https://www.linkedin.com/groups/130891/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "linkedin" "iconsize" $iconsize_footer "title" "Vind ons op LinkedIn") }}</a>
       <a class="icon" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/" target="_blank" rel="noopener">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer "title" "Bekijk onze geplande evenementen") }}</a>
