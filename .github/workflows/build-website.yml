@@ -25,9 +25,9 @@ jobs:
       - name: Start content sync (webhook)
         uses: distributhor/workflow-webhook@v3
         env:
-          webhook_url: https://www3.nluug.nl/webhooks/website/pull
+          webhook_url: https://www.nluug.nl/webhooks/website/pull
       - name: Start website build (webhook)
         uses: distributhor/workflow-webhook@v3
         env:
-          webhook_url: https://www3.nluug.nl/webhooks/website/build
+          webhook_url: https://www.nluug.nl/webhooks/website/build
       - run: echo "🍏 This job's status is ${{ job.status }}."
