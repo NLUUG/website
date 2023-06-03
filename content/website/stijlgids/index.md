@@ -59,13 +59,13 @@ Op onze website gebruiken we een aantal verschillende type afbeeldingen:
 
 Waar mogelijk gebruiken we iconen in het SVG-formaat. Deze zijn compact en relatief eenvoudig te voorzien van kleuren in de huisstijl.
 
-Om de iconen te kleuren maken we gebruik van een CSS-filter. Aangezien hierbij het niet mogelijk om deze direct te kleuren aan de hand van de hex-waarde, worden deze omgezet.
+Om de iconen te kleuren maken we gebruik van een CSS-filter. Aangezien het hierbij niet mogelijk is om deze direct te kleuren aan de hand van de hex-waarde, worden deze omgezet.
 
 Tool: https://isotropic.co/tool/hex-color-to-css-filter/
 
 ### Ondersteunende afbeeldingen
 
-Ten behoeve van de zichtbaarheid heeft de website ook ondersteunende afbeeldingen. Deze vaak niet direct zichtbaar, maar worden gebruikt op o.a. social media. Bij het delen van een URL die op onze website uitkomt, zal aan de hand van de meta-tags hier de juiste informatie bij geplaatst worden. Zo worden een ondersteunende afbeelding toegevoegd die dynamisch wordt gegenereerd.
+Ten behoeve van de zichtbaarheid heeft de website ook ondersteunende afbeeldingen. Deze zijn vaak niet direct zichtbaar, maar worden gebruikt op o.a. social media. Bij het delen van een URL die op onze website uitkomt, zal aan de hand van de meta-tags hier de juiste informatie bij geplaatst worden. Zo wordt een ondersteunende afbeelding toegevoegd die dynamisch wordt gegenereerd.
 
 Tools:
 * [Controle OpenGraph](https://www.opengraph.xyz/)
