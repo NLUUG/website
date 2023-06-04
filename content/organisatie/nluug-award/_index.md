@@ -38,7 +38,7 @@ De NLUUG Award is uitgereikt aan de volgende personen en instellingen:
 * Wietse Venema (Satan/Postfix, 2000)
 * [Guido van Rossum]({{< relref "guido-van-rossum/" >}}) (Python, 2003)
 * Bram Moolenaar (VIM, 2008)
-* [Andrew Tanenbaum]({{< relref "andrew-tanenbaum/" >}}) (Minix, 2009)
+* [Andrew Tanenbaum]({{< relref "andrew-tanenbaum/" >}}) (Minix, 2008)
 * Wytze van der Raaij en Teus Hagen (2010)
 * Olaf Kolkman (2015)
 * Michiel Leenaars (2022)
