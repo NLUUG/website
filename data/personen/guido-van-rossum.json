@@ -10,6 +10,9 @@
     "id": 1,
     "name": "Guido's persoonlijke pagina",
     "url": "https://gvanrossum.github.io/"
+    "id": 2,
+    "name": "Python",
+    "url": "https://www.python.org"
   }],
   "social": {
     "facebook": "",
