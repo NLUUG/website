@@ -1,0 +1,23 @@
+{
+  "id": "guido-van-rossum",
+  "name": "Guido van Rossum",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "profile_page": "",
+  "thumbnail": "",
+  "websites": [{
+    "id": 1,
+    "name": "Guido's persoonlijke pagina",
+    "url": "https://gvanrossum.github.io/"
+  }],
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "guido-van-rossum-4a0756",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "gvanrossum"
+  }
+}
