@@ -6,7 +6,7 @@ description: "Op 22 mei 2003 heeft Guido van Rossum de NLUUG Award uitgereikt ge
 tags:
 - award
 title: "NLUUG Award voor Guido van Rossum"
-related_person:
+related_person: guido-van-rossum
 ---
 
 Tijdens de halfjaarlijkse NLUUG conferentie op 22 mei 2003 is, namens onze vereniging, de NLUUG Award uitgereikt aan de bekende Nederlandse onderzoeker en software-ontwikkelaar Guido van Rossum.
