@@ -1,0 +1,23 @@
+{
+  "id": "andrew-tanenbaum",
+  "name": "Andrew S. Tanenbaum",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "profile_page": "",
+  "thumbnail": "",
+  "websites": [{
+    "id": 1,
+    "name": "Andrew's persoonlijke pagina",
+    "url": "https://cs.vu.nl/~ast/"
+  }],
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  }
+}
