@@ -1,0 +1,23 @@
+{
+  "id": "bram-molenaar",
+  "name": "Bram Moolenaar",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "profile_page": "",
+  "thumbnail": "",
+  "websites": [{
+    "id": 1,
+    "name": "Bram's persoonlijke pagina",
+    "url": "https://moolenaar.net"
+  }],
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  }
+}
