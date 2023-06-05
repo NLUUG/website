@@ -1,17 +1,15 @@
 ---
 categories:
 - organisatie
+contact_email: ftp-admin@nluug.nl
 date: 2023-06-05T18:15:37+02:00
 description: "Leer meer over het FTP server beheerteam. Zij dragen zorg voor technisch en functioneel onderhoud"
-review:
-  last_review: 2023-06-05
-  reviewed_by:
-  period: 365
 slug:
 tags:
 - organisatie
 - ftp
 title: "Ftp server beheerteam"
+type: team
 team_members:
 - jan-christiaan-van-winkel
 - mike-hulsman

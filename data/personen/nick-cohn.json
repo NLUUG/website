@@ -1,0 +1,17 @@
+{
+  "id": "nick-cohn",
+  "name": "Nick Cohn",
+  "email": "",
+  "gender": "",
+  "honorary_member": true,
+  "nationality": "Dutch",
+  "thumbnail": "",
+  "social": {
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": ""
+  }
+}
