@@ -13,6 +13,8 @@ type: team
 team_members:
 - mark-janssen
 - nick-cohn
+- jeroen-jonkman
+- luc-nieland
 ---
 
 Het filmteam is vooral actief op de conferentie. Bij voldoende capaciteit wordt in alle zalen gefilmd.
