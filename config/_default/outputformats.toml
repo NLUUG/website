@@ -5,10 +5,15 @@
   mediatype = "application/xml"
   baseName = "atom"
 
-# JSON Feed, index.json
+# JSON Feed: feed.json
 [JSON]
   mediatype = "application/json"
   baseName = "feed"
+
+# IndexNow-bestand: indexnow.json
+[IndexNow]
+  mediatype = "application/json"
+  baseName = "indexnow"
 
 # CalendarEvent genereerd een iCal-bestand voor evenementen
 [CalendarEvent]

@@ -1,0 +1,14 @@
+{{- $url := urls.Parse (absURL "") -}}
+{{- $domainname := split $url.Host "." -}}
+{{- index $domainname 1 -}}
+{
+    "host": "{{ $domainname }}",
+    "key": "eef97f0eab614e95ba7b54615dc59f9d",
+    "keyLocation": "{{ absURL "/eef97f0eab614e95ba7b54615dc59f9d.txt" }}",
+    {{ $index_time := (time now).AddDate 0 0 -1 }}
+    "urlList": [
+        {{- range .Site.RegularPages -}}
+        {{ if ge (time .Date) $index_time }}"{{ .Permalink }}",{{ end }}
+        {{- end -}}
+    ]
+}
