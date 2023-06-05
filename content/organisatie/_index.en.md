@@ -9,6 +9,7 @@ url: organization/
 title: "Organization"
 show_child_pages: true
 active_members:
+- aschwin-marsman
 - bjorn-wijers
 - brenda-langedijk
 - fred-donck
@@ -18,6 +19,7 @@ active_members:
 - koen-de-jonge
 - mark-janssen
 - michael-boelen
+- mischa-peters
 - patrick-reijnen
 - rogier-spoor
 - ronny-lam
