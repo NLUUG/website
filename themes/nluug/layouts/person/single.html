@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $text := .Content }}
-  {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -4)) }}
+  {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -3)) }}
     {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
     {{ $text }}
     <h3>Contact</h3>
