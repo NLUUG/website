@@ -1,5 +1,4 @@
 ---
-author: "Mischa Peters"
 categories:
 - organisatie
 date: 2023-06-05T09:17:17+02:00
@@ -11,3 +10,5 @@ slug: mischa-peters
 title: "Mischa Peters"
 type: person
 ---
+
+Mischa is sinds juni 2023 actief voor onze programmacommissie.
