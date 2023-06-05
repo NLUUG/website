@@ -17,6 +17,7 @@ team_members:
 - hans-van-de-looy
 - koen-de-jonge
 - michael-boelen
+- mischa-peters
 - rudi-van-drunen
 - rogier-spoor
 - willem-toorop

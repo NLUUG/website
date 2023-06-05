@@ -1,0 +1,15 @@
+{
+  "name": "Mischa Peters",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/mischa-peters-200x200.jpg",
+  "social": {
+    "github": "https://github.com/mischapeters",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/mischapeters/",
+    "mastodon": "mischa@exquisite.social",
+    "mastodon_url": "https://exquisite.social/@mischa"
+  }
+}
