@@ -35,7 +35,7 @@ Indien een individu of instelling wordt voorgedragen voor de NLUUG Award, is het
 De NLUUG Award is uitgereikt aan de volgende personen en instellingen:
 
 * Piet Beertema (Internetpionier, 1997)
-* Wietse Venema (Satan/Postfix, 2000)
+* [Wietse Venema]({{< relref "wietse-venema/" >}}) (Satan/Postfix, 2000)
 * [Guido van Rossum]({{< relref "guido-van-rossum/" >}}) (Python, 2003)
 * [Bram Moolenaar]({{< relref "bram-moolenaar/" >}})  (Vim, 2008)
 * [Andrew Tanenbaum]({{< relref "andrew-tanenbaum/" >}}) (Minix, 2008)
