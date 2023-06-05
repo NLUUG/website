@@ -18,6 +18,7 @@ active_members:
 - koen-de-jonge
 - mark-janssen
 - michael-boelen
+- mischa-peters
 - patrick-reijnen
 - rogier-spoor
 - ronny-lam
