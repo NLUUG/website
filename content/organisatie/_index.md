@@ -9,6 +9,7 @@ slug:
 title: "Organisatie"
 show_child_pages: true
 active_members:
+- aschwin-marsman
 - bjorn-wijers
 - brenda-langedijk
 - fred-donck

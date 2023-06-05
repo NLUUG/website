@@ -12,6 +12,7 @@ slug:
 title: "Programmacommissie"
 type: team
 team_members:
+- aschwin-marsman
 - brenda-langedijk
 - fred-donck
 - hans-van-de-looy
