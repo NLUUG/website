@@ -48,6 +48,13 @@
     weight = 21
 
   [[main]]
+    identifier = "evenementen-nluug"
+    name = "NLUUG"
+    url = "/evenementen/nluug/"
+    parent = "evenementen"
+    weight = 22
+
+  [[main]]
     identifier = "lidmaatschap"
     name = "Lidmaatschap"
     url = "/lidmaatschap/"

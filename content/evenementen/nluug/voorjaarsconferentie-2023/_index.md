@@ -88,7 +88,7 @@ event_schedule:
       talk:
         speaker: Jan Ainali
         title: Introduction to public code
-        link:
+        link: talks/jan-ainali-introduction-to-public-code/
     - column:
       talk:
         speaker: Tamara Brandt
