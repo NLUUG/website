@@ -14,6 +14,7 @@ Door middel van meerdere commissies verspreiden we de werkzaamheden. Nagenoeg ie
 
 | Commissie   | Taken |
 | :--- | :--- |
+| Beheerteam  | Beheer van o.a. servers, DNS en mail |
 | Buro        | Ledenadministratie |
 | Filmteam    | Opnames en foto's van evenementen |
 | FTP         | Beheer van FTP-server |
