@@ -20,20 +20,28 @@
     {{ with .Params.event_register_link }}
       {{ if le now $event_start }}
         <a href="{{ . }}" class="button">Inschrijven</a>
-      {{ else }}
-        <p>Dit evenement is al afgelopen, inschrijven is daarom niet meer mogelijk.</p>
       {{ end }}
     {{ end }}
 
-    <h3>Kalender</h3>
-    <p>Zet het event alvast in je agenda met onderstaande opties!</p>
-    <ul>
-    {{ with .OutputFormats.Get "calendarevent" }}
-      <li><a href="{{ .RelPermalink }}">Importeren via iCal-bestand</a></li>
-    {{ end }}
-    <li><a href="https://www.google.com/calendar/render?action=TEMPLATE&text={{ .Params.event_title | urlquery }}&details=Locatie:%20{{ .Params.event_location | urlquery }}&location={{ .Params.event_address.street_address }}%2c%20{{ .Params.event_address.postal_code }}%2c%20{{ .Params.event_address.city }}%2c%20{{ .Params.event_address.country_name }}&dates={{ time.Format "20060102T150405" .Params.event_start }}/{{ time.Format "20060102T150405" .Params.event_end }}&ctz={{ .Params.event_timezone }}">Importeren naar Google-kalender</a></li>
-    </ul>
+    {{ if le now $event_start }}
+      {{ with .Params.event_register_link }}
+        <h3>Inschrijven</h3>
+        <p>Om deel te nemen aan dit evenement is inschrijving vereist.</p>
+        <a href="{{ . }}" class="button">Inschrijven</a>
+      {{ end }}
 
+      <h3>Kalender</h3>
+      <p>Zet het event alvast in je agenda met onderstaande opties!</p>
+      <ul>
+      {{ with .OutputFormats.Get "calendarevent" }}
+        <li><a href="{{ .RelPermalink }}">Importeren via iCal-bestand</a></li>
+      {{ end }}
+      <li><a href="https://www.google.com/calendar/render?action=TEMPLATE&text={{ .Params.event_title | urlquery }}&details=Locatie:%20{{ .Params.event_location | urlquery }}&location={{ .Params.event_address.street_address }}%2c%20{{ .Params.event_address.postal_code }}%2c%20{{ .Params.event_address.city }}%2c%20{{ .Params.event_address.country_name }}&dates={{ time.Format "20060102T150405" .Params.event_start }}/{{ time.Format "20060102T150405" .Params.event_end }}&ctz={{ .Params.event_timezone }}">Importeren naar Google-kalender</a></li>
+      </ul>
+    {{ else }}
+      <h3>Presentaties, foto's en opnames</h3>
+      <p>Na de conferentie verzamelen we de opnames en foto's. Nadat ze beschikbaar komen zijn ze te raadplegen via de pagina's in onderstaand programma.</p>
+    {{ end }}
 
   {{ else }}
     <p>Waarschuwing: dit evenement mist gegevens zoals start en einddatum.</p>
