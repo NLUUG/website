@@ -98,6 +98,7 @@ event_schedule:
       talk:
         speaker: Nicole Wajer
         title: Wat hebben IPv6 en broccoli gemeenschappelijk
+        link: talks/nicole-wajer-wat-hebben-ipv6-en-broccoli-gemeenschappelijk/
   - row:
     columns:
     - column:
@@ -116,6 +117,7 @@ event_schedule:
       talk:
         speaker: Paul Reuvers en Marc Simons
         title: Operation Rubicon (How CIA and BND took over CryptoAG)
+        link: talks/paul-reuvers-en-mark-simons-operation-rubicon/
     - column:
       talk:
         speaker: Peter van Eijk
@@ -153,6 +155,7 @@ event_schedule:
       talk:
         speaker: Rix Groenboom
         title: "Validation of AI: Towards a Driving Exam for OpenPilot"
+        link: talks/rix-groenboom-validation-of-ai-towards-a-driving-exam-for-openpilot/
     - column:
       talk:
         speaker: Björn Wijers
@@ -172,10 +175,12 @@ event_schedule:
       talk:
         speaker: Jesse Lourens
         title: SBOM, an overview
+        link: talks/jesse-lourens-sbom-an-overview/
     - column:
       talk:
         speaker: Sander Raaijmakers en Leo Rozendaal
         title: Connectivity Standards Alliance - Zigbee Direct and Matter
+        link: talks/sander-raaijmakers-en-leo-rozendaal-connectivity-standards-alliance-zigbee-direct-and-matter/
     - column:
       talk:
         speaker: Jan-Piet Mens
@@ -198,15 +203,17 @@ event_schedule:
       talk:
         speaker: Cristian Hesselman
         title: Increasing Internet security by bridging research and operations
+        link: talks/cristian-hesselman-increasing-internet-security-by-bridging-research-and-operations/
     - column:
       talk:
         speaker: Walter Belgers
         title: Mijn avonturen met het Anker magneetslot
-        link:
+        link: talks/walter-belgers-mijn-avonturen-met-het-anker-magneetslot/
     - column:
       talk:
         speaker: Harm van Stekelenburg
         title: PubHubs, a community network based on public values
+        link: talks/harm-van-stekelenburg-pubhubs-a-community-network-based-on-public-values/
   - row:
     columns:
     - column:
@@ -238,7 +245,7 @@ event_schedule:
       time: 17:55
     - column:
       textfield:
-        text: Borrel, gesponsord door ...?
+        text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
 ---
