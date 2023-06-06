@@ -120,6 +120,7 @@ event_schedule:
       talk:
         speaker: Peter van Eijk
         title: Cloud is here to stay
+        link: talks/peter-van-eijk-cloud-is-here-to-stay/
   - row:
     columns:
     - column:
@@ -156,6 +157,7 @@ event_schedule:
       talk:
         speaker: Björn Wijers
         title: Kom voor de Hersenspoeling en help in De Digitale Spoelkeuken
+        link: talks/bjorn-wijers-kom-voor-de-hersenspoeling-en-help-in-de-digitale-spoelkeuken/
   - row:
     columns:
     - column:
@@ -178,6 +180,7 @@ event_schedule:
       talk:
         speaker: Jan-Piet Mens
         title: "Ansible: it's a fact"
+        link: talks/jan-piet-mens-ansible-it-is-a-fact/
   - row:
     columns:
     - column:
@@ -218,6 +221,7 @@ event_schedule:
       talk:
         speaker: Paul Möller en Jan Willem Brandenburg
         title: Dissect - The open-source framework for large-scale host investigations
+        link: talks/paul-moller-en-jan-willem-brandenburg-dissect/
     - column:
       talk:
         speaker: Bert Hubert
@@ -227,6 +231,7 @@ event_schedule:
       talk:
         speaker: Frans Schippers
         title: Inspecting TLS
+        link: talks/frans-schippers-inspecting-tls/
   - row:
     columns:
     - column:
