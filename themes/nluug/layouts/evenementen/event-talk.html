@@ -2,21 +2,20 @@
   {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
   <div>{{ .Content }}</div>
 
-  {{ if .Params.presentation }}
-  <h2>Presentatie</h2>
-    {{ if .Params.presentation.filename }}
-    <a href="/bestanden/presentaties/{{ .Params.presentation.filename }}">Presentatie</a>
+  {{ if .Params.presentation.filename }}
+    <h2>Presentatie</h2>
+    {{ if findRE `.pdf$` .Params.presentation.filename 1 }}
+      {{ partial "show-svg-icon.html" (dict "context" . "icon" "file-pdf") }}
     {{ end }}
+    <a href="/bestanden/presentaties/{{ .Params.presentation.filename }}">Presentatie</a>
   {{ end }}
 
-  {{ if .Params.recording }}
-  <h2>Opname</h2>
+  {{ if .Params.recording.url }}
+    <h2>Opname</h2>
     {{ if .Params.recording.platform }}
       {{ if eq .Params.recording.platform "youtube" }}{{ partial "show-svg-icon.html" (dict "context" . "icon" "youtube") }}{{ end }}
     {{ end }}
-    {{ if .Params.recording.url }}
-      <a href="{{ .Params.recording.url }}">Bekijk opname</a>
-    {{ end }}
+    <a href="{{ .Params.recording.url }}">Bekijk opname</a>
   {{ end }}
 
 {{ end }}
