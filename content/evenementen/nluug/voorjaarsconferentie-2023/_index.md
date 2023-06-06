@@ -93,6 +93,7 @@ event_schedule:
       talk:
         speaker: Tamara Brandt
         title: What's OPEN about data protection? About privacy and data protection from a legal perspective
+        link: talks/tamara-brandt-what-is-open-about-data-protection/
     - column:
       talk:
         speaker: Nicole Wajer
