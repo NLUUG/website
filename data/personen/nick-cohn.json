@@ -3,7 +3,7 @@
   "name": "Nick Cohn",
   "email": "",
   "gender": "Male",
-  "honorary_member": true,
+  "honorary_member": false,
   "nationality": "Dutch",
   "thumbnail": "/afbeeldingen/personen/nick-cohn-200x200.jpg",
   "social": {
