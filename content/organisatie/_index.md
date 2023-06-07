@@ -25,6 +25,7 @@ active_members:
 - mischa-peters
 - nick-cohn
 - patrick-reijnen
+- reinoud-van-leeuwen
 - rogier-spoor
 - ronny-lam
 - rudi-van-drunen
