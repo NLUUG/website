@@ -1,0 +1,20 @@
+{
+  "id": "tamara-brandt",
+  "name": "Tamara Brandt",
+  "email": "",
+  "gender": "female",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/tamara-brandt/",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "speaker": true,
+  "thumbnail": "/afbeeldingen/personen/tamara-brandt-200x200.jpg"
+}

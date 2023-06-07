@@ -1,0 +1,20 @@
+{
+  "id": "maarten-aertsen",
+  "name": "Maarten Aertsen",
+  "email": "",
+  "gender": "male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/maarten-aertsen/",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "@maarten@techpolicy.social",
+    "mastodon_url": "https://techpolicy.social/@maarten",
+    "twitter": ""
+  },
+  "speaker": true,
+  "thumbnail": "/afbeeldingen/personen/maarten-aertsen-200x200.jpg"
+}

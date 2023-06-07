@@ -1,0 +1,20 @@
+{
+  "id": "winn-schwartau",
+  "name": "Winn Schwartau",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "keynote_speaker": true,
+  "nationality": "American",
+  "profile_page": "/evenementen/sprekers/winn-schwartau/",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/winnschwartau/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "WinnSchwartau"
+  },
+  "speaker": true,
+  "thumbnail": "/afbeeldingen/personen/winn-schwartau-200x200.jpg"
+}

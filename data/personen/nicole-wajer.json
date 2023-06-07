@@ -1,0 +1,20 @@
+{
+  "id": "nicole-wajer",
+  "name": "Nicole Wajer",
+  "email": "",
+  "gender": "female",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/nicole-wajer/",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "@vlinder@mstdn.social",
+    "mastodon_url": "https://mstdn.social/@vlinder",
+    "twitter": "vlinder_nl"
+  },
+  "speaker": true,
+  "thumbnail": "/afbeeldingen/personen/nicole-wajer-200x200.jpg"
+}

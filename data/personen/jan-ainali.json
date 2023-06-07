@@ -1,0 +1,25 @@
+{
+  "id": "jan-ainali",
+  "name": "Jan Ainali",
+  "email": "",
+  "gender": "male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/jan-ainali/",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "speaker": true,
+  "thumbnail": "/afbeeldingen/personen/jan-ainali-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Personal website",
+    "url": "https://ainali.com/"
+  }]
+}
