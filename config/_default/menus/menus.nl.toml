@@ -55,6 +55,13 @@
     weight = 22
 
   [[main]]
+    identifier = "evenementen-sprekers"
+    name = "Sprekers"
+    url = "/evenementen/sprekers/"
+    parent = "evenementen"
+    weight = 23
+
+  [[main]]
     identifier = "lidmaatschap"
     name = "Lidmaatschap"
     url = "/lidmaatschap/"
