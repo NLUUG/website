@@ -68,7 +68,7 @@ event_schedule:
         speaker: Winn Schwartau
         title: "Metawar: The Art and Science & Conflict & Reality Distortion in the Metaverse"
         keynote: true
-        link:
+        link: talks/winn-schwartau-keynote-about-metawar/
       center: true
       size: 3
   - row:
