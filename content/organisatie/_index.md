@@ -17,9 +17,11 @@ active_members:
 - jan-sepp
 - jeroen-jonkman
 - koen-de-jonge
+- luc-nieland
 - mark-janssen
 - michael-boelen
 - mischa-peters
+- nick-cohn
 - patrick-reijnen
 - rogier-spoor
 - ronny-lam

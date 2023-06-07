@@ -5,13 +5,13 @@
   "gender": "",
   "honorary_member": true,
   "nationality": "Dutch",
-  "thumbnail": "",
+  "thumbnail": "/afbeeldingen/personen/luc-nieland-200x200.jpg",
   "social": {
     "github": "",
-    "twitter": "",
     "instagram": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/lucnieland/",
     "mastodon": "",
-    "mastodon_url": ""
+    "mastodon_url": "",
+    "twitter": "lucnieland"
   }
 }

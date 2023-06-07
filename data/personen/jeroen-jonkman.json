@@ -2,16 +2,17 @@
   "id": "jeroen-jonkman",
   "name": "Jeroen Jonkman",
   "email": "",
-  "gender": "",
+  "gender": "Male",
   "honorary_member": true,
   "nationality": "Dutch",
-  "thumbnail": "",
+  "thumbnail": "/afbeeldingen/personen/jeroen-jonkman-200x200.jpg",
   "social": {
     "github": "",
     "twitter": "",
     "instagram": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/jhajonkman/",
     "mastodon": "",
-    "mastodon_url": ""
+    "mastodon_url": "",
+    "twitter": ""
   }
 }
