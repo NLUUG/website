@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Paul Möller en Jan Willem Brandenburg - Dissect: The open-source framework for large-scale host investigations"
-persons:
+speakers:
 - paul-moller
 - jan-willem-brandenburg
 presentation:

@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Björn Wijers - Kom voor de Hersenspoeling en help in De Digitale Spoelkeuken"
-persons:
+speakers:
 - bjorn-wijers
 recording:
   platform: youtube

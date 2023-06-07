@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Jan Ainali - Introduction to public code"
-persons:
+speakers:
 - jan-ainali
 presentation:
   filename: 2023-05-11-jan-ainali-introduction-to-public-code.pdf

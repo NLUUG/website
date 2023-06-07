@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Walter Belgers - Mijn avonturen met het Anker magneetslot"
-persons:
+speakers:
 - walter-belgers
 presentation:
   filename:

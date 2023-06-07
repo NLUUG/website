@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Maarten Aertsen - The EU regulating (open source) software: the proposed Cyber Resilience Act"
-persons:
+speakers:
 - maarten-aertsen
 presentation:
   filename:

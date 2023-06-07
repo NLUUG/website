@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Peter van Eijk - Cloud is here to stay"
-persons:
+speakers:
 - peter-van-eijk
 presentation:
   filename: 2023-05-11-peter-van-eijk-cloud-is-here-to-stay.pdf

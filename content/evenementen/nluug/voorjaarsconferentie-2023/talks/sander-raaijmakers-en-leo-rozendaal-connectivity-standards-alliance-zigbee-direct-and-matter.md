@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Sander Raaijmakers en Leo Rozendaal - Connectivity Standards Alliance - Zigbee Direct and Matter"
-persons:
+speakers:
 - sander-raaijmakers
 - leo-rozendaal
 presentation:

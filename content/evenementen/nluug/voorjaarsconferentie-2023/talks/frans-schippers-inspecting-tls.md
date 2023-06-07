@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Frans Schippers - Inspecting TLS"
-persons:
+speakers:
 - frans-schippers
 presentation:
   filename: 2023-05-11-frans-schippers-inspecting-tls.pdf

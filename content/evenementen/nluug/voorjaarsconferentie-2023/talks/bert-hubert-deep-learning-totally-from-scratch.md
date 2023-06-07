@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Bert Hubert - Deep Learning Totally From Scratch"
-persons:
+speakers:
 - bert-hubert
 recording:
   platform: youtube

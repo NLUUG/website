@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Harm van Stekelenburg - PubHubs, a community network based on public values"
-persons:
+speakers:
 - harm-van-stekelenburg
 presentation:
   filename:

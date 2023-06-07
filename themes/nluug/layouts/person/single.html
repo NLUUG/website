@@ -1,23 +1,37 @@
 {{ define "main" }}
   {{ $text := .Content }}
   {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -3)) }}
+    {{ $personid := .id }}
     {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
     {{ $text }}
-    <h3>Contact</h3>
-    <ul>
-    {{ if .email }}<li>E-mail: {{ .email }}</li>{{ end }}
-    {{ if .websites }}
-        {{ range .websites }}
-          <li><a href="{{ .url }}" rel="nofollow noopener">{{ .name }}</a></li>
-          {{ end }}
-    {{ end }}
-    </ul>
 
-    {{ if or
-      (.social.mastodon)
-      (.social.twitter)
-    }}
-      <h3>Social media</h3>
+
+    {{ if .speaker }}
+      <h2>Presentaties</h2>
+      <ul>
+      {{ range where $.Site.RegularPages "Section" "evenementen" }}
+          {{ if .Params.speakers }}
+            {{ if in .Params.speakers $personid }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          {{ end }}
+      {{ end }}
+      </ul>
+    {{ end }}
+    {{ if or (.email) (.websites) }}
+      <h2>Contact</h2>
+      <ul>
+      {{ if .email }}<li>E-mail: {{ .email }}</li>{{ end }}
+      {{ if .websites }}
+          {{ range .websites }}
+            <li><a href="{{ .url }}" rel="nofollow noopener">{{ .name }}</a></li>
+            {{ end }}
+      {{ end }}
+      </ul>
+    {{ end }}
+
+    {{ if or (.social.mastodon) (.social.twitter) }}
+      <h2>Social media</h2>
 
       <ul class="list">
       {{ if .social.mastodon }}

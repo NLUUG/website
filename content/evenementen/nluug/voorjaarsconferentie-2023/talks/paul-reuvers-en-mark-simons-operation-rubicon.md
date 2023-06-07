@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Paul Reuvers en Mark Simons - Operation RUBICON"
-persons:
+speakers:
 - paul-reuvers
 - mark-simons
 presentation:

@@ -3,13 +3,13 @@
   <div>{{ .Content }}</div>
 
 
-  {{ if .Params.persons }}
+  {{ if .Params.speakers }}
     <div>
-      {{ $count := .Params.persons | len }}
+      {{ $count := .Params.speakers | len }}
       <h2>{{ i18n "speaker" (dict "Count" $count) | strings.FirstUpper }}</h2>
-    {{ range $person := .Params.persons }}
+    {{ range $person := .Params.speakers }}
       {{ with (index site.Data.personen $person) }}
-        {{ partial "show-image-of-person.html" (dict "context" . "profile_details" . "hide_figcaption" true) }}
+        {{ partial "show-image-of-person.html" (dict "context" . "profile_details" . "add_link_to_image" true) }}
       {{ end }}
     {{ end }}
     </div>

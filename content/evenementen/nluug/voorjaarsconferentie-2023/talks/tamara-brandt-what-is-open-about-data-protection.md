@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Tamara Brandt - What's OPEN about data protection?"
-persons:
+speakers:
 - tamara-brandt
 presentation:
   filename: 2023-05-11-tamara-brandt-what-is-open-about-data-protection.pdf

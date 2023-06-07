@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Jesse Lourens - SBOM, an overview"
-persons:
+speakers:
 - jesse-lourens
 presentation:
   filename: 2023-05-11-jesse-lourens-sbom-an-overview.pdf

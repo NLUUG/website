@@ -1,9 +1,12 @@
+
 {{ if .profile_details }}
       <div>
           {{ if .profile_details.thumbnail }}
             {{ $image := replace .profile_details.thumbnail "200x200" "150x150" }}
             {{ $alttext := printf "Foto van %s" .profile_details.name }}
+            {{ if and (.add_link_to_image) (.profile_details.profile_page) }}<a href="{{ .profile_details.profile_page }}">{{ end }}
             {{ partial "show-image.html" (dict "context" . "image" $image "alt" $alttext) }}
+            {{ if and (.add_link_to_image) (.profile_details.profile_page) }}</a>{{ end }}
           {{ end }}
       </div>
 {{ end }}

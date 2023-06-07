@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Nicole Wajer - Wat hebben IPv6 en broccoli gemeenschappelijk"
-persons:
+speakers:
 - nicole-wajer
 presentation:
   filename: 2023-05-11-nicole-wajer-wat-hebben-ipv6-en-broccoli-gemeenschappelijk.pdf

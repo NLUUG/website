@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Rix Groenboom - Validation of AI: Towards a Driving Exam for OpenPilot"
-persons:
+speakers:
 - rix-groenboom
 presentation:
   filename: 2023-05-11-rix-groenboom-validation-of-ai-towards-a-driving-exam-for-openpilot.pdf

@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Cristian Hesselman - Increasing Internet security by bridging research and operations"
-persons:
+speakers:
 - cristian-hesselman
 presentation:
   filename: 2023-05-11-cristian-hesselman-increasing-internet-security-by-bridging-research-and-operations.pdf

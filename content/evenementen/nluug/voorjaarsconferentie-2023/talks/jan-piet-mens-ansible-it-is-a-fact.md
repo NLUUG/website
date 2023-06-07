@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 title: "Jan-Piet Mens - Ansible: it's a fact"
-persons:
+speakers:
 - jan-piet-mens
 presentation:
   filename: 2023-05-11-jan-piet-mens-ansible-it-is-a-fact
