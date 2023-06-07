@@ -1,0 +1,18 @@
+{
+  "id": "cristian-hesselman",
+  "name": "Cristian Hesselman",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/cristian-hesselman-200x200.jpg",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/cristian-hesselman-b774091/",
+    "mastodon": "@hesselma@mastodon.social",
+    "mastodon_url": "https://mastodon.social/@hesselma",
+    "twitter": "hesselma"
+  },
+  "speaker": true
+}

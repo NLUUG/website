@@ -1,0 +1,18 @@
+{
+  "id": "rix-groenboom",
+  "name": "Rix Groenboom",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/rix-groenboom-200x200.jpg",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "speaker": true
+}
