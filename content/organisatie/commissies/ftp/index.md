@@ -13,6 +13,7 @@ type: team
 team_members:
 - jan-christiaan-van-winkel
 - mike-hulsman
+- rudi-van-drunen
 ---
 
 Het FTP server beheerteam regelt alle technische en functionele zaken rondom de NLUUG FTP server, zoals het verdelen van schijfruimte en toevoegen van nieuwe software pakketten.
