@@ -17,12 +17,6 @@
       </ul>
     </div>
 
-    {{ with .Params.event_register_link }}
-      {{ if le now $event_start }}
-        <a href="{{ . }}" class="button">Inschrijven</a>
-      {{ end }}
-    {{ end }}
-
     {{ if le now $event_start }}
       {{ with .Params.event_register_link }}
         <h3>Inschrijven</h3>
