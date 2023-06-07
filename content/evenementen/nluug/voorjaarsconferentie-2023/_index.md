@@ -113,6 +113,7 @@ event_schedule:
       talk:
         speaker: Maarten Aertsen
         title: "The EU regulating (open source) software: the proposed Cyber Resilience Act"
+        link: talks/maarten-aertsen-eu-regulating-open-source-software-proposed-cyber-resilience-act/
     - column:
       talk:
         speaker: Paul Reuvers en Marc Simons
@@ -140,7 +141,7 @@ event_schedule:
     - column:
       textfield:
         text: NLUUG Algemene Ledenvergadering (ALV)
-        link: https://nluug.nl/leden/alv/2023vj/
+        link: https://leden.nluug.nl/leden/alv/2023vj/
       center: true
     - column:
   - row:
@@ -151,6 +152,7 @@ event_schedule:
       talk:
         speaker: Ed Schouten
         title: "Buildbarn: a distributed build cluster"
+        link: talks/ed-schouten-buildbarn-a-distributed-build-cluster/
     - column:
       talk:
         speaker: Rix Groenboom
