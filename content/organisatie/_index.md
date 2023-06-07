@@ -14,12 +14,14 @@ active_members:
 - brenda-langedijk
 - fred-donck
 - hans-van-de-looy
+- jan-christiaan-van-winkel
 - jan-sepp
 - jeroen-jonkman
 - koen-de-jonge
 - luc-nieland
 - mark-janssen
 - michael-boelen
+- mike-hulsman
 - mischa-peters
 - nick-cohn
 - patrick-reijnen
