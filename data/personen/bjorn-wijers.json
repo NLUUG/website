@@ -4,12 +4,7 @@
   "email": "",
   "gender": "male",
   "nationality": "Dutch",
-  "thumbnail": "/afbeeldingen/personen/bjorn-wijers-200x200.png",
-  "websites": [{
-    "id": 1,
-    "name": "Burobjorn",
-    "url": "https://burobjorn.nl/"
-  }],
+  "profile_page": "/organisatie/personen/bjorn-wijers/",
   "social": {
     "github": "BjornW",
     "instagram": "",
@@ -17,5 +12,11 @@
     "mastodon": "@BjornW@mastodon.social",
     "mastodon_url": "https://mastodon.social/@BjornW",
     "twitter": ""
-  }
+  },
+  "thumbnail": "/afbeeldingen/personen/bjorn-wijers-200x200.png",
+  "websites": [{
+    "id": 1,
+    "name": "Burobjorn",
+    "url": "https://burobjorn.nl/"
+  }]
 }

@@ -1,5 +1,4 @@
 ---
-author: "Michael Boelen"
 categories:
 - organisatie
 date: 2023-05-07T13:08:32+02:00

@@ -5,7 +5,7 @@
   "gender": "Male",
   "honorary_member": true,
   "nationality": "Dutch",
-  "thumbnail": "",
+  "profile_page": "/evenementen/sprekers/walter-belgers/",
   "social": {
     "github": "",
     "twitter": "",
@@ -13,5 +13,6 @@
     "linkedin": "",
     "mastodon": "",
     "mastodon_url": ""
-  }
+  },
+  "thumbnail": "/afbeeldingen/personen/walter-belgers-200x200.jpg"
 }
