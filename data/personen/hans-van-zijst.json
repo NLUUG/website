@@ -1,0 +1,18 @@
+{
+  "id": "hans-van-zijst",
+  "name": "Hans van Zijst",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/hans-van-zijst-200x200.jpg",
+  "social": {
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/hans-van-zijst-a2a1366/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "WoefdramCX"
+  }
+}
