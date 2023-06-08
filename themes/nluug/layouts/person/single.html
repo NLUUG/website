@@ -8,7 +8,7 @@
     {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
     {{ $text }}
 
-    {{ range where $.Site.RegularPages "Section" "organisatie" }}
+    {{ range where $.Site.RegularPages.ByTitle "Section" "organisatie" }}
       {{ if .Params.team_members }}
         {{ if in .Params.team_members $personid }}
           {{ $.Scratch.Add "committee_member" . }}
