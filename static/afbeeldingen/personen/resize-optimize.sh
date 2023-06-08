@@ -22,7 +22,7 @@ elif [ -f "$1.jpg" ]; then
     cwebp -q 80 "$1-200x200.jpg" -o "$1-200x200.webp"
     jpegoptim -m100 "$1-200x200.jpg"
 else
-    echo "Bestand niet gevonden"
+    echo "Bestand niet gevonden. Geef bestand op zonder extensie."
     exit 1
 fi
 
