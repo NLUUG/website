@@ -11,4 +11,4 @@ title: "Ronny Lam"
 type: person
 ---
 
-Ronny is bestuurslid en vervult de rol van penningmeester. Tot 2023 was hij voorzitter van de programmacommissie.
+Ronny is bestuurslid sinds 2019 en vervult momenteel de rol van penningmeester. Vanaf 2012 tot 2022 was hij lid van de de programmacommissie, waarvan vanaf 2015 voorzitter. Vanuit de NLUUG vervult Ronny ook de functie van penningmeester bij APELL. Daarnaast werkt Ronny als programma-manager bij de stichting NLnet. 
