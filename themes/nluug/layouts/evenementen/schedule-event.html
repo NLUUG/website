@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ with .Params.event_title }}<h2>{{ . }}</h2>{{ end }}
   <div>{{ .Content }}</div>
 
   {{ if isset .Params "event_start" }}
