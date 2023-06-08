@@ -20,7 +20,7 @@
                 <section>
                   <h3>Gerelateerde pagina's</h3>
                   <ul>
-                    {{ range .Pages }}
+                    {{ range .Pages.ByTitle }}
                       <li>
                         <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
                       </li>
