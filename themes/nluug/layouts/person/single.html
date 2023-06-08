@@ -1,23 +1,48 @@
 {{ define "main" }}
   {{ $text := .Content }}
+  {{ $.Scratch.Set "committee_member" slice }}
+  {{ $.Scratch.Set "speaker_at_events" slice }}
+
   {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -3)) }}
     {{ $personid := .id }}
     {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
     {{ $text }}
 
-
-    {{ if .speaker }}
-      <h2>Presentaties</h2>
-      <ul>
-      {{ range where $.Site.RegularPages "Section" "evenementen" }}
-          {{ if .Params.speakers }}
-            {{ if in .Params.speakers $personid }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ end }}
-          {{ end }}
+    {{ range where $.Site.RegularPages "Section" "organisatie" }}
+      {{ if .Params.team_members }}
+        {{ if in .Params.team_members $personid }}
+          {{ $.Scratch.Add "committee_member" . }}
+        {{ end }}
       {{ end }}
+    {{ end }}
+
+    {{ if (gt ($.Scratch.Get "committee_member" | len) 0) }}
+      <h2>Organisatie</h2>
+      <p>{{ .name }} is actief binnen de volgende teams/commissies:</p>
+      <ul>
+          {{ range $.Scratch.Get "committee_member" }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
       </ul>
     {{ end }}
+
+    {{ range where $.Site.RegularPages "Section" "evenementen" }}
+      {{ if .Params.speakers }}
+        {{ if in .Params.speakers $personid }}
+          {{ $.Scratch.Add "speaker_at_events" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if (gt ($.Scratch.Get "speaker_at_events" | len) 0) }}
+      <h2>Presentaties</h2>
+      <ul>
+        {{ range $.Scratch.Get "speaker_at_events" }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
     {{ if or (.email) (.websites) }}
       <h2>Contact</h2>
       <ul>
