@@ -10,6 +10,7 @@ tags:
 title: "Beheerteam"
 type: team
 team_members:
+- hans-van-zijst
 - mark-janssen
 - patrick-reijnen
 ---
