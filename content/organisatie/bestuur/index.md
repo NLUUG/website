@@ -15,6 +15,15 @@ team_members:
 - koen-de-jonge
 - ronny-lam
 - rudi-van-drunen
+chairs:
+- rudi-van-drunen
+secretaries:
+- bjorn-wijers
+treasurers:
+- ronny-lam
+general_board_members:
+- hans-van-de-looy
+- koen-de-jonge
 ---
 
 Het Nederlandse verenigingsrecht en de statuten vereisen formeel een bestuur. De jaarlijkse ALV kiest dit bestuur. De zetelverdeling regelt het bestuur vervolgens zelf. In de praktijk wordt er pragmatisch omgegaan met deze formaliteit door te werken met aspirant bestuursleden. Inwerken is daarom altijd mogelijk. De jaarlijkse ALV is daarmee bovendien geen belemmering voor het ontplooien van activiteiten door leden.

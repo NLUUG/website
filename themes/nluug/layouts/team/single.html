@@ -7,6 +7,47 @@
     <a href="mailto:{{ .Params.contact_email }}" class="button">Neem contact op</a>
   {{ end }}
 
+  {{ if .Params.chairs }}
+    <h2>Verdeling van taken</h2>
+    <p>Voorzitter:
+      {{ range $key,$val := .Params.chairs }}
+        {{ with (index $.Site.Data.personen $val) }}
+            <a href="{{ .profile_page }}">{{ .name }}</a>
+        {{ end }}
+      {{ end }}
+    </p>
+
+    {{ with .Params.secretaries }}
+    <p>Secretaris:
+      {{ range $key,$val := . }}
+        {{ with (index $.Site.Data.personen $val) }}
+            <a href="{{ .profile_page }}">{{ .name }}</a>
+        {{ end }}
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{ with .Params.treasurers }}
+      <p>Penningmeester:
+        {{ range $key,$val := . }}
+          {{ with (index $.Site.Data.personen $val) }}
+            <a href="{{ .profile_page }}">{{ .name }}</a>
+          {{ end }}
+        {{ end }}
+      </p>
+    {{ end }}
+
+    {{ with .Params.general_board_members }}
+    <p>Algemeen bestuurslid:
+      {{ range $key,$val := . }}
+        {{ with (index $.Site.Data.personen $val) }}
+            <a href="{{ .profile_page }}">{{ .name }}</a>
+        {{ end }}
+      {{ end }}
+    </p>
+    {{ end }}
+  {{ end }}
+
   <h2>Team</h2>
 
   <div class="grid-team-members-small-photos">
