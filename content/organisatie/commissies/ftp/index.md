@@ -8,7 +8,7 @@ slug:
 tags:
 - organisatie
 - ftp
-title: "Ftp server beheerteam"
+title: "FTP-beheerteam"
 type: team
 team_members:
 - jan-christiaan-van-winkel
