@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <section>
+    <ul class="list">
+      {{ range .Pages.ByTitle }}
+        <li>
+          <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          <hr class="hr-list">
+        </li>
+        {{ end }}
+    </ul>
+  </section>
+{{ end }}
