@@ -14,6 +14,7 @@ active_members:
 - brenda-langedijk
 - fred-donck
 - hans-van-de-looy
+- hans-van-zijst
 - jan-christiaan-van-winkel
 - jan-sepp
 - jeroen-jonkman
