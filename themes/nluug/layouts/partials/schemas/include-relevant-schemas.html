@@ -5,7 +5,7 @@
 
 {{- else if .IsPage -}}
 
-  {{ if or (in .Params.content_types "Person") }}
+  {{ if in .Params.content_types "person" }}
     {{ partial "schemas/schema_Person.html" . }}
   {{ end }}
 

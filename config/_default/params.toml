@@ -1,4 +1,7 @@
 # Aanvullende velden die we binnen de website gebruiken
+#
+# Voor Schema.org
+organization_name = "NLUUG"
 
 description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
 # Fallback-auteur voor posts die geen echte auteur hebben

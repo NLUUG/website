@@ -1,5 +1,5 @@
-{{ if isset .Params "author" }}
-{{ $author := index .Site.Data.team .Params.author }}
+{{ if .Params.slug }}
+{{ $author := index .Site.Data.personen .Params.slug }}
 {{ $location := index .Site.Data.location .Site.Params.primarylocation }}
 <script type="application/ld+json">
 {
@@ -7,20 +7,18 @@
 "@type": "Person",
 "@id": "{{ .Permalink }}",
 "name": "{{ $author.name | default .Site.Params.textEmptyValue }}",
-"alternateName": "{{ $author.name }}",
 {{ if $author.nationality }}"nationality": "{{ $author.nationality }}",{{ end }}
 "affiliation": [
  {
   "@type": "Organization",
-  "name": "{{ .Site.Params.name }}",
-  "sameAs": [ {{ partial "schemas/schema_Social.html" .Site.Params }}
-  ]
+  "name": "{{ $.Site.Params.organization_name | default .Site.Params.textEmptyValue }}"
  }
 ],
 {{ if $author.gender }}"gender": "{{ $author.gender }}",{{ end }}
 {{ if $author.jobfunction }}"Description": "{{ $author.jobfunction }}",{{ end }}
-{{ if $author.description }}"disambiguatingDescription": "{{ $author.description }},{{ end }}
+{{ if $author.description }}"disambiguatingDescription": "{{ $author.description }}",{{ end }}
 {{ if $author.jobtitle }}"jobTitle": "{{ $author.jobtitle }}",{{ end }}
+{{ if $author.worksfor }}
 "worksFor": [
  {
   "@type": "Organization",
@@ -29,8 +27,8 @@
   ]
  }
 ],
-"url": "{{ .Site.BaseURL }}",
-"image": "{{ $author.thumbnail | absURL }}",
+{{ end }}
+{{ if $author.sameas }}"sameAs": "{{ $author.sameas }}",{{ end }}
 {{ if $author.address }}
 "address": {
  "@type": "PostalAddress",
@@ -38,8 +36,8 @@
  "addressRegion": "{{ $author.address.region }}",
  "addressCountry": "{{ $author.address.country }}"
 },{{ end }}
-"sameAs": [ {{ partial "schemas/schema_Social.html" $author }}
- ]
+"image": "{{ $author.thumbnail | absURL }}",
+"url": "{{ .Permalink }}"
 }
 </script>
 {{ end }}
