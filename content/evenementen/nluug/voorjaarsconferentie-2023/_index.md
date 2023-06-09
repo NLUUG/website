@@ -3,7 +3,7 @@ categories:
 - conferenties
 - evenementen
 date: 2023-05-21T20:17:47+02:00
-description: "De NLUUG voorjaarsconferentie is gepland op donderdag 11 mei 2023, locatie Van der Valk Hotel Utrecht."
+description: "De NLUUG voorjaarsconferentie werd gehouden op donderdag 11 mei 2023. Bekijk hier het programma, de presentaties, opnames en foto's."
 tags:
 - conferenties
 slug:
