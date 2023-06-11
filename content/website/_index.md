@@ -7,7 +7,8 @@ review:
   last_review: 2023-06-11
   reviewed_by: Michael Boelen
   period: 90
-show_child_pages: true
+cascade:
+  show_child_pages: true
 slug:
 tags:
 - website
