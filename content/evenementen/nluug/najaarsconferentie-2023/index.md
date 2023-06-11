@@ -21,7 +21,9 @@ event_address:
   city: "Utrecht"
   country_name: "The Netherlands"
 event_members_only: true
-event_register_link: "https://nluug.nl/aanmelden/index.cgi?action=event"
+event_register_start_date: 2023-07-01
+event_register_end_date: 2023-11-29
+event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_schedule:
   title: Programma
   description: Alleen maar geweldige sprekers
