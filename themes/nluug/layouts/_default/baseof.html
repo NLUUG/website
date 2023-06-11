@@ -17,16 +17,18 @@
 
             {{ if isset .Params "show_child_pages" }}
               {{ if eq .Params.show_child_pages true }}
-                <section>
-                  <h3>Gerelateerde pagina's</h3>
-                  <ul>
-                    {{ range .Pages.ByTitle }}
-                      <li>
-                        <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
-                      </li>
-                      {{ end }}
-                  </ul>
-                </section>
+                {{ if (gt (.Pages | len) 0) }}
+                  <section>
+                    <h3>Gerelateerde pagina's</h3>
+                    <ul>
+                      {{ range .Pages.ByTitle }}
+                        <li>
+                          <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                  </section>
+                {{ end }}
               {{ end }}
             {{ end }}
 
