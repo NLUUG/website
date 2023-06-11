@@ -17,10 +17,30 @@
     </div>
 
     {{ if le now $event_start }}
-      {{ with .Params.event_register_link }}
+      {{ if .Params.event_register_link }}
         <h3>Inschrijven</h3>
         <p>Om deel te nemen aan dit evenement is inschrijving vereist.</p>
-        <a href="{{ . }}" class="button">Inschrijven</a>
+        {{ if .Params.event_register_start_date }}
+          {{ $event_register_start_date := .Params.event_register_start_date | time }}
+          {{ if le now $event_register_start_date }}
+            <p>De inschrijving opent op {{ .Params.event_register_start_date }}</p>
+          {{ else }}
+            {{ if .Params.event_register_end_date }}
+              {{ $event_register_end_date := .Params.event_register_end_date | time }}
+              {{ if ge now $event_register_end_date }}
+                <p>De inschrijving is inmiddels gesloten</p>
+              {{ else }}
+                <a href="{{ .Params.event_register_link }}" class="button">Inschrijven</a>
+              {{ end }}
+            {{ else }}
+              <a href="{{ .Params.event_register_link }}" class="button">Inschrijven</a>
+            {{ end }}
+          {{ end }}
+        {{ else }}
+          <p>Fout: Er ontbreekt een datum wanneer inschrijving open gaat.</p>
+        {{ end }}
+      {{ else }}
+        <p>Fout: Er ontbreekt een link om in te schrijven.</p>
       {{ end }}
 
       <h3>Kalender</h3>
