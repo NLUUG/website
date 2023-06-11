@@ -4,9 +4,10 @@ categories:
 date: 2023-05-15T14:58:11+02:00
 description: "Alle informatie rondom de website van de NLUUG, de vereniging voor open standaarden"
 review:
-  last_review: 2023-05-22
+  last_review: 2023-06-11
   reviewed_by: Michael Boelen
   period: 90
+show_child_pages: true
 slug:
 tags:
 - website
@@ -34,6 +35,17 @@ Aan deze drie factoren werd op oude website onvoldoende aan voldaan.
 ### Tekst moet goed leesbaar zijn
 
 De leesbaarheid van tekst omvat taalgebruik en tevens de bijbehorende weergave. De keuze voor het lettertype, de grootte en alle opmaakelementen maken een tekst beter leesbaar.
+
+### Informatie is eenvoudig vindbaar
+
+We willen dat alle informatie binnen onze website snel en goed vindbaar zijn. Dit punt was zodanig belangrijk voor ons (en onze bezoekers), dat we hier maximaal op hebben ingezet. Om een goede vindbaarheid te bereiken hebben we de volgende zaken toegepast:
+
+* Breadcrumbs
+* HTML-sitemap
+* Gebruik van tags
+* Navigatiemenu met sub-items
+* Tonen onderliggende of gerelaterde pagina's
+* Zoekmachine
 
 ### Informatie is actueel
 
