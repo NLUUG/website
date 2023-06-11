@@ -7,7 +7,7 @@ tags:
 - organisatie
 - actieve-leden
 slug: hans-van-de-looy
-title: "Hans Van de Looy"
+title: "Hans van de Looy"
 type: person
 ---
 
