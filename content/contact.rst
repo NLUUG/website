@@ -16,6 +16,7 @@ Hieronder vindt je alle NLUUG gerelateerde contactinformatie. De administratie v
 Onze vereniging heeft, naast het bestuur, verschillende commissies in wisselende samenstelling van vrijwilligers.
 
 * Bestuur: bestuur@nluug.nl
+* Beheerteam: beheer@nluug.nl
 * Filmteam: filmteam@nluug.nl
 * FTP-mirrors en -server: ftp-admin@nluug.nl
 * Ledenadministratie: buro@nluug.nl

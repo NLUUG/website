@@ -41,8 +41,29 @@ His latest book, “Analogue Network Security” offers time-based and probabili
 
 Currently he is exploring “Metawar”, a term he coined to describe conflict in the evolving Metaverse. Increasingly impressive immersive technologies will create alternate realities and instill programmed belief systems in its users, all in the name of God, country, power and profit. Advertising, religion, education, indoctrination or delusion?
 
-• Fellow, Royal Society of the Arts • Distinguished Fellow: Ponemon Institute • International Security Hall of Fame: ISSA • Top-20 industry pioneers: SC Magazine. • Top 25 Most Influential: Security Magazine • Top 5 Security Thinkers: SC Magazine. • Power Thinker and one of the 50 most powerful people: Network World. • Top Rated (4.85/5) RSA Speaker • Top Rated Webinar: 4.56 (ISC2) • .001% Top Influencer RSAC-2019 • Global Power Speaker
+* Fellow, Royal Society of the Arts
+* Distinguished Fellow: Ponemon Institute
+* International Security Hall of Fame: ISSA
+* Top-20 industry pioneers: SC Magazine
+* Top 25 Most Influential: Security Magazine
+* Top 5 Security Thinkers: SC Magazine
+* Power Thinker and one of the 50 most powerful people: Network World
+* Top Rated (4.85/5) RSA Speaker
+* Top Rated Webinar: 4.56 (ISC2)
+* .001% Top Influencer RSAC-2019
+* Global Power Speaker
 
-Author: “Pearl Harbor Dot Com” (Die Hard IV), 3 volumes of “Information Warfare”, “CyberShock”, “Internet and Computer Ethics for Kids”. (More on his web site.)
+Author: 
 
-Executive Producer: “Hackers Are People Too” Founder: www.TheSecurityAwarenessCompany.Com Founder: www.InfowarCon.Com
+* “Pearl Harbor Dot Com” (Die Hard IV),
+* 3 volumes of “Information Warfare”, 
+* “CyberShock”,
+* “Internet and Computer Ethics for Kids”
+
+(More on his web site.)
+
+Executive Producer: “Hackers Are People Too” 
+
+Founder: www.TheSecurityAwarenessCompany.Com
+
+Founder: www.InfowarCon.Com
