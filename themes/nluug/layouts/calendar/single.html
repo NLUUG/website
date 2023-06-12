@@ -7,7 +7,7 @@
     {{ range first 50 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
     <div id="{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}" style="border: 1px solid darkgray; border-radius: 2px; padding:10px; margin:2px;">
       <h3>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</h3>
-      {{ with .organizer }}<p><em>Georganizeerd door {{ .}}</em></p>{{ end }}
+      {{ with .organizer }}<p><em>Georganiseerd door {{ .}}</em></p>{{ end }}
       {{ if ne .date_start .date_end }}
       <p>Event van meerdere dagen: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | dateFormat "02-01-2006" }}</time> t/m <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_end }}">{{ .date_end | dateFormat "02-01-2006" }}</time></p>
       {{ end }}
