@@ -15,10 +15,10 @@
       {{ with .event_address }}
       <h4>Locatie en adres</h4>
       <p><strong>{{ $event_location }}</strong><br>{{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}</p>
-      <a href="https://www.openstreetmap.org/search?query={{ with .street_address }}{{ . | urlquery }}{{ end }},{{ with .postal_code }}{{ . | urlquery }}{{ end }}{{ with .city }},%20{{ . | urlquery }}{{ end }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "map-location-dot" "title" "Bekijk locatie op OpenStreetMap") }}</a>
+      <a target="_blank" href="https://www.openstreetmap.org/search?query={{ with .street_address }}{{ . | urlquery }}{{ end }},{{ with .postal_code }}{{ . | urlquery }}{{ end }}{{ with .city }},%20{{ . | urlquery }}{{ end }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "map-location-dot" "title" "Bekijk locatie op OpenStreetMap") }}</a>
       {{ end }}
       {{ with .link_external }}
-      <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie (externe link)</a></p>
+      <p>&raquo; <a href="{{ . }}" target="_blank" rel="nofollow">Meer informatie (externe link)</a></p>
       {{ end }}
       </div>
     {{ end }}
