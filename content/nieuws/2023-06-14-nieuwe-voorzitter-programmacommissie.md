@@ -14,6 +14,6 @@ related_members:
 - ronny-lam
 ---
 
-De conferenties zijn belangrijk voor onze leden en om dat te organiseren hoort daar natuurlijk een volwaardige [programmacommissie]({{< relref "organisatie/commissies/pc/index.md" >}}) bij. Naast uitbreiding in het team, hebben we ook een nieuwe voorzitter: [Fred Donck]({{< relref "organisatie/personen/fred-donck/index.md" >}}). Fred zal o.a. de vergaderingen van de programmacommissie voorzitten en de schakel zijn tussen het bestuur, Debbie en de PC.
+De conferenties zijn erg belangrijk voor onze leden. Een mooi moment om elkaar te zien, nieuwe technieken te leren en plezier te hebben. Het organiseren van een conferentie kost de nodige inspanning en vooral een goed gevuld programma. Daar hoort natuurlijk een volwaardige [programmacommissie]({{< relref "organisatie/commissies/pc/index.md" >}}) bij. Naast uitbreiding in het team zelf, hebben we ook een nieuwe voorzitter: [Fred Donck]({{< relref "organisatie/personen/fred-donck/index.md" >}}). Fred zal o.a. de vergaderingen van de programmacommissie voorzitten en de schakel zijn tussen het bestuur, Debbie en de PC.
 
 Jarenlang was Ronny Lam de voorzitter van de programmacommissie, totdat Koen de Jonge het van hem overnam. Door de nieuwe samenstelling van het bestuur heeft Koen zich nu volledig gericht op de externe communicatie en sponsoring. De contacten met de locatie Van der Valk Hotel Utrecht worden nog steeds geregeld door Debbie Reinders.
