@@ -8,11 +8,11 @@
   "profile_page": "/organisatie/personen/fred-donck/",
   "thumbnail": "/afbeeldingen/personen/fred-donck-200x200.jpg",
   "social": {
-    "github": "",
+    "github": "fd0-nl",
     "instagram": "",
-    "linkedin": "",
-    "mastodon": "",
-    "mastodon_url": "",
-    "twitter": ""
+    "linkedin": "https://www.linkedin.com/in/fd0nl/",
+    "mastodon": "@fd0@bsd.network",
+    "mastodon_url": "https://bsd.network/@fd0",
+    "twitter": "fd0_nl"
   }
 }
