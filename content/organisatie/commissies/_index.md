@@ -10,15 +10,6 @@ title: "Commissies"
 show_child_pages: true
 ---
 
-Door middel van meerdere commissies verspreiden we de werkzaamheden. Nagenoeg iedereen is vrijwilliger en hij of zij kiest zelf een relevante commissie om te ondersteunen.
+Door middel van meerdere commissies verspreiden we de werkzaamheden binnen de vereniging. Nagenoeg iedereen is vrijwilliger en hij of zij kiest zelf een relevante commissie om te ondersteunen.
 
-| Commissie   | Taken |
-| :--- | :--- |
-| Beheerteam  | Beheer van o.a. servers, DNS en mail |
-| Buro        | Ledenadministratie |
-| Filmteam    | Opnames en foto's van evenementen |
-| FTP         | Beheer van FTP-server |
-| Kascontrole | Verslag over gevoerde financiële beleid |
-| Programma   | Organiseren conferentie |
-| PR          | Communicatie |
-| Website     | Beheer van website en content |
+Wil je ook helpen? Contacteer dan het betreffende team om te zien hoe je een bijdrage kan leveren.
