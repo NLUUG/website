@@ -16,10 +16,10 @@
               {{ if ge now $event_cfp_end_date }}
               <p>De Call for Proposals is gesloten na {{ $event_cfp_end_date }}. Mocht je toch nog een inzending hebben, neem dan contact op met de programmacommissie.</p>
               {{ else }}
-              <p>CFP: <strong class="darkgreen">Actief</strong></p><a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
+              <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
               {{ end }}
             {{ else }}
-              <p>CFP: <strong class="darkgreen">Actief</strong></p><a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
+              <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
             {{ end }}
           {{ end }}
         {{ end }}
