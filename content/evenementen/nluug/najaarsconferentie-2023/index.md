@@ -20,6 +20,9 @@ event_address:
   postal_code: "3526 KV"
   city: "Utrecht"
   country_name: "The Netherlands"
+event_cfp_start_date: 2023-05-11
+event_cfp_close_date: 2023-09-28
+event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2023/cfp
 event_members_only: true
 event_register_start_date: 2023-07-01
 event_register_end_date: 2023-11-29
