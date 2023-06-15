@@ -3,6 +3,14 @@
 # Voor Schema.org
 organization_name = "NLUUG"
 
+organization_sameas = [
+    "https://nluug.social/@nluug",
+    "https://twitter.com/nluug",
+    "https://www.wikidata.org/wiki/Q2137723",
+]
+
+### Algemeen
+
 description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
 # Fallback-auteur voor posts die geen echte auteur hebben
 author = "NLUUG"
@@ -33,5 +41,7 @@ textEmptyValue = "Geen waarde 🐦"
 mastodon_instance = "https://nluug.social/"
 mastodon_handle = "nluug"
 twitter_handle = "nluug"
+
+
 
 # EOF

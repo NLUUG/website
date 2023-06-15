@@ -21,6 +21,7 @@
       "postalCode": "{{ .postalcode | default .Site.Params.textNoValue }}"
     },
 {{- end -}}
+    "sameAs": {{ .Site.Params.organization_sameas }},
     "telephone":"{{ .Site.Params.phone }}"
   }
 </script>

@@ -1,0 +1,24 @@
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Delete "path" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+{{ $count := len (split $url "/") }}
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement":
+ [{
+  "@type": "ListItem",
+   "position": 1,
+   "item": "{{ .Site.BaseURL }}",
+   "name": "{{ .Site.Params.organization_name }}"
+ },{{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element | safeJS }}{{ if $element }}
+ {
+ "@type": "ListItem",
+  "position": {{ add $index 2 }},
+  "item": "{{ $.Scratch.Get "path" }}",
+  "name": "{{ humanize . }}"
+ }{{ if not (eq $index (sub $count 2)) }}, {{ end }}{{ $.Scratch.Add "path" "/" | safeJS }}{{ end }}{{ end }}
+ ]
+}
+</script>

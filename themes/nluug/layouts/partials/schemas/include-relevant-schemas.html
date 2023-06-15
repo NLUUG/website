@@ -5,6 +5,8 @@
 
 {{- else if .IsPage -}}
 
+  {{ partial "schemas/schema_BreadcrumbList.html" . }}
+
   {{ if in .Params.content_types "person" }}
     {{ partial "schemas/schema_Person.html" . }}
   {{ end }}

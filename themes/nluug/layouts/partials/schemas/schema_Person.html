@@ -12,6 +12,7 @@
  {
   "@type": "Organization",
   "name": "{{ $.Site.Params.organization_name | default .Site.Params.textEmptyValue }}"
+  "sameAs": {{ .Site.Params.organization_sameas }},
  }
 ],
 {{ if $author.gender }}"gender": "{{ $author.gender }}",{{ end }}
@@ -22,9 +23,7 @@
 "worksFor": [
  {
   "@type": "Organization",
-  "name": "{{ .Site.Params.name | default .Site.Params.textEmptyValue }}",
-  "sameAs": [ {{ partial "schemas/schema_Social.html" .Site.Params }}
-  ]
+  "name": "{{ .Site.Params.name | default .Site.Params.textEmptyValue }}"
  }
 ],
 {{ end }}
