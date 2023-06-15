@@ -43,7 +43,7 @@
       {{ $compare_event_end_date := .Params.event_end | time.Format "2006-01-02" }}
       {{ if eq $compare_event_start_date $compare_event_end_date }}
         <h3>Datum en tijd</h3>
-        <p>Dit evenement vindt plaats op {{ .Params.event_start | time.Format ":date_full" }} ({{ .Params.event_start | time.Format "15:04" }}-{{ .Params.event_end | time.Format "15:04" }}).</p>
+        <p>Dit evenement {{ if ge now $event_start }}vond{{ else }}vindt{{ end}} plaats op {{ .Params.event_start | time.Format ":date_full" }} ({{ .Params.event_start | time.Format "15:04" }}-{{ .Params.event_end | time.Format "15:04" }}).</p>
       {{ else }}
         <h3>Data</h3>
         <ul>
