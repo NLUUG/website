@@ -2,10 +2,9 @@
 
   {{ $.Scratch.Set "highlighted_events" slice }}
 
-  {{ range .Pages }}
+  {{ range (.Pages.ByParam "event_start").Reverse }}
     {{ if isset .Params "event_start" }}
       {{ $event_start := .Params.event_start | time }}
-
       {{ if le now $event_start }}
         {{ $.Scratch.Add "highlighted_events" . }}
       {{ end }}
@@ -24,7 +23,7 @@
   <h2>Overzicht</h2>
   <section>
     <ul class="list">
-      {{ range .Pages.ByDate }}
+      {{ range (.Pages.ByParam "event_start").Reverse }}
         <li>
           <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
           <hr class="hr-list">
