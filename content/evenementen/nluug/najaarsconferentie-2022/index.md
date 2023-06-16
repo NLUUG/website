@@ -113,11 +113,11 @@ event_schedule:
     - column:
       talk:
         speaker: Michiel Leenaars
-        title: NLnet and NGI Zero: working for the internet
+        title: "NLnet and NGI Zero: working for the internet"
     - column:
       talk:
         speaker: Sake Blok
-        title: LOG4SHELL: Getting to know your adversary
+        title: "LOG4SHELL: Getting to know your adversary"
   - row:
     columns:
     - column:
@@ -138,7 +138,7 @@ event_schedule:
     - column:
       talk:
         speaker: Andreas Hülsing
-        title: An update on NIST's PQC standardization process
+        title: "An update on NIST's PQC standardization process"
     - column:
       talk:
         speaker: Kris Buytaert
@@ -190,7 +190,7 @@ event_schedule:
     - column:
       talk:
         speaker: Joost van Dijk
-        title: From passwords to passkeys: What's new with FIDO
+        title: "From passwords to passkeys: What's new with FIDO"
   - row:
     columns:
     - column:
@@ -208,7 +208,7 @@ event_schedule:
     - column:
       talk:
         speaker: Marcel Kornegoor
-        title: Course as Code: the future of AT Computing's training courses
+        title: "Course as Code: the future of AT Computing's training courses"
         link:
     - column:
       talk:
