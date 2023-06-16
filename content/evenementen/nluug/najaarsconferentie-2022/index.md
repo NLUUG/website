@@ -213,14 +213,15 @@ event_schedule:
     - column:
       talk:
         speaker: Joyce Mellens
-        title:Caer: An IoT Firewall for consumers
+        title: "Caer: An IoT Firewall for consumers"
   - row:
     columns:
     - column:
       time: 17:55
     - column:
       textfield:
-        text: Borrel, gesponsord door AT-Computing\nKeysigning party (download manual)
+        text: Borrel, gesponsord door AT-Computing
+        text: Keysigning party (download manual)
       center: true
       size: 3
 ---
