@@ -22,7 +22,7 @@ event_address:
 event_members_only: true
 event_schedule:
   title: Programma
-  description: Alleen maar geweldige sprekers
+  description: 
   columns: 4
   headers:
   - header:
@@ -64,8 +64,8 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker:
-        title: nog niet bekend
+        speaker: Lucinda Sterk
+        title: Talk nerdy to me
         keynote: true
         link:
       center: true
@@ -85,17 +85,17 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Riccardo ten Cate en Glenn ten Cate
+        title: Exploitation, automation, mitigation
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Mike Ciavarella
+        title: This is just temporary
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Melchior Aelmans
+        title: Exploring quantum Technology for Networking
   - row:
     columns:
     - column:
@@ -108,16 +108,16 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Rob Hulsebos
+        title: OT Cybersecurity Challenges
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Michiel Leenaars
+        title: NLnet and NGI Zero: working for the internet
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Sake Blok
+        title: LOG4SHELL: Getting to know your adversary
   - row:
     columns:
     - column:
@@ -130,30 +130,19 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 13:10
-    - column:
-    - column:
-      textfield:
-        text: NLUUG Algemene Ledenvergadering (ALV)
-        link: https://nluug.nl/leden/alv/2023vj/
-      center: true
-    - column:
-  - row:
-    columns:
-    - column:
       time: 14:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Francisco Dominguez and Zawadi Done
+        title: Automating incindent response should be the default
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Andreas Hülsing
+        title: An update on NIST's PQC standardization process
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Kris Buytaert
+        title: Help My Datacenter is On Fire
   - row:
     columns:
     - column:
@@ -166,16 +155,16 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Jean-Paul Sablerolle
+        title: Power to the Open Source
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Filip Chyla
+        title: Cloud-Native Security with the OWASP Cloud-Native Application Security Top 10
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Toshaan Bharvani
+        title: Why Open Technologies need to use Open Technologies
   - row:
     columns:
     - column:
@@ -191,17 +180,17 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Marcel van der Velde
+        title: Heuristic Park (why we can fake it until we make it)
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Ondřej Caletka
+        title: Run your own networking lab with Vagrant and Ansible
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Joost van Dijk
+        title: From passwords to passkeys: What's new with FIDO
   - row:
     columns:
     - column:
@@ -218,20 +207,20 @@ event_schedule:
         title:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Marcel Kornegoor
+        title: Course as Code: the future of AT Computing's training courses
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Joyce Mellens
+        title:Caer: An IoT Firewall for consumers
   - row:
     columns:
     - column:
       time: 17:55
     - column:
       textfield:
-        text: Borrel, gesponsord door ...?
+        text: Borrel, gesponsord door AT-Computing\nKeysigning party (download manual)
       center: true
       size: 3
 ---
