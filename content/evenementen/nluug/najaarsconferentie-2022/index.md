@@ -203,8 +203,8 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        speaker: -
-        title: -
+        speaker: "-"
+        title: "-"
     - column:
       talk:
         speaker: Marcel Kornegoor
