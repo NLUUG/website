@@ -9,7 +9,7 @@ title: "Ed Schouten - Buildbarn: a distributed build cluster"
 speakers:
 - ed-schouten
 presentation:
-  filename: 2023-05-11-ed-schouten-buildbarn-a-distributed-build-cluster
+  filename: 2023-05-11-ed-schouten-buildbarn-a-distributed-build-cluster.pdf
 recording:
   platform: youtube
   url:
