@@ -9,7 +9,7 @@ title: "Jan-Piet Mens - Ansible: it's a fact"
 speakers:
 - jan-piet-mens
 presentation:
-  filename: 2023-05-11-jan-piet-mens-ansible-it-is-a-fact
+  filename: 2023-05-11-jan-piet-mens-ansible-it-is-a-fact.pdf
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=IUjXiSxwZ3g
@@ -23,4 +23,4 @@ In this talk we'll talk facts: Ansible facts.
 
 ## Biography
 
-Jan-Piet Mens is an independent Unix/Linux consultant and sysadmin who's worked with Unix-systems since 1985. Jan-Piet does odd bits of coding, and has architected infrastructure at major customers throughout Europe. One of his specialities is the Domain Name System and as such, he authored the book Alternative DNS Servers as well as a variety of other technical publications, and he launched the MQTT-based Open Source OwnTracks project.
+Jan-Piet Mens is an independent Unix/Linux consultant and sysadmin who has worked with Unix-systems since 1985. Jan-Piet does odd bits of coding, and has architected infrastructure at major customers throughout Europe. One of his specialities is the Domain Name System and as such, he authored the book Alternative DNS Servers as well as a variety of other technical publications, and he launched the MQTT-based Open Source OwnTracks project.
