@@ -4,7 +4,7 @@
     <h2>Ereleden</h2>
     {{ range $key,$val := $.Site.Data.personen }}
       {{ if eq $val.honorary_member true }}
-      <h3>&raquo; {{ .name }}</h3>
+      <h3{{ if $val.death_date }} class="deceased"{{ end }}>{{ $val.name }}</h3>
         {{ partial "show-image-of-person.html" (dict "context" . "profile_details" $val "hide_figcaption" true) }}
         {{ $firstname := index (split .name " ") 0 }}
         {{ if .profile_page }}<a href="{{ .profile_page }}">Meer over {{ $firstname }}</a>{{ end }}

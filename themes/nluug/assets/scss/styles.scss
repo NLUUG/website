@@ -134,6 +134,12 @@ a.button:hover, a.button:active {
   color: darkred;
 }
 
+.deceased::after {
+    content: "†";
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
 .time {
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
