@@ -1,6 +1,7 @@
 .doit.db.db
 __pycache__/
 cache/
+data/personen/template.json
 output/
 .hugo_build.lock
 public/
