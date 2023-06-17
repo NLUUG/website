@@ -2,10 +2,10 @@
 categories:
 - organisatie
 date: 2023-06-16T11:45:09+02:00
-description:
+description: "Chel van Gennip is jaren betrokken geweest bij de NLUUG. Leer meer over hoe hij de vereniging heeft gevormd."
 tags:
 - organisatie
-slug: chel-van-gennip
+slug:
 title: "Chel van Gennip"
 type: person
 ---
