@@ -1,11 +1,11 @@
 {
-  "id": "glen-ten-cate",
-  "name": "Glen ten Cate",
+  "id": "glenn-ten-cate",
+  "name": "Glenn ten Cate",
   "email": "glenn.ten.cate@owasp.org",
   "gender": "male",
   "honorary_member": false,
   "nationality": "Dutch",
-  "profile_page": "/evenementen/sprekers/glen-ten-cate/",
+  "profile_page": "/evenementen/sprekers/glenn-ten-cate/",
   "sameas": "",
   "social": {
     "github": "blabla1337",
@@ -14,5 +14,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/glen-ten-cate-200x200.jpg"
+  "thumbnail": "/afbeeldingen/personen/glenn-ten-cate-200x200.jpg"
 }
