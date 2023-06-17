@@ -110,7 +110,7 @@ event_schedule:
       talk:
         speaker: Rob Hulsebos
         title: OT Cybersecurity Challenges
-        link: rob-hulsebos-ot-cybersecurity-challenges
+        link: talks/rob-hulsebos-ot-cybersecurity-challenges/
     - column:
       talk:
         speaker: Michiel Leenaars
@@ -120,6 +120,7 @@ event_schedule:
       talk:
         speaker: Sake Blok
         title: "LOG4SHELL: Getting to know your adversary"
+        link: talks/sake-blok-log4shell-getting-to-know-your-adversary/
   - row:
     columns:
     - column:
@@ -137,6 +138,7 @@ event_schedule:
       talk:
         speaker: Francisco Dominguez and Zawadi Done
         title: Automating incindent response should be the default
+        link: talks/francisco-dominguez-en-zawadi-done-automating-incident-response-should-be-the-default/
     - column:
       talk:
         speaker: Andreas Hülsing
