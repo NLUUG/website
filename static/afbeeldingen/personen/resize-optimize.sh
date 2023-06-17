@@ -15,8 +15,8 @@ if [ -f "$1.png" ]; then
 elif [ -f "$1.jpg" ]; then
     # 150
     convert "$1.jpg" -resize 150x150 "$1-150x150.jpg"
-    jpegoptim -m100 "$1-150x150.jpg"
     cwebp -q 80 "$1-150x150.jpg" -o "$1-150x150.webp"
+    jpegoptim -m100 "$1-150x150.jpg"
     # 200
     convert "$1.jpg" -resize 200x200 "$1-200x200.jpg"
     cwebp -q 80 "$1-200x200.jpg" -o "$1-200x200.webp"
