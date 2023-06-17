@@ -36,6 +36,11 @@ In our session:
 * We will implement mitigations (requirements) and use the Owasp ZAP (Automation framework) and ZEST to validate the mitigations.
 
 
+## Biography Riccardo
+
+As a penetration tester from the Netherlands Riccardo ten Cate specialises in application security and has extensive knowledge in securing applications in multiple coding languages. Riccardo has many years of experience in training and guiding development teams becoming more mature and making their applications secure by design.
+
+
 ## Biography Glenn
 
 As a coder, hacker, speaker, trainer and security chapter leader employed at ING Belgium Glenn has over 15 years experience in the field of security. One of the founders of defensive development security trainings dedicated to helping you build and maintain secure software and also speaking at multiple other security conferences in the world.
@@ -44,7 +49,3 @@ Not only does Glenn train developers, he and his brother Riccardo also donated a
 
 See: SKF (Security knowledge framework) https://www.securityknowledgeframework.org
 
-
-## Biography Riccardo
-
-As a penetration tester from the Netherlands Riccardo ten Cate specialises in application security and has extensive knowledge in securing applications in multiple coding languages. Riccardo has many years of experience in training and guiding development teams becoming more mature and making their applications secure by design.
