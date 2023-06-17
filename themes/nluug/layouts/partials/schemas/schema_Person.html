@@ -11,8 +11,8 @@
 "affiliation": [
  {
   "@type": "Organization",
-  "name": "{{ $.Site.Params.organization_name | default .Site.Params.textEmptyValue }}"
-  "sameAs": {{ .Site.Params.organization_sameas }},
+  "name": "{{ $.Site.Params.organization_name | default .Site.Params.textEmptyValue }}",
+  "sameAs": {{ .Site.Params.organization_sameas }}
  }
 ],
 {{ if $author.gender }}"gender": "{{ $author.gender }}",{{ end }}
