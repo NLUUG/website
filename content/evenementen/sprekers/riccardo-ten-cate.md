@@ -1,0 +1,11 @@
+---
+categories:
+- sprekers
+date: 2023-06-17T16:12:01+02:00
+description: "Riccardo ten Cate was spreker bij de NLUUG, de vereniging voor open systemen en open standaarden. Lees meer over deze spreker."
+tags:
+- sprekers
+slug:
+title: "Riccardo ten Cate"
+type: person
+---
