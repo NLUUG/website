@@ -200,7 +200,7 @@ event_schedule:
       time: 15:30
     - column:
       talk:
-        speaker: Michiel Leenaars
+        speaker: "-"
         title: "-"
         link: 
     - column:

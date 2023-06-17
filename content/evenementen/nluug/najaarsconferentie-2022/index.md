@@ -67,7 +67,7 @@ event_schedule:
         speaker: Lucinda Sterk
         title: Talk nerdy to me
         keynote: true
-        link:
+        link: talks/lucinda-sterk-talk-nerdy-to-me/
       center: true
       size: 3
   - row:
@@ -87,7 +87,7 @@ event_schedule:
       talk:
         speaker: Riccardo ten Cate en Glenn ten Cate
         title: Exploitation, automation, mitigation
-        link:
+        link: talks/riccardo-ten-cate-en-glenn-ten-cate-explotation-automation-mitigation/
     - column:
       talk:
         speaker: Mike Ciavarella
