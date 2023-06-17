@@ -220,8 +220,7 @@ event_schedule:
       time: 17:55
     - column:
       textfield:
-        text: Borrel, gesponsord door AT-Computing
-        text: Keysigning party (download manual)
+        text: Borrel, gesponsord door AT-Computing, en keysigning party (download manual)
       center: true
       size: 3
 ---
