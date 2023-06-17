@@ -5,7 +5,6 @@ date: 2023-06-16T11:45:09+02:00
 description:
 tags:
 - organisatie
-- actieve-leden
 slug: chel-van-gennip
 title: "Chel van Gennip"
 type: person
