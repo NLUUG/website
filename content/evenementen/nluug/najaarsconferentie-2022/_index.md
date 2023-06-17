@@ -110,10 +110,12 @@ event_schedule:
       talk:
         speaker: Rob Hulsebos
         title: OT Cybersecurity Challenges
+        link: rob-hulsebos-ot-cybersecurity-challenges
     - column:
       talk:
         speaker: Michiel Leenaars
         title: "NLnet and NGI Zero: working for the internet"
+        link: talks/michiel-leenaars-nlnet-and-ngi-zero-working-for-the-internet/
     - column:
       talk:
         speaker: Sake Blok
