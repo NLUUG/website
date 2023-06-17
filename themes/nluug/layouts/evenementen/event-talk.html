@@ -14,12 +14,16 @@
     </div>
   {{ end }}
 
-  {{ if .Params.presentation.filename }}
+  {{ if isset .Params "presentation" }}
     <h2>Presentatie</h2>
-    {{ if findRE `.pdf$` .Params.presentation.filename 1 }}
-      {{ partial "show-svg-icon.html" (dict "context" . "icon" "file-pdf") }}
+    {{ if .Params.presentation.filename }}
+      {{ if findRE `.pdf$` .Params.presentation.filename 1 }}
+        {{ partial "show-svg-icon.html" (dict "context" . "icon" "file-pdf") }}
+        <a href="/bestanden/presentaties/{{ .Params.presentation.filename }}">Presentatie</a>
+      {{ end }}
+    {{ else if .Params.presentation.link }}
+        <a href="{{ .Params.presentation.link }}" rel="nofollow">Presentatie (externe link)</a>
     {{ end }}
-    <a href="/bestanden/presentaties/{{ .Params.presentation.filename }}">Presentatie</a>
   {{ end }}
 
   {{ if .Params.recording.url }}
