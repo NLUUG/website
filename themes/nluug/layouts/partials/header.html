@@ -30,7 +30,7 @@
             {{- end }}
           {{- end }}
 
-          <img class="max-width" src="{{ $logoresource | safeURL }}" alt="NLUUG-logo" decoding="async" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}">
+          <img class="max-width" src="{{ .Site.Params.logoNormal | safeURL }}" alt="NLUUG-logo" decoding="async" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}">
         </picture>
       </figure>
     </a>
