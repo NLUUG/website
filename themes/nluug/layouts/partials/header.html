@@ -6,8 +6,39 @@
 
     {{ $logoresource := resources.Get (.Site.Params.logoNormal | replaceRE "^/" "") }}
 
-    <a href="{{ "/" | relLangURL }}" class="logo" title="{{ strings.FirstUpper (i18n "back_to_home") }}"><img class="max-width" src="{{ $logoresource | relURL }}" alt="NLUUG-logo" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}"></a>
+    <a class="logo" href="{{ "/" | relLangURL }}" title="{{ strings.FirstUpper (i18n "back_to_home") }}">
+      <figure>
+        <picture>
+          {{ $isJPG := eq (path.Ext $logoresource) ".jpg" }}
+          {{ $isPNG := eq (path.Ext $logoresource) ".png" }}
 
+          {{ if ($isJPG) -}}
+            {{ $webpPath:= replace $logoresource ".jpg" ".webp" }}
+            {{ $webpPathStatic:= printf "%s" $webpPath }}
+
+            {{ if (fileExists $webpPathStatic) -}}
+              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+            {{- end }}
+          {{- end }}
+
+          {{ if ($isPNG) -}}
+            {{ $webpPath:= replace $logoresource ".png" ".webp" }}
+            {{ $webpPathStatic:= printf "%s" $webpPath }}
+
+            {{ if (fileExists $webpPathStatic) -}}
+              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+            {{- end }}
+          {{- end }}
+
+          <img class="max-width" src="{{ $logoresource | safeURL }}" alt="NLUUG-logo" decoding="async" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}">
+        </picture>
+      </figure>
+    </a>
+
+<!--
+    TODO (2023-06-18) - Deze regel mag weg als blijkt dat bovenstaande manier van laden van het logo goed functioneert
+    <a href="{{ "/" | relLangURL }}" class="logo" title="{{ strings.FirstUpper (i18n "back_to_home") }}"><img class="max-width" src="{{ $logoresource | relURL }}" alt="NLUUG-logo" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}"></a>
+-->
     <input type="checkbox" id="hamburger" aria-label="menu button">
     <label for="hamburger"><span></span></label>
 
