@@ -192,11 +192,12 @@ event_schedule:
       talk:
         speaker: Ondřej Caletka
         title: Run your own networking lab with Vagrant and Ansible
-        link:
+        link: talks/ondrej-caletka-run-my-own-networking-lab-with-vagrant-and-ansible/
     - column:
       talk:
         speaker: Joost van Dijk
         title: "From passwords to passkeys: What's new with FIDO"
+        link: talks/joost-van-dijk-from-passwords-to-passkeys-whats-new-with-fido/
   - row:
     columns:
     - column:
@@ -215,11 +216,12 @@ event_schedule:
       talk:
         speaker: Marcel Kornegoor
         title: "Course as Code: the future of AT Computing's training courses"
-        link:
+        link: talks/marcel-kornegoor-course-as-code-the-future-of-at-computings-training-courses/
     - column:
       talk:
         speaker: Joyce Mellens
         title: "Caer: An IoT Firewall for consumers"
+        link: talks/joyce-mellens-caer-an-iot-firewall-for-consumers/
   - row:
     columns:
     - column:
