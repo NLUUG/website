@@ -143,10 +143,12 @@ event_schedule:
       talk:
         speaker: Andreas Hülsing
         title: "An update on NIST's PQC standardization process"
+        link: talks/andreas-hulsing-an-update-on-nists-pqc-standardization-process/
     - column:
       talk:
         speaker: Kris Buytaert
         title: Help My Datacenter is On Fire
+        link: talks/kris-buytaert-help-my-datacenter-is-on-fire/
   - row:
     columns:
     - column:
