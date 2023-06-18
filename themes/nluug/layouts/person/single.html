@@ -7,7 +7,7 @@
     {{ $personid := .id }}
     {{ if .thumbnail }}
       {{ $alttext := printf "Foto van %s" .name }}
-      {{ partial "show-image.html" (dict "context" . "image" .thumbnail "alt" $alttext) }}
+      {{ partial "show-image.html" (dict "context" . "image" .thumbnail "above_the_fold" true "alt" $alttext) }}
     {{ end }}
     {{ $text }}
 
