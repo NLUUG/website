@@ -9,10 +9,6 @@ tags:
 title: "Aanmelden voor NLUUG lidmaatschap"
 ---
 
-**********************
-Het NLUUG lidmaatschap
-**********************
-
 Toon uw hart voor 'Open', meldt u aan als lid!
 
 Het NLUUG-lidmaatschap gaat per jaar en loopt van 1 januari tot 31 december. Opzeggen kan op ieder moment. U bent lid op het moment dat de betaling heeft plaatsgevonden. De NLUUG verstrekt voor alle betalingen facturen met 21% BTW, naar keuze geadresseerd aan u persoonlijk of op naam van een bedrijf of organisatie.
