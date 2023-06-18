@@ -5,7 +5,7 @@
     {{ $index_time := (time now).AddDate 0 0 -1 }}
     "urlList": [
         {{- range .Site.RegularPages -}}
-        {{ if ge (time .Date) $index_time }}"{{ .Permalink }}",{{ end }}
+        {{ if ge (time .Lastmod) $index_time }}"{{ .Permalink }}",{{ end }}
         {{- end -}}
     ]
 }
