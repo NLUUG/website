@@ -4,7 +4,7 @@ categories:
 date: 2023-06-05T22:59:05+02:00
 description: "Op 9 november 2000 heeft Wietse Venema de NLUUG Award uitgereikt gekregen namens onze vereniging."
 tags:
-- award
+- nluug-award
 title: "NLUUG Award voor Wietse Venema"
 related_person: wietse-venema
 ---

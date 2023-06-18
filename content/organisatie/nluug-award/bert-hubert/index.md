@@ -4,7 +4,7 @@ categories:
 date: 2023-05-23T15:01:46+02:00
 description: "Op 11 mei 2023 heeft Bert Hubert de NLUUG Award uitgereikt gekregen namens onze vereniging."
 tags:
-- award
+- nluug-award
 title: "NLUUG Award voor Bert Hubert"
 related_person: bert-hubert
 ---

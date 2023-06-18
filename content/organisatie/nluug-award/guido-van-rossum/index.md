@@ -4,7 +4,7 @@ categories:
 date: 2023-06-04T15:45:46+02:00
 description: "Op 22 mei 2003 heeft Guido van Rossum de NLUUG Award uitgereikt gekregen namens onze vereniging."
 tags:
-- award
+- nluug-award
 title: "NLUUG Award voor Guido van Rossum"
 related_person: guido-van-rossum
 ---

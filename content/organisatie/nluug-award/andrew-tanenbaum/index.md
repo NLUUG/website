@@ -4,7 +4,7 @@ categories:
 date: 2023-06-04T17:11:23+02:00
 description: "Op 6 november 2008 heeft Professor Andrew Tanenbaum de NLUUG Award uitgereikt gekregen namens onze vereniging."
 tags:
-- award
+- nluug-award
 title: "NLUUG Award voor Andrew S. Tanenbaum"
 related_person: andrew-tanenbaum
 ---

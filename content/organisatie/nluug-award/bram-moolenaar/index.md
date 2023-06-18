@@ -4,7 +4,7 @@ categories:
 date: 2023-06-05T22:49:41+02:00
 description: "Op 15 mei 2008 heeft Bram Moolenaar de NLUUG Award uitgereikt gekregen namens onze vereniging."
 tags:
-- award
+- nluug-award
 title: "NLUUG Award voor Bram Moolenaar"
 related_person: bram-moolenaar
 ---

@@ -10,7 +10,7 @@ date: 2023-06-04T17:19:37+02:00
 description: "Achtergrond van en informatie over de NLUUG Award"
 layout: section
 tags:
-- award
+- nluug-award
 slug:
 title: "NLUUG Award"
 ---
