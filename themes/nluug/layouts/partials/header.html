@@ -4,6 +4,8 @@
 <header>
   <div class="header-content">
 
+    <!-- Logo wordt nu benoemd als URL, dus we strippen de eerste slash, vervolgens halen we deze uit de assets directory -->
+    <!-- Logo staat zowel in assets als static, zodat deze gekopieerd worden. Dit is een TODO om te ontdubbelen -->
     {{ $logoresource := resources.Get (.Site.Params.logoNormal | replaceRE "^/" "") }}
 
     <a class="logo" href="{{ "/" | relLangURL }}" title="{{ strings.FirstUpper (i18n "back_to_home") }}">
@@ -14,19 +16,19 @@
 
           {{ if ($isJPG) -}}
             {{ $webpPath:= replace $logoresource ".jpg" ".webp" }}
-            {{ $webpPathStatic:= printf "%s" $webpPath }}
+            {{ $webpPathStatic:= printf "assets/%s" $webpPath }}
 
             {{ if (fileExists $webpPathStatic) -}}
-              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+              <source srcset="/{{ $webpPath | safeURL }}" type="image/webp">
             {{- end }}
           {{- end }}
 
           {{ if ($isPNG) -}}
             {{ $webpPath:= replace $logoresource ".png" ".webp" }}
-            {{ $webpPathStatic:= printf "%s" $webpPath }}
+            {{ $webpPathStatic:= printf "assets/%s" $webpPath }}
 
             {{ if (fileExists $webpPathStatic) -}}
-              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+              <source srcset="/{{ $webpPath | safeURL }}" type="image/webp">
             {{- end }}
           {{- end }}
 
