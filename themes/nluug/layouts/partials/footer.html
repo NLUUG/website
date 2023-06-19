@@ -15,8 +15,8 @@
       <h2>Volg ons</h2>
 
       <nav aria-label="Social media">
-      {{ with .Site.Params.twitter_handle }}
-        <a class="icon" href="https://twitter.com/{{ . }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer "title" "Twitter mee") }}</a>
+      {{ if .Site.Params.twitter_handle }}
+        <a class="icon" href="https://twitter.com/{{ . }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer "alt" "Icoon van Twitter" "title" "Twitter mee") }}</a>
       {{ end }}
       {{ if and
         (.Site.Params.mastodon_handle)
