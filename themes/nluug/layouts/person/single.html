@@ -58,15 +58,18 @@
       </ul>
     {{ end }}
 
-    {{ if or (.social.mastodon) (.social.twitter) }}
+    {{ if or (.social.hubzilla) (.social.mastodon) (.social.twitter) }}
       <h2>Social media</h2>
 
       <ul class="list">
+      {{ if .social.hubzilla }}
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/message.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Hubzilla"> <a href="{{ .social.hubzilla_url }}">{{ .social.hubzilla }}</a></li>
+      {{ end }}
       {{ if .social.mastodon }}
-        <li><img src="/afbeeldingen/iconen/mastodon.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Mastodon"> <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a></li>
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/mastodon.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Mastodon"> <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a></li>
       {{ end }}
       {{ if .social.twitter }}
-        <li><img src="/afbeeldingen/iconen/twitter.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Twitter"> <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a></li>
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/twitter.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Twitter"> <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a></li>
       {{ end }}
       </ul>
     {{ end }}
