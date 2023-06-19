@@ -1,6 +1,6 @@
 {{/* Zoek alle scss-bestanden, combineer ze, zet om naar CSS, verkleinen en voorzien van fingerprint */}}
 {{ $styles := resources.Match "scss/**.scss" | resources.Concat "combined.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
-<style integrity="{{ $styles.Data.Integrity }}">{{ $styles.Content | safeCSS }}</style>
+<style>{{ $styles.Content | safeCSS }}</style>
 
 
 {{/*
