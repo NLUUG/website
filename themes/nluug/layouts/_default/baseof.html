@@ -5,13 +5,15 @@
     <!-- Accessibility: skip-link voor mobiele apparaten -->
     <a class="skip-link" href="#main">Ga naar hoofd</a>
       <main id="main">
+        {{ partialCached "header.html" . }}
+        {{ partial "breadcrumb.html" . }}
         <div class="content">
-          {{ partialCached "header.html" . }}
-          {{ partial "breadcrumb.html" . }}
-            <h1 class="post">{{ .Title }}</h1>
+            <h1 class="post speakable">{{ .Title }}</h1>
+            <div class="speakable">
             {{- block "main" . }}
                 {{ .Content }}
             {{- end }}
+            </div>
 
             {{ partial "show-call-to-action.html" . }}
 

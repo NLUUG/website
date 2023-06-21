@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{
+ "@context": "https://www.schema.org",
+ "@type": "WebPage",
+ "@id": "{{ .Permalink }}#webpage",
+ "name": "{{ .Title | default .Site.Params.textEmptyValue }}",
+ "datePublished": {{ .Date }},
+ "dateModified": {{ .Lastmod }},
+ "inLanguage": "{{ .Site.LanguageCode }}",
+ "mainContentOfPage": {
+  "@type": "WebPageElement",
+  "cssSelector": ".content"
+ },
+ "speakable": {
+  "@type": "SpeakableSpecification",
+  "cssSelector": ".speakable"
+ },
+ "isPartOf": {
+  "@type": "WebSite",
+  "@id": "{{ .Site.BaseURL }}#website",
+  "url": "{{ .Site.BaseURL }}",
+  "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}"
+ }
+}
+</script>

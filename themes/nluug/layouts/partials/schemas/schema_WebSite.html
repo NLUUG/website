@@ -6,25 +6,14 @@
 [
  {
   "@context": "https://schema.org",
-  "@type": "Webpage",
-  "specialty": "{{ .Site.Params.description | default .Site.Params.textEmptyValue }}",
-  "mainContentOfPage": {
-   "@context": "https://schema.org/",
-   "@type": "WebPageElement",
-   "cssSelector": ".body-contentTODO"
-  },
-  "primaryImageOfPage": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textEmptyValue }}"
- },
- {
-  "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "{{ .Site.BaseURL }}",
-  "additionalType": ["CreativeWork", "Person"],
+  "@id": "{{ .Site.BaseURL }}#website",
+  "additionalType": ["CreativeWork"],
   "url": "{{ .Site.BaseURL }}",
   "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}",
   "alternateName": "{{ .Site.Title  | default .Site.Params.textNoTitle }}",
   "headline": "{{ .Site.Params.description | default .Site.Params.textNoTitle }}",
-  "image": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textNoTitle }}",
+{{ if .Site.Params.imageurl }}"image": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textNoTitle }}",{{ end }}
   "inLanguage": "{{ .Site.LanguageCode }}",
   "author": "{{ .Site.Params.author | default .Site.Params.textNoValue }}",
   "description": "{{ .Site.Params.description }}",
