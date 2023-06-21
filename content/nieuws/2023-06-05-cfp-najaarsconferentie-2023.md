@@ -3,7 +3,7 @@ author: michael-boelen
 categories:
 - conferentie
 date: 2023-06-05T08:40:32+02:00
-description: "Na de opbouw en migratie staat de nieuwe website online! Lees meer over hoe de website tot stand is gekomen."
+description: "De call for proposals van de najaarsconferentie staat nu online. Deze keer draaien we ook nieuwe CFP-software, namelijk pretalx."
 slug: cfp-najaarsconferentie-2023
 tags:
 - cfp
