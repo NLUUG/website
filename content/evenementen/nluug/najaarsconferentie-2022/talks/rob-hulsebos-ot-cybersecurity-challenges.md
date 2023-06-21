@@ -9,7 +9,7 @@ title: "Rob Hulsebos - OT Cybersecurity Challenges"
 speakers:
 - rob-hulsebos
 presentation:
-  filename: 2022-11-29-rob-hulsebos-ot-cybversecurity-challenges.pdf
+  filename: 2022-11-29-rob-hulsebos-ot-cybersecurity-challenges.pdf
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=CH2ntnZxZks
