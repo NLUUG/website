@@ -12,4 +12,7 @@ tags:
 slug:
 title: "Sprekers"
 layout: speakers
+type: evenementen
 ---
+
+Zonder sprekers kunnen we uiteraard onze conferenties en evenementen niet vullen met interessante lezingen. Onderstaand verzamelen we alle sprekers die in het verleden een lezing hebben verzorgd.

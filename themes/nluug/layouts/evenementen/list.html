@@ -24,7 +24,6 @@
   <section>
     <ul class="list">
       {{ range (.Pages.ByParam "event_start").Reverse }}
-        {{ if isset .Params "event_start" }}
         <li>
           <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
           <hr class="hr-list">
@@ -32,7 +31,6 @@
           <time class="g time" datetime="{{ dateFormat "02-01-2006" .Params.event_start }}">{{ dateFormat "02-01-2006" .Params.event_start }}</time>
           {{ end }}
         </li>
-        {{ end }}
       {{ end }}
     </ul>
   </section>
