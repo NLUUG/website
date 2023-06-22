@@ -25,6 +25,8 @@ event_cfp_start_date: 2023-05-11
 event_cfp_close_date: 2023-09-28
 event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2023/cfp
 event_description: "Najaarsconferentie 2023 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
+event_images:
+- /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
 event_members_only: true
 event_organizers:
 - organizer:
