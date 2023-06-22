@@ -24,6 +24,10 @@ event_cfp_start_date: 2023-05-11
 event_cfp_close_date: 2023-09-28
 event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2023/cfp
 event_members_only: true
+event_organizers:
+- organizer:
+  id: nluug
+  name: NLUUG
 event_register_start_date: 2023-06-20
 event_register_end_date: 2023-11-29
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
