@@ -44,6 +44,15 @@
   "name": "{{ .Params.event_location }}"
  },
 {{ end }}
+{{ with .Params.event_images -}}
+  "image": [
+    {{- range $index, $element := . -}}
+    {{- if ne $index 0 -}}, {{ end }}
+    {{ $image := resources.Get $element -}}
+    {{ $image.Permalink -}}
+    {{- end }}
+    ],
+  {{ end -}}
  "mainEntityOfPage": {
   "@type": "Webpage",
   "@id": "{{ .Permalink }}#webpage",
