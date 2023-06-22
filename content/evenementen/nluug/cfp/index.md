@@ -16,7 +16,7 @@ title: "Call for Proposals"
 is_event: false
 ---
 
-Als vereniging willen graag volledig "open" zijn over onze Call for Proposals (CFP). Op deze pagina beschrijven hoe de programmacommissie te werk gaat, wat we sprekers bieden en hoe eenieder de kans kan vergroten om een inzending daadwerkelijk om te zetten in een spreekslot.
+Als vereniging willen graag volledig "open" zijn over onze Call for Proposals (CFP). Op deze pagina beschrijven we hoe de programmacommissie te werk gaat, wat we sprekers bieden en hoe eenieder de kans kan vergroten om een inzending daadwerkelijk om te zetten in een spreekslot.
 
 ## Onderwerpen
 
@@ -33,6 +33,7 @@ Voor onze conferenties en evenementen hebben we voornamelijk interesse in onders
 * Netwerk (analyze, firewalls)
 * Open source
 * Open standaarden
+* Programmeertalen
 * Softwareontwikkeling
 * Tooling
 * Webtechnologie
@@ -85,6 +86,7 @@ Een abstract dient duidelijk geschreven te zijn en de lezer te prikkelen. Wat al
 
 Een goed abstract zal de volgende vragen bij onze bezoekers beantwoorden:
 
+* Wat is het doel van deze presentatie?
 * Wat ga ik leren door deze lezing bij te wonen?
 * Op wie of welk niveau is deze lezing gericht?
 * Is er bepaalde voorkennis nodig?
@@ -113,7 +115,7 @@ Voor de leesbaarheid is het aan te raden om de biografie in een derde persoon te
 
 #### Foto
 
-Op onze website en programmaboekje willen we graag een compleet geheel hebben. Daar hoort natuurlijk een foto bij, zodat het gezicht achter de presentatie ook bekend is. We stellen geen harden eisen aan de foto, maar waarderen het wel als de kwaliteit en formaat groot genoeg is. Uiteraard verwachten we een "degelijke" foto en meestal is een foto van het gezicht dan ook het meest geschikt. Een foto die iemand bijvoorbeeld op LinkedIn zou gebruiken, voldoet vaak.
+Op onze website en programmaboekje willen we graag een compleet geheel hebben. Daar hoort natuurlijk een foto bij, zodat het gezicht achter de presentatie ook bekend is. We stellen geen harde eisen aan de foto, maar waarderen het wel als de kwaliteit en formaat groot genoeg is. Uiteraard verwachten we een "degelijke" foto en meestal is een foto van het gezicht dan ook het meest geschikt. Een foto die iemand bijvoorbeeld op LinkedIn zou gebruiken, voldoet vaak.
 
 ### Te technisch kan niet
 
