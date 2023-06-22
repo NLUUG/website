@@ -22,7 +22,9 @@
  ],
  "audience": ["software developers", "network engineers", "system administrators"],
  "eventAttendanceMode": "https://schema.org/{{ if eq .Params.event_attendance_mode "mix" }}Mix{{ else if eq .Params.event_attendance_mode "online" }}Online{{ else }}Offline{{ end }}EventAttendanceMode",
- "offers": "{{ absURL "lidmaatschap/aanmelden/" }}",
+ "offers": {
+  "url": "{{ absURL "lidmaatschap/aanmelden/" }}"
+ },
  "about": ["automation","configuration management","DevOps","internet","Linux","open source","open standards","security","web"],
  {{ if .Params.event_description }}"description": "{{ .Params.event_description }}",{{ end }}
 {{ if .Params.online_event }}
