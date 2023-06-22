@@ -20,9 +20,11 @@ event_address:
   postal_code: "3526 KV"
   city: "Utrecht"
   country_name: "The Netherlands"
+event_attendance_mode: "offline"
 event_cfp_start_date: 2023-05-11
 event_cfp_close_date: 2023-09-28
 event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2023/cfp
+event_description: "Najaarsconferentie 2023 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_members_only: true
 event_organizers:
 - organizer:
@@ -31,6 +33,7 @@ event_organizers:
 event_register_start_date: 2023-06-20
 event_register_end_date: 2023-11-29
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
+event_status: "scheduled"
 event_schedule:
   title: Programma
   description: Alleen maar geweldige sprekers

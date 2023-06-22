@@ -7,7 +7,11 @@
  "name": "{{ .Title | default .Site.Params.textEmptyValue }}",
  "startDate": {{ .Params.event_start }},
  "endDate": {{ .Params.event_end }},
-{{ if not .Params.event_organizers }}
+ {{ if .Params.event_status }}
+ "eventStatus":"Event{{ .Params.event_status | strings.FirstUpper }}",
+ {{ else }}
+ "eventStatus":"EventScheduled",
+ {{ end }}
  "organizer": [
   {
    "@type": "Organization",
@@ -16,10 +20,11 @@
    "url": "{{ .Site.BaseURL }}"
   }
  ],
-{{ end }}
  "audience": ["software developers", "network engineers", "system administrators"],
- {{ if .Params.purchaselink }}"offers": "https://nluug.nl/url-to-offer",{{ end }}
+ "eventAttendanceMode": "https://schema.org/{{ if eq .Params.event_attendance_mode "mix" }}Mix{{ else if eq .Params.event_attendance_mode "online" }}Online{{ else }}Offline{{ end }}EventAttendanceMode",
+ "offers": "{{ absURL "lidmaatschap/aanmelden/" }}",
  "about": ["automation","configuration management","DevOps","internet","Linux","open source","open standards","security","web"],
+ {{ if .Params.event_description }}"description": "{{ .Params.event_description }}",{{ end }}
 {{ if .Params.online_event }}
  "location": {
   "@type": "VirtualLocation",
