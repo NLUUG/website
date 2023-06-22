@@ -14,6 +14,11 @@
     {{ partial "schemas/schema_WebPage.html" . }}
   {{ end }}
 
+{{- else if .IsSection -}}
+  {{ if .Params.is_event }}
+    {{ partial "schemas/schema_Event.html" . }}
+  {{ end }}
+
 {{ end }}
 
 {{ partial "schemas/schema_BreadcrumbList.html" . }}

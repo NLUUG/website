@@ -4,6 +4,7 @@ categories:
 - evenementen
 date: 2022-11-29T17:58:58+02:00
 description: "De NLUUG najaarsconferentie werd gehouden op dinsdag 29 november 2022 in het Van der Valk Hotel Utrecht."
+is_event: true
 tags:
 - conferenties
 slug:
@@ -14,12 +15,21 @@ event_start: 2022-11-29T08:30:00+02:00
 event_end: 2022-11-29T18:00:00+02:00
 event_timezone: Europe/Amsterdam
 event_location: Van der Valk Hotel Utrecht
+event_organizers:
+- organizer:
+  id: nluug
+  name: NLUUG
+event_attendance_mode: "offline"
+event_images:
+- /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
+event_description: "Najaarsconferentie 2022 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_address:
   street_address: "Winthontlaan 4-6"
   postal_code: "3526 KV"
   city: "Utrecht"
   country_name: "The Netherlands"
 event_members_only: true
+event_status: "scheduled"
 event_schedule:
   title: Programma
   description: 

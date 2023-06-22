@@ -4,6 +4,7 @@ categories:
 - evenementen
 date: 2023-05-06T21:17:47+02:00
 description: "De NLUUG najaarsconferentie is gepland op dinsdag 28 november 2023 in het Van der Valk Hotel Utrecht."
+is_event: true
 lastmod: 2023-05-10T15:17:47+02:00
 tags:
 - conferenties

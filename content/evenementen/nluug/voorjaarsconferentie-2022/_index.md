@@ -4,6 +4,7 @@ categories:
 - evenementen
 date: 2022-05-10T20:17:47+02:00
 description: "De NLUUG voorjaarsconferentie werd gehouden op dinsdag 10 mei 2022. Bekijk hier het programma, de presentaties, opnames en foto's."
+is_event: true
 tags:
 - conferenties
 slug:
@@ -19,8 +20,17 @@ event_address:
   postal_code: "3526 KV"
   city: "Utrecht"
   country_name: "The Netherlands"
+event_organizers:
+- organizer:
+  id: nluug
+  name: NLUUG
+event_attendance_mode: "offline"
+event_images:
+- /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
+event_description: "Voorjaarsconferentie 2022 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_members_only: true
 event_register_link: "https://nluug.nl/aanmelden/index.cgi?action=event"
+event_status: "scheduled"
 event_schedule:
   title: Programma
   description:
