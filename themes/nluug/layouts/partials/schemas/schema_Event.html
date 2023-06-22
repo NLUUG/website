@@ -1,0 +1,60 @@
+<script type="application/ld+json">
+{
+ "@context": "https://www.schema.org",
+ "@type": "Event",
+ "@id": "{{ .Permalink }}#event",
+ "url": "{{ .Permalink }}",
+ "name": "{{ .Title | default .Site.Params.textEmptyValue }}",
+ "startDate": {{ .Params.event_start }},
+ "endDate": {{ .Params.event_end }},
+{{ if not .Params.event_organizers }}
+ "organizer": [
+  {
+   "@type": "Organization",
+   "name": "NLUUG",
+   "id": "{{ .Site.BaseURL }}#organization",
+   "url": "{{ .Site.BaseURL }}"
+  }
+ ],
+{{ end }}
+ "audience": ["software developers", "network engineers", "system administrators"],
+ {{ if .Params.purchaselink }}"offers": "https://nluug.nl/url-to-offer",{{ end }}
+ "about": ["automation","configuration management","DevOps","internet","Linux","open source","open standards","security","web"],
+{{ if .Params.online_event }}
+ "location": {
+  "@type": "VirtualLocation",
+  "url": "{{ .Params.online_event_stream_url }}"
+ },
+{{ else }}
+ "location": {
+  "@type": "Place",
+  "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "{{ .Params.event_address.city }}",
+   {{ if .Params.event_address.region }}"addressRegion": "{{ .Params.event_address.region }}",{{ end }}
+   "streetAddress": "{{ .Params.event_address.street_address }}",
+   "postalCode": "{{ .Params.event_address.postal_code }}",
+   "addressCountry": {{ .Params.event_address.country_name }}
+  },
+  "name": "{{ .Params.event_location }}"
+ },
+{{ end }}
+ "mainEntityOfPage": {
+  "@type": "Webpage",
+  "@id": "{{ .Permalink }}#webpage",
+  "url": "{{ .Permalink }}",
+  "name": "{{ .Title }}",
+  "speakable": {
+   "@type": "SpeakableSpecification",
+   "cssSelector": ".speakable"
+  },
+  "isPartOf": {
+   "@type": "WebSite",
+   "@id": "{{ .Site.BaseURL }}#website",
+   "url": "{{ .Site.BaseURL }}",
+   "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}"
+  }
+ }
+
+}
+</script>
