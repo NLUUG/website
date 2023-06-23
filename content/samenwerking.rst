@@ -2,7 +2,7 @@
 categories:
 - Overig
 date: 2023-05-07T17:36:06+02:00
-description: "Placeholder: duidelijke beschrijving"
+description: "Samenwerken met de NLUUG? Dat kan op de verschillende manieren. Op deze pagina leggen wij uit wat de mogelijkheden zijn."
 lastmod: 2023-05-07T17:36:06+02:00
 tags:
 - samenwerking
