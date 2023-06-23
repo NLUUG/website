@@ -204,6 +204,6 @@ event_schedule:
       textfield:
         text: Borrel, gesponsord door AT Computing
       center: true
-      size: 3
+      size: 2
 ---
 
