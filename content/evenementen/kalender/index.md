@@ -3,10 +3,12 @@ categories:
 - evenementen
 date: 2023-05-06T13:08:32+02:00
 description: "Leer meer over aanstaande evenementen georganiseerd door de NLUUG en andere organisaties."
-lastmod: 2023-05-06T13:08:32+02:00
+review:
+  last_review: 2023-06-24
+  reviewed_by: michael-boelen
+  period: 90
 tags:
 - evenementen
-slug:
 title: "Evenementenkalender"
 type: calendar
 no-ics-file: true
@@ -19,4 +21,4 @@ Op deze kalender verzamelen we de evenementen in de regio met onderwerpen zoals:
 - Software development
 - Informatiebeveiliging
 
-Heb je een suggestie of mis je een event dat voor onze doelgroep ook relevant is? Deel hem met onze webmasters!
+Heb je een suggestie of mis je een event dat voor onze doelgroep ook relevant is? Deel hem met onze [webmasters]({{< relref "organisatie/commissies/website/index.md" >}})!
