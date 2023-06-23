@@ -11,7 +11,11 @@
   {{ else if in .Params.content_types "person" }}
     {{ partial "schemas/schema_Person.html" . }}
   {{ else }}
-    {{ partial "schemas/schema_WebPage.html" . }}
+    {{ if gt .WordCount 100 }}
+      {{ partial "schemas/schema_Article.html" . }}
+    {{ else }}
+      {{ partial "schemas/schema_WebPage.html" . }}
+    {{ end }}
   {{ end }}
 
 {{- else if .IsSection -}}

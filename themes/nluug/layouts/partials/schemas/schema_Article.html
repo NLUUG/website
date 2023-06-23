@@ -1,0 +1,54 @@
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "@id": "{{ .Permalink }}#article",
+ "datePublished": {{ .Date }},
+ "dateModified": {{ .Lastmod }},
+ "wordCount": {{ .WordCount }},
+ "inLanguage": "{{ .Site.LanguageCode }}",
+ "isPartOf": {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+   "@id": "{{ .Permalink }}#webpage",
+   "name": "{{ .Title | default .Site.Params.textEmptyValue }}",
+   "datePublished": {{ .Date }},
+   "dateModified": {{ .Lastmod }},
+   "description": "{{ .Params.description }}",
+   "inLanguage": "{{ .Site.LanguageCode }}",
+   {{ if .Params.review.reviewed_by }}
+     {{ if findRE `^[a-z]+(\-[a-z]+)+$` .Params.review.reviewed_by 1 }}
+       {{ with (index $.Site.Data.personen .Params.review.reviewed_by) }}
+       "reviewedBy": {
+         "@type": "Person",
+         "name": "{{ .name }}",
+         "sameAs": "{{ .profile_page | absURL }}"
+        },
+       {{ end }}
+     {{ else }}
+       "reviewedBy": {
+         "@type": "Person",
+         "name": "{{ .Params.review.reviewed_by }}"
+        },
+     {{ end }}
+   {{ end }}
+   {{ if .Params.review.last_review }}
+   "lastReviewed": "{{ .Params.review.last_review }}",
+   {{ end }}
+   "mainContentOfPage": {
+    "@type": "WebPageElement",
+    "cssSelector": ".content"
+   },
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ".speakable"
+   },
+   "isPartOf": {
+    "@type": "WebSite",
+    "@id": "{{ .Site.BaseURL }}#website",
+    "url": "{{ .Site.BaseURL }}",
+    "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}"
+  }
+ }
+}
+</script>
