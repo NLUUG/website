@@ -40,6 +40,6 @@ De NLUUG Award is uitgereikt aan de volgende personen en instellingen:
 * [Bram Moolenaar]({{< relref "bram-moolenaar/" >}})  (Vim, 2008)
 * [Andrew Tanenbaum]({{< relref "andrew-tanenbaum/" >}}) (Minix, 2008)
 * Wytze van der Raaij en Teus Hagen (2010)
-* Olaf Kolkman (2015)
+* [Olaf Kolkman]({{< relref "olaf-kolkman/" >}})  (2015)
 * Michiel Leenaars (2022)
 * [Bert Hubert]({{< relref "bert-hubert/" >}}) (2023)
