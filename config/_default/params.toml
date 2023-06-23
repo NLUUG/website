@@ -9,9 +9,19 @@ organization_sameas = [
     "https://www.wikidata.org/wiki/Q2137723",
 ]
 
-### Algemeen
+keywords = [
+    "DevOps",
+    "Informatiebeveiliging",
+    "Linux",
+    "Open data",
+    "Open source",
+    "Open standaarden",
+    "Privacy"
+]
 
+### Algemeen
 description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
+
 # Fallback-auteur voor posts die geen echte auteur hebben
 author = "NLUUG"
 
@@ -41,7 +51,5 @@ textEmptyValue = "Geen waarde 🐦"
 mastodon_instance = "https://nluug.social/"
 mastodon_handle = "nluug"
 twitter_handle = "nluug"
-
-
 
 # EOF
