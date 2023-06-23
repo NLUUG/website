@@ -63,17 +63,17 @@ project:
     - name: Template aanmaken zodat dynamisch het juiste Schema geactiveerd wordt
       finished: true
     - name: Toevoegen Schema Article
-      finished: false
+      finished: true
     - name: Toevoegen Schema BreadcrumbList
-      finished: false
+      finished: true
     - name: Toevoegen Schema Event
-      finished: false
+      finished: true
     - name: Toevoegen Schema FAQ
       finished: false
     - name: Toevoegen Schema Person
-      finished: false
+      finished: true
     - name: Toevoegen Schema SiteNavigationElement
-      finished: false
+      finished: true
     - name: Toevoegen Schema WebSite
       finished: true
   - task:
