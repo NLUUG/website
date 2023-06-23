@@ -1,0 +1,17 @@
+{
+  "id": "olaf-kolkman",
+  "name": "Olaf Kolkman",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "thumbnail": "",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.internetsociety.org/author/kolkman/",
+    "mastodon": "@𝚘𝚕𝚊𝚏@𝚜𝚘𝚌𝚒𝚊𝚕.𝚜𝚎𝚌𝚛𝚎𝚝-𝚠𝚐.𝚘𝚛𝚐",
+    "mastodon_url": "https://social.secret-wg.org/@olaf",
+    "twitter": "@kolkman"
+  }
+}

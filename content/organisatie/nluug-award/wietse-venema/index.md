@@ -9,7 +9,7 @@ title: "NLUUG Award voor Wietse Venema"
 related_person: wietse-venema
 ---
 
-Tijdens de halfjaarlijkse NLUUG conferentie op 9 november 2000 is, namens onze vereniging, de NLUUG Award uitgereikt aan de Wietse Venema.
+Tijdens de halfjaarlijkse NLUUG conferentie op 9 november 2000 is, namens onze vereniging, de NLUUG Award uitgereikt aan Wietse Venema.
 
 ## Motivatie
 
