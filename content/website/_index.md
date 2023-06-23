@@ -2,9 +2,9 @@
 categories:
 - website
 date: 2023-05-15T14:58:11+02:00
-description: "Alle informatie rondom de website van de NLUUG, de vereniging voor open standaarden"
+description: "Alle informatie rondom de opzet en beheer van de website van de NLUUG, de vereniging voor open standaarden."
 review:
-  last_review: 2023-06-23
+  last_review: 2023-06-24
   reviewed_by: michael-boelen
   period: 90
 cascade:
@@ -12,7 +12,7 @@ cascade:
 slug:
 tags:
 - website
-title: "Website"
+title: "Over onze website"
 ---
 
 ## Geschiedenis
@@ -42,11 +42,11 @@ De leesbaarheid van tekst omvat taalgebruik en tevens de bijbehorende weergave. 
 We willen dat alle informatie binnen onze website snel en goed vindbaar zijn. Dit punt was zodanig belangrijk voor ons (en onze bezoekers), dat we hier maximaal op hebben ingezet. Om een goede vindbaarheid te bereiken hebben we de volgende zaken toegepast:
 
 * Breadcrumbs
-* HTML-sitemap
+* [HTML-sitemap]({{< relref "website/sitemap/index.md" >}})
 * Gebruik van tags
 * Navigatiemenu met sub-items
-* Tonen onderliggende of gerelaterde pagina's
-* Zoekmachine
+* Tonen onderliggende of gerelateerde pagina's
+* [Zoekfunctie]({{< relref "zoeken/index.md" >}})
 
 ### Informatie is actueel
 
@@ -55,4 +55,3 @@ Het actueel houden van informatie op een website is uitdagend te noemen. Zo hebb
 #### Content Reviews
 
 Door middel van de ingebouwde [reviewtool]({{< relref "website/beheer-en-onderhoud/content-review/index.md" >}}) kunnen we content vinden die mogelijk verouderd is. Door regelmatige reviews houden we onze website up-to-date. Per pagina kan er een reviewcycle (in dagen) worden opgegeven of waar nodig uitgeschakeld. Dit laatste is vooral nuttig voor nieuwsberichten en pagina's van eerdere conferenties.
-
