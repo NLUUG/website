@@ -23,6 +23,32 @@
     },
 {{- end -}}
     "sameAs": {{ .Site.Params.organization_sameas }},
-    "telephone":"{{ .Site.Params.phone }}"
+    "telephone":"{{ .Site.Params.phone }}",
+  "contactPoint" : [
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Bestuur",
+    "email" : "bestuur@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   },
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Buro",
+    "email" : "buro@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   },
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Programmacommissie",
+    "email" : "pc@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   },
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Webmasters",
+    "email" : "website@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   }
+  ]
   }
 </script>
