@@ -18,7 +18,7 @@
     <h2>Presentatie</h2>
     {{ if .Params.presentation.filename }}
       {{ if findRE `.pdf$` .Params.presentation.filename 1 }}
-        {{ partial "show-svg-icon.html" (dict "context" . "icon" "file-pdf") }}
+        {{ partial "show-svg-icon.html" (dict "context" . "icon" "file-pdf" "alt" "PDF-icoon") }}
         <a href="/bestanden/presentaties/{{ .Params.presentation.filename }}">Presentatie</a>
       {{ end }}
     {{ else if .Params.presentation.link }}
@@ -29,7 +29,7 @@
   {{ if .Params.recording.url }}
     <h2>Opname</h2>
     {{ if .Params.recording.platform }}
-      {{ if eq .Params.recording.platform "youtube" }}{{ partial "show-svg-icon.html" (dict "context" . "icon" "youtube") }}{{ end }}
+      {{ if eq .Params.recording.platform "youtube" }}{{ partial "show-svg-icon.html" (dict "context" . "icon" "youtube" "alt" "YouTube-icoon") }}{{ end }}
     {{ end }}
     <a href="{{ .Params.recording.url }}">Bekijk opname</a>
   {{ end }}
