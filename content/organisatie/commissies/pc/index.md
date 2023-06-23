@@ -4,7 +4,10 @@ categories:
 contact_email: pc@nluug.nl
 date: 2023-05-07T17:01:05+02:00
 description: "De programmacommissie is ons grootste team en verantwoordelijk voor het vinden van sprekers en beheren van relevante contacten."
-lastmod: 2023-05-07T17:01:05+02:00
+review:
+  last_review: 2023-06-23
+  reviewed_by: michael-boelen
+  period: 120
 tags:
 - conferentie
 - organisatie

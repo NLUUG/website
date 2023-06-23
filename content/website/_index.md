@@ -4,8 +4,8 @@ categories:
 date: 2023-05-15T14:58:11+02:00
 description: "Alle informatie rondom de website van de NLUUG, de vereniging voor open standaarden"
 review:
-  last_review: 2023-06-11
-  reviewed_by: Michael Boelen
+  last_review: 2023-06-23
+  reviewed_by: michael-boelen
   period: 90
 cascade:
   show_child_pages: true

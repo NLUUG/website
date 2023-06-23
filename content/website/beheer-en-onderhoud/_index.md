@@ -4,8 +4,8 @@ categories:
 date: 2023-05-22T15:24:11+02:00
 description: "Alle beschikbare informatie wat betreft het beheer en onderhoud van de NLUUG-website, inclusief bijbehorende processen."
 review:
-  last_review: 2023-05-22
-  reviewed_by: Michael Boelen
+  last_review: 2023-06-23
+  reviewed_by: michael-boelen
   period: 90
 slug:
 tags:
@@ -22,7 +22,7 @@ Om pagina's mee te laten nemen in de reviewcyclus, voegen we de betreffende meta
 ```
 review:
   last_review: 1970-01-01
-  reviewed_by: Michael Boelen
+  reviewed_by: michael-boelen
   period: 90
 ```
 
@@ -31,7 +31,7 @@ Voor sommige pagina's kan het zinvol zijn om de review uit te schakelen, zeker a
 ```
 review:
   disabled: true
-  disabled_by: Michael Boelen
+  disabled_by: michael-boelen
 ```
 
 Voor de nieuws-sectie hebben we de review recursief uitgeschakeld (cascade-optie).
