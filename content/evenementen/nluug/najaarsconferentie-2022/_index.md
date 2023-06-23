@@ -29,9 +29,6 @@ event_address:
   city: "Utrecht"
   country_name: "The Netherlands"
 event_members_only: true
-- organizer:
-  id: nluug
-  name: NLUUG
 event_status: "scheduled"
 event_schedule:
   title: Programma
