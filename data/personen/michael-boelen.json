@@ -10,6 +10,7 @@
   "websites": [{
     "id": 1,
     "name": "michaelboelen.com",
+    "sameas": true,
     "url": "https://michaelboelen.com/"
   },{
     "id": 2,
