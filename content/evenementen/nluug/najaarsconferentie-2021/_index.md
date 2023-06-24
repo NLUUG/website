@@ -199,7 +199,7 @@ event_schedule:
       talk:
         speaker: Vesna Manojlovic
         title: Technical Communities Resilience During COVID-19 Pandemic
-        links: talks/vesna-manojlovic-technical-communities-resilience-during-covid-19-pandemic/
+        link: talks/vesna-manojlovic-technical-communities-resilience-during-covid-19-pandemic/
     - column:
       talk:
         speaker: Attilla de Groot
