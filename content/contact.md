@@ -2,16 +2,17 @@
 categories:
 date: 2023-05-07T17:36:06+02:00
 description: "Neem contact op met ons bestuur of een commissie aan de hand van de contactgegevens op deze pagina."
+review:
+  last_review: 2023-06-24
+  reviewed_by: michael-boelen
+  period: 90
 tags:
 - contact
 slug: contact
 title: "Contact"
 ---
 
-Emailadressen
-=============
-
-Hieronder vindt je alle NLUUG gerelateerde contactinformatie. De administratie van NLUUG draait op vrijwilligers. Daarom geven wij sterk de voorkeur aan communicatie per e-mail. Doorgaans krijg je binnen een dag antwoord.
+Hieronder vindt je alle NLUUG gerelateerde contactinformatie. De administratie van NLUUG draait op vrijwilligers. Daarom geven wij sterk de voorkeur aan communicatie per e-mail.
 
 Onze vereniging heeft, naast het bestuur, verschillende commissies in wisselende samenstelling van vrijwilligers.
 
@@ -25,19 +26,16 @@ Onze vereniging heeft, naast het bestuur, verschillende commissies in wisselende
 
 Niet zeker aan wie de e-mail te adresseren? Gebruik dan info@nluug.nl.
 
-Post
-====
+## Post
 
-   NLUUG
+```
+NLUUG
+Postbus 8189
+6710 AD, Ede
+Nederland
+```
 
-   Postbus 8189
-
-   6710 AD, Ede
-
-   Nederland
-
-Contributies
-============
+## Contributies
 
 * IBAN: NL28 INGB 0002 3533 18
 * Tenaamstelling: NLUUG, te Utrecht
@@ -49,9 +47,4 @@ Registraties
 
 * KvK: 40533872
 * BTW-nummer: NL803474386B01
-* Vestiging:
-
-
-   Sweelincklaan 8
-
-   6815BH, Arnhem
+* Vestiging: Sweelincklaan 8, 6815BH, Arnhem
