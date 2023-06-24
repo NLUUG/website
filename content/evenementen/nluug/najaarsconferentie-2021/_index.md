@@ -113,10 +113,12 @@ event_schedule:
       talk:
         speaker: Jaap Akkerhuis
         title: "The sky is falling: The sun is exploding, duck! Revisited"
+        link: talks/jaap-akkerhuis-the-sky-is-falling-the-sun-is-exploding-duck-revisited/
     - column:
       talk:
         speaker: Walter Lioen
         title: "Snellius: the latest Dutch national supercomputer"
+        link: talks/walter-lioen-snellius-the-latest-dutch-national-supercomputer/
   - row:
     columns:
     - column:
@@ -134,10 +136,12 @@ event_schedule:
       talk:
         speaker: Pieter Lexis
         title: YANG and NETCONF for Systems Administration?
+        link: talks/pieter-lexis-yang-and-netconf-for-systems-administration/
     - column:
       talk:
         speaker: Dennis Baaten
         title: "Internet.nl & DANE for SMTP"
+        link: talks/dennis-baaten-internetnl-en-dane-for-smtp/
   - row:
     columns:
     - column:
