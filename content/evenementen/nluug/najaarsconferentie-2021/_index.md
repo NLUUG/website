@@ -156,10 +156,12 @@ event_schedule:
       talk:
         speaker: Wouter de Vries
         title: "Anycast: What is it and How to measure it"
+        link: talks/wouter-de-vries-anycast-what-is-it-and-how-to-measure-it/
     - column:
       talk:
         speaker: Eiger Jonker
         title: May Contain Hackers 2022, the Dutch hacker camp after SHA
+        link: talks/eiger-jonker-may-contain-hackers-2022-the-dutch-hacker-camp-after-sha/
   - row:
     columns:
     - column:
@@ -175,13 +177,14 @@ event_schedule:
       time: 15:30
     - column:
       talk:
-        speaker: Martine Pels
+        speaker: Martin Pels
         title: 10 years of NLNOG RING
+        link: talks/martin-pels-10-years-of-nlnog-ring/
     - column:
       talk:
         speaker: Rudi van Drunen
         title: What are FPGAs anyway and why is it fun to play with them?
-        link:
+        link: talks/rudi-van-drunen-what-are-fpgas-anyway-and-why-is-it-fun-to-play-with-them/
   - row:
     columns:
     - column:
@@ -196,11 +199,12 @@ event_schedule:
       talk:
         speaker: Vesna Manojlovic
         title: Technical Communities Resilience During COVID-19 Pandemic
+        links: talks/vesna-manojlovic-technical-communities-resilience-during-covid-19-pandemic/
     - column:
       talk:
         speaker: Attilla de Groot
         title: Integrating host networking with EVPN
-        link:
+        link: tags/attilla-de-groot-integrating-host-networking-with-evpn/
   - row:
     columns:
     - column:
