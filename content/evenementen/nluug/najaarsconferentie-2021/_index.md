@@ -73,7 +73,7 @@ event_schedule:
         speaker: Sjoera Nas
         title: It's the metadata, stupid! Privacy versus de grote cloudproviders
         keynote: true
-        link:
+        link: talks/sjoera-nas-its-the-metadata-stupid-privacy-versus-de-grote-cloudproviders/
       center: true
       size: 2
   - row:
@@ -93,11 +93,12 @@ event_schedule:
       talk:
         speaker: Sake Blok
         title: TLS decryption in times of Perfect Forward Secrecy
-        link:
+        link: talks/sake-blok-tls-decryption-in-times-of-perfect-forward-secrecy/
     - column:
       talk:
         speaker: Mischa Peters
         title: The OpenBSD hypervisor in the wild, a short story, but getting longer
+        link: talks/mischa-peters-the-openbsd-hypervisor-in-the-wild-a-short-story-but-getting-longer/
   - row:
     columns:
     - column:

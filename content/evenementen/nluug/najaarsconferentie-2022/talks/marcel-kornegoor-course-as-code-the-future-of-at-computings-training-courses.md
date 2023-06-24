@@ -9,7 +9,7 @@ title: "Marcel Kornegoor - Course as Code: the future of AT Computing's training
 speakers:
 - marcel-kornegoor
 presentation:
-  filename: 2022-11-29-course-as-code-the-future-of-at-computings-training-courses.pdf
+  filename: 2022-11-29-marcel-kornegoor-course-as-code-the-future-of-at-computings-training-courses.pdf
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=xaEP29OZR3U
