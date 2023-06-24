@@ -31,15 +31,6 @@
  "url": "{{ .Permalink }}",
  "name": "{{ $author.name | default .Site.Params.textEmptyValue }}",
  {{ if $author.nationality }}"nationality": "{{ $author.nationality }}",{{ end }}
- "affiliation": [
-  {
-   "@type": "Organization",
-   "id": "{{ .Site.BaseURL }}#organization",
-   "url": "{{ .Site.BaseURL }}",
-   "name": "{{ .Site.Title }}",
-   "sameAs": {{ .Site.Params.organization_sameas }}
-  }
- ],
  {{ if $author.gender }}"gender": "{{ $author.gender }}",{{ end }}
  {{ if $author.jobfunction }}"Description": "{{ $author.jobfunction }}",{{ end }}
  {{ if $author.description }}"disambiguatingDescription": "{{ $author.description }}",{{ end }}
