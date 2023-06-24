@@ -204,7 +204,7 @@ event_schedule:
       talk:
         speaker: Attilla de Groot
         title: Integrating host networking with EVPN
-        link: tags/attilla-de-groot-integrating-host-networking-with-evpn/
+        link: talks/attilla-de-groot-integrating-host-networking-with-evpn/
   - row:
     columns:
     - column:
