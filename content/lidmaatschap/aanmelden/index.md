@@ -1,9 +1,12 @@
 ---
-date: 2023-05-05T19:00:45+02:00
-description: "Alle relevante gegevens om aan te melden bij de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
-lastmod: 2023-05-05T19:00:45+02:00
 categories:
 - lidmaatschap
+date: 2023-05-05T19:00:45+02:00
+description: "Alle relevante gegevens om aan te melden bij de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
+review:
+  last_review: 2023-06-24
+  reviewed_by: michael-boelen
+  period: 90
 tags:
 - lidmaatschap
 title: "Aanmelden voor NLUUG lidmaatschap"
@@ -18,8 +21,7 @@ Het NLUUG-lidmaatschap gaat per jaar en loopt van 1 januari tot 31 december. Opz
 (De kosten van het lidmaatschap voor dit jaar vindt u op de pagina tarieven.)
 
 
-Aanmelden voor individuele (student-) leden
-===========================================
+## Aanmelden voor individuele (student-) leden
 
 U kunt op drie manieren lid worden van de vereniging:
 
@@ -31,20 +33,17 @@ U kunt op drie manieren lid worden van de vereniging:
 * U kunt ook naar een dag-conferentie komen, en daar ter plaatse lid worden. U dient dan met PIN ter plaatse de lidmaatschapscontributie te voldoen. Deze optie is €25,-- exclusief BTW duurder wegens administratiekosten. U kunt nadien bij de penningmeester een pro-forma BTW-factuur opvragen voor uw boekhouding of declaratie.
 
 
-Aanmelden voor een Bedrijfsregeling voor Organisaties
-=====================================================
+## Aanmelden voor een Bedrijfsregeling voor Organisaties
 
-`Neem contact op <mailto:buro@nluug.nl?subject=Aanmelden voor een Bedrijfsregeling>`_ met ons als uw bedrijf of organisatie de NLUUG wil ondersteunen. Via de Bedrijfsregeling kunt u de contributies van werknemers in één (verzamel-)factuur voldoen. Maar belangrijker nog, via de Bedrijfsregeling toont u dat uw bedrijf de NLUUG steunt om het "Open" gedachtegoed uit te dragen.
+Neem contact op met ons [buro](mailto:buro@nluug.nl?subject=Aanmelden voor een Bedrijfsregeling) als uw bedrijf of organisatie de NLUUG wil ondersteunen. Via de Bedrijfsregeling kunt u de contributies van werknemers in één (verzamel-)factuur voldoen. Maar belangrijker nog, via de Bedrijfsregeling toont u dat uw bedrijf de NLUUG steunt om het "Open" gedachtegoed uit te dragen.
 
 Bent u nog niet overtuigd van de voordelen van de Bedrijfsregeling voor uw organisatie? Op de pagina met tarieven vindt u meer argumenten!
 
-Wijzigingen
------------
+## Wijzigingen
 
 Wijziging van persoonsgegevens, zoals adreswijzigingen, kunnen NLUUG Leden zelf doorvoeren op het ledendeel van deze website. Leden — geregistreerde medewerkers van een organisatie die gebruikt maakt van de Bedrijfsregeling voor Organisaties — kunnen ook de gegevens van hun werkgever aanpassen.
 
-Facturering en opzegging
-------------------------
+## Facturering en opzegging
 
 Aan het begin van ieder kalenderjaar ontvangen NLUUG Leden en deelnemers aan de Bedrijfsregeling voor Organisaties een factuur voor de contributie van dat jaar. U kunt zich na ontvangst van de factuur nog afmelden als lid. Een e-mail volstaat. Wilt u daarin duidelijk uw naam zetten en liefst ook uw lidmaatschapsnummer of het nummer van de laatste factuur?
 Opzeggingen worden door ons per e-mail bevestigd.

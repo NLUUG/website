@@ -1,31 +1,38 @@
 ---
-title: "Tarieven"
+categories:
+- lidmaatschap
 date: 2023-05-05T19:21:24+02:00
+description: "Alle relevante gegevens om aan te melden bij de NLUUG, de vereniging van professionele gebruikers van open systemen en open standaarden"
+review:
+  last_review: 2023-06-24
+  reviewed_by: michael-boelen
+  period: 90
+tags:
+- lidmaatschap
+title: "Tarieven"
 ---
 
 De NLUUG (Nederlandse Unix User Group) is de vereniging voor Unix en Linux professionals. De NLUUG kent een Lidmaatschap voor personen (met stemrecht) en een Bedrijfsregeling voor organisaties.
 
 De bijdragen voor een Lidmaatschap en voor de Bedrijfsregelingen gelden altijd voor een kalenderjaar (jan-dec). De NLUUG hanteert een eenheidstarief. Een Lid betaalt één maal het eenheidstarief, een studentlid betaalt een kwart en organisaties met een Bedrijfslidmaatschap betalen één of meer maal het eenheidstarief. Zie de tabel hieronder. Hoe meer uw organisatie bijdraagt, hoe groter de voordelen!
 
-Lidmaatschap voor Personen ("L" en "S")
-=======================================
+## Lidmaatschap voor Personen ("L" en "S")
+
 De NLUUG richt zich op personen. Leden zijn natuurlijke personen en alleen leden hebben stemrecht. Leden kunnen tegen gereduceerd tarief (in 2023 gratis) deelnemen aan onze conferenties.
 
 Medewerkers van een organisatie die een Bedrijfsregeling met de NLUUG heeft worden (onder voorwaarden) niet gefactureerd. Uw lidmaatschap wordt gedekt uit de financiële bijdrage van uw bedrijf. Maar u bent lid op persoonlijke titel, dus als u van baan verandert blijft u lid — en moet u dus uw eigen contributie voldoen. Of, mooier nog, uw kunt uw nieuwe werkgever zich laten aanmelden voor een Bedrijfsregeling. Uw werkgever kan de BTW op de factuur verrekenen met de fiscus, als persoon kunt u dat niet.
 
-=================  ===========  ===========
-  Lidmaatschap 2023
--------------------------------------------
-Type               Excl. BTW    Incl. BTW
-=================  ===========  ===========
-Lid (persoon)      €152,89      €185,00
-Student (voltijd)  €28,93       €35,00
-=================  ===========  ===========
+### Lidmaatschap 2023 **
+
+| Type              | Excl. BTW | Incl. BTW |
+| ---               | ---       | ---       |
+| Lid (persoon)     | €152,89   | €185,00   |
+| Student (voltijd) | €28,93    | €35,00    |
 
 Als uw werkgever wel bij ons bekend is, maar geen Bedrijfsregeling heeft, dan staat de naam van de werkgever op de persoonlijke contributie-factuur. Bij sommige werkgevers kunt de contributie aan de NLUUG daardoor als (studie-)kosten declareren. Als u daarover meer wilt weten neemt u contact op met uw eigen afdeling HR of personeelszaken.
 
-Bedrijfsregeling voor Organisaties ("D1" t/m "DP")
-==================================================
+## Bedrijfsregeling voor Organisaties ("D1" t/m "DP")
+
 Organisaties (bedrijven, instellingen, stichtingen, etc.) kunnen de NLUUG structureel financieel ondersteunen. Organisaties zelf hebben geen stemrecht, maar de medewerkers van het bedrijf die Lid zijn natuurlijk wel.
 
 De Bedrijfsregeling heeft verscheidene voordelen:
@@ -46,16 +53,12 @@ Uw organisatie kan de ondersteuning van de NLUUG en de daaraan verbonden voordel
 
 Organisaties met een Bedrijfsregeling-16 kunnen desgewenst als begunstiger op de NLUUG website vermeld worden.
 
-=====================  ======  ================  =========  ===========
-Bedrijfsregelingen 2023
------------------------------------------------------------------------
-Naam                   Code    Max. Werkn.lid    Excl. BTW  Incl. BTW
-=====================  ======  ================  =========  ===========
-Bedrijfsregeling-1     D1      1                 €152,89    €185,00
-Bedrijfsregeling-2     D2      3                 €305,78    €370,00
-Bedrijfsregeling-4     D4      5                 €611,57    €740,00
-Bedrijfsregeling-8     D8      10                €1223,14   €1480,00
-Bedrijfsregeling-16    DP      18                €2140,49   €2590,00
-=====================  ======  ================  =========  ===========
+### Bedrijfsregelingen 2023
 
-[TODO: CTA-lid-worden]
+| Naam                | Code | Max. Werkn.lid | Excl. BTW | Incl. BTW |
+| ---                 | ---  | ---            | ---       | ---       |
+| Bedrijfsregeling-1  | D1   | 1              | €152,89   | €185,00   |
+| Bedrijfsregeling-2  | D2   | 3              | €305,78   | €370,00   |
+| Bedrijfsregeling-4  | D4   | 5              | €611,57   | €740,00   |
+| Bedrijfsregeling-8  | D8   | 10             | €1223,14  | €1480,00  |
+| Bedrijfsregeling-16 | DP   | 18             | €2140,49  | €2590,00  |
