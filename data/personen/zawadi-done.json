@@ -1,0 +1,27 @@
+{
+  "id": "zawadi-done",
+  "name": "Zawadi Done",
+  "email": "hi@zawadidone.nl",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/zawadi-done/",
+  "sameas": "https://zawadidone.nl/",
+  "social": {
+    "facebook": "",
+    "github": "zawadidone",
+    "gitlab": "Zawadidone",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/zawadidone/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "zawadidone"
+  },
+  "thumbnail": "/afbeeldingen/personen/zawadi-done-200x200.jpg",
+  "websites": [{
+    "id": 1,
+      "name": "Persoonlijke website",
+      "url": "https://zawadidone.nl/"
+    }
+  ]
+}
