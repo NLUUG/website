@@ -70,8 +70,8 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker:
-        title: nog niet bekend
+        speaker: Sjoera Nas
+        title: It's the metadata, stupid! Privacy versus de grote cloudproviders
         keynote: true
         link:
       center: true
@@ -91,13 +91,13 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Sake Blok
+        title: TLS decryption in times of Perfect Forward Secrecy
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Mischa Peters
+        title: The OpenBSD hypervisor in the wild, a short story, but getting longer
   - row:
     columns:
     - column:
@@ -110,12 +110,12 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Jaap Akkerhuis
+        title: "The sky is falling: The sun is exploding, duck! Revisited"
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Walter Lioen
+        title: "Snellius: the latest Dutch national supercomputer"
   - row:
     columns:
     - column:
@@ -131,12 +131,12 @@ event_schedule:
       time: 13:30
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Pieter Lexis
+        title: YANG and NETCONF for Systems Administration?
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Dennis Baaten
+        title: "Internet.nl & DANE for SMTP"
   - row:
     columns:
     - column:
@@ -149,12 +149,12 @@ event_schedule:
       time: 14:20
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Wouter de Vries
+        title: "Anycast: What is it and How to measure it"
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Eiger Jonker
+        title: May Contain Hackers 2022, the Dutch hacker camp after SHA
   - row:
     columns:
     - column:
@@ -170,12 +170,12 @@ event_schedule:
       time: 15:30
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Martine Pels
+        title: 10 years of NLNOG RING
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Rudi van Drunen
+        title: What are FPGAs anyway and why is it fun to play with them?
         link:
   - row:
     columns:
@@ -189,12 +189,12 @@ event_schedule:
       time: 16:20
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Vesna Manojlovic
+        title: Technical Communities Resilience During COVID-19 Pandemic
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Attilla de Groot
+        title: Integrating host networking with EVPN
         link:
   - row:
     columns:
