@@ -12,7 +12,7 @@ presentation:
   filename:
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=xaEP29OZR3U
+  url: https://www.youtube.com/watch?v=-qglWvaxW2A
 ---
 
 ## Abstract
