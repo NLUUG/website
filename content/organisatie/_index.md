@@ -12,6 +12,7 @@ active_members:
 - aschwin-marsman
 - bjorn-wijers
 - brenda-langedijk
+- debbie-reinders
 - fred-donck
 - hans-van-de-looy
 - hans-van-zijst
