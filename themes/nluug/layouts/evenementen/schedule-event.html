@@ -133,12 +133,11 @@
               <td{{ if .size }} colspan="{{ .size }}"{{ end }}{{ if .center}} style="text-align:center;"{{ end }}>
                 {{ if .time }}<small>{{ .time }}</small>{{ end }}
                 {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
-                <!-- <b>{{ $.Scratch.Get "counter" }}.{{ $.Scratch.Get "counter2" }}. {{ .name }}</b>-->
                 {{ with .talk }}
                   {{ if .speaker }}
                     <strong>{{ .speaker }}</strong><br>
                   {{ else }}
-                  <strong><a href="https://cfp.nluug.nl/">Jouw talk?</a></strong>
+                    {{ if not .keynote }}<span>?</span>{{ end}}
                   {{ end }}
                   {{ if and (.title) (.link) }}
                     {{ if .link }}
