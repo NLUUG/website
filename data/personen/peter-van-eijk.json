@@ -1,0 +1,18 @@
+{
+  "id": "peter-van-eijk",
+  "name": "Peter van Eijk",
+  "email": "",
+  "gender": "male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/peter-van-eijk/",
+  "sameas": "",
+  "social": {
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/pveijk/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "petersgriddle"
+  },
+  "thumbnail": "/afbeeldingen/personen/peter-van-eijk-200x200.jpg"
+}
