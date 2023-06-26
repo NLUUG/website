@@ -9,8 +9,6 @@ tags:
 title: "Feedback"
 ---
 
-# Feedback
-
 Is een stuk tekst onduidelijk? Werkt er iets op de website niet goed of kun je het niet vinden? We verwelkomen alle feedback. Er zijn een aantal manieren om ze te melden.
 
 ## Via e-mail

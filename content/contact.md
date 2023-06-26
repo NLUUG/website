@@ -42,8 +42,7 @@ Nederland
 * BIC: INGBNL2A
 
 
-Registraties
-============
+## Registraties
 
 * KvK: 40533872
 * BTW-nummer: NL803474386B01

@@ -1,4 +1,6 @@
 ---
+call_to_action: "Word lid"
+call_to_action_url: "lidmaatschap/aanmelden/index.md"
 categories:
 - lidmaatschap
 date: 2023-05-05T19:21:24+02:00

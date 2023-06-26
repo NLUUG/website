@@ -12,8 +12,6 @@ tags:
 title: "Stijlgids"
 ---
 
-# Stijlgids NLUUG-website
-
 ## Kleuren
 
 We gebruiken zoveel mogelijk de kleurstelling zoals die ooit in de oude website werd toegepast.
