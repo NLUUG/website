@@ -13,4 +13,5 @@ event_timezone: Europe/Amsterdam
 event_location: Pakhuis de Zwijger - Amsterdam
 link_external: https://devopsdays.org/events/2023-amsterdam/welcome/
 name: Devopsdays Amsterdam
-organizer: devopsdays
+event_organizer: HCC!opensource
+event_organizer_url: https://devopsdays.org/

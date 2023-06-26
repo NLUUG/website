@@ -11,6 +11,8 @@ event_start: 2023-09-16T12:00:00+0200
 event_end: 2023-09-16T16:30:00+0200
 event_timezone: Europe/Amsterdam
 event_location: Cultuur- & Vergadercentrum H.F. Witte
+event_attendance_mode: offline
 link_external: https://opensource.hcc.nl/rss-events/evenement/14-reguliere-opensource-bijeenkomst
 name: Reguliere opensource bijeenkomst
-organizer: HCC!opensource
+event_organizer: HCC!opensource
+event_organizer_url: https://opensource.hcc.nl/

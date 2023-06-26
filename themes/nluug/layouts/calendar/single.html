@@ -8,6 +8,7 @@
     <div id="{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}" style="border: 1px solid darkgray; border-radius: 2px; padding:10px; margin:2px;">
       <h3>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</h3>
       {{ with .organizer }}<p><em>Georganiseerd door {{ .}}</em></p>{{ end }}
+      {{ with .event_organizer }}<p><em>Georganiseerd door {{ .}}</em></p>{{ end }}
       {{ if ne .date_start .date_end }}
       <p>Event van meerdere dagen: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | dateFormat "02-01-2006" }}</time> t/m <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_end }}">{{ .date_end | dateFormat "02-01-2006" }}</time></p>
       {{ end }}
@@ -21,5 +22,52 @@
       <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie (externe link)</a></p>
       {{ end }}
       </div>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Event",
+                "name": "{{ .name }}",
+                "startDate": "{{ .date_start | dateFormat "02-01-2006" }}",
+                "endDate": "{{ .date_end | dateFormat "02-01-2006" }}",
+                "eventAttendanceMode": "https://schema.org/{{ if .event_attendance_mode }}{{ .event_attendance_mode | strings.FirstUpper }}{{ else }}Offline{{ end }}EventAttendanceMode",
+                "eventStatus": "https://schema.org/EventScheduled",
+                {{ with .event_address }}
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        {{ with .city }}"addressLocality": "{{ . }}",{{ end }}
+                        {{ with .street_address }}"streetAddress": "{{ . }}",{{ end }}
+                        {{ with .postal_code }}"postalCode": "{{ . }}",{{ end }}
+                        "addressCountry": "{{ if .country }}{{ .country }}{{ else }}The Netherlands{{ end }}"
+                    }
+                },
+                {{ end }}
+                {{ with .event_image }}
+                "image": [
+                    "{{ .url }}"
+                ],
+                {{ end }}
+                "description": "{{ if .event_description }}{{ .event_description }}{{ else }}{{ default .name }}{{ with .event_location}} @ {{ . }}{{ end }}{{ end }}",
+                {{ if .event_organizer }}
+                "performer": {
+                    "@type": "Organization",
+                    "name": "{{ .event_organizer }}"
+                },
+                "organizer": {
+                    "@type": "Organization",
+                    "name": "{{ .event_organizer }}",
+                    "url": "{{ .event_organizer_url }}"
+                },
+                {{ end }}
+                {{ if .event_url }}
+                    "url": "{{ .event_url }}",
+                {{ else if .link_external }}
+                    "url": "{{ .link_external }}",
+                {{ end }}
+                "isAccessibleForFree": {{ if .event_free_access }}true{{ else }}false{{ end }}
+            }
+        </script>
     {{ end }}
 {{ end }}

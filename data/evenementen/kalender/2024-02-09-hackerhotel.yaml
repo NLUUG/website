@@ -6,11 +6,14 @@ event_address:
   postal_code: 3886 MJ
   city: Garderen
   country: NL
-event_timezone: Europe/Amsterdam
 event_start: 2024-02-09T00:00:00+0200
 event_end: 2024-02-11T23:59:59+0200
 event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
 event_location: Westcord Hotel De Veluwe
 link_external: https://hackerhotel.nl/
 name: Hackerhotel 2024
-organizer: Stichting Connected Freedom
+event_organizer: Stichting Connected Freedom
+event_organizer_url: https://hackerhotel.nl/
+event_free_access: false
+event_is_online: false

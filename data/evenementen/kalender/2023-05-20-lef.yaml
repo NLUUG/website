@@ -13,4 +13,5 @@ event_timezone: Europe/Amsterdam
 event_location: Bibliotheek LocHal Tilburg
 link_external: https://linuxeducatie.nl/index.php/lochal-open-source-event/
 name: LocHal Open Source Event
-organizer: Linux Education Foundation
+event_organizer: Linux Education Foundation
+event_organizer_url: https://linuxeducatie.nl/

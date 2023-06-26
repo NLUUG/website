@@ -13,4 +13,5 @@ event_timezone: Europe/Amsterdam
 event_location: Cultuur- & Vergadercentrum H.F. Witte
 link_external: https://opensource.hcc.nl/rss-events/evenement/8-reguliere-opensource-bijeenkomst
 name: Reguliere opensource bijeenkomst
-organizer: HCC!opensource
+event_organizer: HCC!opensource
+event_organizer_url: https://opensource.hcc.nl/
