@@ -1,0 +1,18 @@
+{
+  "id": "ed-schouten",
+  "name": "Ed Schouten",
+  "email": "",
+  "gender": "male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/ed-schouten/",
+  "sameas": "",
+  "social": {
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/edschouten/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/ed-schouten-200x200.jpg"
+}
