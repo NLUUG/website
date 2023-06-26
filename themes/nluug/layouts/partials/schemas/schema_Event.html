@@ -54,6 +54,30 @@
     {{- end }}
     ],
   {{ end -}}
+ {{ $list := where .Pages "Params.speakers" "!=" nil }}
+ {{ if gt (len $list) 0 }}"subEvent": [{{ end }}
+ {{ range $key, $value := $list }}
+ {{- if ne $key 0 -}}, {{ end }}
+ {
+ "@type": "Event",
+ "name": "{{ $value.Title }}",
+ "url": "{{ $value.Permalink }}",
+ "startDate": {{ $.Params.event_start | time.Format "2006-01-02" }},
+ "endDate": {{ $.Params.event_end | time.Format "2006-01-02" }},
+ "performer": [
+    {{- range $index, $element := $value.Params.speakers -}}
+    {{- if ne $index 0 -}}, {{ end }}
+    {
+    "@type": "Person",
+    {{ $speaker := index $.Site.Data.personen ($element) }}
+    "name": "{{ $speaker.name }}"
+    {{ if $speaker.profile_page }},"url":"{{ $speaker.profile_page | absURL }}"{{ end }}
+    }
+    {{- end }}
+    ]
+ }
+{{ end }}
+{{ if gt (len $list) 0 }}],{{ end }}
  "mainEntityOfPage": {
   "@type": "Webpage",
   "@id": "{{ .Permalink }}#webpage",
