@@ -1,10 +1,10 @@
 {{ define "main" }}
+  {{ $cfp_open := false }}
   <div>{{ .Content }}</div>
 
   {{ if isset .Params "event_start" }}
 
     {{ $event_start := .Params.event_start | time }}
-
     {{ if le now $event_start }}
       {{ if .Params.event_cfp_link }}
         <h2>Call for Proposals</h2>
@@ -20,9 +20,11 @@
               <p>De Call for Proposals is gesloten na {{ $event_cfp_end_date }}. Mocht je toch nog een inzending hebben, neem dan contact op met de programmacommissie.</p>
               {{ else }}
                 <a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
+                {{ $cfp_open = true }}
               {{ end }}
             {{ else }}
               <a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
+                {{ $cfp_open = true }}
             {{ end }}
           {{ end }}
         {{ else }}
@@ -106,6 +108,13 @@
 
   <h2>Programma</h2>
 
+  {{ if $cfp_open }}
+    <p class="darkgreen">De CFP is geopend!</p>
+    <p>Wil je graag een bepaalde spreker zien? Contacteer onze <a href="{{ relref . "organisatie/commissies/pc/index.md" }}">programmacommissie</a>.</p>
+    <p>Heb je zelf een leuke presentatie in gedachten? Dien dan een voorstel in!</p>
+    <a class="btn btn-cta" href="{{ if .Params.event_cfp_link }}{{ .Params.event_cfp_link }}{{ else }}https://cfp.nluug.nl/{{ end }}" rel="nofollow noopener">Voorstel indienen</a>
+    <p><strong>Leestip</strong>: <a href="{{ relref . "evenementen/nluug/cfp/index.md" }}">tips voor sprekers en onze werkwijze</a>.</p>
+  {{ end }}
   {{ $.Scratch.Set "counter" 0 }}
   {{ with .Params.event_schedule }}
     {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
