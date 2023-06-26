@@ -147,17 +147,6 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 13:10
-    - column:
-    - column:
-      textfield:
-        text: NLUUG Algemene Ledenvergadering (ALV)
-        link: https://nluug.nl/leden/alv/2023vj/
-      center: true
-    - column:
-  - row:
-    columns:
-    - column:
       time: 14:00
     - column:
       talk:
