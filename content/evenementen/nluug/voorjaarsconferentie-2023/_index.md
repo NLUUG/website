@@ -128,7 +128,7 @@ event_schedule:
       talk:
         speaker: Paul Reuvers en Marc Simons
         title: Operation Rubicon (How CIA and BND took over CryptoAG)
-        link: talks/paul-reuvers-en-mark-simons-operation-rubicon/
+        link: talks/paul-reuvers-en-marc-simons-operation-rubicon/
     - column:
       talk:
         speaker: Peter van Eijk

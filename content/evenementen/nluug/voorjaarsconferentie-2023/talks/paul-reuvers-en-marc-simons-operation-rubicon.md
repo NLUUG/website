@@ -5,10 +5,10 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Paul Reuvers en Mark Simons - Operation RUBICON"
+title: "Paul Reuvers en Marc Simons - Operation RUBICON"
 speakers:
 - paul-reuvers
-- mark-simons
+- marc-simons
 presentation:
   filename:
 recording:
