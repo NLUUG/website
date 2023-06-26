@@ -62,6 +62,7 @@
  "@type": "Event",
  "name": "{{ $value.Title }}",
  "url": "{{ $value.Permalink }}",
+ "location": "{{ $.Params.event_location }}",
  "startDate": {{ $.Params.event_start | time.Format "2006-01-02" }},
  "endDate": {{ $.Params.event_end | time.Format "2006-01-02" }},
  "performer": [
