@@ -5,6 +5,7 @@
     <!-- Accessibility: skip-link voor mobiele apparaten -->
     <a class="skip-link" href="#main">Ga naar hoofd</a>
       <main id="main">
+        {{ partial "announcements.html" . }}
         {{ partialCached "header.html" . }}
         {{ partial "breadcrumb.html" . }}
         <div class="content">
