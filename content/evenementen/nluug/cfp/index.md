@@ -23,9 +23,10 @@ Als vereniging willen graag volledig "open" zijn over onze Call for Proposals (C
 Voor onze conferenties en evenementen hebben we voornamelijk interesse in onderstaande onderwerpen.
 
 * Automatisering
+* Besturingssystemen
 * CMS
 * Configuratiemanagement
-* Crypto
+* Cryptografie en cryptoanalyse
 * Databases
 * Domotica
 * Informatiebeveiliging
@@ -128,6 +129,10 @@ Twijfel je of een onderwerp wel goed past? Neem dan gerust eerst contact op met 
 ### Meerdere inzendingen zijn welkom
 
 Een spreker die meerdere inzendingen indient maakt over het algemeen meer kans om geselecteerd te worden. Vaak kiest de programmacommissie een inzending die het beste bij de rest van het programma past of het meest aanspreekt. Een onderwerp dat actueel zou de voorkeur kunnen hebben.
+
+### Eerder gegeven presentaties
+
+Heb je de presentatie al eerder gegeven? Dan horen we dat graag, het liefst inclusief een video en/of presentatie. Zo kunnen we de inzending nog eenvoudiger beoordelen qua content.
 
 ## Werkwijze programmacommissie
 
