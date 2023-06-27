@@ -68,25 +68,18 @@
     weight = 30
 
   [[main]]
-    identifier = "lidmaatschap-tarieven"
-    name = "Tarieven"
-    url = "/lidmaatschap/tarieven/"
-    parent = "lidmaatschap"
-    weight = 31
-
-  [[main]]
     identifier = "lidmaatschap-aanmelden"
     name = "Aanmelden"
     url = "/lidmaatschap/aanmelden/"
     parent = "lidmaatschap"
-    weight = 32
+    weight = 31
 
   [[main]]
     identifier = "lidmaatschap-ereleden"
     name = "Ereleden"
     url = "/lidmaatschap/ereleden/"
     parent = "lidmaatschap"
-    weight = 33
+    weight = 32
 
   [[main]]
     identifier = "lidmaatschap-ledendeel"
