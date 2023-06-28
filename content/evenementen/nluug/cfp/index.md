@@ -16,7 +16,7 @@ title: "Call for Proposals"
 is_event: false
 ---
 
-Als vereniging willen graag volledig "open" zijn over onze Call for Proposals (CFP). Op deze pagina beschrijven we hoe de programmacommissie te werk gaat, wat we sprekers bieden en hoe eenieder de kans kan vergroten om een inzending daadwerkelijk om te zetten in een spreekslot.
+Als vereniging willen graag volledig "open" zijn over onze Call for Proposals (CFP). Op deze pagina beschrijven we hoe de programmacommissie te werk gaat en wat we sprekers bieden. Tevens bevat deze pagina tips om de programmacommissie te overtuigen en een inzending plaats te geven binnen het programma.
 
 ## Onderwerpen
 
@@ -43,11 +43,11 @@ Deze lijst van onderwerpen geeft een idee, echter sluit overige onderwerpen zeke
 
 ## Formaat
 
-Een slot binnen ons programma is standaard 45 minuten. Deze tijd is de daadwerkelijke presentatie inclusief het beantwoorden van eventuele vragen. Een workshop bestaat uit twee sloten, in totaal 90 minuten.
+Binnen het programma duren presentaties standaard 45 minuten. Deze tijd is inclusief het beantwoorden van eventuele vragen. Een workshop bestaat uit twee tijdsloten, in totaal 90 minuten.
 
 ## Publiek
 
-Onze bezoekers zijn over het algemeen (zeer) technisch en bestaat uit zowel generalisten als specialisten. Het merendeel heeft affiniteit met systeembeheer, vaak met aanvullende kennis of specialisaties. Een deel van de bezoekers heeft een primaire focus op softwareontwikkeling, terwijl er ook een groep is met ervaring binnen management of het leiden van projecten. Ook informatiebeveiliging is voor veel van de bezoekers geen onbekend terrein.
+Onze bezoekers zijn over het algemeen (zeer) technisch georiënteerd, daarbinnen zitten zowel generalisten als specialisten. Het merendeel heeft affiniteit met systeembeheer, vaak met aanvullende kennis of specialisaties. Een deel van de bezoekers heeft een primaire focus op softwareontwikkeling, terwijl er ook een groep is met ervaring binnen management of het leiden van projecten. Ook informatiebeveiliging is voor veel van de bezoekers geen onbekend terrein.
 
 ## Wat bieden we sprekers?
 
@@ -72,14 +72,14 @@ Uiteraard willen wij als organisatie de kans voor iedereen vergroten om een pres
 
 ### De basis: titel, abstract, biografie, foto
 
-We verlangen van iedere inzending een titel en een degelijk abstract. In de eerste instantie is deze gericht om de programmacommissie te overtuigen dat het een geschikte lezing is. Na goedkeuring krijgt de belangrijkste groep de abstract te zien: de bezoekers. Een goedgeschreven abstract is daarom zo belangrijk als een goed voorbereide presentatie.
+We verlangen van iedere inzending een titel en een degelijk abstract. In de eerste instantie is deze gericht om de programmacommissie te overtuigen dat het een geschikte lezing is. Na goedkeuring krijgt de belangrijkste groep de abstract te zien: de bezoekers. Een goedgeschreven abstract is daarom even belangrijk als een goed voorbereide presentatie.
 
 #### Abstract
 
 Een abstract dient duidelijk geschreven te zijn en de lezer te prikkelen. Wat algemene tips:
 
 * Schrijf het abstract alsof je het aan een goede bekende zou beschrijven
-* Een abstract hoeft zeker geen proza te worden, maar een regel of 10 of meer vormt een goede basis
+* Een abstract hoeft zeker geen proza te worden, maar 10 regels of meer vormt een goede basis
 * Hou het taalgebruik luchtig en gebruik humor waar dat passend is
 * Gebruik niet te lange zinnen en pas op met teveel terminologie en technische afkortingen
 * Controleer de tekst en gebruik spellingscontrole
@@ -91,6 +91,7 @@ Een goed abstract zal de volgende vragen bij onze bezoekers beantwoorden:
 * Wat ga ik leren door deze lezing bij te wonen?
 * Op wie of welk niveau is deze lezing gericht?
 * Is er bepaalde voorkennis nodig?
+* In welke taal zal de presentatie worden gegeven?
 
 #### Titel
 
@@ -100,7 +101,7 @@ Heb je geen inspiratie voor je titel? Maak dan eerst het abstract compleet en ki
 
 #### Biografie
 
-Vaak wil de programmacommissie en onze bezoekers weten wie een spreker is. Waarom is dit de juiste persoon om iets over een bepaald onderwerp te vertellen? Het is daarom raadzaam om je biografie aan te passen aan het onderwerp en relevante ervaringen te vermelden. Uiteraard willen we graag wat meer weten over jou als spreker. Een aantal vragen die je je kan afstellen tijdens het schrijven van de biografie:
+De programmacommissie en onze bezoekers willen weten wie een spreker is. Waarom is dit de juiste persoon om iets over een bepaald onderwerp te vertellen? Het is daarom raadzaam om je biografie aan te passen aan het onderwerp en relevante ervaringen te vermelden. Uiteraard willen we graag wat meer weten over jou als spreker. Een aantal vragen die je je kan afstellen tijdens het schrijven van de biografie:
 
 * Waarom is het onderwerp van de presentatie belangrijk voor je?
 * Welke ervaring heb je ermee of hoe pas je het zelf toe?
@@ -120,7 +121,11 @@ Op onze website en programmaboekje willen we graag een compleet geheel hebben. D
 
 ### Te technisch kan niet
 
-Gezien ons publiek een stevige technische basis heeft is het nagenoeg onmogelijk om een presentatie te geven die teveel techniek bevat. Ben je specialist en heb je een interessant verhaal, ga dan gerust (opbouwend) de diepte in.
+Gezien ons publiek over het algemeen een stevige technische basis heeft, is het nagenoeg onmogelijk om een presentatie te geven die teveel techniek bevat. Ben je specialist en heb je een interessant verhaal, ga dan gerust (opbouwend) de diepte in.
+
+### Presentaties met commerciële boodschap
+
+Verkooppraatjes worden niet gewaardeerd. Het aanbevelen van commerciële producten of diensten zal dus ook niet in de smaak vallen bij onze bezoekers. De programmacommissie doet haar best om dit soort presentaties voortijdig te screenen.
 
 ### Alternatieve onderwerpen
 
@@ -132,13 +137,13 @@ Een spreker die meerdere inzendingen indient maakt over het algemeen meer kans o
 
 ### Eerder gegeven presentaties
 
-Heb je de presentatie al eerder gegeven? Dan horen we dat graag, het liefst inclusief een video en/of presentatie. Zo kunnen we de inzending nog eenvoudiger beoordelen qua content.
+Heb je de presentatie al eerder gegeven? Dan horen we dat graag, het liefst inclusief een video en/of presentatie. Zo kunnen we de inzending nog eenvoudiger beoordelen qua inhoud.
 
 ## Werkwijze programmacommissie
 
 ### Openen CFP
 
-Nadat een conferentie is geweest, opent de programmacommissie een nieuwe Call for Proposals. We gebruiken hierbij meerdere rondes (met een maximum van 3). In de eerste ronde starten we met de promotie van de conferentie en delen we de CFP op o.a. social media en de website.
+Nadat een conferentie is geweest, opent de programmacommissie een nieuwe Call for Proposals. We gebruiken hierbij meerdere rondes (met een maximum van 3). In de eerste ronde starten we met de promotie van de conferentie en delen we de CFP op onder andere social media en de website.
 
 ### Beoordelen van inzendingen
 
@@ -156,7 +161,7 @@ Als we positief gestemd zijn over een inzending gaan we over tot bevestiging. In
 
 Het kan natuurlijk ook gebeuren dat we minder enthousiast zijn over een inzending. In dat geval laten we dat ook weten en waar het kan met een korte onderbouwing. Als de inzending volgens ons een twijfelgeval is, kan het zijn dat we vragen om het abstract te herzien of zelfs een alternatief onderwerp te kiezen.
 
-Als een inzending wordt geselecteerd en de betreffende spreker heeft meerdere inzendingen ingediend, dan laat de programmacommissie haar voorkeur weten. De andere inzending(en) van die spreker komen dan uiteraard te vervallen.
+Als een inzending wordt geselecteerd en de betreffende spreker heeft meerdere inzendingen ingediend, dan laat de programmacommissie haar voorkeur weten. De andere inzending(en) van die spreker komen dan te vervallen of worden doorgezet naar een volgende evenement. Eventueel kan een spreker worden gevraagd een ander onderwerp als backup te houden, bijvoorbeeld bij uitval van een andere spreker.
 
 Het moment van bevestigen is afhankelijk in welke fase we zitten. Vooral in de eerste ronde sparen we de inzendingen even op, zodat we als programmacommissie ook de tijd hebben om zelf potentiële sprekers te benaderen. Denk hierbij aan buitenlandse sprekers die wellicht nog niet bekend zijn met onze vereniging, maar vaak ervaren sprekers binnen een specifiek onderwerp zijn. Naarmate we dichter bij de conferentie komen kan het zijn dat we tussendoor al sprekers bevestigen, zeker als het merendeel van de programmacommissie zeer positief is over een inzending.
 
