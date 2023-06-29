@@ -1,5 +1,41 @@
 
-/* Table Styles */
+/* Generieke styling voor tabellen */
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 360px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+table thead tr {
+    text-align: left;
+}
+
+table thead th {;
+    background: #324960;
+    color: #ffffff;
+}
+
+td, th {
+    padding: 12px 15px;
+}
+
+tr:nth-child(even) {
+    background: #F8F8F8;
+}
+tbody tr {
+    border-bottom: 1px solid #DDDDDD;
+}
+tbody tr:last-of-type {
+    border-bottom: 2px solid #324960;
+}
+
+/*
+   Styling voor tabel met een wrapper
+   Deze is voor tabellen met wat meer kolommen, waarvan de tekstitems langer kunnen zijn, of dynamisch ingevuld (b.v. titels)
+*/
 
 .table-wrapper{
     margin: 10px 10px 30px;
