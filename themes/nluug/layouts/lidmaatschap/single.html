@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ if .Params.related_person }}
+    {{ $person := .Params.related_person }}
+    {{ with (index .Site.Data.personen $person) }}
+      {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
