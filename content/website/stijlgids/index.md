@@ -69,4 +69,8 @@ Tools:
 * [Controle OpenGraph](https://www.opengraph.xyz/)
 * [Genereren van achtergronden](https://angrytools.com/gradient/image/)
 
+## Taalgebruik
 
+### Tutoyeren en vousvoyeren
+
+We willen een vereniging zijn met oog op verjonging. Waar mogelijk schrijven we teksten neutraal en daar waar het nodig is gebruiken we 'je' (tutoyeren).
