@@ -34,8 +34,7 @@ De NLUUG richt zich op personen. Leden zijn natuurlijke personen en alleen leden
 
 Als jouw werkgever deelneemt aan een Bedrijfsregeling dan wordt (onder voorwaarden) de lidmaatschapsbijdrage voldaan uit die regeling. De voorwaarden zijn dat er per type Bedrijfsregeling een maximum is aan het aantal individuele leden.
 
-
-#### Tarieven voor personen
+#### Tarieven
 
 | Type              | Excl. BTW | Incl. BTW |
 | ---               | ---       | ---       |
@@ -68,7 +67,7 @@ Elke organisatie met een Bedrijfsregeling-2 of hoger mag bij iedere conferentie 
 #### Kennis vergroten en zichtbaarheid
 Bedrijven die lid zijn van de NLUUG kunnen de daaraan verbonden voordelen voor werknemers inzetten als extraatje bij het werven (en behouden!) van gekwalificeerde, professionele medewerkers met kennis van Unix en Linux. Organisaties met een Bedrijfsregeling-DP kunnen desgewenst als begunstiger op de NLUUG website vermeld worden.
 
-#### Tarieven voor bedrijfsregelingen
+#### Tarieven voor Bedrijfsregelingen
 
 | Naam                | Code | Max. Werkn.lid | Excl. BTW | Incl. BTW |
 | ---                 | ---  | ---            | ---       | ---       |

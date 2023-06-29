@@ -10,11 +10,17 @@ review:
 tags:
 - lidmaatschap
 title: "Aanmelden voor NLUUG-lidmaatschap"
+related_person:
+- jan-sepp
 ---
 
-Toon uw hart voor "Open" en meldt u aan als lid!
+Ben je een professional op het gebied van Unix/Linux, open standaarden, open source, of de techniek achter het internet? Dan ben je bij de NLUUG aan het juiste adres!
 
-Het NLUUG-lidmaatschap is per jaar en loopt van 1 januari tot 31 december. Opzeggen kan op ieder moment. U bent lid op het moment dat de betaling heeft plaatsgevonden. De NLUUG verstrekt voor alle betalingen facturen met 21% BTW, naar keuze geadresseerd aan u persoonlijk of op naam van een bedrijf of organisatie.
+## Het lidmaatschap
+
+Eerst nog wat meer weten over de verschillende mogelijkheden? Raadpleeg dan de pagina [Lidmaatschap]({{< relref "lidmaatschap/_index.md" >}}).
+
+Het NLUUG lidmaatschap loopt per kalenderjaar en gaat in als we de betaling hebben ontvangen.
 
 ## Aanmelden voor individuele leden
 
