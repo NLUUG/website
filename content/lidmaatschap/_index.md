@@ -11,7 +11,7 @@ title: "Lidmaatschap"
 show_child_pages: true
 ---
 
-De NLUUG (Nederlandse Unix User Group) is een onafhankelijke vereniging voor (professionele) gebruikers van Open Systemen en Open Standaarden. De NLUUG heeft aan de wieg van het internet in Nederland gestaan en mede daarom vormen internettechnologieën en Open Source de speerpunten van de vereniging.
+De NLUUG (Nederlandse Unix User Group) is een onafhankelijke vereniging voor (professionele) gebruikers van Open Systemen en Open Standaarden. De NLUUG heeft aan de wieg van het internet in Nederland gestaan. Tegenwoordig zijn Unix/Linux, open standaarden, Open Source en de techniek achter het internet de voornaamste speerpunten van de vereniging.
 
 ## Wat biedt de NLUUG?
 
@@ -32,7 +32,8 @@ De NLUUG kent het lidmaatschap voor personen (met stemrecht) en een Bedrijfsrege
 
 De NLUUG richt zich op personen. Leden zijn natuurlijke personen en alleen leden hebben stemrecht. Leden kunnen tegen gereduceerd tarief deelnemen aan onze conferenties.
 
-Medewerkers van een organisatie die een Bedrijfsregeling met de NLUUG heeft worden (onder voorwaarden) niet gefactureerd. Uw lidmaatschap wordt gedekt uit de financiële bijdrage van uw bedrijf. U bent lid op persoonlijke titel en als u van baan verandert blijft u lid. Dat bekent wel dat u dan uw eigen contributie moet voldoen of uw nieuwe werkgever verzoeken zich aan te melden met een Bedrijfsregeling.
+Als jouw werkgever deelneemt aan een Bedrijfsregeling dan wordt (onder voorwaarden) de lidmaatschapsbijdrage voldaan uit die regeling. De voorwaarden zijn dat er per type Bedrijfsregeling een maximum is aan het aantal individuele leden.
+
 
 #### Tarieven voor personen
 
@@ -41,7 +42,7 @@ Medewerkers van een organisatie die een Bedrijfsregeling met de NLUUG heeft word
 | Lid (persoon)     | €152,89   | €185,00   |
 | Student (voltijd) | €28,93    | €35,00    |
 
-Als uw werkgever wel bij ons bekend is, maar geen Bedrijfsregeling heeft, dan staat de naam van de werkgever op de persoonlijke contributie-factuur. Bij sommige werkgevers kunt de contributie aan de NLUUG daardoor als kosten declareren.
+Als jouw werkgever wel bij ons bekend is, maar geen Bedrijfsregeling heeft, dan staat de naam van de werkgever op de persoonlijke contributie-factuur. Bij sommige werkgevers kan de contributie aan de NLUUG worden gedeclareerd.
 
 ### Bedrijfsregeling voor Organisaties ("D1" t/m "DP")
 
@@ -49,14 +50,23 @@ Organisaties (bedrijven, instellingen, stichtingen, etc.) kunnen de NLUUG struct
 
 De Bedrijfsregeling heeft verscheidene voordelen:
 
-* Uw organisatie ondersteunt de NLUUG financieel. Die bijdrage komt geheel ten goede aan de activiteiten van de vereniging. De NLUUG heeft geen winstoogmerk: alle financiële middelen worden besteed aan het behalen van de doelstellingen van de vereniging. Het bestuur is vrijwilligerswerk, maar het organiseren van conferenties en andere bijeenkomsten en de diverse diensten kosten geld. Dankzij de steun van de organisaties in de Bedrijfsregeling blijft de toegangsprijs voor de leden laag. Uw organisatie steunt zo het vakgebied.
-* ZZP-ers kunnen hun bedrijf aanmelden voor een Bedrijfsregeling-1 (zie de tabel hieronder). Zij betalen dan hetzelfde als wanneer ze rechtstreeks persoonlijk Lid worden, en kunnen hun lidmaatschapsbijdrage verrekenen uit de Bedrijfsregeling. Het voordeel is dat u een factuur krijgt op naam van uw bedrijf: het bedrijf kan de BTW verrekenen, als privé persoon kunt u dat niet.
-* Kleinere organisaties, of organisaties met een beperkt aantal Unix/Linux professionals, kunnen kiezen voor de Bedrijfsregeling-2 of de Bedrijfsregeling-4. De organisatie betaalt dan twee, respectievelijk vier keer het eenheidstarief, maar vanuit die bijdrage kunnen maximaal drie, respectievelijk vijf medewerkers zonder verdere kosten lid worden.
-* Grotere organisaties kunnen kiezen voor de Bedrijfsregeling-8 of de Bedrijfsregeling-16. De organisatie betaalt dan acht, respectievelijk zestien keer het eenheidstarief, maar vanuit die bijdrage kunnen maximaal tien, respectievelijk achttien medewerkers zonder verdere kosten lid worden.
-* Uw organisatie draagt de contributie van de werknemers die lid zijn van de vereniging. U realiseert hiermee in feite een verzamelfactuur om de lidmaatschapscontributie van de medewerkers van uw organisatie te voldoen. Ook stagiaires en inhuurkrachten tellen mee als medewerker.
-* Elke organisatie met een Bedrijfsregeling-2 of hoger mag bij iedere conferentie één persoon laten deelnemen zonder lidmaatschapsverplichting. Deze persoon wordt in de administratie van de NLUUG opgenomen als ‘Introducee’ en kan geen tweede keer voor een evenement worden ingeschreven zonder volwaardig Lid te worden.
-* Uw organisatie kan de ondersteuning van de NLUUG en de daaraan verbonden voordelen voor uw werknemers inzetten als "incentive" bij het werven (en behouden!) van gekwalificeerde, professionele medewerkers met kennis van Unix en Linux.
-* Organisaties met een Bedrijfsregeling-16 kunnen desgewenst als begunstiger op de NLUUG website vermeld worden.
+#### Ondersteunen van NLUUG
+Door lid te worden met een bedrijfsregeling ondersteunt het bedrijf de NLUUG financieel. Die bijdrage komt geheel ten goede aan de activiteiten van de vereniging. De NLUUG heeft geen winstoogmerk: alle financiële middelen worden besteed aan het behalen van de doelstellingen van de vereniging. Alle bestuursleden en leden van commissies zijn onbetaalde vrijwilligers. Het organiseren van conferenties en andere bijeenkomsten en de diverse diensten kosten echter wel geld. Dankzij de steun van de organisaties in de Bedrijfsregeling blijft de toegangsprijs voor de leden laag. De organisatie steunt zo het vakgebied.
+
+#### Factuur op bedrijfsnaam
+ZZP-ers kunnen hun bedrijf aanmelden voor een Bedrijfsregeling-1 (zie de tabel hieronder). Zij betalen dan hetzelfde als wanneer ze rechtstreeks persoonlijk Lid worden, en kunnen hun lidmaatschapsbijdrage verrekenen uit de Bedrijfsregeling. Het voordeel is dat de factuur op naam van het bedrijf komt: het bedrijf kan de BTW verrekenen, als privépersoon is dat niet mogelijk.
+
+#### Kostenbesparing en optie tot introducee
+Kleinere organisaties of organisaties met een beperkt aantal Unix/Linux professionals, kunnen kiezen voor de Bedrijfsregeling-2 of de Bedrijfsregeling-4. De organisatie betaalt dan *twee*, respectievelijk *vier* keer het eenheidstarief, maar vanuit die bijdrage kunnen maximaal **drie**, respectievelijk **vijf** medewerkers zonder verdere kosten lid worden.
+
+Grotere organisaties kunnen kiezen voor de Bedrijfsregeling-8 of de Bedrijfsregeling-DP. De organisatie betaalt dan *acht*, respectievelijk *zestien* keer het eenheidstarief, maar vanuit die bijdrage kunnen maximaal **tien**, respectievelijk **achttien** medewerkers zonder verdere kosten lid worden.
+
+De organisatie draagt de contributie van de werknemers die lid zijn van de vereniging. Hiermee is er verzamelfactuur om de lidmaatschapscontributie van de medewerkers binnen de organisatie te voldoen. Ook stagiaires en inhuurkrachten tellen mee als medewerker.
+
+Elke organisatie met een Bedrijfsregeling-2 of hoger mag bij iedere conferentie één persoon laten deelnemen zonder lidmaatschapsverplichting. Deze persoon wordt in de administratie van de NLUUG opgenomen als ‘Introducee’ en kan geen tweede keer voor een evenement worden ingeschreven zonder volwaardig Lid te worden.
+
+#### Kennis vergroten en zichtbaarheid
+Bedrijven die lid zijn van de NLUUG kunnen de daaraan verbonden voordelen voor werknemers inzetten als extraatje bij het werven (en behouden!) van gekwalificeerde, professionele medewerkers met kennis van Unix en Linux. Organisaties met een Bedrijfsregeling-DP kunnen desgewenst als begunstiger op de NLUUG website vermeld worden.
 
 #### Tarieven voor bedrijfsregelingen
 
@@ -68,14 +78,10 @@ De Bedrijfsregeling heeft verscheidene voordelen:
 | Bedrijfsregeling-8  | D8   | 10             | €1223,14  | €1480,00  |
 | Bedrijfsregeling-16 | DP   | 18             | €2140,49  | €2590,00  |
 
-## Aanmelden als lid, wijzigen, opzeggen
-
-Word lid! Betaling geschiedt per kalenderjaar. Betaalt u uw contributie niet op tijd, dan heeft u impliciet opgezegd.
-
 ### Wijzigingen
 
-Wijziging van persoonsgegevens, zoals adreswijzigingen, kunnen NLUUG-leden zelf doorvoeren binnen het [ledendeel](https://leden.nluug.nl/). Voor andere administratieve zaken kunt u zich wenden tot het [buro]({{< relref "organisatie/commissies/buro/index.md" >}}).
+Wijziging van persoonsgegevens, zoals adreswijzigingen, kunnen NLUUG-leden zelf doorvoeren binnen het [ledendeel](https://leden.nluug.nl/). Voor andere administratieve zaken neem contact op met ons [buro]({{< relref "organisatie/commissies/buro/index.md" >}}).
 
 ### Opzeggen
 
-Aan het begin van ieder kalenderjaar ontvangen leden en deelnemers aan de Bedrijfsregeling een factuur voor de contributie van dat jaar. U kunt zich na ontvangst van de factuur nog afmelden als lid. Dat kan door middel van een e-mail naar ons buro, met daarin uw naam en lidmaatschapsnummer of het nummer van de laatste factuur. Opzeggingen worden door ons per e-mail bevestigd.
+Leden én deelnemers aan een Bedrijfsregeling moeten tenminste vier weken vóór het eind van een kalenderjaar opzeggen, anders ben je impliciet het volgende jaar weer lid of deelnemer – en dan verwachten we dus ook dat de bijdrage wordt voldaan. Opzeggen kan door middel van een e-mail naar ons buro, met daarin je naam en lidmaatschapsnummer of het nummer van de laatste factuur. Opzeggingen worden door ons per e-mail bevestigd.
