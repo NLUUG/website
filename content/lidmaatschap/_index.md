@@ -32,12 +32,12 @@ De NLUUG kent het lidmaatschap voor personen (met stemrecht) en een Bedrijfsrege
 
 De NLUUG richt zich op personen. Leden zijn natuurlijke personen en alleen leden hebben stemrecht. Leden kunnen tegen gereduceerd tarief deelnemen aan onze conferenties.
 
-Als jouw werkgever deelneemt aan een Bedrijfsregeling dan wordt (onder voorwaarden) de lidmaatschapsbijdrage voldaan uit die regeling. De voorwaarden zijn dat er per type Bedrijfsregeling een maximum is aan het aantal individuele leden.
+Als je werkgever deelneemt aan een Bedrijfsregeling dan kan de lidmaatschapsbijdrage voldaan worden uit die regeling. De voorwaarde is wel dat er per type Bedrijfsregeling een maximum is aan het aantal individuele leden.
 
 #### Tarieven
 
 | Type              | Excl. BTW | Incl. BTW |
-| ---               | ---       | ---       |
+| ---               | --------: | --------: |
 | Lid (persoon)     | €152,89   | €185,00   |
 | Student (voltijd) | €28,93    | €35,00    |
 
@@ -69,13 +69,13 @@ Bedrijven die lid zijn van de NLUUG kunnen de daaraan verbonden voordelen voor w
 
 #### Tarieven voor Bedrijfsregelingen
 
-| Naam                | Code | Max. Werkn.lid | Excl. BTW | Incl. BTW |
-| ---                 | ---  | ---            | ---       | ---       |
-| Bedrijfsregeling-1  | D1   | 1              | €152,89   | €185,00   |
-| Bedrijfsregeling-2  | D2   | 3              | €305,78   | €370,00   |
-| Bedrijfsregeling-4  | D4   | 5              | €611,57   | €740,00   |
-| Bedrijfsregeling-8  | D8   | 10             | €1223,14  | €1480,00  |
-| Bedrijfsregeling-16 | DP   | 18             | €2140,49  | €2590,00  |
+| Naam                | Code | Maximaal aantal werknemers lid | Excl. BTW | Incl. BTW |
+| ---                 | ---  | ---                            | --------: | --------: |
+| Bedrijfsregeling-1  | D1   | 1                              | €152,89   | €185,00   |
+| Bedrijfsregeling-2  | D2   | 3                              | €305,78   | €370,00   |
+| Bedrijfsregeling-4  | D4   | 5                              | €611,57   | €740,00   |
+| Bedrijfsregeling-8  | D8   | 10                             | €1223,14  | €1480,00  |
+| Bedrijfsregeling-16 | DP   | 18                             | €2140,49  | €2590,00  |
 
 ### Wijzigingen
 
