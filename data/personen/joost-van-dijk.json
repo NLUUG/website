@@ -1,0 +1,18 @@
+{
+  "id": "joost-van-dijk",
+  "name": "Joost van Dijk",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/joost-van-dijk/",
+  "sameas": "",
+  "social": {
+    "github": "joostd",
+    "linkedin": "https://www.linkedin.com/in/joostd/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/joost-van-dijk-200x200.jpg"
+}
