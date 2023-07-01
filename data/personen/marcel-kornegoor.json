@@ -1,0 +1,25 @@
+{
+  "id": "marcel-kornegoor",
+  "name": "Marcel Kornegoor",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/marcel-kornegoor/",
+  "sameas": "",
+  "social": {
+    "gitlab": "kornegoor",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/mkornegoor/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "mckornegoor"
+  },
+  "thumbnail": "/afbeeldingen/personen/marcel-kornegoor-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Persoonlijke website",
+    "sameas": true,
+    "url": "https://www.kornegoor.org/"
+  }]
+}
