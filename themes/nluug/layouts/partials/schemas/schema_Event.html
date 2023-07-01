@@ -45,6 +45,14 @@
   "name": "{{ .Params.event_location }}"
  },
 {{ end }}
+ "performer": [
+ {
+  "@type": "Organization",
+  "name": "NLUUG",
+   "id": "{{ .Site.BaseURL }}#organization",
+   "url": "{{ .Site.BaseURL }}"
+ }
+ ],
 {{ with .Params.event_images -}}
   "image": [
     {{- range $index, $element := . -}}
