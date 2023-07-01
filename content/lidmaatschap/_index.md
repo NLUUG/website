@@ -67,15 +67,17 @@ Elke organisatie met een Bedrijfsregeling-2 of hoger mag bij iedere conferentie 
 #### Kennis vergroten en zichtbaarheid
 Bedrijven die lid zijn kunnen de daaraan verbonden voordelen voor werknemers inzetten als extraatje bij het werven (en behouden!) van gekwalificeerde, professionele medewerkers met kennis van Unix en Linux. Organisaties met een Bedrijfsregeling-DP kunnen desgewenst als begunstiger op de NLUUG-website vermeld worden.
 
-#### Tarieven voor Bedrijfsregelingen
+#### Tarieven voor Bedrijfsregeling
 
-| Naam                | Code | Maximaal aantal werknemers lid | Excl. BTW | Incl. BTW |
-| ---                 | ---  | ---                            | --------: | --------: |
-| Bedrijfsregeling-1  | D1   | 1                              | €152,89   | €185,00   |
-| Bedrijfsregeling-2  | D2   | 3                              | €305,78   | €370,00   |
-| Bedrijfsregeling-4  | D4   | 5                              | €611,57   | €740,00   |
-| Bedrijfsregeling-8  | D8   | 10                             | €1223,14  | €1480,00  |
-| Bedrijfsregeling-16 | DP   | 18                             | €2140,49  | €2590,00  |
+Onderstaande tabel toont de tarieven voor een Bedrijfsregeling, waarbij de kleinste regeling (Bedrijfsregeling-1) de code D1 heeft en de grootste (Bedrijfsregeling-16) de code DP.
+
+| Code | Leden | Excl. BTW | Incl. BTW |
+| ---  | ---   | --------: | --------: |
+| D1   | 1     | €152,89   | €185,00   |
+| D2   | 3     | €305,78   | €370,00   |
+| D4   | 5     | €611,57   | €740,00   |
+| D8   | 10    | €1223,14  | €1480,00  |
+| DP   | 18    | €2140,49  | €2590,00  |
 
 ### Wijzigingen
 
