@@ -22,7 +22,14 @@
         <a href="https://www.openstreetmap.org/search?query={{ with .street_address }}{{ . | urlquery }}{{ end }},{{ with .postal_code }}{{ . | urlquery }}{{ end }}{{ with .city }},%20{{ . | urlquery }}{{ end }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "map-location-dot" "title" "Bekijk locatie op OpenStreetMap") }}</a>
         {{ end }}
         {{ with .link_external }}
-        <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie (externe link)</a></p>
+          <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie</a> (externe link)</p>
+        {{ end }}
+        {{ with .event_url }}
+          {{ if findRE `^http` . 1 }}
+            <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie</a> (externe link)</p>
+          {{ else }}
+            <p>&raquo; <a href="{{ . }}">Meer informatie</a></p>
+          {{ end }}
         {{ end }}
         </div>
 
