@@ -35,16 +35,17 @@
                   "endDate": "{{ .date_end | dateFormat "02-01-2006" }}",
                   "eventAttendanceMode": "https://schema.org/{{ if .event_attendance_mode }}{{ .event_attendance_mode | strings.FirstUpper }}{{ else }}Offline{{ end }}EventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  {{ with .event_address }}
+                  {{ if .event_address }}
                   "location": {
                       "@type": "Place",
                       "address": {
                           "@type": "PostalAddress",
-                          {{ with .city }}"addressLocality": "{{ . }}",{{ end }}
-                          {{ with .street_address }}"streetAddress": "{{ . }}",{{ end }}
-                          {{ with .postal_code }}"postalCode": "{{ . }}",{{ end }}
+                          {{ with .event_address.city }}"addressLocality": "{{ . }}",{{ end }}
+                          {{ with .event_address.street_address }}"streetAddress": "{{ . }}",{{ end }}
+                          {{ with .event_address.postal_code }}"postalCode": "{{ . }}",{{ end }}
                           "addressCountry": "{{ if .country }}{{ .country }}{{ else }}The Netherlands{{ end }}"
-                      }
+                      },
+                      "name": "{{ .event_location | default "Niet ingevuld" }}"
                   },
                   {{ end }}
                   {{ if .event_virtual_location }}
