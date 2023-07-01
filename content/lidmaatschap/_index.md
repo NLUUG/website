@@ -11,11 +11,11 @@ title: "Lidmaatschap"
 show_child_pages: true
 ---
 
-De NLUUG (Nederlandse Unix User Group) is een onafhankelijke vereniging voor (professionele) gebruikers van Open Systemen en Open Standaarden. De NLUUG heeft aan de wieg van het internet in Nederland gestaan. Tegenwoordig zijn Unix/Linux, open standaarden, Open Source en de techniek achter het internet de voornaamste speerpunten van de vereniging.
+NLUUG is een onafhankelijke vereniging voor (professionele) gebruikers van Open Systemen en Open Standaarden. De vereniging heeft aan de wieg van het internet in Nederland gestaan. Tegenwoordig zijn UNIX/Linux, open standaarden, Open Source en de techniek achter het internet de voornaamste speerpunten.
 
-## Wat biedt de NLUUG?
+## Wat bieden we onze leden?
 
-De NLUUG houdt zich bezig met het verspreiden van kennis en het samenbrengen van mensen binnen het vakgebied.
+De vereniging houdt zich bezig met het verspreiden van kennis en het samenbrengen van mensen binnen het vakgebied.
 
 * Toegang tot een netwerk vol kennis
   * Mailing-lists, waar je je collega's digitaal kunt treffen.
@@ -26,11 +26,11 @@ De NLUUG houdt zich bezig met het verspreiden van kennis en het samenbrengen van
 
 ## Vormen van lidmaatschap
 
-De NLUUG kent het lidmaatschap voor personen (met stemrecht) en een Bedrijfsregeling voor organisaties (voor commerciële bedrijven, instellingen, stichtingen en kenniscentra).
+We kennen het lidmaatschap voor personen (met stemrecht) en een Bedrijfsregeling voor organisaties (voor commerciële bedrijven, instellingen, stichtingen en kenniscentra).
 
 ### Lidmaatschap voor Personen ("L") en Studenten ("S")
 
-De NLUUG richt zich op personen. Leden zijn natuurlijke personen en alleen leden hebben stemrecht. Leden kunnen tegen gereduceerd tarief deelnemen aan onze conferenties.
+De vereniging richt zich op personen. Leden zijn natuurlijke personen en alleen leden hebben stemrecht. Zij kunnen tegen gereduceerd tarief deelnemen aan onze conferenties.
 
 Als je werkgever deelneemt aan een Bedrijfsregeling dan kan de lidmaatschapsbijdrage voldaan worden uit die regeling. De voorwaarde is wel dat er per type Bedrijfsregeling een maximum is aan het aantal individuele leden.
 
@@ -65,7 +65,7 @@ De organisatie draagt de contributie van de werknemers die lid zijn van de veren
 Elke organisatie met een Bedrijfsregeling-2 of hoger mag bij iedere conferentie één persoon laten deelnemen zonder lidmaatschapsverplichting. Deze persoon wordt in de administratie van de NLUUG opgenomen als ‘Introducee’ en kan geen tweede keer voor een evenement worden ingeschreven zonder volwaardig Lid te worden.
 
 #### Kennis vergroten en zichtbaarheid
-Bedrijven die lid zijn van de NLUUG kunnen de daaraan verbonden voordelen voor werknemers inzetten als extraatje bij het werven (en behouden!) van gekwalificeerde, professionele medewerkers met kennis van Unix en Linux. Organisaties met een Bedrijfsregeling-DP kunnen desgewenst als begunstiger op de NLUUG website vermeld worden.
+Bedrijven die lid zijn kunnen de daaraan verbonden voordelen voor werknemers inzetten als extraatje bij het werven (en behouden!) van gekwalificeerde, professionele medewerkers met kennis van Unix en Linux. Organisaties met een Bedrijfsregeling-DP kunnen desgewenst als begunstiger op de NLUUG-website vermeld worden.
 
 #### Tarieven voor Bedrijfsregelingen
 
