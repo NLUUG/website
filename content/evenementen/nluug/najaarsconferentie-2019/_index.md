@@ -106,6 +106,7 @@ event_schedule:
       talk:
         speaker: Michael Boelen
         title: "Let's create better* scripts"
+        link: talks/michael-boelen-lets-create-better-scripts/
   - row:
     columns:
     - column:
