@@ -117,7 +117,7 @@ De programmacommissie en onze bezoekers willen weten wie een spreker is. Waarom 
 * Schrijf of blog je wel eens iets?
 * Waar kunnen we meer over over je lezen?
 * Op welke social media ben je actief?
-* Heb relevante hobbies en passies? Wat drijft je?
+* Heb je relevante hobbies en passies? Wat drijft je?
 
 Voor de leesbaarheid is het aan te raden om de biografie in een derde persoon te schrijven. In plaats van "Ik ...", begin je dan met "[Voornaam achternaam] ..." en gebruik je je voornaam in vervolgzinnen.
 
