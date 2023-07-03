@@ -31,10 +31,12 @@ Voor onze conferenties en evenementen hebben we voornamelijk interesse in onders
 * Domotica
 * Informatiebeveiliging
 * Internet (standaarden, technieken)
+* Interessante gebeurtenissen en evenementen
 * Netwerk (analyze, firewalls)
 * Open source
 * Open standaarden
 * Programmeertalen
+* Privacy
 * Softwareontwikkeling
 * Tooling
 * Webtechnologie
@@ -48,6 +50,8 @@ Binnen het programma duren presentaties standaard 45 minuten. Deze tijd is inclu
 ## Publiek
 
 Onze bezoekers zijn over het algemeen (zeer) technisch georiënteerd, daarbinnen zitten zowel generalisten als specialisten. Het merendeel heeft affiniteit met systeembeheer, vaak met aanvullende kennis of specialisaties. Een deel van de bezoekers heeft een primaire focus op softwareontwikkeling, terwijl er ook een groep is met ervaring binnen management of het leiden van projecten. Ook informatiebeveiliging is voor veel van de bezoekers geen onbekend terrein.
+We hebben een mondig public wat niet bang is vragen te stellen en het debat niet uit de weg gaat.
+We stellen het op prijs als interactie met het publiek wordt opgezocht.
 
 ## Wat bieden we sprekers?
 
@@ -63,6 +67,7 @@ Voor sprekers hebben we standaard een draadloze microfoon, groot scherm met HDMI
 ### Locatie en faciliteiten
 
 In het hotel is een internetverbinding aanwezig, maar ervaring leert dat er geen garanties gegeven kunnen worden wat betreft de stabiliteit. Als organisatie adviseren we sprekers daarom om de afhankelijkheid van een internetverbinding te beperken. Presentaties en demo's kunnen het beste dus lokaal op het (eigen) systeem draaien.
+Een live online demo wordt door ons prijs gesteld, maar we adviseren een filmpje met de demo als backup achter de hand te houden.
 
 Sprekers kunnen we ondersteunen met het vervoer en verblijf. Ons doel is dat sprekers (waar mogelijk) geen kosten hoeven te maken om bij ons te presenteren. Qua vervoer en verblijf in het hotel kijken we daarom naar de afstand die een spreker dient af te leggen om op onze locatie te arriveren. Buitenlandse sprekers hebben daarmee eerder recht op een hotelovernachting of zelfs vliegticket. Deze dienen wel altijd vooraf afgestemd te worden met de organisatie.
 
@@ -72,7 +77,7 @@ Uiteraard willen wij als organisatie de kans voor iedereen vergroten om een pres
 
 ### De basis: titel, abstract, biografie, foto
 
-We verlangen van iedere inzending een titel en een degelijk abstract. In de eerste instantie is deze gericht om de programmacommissie te overtuigen dat het een geschikte lezing is. Na goedkeuring krijgt de belangrijkste groep de abstract te zien: de bezoekers. Een goedgeschreven abstract is daarom even belangrijk als een goed voorbereide presentatie.
+We verlangen van iedere inzending een titel en een spetterende en wervende abstract. In de eerste instantie is deze gericht om de programmacommissie te overtuigen dat het een geschikte lezing is. Na goedkeuring krijgt de belangrijkste groep de abstract te zien: de bezoekers. Een goedgeschreven abstract is daarom even belangrijk als een goed voorbereide presentatie.
 
 #### Abstract
 
@@ -112,6 +117,7 @@ De programmacommissie en onze bezoekers willen weten wie een spreker is. Waarom 
 * Schrijf of blog je wel eens iets?
 * Waar kunnen we meer over over je lezen?
 * Op welke social media ben je actief?
+* Heb relevante hobbies en passies? Wat drijft je?
 
 Voor de leesbaarheid is het aan te raden om de biografie in een derde persoon te schrijven. In plaats van "Ik ...", begin je dan met "[Voornaam achternaam] ..." en gebruik je je voornaam in vervolgzinnen.
 
