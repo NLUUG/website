@@ -25,7 +25,7 @@ Een mooie verkorte definitie is terug te vinden bij het [Forum Standardisatie va
 * Er moeten voldoende inspraakmogelijkheden zijn voor stakeholders tijdens de (door)ontwikkeling van de standaard.
 * De onafhankelijkheid en duurzaamheid van de standaardisatieorganisatie moeten verzekerd zijn.
 
-Andere groepen zoals de [Free Software Foundation Europe](https://fsfe.org/projects/os/def) en de Zwitserse UUG hanteren vergelijkbare definities.
+Andere groepen zoals de [Free Software Foundation Europe](https://fsfe.org/) en de Zwitserse UUG hanteren vergelijkbare definities.
 
 In formelere taal:
 

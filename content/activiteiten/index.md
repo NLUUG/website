@@ -22,7 +22,7 @@ Het doel van elke bijeenkomst, groot of klein, is het verspreiden van kennis ove
 
 Een deel van de technische presentaties die op NLUUG-evenementen wordt gegeven wordt gefilmd door het filmteam. Als de techniek meezit en het beeld en geluid naar ons idee goed genoeg kunnen worden vastgelegd, al dan niet via nabewerking, en als de sprekers er ook mee akkoord zijn, dan worden deze online beschikbaar gemaakt. Soms alleen voor leden, soms publiek. In het laatste geval zijn deze te vinden op:
 
-* De [FTP-server](https://ftp.nluug.nl/video/nluug) van de vereniging
+* De [FTP-server](https://ftp.nluug.nl/video/nluug/) van de vereniging
 * De [YouTube-playlists](https://www.youtube.com/user/nluug/playlists) van de vereniging
 
 ## FTP-server

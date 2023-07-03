@@ -33,6 +33,4 @@ Her career in Cisco started in Routing and Switching and Network Security, but s
 
 She is a frequent Speaker for various Cisco Live conferences around the world.
 
-As people who have met her in person will attest, Nicole is very friendly and talkative, as well as quite active on social media. She also acts as the social secretary for Koala, her stuffed marsupial travel companion and conversation starter. But also she is known for being the 'Chief Stroopwafel Officer' #stroopwafel
-
-https://blogs.cisco.com/lifeatcisco/life-as-ciscos-chief-stroopwafel-officer
+As people who have met her in person will attest, Nicole is very friendly and talkative, as well as quite active on social media. She also acts as the social secretary for Koala, her stuffed marsupial travel companion and conversation starter. But also she is known for being the [Chief Stroopwafel Officer](https://blogs.cisco.com/wearecisco/life-as-ciscos-chief-stroopwafel-officer) #stroopwafel
