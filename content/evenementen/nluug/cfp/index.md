@@ -50,8 +50,6 @@ Binnen het programma duren presentaties standaard 45 minuten. Deze tijd is inclu
 ## Publiek
 
 Onze bezoekers zijn over het algemeen (zeer) technisch georiënteerd, daarbinnen zitten zowel generalisten als specialisten. Het merendeel heeft affiniteit met systeembeheer, vaak met aanvullende kennis of specialisaties. Een deel van de bezoekers heeft een primaire focus op softwareontwikkeling, terwijl er ook een groep is met ervaring binnen management of het leiden van projecten. Ook informatiebeveiliging is voor veel van de bezoekers geen onbekend terrein.
-We hebben een mondig public wat niet bang is vragen te stellen en het debat niet uit de weg gaat.
-We stellen het op prijs als interactie met het publiek wordt opgezocht.
 
 ## Wat bieden we sprekers?
 
@@ -67,7 +65,6 @@ Voor sprekers hebben we standaard een draadloze microfoon, groot scherm met HDMI
 ### Locatie en faciliteiten
 
 In het hotel is een internetverbinding aanwezig, maar ervaring leert dat er geen garanties gegeven kunnen worden wat betreft de stabiliteit. Als organisatie adviseren we sprekers daarom om de afhankelijkheid van een internetverbinding te beperken. Presentaties en demo's kunnen het beste dus lokaal op het (eigen) systeem draaien.
-Een live online demo wordt door ons prijs gesteld, maar we adviseren een filmpje met de demo als backup achter de hand te houden.
 
 Sprekers kunnen we ondersteunen met het vervoer en verblijf. Ons doel is dat sprekers (waar mogelijk) geen kosten hoeven te maken om bij ons te presenteren. Qua vervoer en verblijf in het hotel kijken we daarom naar de afstand die een spreker dient af te leggen om op onze locatie te arriveren. Buitenlandse sprekers hebben daarmee eerder recht op een hotelovernachting of zelfs vliegticket. Deze dienen wel altijd vooraf afgestemd te worden met de organisatie.
 
@@ -116,8 +113,8 @@ De programmacommissie en onze bezoekers willen weten wie een spreker is. Waarom 
 * Heb je software geschreven? Zo ja, welke namen?
 * Schrijf of blog je wel eens iets?
 * Waar kunnen we meer over over je lezen?
-* Op welke social media ben je actief?
 * Heb je relevante hobbies en passies? Wat drijft je?
+* Op welke social media ben je actief?
 
 Voor de leesbaarheid is het aan te raden om de biografie in een derde persoon te schrijven. In plaats van "Ik ...", begin je dan met "[Voornaam achternaam] ..." en gebruik je je voornaam in vervolgzinnen.
 
@@ -128,6 +125,10 @@ Op onze website en programmaboekje willen we graag een compleet geheel hebben. D
 ### Te technisch kan niet
 
 Gezien ons publiek over het algemeen een stevige technische basis heeft, is het nagenoeg onmogelijk om een presentatie te geven die teveel techniek bevat. Ben je specialist en heb je een interessant verhaal, ga dan gerust (opbouwend) de diepte in.
+
+### Dialoog met publiek
+
+We hebben een mondig publiek dat niet bang is vragen te stellen of een debat te starten. We stellen het op prijs als interactie met het publiek wordt opgezocht. Als spreker is het wel zaak om duidelijk aan te geven wanneer vragen gesteld kunnen worden en om over de beschikbare tijd te waken.
 
 ### Presentaties met commerciële boodschap
 
@@ -144,6 +145,8 @@ Een spreker die meerdere inzendingen indient maakt over het algemeen meer kans o
 ### Eerder gegeven presentaties
 
 Heb je de presentatie al eerder gegeven? Dan horen we dat graag, het liefst inclusief een video en/of presentatie. Zo kunnen we de inzending nog eenvoudiger beoordelen qua inhoud.
+
+
 
 ## Werkwijze programmacommissie
 
