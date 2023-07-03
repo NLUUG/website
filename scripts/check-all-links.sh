@@ -26,7 +26,9 @@ if [ -d ./public ]; then
     if [ -f ./check-all-links.tmp ]; then
         for URL in $(cat ./check-all-links.tmp); do
             HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "${URL}")
-            if [ ! "${HTTP_CODE}" = "200" ]; then
+            # 200 = OK
+            # 302 = Tijdelijke redirect, bijvoorbeeld als authenticatie nodig is (GitHub)
+            if [ ! "${HTTP_CODE}" = "200" -a ! "${HTTP_CODE}" = "302" ]; then
                 echo "[WARNING] ${URL} (HTTP: ${HTTP_CODE})"
             fi
             sleep 2
