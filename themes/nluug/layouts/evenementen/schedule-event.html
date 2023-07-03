@@ -145,8 +145,6 @@
                 {{ with .talk }}
                   {{ if .speaker }}
                     <strong>{{ .speaker }}</strong><br>
-                  {{ else }}
-                    {{ if not .keynote }}<span>?</span>{{ end}}
                   {{ end }}
                   {{ if and (.title) (.link) }}
                     {{ if .link }}
