@@ -1,10 +1,11 @@
 ---
 categories:
+- presentaties
 date: 2022-11-29T20:31:43+02:00
-description:
+description: "Andreas Hülsing gaf een presentatie over de selectie en standaardisatie van post-quantum cryptography. Leer meer over het onderwerp en deze spreker."
 layout: event-talk
-slug:
 tags:
+- cryptografie
 title: "Andreas Hülsing - An update on NIST's PQC standardization process"
 speakers:
 - andreas-hulsing
@@ -12,7 +13,7 @@ presentation:
   filename: 2022-11-29-andreas-hulsing-an-update-on-nists-pqc-standardization-process.pdf
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=xaEP29OZR3U
+  url: https://www.youtube.com/watch?v=0HjsoMrqlF4
 ---
 
 ## Abstract

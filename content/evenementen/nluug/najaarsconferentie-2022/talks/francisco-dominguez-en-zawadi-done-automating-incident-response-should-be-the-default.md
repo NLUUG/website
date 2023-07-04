@@ -1,10 +1,13 @@
 ---
 categories:
+- presentaties
 date: 2022-11-29T20:31:43+02:00
-description:
+description: "Francisco Dominguez en Zawadi Done gaven een presentaties over het automatiseren van het proces om beveiligingsincidenten af te handelen."
 layout: event-talk
-slug:
 tags:
+- analysis
+- devops
+- incident-response
 title: "Francisco Dominguez & Zawadi Done - Automating incident response should be the default"
 speakers:
 - francisco-dominguez

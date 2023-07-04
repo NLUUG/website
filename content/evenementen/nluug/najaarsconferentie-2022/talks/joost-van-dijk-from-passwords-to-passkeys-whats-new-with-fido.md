@@ -12,7 +12,7 @@ presentation:
   filename: 2022-11-29-joost-van-dijk-from-passwords-to-passkeys-whats-new-with-fido.pdf
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=99dGW1Ou0Dk
+  url: https://www.youtube.com/watch?v=z4T5P_LpN3E
 ---
 
 ## Abstract

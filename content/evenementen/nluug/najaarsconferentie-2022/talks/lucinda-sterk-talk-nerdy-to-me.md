@@ -1,10 +1,12 @@
 ---
 categories:
+- presentaties
 date: 2022-11-29T20:31:43+02:00
 description:
 layout: event-talk
-slug:
 tags:
+- communicatie
+- keynote
 title: "Lucinda Sterk - Talk nerdy to me"
 speakers:
 - lucinda-sterk
@@ -12,7 +14,7 @@ presentation:
   filename: 2022-11-29-lucinda-sterk-talk-nerdy-to-me.pdf
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=xaEP29OZR3U
+  url: https://www.youtube.com/watch?v=DILgkfR79kY
 ---
 
 ## Abstract
