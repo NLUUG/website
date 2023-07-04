@@ -11,8 +11,9 @@ title: "Fred Donck"
 type: person
 ---
 
+#### Nederlands
 Begin jaren '90 kwam Fred in aanraking met Unix via zijn werkgever en als zodanig met NLUUG.
-Sinds het begin van deze eeuw is Fred zo'n 20 jaar aktief geweest als freelance infrastruur architect en Unix system administrator en project manager. In deze periode passeerden de meeste soorten Unix de revue, zoals BSD, SystemV, en Linux.
+Sinds het begin van deze eeuw is Fred zo'n 20 jaar aktief geweest als freelance infrastruur architect, Unix system administrator en project manager. In deze periode passeerden de meeste soorten Unix de revue, zoals BSD, SystemV, en Linux.
 
 Freds NLUUG betrokkenheid begon in 1992 en heeft, behalve als regulier lid, diverse rollen vertolkt binnen de vereniging.
 
@@ -24,7 +25,7 @@ Freds NLUUG betrokkenheid begon in 1992 en heeft, behalve als regulier lid, dive
 
 De structuur binnen NLUUG is enige jaren geleden gewijzigd en is er gekozen voor een vaste programmacommissie. Sinds juni 2023 is Fred de voorzitter.
 
-
+#### English
 
 In the early 90's Fred got involved with Unix through his employer and because of that became involved with NLUUG.
 Since the beginning of this century Fred has been active as a freelance infrastructure architect, project manager and Unis system administrator. During this period most Unix variants have been touched, like BSD, SystemV and Linux.
