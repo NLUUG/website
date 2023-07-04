@@ -18,11 +18,3 @@ Hans is probably best known as an ethical hacker. Mid 2017 he sold his shares in
 Hans is still passionate about privacy protection and securing intellectual properties. He noticed a long time ago that IT security always revolves around the proper protection of delicate data. His specialties focus on consultancy on and internal auditing of ISO 27001/NEN7510 ISMSes, IT security training, attack and penetration tests, and consultancy on improving software, system and network security.
 
 Hans is always looking for new exciting projects in both The Netherlands and abroad.
-
-LinkedIn: https://www.linkedin.com/in/hansvandelooy/
-Twitter: https://twitter.com/Quux_NL
-Mastodon: https://mastodon.online/@quux
-
-Website: https://unicorn-security.nl/
-
-Hans is algemeen bestuurslid.

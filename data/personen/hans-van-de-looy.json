@@ -8,15 +8,15 @@
   "thumbnail": "/afbeeldingen/personen/hans-van-de-looy-200x200.jpg",
   "websites": [{
     "id": 1,
-    "name": "UNICORN Security",
+    "name": "Website",
     "url": "https://unicorn-security.nl/"
   }],
   "social": {
     "github": "",
     "instagram": "",
-    "linkedin": "",
-    "mastodon": "",
-    "mastodon_url": "",
-    "twitter": ""
+    "linkedin": "https://www.linkedin.com/in/hansvandelooy/",
+    "mastodon": "@quux@mastodon.online",
+    "mastodon_url": "https://mastodon.online/@quux",
+    "twitter": "Quux_NL"
   }
 }
