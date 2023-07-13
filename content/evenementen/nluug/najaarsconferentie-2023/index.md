@@ -237,7 +237,7 @@ event_schedule:
       time: 17:55
     - column:
       textfield:
-        text: Borrel, gesponsord door ...?
+        text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
 ---
