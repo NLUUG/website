@@ -78,7 +78,7 @@ event_schedule:
         speaker: Brenno de Winter
         title: "pandemie + security != kattepis"
         keynote: true
-        link: talks/2022-05-10-brenno-de-winter-pandemie-plus-security-not-is-kattepis/
+        link: talks/brenno-de-winter-pandemie-plus-security-not-is-kattepis/
       center: true
       size: 3
   - row:
