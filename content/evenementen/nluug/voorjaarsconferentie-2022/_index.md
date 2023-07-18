@@ -103,7 +103,7 @@ event_schedule:
       talk:
         speaker: Jeroen Baten
         title: "Open Source Enterprise Resource Planning (ERP) with Odoo"
-        link: 
+        link: talks/jeroen-baten-open-source-enterprise-resource-planning-erp-with-odoo/
     - column:
       talk:
         speaker: Luuk van Drunen
