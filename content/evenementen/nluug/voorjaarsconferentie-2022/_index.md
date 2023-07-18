@@ -123,7 +123,7 @@ event_schedule:
       talk:
         speaker: Emile Aben
         title: "The Internet in Ukraine (and what we can learn from it)"
-        link: 
+        link: talks/emile-aben-the-internet-in-ukraine-and-what-we-can-learn-from-it/
     - column:
       talk:
         speaker: Mark Overmeer
