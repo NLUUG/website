@@ -133,7 +133,7 @@ event_schedule:
       talk:
         speaker: Jos Bredek
         title: Slim vest met realtime edge-computing
-        link: 
+        link: talks/jos-bredek-slim-vest-met-realtime-edge-computing/
   - row:
     columns:
     - column:
