@@ -240,7 +240,7 @@ event_schedule:
       talk:
         speaker: Jilles en Jurre Groenendijk
         title: "No, we won't fix your computer"
-        link: 
+        link: talks/jilles-jurre-groenendijk-no-we-wont-fix-your-computer/
       center: true
       size: 3
   - row:
