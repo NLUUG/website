@@ -128,7 +128,7 @@ event_schedule:
       talk:
         speaker: Mark Overmeer
         title: Open Search with Skrodon
-        link: 
+        link: talks/mark-overmeer-open-search-with-skrodon/
     - column:
       talk:
         speaker: Jos Bredek
@@ -185,7 +185,7 @@ event_schedule:
       time: 14:40
     - column:
       talk:
-        speaker: Brenno Overeinder
+        speaker: Benno Overeinder
         title: "Internet Standards: The IETF Process"
         link: talks/benno-overeinder-internet-standards-the-ietf-process/
     - column:
