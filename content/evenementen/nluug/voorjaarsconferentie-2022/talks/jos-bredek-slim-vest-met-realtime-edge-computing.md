@@ -6,30 +6,26 @@ description: ""
 layout: event-talk
 slug:
 tags:
-title: "Jeroen Baten - Open Source Enterprise Resource Planning (ERP) with Odoo"
+title: "Jos Bredek - Slim vest met realtime edge-computing"
 speakers:
-- jeroen-baten
+- jos-bredek
 presentation:
-  filename: 2022-05-10-jeroen-baten-open-source-enterprise-resource-planning-erp-with-odoo.pdf
+  filename: 2023-05-10-jos-bredek-slim-vest-met-realtime-edge-computing.pdf
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=SMdkQQ7fHhU
+  url:
 ---
 
 ## Abstract
 
-With more than 8 million daily users of Odoo worldwide, this talk aims to introduce the audience to the state-of-the-art of Odoo as an ERP solution, as it currently stands.
+In onze maatschappij worden hulpverleners helaas steeds vaker lastiggevallen. Politie-, brandweer- en ambulancepersoneel kan soms niet ongemoeid hun werk doen. Of, nog erger, wordt bedreigd in actie. Dit gegeven en de technieken van 5G, resulteerden in de 5G-studentbattle van november 2020 tot het idee van een slim vest.
 
-Odoo has started as a product of Belgian company Odoo S.A. and it comes in 2 flavors: the LGPL-licensed Community Edtion with some 450 different apps/modules, and the OPL licensed Enterprise Edition with closed source add-ons to the CE version. There is also the OCA, the Odoo Community Association.
-
-This creates an interesting triangle of forces between users, Odoo S.A. and the OCA. Nice stuff developed by the OCA can be added by Odoo S.A to the CE edition, and the OCA has been known to re-implement nice functionality of the Enterprise Edition into open source licensed addons/modules. Where Odoo S.A. offers upgrades of EE via their internal black box process, the OCA offers upgrades of CE using a project called OpenUpgrade.
-
-Odoo internally works with apps and these are conceptually like OO programming languages. You can inherit an app and extent it, or inject or disable parts of it. Combined with the earlier mentioned triangle of forces this creates not a race to the bottom but a race to the top, whereby the top is infinite. At the same time it creates a balance that needs to be guarded by all users worldwide IMHO.
-
-You can manage multiple companies in one Odoo instance with a single database. But it is also possible to have one instance of Odoo using several separate databases, one for every individual domain name.
+Het slimme vest, met weinig fysieke ruimte, is niets anders dan het standaardvest van de politie uitgebreid met een aantal kleine componenten (zoals een camera en modem). Met een pipeline aan technieken, zoals H.264, RTP, Gstreamer, objectdetectie met AI (Yolo), 5G edgecomputing (op VMware clusters) en virtuele GPU’s, kan dit vest waarschuwen voor dreigingen vanuit de rug. Hoe deze keten is opgezet én hoe deze in (vele!) andere omstandigheden kan worden gebruikt is de kern van deze lezing.
 
 ## Biography
 
-Let’s be honest here. I love to stand in front of an audience and tell stories. Stories about geek and nerd stuff, IT, software, development, anything.
+Jos Bredek is sinds 15 jaar werkzaam als docent/onderzoeker aan de Hanzehogeschool. Daarvoor werkte hij als netwerkspecialist en -architect bij Rabobank en KPN.
 
-You can find a lot of stuff on my company lecture page so I don’t have to write things twice. :-). Have a look at some of the talks. Maybe some of them are of interest to you too.
+Als docent van de Network & Security major van de HBO-ICT opleiding van de Hanze geeft hij vakken op het gebied van computerarchitectuur, besturingssystemen, computernetwerken en beveiliging. Als onderzoeker werkt hij (in 5Groningen) samen met studenten en de beroepspraktijk aan het ontwikkelen van innovatie toepassingen met 5G.
+
+Jos is door de Hanzehogeschool genomineerd voor de landelijke docent van het jaar 2022-verkiezing.
