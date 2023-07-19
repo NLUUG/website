@@ -187,7 +187,7 @@ event_schedule:
       talk:
         speaker: Brenno Overeinder
         title: "Internet Standards: The IETF Process"
-        link: 
+        link: talks/benno-overeinder-internet-standards-the-ietf-process/
     - column:
       talk:
         speaker: Robin Sommer (DE)
