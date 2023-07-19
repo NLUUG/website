@@ -97,8 +97,8 @@ event_schedule:
     - column:
       talk:
         speaker: Wouter van Rooij
-        title: Secure development lifecycle in open source projects
-        link: 
+        title: Secure Development Lifecycle in open source projects
+        link: talks/wouter-van-rooij-secure-development-lifecycle-in-open-source-projects/
     - column:
       talk:
         speaker: Jeroen Baten
