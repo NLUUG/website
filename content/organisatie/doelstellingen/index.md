@@ -4,12 +4,12 @@ categories:
 date: 2023-05-06T13:08:32+02:00
 description: "Leer meer over de doelstellingen van de NLUUG, de vereniging voor open standaarden en open systemen."
 review:
-  last_review: 2023-06-24
-  reviewed_by: michael-boelen
+  last_review: 2023-07-19
+  reviewed_by: patrick-reijnen
   period: 90
 tags:
 - organisatie
-title: "Doelstelingen"
+title: "Doelstellingen"
 ---
 
 Het volgende staat beschreven in de Statuten van NLUUG (te vinden in het ledendeel van deze website), over de doelstellingen van de vereniging:
