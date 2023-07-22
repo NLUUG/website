@@ -167,7 +167,7 @@ event_schedule:
       talk:
         speaker: Erik van Zijst
         title: "The Open Silicon revolution"
-        link: 
+        link: talks/erik-van-zijst-open-silicon/
     - column:
       talk:
         speaker: Ariën Vijn
