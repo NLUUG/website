@@ -23,7 +23,7 @@ Whether you call yourself a system administrator, developer, or DevOps sprint me
 
 Focus areas of this presentation include error handling, security, style, and best practices. Also, it will cover (many) mistakes made by Michael over the last 20 years. Got some of your own? They are welcome as part of the discussion.
 
-## Biografie
+## Biography
 
 Michael Boelen specializes in the field of Linux and UNIX security. He worked as a consultant for several Fortune 500 companies like Philips and ASML. In 2013, Michael started the security firm CISOfy to simplify security.
 

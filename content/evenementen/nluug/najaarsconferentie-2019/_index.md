@@ -77,7 +77,7 @@ event_schedule:
         speaker: David Blank-Edelman
         title: "SRE101: Lessons from a Parallel Universe"
         keynote: true
-        link: 
+        link: talks/david-blank-edelman-sre101-lessons-from-a-parallel-universe/
       center: true
       size: 3
   - row:
@@ -97,7 +97,7 @@ event_schedule:
       talk:
         speaker: Andreas Hülsing
         title: Post-quantum cryptography
-        link: 
+        link: talks/andreas-hulsing-post-quantum-cryptography/
     - column:
       talk:
         speaker: Moritz Müller
@@ -154,7 +154,7 @@ event_schedule:
       talk:
         speaker: Bram Cappers
         title: "Eventpad: Cybercrime Analysis Using Visual Analytics"
-        link: 
+        link: talks/bram-cappers-eventpad-cybercrime-analysis-using-visual-analytics/
     - column:
       talk:
         speaker: Koen de Jonge
