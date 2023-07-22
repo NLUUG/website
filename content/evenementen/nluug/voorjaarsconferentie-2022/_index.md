@@ -162,7 +162,7 @@ event_schedule:
       talk:
         speaker: Willem Toorop
         title: "Het opzetten van een Resource Public Key Infrastructure (RPKI) baken"
-        link: 
+        link: talks/willem-toorop-het-opzetten-van-een-resource-public-key-infrastructure-rpki-baken/
     - column:
       talk:
         speaker: Erik van Zijst
@@ -192,7 +192,7 @@ event_schedule:
       talk:
         speaker: Robin Sommer (DE)
         title: "Spicy: Creating Robust Parsers for Dissecting Network Protocols and Files, Easily!"
-        link: 
+        link: talks/robin-sommer-spicy-creating-robust-parsers-for-dissecting-network-protocols/
     - column:
       talk:
         speaker: Machteld Vrieze
