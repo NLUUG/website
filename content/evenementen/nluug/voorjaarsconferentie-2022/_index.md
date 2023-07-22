@@ -172,7 +172,7 @@ event_schedule:
       talk:
         speaker: Ariën Vijn
         title: De techniek bij Freedom Internet
-        link: 
+        link: talks/arien-vijn-de-techniek-bij-freedom-internet/
   - row:
     columns:
     - column:
