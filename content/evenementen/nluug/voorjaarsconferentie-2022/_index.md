@@ -197,7 +197,7 @@ event_schedule:
       talk:
         speaker: Machteld Vrieze
         title: "How will the EU new legislative frameworks impact the digital infrastructure?"
-        link: 
+        link: talks/machteld-vrieze-how-will-the-eu-new-legislative-frameworks-impact-the-digital-infrastructure/
   - row:
     columns:
     - column:
