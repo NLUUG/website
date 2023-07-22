@@ -5,8 +5,6 @@ date: 2023-07-03T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- shell
-- scripting
 title: "David Blank-Edelman - SRE101: Lessons from a Parallel Universe"
 speakers:
 - david-blank-edelman

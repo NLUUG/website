@@ -125,8 +125,8 @@ event_schedule:
     - column:
       talk:
         speaker: Carlo Meijer
-        title: "SSD self-encrypting deception"
-        link: 
+        title: "Self-encrypting deception"
+        link: talks/carlo-meijer-self-encrypting-deception/
     - column:
       talk:
         speaker: Hagen Bauer
@@ -203,7 +203,7 @@ event_schedule:
       talk:
         speaker: Carlo Berto
         title: An update on RPKI
-        link: 
+        link: talks/carlo-berto-an-update-on-rpki/
     - column:
       talk:
         speaker: Michiel Leenaars

@@ -5,8 +5,6 @@ date: 2023-07-03T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- shell
-- scripting
 title: "Andreas Hülsing - Post-quantum cryptography"
 speakers:
 - andreas-hulsing
