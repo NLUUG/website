@@ -102,6 +102,7 @@ event_schedule:
       talk:
         speaker: Moritz Müller
         title: Roll, Roll, Roll your Root — first DNSSEC Root KSK Rollover
+        link: talks/moritz-muller-roll-roll-roll-your-root-first-dnssec-root-ksk-rollover/
     - column:
       talk:
         speaker: Michael Boelen
@@ -209,7 +210,7 @@ event_schedule:
       talk:
         speaker: Michiel Leenaars
         title: The Commons Conservancy
-        link: 
+        link: talks/michiel-leenaars-the-commons-conservancy/
   - row:
     columns:
     - column:
@@ -224,6 +225,7 @@ event_schedule:
       talk:
         speaker: Pieter Lexis
         title: Running containers with systemd-nspawn
+        link: talks/peter-lexis-running-containers-with-systemd-nspawn/
     - column:
       talk:
         speaker: Eric Verheul
