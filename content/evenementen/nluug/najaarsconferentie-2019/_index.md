@@ -122,7 +122,7 @@ event_schedule:
       talk:
         speaker: Roland van Rijswijk-Deij
         title: "QBC: The Quantum Blockchain Cloud —debunking quantum myths and fables"
-        link: 
+        link: talks/roland-van-rijswijk-deij-qbc-the-quantum-blockchain-cloud-debunking-quantum-myths-and-fables/
     - column:
       talk:
         speaker: Carlo Meijer
@@ -150,7 +150,7 @@ event_schedule:
       talk:
         speaker: Thomas Attema
         title: Cryptographic applications of quantum mechanics
-        link: 
+        link: talks/thomas-attema-cryptographic-applications-of-quantum-mechanics/
     - column:
       talk:
         speaker: Bram Cappers
@@ -175,6 +175,7 @@ event_schedule:
       talk:
         speaker: Sebastian Österlund
         title: "RIDL: Rogue In-Flight Data Load"
+        link: talks/sebastian-osterlund-ridl-rogue-in-flight-data-load/
     - column:
       talk:
         speaker: Debarshi Basak
@@ -201,6 +202,7 @@ event_schedule:
       talk:
         speaker: Wim ten Have
         title: What does vNUMA actually mean?
+        link: talks/wim-ten-have-what-does-vnuma-actually-mean/
     - column:
       talk:
         speaker: Carlo Berto
