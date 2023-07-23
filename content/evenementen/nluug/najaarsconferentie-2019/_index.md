@@ -131,7 +131,7 @@ event_schedule:
       talk:
         speaker: Hagen Bauer
         title: Treating documentation as code
-        link: 
+        link: talks/hagen-bauer-treating-documentation-as-code/
   - row:
     columns:
     - column:
@@ -178,6 +178,7 @@ event_schedule:
       talk:
         speaker: Debarshi Basak
         title: Next generation app security and mitigation for Lawfirms
+        link: talks/debarshi-basak-next-generation-app-security-and-mitigation-for-lawfirms/
     - column:
       talk:
         speaker: Anco Scholte ter Horst
@@ -227,12 +228,12 @@ event_schedule:
       talk:
         speaker: Eric Verheul
         title: Remote Document Encryption
-        link: 
+        link: talks/eric-verheul-remote-document-encryption/
     - column:
       talk:
         speaker: Martin Geusebroek
         title: Counter social engineering
-        link: 
+        link: talks/martin-geusebroek-counter-social-engineering/
   - row:
     columns:
     - column:
@@ -241,7 +242,7 @@ event_schedule:
       talk:
         speaker: Edwin den Andel
         title: Tales (Fails) from the trenches…
-        link:
+        link: talks/edwin-van-andel-tales-fails-from-the-trenches/
       center: true 
       size: 3
   - row:

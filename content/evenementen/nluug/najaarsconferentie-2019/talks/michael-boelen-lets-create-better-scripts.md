@@ -1,7 +1,7 @@
 ---
 categories:
 - presentaties
-date: 2023-07-03T10:31:43+02:00
+date: 2019-11-21T10:31:43+02:00
 description: "Een presentatie gegeven door Michael Boelen over het optimaliseren van shellscripts en tips om ze veiliger en betrouwbaarder te maken."
 layout: event-talk
 tags:
