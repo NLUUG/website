@@ -19,9 +19,8 @@ recording:
 
 According to its manpage, systemd-nspawn:
 
-```
-... may be used to run a command or OS in a light-weight namespace container. In many ways it is similar to chroot(1), but more powerful since it fully virtualizes the file system hierarchy, as well as the process tree, the various IPC subsystems and the host and domain name...
-```
+
+> ... may be used to run a command or OS in a light-weight namespace container. In many ways it is similar to chroot(1), but more powerful since it fully virtualizes the file system hierarchy, as well as the process tree, the various IPC subsystems and the host and domain name...
 
 In this talk, I'll go over what all of this means, how to use systemd-nspawn and how nspawn differs from docker, lxc/lxd and qemu-kvm. I'll discuss how to use the systemd-nspawn and machinectl commands, how to run services inside containers and how to introspect the containers.
 
