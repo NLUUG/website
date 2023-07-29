@@ -130,7 +130,7 @@ event_schedule:
       talk:
         speaker: Reinoud van Leeuwen
         title: Built-in security in an agile online software development environment
-        link:
+        link: talks/reinoud-van-leeuwen-built-in-security-in-an-agile-online-software-development-environment/
   - row:
     columns:
     - column:
@@ -157,7 +157,7 @@ event_schedule:
       talk:
         speaker: Robert Altnoeder
         title: Software Defined Storage the Linux way
-        link:
+        link: talks/robert-altnoeder-software-defined-storage-the-linux-way/
     - column:
       talk:
         speaker: Kashyap Chamarthy
@@ -213,12 +213,12 @@ event_schedule:
       talk:
         speaker: Suzanne Daniels
         title: From Clippy to Kernel
-        link:
+        link: talks/suzanne-daniels-from-clippy-to-kernel/
     - column:
       talk:
         speaker: Rudi van Drunen
         title: "CI/CD in a modern world"
-        link:
+        link: talks/rudi-van-drunen-ci-cd-in-a-modern-world/
   - row:
     columns:
     - column:
