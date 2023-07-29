@@ -162,18 +162,19 @@ event_schedule:
         title: Secure your Networks with the Opensource Firewall pfSense
         link:    
     - column:
-      talk:
-        speaker: Kees Meijs
-        title: "Cloud construction at Nefos"
-        link: 
-      talk:
-        speaker: 
-        title: 
-        link: 
-      talk:
-        speaker: René Ladan
-        title: "Decoding the DCF77 time signal on a Raspberry Pi"
-        link: 
+      talks:
+        talk:
+          speaker: Kees Meijs
+          title: "Cloud construction at Nefos"
+          link: 
+        talk:
+          speaker: 
+          title: 
+          link: 
+        talk:
+          speaker: René Ladan
+          title: "Decoding the DCF77 time signal on a Raspberry Pi"
+          link: 
     - column:
       talk:
         speaker: Slawek Wojtczak
