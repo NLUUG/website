@@ -152,7 +152,6 @@ event_schedule:
       center: true
       size: 3
   - row:
-    size: 3
     columns:
     - column:
       time: 14:00
@@ -162,27 +161,31 @@ event_schedule:
         title: Secure your Networks with the Opensource Firewall pfSense
         link:    
     - column:
-      talks:
-        talk:
-          speaker: Kees Meijs
-          title: "Cloud construction at Nefos"
-          link: 
-        talk:
-          speaker: 
-          title: 
-          link: 
-        talk:
-          speaker: René Ladan
-          title: "Decoding the DCF77 time signal on a Raspberry Pi"
-          link: 
-    - column:
+      talk:
+        speaker: Kees Meijs
+        title: "Cloud construction at Nefos"
+        link: 
       talk:
         speaker: Slawek Wojtczak
         title: ZFS Boot Environments
         link: 
+  - row:
+    columns:
+    - column:
+      time: 14:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 14:00
+    - column:
       talk:
-        speaker: 
-        title: 
+        title: Vervolg talk Hagen Bauer
+        link:    
+      talk:
+        speaker: René Ladan
+        title: "Decoding the DCF77 time signal on a Raspberry Pi"
         link: 
       talk:
         speaker: Arjan Widlak
@@ -191,31 +194,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 14:15
-    - column:
-      size: 3
-  - row:
-    columns:
-    - column:
-      time: 14:20
-    - column:
-      talk:
-        speaker: Sebastian Österlund
-        title: "RIDL: Rogue In-Flight Data Load"
-        link: talks/sebastian-osterlund-ridl-rogue-in-flight-data-load/
-    - column:
-      talk:
-        speaker: Debarshi Basak
-        title: Next generation app security and mitigation for Lawfirms
-        link: talks/debarshi-basak-next-generation-app-security-and-mitigation-for-lawfirms/
-    - column:
-      talk:
-        speaker: Anco Scholte ter Horst
-        title: XS4ALL Moet Blijven
-  - row:
-    columns:
-    - column:
-      time: 15:05
+      time: 15:35
     - column:
       textfield:
         text: Koffiepauze
@@ -224,65 +203,14 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 15:30
-    - column:
-      talk:
-        speaker: Wim ten Have
-        title: What does vNUMA actually mean?
-        link: talks/wim-ten-have-what-does-vnuma-actually-mean/
-    - column:
-      talk:
-        speaker: Carlo Berto
-        title: An update on RPKI
-        link: talks/carlo-berto-an-update-on-rpki/
-    - column:
-      talk:
-        speaker: Michiel Leenaars
-        title: The Commons Conservancy
-        link: talks/michiel-leenaars-the-commons-conservancy/
+      time: 16:00
   - row:
     columns:
     - column:
-      time: 16:15
-    - column:
-      size: 3
-  - row:
-    columns:
-    - column:
-      time: 16:20
-    - column:
-      talk:
-        speaker: Pieter Lexis
-        title: Running containers with systemd-nspawn
-        link: talks/peter-lexis-running-containers-with-systemd-nspawn/
-    - column:
-      talk:
-        speaker: Eric Verheul
-        title: Remote Document Encryption
-        link: talks/eric-verheul-remote-document-encryption/
-    - column:
-      talk:
-        speaker: Martin Geusebroek
-        title: Counter social engineering
-        link: talks/martin-geusebroek-counter-social-engineering/
-  - row:
-    columns:
-    - column:
-      time: 17:10
-    - column:
-      talk:
-        speaker: Edwin den Andel
-        title: Tales (Fails) from the trenches…
-        link: talks/edwin-van-andel-tales-fails-from-the-trenches/
-      center: true 
-      size: 3
-  - row:
-    columns:
-    - column:
-      time: 18:05
+      time: 17:35
     - column:
       textfield:
-        text: Borrel, gesponsord door Sue
+        text: Borrel, gesponsord door Snow
       center: true
       size: 3
 ---
