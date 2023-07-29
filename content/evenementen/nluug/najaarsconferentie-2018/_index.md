@@ -157,22 +157,35 @@ event_schedule:
     - column:
       time: 14:00
     - column:
-      rows:
-        row:
-        size: 3
-        talk:
-          speaker: Hagen Bauer
-          title: Secure your Networks with the Opensource Firewall pfSense
-          link:    
+      talk:
+        speaker: Hagen Bauer
+        title: Secure your Networks with the Opensource Firewall pfSense
+        link:    
     - column:
       talk:
-        speaker: Bram Cappers
-        title: "Eventpad: Cybercrime Analysis Using Visual Analytics"
-        link: talks/bram-cappers-eventpad-cybercrime-analysis-using-visual-analytics/
+        speaker: Kees Meijs
+        title: "Cloud construction at Nefos"
+        link: 
+      talk:
+        speaker: 
+        title: 
+        link: 
+      talk:
+        speaker: René Ladan
+        title: "Decoding the DCF77 time signal on a Raspberry Pi"
+        link: 
     - column:
       talk:
-        speaker: Koen de Jonge
-        title: Community Hosted Open Source Infrastructure
+        speaker: Slawek Wojtczak
+        title: ZFS Boot Environments
+        link: 
+      talk:
+        speaker: 
+        title: 
+        link: 
+      talk:
+        speaker: Arjan Widlak
+        title: The Digital Cage
         link: 
   - row:
     columns:
