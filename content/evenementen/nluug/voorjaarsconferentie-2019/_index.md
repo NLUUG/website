@@ -124,7 +124,7 @@ event_schedule:
       talk:
         speaker: Joost van Dijk
         title: FIDO2 and Web Authentication
-        link:
+        link: talks/joost-van-dijk-fido2-and-web-authentication/
     - column:
       talk:
         speaker: Reinoud van Leeuwen
@@ -166,7 +166,7 @@ event_schedule:
       talk:
         speaker: Esther Crabbendam
         title: Protection of data, privacy and online freedom in a fast changing world
-        link:
+        link: talks/esther-crabbendam-protection-of-data-privacy-and-online-freedom-in-a-fast-changing-world/
   - row:
     columns:
     - column:
