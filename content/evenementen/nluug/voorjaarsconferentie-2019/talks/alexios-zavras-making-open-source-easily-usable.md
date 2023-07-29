@@ -5,8 +5,6 @@ date: 2019-05-23T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- owncloud
-- nextcloud
 title: "Alexios Zavras - Making Open Source Easily Usable"
 speakers:
 - alexios-zavras

@@ -5,8 +5,8 @@ date: 2019-05-23T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- owncloud
-- nextcloud
+- grav
+- cms
 title: "Andy Miller - Quickly build a personal resume site with Grav, a modern flat-file open source CMS"
 speakers:
 - andy-miller

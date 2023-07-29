@@ -5,8 +5,10 @@ date: 2019-05-23T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- owncloud
-- nextcloud
+- kubernetes
+- kube-hunter
+- kube-bench
+- microscanner
 title: "Amir Jerbi - Keeping your Kubernetes secured using kube-hunter, kube-bench and microscanner GitHub"
 speakers:
 - amir-jerbi
