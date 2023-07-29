@@ -102,6 +102,7 @@ event_schedule:
       talk:
         speaker: Maxim Burgerhout
         title: End-to-end automation with Ansible
+        link: talks/maxim-burgerhout-end-to-end-automation-with-ansible/
     - column:
       talk:
         speaker: Brian Joseph
@@ -161,7 +162,7 @@ event_schedule:
       talk:
         speaker: Kashyap Chamarthy
         title: Effective Virtual CPU Configuration with QEMU and libvirt
-        link:
+        link: talks/kashyap-chamarthy-effective-virtual-cpu-configuration-with-qemu-and-libvirt/
     - column:
       talk:
         speaker: Esther Crabbendam
@@ -184,6 +185,7 @@ event_schedule:
       talk:
         speaker: Olivier Lambert
         title: "XCP-ng: building an Open Source and turnkey virtualization platform"
+        link: talks/olivier-lambert-xcp-ng-building-an-open-source-and-turnkey-virtualization-platform/
     - column:
       talk:
         speaker: Alexios Zavras
