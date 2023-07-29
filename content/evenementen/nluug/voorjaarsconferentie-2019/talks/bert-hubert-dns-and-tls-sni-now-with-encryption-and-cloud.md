@@ -1,7 +1,7 @@
 ---
 categories:
 - presentaties
-date: 2023-07-03T10:31:43+02:00
+date: 2019-05-23T10:31:43+02:00
 description: "Een presentatie gegeven door Bert Hubert over DNS en TLS SNI zoals het gebruik van DNS over TLS (DoT) en DNS over HTTPS (DoH)."
 layout: event-talk
 tags:

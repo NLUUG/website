@@ -1,7 +1,7 @@
 ---
 categories:
 - presentaties
-date: 2023-07-03T10:31:43+02:00
+date: 2019-05-23T10:31:43+02:00
 description: "Een presentatie gegeven door Mike Hulsman over de FTP-server van de NLUUG. Over de geschiedenis van deze dienst en hoe operationeel beheer in zijn werk gaat."
 layout: event-talk
 tags:
@@ -9,6 +9,11 @@ tags:
 title: "Mike Hulsman - The NLUUG FTP server"
 speakers:
 - mike-hulsman
+presentation:
+  filename: 2019-05-23-mike-hulsman-the-nluug-ftp-server.pdf
+recording:
+  platform: youtube
+  url: https://www.youtube.com/watch?v=eVstCesOF_U
 ---
 
 ## Abstract

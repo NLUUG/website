@@ -3,7 +3,7 @@ categories:
 - conferenties
 - evenementen
 date: 2019-05-23T16:08:58+02:00
-description: "De NLUUG najaarsconferentie werd gehouden op donderdag 21 november 2019 in het Van der Valk Hotel Utrecht."
+description: "De NLUUG voorjaarsconferentie werd gehouden op donderdag 23 mei 2019 in het Van der Valk Hotel Utrecht."
 is_event: true
 tags:
 - conferenties
@@ -77,7 +77,7 @@ event_schedule:
         speaker: Frank Karlitschek
         title: "ownCloud/nextCloud, Why I forked my own project and my own company"
         keynote: true
-        link:
+        link: talks/frank-karlitschek-owncloud-nextcloud-why-i-forked-my-own-project-and-my-own-company/
       center: true
       size: 3
   - row:
