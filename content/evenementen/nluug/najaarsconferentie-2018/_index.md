@@ -165,6 +165,7 @@ event_schedule:
         speaker: Kees Meijs
         title: "Cloud construction at Nefos"
         link: 
+    - column:
       talk:
         speaker: Slawek Wojtczak
         title: ZFS Boot Environments
@@ -178,15 +179,17 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 14:00
+      time: 14:50
     - column:
       talk:
         title: Vervolg talk Hagen Bauer
-        link:    
+        link:
+    - column:    
       talk:
         speaker: René Ladan
         title: "Decoding the DCF77 time signal on a Raspberry Pi"
         link: 
+    - column:
       talk:
         speaker: Arjan Widlak
         title: The Digital Cage
