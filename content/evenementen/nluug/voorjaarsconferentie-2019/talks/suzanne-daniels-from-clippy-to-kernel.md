@@ -25,6 +25,6 @@ In this talk I’ll be sharing more on the Microsoft Open Source journey and we�
 
 ## Biography
 
-Suzanne recently celebrated her 20th year working in IT. This in a variety of roles ranging from developer, linux consultant to architect. Now knowing this, you might not be surprised that her motto is “Do what you love”. She’s very passionate about her family, technology, and diversity   inclusion.
+Suzanne recently celebrated her 20th year working in IT. This in a variety of roles ranging from developer, linux consultant to architect. Now knowing this, you might not be surprised that her motto is “Do what you love”. She’s very passionate about her family, technology, and diversity inclusion.
 
 Recently she joined the Microsoft partner organization as Technology Strategist, helping partners and customers do great things with Azure. Her focus areas are Open Source, App modernization and Developer productivity.
