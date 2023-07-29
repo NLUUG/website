@@ -6,7 +6,7 @@ description: ""
 layout: event-talk
 tags:
 - ci-cd
-title: "Rudi van Drunen - CI CD in a Modern World"
+title: "Rudi van Drunen - CI/CD in a Modern World"
 speakers:
 - rudi-van-drunen
 presentation: 
@@ -20,7 +20,7 @@ recording:
 
 In order to accelerate the process of adding business value a continuous deployment and integration setup is needed nowadays.
 
-In this talk we discuss the way a CI CD environment can be set up using modern tools and a cloud centric approach, based on dockers that are automatically deployed within a kubernetes cluster after each commit to a source repo. All steps to create a running CI CD environment aka. the software production line will be shown and demo-ed. The resulting pipeline can be run on serveral open and closed platforms.
+In this talk we discuss the way a CI/CD environment can be set up using modern tools and a cloud centric approach, based on dockers that are automatically deployed within a kubernetes cluster after each commit to a source repo. All steps to create a running CI/CD environment aka. the software production line will be shown and demo-ed. The resulting pipeline can be run on serveral open and closed platforms.
 
 ## Biography
 
