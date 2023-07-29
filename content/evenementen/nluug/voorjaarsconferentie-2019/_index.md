@@ -97,7 +97,7 @@ event_schedule:
       talk:
         speaker: Andy Miller
         title: Quickly build a personal resume site with Grav, a modern flat-file open source CMS
-        link:
+        link: talks/andy-miller-quickly-build-a-personal-resume-site-with-grav-a-modern-flat-file-open-source-cms/
     - column:
       talk:
         speaker: Maxim Burgerhout
@@ -188,6 +188,7 @@ event_schedule:
       talk:
         speaker: Alexios Zavras
         title: Making Open Source Easily Usable
+        link: talks/alexios-zavras-making-open-source-easily-usable/
   - row:
     columns:
     - column:
@@ -205,6 +206,7 @@ event_schedule:
       talk:
         speaker: Amir Jerbi
         title: Keeping your Kubernetes secured using kube-hunter, kube-bench and microscanner
+        link: talks/amir-jerbi-keeping-your-kubernetes-secured-using-kube-hunter-kube-bench-and-microscanner-github/
     - column:
       talk:
         speaker: Suzanne Daniels
