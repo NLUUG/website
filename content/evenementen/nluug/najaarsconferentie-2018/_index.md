@@ -244,7 +244,7 @@ event_schedule:
     - column:
       talk:
         speaker: Ben Gras
-        title: TLBleed: When Protecting Your CPU Caches is Not Enough
+        title: "TLBleed: When Protecting Your CPU Caches is Not Enough"
         link: 
   - row:
     columns:
