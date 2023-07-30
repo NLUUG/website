@@ -3,7 +3,7 @@ categories:
 - conferenties
 - evenementen
 date: 2018-11-15T16:08:58+02:00
-description: "De NLUUG najaarsconferentie werd gehouden op donderdag 15 november 2018 in het Van der Valk Hotel Utrecht."
+description: "De NLUUG najaarsconferentie heeft plaatsgevonden op donderdag 15 november 2018 in het Van der Valk Hotel Utrecht."
 is_event: true
 tags:
 - conferenties
@@ -209,7 +209,7 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker: Sylvia van Os, Thijs van der Gugten en Tom Scholten
+        speaker: "Sylvia van Os, Thijs van der Gugten en Tom Scholten"
         title: Saltstack workshop
         link:    
     - column:
@@ -234,7 +234,7 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        title: Vervolg workshop Sylvia van Os, Thijs van der Gugten en Tom Scholten
+        title: "Vervolg workshop Sylvia van Os, Thijs van der Gugten en Tom Scholten"
         link:
     - column:    
       talk:
