@@ -150,7 +150,6 @@ event_schedule:
     - column:
       textfield:
         text: NLUUG Algemene Ledenvergadering (ALV)
-        link: https://leden.nluug.nl/leden/alv/2018vj/
       center: true
     - column:
   - row:
