@@ -2,19 +2,24 @@
 categories:
 - conferenties
 - evenementen
-date: 2018-11-15T16:08:58+02:00
-description: "De NLUUG najaarsconferentie werd gehouden op donderdag 15 november 2018 in het Van der Valk Hotel Utrecht."
+date: 2018-05-15T20:17:47+02:00
+description: "De NLUUG voorjaarsconferentie heeft plaatsgevonden op dinsdag 11 mei 2018. Bekijk hier het programma, de presentaties, opnames en foto's."
 is_event: true
 tags:
 - conferenties
 slug:
-title: "NLUUG najaarsconferentie 2018"
+title: "NLUUG voorjaarsconferentie 2018"
 layout: schedule-event
-event_title: "NLUUG najaarsconferentie 2018"
-event_start: 2018-11-15T08:30:00+02:00
-event_end: 2018-11-15T18:00:00+02:00
+event_title: "NLUUG voorjaarsconferentie 2018"
+event_start: 2018-05-15T08:30:00+02:00
+event_end: 2018-05-15T18:00:00+02:00
 event_timezone: Europe/Amsterdam
 event_location: Van der Valk Hotel Utrecht
+event_address:
+  street_address: "Winthontlaan 4-6"
+  postal_code: "3526 KV"
+  city: "Utrecht"
+  country_name: "The Netherlands"
 event_organizers:
 - organizer:
   id: nluug
@@ -22,17 +27,13 @@ event_organizers:
 event_attendance_mode: "offline"
 event_images:
 - /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
-event_description: "Najaarsconferentie 2018 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
-event_address:
-  street_address: "Winthontlaan 4-6"
-  postal_code: "3526 KV"
-  city: "Utrecht"
-  country_name: "The Netherlands"
+event_description: "Voorjaarsconferentie 2018 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_members_only: true
+event_register_link: "https://nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
 event_schedule:
   title: Programma
-  description: 
+  description:
   columns: 4
   headers:
   - header:
@@ -74,8 +75,8 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker: John Yani Arrasjid
-        title: "Cloud Evolution and Revolution: Catering for Mission Critical Workloads"
+        speaker: 
+        title: ""
         keynote: true
         link: 
       center: true
@@ -95,19 +96,19 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker: Pieter Jenniskens
-        title: "Microservices, containers and Kubernetes"
-        link: 
+        speaker: Jan Ainali
+        title: Introduction to public code
+        link: talks/jan-ainali-introduction-to-public-code/
     - column:
       talk:
-        speaker: Jan-Piet Mens
-        title: The Story of OwnTracks
-        link: 
+        speaker: Tamara Brandt
+        title: What's OPEN about data protection? About privacy and data protection from a legal perspective
+        link: talks/tamara-brandt-what-is-open-about-data-protection/
     - column:
       talk:
-        speaker: Martijn van Lom
-        title: "Fragile cyber-world: will fragmentation kill cybersecurity?"
-        link: 
+        speaker: Nicole Wajer
+        title: Wat hebben IPv6 en broccoli gemeenschappelijk
+        link: talks/nicole-wajer-wat-hebben-ipv6-en-broccoli-gemeenschappelijk/
   - row:
     columns:
     - column:
@@ -120,19 +121,19 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker: Olaf Molenveld
-        title: "How to use smart canary releasing for containers to increase velocity and reduce issues"
-        link: 
+        speaker: Maarten Aertsen
+        title: "The EU regulating (open source) software: the proposed Cyber Resilience Act"
+        link: talks/maarten-aertsen-eu-regulating-open-source-software-proposed-cyber-resilience-act/
     - column:
       talk:
-        speaker: Dag Wieers
-        title: "Managing complex infrastructure in lab environments using Ansible"
-        link: 
+        speaker: Paul Reuvers en Marc Simons
+        title: Operation Rubicon (How CIA and BND took over CryptoAG)
+        link: talks/paul-reuvers-en-marc-simons-operation-rubicon/
     - column:
       talk:
-        speaker: Tom Tervoort
-        title: "The road to TLS 1.3"
-        link: 
+        speaker: Peter van Eijk
+        title: Cloud is here to stay
+        link: talks/peter-van-eijk-cloud-is-here-to-stay/
   - row:
     columns:
     - column:
@@ -145,31 +146,33 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 13:15
+      time: 13:10
+    - column:
     - column:
       textfield:
-        text: NLUUG ALV
+        text: NLUUG Algemene Ledenvergadering (ALV)
+        link: https://leden.nluug.nl/leden/alv/2023vj/
       center: true
-      size: 3
+    - column:
   - row:
     columns:
     - column:
       time: 14:00
     - column:
       talk:
-        speaker: Hagen Bauer
-        title: Secure your Networks with the Opensource Firewall pfSense
-        link:    
+        speaker: Ed Schouten
+        title: "Buildbarn: a distributed build cluster"
+        link: talks/ed-schouten-buildbarn-a-distributed-build-cluster/
     - column:
       talk:
-        speaker: Kees Meijs
-        title: "Cloud construction at Nefos"
-        link: 
+        speaker: Rix Groenboom
+        title: "Validation of AI: Towards a Driving Exam for OpenPilot"
+        link: talks/rix-groenboom-validation-of-ai-towards-a-driving-exam-for-openpilot/
     - column:
       talk:
-        speaker: Slawek Wojtczak
-        title: ZFS Boot Environments
-        link: 
+        speaker: Björn Wijers
+        title: Kom voor de Hersenspoeling en help in De Digitale Spoelkeuken
+        link: talks/bjorn-wijers-kom-voor-de-hersenspoeling-en-help-in-de-digitale-spoelkeuken/
   - row:
     columns:
     - column:
@@ -182,18 +185,19 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        title: Vervolg talk Hagen Bauer
-        link:
-    - column:    
-      talk:
-        speaker: René Ladan
-        title: "Decoding the DCF77 time signal on a Raspberry Pi"
-        link: 
+        speaker: Jesse Lourens
+        title: SBOM, an overview
+        link: talks/jesse-lourens-sbom-an-overview/
     - column:
       talk:
-        speaker: Arjan Widlak
-        title: The Digital Cage
-        link: 
+        speaker: Sander Raaijmakers en Leo Rozendaal
+        title: Connectivity Standards Alliance - Zigbee Direct and Matter
+        link: talks/sander-raaijmakers-en-leo-rozendaal-connectivity-standards-alliance-zigbee-direct-and-matter/
+    - column:
+      talk:
+        speaker: Jan-Piet Mens
+        title: "Ansible: it's a fact"
+        link: talks/jan-piet-mens-ansible-it-is-a-fact/
   - row:
     columns:
     - column:
@@ -209,19 +213,19 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker: Sylvia van Os, Thijs van der Gugten en Tom Scholten
-        title: Saltstack workshop
-        link:    
+        speaker: Cristian Hesselman
+        title: Increasing Internet security by bridging research and operations
+        link: talks/cristian-hesselman-increasing-internet-security-by-bridging-research-and-operations/
     - column:
       talk:
-        speaker: Benjamin Martin
-        title: "FileSender: Sharing large files across research facilities"
-        link: 
+        speaker: Walter Belgers
+        title: Mijn avonturen met het Anker magneetslot
+        link: talks/walter-belgers-mijn-avonturen-met-het-anker-magneetslot/
     - column:
       talk:
-        speaker: Mischa Peters
-        title: What Every Security Professional Should Know About the Dark Web
-        link: 
+        speaker: Harm van Stekelenburg
+        title: PubHubs, a community network based on public values
+        link: talks/harm-van-stekelenburg-pubhubs-a-community-network-based-on-public-values/
   - row:
     columns:
     - column:
@@ -234,25 +238,26 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        title: Vervolg workshop Sylvia van Os, Thijs van der Gugten en Tom Scholten
-        link:
-    - column:    
-      talk:
-        speaker: Mike Ciavarella
-        title: "Shaved Yaks: Saving an Endangered Species"
-        link: 
+        speaker: Paul Möller en Jan Willem Brandenburg
+        title: Dissect - The open-source framework for large-scale host investigations
+        link: talks/paul-moller-en-jan-willem-brandenburg-dissect/
     - column:
       talk:
-        speaker: Ben Gras
-        title: TLBleed: When Protecting Your CPU Caches is Not Enough
-        link: 
+        speaker: Bert Hubert
+        title: Deep learning totally from scratch
+        link: talks/bert-hubert-deep-learning-totally-from-scratch/
+    - column:
+      talk:
+        speaker: Frans Schippers
+        title: Inspecting TLS
+        link: talks/frans-schippers-inspecting-tls/
   - row:
     columns:
     - column:
-      time: 17:35
+      time: 17:55
     - column:
       textfield:
-        text: Borrel, gesponsord door Snow
+        text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
 ---
