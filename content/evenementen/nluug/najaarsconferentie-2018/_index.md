@@ -8,7 +8,7 @@ is_event: true
 tags:
 - conferenties
 slug:
-title: "NLUUG najaarsconferentie 2018"
+title: "NLUUG najaarsconferentie 2018 TEST"
 layout: schedule-event
 event_title: "NLUUG najaarsconferentie 2018"
 event_start: 2018-11-15T08:30:00+02:00
