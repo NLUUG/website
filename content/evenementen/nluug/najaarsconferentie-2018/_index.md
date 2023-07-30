@@ -207,6 +207,45 @@ event_schedule:
     columns:
     - column:
       time: 16:00
+    - column:
+      talk:
+        speaker: Sylvia van Os, Thijs van der Gugten en Tom Scholten
+        title: Saltstack workshop
+        link:    
+    - column:
+      talk:
+        speaker: Benjamin Martin
+        title: "FileSender: Sharing large files across research facilities"
+        link: 
+    - column:
+      talk:
+        speaker: Mischa Peters
+        title: What Every Security Professional Should Know About the Dark Web
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 16:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 16:50
+    - column:
+      talk:
+        title: Vervolg workshop Sylvia van Os, Thijs van der Gugten en Tom Scholten
+        link:
+    - column:    
+      talk:
+        speaker: Mike Ciavarella
+        title: "Shaved Yaks: Saving an Endangered Species"
+        link: 
+    - column:
+      talk:
+        speaker: Ben Gras
+        title: TLBleed: When Protecting Your CPU Caches is Not Enough
+        link: 
   - row:
     columns:
     - column:
