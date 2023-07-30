@@ -75,8 +75,8 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker: 
-        title: ""
+        speaker: Bill Cheswick
+        title: "Some Thoughts on Current Security Topics, and Their Eventual Mitigation"
         keynote: true
         link: 
       center: true
@@ -96,19 +96,19 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker: Jan Ainali
-        title: Introduction to public code
-        link: talks/jan-ainali-introduction-to-public-code/
+        speaker: Jeroen Janssens
+        title: Workshop Data Science with UNIX Power Tools
+        link: 
     - column:
       talk:
-        speaker: Tamara Brandt
-        title: What's OPEN about data protection? About privacy and data protection from a legal perspective
-        link: talks/tamara-brandt-what-is-open-about-data-protection/
+        speaker: Klaas van Gend
+        title: The backgrounds of Meltdown and Spectre
+        link: 
     - column:
       talk:
-        speaker: Nicole Wajer
-        title: Wat hebben IPv6 en broccoli gemeenschappelijk
-        link: talks/nicole-wajer-wat-hebben-ipv6-en-broccoli-gemeenschappelijk/
+        speaker: Alec Muffett
+        title: "Setting-up a .Onion address for your Website"
+        link: 
   - row:
     columns:
     - column:
@@ -121,19 +121,18 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker: Maarten Aertsen
-        title: "The EU regulating (open source) software: the proposed Cyber Resilience Act"
-        link: talks/maarten-aertsen-eu-regulating-open-source-software-proposed-cyber-resilience-act/
+        title: Vervolg workshop Jeroen Janssens
+        link: 
     - column:
       talk:
-        speaker: Paul Reuvers en Marc Simons
-        title: Operation Rubicon (How CIA and BND took over CryptoAG)
-        link: talks/paul-reuvers-en-marc-simons-operation-rubicon/
+        speaker: David Woodhouse
+        title: Mitigating Spectre and Meltdown vulnerabilities
+        link: 
     - column:
       talk:
-        speaker: Peter van Eijk
-        title: Cloud is here to stay
-        link: talks/peter-van-eijk-cloud-is-here-to-stay/
+        speaker: Melanie Rieback
+        title: Pentesting Chatops
+        link: 
   - row:
     columns:
     - column:
@@ -146,12 +145,12 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 13:10
+      time: 13:15
     - column:
     - column:
       textfield:
         text: NLUUG Algemene Ledenvergadering (ALV)
-        link: https://leden.nluug.nl/leden/alv/2023vj/
+        link: https://leden.nluug.nl/leden/alv/2018vj/
       center: true
     - column:
   - row:
@@ -160,19 +159,19 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker: Ed Schouten
-        title: "Buildbarn: a distributed build cluster"
-        link: talks/ed-schouten-buildbarn-a-distributed-build-cluster/
+        speaker: Franklin Hu
+        title: "Kubernetes Cron Jobs: Going from Alpha to Production"
+        link: 
     - column:
       talk:
-        speaker: Rix Groenboom
-        title: "Validation of AI: Towards a Driving Exam for OpenPilot"
-        link: talks/rix-groenboom-validation-of-ai-towards-a-driving-exam-for-openpilot/
+        speaker: James Bottomley
+        title: "Enhancing Linux Security with the TPM"
+        link: 
     - column:
       talk:
-        speaker: Björn Wijers
-        title: Kom voor de Hersenspoeling en help in De Digitale Spoelkeuken
-        link: talks/bjorn-wijers-kom-voor-de-hersenspoeling-en-help-in-de-digitale-spoelkeuken/
+        speaker: Walter Belgers
+        title: Gigatron TTL Computer
+        link: 
   - row:
     columns:
     - column:
@@ -185,19 +184,19 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker: Jesse Lourens
-        title: SBOM, an overview
-        link: talks/jesse-lourens-sbom-an-overview/
+        speaker: Oleg Ivanivskyi
+        title: "Zabbix: 4.0 Seasons of monitoring"
+        link: 
     - column:
       talk:
-        speaker: Sander Raaijmakers en Leo Rozendaal
-        title: Connectivity Standards Alliance - Zigbee Direct and Matter
-        link: talks/sander-raaijmakers-en-leo-rozendaal-connectivity-standards-alliance-zigbee-direct-and-matter/
+        speaker: Adrianus Warmenhoven
+        title: Port Knocking
+        link: 
     - column:
       talk:
-        speaker: Jan-Piet Mens
-        title: "Ansible: it's a fact"
-        link: talks/jan-piet-mens-ansible-it-is-a-fact/
+        speaker: Kevin McPeake
+        title: "Rise of the WarriorPI's"
+        link: 
   - row:
     columns:
     - column:
@@ -213,19 +212,19 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker: Cristian Hesselman
-        title: Increasing Internet security by bridging research and operations
-        link: talks/cristian-hesselman-increasing-internet-security-by-bridging-research-and-operations/
+        speaker: Ralph Dolmans en Martin Hoffmann
+        title: "DNSSEC: Rollin', Rollin', Rollin'"
+        link: 
     - column:
       talk:
-        speaker: Walter Belgers
-        title: Mijn avonturen met het Anker magneetslot
-        link: talks/walter-belgers-mijn-avonturen-met-het-anker-magneetslot/
+        speaker: Rogier Spoor
+        title: "Let's Connect - Open Source VPN Solution"
+        link: 
     - column:
       talk:
-        speaker: Harm van Stekelenburg
-        title: PubHubs, a community network based on public values
-        link: talks/harm-van-stekelenburg-pubhubs-a-community-network-based-on-public-values/
+        speaker: Ilja van Sprundel
+        title: Are all BSDs created equally?
+        link: 
   - row:
     columns:
     - column:
@@ -238,26 +237,26 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        speaker: Paul Möller en Jan Willem Brandenburg
-        title: Dissect - The open-source framework for large-scale host investigations
-        link: talks/paul-moller-en-jan-willem-brandenburg-dissect/
+        speaker: Willem Westerhof
+        title: Beveiliging van PV-installaties
+        link: 
     - column:
       talk:
-        speaker: Bert Hubert
-        title: Deep learning totally from scratch
-        link: talks/bert-hubert-deep-learning-totally-from-scratch/
+        speaker: Howard Chu
+        title: Inside Monero - The worlds first fungible cryptocurrency
+        link: 
     - column:
       talk:
-        speaker: Frans Schippers
-        title: Inspecting TLS
-        link: talks/frans-schippers-inspecting-tls/
+        speaker: Nanako Momiyama
+        title: IP Forwarding Fastpath on FreeBSD
+        link: 
   - row:
     columns:
     - column:
-      time: 17:55
+      time: 17:35
     - column:
       textfield:
-        text: Borrel, gesponsord door AT Computing
+        text: Borrel, gesponsord door SNOW
       center: true
       size: 3
 ---
