@@ -10,7 +10,7 @@ tags:
 title: "Bram Molenaar overleden"
 ---
 
-Met droefheid hebben we [kennis genomen](https://groups.google.com/g/vim_announce/c/tWahca9zkt4) van het overlijden van Bram Molenaar op 3 augustus 2023. Hij was naast penningmeester en bestuurslid binnen de NLUUG, de auteur van vim(1), een editor die velen van ons nog op dagelijkse basis gebruiken.
+Met droefheid hebben we [kennis genomen](https://groups.google.com/g/vim_announce/c/tWahca9zkt4) van het overlijden van Bram Molenaar op 3 augustus 2023. Hij was naast penningmeester en bestuurslid binnen de NLUUG, de auteur van [vim](https://www.vim.org/)(1), een editor die velen van ons nog op dagelijkse basis gebruiken.
 
 Bram ontving in 2008 de NLUUG Award voor zijn bijdragen aan de open source community. Een icoon in de open source wereld en helaas veel te vroeg overleden. Door zijn werk zal hij echter blijven voortleven wanneer wij vim(1) opstarten.
 
