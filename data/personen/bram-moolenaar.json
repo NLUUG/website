@@ -1,6 +1,7 @@
 {
   "id": "bram-molenaar",
   "name": "Bram Moolenaar",
+  "death_date": "2023-08-03",
   "email": "",
   "gender": "male",
   "nationality": "Dutch",
@@ -10,14 +11,5 @@
     "id": 1,
     "name": "Bram's persoonlijke pagina",
     "url": "https://moolenaar.net"
-  }],
-  "social": {
-    "facebook": "",
-    "github": "",
-    "instagram": "",
-    "linkedin": "",
-    "mastodon": "",
-    "mastodon_url": "",
-    "twitter": ""
-  }
+  }]
 }
