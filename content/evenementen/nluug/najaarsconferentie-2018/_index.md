@@ -76,9 +76,8 @@ event_schedule:
       talk:
         speaker: John Yani Arrasjid
         title: "Cloud Evolution and Revolution: Catering for Mission Critical Workloads"
-        link: talks/john-arrasjid-cloud-evolution-and-revolution/
         keynote: true
-        link: 
+        link: talks/john-arrasjid-cloud-evolution-and-revolution/
       center: true
       size: 3
   - row:
