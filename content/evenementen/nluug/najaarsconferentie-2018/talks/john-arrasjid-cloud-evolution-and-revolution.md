@@ -5,6 +5,8 @@ date: 2018-11-15T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
+- cloud
+- workloads
 title: "John Yani Arrasjid - Cloud Evolution and Revolution: Catering for Mission Critical Workloads"
 speakers:
 - john-yani-arrasjid

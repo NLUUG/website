@@ -160,7 +160,7 @@ event_schedule:
       talk:
         speaker: Hagen Bauer
         title: Secure your Networks with the Opensource Firewall pfSense
-        link:    
+        link: talks/hagen-bauer-secure-your-networks-with-the-opensource-firewall-pfsense/
     - column:
       talk:
         speaker: Kees Meijs
