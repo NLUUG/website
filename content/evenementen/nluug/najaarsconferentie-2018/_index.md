@@ -240,7 +240,7 @@ event_schedule:
       talk:
         speaker: Mike Ciavarella
         title: "Shaved Yaks: Saving an Endangered Species"
-        link: 
+        link: talks/mike-ciavarella-shaved-yaks-saving-an-endangered-species/
     - column:
       talk:
         speaker: Ben Gras
