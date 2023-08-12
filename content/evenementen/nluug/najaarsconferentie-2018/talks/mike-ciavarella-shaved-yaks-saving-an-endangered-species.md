@@ -25,7 +25,7 @@ Many of the decisions we make regarding automation are based on some combination
 
 This talk is about the decisions and assumptions behind automation, and, perhaps, why yak shaving needs to be preserved.
 
-Biography
+## Biography
 
 Mike has been working with UNIX since first gaining access to a BSD-based system in the late 1980s. After mastering the `oops(8)` and `restore(8)` commands, he gained a deep appreciation of the need to automate, and of the automation potential that is a fundamental part of UNIX and UNIX like systems.
 
