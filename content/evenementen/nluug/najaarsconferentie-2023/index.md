@@ -23,7 +23,7 @@ event_address:
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
 event_cfp_start_date: 2023-05-11
-event_cfp_close_date: 2023-09-28
+event_cfp_close_date: 2023-08-31
 event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2023/cfp
 event_description: "Najaarsconferentie 2023 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_images:
