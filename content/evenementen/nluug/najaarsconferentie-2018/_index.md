@@ -77,7 +77,7 @@ event_schedule:
         speaker: John Yani Arrasjid
         title: "Cloud Evolution and Revolution: Catering for Mission Critical Workloads"
         keynote: true
-        link: 
+        link: talks/john-arrasjid-cloud-evolution-and-revolution/
       center: true
       size: 3
   - row:
@@ -159,7 +159,7 @@ event_schedule:
       talk:
         speaker: Hagen Bauer
         title: Secure your Networks with the Opensource Firewall pfSense
-        link:    
+        link: talks/hagen-bauer-secure-your-networks-with-the-opensource-firewall-pfsense/
     - column:
       talk:
         speaker: Kees Meijs
@@ -240,7 +240,7 @@ event_schedule:
       talk:
         speaker: Mike Ciavarella
         title: "Shaved Yaks: Saving an Endangered Species"
-        link: 
+        link: talks/mike-ciavarella-shaved-yaks-saving-an-endangered-species/
     - column:
       talk:
         speaker: Ben Gras
