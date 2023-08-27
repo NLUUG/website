@@ -166,7 +166,7 @@ Tijdens onze PC-vergaderingen bespreken we de uitkomst van deze beoordelingen. I
 
 ### Bevestigen en afkeuren van inzendingen
 
-Als we positief gestemd zijn over een inzending gaan we over tot bevestiging. In dat geval kennen we een lid van de programmacommissie toe aan de spreker. Deze zal een bevestiging sturen naar de spreker. Hierbij introduceren ook ons organisatiebureau (Debbie). Het PC-lid blijft de schakel naar de programmacommissie en Debbie regelt de administratieve afhandeling, zoals een eventuele hotelovernachting, dieetwensen of andere voorkeuren. Bij deze twee contactpersonen kan de spreker terecht bij eventuele vragen.
+Als we positief gestemd zijn over een inzending gaan we over tot bevestiging. We versturen dan een bevestiging en introduceren [Debbie]({{< relref "organisatie/personen/debbie-reinders/index.md" >}}), die ons helpt met de organisatie van de evenementen. Hierbij valt de denken aan zaken zoals een eventuele hotelovernachting, dieetwensen of andere voorkeuren.
 
 Het kan natuurlijk ook gebeuren dat we minder enthousiast zijn over een inzending. In dat geval laten we dat ook weten en waar het kan met een korte onderbouwing. Als de inzending volgens ons een twijfelgeval is, kan het zijn dat we vragen om het abstract te herzien of zelfs een alternatief onderwerp te kiezen.
 
