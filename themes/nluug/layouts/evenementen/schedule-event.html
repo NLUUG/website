@@ -104,11 +104,14 @@
     <p>Waarschuwing: dit evenement mist gegevens zoals start en einddatum.</p>
   {{ end }}
 
-
-  <!-- TODO
-  <h2>Sprekers</h2>
-  Nog in te vullen
-  -->
+  {{ with .Params.event_talks }}
+    <h2>Talks</h2>
+    <ul>
+    {{ range $index, $element := . }}
+    {{ if not .hide }}<li>{{ .title }} ({{ .speakers }})</li>{{ end }}
+    {{ end }}
+    </ul>
+  {{ end }}
 
   <h2>Programma</h2>
 
