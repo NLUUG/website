@@ -9,14 +9,12 @@
         {{ if .Params.event_cfp_start_date }}
           {{ $event_cfp_start_date := .Params.event_cfp_start_date | time }}
           {{ if le now $event_cfp_start_date }}
-          <p>De Call for Proposals opent op {{ .Params.event_cfp_start_date | time.Format ":date_full" }}.</p>
+            <p>De Call for Proposals opent op {{ .Params.event_cfp_start_date | time.Format ":date_full" }}.</p>
           {{ else }}
-            {{ if .Params.event_cfp_end_date }}
-              {{ $event_cfp_end_date := .Params.event_cfp_end_date | time }}
-              {{ if ge now $event_cfp_end_date }}
-              <p>De Call for Proposals is gesloten na {{ $event_cfp_end_date }}. Mocht je toch nog een inzending hebben, neem dan contact op met de programmacommissie.</p>
-              {{ else }}
-              <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
+            {{ if .Params.event_cfp_close_date }}
+              {{ $event_cfp_close_date := .Params.event_cfp_close_date | time }}
+              {{ if le now $event_cfp_close_date }}
+                  <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
               {{ end }}
             {{ else }}
               <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>

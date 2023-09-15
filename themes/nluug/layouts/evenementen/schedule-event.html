@@ -1,38 +1,42 @@
 {{ define "main" }}
-  {{ $cfp_open := false }}
+  {{ .Scratch.Set "cfp_open" false }}
   <div>{{ .Content }}</div>
 
   {{ if isset .Params "event_start" }}
 
     {{ $event_start := .Params.event_start | time }}
     {{ if le now $event_start }}
-      {{ if .Params.event_cfp_link }}
+        {{ if .Params.event_cfp_link }}
+            {{ if .Params.event_cfp_start_date }}
+                {{ $event_cfp_start_date := .Params.event_cfp_start_date | time }}
+                {{ if .Params.event_cfp_close_date }}
+                    {{ $event_cfp_close_date := .Params.event_cfp_close_date | time }}
+                    {{ if ge now $event_cfp_start_date }}
+                      {{ if le now $event_cfp_close_date }}
+                          {{ .Scratch.Set "cfp_open" true }}
+                      {{ end }}
+                    {{ end }}
+                 {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ $cfp_open := .Scratch.Get "cfp_open" }}
+    {{ if $cfp_open }}
         <h2>Call for Proposals</h2>
         <p>Een goed programma is afhankelijk van sprekers met interessante lezingen. Wil je bijdragen aan dit programma, dan verwelkomen we graag je inzending(en)!</p>
         {{ if .Params.event_cfp_start_date }}
-          {{ $event_cfp_start_date := .Params.event_cfp_start_date | time }}
-          {{ if le now $event_cfp_start_date }}
-            <p>De Call for Proposals opent op {{ .Params.event_cfp_start_date | time.Format ":date_full" }}.</p>
-          {{ else }}
-            {{ if .Params.event_cfp_end_date }}
-              {{ $event_cfp_end_date := .Params.event_cfp_end_date | time }}
-              {{ if ge now $event_cfp_end_date }}
-              <p>De Call for Proposals is gesloten na {{ $event_cfp_end_date }}. Mocht je toch nog een inzending hebben, neem dan contact op met de programmacommissie.</p>
-              {{ else }}
-                <a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
-                {{ $cfp_open = true }}
-              {{ end }}
+            {{ $event_cfp_start_date := .Params.event_cfp_start_date | time }}
+            {{ if le now $event_cfp_start_date }}
+                <p>De Call for Proposals opent op {{ .Params.event_cfp_start_date | time.Format ":date_full" }}.</p>
             {{ else }}
-              <a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
-                {{ $cfp_open = true }}
+                {{ $event_cfp_close_date := .Params.event_cfp_close_date | time }}
+                {{ if ge now $event_cfp_close_date }}
+                    <p>De Call for Proposals is gesloten na {{ $event_cfp_close_date }}. Mocht je toch nog een inzending hebben, neem dan contact op met de programmacommissie.</p>
+                {{ else }}
+                    <a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
+                {{ end }}
             {{ end }}
-          {{ end }}
-        {{ else }}
-          <p>Fout: Er ontbreekt een datum wanneer de CFP open gaat (event_cfp_start).</p>
         {{ end }}
-      {{ else }}
-        <p>Fout: Er ontbreekt een link voor de Call for Proposals (event_cfp_link).</p>
-      {{ end }}
     {{ end }}
 
 
@@ -108,6 +112,7 @@
 
   <h2>Programma</h2>
 
+  {{ $cfp_open := .Scratch.Get "cfp_open" }}
   {{ if $cfp_open }}
     <p class="darkgreen">De CFP is geopend!</p>
     <p>Wil je graag een bepaalde spreker zien? Contacteer onze <a href="{{ relref . "organisatie/commissies/pc/index.md" }}">programmacommissie</a>.</p>
