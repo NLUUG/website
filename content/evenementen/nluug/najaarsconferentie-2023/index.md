@@ -240,53 +240,62 @@ event_schedule:
         text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
-event_speakers:
-- michael-boelen:
-  name: Michael Boelen
-- david-venhoek:
-  name: David Venhoek
-- geert-rolf:
-  name: Geert Rolf
-- jeroen-janssen:
-  name: Jeroen Janssen
-- jeroen-baten:
-  name: Jeroen Baten
-- fabian-groffen:
-  name: Fabian Groffen
-- kevin-keijzer:
-  name: Kevin Keijzer
-- arnoud-engelfriet:
-  name: Arnoud Engelfriet
-- eirik-overby:
-  name: Eirik Øverby
-- lukas-mocek:
-  name: Lukas Mocek
-- bart-van-den-akker:
-  name: Bart van den Akker
-- jan-jacob-pebesma:
-  name: Jan Jacob Pebesma
-- wouter-prins:
-  name: Wouter Prins
-- maxim-burgerhout:
-  name: Maxim Burgerhout
-- petr-pucil:
-  name: Petr Pucil
-- maja-reissner:
-  name: Maja Reissner
-- mendel-mobach:
-  name: Lord Mobach
-- lisette-meij:
-  name: Lisette Meij
-- frederic-loui:
-  name: Frederic LOUI
-- jan-sepp:
-  name: Jan Sepp
-- michael-boelen:
-  name: Michael Boelen
-- patrick-reijnen:
-  name: Patrick Reijnen
-- koen-van-hove:
-  name: Koen van Hove
+event_talks:
+- talk:
+  title: "Collaboration kills Competition"
+  speakers: Lukas Mocek
+- talk:
+  title: "De NLUUG ledenadministratie naar Open Source?"
+  speakers: Jan Sepp
+- talk:
+  title: "Defending the Democracy using BSD"
+  speakers: Jeroen Janssen
+  hide: true
+- talk:
+  title: "Energy System Simulation in the Cloud: ESSIM & ESDL-Mapeditor using Kubernetes & DevSecOps."
+  speakers: Jan Jacob Pebesma
+- talk:
+  title: "HomeComputerMuseum: What we are and how we share the history."
+  speakers: Bart van den Akker
+- talk:
+  title: "On FreeBSD, DDoS, and getting up from under the bus"
+  speakers: "Eirik Øverby"
+  hide: true
+- talk:
+  title: "Oops, we overhauled the website"
+  speakers: Michael Boelen en Patrick Reijnen
+- talk:
+  title: "Postgres on Kubernetes, the time is now!"
+  speakers: Maxim Burgerhout
+- talk:
+  title: "SPooFd: How to Spoof Mails, Even with Full SPF and DMARC Protection"
+  speakers: Koen van Hove
+  hide: true
+- talk:
+  title: "The CPU RootKit you probably don’t know about"
+  speakers: "Fabian Groffen en Kevin Keijzer"
+  hide: true
+- talk:
+  title: "The journey to opensource networking with OpenBSD @AS15693"
+  speakers: Wouter Prins
+  hide: true
+- talk:
+  title: "Time in the Network"
+  speakers: David Venhoek
+- talk:
+  title: "Tools for analyzing binary formats"
+  speakers: Petr Pucil
+- talk:
+  title: "UTX/32 and the art of fire breathing -- a long forgotten chapter in UNIX history"
+  speakers: Geert Rolf
+- talk:
+  title: "What if hacking were a sport?"
+  speakers: Maja Reissner
+  hide: true
+- talk:
+  title: "WOOt does the government do?"
+  speakers: "Lord Mobach, Lisette Meij en Maja Reissner"
+  hide: true
 ---
 
 We hebben vele inzendingen op onze Call for Proposals ontvangen. De programmacommissie heeft tijdens de selectie een zo gevarieerd mogelijk programma samengesteld. Schrijf je nu in!
