@@ -39,7 +39,7 @@ event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
 event_schedule:
   title: Programma
-  description: Alleen maar geweldige sprekers
+  description:
   columns: 4
   headers:
   - header:
@@ -240,8 +240,53 @@ event_schedule:
         text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
+event_speakers:
+- michael-boelen:
+  name: Michael Boelen
+- david-venhoek:
+  name: David Venhoek
+- geert-rolf:
+  name: Geert Rolf
+- jeroen-janssen:
+  name: Jeroen Janssen
+- jeroen-baten:
+  name: Jeroen Baten
+- fabian-groffen:
+  name: Fabian Groffen
+- kevin-keijzer:
+  name: Kevin Keijzer
+- arnoud-engelfriet:
+  name: Arnoud Engelfriet
+- eirik-overby:
+  name: Eirik Øverby
+- lukas-mocek:
+  name: Lukas Mocek
+- bart-van-den-akker:
+  name: Bart van den Akker
+- jan-jacob-pebesma:
+  name: Jan Jacob Pebesma
+- wouter-prins:
+  name: Wouter Prins
+- maxim-burgerhout:
+  name: Maxim Burgerhout
+- petr-pucil:
+  name: Petr Pucil
+- maja-reissner:
+  name: Maja Reissner
+- mendel-mobach:
+  name: Lord Mobach
+- lisette-meij:
+  name: Lisette Meij
+- frederic-loui:
+  name: Frederic LOUI
+- jan-sepp:
+  name: Jan Sepp
+- michael-boelen:
+  name: Michael Boelen
+- patrick-reijnen:
+  name: Patrick Reijnen
+- koen-van-hove:
+  name: Koen van Hove
 ---
 
-We zijn weer aan de slag voor de najaarsconferentie!
-
-Meer informatie volgt...
+We hebben vele inzendingen op onze Call for Proposals ontvangen. De programmacommissie heeft tijdens de selectie een zo gevarieerd mogelijk programma samengesteld. Schrijf je nu in!
