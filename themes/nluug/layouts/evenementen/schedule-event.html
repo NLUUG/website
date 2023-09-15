@@ -106,11 +106,14 @@
 
   {{ with .Params.event_talks }}
     <h2>Talks</h2>
+    <p>Onderstaand een voorproefje van de onderwerpen en sprekers die bevestigd zijn.</p>
     <ul>
     {{ range $index, $element := . }}
     {{ if not .hide }}<li>{{ .title }} ({{ .speakers }})</li>{{ end }}
     {{ end }}
     </ul>
+    <small>Disclaimer: de inhoud van het programma kan ten alle tijden worden aangepast. Door onverwachte ontwikkelingen rondom het evenement of sprekers kan het zijn dat er een verschil is met het daadwerkelijke programma. Relevante wijzigingen worden op de dag van het evenement zelf aangekondigd en via de website en/of social media.</small>
+
   {{ end }}
 
   <h2>Programma</h2>
