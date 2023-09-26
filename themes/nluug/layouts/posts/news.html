@@ -20,4 +20,8 @@
     {{ partial "show-related-members.html" . }}
   {{ end }}
 
+  {{ if .Params.related_persons }}
+    {{ .Scratch.Set "related_members" .Params.related_persons }}
+    {{ partial "show-related-members.html" . }}
+  {{ end }}
 {{ end }}
