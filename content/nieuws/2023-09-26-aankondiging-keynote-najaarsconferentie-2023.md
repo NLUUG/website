@@ -3,7 +3,7 @@ author: michael-boelen
 categories:
 - conferentie
 date: 2023-09-26T11:41:03+02:00
-description: "De eerste ronde van onze CFP voor de NLUUG najaarsconferentie 2023 gaat binnenkort sluiten. Toch nog iets indienen, wees er dan snel bij!"
+description: "De keynote van de najaarsconferentie is bekend! Arnoud Engelfriet neemt ons mee in de wereld van AI!"
 slug: aankondiging-keynote-najaarsconferentie-2023
 tags:
 - keynote
