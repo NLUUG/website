@@ -81,10 +81,10 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker:
-        title: nog niet bekend
+        speaker: Arnoud Engelfriet
+        title: "Open Minds, Open Source: Navigating AI in the New Frontier of Intellectual Property Law"
         keynote: true
-        link:
+        link: talks/arnoud-engelfriet-keynote-open-minds-open-source/
       center: true
       size: 3
   - row:

@@ -21,7 +21,7 @@ related_members:
 - willem-toorop
 ---
 
-De [najaarsconferentie]({{< relref "evenementen/nluug/najaarsconferentie-2023/index.md" >}}) is gepland op dinsdag 28 november 2023 en sinds vandaag is de [Call for Proposals](https://cfp.nluug.nl/nluug-najaarsconferentie-2023/) geopend. Namens onze programmacommissie de oproep: wees creatief en deel jullie inzendingen!
+De [najaarsconferentie]({{< relref "evenementen/nluug/najaarsconferentie-2023/_index.md" >}}) is gepland op dinsdag 28 november 2023 en sinds vandaag is de [Call for Proposals](https://cfp.nluug.nl/nluug-najaarsconferentie-2023/) geopend. Namens onze programmacommissie de oproep: wees creatief en deel jullie inzendingen!
 
 ## Wat voor talks zoeken we?
 
