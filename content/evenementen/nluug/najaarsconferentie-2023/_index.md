@@ -298,4 +298,6 @@ event_talks:
   hide: true
 ---
 
-We hebben vele inzendingen op onze Call for Proposals ontvangen. De programmacommissie heeft tijdens de selectie een zo gevarieerd mogelijk programma samengesteld. Schrijf je nu in!
+We hebben vele inzendingen op onze Call for Proposals ontvangen. De programmacommissie heeft tijdens de selectie een zo gevarieerd mogelijk programma samengesteld.
+
+De keynote zal verzorgd worden door Arnoud Engelfriet! Hij zal zijn inzichten delen over de combinatie AI en "open". Schrijf je nu in!

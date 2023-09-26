@@ -1,7 +1,7 @@
 ---
 author: michael-boelen
 categories:
-- website
+- conferentie
 date: 2023-08-25T09:41:26+02:00
 description: "De eerste ronde van onze CFP voor de NLUUG najaarsconferentie 2023 gaat binnenkort sluiten. Toch nog iets indienen, wees er dan snel bij!"
 slug: sluiting-eerste-ronde-cfp-najaarsconferentie-2023
