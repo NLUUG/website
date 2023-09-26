@@ -3,7 +3,7 @@ author: michael-boelen
 categories:
 - conferentie
 date: 2023-09-26T11:41:03+02:00
-description: "De keynote van de najaarsconferentie is bekend! Arnoud Engelfriet neemt ons mee in de wereld van AI!"
+description: "De keynote van de najaarsconferentie is bekend! Arnoud Engelfriet neemt ons mee in de wereld van AI. Ben jij er ook bij?"
 slug: aankondiging-keynote-najaarsconferentie-2023
 tags:
 - keynote
