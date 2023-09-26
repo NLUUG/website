@@ -1,0 +1,19 @@
+id: proxy-open-2023-11-04
+date_start: 2023-11-04
+date_end: 2023-11-04
+event_address:
+  street_address: Kleveringweg 18
+  postal_code: 2616 LZ
+  city: Delft
+  country: NL
+event_attendance_mode: offline
+event_start: 2023-11-04T12:00:00+0200
+event_end: 2023-11-04T17:30:00+0200
+event_free_access: true
+event_is_online: false
+event_organizer: Proxy
+event_organizer_url: https://www.proxy.nl/
+event_url: https://www.proxyopen.nl/
+event_location: Race Planet Delft
+event_timezone: Europe/Amsterdam
+name: Proxy Open 2023
