@@ -260,7 +260,6 @@ event_talks:
 - talk:
   title: "On FreeBSD, DDoS, and getting up from under the bus"
   speakers: "Eirik Øverby"
-  hide: true
 - talk:
   title: "Oops, we overhauled the website"
   speakers: Michael Boelen en Patrick Reijnen
@@ -270,15 +269,12 @@ event_talks:
 - talk:
   title: "SPooFd: How to Spoof Mails, Even with Full SPF and DMARC Protection"
   speakers: Koen van Hove
-  hide: true
 - talk:
   title: "The CPU RootKit you probably don’t know about"
   speakers: "Fabian Groffen en Kevin Keijzer"
-  hide: true
 - talk:
   title: "The journey to opensource networking with OpenBSD @AS15693"
   speakers: Wouter Prins
-  hide: true
 - talk:
   title: "Time in the Network"
   speakers: David Venhoek
@@ -291,11 +287,9 @@ event_talks:
 - talk:
   title: "What if hacking were a sport?"
   speakers: Maja Reissner
-  hide: true
 - talk:
   title: "WOOt does the government do?"
   speakers: "Lord Mobach, Lisette Meij en Maja Reissner"
-  hide: true
 ---
 
 We hebben vele inzendingen op onze Call for Proposals ontvangen. De programmacommissie heeft tijdens de selectie een zo gevarieerd mogelijk programma samengesteld.
