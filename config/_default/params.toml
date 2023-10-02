@@ -50,6 +50,5 @@ textEmptyValue = "Geen waarde 🐦"
 # Social
 mastodon_instance = "https://nluug.social/"
 mastodon_handle = "nluug"
-twitter_handle = "nluug"
 
 # EOF
