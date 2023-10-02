@@ -1,6 +1,7 @@
 ---
 categories:
 - organisatie
+contact_email: michael@nluug.nl
 date: 2023-05-08T11:28:43+02:00
 description: "Leer meer over het PR-team dat aan de voor- en achterzijde onze vereniging ondersteunt"
 tags:
@@ -26,6 +27,5 @@ Ons team doet het beheer van diverse online kanalen. Op dit moment zijn we actie
 * LinkedIn
 * Mastodon
 * Meetup
-* Twitter
 
 In de footer van de website zijn alle relevante links te vinden.
