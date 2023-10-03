@@ -1,7 +1,7 @@
 ---
 categories:
 - organisatie
-contact_email: michael@nluug.nl
+contact_email: pr@nluug.nl
 date: 2023-05-08T11:28:43+02:00
 description: "Leer meer over het PR-team dat aan de voor- en achterzijde onze vereniging ondersteunt"
 tags:
