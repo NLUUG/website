@@ -1,0 +1,19 @@
+id: bsdnl-2023-11-11
+date_start: 2023-11-11
+date_end: 2023-11-11
+event_address:
+  street_address: Pratumplaats 2A
+  postal_code: 3454 NA
+  city: Utrecht
+  country: NL
+event_attendance_mode: offline
+event_start: 2023-11-11T09:00:00+0200
+event_end: 2023-11-11T17:30:00+0200
+event_free_access: true
+event_is_online: false
+event_organizer: BSD-NL
+event_organizer_url: https://bsdnl.nl
+event_url: https://bsdnl.nl
+event_location: Brouwerij Maximus
+event_timezone: Europe/Amsterdam
+name: BSD-NL Day 2023
