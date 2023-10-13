@@ -3,7 +3,7 @@
 # Voor de home-page maken we een HTML, RSS en JSON Feed
 # Secties alleen in HTML en voor pagina's in zowel HTML als CalendarEvent (iCAL) waar het van toepassing is
 home = ["HTML", "RSS", "JSON", "IndexNow", "SearchIndex"]
-section = ["HTML"]
-page = ["HTML", "CalendarEvent"]
+page = ["HTML"]
+section = ["HTML", "CalendarEvent"]
 
 # EOF
