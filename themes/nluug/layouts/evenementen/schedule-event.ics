@@ -21,7 +21,7 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:{{ sha256 .Permalink | upper }}
+UID:{{ sha256 .RelPermalink | upper }}
 SUMMARY:{{ .Params.event_title | default .Title }}
 DESCRIPTION:Voor meer informatie zie {{ .Permalink }}
 DTSTART;TZID=Europe/Amsterdam:{{ dateFormat "20060102T150405" .Params.event_start }}
