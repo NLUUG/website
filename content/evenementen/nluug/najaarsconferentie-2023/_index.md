@@ -187,6 +187,7 @@ event_schedule:
       talk:
         speaker: Geert Rolf
         title: UTX/32 and the art of fire breathing -- a long forgotten chapter in UNIX history
+        link: talks/geert-rolf-utx32-and-the-art-of-fire-breathing/
   - row:
     columns:
     - column:
@@ -204,6 +205,7 @@ event_schedule:
       talk:
         speaker: Petr Pucil
         title: Tools for analyzing binary formats
+        link: talks/petr-pucil-tools-for-analyzing-binary-formats/
     - column:
       talk:
         speaker: Carlo Meijer
@@ -213,6 +215,7 @@ event_schedule:
       talk:
         speaker: Jan Jacob Pebesma
         title: "Energy System Simulation in the Cloud: ESSIM & ESDL-Mapeditor using Kubernetes & DevSecOps"
+        link: talks/jan-jacob-pebesma-energy-system-simulation-in-the-cloud/
   - row:
     columns:
     - column:
@@ -227,15 +230,17 @@ event_schedule:
       talk:
         speaker: Lukas Mocek
         title: Collaboration kills Competition
+        link: talks/lukas-mocek-collaboration-kills-competition/
     - column:
       talk:
         speaker: Maja Reissner, Lord Mobach en Lisette Meij
         title: WOOt does the government do?
-        link:
+        link: talks/maja-reissner-mendel-mobach-lisette-meij-woot-does-the-government-do/
     - column:
       talk:
         speaker: Maxim Burgerhout
         title: Postgres on Kubernetes, the time is now!
+        link: talks/maxim-burgerhout-postgres-on-kubernetes-the-time-is-now/
   - row:
     columns:
     - column:
@@ -245,58 +250,10 @@ event_schedule:
         text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
-event_talks:
-- talk:
-  title: "Collaboration kills Competition"
-  speakers: Lukas Mocek
-- talk:
-  title: "De NLUUG ledenadministratie naar Open Source?"
-  speakers: Jan Sepp
-- talk:
-  title: "Defending the Democracy using BSD"
-  speakers: Jeroen Janssen
-  hide: true
-- talk:
-  title: "Energy System Simulation in the Cloud: ESSIM & ESDL-Mapeditor using Kubernetes & DevSecOps."
-  speakers: Jan Jacob Pebesma
-- talk:
-  title: "HomeComputerMuseum: What we are and how we share the history."
-  speakers: Bart van den Akker
-- talk:
-  title: "On FreeBSD, DDoS, and getting up from under the bus"
-  speakers: "Eirik Øverby"
-- talk:
-  title: "Oops, we overhauled the website"
-  speakers: Michael Boelen en Patrick Reijnen
-- talk:
-  title: "Postgres on Kubernetes, the time is now!"
-  speakers: Maxim Burgerhout
-- talk:
-  title: "SPooFd: How to Spoof Mails, Even with Full SPF and DMARC Protection"
-  speakers: Koen van Hove
-- talk:
-  title: "The CPU RootKit you probably don’t know about"
-  speakers: "Fabian Groffen en Kevin Keijzer"
-- talk:
-  title: "The journey to opensource networking with OpenBSD @AS15693"
-  speakers: Wouter Prins
-- talk:
-  title: "Time in the Network"
-  speakers: David Venhoek
-- talk:
-  title: "Tools for analyzing binary formats"
-  speakers: Petr Pucil
-- talk:
-  title: "UTX/32 and the art of fire breathing -- a long forgotten chapter in UNIX history"
-  speakers: Geert Rolf
-- talk:
-  title: "What if hacking were a sport?"
-  speakers: Maja Reissner
-- talk:
-  title: "WOOt does the government do?"
-  speakers: "Lord Mobach, Lisette Meij en Maja Reissner"
 ---
 
 We hebben vele inzendingen op onze Call for Proposals ontvangen. De programmacommissie heeft tijdens de selectie een zo gevarieerd mogelijk programma samengesteld.
 
 De keynote zal verzorgd worden door Arnoud Engelfriet! Hij zal zijn inzichten delen over de combinatie AI en "open". Schrijf je nu in!
+
+**Nieuw sinds deze conferentie**: inzendingen zijn nu ook beschikbaar via Pretalx. Bekijk het [programma](https://cfp.nluug.nl/nluug-najaarsconferentie-2023/schedule/) en importeer het in een tool zoals Giggity.
