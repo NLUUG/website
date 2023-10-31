@@ -104,7 +104,7 @@ event_schedule:
       talk:
         speaker: David Venhoek
         title: Time in the Network
-        link:
+        link: talks/david-venhoek-time-in-the-network/
     - column:
       talk:
         speaker: Jeroen Baten
@@ -129,10 +129,12 @@ event_schedule:
       talk:
         speaker: Wouter Prins
         title: The journey to opensource networking with OpenBSD @AS15693
+        link: talks/wouter-prins-the-journey-to-opensource-networking-with-openbsd/
     - column:
       talk:
         speaker: Maja Reissner
         title: What if hacking were a sport?
+        link: talks/maja-reissner-what-if-hacking-were-a-sport/
     - column:
       talk:
         speaker: Jan Sepp
@@ -155,6 +157,7 @@ event_schedule:
       talk:
         speaker: Jeroen Janssen
         title: Defending the Democracy using BSD
+        link: talks/jeroen-janssen-defending-the-democracy-using-bsd/
     - column:
       talk:
         speaker: Koen van Hove
@@ -179,10 +182,12 @@ event_schedule:
       talk:
         speaker: Eirik Øverby
         title: On FreeBSD, DDoS, and getting up from under the bus
+        link: talks/eirik-overby-on-freebsd-ddos-and-getting-up-from-under-the-bus/
     - column:
       talk:
         speaker: Fabian Groffen en Kevin Keijzer
         title: The CPU RootKit you probably don’t know about
+        link: talks/fabian-groffen-kevin-keijzer-the-cpu-rootkit-you-probably-dont-know-about/
     - column:
       talk:
         speaker: Geert Rolf
