@@ -108,7 +108,7 @@ event_schedule:
     - column:
       talk:
         speaker: Jeroen Baten
-        title: Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen
+        title: "Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen 🇳🇱"
     - column:
       talk:
         speaker: Michael Boelen en Patrick Reijnen
@@ -134,7 +134,7 @@ event_schedule:
     - column:
       talk:
         speaker: Jan Sepp
-        title: De NLUUG ledenadministratie naar Open Source?
+        title: "De NLUUG ledenadministratie naar Open Source? 🇳🇱"
   - row:
     columns:
     - column:
