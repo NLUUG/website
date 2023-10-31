@@ -25,9 +25,6 @@ What we've put FreeBSD through over the last year and a half is unlike anything 
 
 This is both a story of "look what we can do with BSD" and "look what we've put BSD through".
 
-About Modirum
-Modirum provides software - both through licensing and as a service - to banks, card issuers, merchants and payment processors that allow them to implement 3-D Secure. 3-D Secure is, very roughly, a protocol defined by the major card brands that allows the bank or card issuer to intervene during an online payment process in order to authenticate the card holder before the purchase is completed.
-
 ## Biografie
 
 Model '77, Slackware-gone-BSD in the early 00s, escaped the dying world of OS/2 to be doomed to death by Netcraft for another decade. Now managing jailed (but not dead!) systems for a living and as a hobby.
