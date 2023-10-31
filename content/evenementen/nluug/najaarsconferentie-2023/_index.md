@@ -113,6 +113,7 @@ event_schedule:
       talk:
         speaker: Michael Boelen en Patrick Reijnen
         title: Oops, we overhauled the website...
+        link: talks/michael-boelen-patrick-reijnen-oops-we-overhauled-the-website/
   - row:
     columns:
     - column:
@@ -160,6 +161,7 @@ event_schedule:
       talk:
         speaker: Bart van den Akker
         title: "HomeComputerMuseum: What we are and how we share the history"
+        link: talks/bart-van-den-akker-homecomputermuseum/
   - row:
     columns:
     - column:
@@ -203,7 +205,7 @@ event_schedule:
       talk:
         speaker: Carlo Meijer
         title: "All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows"
-        link:
+        link: talks/carlo-meijer-all-cops-are-broadcasting/
     - column:
       talk:
         speaker: Jan Jacob Pebesma
