@@ -102,17 +102,17 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: David Venhoek
+        title: Time in the Network
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Jeroen Baten
+        title: Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Michael Boelen en Patrick Reijnen
+        title: Oops, we overhauled the website...
   - row:
     columns:
     - column:
@@ -125,16 +125,16 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Wouter Prins
+        title: The journey to opensource networking with OpenBSD @AS15693
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Maja Reissner
+        title: What if hacking were a sport?
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Jan Sepp
+        title: De NLUUG ledenadministratie naar Open Source?
   - row:
     columns:
     - column:
@@ -150,16 +150,16 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Jeroen Janssen
+        title: Defending the Democracy using BSD
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Koen van Hove
+        title: "SPooFd: How to Spoof Mails, Even with Full SPF and DMARC Protection"
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Bart van den Akker
+        title: "HomeComputerMuseum: What we are and how we share the history"
   - row:
     columns:
     - column:
@@ -172,16 +172,16 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Eirik Øverby
+        title: On FreeBSD, DDoS, and getting up from under the bus
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Fabian Groffen en Kevin Keijzer
+        title: The CPU RootKit you probably don’t know about
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Geert Rolf
+        title: UTX/32 and the art of fire breathing -- a long forgotten chapter in UNIX history
   - row:
     columns:
     - column:
@@ -197,17 +197,17 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Petr Pucil
+        title: Tools for analyzing binary formats
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Carlo Meijer
+        title: "All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows"
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Jan Jacob Pebesma
+        title: "Energy System Simulation in the Cloud: ESSIM & ESDL-Mapeditor using Kubernetes & DevSecOps"
   - row:
     columns:
     - column:
@@ -220,17 +220,17 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Lukas Mocek
+        title: Collaboration kills Competition
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Maja Reissner, Lord Mobach en Lisette Meij
+        title: WOOt does the government do?
         link:
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Maxim Burgerhout
+        title: Postgres on Kubernetes, the time is now!
   - row:
     columns:
     - column:
