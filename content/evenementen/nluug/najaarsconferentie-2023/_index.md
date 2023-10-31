@@ -109,6 +109,7 @@ event_schedule:
       talk:
         speaker: Jeroen Baten
         title: "Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen 🇳🇱"
+        link: talks/jeroen-baten-het-nieuwste-computervirus-heet-burn-out/
     - column:
       talk:
         speaker: Michael Boelen en Patrick Reijnen
@@ -136,6 +137,7 @@ event_schedule:
       talk:
         speaker: Jan Sepp
         title: "De NLUUG ledenadministratie naar Open Source? 🇳🇱"
+        link: talks/jan-sepp-de-nluug-ledenadministratie-naar-open-source/
   - row:
     columns:
     - column:
@@ -157,6 +159,7 @@ event_schedule:
       talk:
         speaker: Koen van Hove
         title: "SPooFd: How to Spoof Mails, Even with Full SPF and DMARC Protection"
+        link: talks/koen-ten-hove-spoofd-how-to-spoof-mails/
     - column:
       talk:
         speaker: Bart van den Akker
