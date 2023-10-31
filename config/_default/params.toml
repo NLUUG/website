@@ -23,7 +23,7 @@ keywords = [
 description = "NLUUG website met de doelstellingen, laatste nieuws en evenementen van onze vereniging."
 
 # Fallback-auteur voor posts die geen echte auteur hebben
-author = "NLUUG"
+#author = "NLUUG"
 
 # Datum-formaat en tijdzone, de gebruikte waardes in datum en tijd zijn van belang
 dateFormat = "02-01-2006"
