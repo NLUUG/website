@@ -107,8 +107,10 @@ event_schedule:
         link: talks/david-venhoek-time-in-the-network/
     - column:
       talk:
+        language: nl
+        not_recorded: true
         speaker: Jeroen Baten
-        title: "Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen 🇳🇱"
+        title: "Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen"
         link: talks/jeroen-baten-het-nieuwste-computervirus-heet-burn-out/
     - column:
       talk:
@@ -127,6 +129,7 @@ event_schedule:
       time: 11:50
     - column:
       talk:
+        not_recorded: true
         speaker: Wouter Prins
         title: The journey to opensource networking with OpenBSD @AS15693
         link: talks/wouter-prins-the-journey-to-opensource-networking-with-openbsd/
@@ -137,8 +140,9 @@ event_schedule:
         link: talks/maja-reissner-what-if-hacking-were-a-sport/
     - column:
       talk:
+        language: nl
         speaker: Jan Sepp
-        title: "De NLUUG ledenadministratie naar Open Source? 🇳🇱"
+        title: "De NLUUG ledenadministratie naar Open Source?"
         link: talks/jan-sepp-de-nluug-ledenadministratie-naar-open-source/
   - row:
     columns:
@@ -155,10 +159,10 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker: Jeroen Janssen
-        title: "Defending the Democracy using BSD 🇳🇱"
         language: nl
         not_recorded: true
+        speaker: Jeroen Janssen
+        title: "Defending the Democracy using BSD"
         link: talks/jeroen-janssen-defending-the-democracy-using-bsd/
     - column:
       talk:
@@ -187,6 +191,7 @@ event_schedule:
         link: talks/eirik-overby-on-freebsd-ddos-and-getting-up-from-under-the-bus/
     - column:
       talk:
+        not_recorded: true
         speaker: Fabian Groffen en Kevin Keijzer
         title: The CPU RootKit you probably don’t know about
         link: talks/fabian-groffen-kevin-keijzer-the-cpu-rootkit-you-probably-dont-know-about/
