@@ -7,6 +7,8 @@ slug:
 tags:
 - burn-out
 title: "Jeroen Baten - Het nieuwste computervirus heet burn-out en alleen gemotiveerde mensen kunnen het krijgen 🇳🇱"
+talk_language: nl
+not_recorded: true
 speakers:
 - jeroen-baten
 ---

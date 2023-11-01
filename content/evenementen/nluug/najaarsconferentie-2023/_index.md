@@ -156,7 +156,9 @@ event_schedule:
     - column:
       talk:
         speaker: Jeroen Janssen
-        title: Defending the Democracy using BSD
+        title: "Defending the Democracy using BSD 🇳🇱"
+        language: nl
+        not_recorded: true
         link: talks/jeroen-janssen-defending-the-democracy-using-bsd/
     - column:
       talk:

@@ -7,6 +7,7 @@ slug:
 tags:
 - ledenbeheer
 title: "Jan Sepp - De NLUUG ledenadministratie naar Open Source? 🇳🇱"
+talk_language: nl
 speakers:
 - jan-sepp
 ---

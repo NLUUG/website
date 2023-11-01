@@ -7,7 +7,9 @@ slug:
 tags:
 - bsd
 - openbsd
-title: "Jeroen Janssen - Defending the Democracy using BSD"
+title: "Jeroen Janssen - Defending the Democracy using BSD 🇳🇱"
+talk_language: nl
+not_recorded: true
 speakers:
 - jeroen-janssen
 ---
