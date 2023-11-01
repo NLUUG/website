@@ -166,7 +166,14 @@
                   {{ else }}
                   {{ if .title }}{{ if .keynote }}<strong>Keynote:</strong> {{ end }}<em>{{ .title }}</em>{{ end }}
                   {{ end }}
+                  {{ if eq .language "nl" }}
+                    🇳🇱
+                  {{ end }}
+                  {{ if .not_recorded }}
+                    <img class="m-r-small" src="/afbeeldingen/iconen/video-slash.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Deze presentatie zal niet worden gefilmd">
+                  {{ end }}
                 {{ end }}
+
 
                 {{ with .textfield }}
                   {{ if and (.text) (.link) }}
@@ -175,6 +182,7 @@
                     {{ with .text }}<em>{{ . }}</em><br>{{ end }}
                   {{ end }}
                 {{ end }}
+
               </td>
               {{ end }}
           {{ end }}
