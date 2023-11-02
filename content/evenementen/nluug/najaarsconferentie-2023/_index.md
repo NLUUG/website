@@ -197,6 +197,7 @@ event_schedule:
         link: talks/fabian-groffen-kevin-keijzer-the-cpu-rootkit-you-probably-dont-know-about/
     - column:
       talk:
+        not_recorded: true
         speaker: Geert Rolf
         title: UTX/32 and the art of fire breathing -- a long forgotten chapter in UNIX history
         link: talks/geert-rolf-utx32-and-the-art-of-fire-breathing/
