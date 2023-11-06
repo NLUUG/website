@@ -135,9 +135,9 @@ event_schedule:
         link: talks/wouter-prins-the-journey-to-opensource-networking-with-openbsd/
     - column:
       talk:
-        speaker: Maja Reissner
-        title: What if hacking were a sport?
-        link: talks/maja-reissner-what-if-hacking-were-a-sport/
+        speaker: Carlo Meijer
+        title: "All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows"
+        link: talks/carlo-meijer-all-cops-are-broadcasting/
     - column:
       talk:
         language: nl
@@ -221,9 +221,9 @@ event_schedule:
         link: talks/petr-pucil-tools-for-analyzing-binary-formats/
     - column:
       talk:
-        speaker: Carlo Meijer
-        title: "All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows"
-        link: talks/carlo-meijer-all-cops-are-broadcasting/
+        speaker: Maja Reissner
+        title: What if hacking were a sport?
+        link: talks/maja-reissner-what-if-hacking-were-a-sport/
     - column:
       talk:
         speaker: Jan Jacob Pebesma
