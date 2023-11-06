@@ -13,3 +13,5 @@ type: person
 Works for and against the government.
 
 I am the reason DigiD is opensource.
+
+Photo: https://www.flickr.com/photos/dvanzuijlekom/23172444065 (c) by-sa/2.0/

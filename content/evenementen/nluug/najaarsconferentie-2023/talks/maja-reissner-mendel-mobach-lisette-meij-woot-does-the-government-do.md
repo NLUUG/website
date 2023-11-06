@@ -30,6 +30,8 @@ Works for and against the government.
 
 I am the reason DigiD is opensource.
 
+Photo: https://www.flickr.com/photos/dvanzuijlekom/23172444065 (c) by-sa/2.0/
+
 ### Lisette Meij
 
 Lisette Meij is a lawyer. With a fascination for laws and regulations, she investigates daily how all technological developments can find a place within the somewhat legal chaos. She focuses in particular on the legal boundaries in the use of data and data-driven work. Because how do you ensure that privacy remains guaranteed with the current possibilities to process data, not to mention the present urge to collect as much as possible? And how do we convert all these rules into a practical and understandable way of working for everyone? Questions she wants to find the answer to, talk about on the radio and give presentations on.
