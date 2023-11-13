@@ -257,7 +257,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 17:55
+      time: 17:35
     - column:
       textfield:
         text: Borrel, gesponsord door AT Computing
