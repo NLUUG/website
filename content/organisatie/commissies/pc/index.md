@@ -21,8 +21,8 @@ team_members:
 - hans-van-de-looy
 - michael-boelen
 - mischa-peters
-- rudi-van-drunen
 - rogier-spoor
+- rudi-van-drunen
 - willem-toorop
 ---
 
