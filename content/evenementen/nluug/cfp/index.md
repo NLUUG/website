@@ -176,3 +176,6 @@ Het moment van bevestigen is afhankelijk in welke fase we zitten. Vooral in het 
 
 Naarmate steeds meer inzendingen worden bevestigd, zullen de namen van de sprekers worden opgenomen op de pagina van het evenement. Dit is ook het moment waarop de het evenement steeds meer gaan promoten. Als we (bijna) alle beschikbare sloten hebben gevuld, dan zullen we het programma gaan samenstellen. De sloten worden dan zodanig ingevuld dat we zo goed mogelijk vergelijkbare onderwerpen in dezelfde track plaatsen en tevens rekening houden met wensen van sprekers.
 
+## Huisregels
+
+Op verzoek van sprekers en actieve leden heeft NLUUG [huisregels]({{< relref "huisregels.md" >}}) opgesteld voor haar leden en bezoekers van evenementen.
