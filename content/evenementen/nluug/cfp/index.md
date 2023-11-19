@@ -113,7 +113,7 @@ De programmacommissie en onze bezoekers willen weten wie een spreker is. Waarom 
 * Heb je software geschreven? Zo ja, welke namen?
 * Schrijf of blog je wel eens iets?
 * Waar kunnen we meer over over je lezen?
-* Heb je relevante hobbies en passies? Wat drijft je?
+* Heb je relevante hobby's en passies? Wat drijft je?
 * Op welke social media ben je actief?
 
 Voor de leesbaarheid is het aan te raden om de biografie in een derde persoon te schrijven. In plaats van "Ik ...", begin je dan met "[Voornaam achternaam] ..." en gebruik je je voornaam in vervolgzinnen.
@@ -146,13 +146,11 @@ Een spreker die meerdere inzendingen indient maakt over het algemeen meer kans o
 
 Heb je de presentatie al eerder gegeven? Dan horen we dat graag, het liefst inclusief een video en/of presentatie. Zo kunnen we de inzending nog eenvoudiger beoordelen qua inhoud.
 
-
-
 ## Werkwijze programmacommissie
 
 ### Openen CFP
 
-Nadat een conferentie is geweest, opent de programmacommissie een nieuwe Call for Proposals. We gebruiken hierbij meerdere rondes (met een maximum van 3). In de eerste ronde starten we met de promotie van de conferentie en delen we de CFP op onder andere social media en de website.
+Nadat een conferentie is geweest, opent de programmacommissie een nieuwe Call for Proposals. We gebruiken hierbij meerdere fasen. In de eerste fase starten we met de promotie van de conferentie en delen we de CFP op onder andere social media en de website.
 
 ### Beoordelen van inzendingen
 
@@ -172,14 +170,9 @@ Het kan natuurlijk ook gebeuren dat we minder enthousiast zijn over een inzendin
 
 Als een inzending wordt geselecteerd en de betreffende spreker heeft meerdere inzendingen ingediend, dan laat de programmacommissie haar voorkeur weten. De andere inzending(en) van die spreker komen dan te vervallen of worden doorgezet naar een volgende evenement. Eventueel kan een spreker worden gevraagd een ander onderwerp als backup te houden, bijvoorbeeld bij uitval van een andere spreker.
 
-Het moment van bevestigen is afhankelijk in welke fase we zitten. Vooral in de eerste ronde sparen we de inzendingen even op, zodat we als programmacommissie ook de tijd hebben om zelf potentiële sprekers te benaderen. Denk hierbij aan buitenlandse sprekers die wellicht nog niet bekend zijn met onze vereniging, maar vaak ervaren sprekers binnen een specifiek onderwerp zijn. Naarmate we dichter bij de conferentie komen kan het zijn dat we tussendoor al sprekers bevestigen, zeker als het merendeel van de programmacommissie zeer positief is over een inzending.
+Het moment van bevestigen is afhankelijk in welke fase we zitten. Vooral in het begin sparen we de inzendingen even op, zodat we als programmacommissie ook de tijd hebben om zelf potentiële sprekers te benaderen. Denk hierbij aan buitenlandse sprekers die wellicht nog niet bekend zijn met onze vereniging, maar vaak ervaren sprekers binnen een specifiek onderwerp zijn. Naarmate we dichter bij de conferentie komen kan het zijn dat we tussendoor al sprekers bevestigen, zeker als het merendeel van de programmacommissie zeer positief is over een inzending.
 
 ### Publiceren sprekers en opstellen programma
 
 Naarmate steeds meer inzendingen worden bevestigd, zullen de namen van de sprekers worden opgenomen op de pagina van het evenement. Dit is ook het moment waarop de het evenement steeds meer gaan promoten. Als we (bijna) alle beschikbare sloten hebben gevuld, dan zullen we het programma gaan samenstellen. De sloten worden dan zodanig ingevuld dat we zo goed mogelijk vergelijkbare onderwerpen in dezelfde track plaatsen en tevens rekening houden met wensen van sprekers.
 
-
-
-## English (to be written)
-
-Speakers will be provided with an HDMI projector, a wireless microphone, and a screen for their presentation. Most speakers bring their own laptop to use for the presentation. If this is not possible for you, please notify us in advance so arrangements can be made. If you need another type of connector for your graphics output, please let us know. It is suggested that you reduce your dependency on the in-house internet connection as much as possible.
