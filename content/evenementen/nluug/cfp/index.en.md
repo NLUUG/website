@@ -4,9 +4,9 @@ categories:
 content_types:
 - article
 date: 2023-06-16T16:41:30+02:00
-description: "Deze pagina beschrijft voor zowel potentiële sprekers als onze programmacommissie hoe we omgaan met een Call for Proposals."
+description: "All information related to our Call for Proposals (CFP) is listed on this page, including tips on how to convince our programme committee and event visitors."
 review:
-  last_review: 2023-06-16
+  last_review: 2023-11-19
   reviewed_by: michael-boelen
   period: 365
 url: /events/nluug/cfp/
@@ -68,40 +68,36 @@ There is an internet connection available within the hotel. Stability of this co
 
 We can assist speakers with travel and their stay. Our goal is that speakers don't have to make costs to present at our conference, or at least to limit it as much as possible. Together with the speaker we look at the options. Such arrangments should therefore always been discussed upfront.
 
+## Tips for speakers
 
+We would like to give everyone a good shot in getting selected. Below are tips that may (strongly) increase your chances.
 
-## Tips voor sprekers
+### Basics: title, asbstract, biography, photo
 
-Uiteraard willen wij als organisatie de kans voor iedereen vergroten om een presentatie te komen geven. We hebben diverse tips voor iedereen die een inzending overweegt.
-
-### De basis: titel, abstract, biografie, foto
-
-We verlangen van iedere inzending een titel en een spetterende en wervende abstract. In de eerste instantie is deze gericht om de programmacommissie te overtuigen dat het een geschikte lezing is. Na goedkeuring krijgt de belangrijkste groep de abstract te zien: de bezoekers. Een goedgeschreven abstract is daarom even belangrijk als een goed voorbereide presentatie.
+The best submission has a great title and a captivating abstract. The first audience to convice is our programme committee. Upon selection, the conference visitors are the next audience to be convinced. So a good and enticing abstract is as important as a well-prepared talk!
 
 #### Abstract
 
-Een abstract dient duidelijk geschreven te zijn en de lezer te prikkelen. Wat algemene tips:
+The abstract itself tells more about the talk itself. Some generic tips:
 
-* Schrijf het abstract alsof je het aan een goede bekende zou beschrijven
-* Een abstract hoeft zeker geen proza te worden, maar 10 regels of meer vormt een goede basis
-* Hou het taalgebruik luchtig en gebruik humor waar dat passend is
-* Gebruik niet te lange zinnen en pas op met teveel terminologie en technische afkortingen
-* Controleer de tekst en gebruik spellingscontrole
-* Laat gerust een bekende het abstract lezen
+* Write the abstract like how you would describe the talk to a friend
+* Abstracts shouldn't be too long, but at least 10 sentences or more are needed to give readers a good insight on what to expect
+* Keep things light and add humour where possible
+* Focus on readability, so lines should not be too long. Also be careful with terminology and abbreviations, or at least describe them first.
+* Check your text and use a grammar checker
+* Let others proofread and provide feedback
 
-Een goed abstract zal de volgende vragen bij onze bezoekers beantwoorden:
+To get the attention of the audience, a well-written abstract should answer the following questions:
 
-* Wat is het doel van deze presentatie?
-* Wat ga ik leren door deze lezing bij te wonen?
-* Op wie of welk niveau is deze lezing gericht?
-* Is er bepaalde voorkennis nodig?
-* In welke taal zal de presentatie worden gegeven?
+* What is the goal of the presentation?
+* What will I learn when attending it?
+* What is the requirement level of the subject (beginner, novice, expert)?
+* Is some knowledge required and a prerequisite?
+* What is spoken language of the talk?
 
-#### Titel
+#### Title
 
-Onderdeel van de abstract is de bijbehorende titel. Deze dient te prikkelen, maar wel een duidelijke referentie te hebben naar het onderwerp. Soms is eenvoud het beste, soms een titel met de nodige humor. Maak de titel niet te lang, maar wel dat deze de lading van de presentatie dekt.
-
-Heb je geen inspiratie voor je titel? Maak dan eerst het abstract compleet en kijk eens tussen de lezingen van voorgaande jaren op onze website.
+An abstract requires a title. This should entice, yet give a clear indication what the subject is about. Simplicity is often the best, but also humour might have a good place here. Don't make the title too long, while still covering the subject focus properly.
 
 #### Biografie
 
@@ -136,19 +132,17 @@ We hebben een mondig publiek dat niet bang is vragen te stellen of een debat te 
 
 Verkooppraatjes worden niet gewaardeerd. Het aanbevelen van commerciële producten of diensten zal dus ook niet in de smaak vallen bij onze bezoekers. De programmacommissie doet haar best om dit soort presentaties voortijdig te screenen.
 
-### Alternatieve onderwerpen
+### Alternative subjects
 
-Twijfel je of een onderwerp wel goed past? Neem dan gerust eerst contact op met onze programmacommissie.
+In doubt if a topic is still a good match? Feel free to reach out and contact our programma committee!
 
-### Meerdere inzendingen zijn welkom
+### Multiple submissions
 
-Een spreker die meerdere inzendingen indient maakt over het algemeen meer kans om geselecteerd te worden. Vaak kiest de programmacommissie een inzending die het beste bij de rest van het programma past of het meest aanspreekt. Een onderwerp dat actueel zou de voorkeur kunnen hebben.
+We encourage participicants to the CFP to submit multiple submissions. This will increase your chances and also gives the programme committee to select a talk that fits with the rest of event schedule.
 
-### Eerder gegeven presentaties
+### Submittion an existing presentation
 
-Heb je de presentatie al eerder gegeven? Dan horen we dat graag, het liefst inclusief een video en/of presentatie. Zo kunnen we de inzending nog eenvoudiger beoordelen qua inhoud.
-
-
+Already gave the presentation before? Let us know in the submission notes, preferably including a video or the presentation itself. This simplifies the selection and gives us a better insight if there is a good fit.
 
 ## Werkwijze programmacommissie
 
@@ -176,8 +170,6 @@ Als een inzending wordt geselecteerd en de betreffende spreker heeft meerdere in
 
 Het moment van bevestigen is afhankelijk in welke fase we zitten. Vooral in de eerste ronde sparen we de inzendingen even op, zodat we als programmacommissie ook de tijd hebben om zelf potentiële sprekers te benaderen. Denk hierbij aan buitenlandse sprekers die wellicht nog niet bekend zijn met onze vereniging, maar vaak ervaren sprekers binnen een specifiek onderwerp zijn. Naarmate we dichter bij de conferentie komen kan het zijn dat we tussendoor al sprekers bevestigen, zeker als het merendeel van de programmacommissie zeer positief is over een inzending.
 
-### Publiceren sprekers en opstellen programma
+### Publication and event schedule
 
-Naarmate steeds meer inzendingen worden bevestigd, zullen de namen van de sprekers worden opgenomen op de pagina van het evenement. Dit is ook het moment waarop de het evenement steeds meer gaan promoten. Als we (bijna) alle beschikbare sloten hebben gevuld, dan zullen we het programma gaan samenstellen. De sloten worden dan zodanig ingevuld dat we zo goed mogelijk vergelijkbare onderwerpen in dezelfde track plaatsen en tevens rekening houden met wensen van sprekers.
-
-
+Upon the approval and confirmation of more submissions, the names of speakers and the title of the talks will be added to the event page. This is also the moment when the event will be promoted, such as on our social media channels. When most slots are filled, the schedule of the event will be created. Typically all related topics will be near each other and depending on the availability of speakers, the order will be defined.
