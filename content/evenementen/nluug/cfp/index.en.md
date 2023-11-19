@@ -99,38 +99,37 @@ To get the attention of the audience, a well-written abstract should answer the 
 
 An abstract requires a title. This should entice, yet give a clear indication what the subject is about. Simplicity is often the best, but also humour might have a good place here. Don't make the title too long, while still covering the subject focus properly.
 
-#### Biografie
+#### Biography
 
-De programmacommissie en onze bezoekers willen weten wie een spreker is. Waarom is dit de juiste persoon om iets over een bepaald onderwerp te vertellen? Het is daarom raadzaam om je biografie aan te passen aan het onderwerp en relevante ervaringen te vermelden. Uiteraard willen we graag wat meer weten over jou als spreker. Een aantal vragen die je je kan afstellen tijdens het schrijven van de biografie:
+Our programme committee and visitors of the event are interested in the background of a speaker. They might wonder why this is the right person to tell something about a topic. Therefore it is good to adjust the biography to the talk and include relevancy to the subject, besides generic information. A few related questions that are relevant to improve a biography:
 
-* Waarom is het onderwerp van de presentatie belangrijk voor je?
-* Welke ervaring heb je ermee of hoe pas je het zelf toe?
-* Wat doe je voor werk of waar heb je gewerkt? Wat voor functie(s)?
-* Heb je iets bijgedragen aan speciale of publieke projecten?
-* Wat heb je zelf met open standaarden en open source?
-* Heb je software geschreven? Zo ja, welke namen?
-* Schrijf of blog je wel eens iets?
-* Waar kunnen we meer over over je lezen?
-* Heb je relevante hobbies en passies? Wat drijft je?
-* Op welke social media ben je actief?
+* Why is this subject important to you?
+* What experience do you have with the subject and do you use it yourself?
+* What kind of work do you do? Where did you work before and what kind of roles?
+* Did you contribute to specific or public projects?
+* What is your experience with open standards and open source?
+* Any software or tools that you created? Which ones and are they available?
+* Do you write articles or have a blog?
+* What are your hobbies or passions? What makes you tick?
+* Any social media that you are active on?
 
-Voor de leesbaarheid is het aan te raden om de biografie in een derde persoon te schrijven. In plaats van "Ik ...", begin je dan met "[Voornaam achternaam] ..." en gebruik je je voornaam in vervolgzinnen.
+A biography is typically written in the third person. Avoid using "I ..." and start with your full name, followed by your first name in any other sentences.
 
-#### Foto
+#### Photo
 
-Op onze website en programmaboekje willen we graag een compleet geheel hebben. Daar hoort natuurlijk een foto bij, zodat het gezicht achter de presentatie ook bekend is. We stellen geen harde eisen aan de foto, maar waarderen het wel als de kwaliteit en formaat groot genoeg is. Uiteraard verwachten we een "degelijke" foto en meestal is een foto van het gezicht dan ook het meest geschikt. Een foto die iemand bijvoorbeeld op LinkedIn zou gebruiken, voldoet vaak.
+We like to have a complete event leaflet, including a photo of speakers. This way the person behind the name has a face and can be recognized by our organization and audience. We don't have strict requirements regarding the photo, but prefer a good quality photo, especially regarding the size. The photo should be "decent" and typically a photo of your face is the best suitable. Usually a photo that one might use on LinkedIn is also a good fit for submission.
 
-### Te technisch kan niet
+### Too technical is impossible
 
-Gezien ons publiek over het algemeen een stevige technische basis heeft, is het nagenoeg onmogelijk om een presentatie te geven die teveel techniek bevat. Ben je specialist en heb je een interessant verhaal, ga dan gerust (opbouwend) de diepte in.
+Our audience loves technical aspects of the field. Therefore it almost impossible to have a talk that is too much in-depth. If you are an expert in some specific field, then feel free to start from the basics and go deeper step by step.
 
-### Dialoog met publiek
+### Interaction with the audience
 
-We hebben een mondig publiek dat niet bang is vragen te stellen of een debat te starten. We stellen het op prijs als interactie met het publiek wordt opgezocht. Als spreker is het wel zaak om duidelijk aan te geven wanneer vragen gesteld kunnen worden en om over de beschikbare tijd te waken.
+Visitors to our events are not shy to express their thoughts or ask questions. Any interaction with the audience is appreciated and share when questions are appreciated. Just keep an eye on the remaining time, so that you can finish (most of) your presentation.
 
-### Presentaties met commerciële boodschap
+### Commercials not appreciated
 
-Verkooppraatjes worden niet gewaardeerd. Het aanbevelen van commerciële producten of diensten zal dus ook niet in de smaak vallen bij onze bezoekers. De programmacommissie doet haar best om dit soort presentaties voortijdig te screenen.
+Our organization and audience does not like sales pitches. So be careful about what you mention when it comes to commercial products or services. Our programme committee will also focus on this and where possible filter out such talks.
 
 ### Alternative subjects
 
@@ -144,31 +143,30 @@ We encourage participicants to the CFP to submit multiple submissions. This will
 
 Already gave the presentation before? Let us know in the submission notes, preferably including a video or the presentation itself. This simplifies the selection and gives us a better insight if there is a good fit.
 
-## Werkwijze programmacommissie
+## Behind the scenes of our programme committee
 
-### Openen CFP
+### Opening of the CFP
 
-Nadat een conferentie is geweest, opent de programmacommissie een nieuwe Call for Proposals. We gebruiken hierbij meerdere rondes (met een maximum van 3). In de eerste ronde starten we met de promotie van de conferentie en delen we de CFP op onder andere social media en de website.
+After an event closes, the programme committee opens a new Call for Proposals. We use multiple phases and typically in the first phase we start with the the promotion of the event and the CFP. This includes social media and our website.
 
-### Beoordelen van inzendingen
+### Review phase
 
-Sinds 2023 werken we met een nieuwe CFP-systeem. Hierbij laten leden van de programmacommissie een review achter per inzending. Tevens krijgt iedere inzending een beoordeling. Deze beoordeling komt neer op drie mogelijkheden:
+Since 2023 we use with a new software system (Pretalx). For every submission the members of the programme committee will add a review, including assigning points. Typically this boils down to:
+* Yes, this submission is (very) interesting
+* Maybe, the submission may need tuning to make it interesting
+* No, this talk is not suitable (yet)
 
-* Ja, deze inzending is interessant
-* Twijfel, heeft mogelijk nog extra aanpassing nodig
-* Nee, helaas (nog) niet geschikt
+During the meetings of the programme committee, the results will be discussed. Talks with a high score are usually the ones that have a greater chance to be selected.
 
-Tijdens onze PC-vergaderingen bespreken we de uitkomst van deze beoordelingen. Inzendingen die we overwegend positief beoordelen hebben een grote kans om geselecteerd te worden.
+### Sending confirmation and reject messages
 
-### Bevestigen en afkeuren van inzendingen
+When a talk submission looks like a good match, we will send a confirmation message. At this stage we also introduce the speaker to Debbie, our event organizer. She arranges things like travel, hotel, diet wishes, or any other preferences.
 
-Als we positief gestemd zijn over een inzending gaan we over tot bevestiging. We versturen dan een bevestiging en introduceren Debbie , die ons helpt met de organisatie van de evenementen. Hierbij valt de denken aan zaken zoals een eventuele hotelovernachting, dieetwensen of andere voorkeuren.
+When we are not convinced, we let this know by using a reject message. If we are in doubt, then we might contact the speaker to ask a revision or even ask for an alternative topic.
 
-Het kan natuurlijk ook gebeuren dat we minder enthousiast zijn over een inzending. In dat geval laten we dat ook weten en waar het kan met een korte onderbouwing. Als de inzending volgens ons een twijfelgeval is, kan het zijn dat we vragen om het abstract te herzien of zelfs een alternatief onderwerp te kiezen.
+If the speaker has multiple submissions and one of them is selected, the programme committee will inform the speaker what the preferred talk is. The other submissions will then be rejected or possible moved to another event in the future. Another possibility is that we ask the speaker to have a second talk and be one of our backup speakers.
 
-Als een inzending wordt geselecteerd en de betreffende spreker heeft meerdere inzendingen ingediend, dan laat de programmacommissie haar voorkeur weten. De andere inzending(en) van die spreker komen dan te vervallen of worden doorgezet naar een volgende evenement. Eventueel kan een spreker worden gevraagd een ander onderwerp als backup te houden, bijvoorbeeld bij uitval van een andere spreker.
-
-Het moment van bevestigen is afhankelijk in welke fase we zitten. Vooral in de eerste ronde sparen we de inzendingen even op, zodat we als programmacommissie ook de tijd hebben om zelf potentiële sprekers te benaderen. Denk hierbij aan buitenlandse sprekers die wellicht nog niet bekend zijn met onze vereniging, maar vaak ervaren sprekers binnen een specifiek onderwerp zijn. Naarmate we dichter bij de conferentie komen kan het zijn dat we tussendoor al sprekers bevestigen, zeker als het merendeel van de programmacommissie zeer positief is over een inzending.
+The time of sending out the accept/reject messages depend on the phase that we are in. Especially in the beginning we may wait a while to first gather as much submissions as possible. This gives the programme committee also the chance to reach out to potential speakers. This may include speakers from abroad or those who are a specialist in their field of expertise. When we are getting closer to the event date, it may be possible that we send our early accept messages, especially if the programme committee is fully convinced about the relevance of a talk.
 
 ### Publication and event schedule
 
