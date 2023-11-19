@@ -154,7 +154,7 @@ Nadat een conferentie is geweest, opent de programmacommissie een nieuwe Call fo
 
 ### Beoordelen van inzendingen
 
-Sinds 2023 werken we met een nieuwe CFP-systeem. Hierbij laten leden van de programmacommissie een review achter per inzending. Tevens krijgt iedere inzending een beoordeling. Deze beoordeling komt neer op drie mogelijkheden:
+Sinds 2023 werken we met nieuwe CFP-software (Pretalx) en een nieuw systeem. Hierbij laten leden van de programmacommissie een review achter per inzending. Tevens krijgt iedere inzending een beoordeling. Deze beoordeling komt neer op drie mogelijkheden:
 
 * Ja, deze inzending is interessant
 * Twijfel, heeft mogelijk nog extra aanpassing nodig
