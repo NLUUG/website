@@ -171,3 +171,7 @@ The time of sending out the accept/reject messages depend on the phase that we a
 ### Publication and event schedule
 
 Upon the approval and confirmation of more submissions, the names of speakers and the title of the talks will be added to the event page. This is also the moment when the event will be promoted, such as on our social media channels. When most slots are filled, the schedule of the event will be created. Typically all related topics will be near each other and depending on the availability of speakers, the order will be defined.
+
+## Code of Conduct
+
+At the request of speakers and active members, the NLUUG uses a [Code of Conduct]({{< relref "huisregels.en.md" >}}) for members and visitors of events.
