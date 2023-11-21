@@ -15,13 +15,7 @@ speakers:
 
 ## Abstract
 
-Sensor.Community is a global sensor network run by volunteers that creates, provides and visualizes open environmental data. We invite citizen/contributors to become part of the community. Build a sensor, generate open data, share it with the network in a continuous stream, and join local Sensor.Community groups to analyze it. Find like-minded people interested in the environment and its impact on our health. Stay informed and share information with your neighbors. Once the single sensor kit is connected to the network, its readings are available live on the map at Maps.Sensor.Community. These values are updated every 2 1/2 minutes and allow all citizens to see how the situation is around them. Everything ever measured is available as open data. You can see live values on the live map at: Maps.Sensor.Community
-
-We invite citizen/contributors to become part of the community. Build a sensor, generate open data, share it with the network in a continuous stream, and join local Sensor.Community groups to analyze it. Find like-minded people interested in the environment and its impact on our health. Stay informed and share information with your neighbors. Once the single sensor kit is connected to the network, its readings are available live on the map at Maps.Sensor.Community. These values are updated every 2 1/2 minutes and allow all citizens to see how the situation is around them.
-
-Everything ever measured is available as open data.
-
-You can see live values on the live map at: Maps.Sensor.Community
+Sensor.Community is a global sensor network run by volunteers that creates, provides and visualizes open environmental data. We invite citizen/contributors to become part of the community. Build a sensor, generate open data, share it with the network in a continuous stream, and join local Sensor.Community groups to analyze it. Find like-minded people interested in the environment and its impact on our health. Stay informed and share information with your neighbors. Once the single sensor kit is connected to the network, its readings are available live on the map at Maps.Sensor.Community. These values are updated every 2 1/2 minutes and allow all citizens to see how the situation is around them. Everything ever measured is available as open data. You can see live values on the live map at https://maps.sensor.community/.
 
 ## Biografie
 
