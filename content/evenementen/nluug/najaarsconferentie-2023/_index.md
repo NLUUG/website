@@ -135,7 +135,7 @@ event_schedule:
         link: talks/wouter-prins-the-journey-to-opensource-networking-with-openbsd/
     - column:
       talk:
-        speaker: Carlo Meijer
+        speaker: Carlo Meijer, Wouter Bokslag
         title: "All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows"
         link: talks/carlo-meijer-all-cops-are-broadcasting/
     - column:
