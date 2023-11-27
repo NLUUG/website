@@ -226,7 +226,7 @@ event_schedule:
         link: talks/maja-reissner-what-if-hacking-were-a-sport/
     - column:
       talk:
-        speaker: Jan Jacob Pebesma
+        speaker: Jan Jacob Pebesma en Lech Bialek
         title: "Energy System Simulation in the Cloud: ESSIM & ESDL-Mapeditor using Kubernetes & DevSecOps"
         link: talks/jan-jacob-pebesma-energy-system-simulation-in-the-cloud/
   - row:
