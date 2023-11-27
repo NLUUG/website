@@ -11,6 +11,8 @@ title: "Michael Boelen en Patrick Reijnen - Oops, we overhauled the website..."
 speakers:
 - michael-boelen
 - patrick-reijnen
+presentation:
+  filename: 2023-11-28-michael-boelen-patrick-reijnen-oops-we-overhauled-the-website.pdf
 ---
 
 ## Abstract
