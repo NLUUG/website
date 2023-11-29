@@ -9,7 +9,7 @@ review:
   last_review: 2023-11-19
   reviewed_by: michael-boelen
   period: 365
-url: /events/nluug/cfp/
+url: events/nluug/cfp/
 tags:
 - cfp
 title: "Call for Proposals"
