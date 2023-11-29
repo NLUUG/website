@@ -12,7 +12,6 @@ title: "PR-team"
 type: team
 team_members:
 - koen-de-jonge
-- michael-boelen
 - mischa-peters
 - patrick-reijnen
 ---

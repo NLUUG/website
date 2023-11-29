@@ -19,7 +19,6 @@ team_members:
 - brenda-langedijk
 - fred-donck
 - hans-van-de-looy
-- michael-boelen
 - mischa-peters
 - rogier-spoor
 - rudi-van-drunen
