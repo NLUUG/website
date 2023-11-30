@@ -45,7 +45,7 @@ This list is just an indication of the topics that we typically like to see. But
 
 ## Format
 
-A default speaker slot is 45 minutes. This includes the time to answer questions. Workshops are typically two slots, so 90 minutes in total.
+A default speaker slot is 45 minutes. This includes the time to answer questions. We are considering to accommodate workshops. It is not yet clear how to do so. One example is to add a complete track with two or three workshops.
 
 ## Audience
 
