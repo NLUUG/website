@@ -127,73 +127,76 @@
   {{ end }}
   {{ $.Scratch.Set "counter" 0 }}
   {{ with .Params.event_schedule }}
-    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-    {{ with .name }}<h3>{{$.Scratch.Get "counter"}}. {{ . }}</h3>{{ end }}
-    <div class="table-wrapper">
-    <table class="fl-table">
-    {{ with .headers }}
-      <thead>
-        <tr>
-        {{ range . }}
-        <th{{ if .width }} class="w-{{ .width }}"{{ end }}>{{ .text }}</th>
-        {{ end }}
-        </tr>
-      </thead>
-    {{ end }}
-    <tbody>
-    {{ with .rows }}
-      {{ range . }}
-        <tr>
-          {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-          {{ with .description }}<blockquote>{{ . }}</blockquote>{{ end }}
-          {{ $.Scratch.Set "counter2" 0 }}
-          {{ with .columns }}
-              {{ range . }}
-              <td{{ if .size }} colspan="{{ .size }}"{{ end }}{{ if .center}} style="text-align:center;"{{ end }}>
-                {{ if .time }}<small>{{ .time }}</small>{{ end }}
-                {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
-                {{ with .talk }}
-                  {{ if .speaker }}
-                    <strong>{{ .speaker }}</strong><br>
-                  {{ end }}
-                  {{ if and (.title) (.link) }}
-                    {{ if .link }}
-                      {{ if .keynote }}<strong>Keynote:</strong> {{ end }}<a href="{{ .link }}">{{ .title }}</a>
-                    {{ else }}
-                      <em>{{ . }}</em>
-                    {{ end }}
-                  {{ else }}
-                  {{ if .title }}{{ if .keynote }}<strong>Keynote:</strong> {{ end }}<em>{{ .title }}</em>{{ end }}
-                  {{ end }}
-                  {{ if eq .language "nl" }}
-                    🇳🇱
-                  {{ end }}
-                  {{ if .not_recorded }}
-                    <img class="m-r-small" src="/afbeeldingen/iconen/video-slash.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Deze presentatie zal niet worden gefilmd">
-                  {{ end }}
-                {{ end }}
-
-
-                {{ with .textfield }}
-                  {{ if and (.text) (.link) }}
-                    <em><a href="{{ .link }}">{{ .text }}</a></em>
-                  {{ else }}
-                    {{ with .text }}<em>{{ . }}</em><br>{{ end }}
-                  {{ end }}
-                {{ end }}
-
-              </td>
-              {{ end }}
+    {{ if ne .hidden true }}
+      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+      {{ with .name }}<h3>{{$.Scratch.Get "counter"}}. {{ . }}</h3>{{ end }}
+      <div class="table-wrapper">
+      <table class="fl-table">
+      {{ with .headers }}
+        <thead>
+          <tr>
+          {{ range . }}
+          <th{{ if .width }} class="w-{{ .width }}"{{ end }}>{{ .text }}</th>
           {{ end }}
-        </tr>
+          </tr>
+        </thead>
       {{ end }}
+      <tbody>
+      {{ with .rows }}
+        {{ range . }}
+          <tr>
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+            {{ with .description }}<blockquote>{{ . }}</blockquote>{{ end }}
+            {{ $.Scratch.Set "counter2" 0 }}
+            {{ with .columns }}
+                {{ range . }}
+                <td{{ if .size }} colspan="{{ .size }}"{{ end }}{{ if .center}} style="text-align:center;"{{ end }}>
+                  {{ if .time }}<small>{{ .time }}</small>{{ end }}
+                  {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+                  {{ with .talk }}
+                    {{ if .speaker }}
+                      <strong>{{ .speaker }}</strong><br>
+                    {{ end }}
+                    {{ if and (.title) (.link) }}
+                      {{ if .link }}
+                        {{ if .keynote }}<strong>Keynote:</strong> {{ end }}<a href="{{ .link }}">{{ .title }}</a>
+                      {{ else }}
+                        <em>{{ . }}</em>
+                      {{ end }}
+                    {{ else }}
+                    {{ if .title }}{{ if .keynote }}<strong>Keynote:</strong> {{ end }}<em>{{ .title }}</em>{{ end }}
+                    {{ end }}
+                    {{ if eq .language "nl" }}
+                      🇳🇱
+                    {{ end }}
+                    {{ if .not_recorded }}
+                      <img class="m-r-small" src="/afbeeldingen/iconen/video-slash.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Deze presentatie zal niet worden gefilmd">
+                    {{ end }}
+                  {{ end }}
+
+
+                  {{ with .textfield }}
+                    {{ if and (.text) (.link) }}
+                      <em><a href="{{ .link }}">{{ .text }}</a></em>
+                    {{ else }}
+                      {{ with .text }}<em>{{ . }}</em><br>{{ end }}
+                    {{ end }}
+                  {{ end }}
+
+                </td>
+                {{ end }}
+            {{ end }}
+          </tr>
+        {{ end }}
+      {{ end }}
+      </tbody>
+      </table>
+      </div>
+      <small>Disclaimer: de inhoud van het programma kan te allen tijden worden aangepast. Door onverwachte ontwikkelingen rondom het evenement of sprekers kan het zijn dat er een verschil is met het daadwerkelijke programma. Relevante wijzigingen zullen wij zo spoedig mogelijk delen of op de dag van het evenement zelf. Ons filmteam probeert zoveel mogelijk presentaties op te nemen. Sprekers kunnen echter aangeven dat hun lezing niet opgenomen mag worden. Ook blijven we afhankelijk van de capaciteit van het team en de techniek. We kunnen derhalve niet garanderen dat er voor iedere lezing een filmopname beschikbaar komt.</small>
+    {{ else }}
+      <p>Het programma komt later beschikbaar.</p>
     {{ end }}
-    </tbody>
-    </table>
-    </div>
   {{ else }}
     <p>Waarschuwing: dit conferentieprogramma is niet goed geconfigureerd in de front matter.</p>
   {{ end }}
-    <small>Disclaimer: de inhoud van het programma kan te allen tijden worden aangepast. Door onverwachte ontwikkelingen rondom het evenement of sprekers kan het zijn dat er een verschil is met het daadwerkelijke programma. Relevante wijzigingen zullen wij zo spoedig mogelijk delen of op de dag van het evenement zelf. Ons filmteam probeert zoveel mogelijk presentaties op te nemen. Sprekers kunnen echter aangeven dat hun lezing niet opgenomen mag worden. Ook blijven we afhankelijk van de capaciteit van het team en de techniek. We kunnen derhalve niet garanderen dat er voor iedere lezing een filmopname beschikbaar komt.</small>
-
 {{ end }}
