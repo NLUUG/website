@@ -45,7 +45,7 @@ Deze lijst van onderwerpen geeft een idee, echter sluit overige onderwerpen zeke
 
 ## Formaat
 
-Binnen het programma duren presentaties standaard 45 minuten. Deze tijd is inclusief het beantwoorden van eventuele vragen. Een workshop bestaat uit twee tijdsloten, in totaal 90 minuten.
+Binnen het programma duren presentaties standaard 45 minuten. Deze tijd is inclusief het beantwoorden van eventuele vragen. Tevens wordt er nagedacht over de invulling van workshops, bijvoorbeeld een hele aparte track waarbij er twee of drie workshops na elkaar kunnen plaatsvinden.
 
 ## Publiek
 
