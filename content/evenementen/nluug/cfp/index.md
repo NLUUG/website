@@ -6,7 +6,7 @@ content_types:
 date: 2023-06-16T16:41:30+02:00
 description: "Deze pagina beschrijft voor zowel potentiële sprekers als onze programmacommissie hoe we omgaan met een Call for Proposals."
 review:
-  last_review: 2023-06-16
+  last_review: 2023-11-30
   reviewed_by: michael-boelen
   period: 365
 slug:
