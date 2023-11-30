@@ -1,0 +1,21 @@
+id: nluug-2024-voorjaarsconferentie
+date_start: 2024-05-21
+date_end: 2024-05-21
+event_address:
+  street_address: Winthontlaan 4-6
+  postal_code: 3526 KV
+  city: Utrecht
+  country: NL
+event_start: 2024-05-21T08:30:00+0200
+event_end: 2024-05-21T18:00:00+0200
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/
+event_url: "/evenementen/nluug/voorjaarsconferentie-2024/"
+event_location: Van der Valk Hotel Utrecht
+event_timezone: Europe/Amsterdam
+name: NLUUG voorjaarsconferentie 2024
+nluug_event: true
+highlight_on_homepage: true
