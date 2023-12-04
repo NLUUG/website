@@ -9,6 +9,8 @@ tags:
 title: "Maja Reissner - What if hacking were a sport?"
 speakers:
 - maja-reissner
+presentation:
+  filename: 2023-11-28-maja-reissner-what-if-hacking-were-a-sport.pdf
 ---
 
 ## Abstract

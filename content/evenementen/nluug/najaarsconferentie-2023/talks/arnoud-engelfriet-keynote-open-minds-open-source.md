@@ -10,6 +10,8 @@ tags:
 title: "Arnoud Engelfriet - Open Minds, Open Source: Navigating AI in the New Frontier of Intellectual Property Law"
 speakers:
 - arnoud-engelfriet
+presentation:
+  filename: 2023-11-28-arnoud-engelfriet-open-minds-open-source.pdf
 ---
 
 ## Abstract

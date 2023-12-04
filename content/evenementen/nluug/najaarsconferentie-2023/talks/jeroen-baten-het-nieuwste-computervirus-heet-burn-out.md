@@ -11,6 +11,8 @@ talk_language: nl
 not_recorded: true
 speakers:
 - jeroen-baten
+presentation:
+  filename: 2023-11-28-jeroen-baten-het-nieuwste-computervirus-heet-burn-out-en-alleen-gemotiveerde-mensen-kunnen-het-krijgen.pdf
 ---
 
 ## Abstract

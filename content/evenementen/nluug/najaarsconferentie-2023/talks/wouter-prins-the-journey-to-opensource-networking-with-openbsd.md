@@ -10,6 +10,8 @@ tags:
 title: "Wouter Prins - The journey to opensource networking with OpenBSD @AS15693"
 speakers:
 - wouter-prins
+presentation:
+  filename: 2023-11-28-wouter-prins-the-journey-to-opensource-networking-with-openbsd.pdf
 ---
 
 ## Abstract

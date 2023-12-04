@@ -10,6 +10,8 @@ tags:
 title: "David Venhoek - Time in the Network"
 speakers:
 - david-venhoek
+presentation:
+  filename: 2023-11-28-david-venhoek-time-in-the-network.pdf
 ---
 
 ## Abstract

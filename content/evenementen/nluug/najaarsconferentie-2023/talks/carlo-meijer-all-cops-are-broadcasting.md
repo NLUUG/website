@@ -11,6 +11,9 @@ tags:
 title: "Carlo Meijer - All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows"
 speakers:
 - carlo-meijer
+- wouter-bokslag
+presentation:
+  filename: 2023-11-28-carlo-meijer-en-wouter-bokslag-all-cops-are-broadcasting.pdf
 ---
 
 ## Abstract

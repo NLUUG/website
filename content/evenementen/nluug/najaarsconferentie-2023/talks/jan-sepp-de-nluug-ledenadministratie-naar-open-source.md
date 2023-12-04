@@ -10,6 +10,8 @@ title: "Jan Sepp - De NLUUG ledenadministratie naar Open Source? 🇳🇱"
 talk_language: nl
 speakers:
 - jan-sepp
+presentation:
+  filename: 2023-11-28-jan-sepp-nluug-ledenadministratie.pdf
 ---
 
 ## Abstract

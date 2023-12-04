@@ -11,6 +11,9 @@ tags:
 title: "Jan Jacob Pebesma - Energy System Simulation in the Cloud: ESSIM & ESDL-Mapeditor using Kubernetes & DevSecOps"
 speakers:
 - jan-jacob-pebesma
+- lech-bialek
+presentation:
+  filename: 2023-11-28-jan-jacob-pebesma-en-lech-bialek-presentation-energy-system-simulation-in-the-cloud.pdf
 ---
 
 ## Abstract

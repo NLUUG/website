@@ -10,6 +10,8 @@ tags:
 title: "Eirik Øverby - On FreeBSD, DDoS, and getting up from under the bus"
 speakers:
 - eirik-overby
+presentation:
+  filename: 2023-11-28-eirik-overby-on-freebsd-ddos-and-getting-up-from-under-the-bus.pdf
 ---
 
 ## Abstract

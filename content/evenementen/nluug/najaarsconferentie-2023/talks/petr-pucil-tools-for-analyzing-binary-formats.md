@@ -9,6 +9,8 @@ tags:
 title: "Petr Pucil - Tools for analyzing binary formats"
 speakers:
 - petr-pucil
+presentation:
+  filename: 2023-11-28-petr-pucilpetr-pucil-tools-for-analyzing-binary-formats.pdf
 ---
 
 ## Abstract

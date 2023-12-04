@@ -9,6 +9,8 @@ tags:
 title: "Geert Rolf - UTX/32 and the art of fire breathing -- a long forgotten chapter in UNIX history"
 speakers:
 - geert-rolf
+presentation:
+  filename: 2023-11-28-geert-rolf-utx-32-and-the-art-of-fire-breathing.pdf
 ---
 
 ## Abstract

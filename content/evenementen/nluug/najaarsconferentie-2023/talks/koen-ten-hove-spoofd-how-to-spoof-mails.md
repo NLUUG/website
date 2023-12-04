@@ -12,6 +12,8 @@ tags:
 title: "Koen van Hove - SPooFd: How to Spoof Mails, Even with Full SPF and DMARC Protection"
 speakers:
 - koen-van-hove
+presentation:
+  filename: 2023-11-28-koen-van-hove-spoofd.pdf
 ---
 
 ## Abstract

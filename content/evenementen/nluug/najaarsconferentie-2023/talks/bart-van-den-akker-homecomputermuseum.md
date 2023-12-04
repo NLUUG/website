@@ -9,6 +9,8 @@ tags:
 title: "Bart van den Akker - HomeComputerMuseum: What we are and how we share the history"
 speakers:
 - bart-van-den-akker
+presentation:
+  filename: 2023-11-28-bart-van-den-akker-home-computer-museum.pdf
 ---
 
 ## Abstract

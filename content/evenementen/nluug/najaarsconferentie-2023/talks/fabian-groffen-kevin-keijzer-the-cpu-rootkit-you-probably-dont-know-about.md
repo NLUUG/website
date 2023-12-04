@@ -13,6 +13,8 @@ title: "Fabian Groffen en Kevin Keijzer - The CPU RootKit you probably don’t k
 speakers:
 - fabian-groffen
 - kevin-keijzer
+presentation:
+  filename: 2023-11-28-fabian-groffen-en-kevin-keijzer-the-cpu-rootkit-you-probably-dont-know-about.pdf
 ---
 
 ## Abstract
