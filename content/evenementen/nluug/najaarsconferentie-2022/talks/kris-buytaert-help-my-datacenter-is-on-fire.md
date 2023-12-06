@@ -12,7 +12,7 @@ presentation:
   filename: 2022-11-29-kris-buytaert-help-my-datacenter-is-on-fire.pdf
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=99dGW1Ou0Dk
+  url: https://www.youtube.com/watch?v=ik7FX_WwCns
 ---
 
 ## Abstract

@@ -12,7 +12,7 @@ presentation:
   filename: 2022-11-29-sake-blok-log4shell-getting-to-know-your-adversary.pdf
 recording:
   platform: youtube
-  url: https://youtu.be/99dGW1Ou0Dk
+  url: https://www.youtube.com/watch?v=4X0ITI_YOiw
 ---
 
 ## Abstract

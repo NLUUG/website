@@ -12,7 +12,7 @@ presentation:
   filename: 2022-11-29-joyce-mellens-caer-an-iot-firewall-for-consumers.pdf
 recording:
   platform: youtube
-  url: https://www.youtube.com/watch?v=99dGW1Ou0Dk
+  url: https://www.youtube.com/watch?v=HHBzhHA1YCM
 ---
 
 ## Abstract
