@@ -18,8 +18,8 @@ status:
         name: Evenement
         link: "evenementen/nluug/voorjaarsconferentie-2024/_index.md"
       - id: 1
-        name: Portaal
+        name: CFP-portaal
         link_external: https://cfp.nluug.nl/
       - id: 2
-        name: Tips
+        name: CFP details en tips
         link: "evenementen/nluug/cfp/index.md"
