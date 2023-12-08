@@ -12,7 +12,7 @@ review:
 url: events/nluug/cfp/
 tags:
 - cfp
-title: "Call for Proposals"
+title: "Call for Proposals (CFP)"
 is_event: false
 ---
 

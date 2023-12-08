@@ -12,7 +12,7 @@ review:
 slug:
 tags:
 - cfp
-title: "Call for Proposals"
+title: "Call for Proposals (CFP)"
 is_event: false
 ---
 
