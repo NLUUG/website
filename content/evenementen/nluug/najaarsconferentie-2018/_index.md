@@ -122,17 +122,17 @@ event_schedule:
       talk:
         speaker: Olaf Molenveld
         title: "How to use smart canary releasing for containers to increase velocity and reduce issues"
-        link: 
+        link: talks/olaf-molenveld-how-to-use-smart-canary-releasing-for-containers-to-increase-velocity-and-reduce-issues/
     - column:
       talk:
         speaker: Dag Wieers
         title: "Managing complex infrastructure in lab environments using Ansible"
-        link: 
+        link: talks/dag-wieers-managing-complex-infrastructures-in-lab-environments-with-ansible/
     - column:
       talk:
         speaker: Tom Tervoort
         title: "The road to TLS 1.3"
-        link: 
+        link: talks/tom-tervoort-the-road-to-tls-13/
   - row:
     columns:
     - column:
@@ -169,7 +169,7 @@ event_schedule:
       talk:
         speaker: Slawek Wojtczak
         title: ZFS Boot Environments
-        link: 
+        link: talks/slawek-wojtczak-zfs-boot-environments/
   - row:
     columns:
     - column:
@@ -193,7 +193,7 @@ event_schedule:
       talk:
         speaker: Arjan Widlak
         title: The Digital Cage
-        link: 
+        link: talks/arjan-widlack-the-digital-cage/
   - row:
     columns:
     - column:
@@ -221,7 +221,7 @@ event_schedule:
       talk:
         speaker: Mischa Peters
         title: What Every Security Professional Should Know About the Dark Web
-        link: 
+        link: talks/mischa-peters-what-every-security-professional-should-know-about-the-dark-web/
   - row:
     columns:
     - column:
