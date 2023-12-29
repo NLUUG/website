@@ -5,9 +5,7 @@ date: 2018-11-15T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- dcf77
-- time
-- raspberry-pi
+- cybersecurity
 title: "Martijn van Lom - Fragile cyber-world: will fragmentation kill cybersecurity?"
 speakers:
 - martijn-van-lom

@@ -102,7 +102,7 @@ event_schedule:
       talk:
         speaker: Jan-Piet Mens
         title: The Story of OwnTracks
-        link: 
+        link: talks/jan-piet-mens-the-story-of-owntracks/
     - column:
       talk:
         speaker: Martijn van Lom
@@ -164,7 +164,7 @@ event_schedule:
       talk:
         speaker: Kees Meijs
         title: "Cloud construction at Nefos"
-        link: 
+        link: talks/kees-meijs-cloud-construction-at-nefos/ 
     - column:
       talk:
         speaker: Slawek Wojtczak
@@ -216,7 +216,7 @@ event_schedule:
       talk:
         speaker: Benjamin Martin
         title: "FileSender: Sharing large files across research facilities"
-        link: 
+        link: talks/benjamin-martin-filesender-sharing-large-files-across-research-facilities/
     - column:
       talk:
         speaker: Mischa Peters
