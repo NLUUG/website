@@ -6,9 +6,9 @@ description: ""
 layout: event-talk
 tags:
 - information-architecture
-title: "Arjan Widlack - The Digital Cage"
+title: "Arjan Widlak - The Digital Cage"
 speakers:
-- arjan-widlack
+- arjan-widlak
 presentation:
   filename: 
 recording:

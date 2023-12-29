@@ -193,7 +193,7 @@ event_schedule:
       talk:
         speaker: Arjan Widlak
         title: The Digital Cage
-        link: talks/arjan-widlack-the-digital-cage/
+        link: talks/arjan-widlak-the-digital-cage/
   - row:
     columns:
     - column:
