@@ -97,7 +97,7 @@ event_schedule:
       talk:
         speaker: Pieter Jenniskens
         title: "Microservices, containers and Kubernetes"
-        link: 
+        link: talks/pieter-jenniskens-microservices-containers-and-kubernetes/
     - column:
       talk:
         speaker: Jan-Piet Mens
@@ -107,7 +107,7 @@ event_schedule:
       talk:
         speaker: Martijn van Lom
         title: "Fragile cyber-world: will fragmentation kill cybersecurity?"
-        link: 
+        link: talks/martijn-van-lom-fragile-cyber-world-will-fragmentation-kill-cybersecurity/
   - row:
     columns:
     - column:
@@ -188,7 +188,7 @@ event_schedule:
       talk:
         speaker: René Ladan
         title: "Decoding the DCF77 time signal on a Raspberry Pi"
-        link: 
+        link: talks/rene-ladan-decoding-the-dcf77-time-signal-on-a-raspberry-pi/
     - column:
       talk:
         speaker: Arjan Widlak
@@ -245,7 +245,7 @@ event_schedule:
       talk:
         speaker: Ben Gras
         title: "TLBleed: When Protecting Your CPU Caches is Not Enough"
-        link: 
+        link: talks/ben-gras-tlbleed-when-protecting-your-cpu-caches-is-not-enough/
   - row:
     columns:
     - column:

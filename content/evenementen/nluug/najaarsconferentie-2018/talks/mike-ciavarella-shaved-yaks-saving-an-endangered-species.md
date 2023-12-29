@@ -5,13 +5,12 @@ date: 2018-11-15T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- cloud
-- workloads
+- automation
 title: "Mike Ciavarella - Shaved Yaks, Saving an endangered species"
 speakers:
 - mike-ciavarella
 presentation:
-  filename: 2018-11-15-john-yani-arrasjid-cloud-evolution-and-revolution-catering-for-mission-critical-workloads.pdf
+  filename: 
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=zn_AS9QWbU8
