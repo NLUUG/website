@@ -5,7 +5,8 @@ date: 2018-11-15T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- tls-13
+- cryptography
+- tls
 title: "Tom Tervoort - The road to TLS 1.3"
 speakers:
 - tom-tervoort
