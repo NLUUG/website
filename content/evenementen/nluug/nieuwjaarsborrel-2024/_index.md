@@ -35,6 +35,8 @@ event_register_start_date: 2023-12-01
 event_register_end_date: 2024-01-10
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
+event_schedule:
+  hidden: true
 ---
 
 Zie https://www.eenhoornamersfoort.nl/contact/#bereikbaarheid voor de locatie en bereikbaarheid.
