@@ -1,0 +1,21 @@
+id: nluug-2024-nieuwjaarsborrel
+date_start: 2024-01-10
+date_end: 2024-01-10
+event_address:
+  street_address: Barchman Wuytierslaan 2
+  postal_code: 3818 LH
+  city: Amersfoort
+  country: NL
+event_start: 2024-01-10T19:00:00+0100
+event_end: 2024-01-10T22:00:00+0100
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/
+event_url: "/evenementen/nluug/nieuwjaarsborrel-2024/"
+event_location: de Eenhoorn
+event_timezone: Europe/Amsterdam
+name: NLUUG nieuwjaarsborrel 2024
+nluug_event: true
+highlight_on_homepage: true
