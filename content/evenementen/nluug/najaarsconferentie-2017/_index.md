@@ -97,7 +97,7 @@ event_schedule:
     - column:
       talk:
         speaker: Sake Blok
-        title: Challenge: Can you esPcape?
+        title: "Challenge: Can you esPcape?"
         link: 
     - column:
       talk:
