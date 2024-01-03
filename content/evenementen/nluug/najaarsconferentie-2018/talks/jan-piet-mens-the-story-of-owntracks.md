@@ -10,7 +10,7 @@ title: "Jan-Piet Mens - The Story of OwnTracks"
 speakers:
 - jan-piet-mens
 presentation:
-  filename: 
+  filename: 2018-11-15-jan-piet-mens-the-story-of-owntracks.pdf
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=ZOkit8TVUd8

@@ -3,7 +3,7 @@ categories:
 - conferenties
 - evenementen
 date: 2018-05-15T20:17:47+02:00
-description: "De NLUUG voorjaarsconferentie heeft plaatsgevonden op dinsdag 11 mei 2018. Bekijk hier het programma, de presentaties, opnames en foto's."
+description: "De NLUUG voorjaarsconferentie heeft plaatsgevonden op dinsdag 15 mei 2018. Bekijk hier het programma, de presentaties, opnames en foto's."
 is_event: true
 tags:
 - conferenties
@@ -165,12 +165,12 @@ event_schedule:
       talk:
         speaker: James Bottomley
         title: "Enhancing Linux Security with the TPM"
-        link: 
+        link: talks/james-bottomley-enhancing-linux-security-with-tpm/
     - column:
       talk:
         speaker: Walter Belgers
         title: Gigatron TTL Computer
-        link: 
+        link: talks/walter-belgers-gigatron-ttl-computer/
   - row:
     columns:
     - column:
@@ -190,7 +190,7 @@ event_schedule:
       talk:
         speaker: Adrianus Warmenhoven
         title: Port Knocking
-        link: 
+        link: talks/adrianus-warmenhoven-port-knocking/
     - column:
       talk:
         speaker: Kevin McPeake
@@ -213,12 +213,12 @@ event_schedule:
       talk:
         speaker: Ralph Dolmans en Martin Hoffmann
         title: "DNSSEC: Rollin', Rollin', Rollin'"
-        link: 
+        link: talks/ralf-dolmans-martin-hoffmann-dnssec-rollin-rollin-rollin/
     - column:
       talk:
-        speaker: Rogier Spoor
+        speaker: Rogier Spoor en François Kooman
         title: "Let's Connect - Open Source VPN Solution"
-        link: 
+        link: talks/rogier-spoor-francois-kooman-lets-connect-open-source-vpn-solution/
     - column:
       talk:
         speaker: Ilja van Sprundel
@@ -238,7 +238,7 @@ event_schedule:
       talk:
         speaker: Willem Westerhof
         title: Beveiliging van PV-installaties
-        link: 
+        link: talks/willem-westerhof-how-an-intern-hacked-the-power-grid/
     - column:
       talk:
         speaker: Howard Chu
