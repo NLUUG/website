@@ -3,7 +3,7 @@ categories:
 - conferenties
 - evenementen
 date: 2017-11-16T20:17:47+02:00
-description: "De NLUUG najaarsconferentie heeft plaatsgevonden op 16 november 2017. Bekijk hier het programma, de presentaties, opnames en foto's."
+description: "De NLUUG najaarsconferentie heeft plaatsgevonden op donderdag 16 november 2017. Bekijk hier het programma, de presentaties, opnames en foto's."
 is_event: true
 tags:
 - conferenties
