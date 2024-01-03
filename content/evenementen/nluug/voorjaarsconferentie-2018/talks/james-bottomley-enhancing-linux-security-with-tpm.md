@@ -12,7 +12,7 @@ title: "James Bottomley - Enhancing Linux Security with TPM"
 speakers:
 - james-bottomley
 presentation:
-  filename: https://www.hansenpartnership.com/Impress-Slides/NLUUG-2018/#/begin
+  link: "https://www.hansenpartnership.com/Impress-Slides/NLUUG-2018/#/begin"
 recording:
   platform: youtube
   url: 
