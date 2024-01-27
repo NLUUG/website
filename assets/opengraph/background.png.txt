@@ -1,5 +1,19 @@
 Created with https://angrytools.com/gradient/image/
 
+Nieuwe design:
+
+Alpha: 100
+
+linksonder:
+RGB 255, 255, 255
+location 0%
+
+rechtsonder:
+#221F5F
+location 84%
+
+Oude design:
+
 Alpha: 100
 
 linksonder:
