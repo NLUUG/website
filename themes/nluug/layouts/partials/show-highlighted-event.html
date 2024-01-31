@@ -14,10 +14,10 @@
             {{ if .Params.event_cfp_close_date }}
               {{ $event_cfp_close_date := .Params.event_cfp_close_date | time }}
               {{ if le now $event_cfp_close_date }}
-                  <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
+                  <p>CFP: <strong><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
               {{ end }}
             {{ else }}
-              <p>CFP: <strong class="darkgreen"><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
+              <p>CFP: <strong><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
             {{ end }}
           {{ end }}
         {{ end }}

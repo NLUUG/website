@@ -11,25 +11,29 @@
 
 // Mignight blue:
 // Original: #26266B
+$midnight-blue-dark: #26266B;
 //   CSS filter: filter: invert(19%) sepia(64%) saturate(973%) hue-rotate(209deg) brightness(83%) contrast(105%);
-// Medium:   #515189
+$midnight-blue-medium: #515189;
 //   CSS filter: filter: invert(32%) sepia(28%) saturate(906%) hue-rotate(201deg) brightness(91%) contrast(86%);
-// Light:    #7D7DA6
+$midnight-blue-light: #7D7DA6;
 
 // Magenta
 // Original: #FA198B
 // Medium:   #FB47A2
 // Light:    #FC75B9
+$magenta-dark: #FA198B;
+$magenta-medium: #FB47A2;
+$magenta-light: #FC75B9;
 
 // Persian green
-// Original: #1B998B
-// Medium:   #49ADA2
-// Light:    #76C2B9
+$persian-green-dark: #1B998B;
+$persian-green-medium: #49ADA2;
+$persian-green-light: #76C2B9;
 
 // Amber
-// Original: #F2BB05
-// Medium:   #F5C937
-// Light:    #F7D669
+$amber-dark: #F2BB05;
+$amber-medium: #F5C937;
+$amber-light: #F7D669;
 
 // Raisin black
 $raisin-black-dark: #222226;
@@ -37,34 +41,34 @@ $raisin-black-medium: #4E4E51;
 $raisin-black-light: #7A7A7D;
 
 // Ghost white
-// Original: #FAFAFF
-// Medium:   #FBFBFF
-// Light:    #FCFCFF
+$ghost-white-dark: #FAFAFF;
+$ghost-white-medium: #FBFBFF;
+$ghost-white-light: #FCFCFF;
 
 
 //$color-button: #26266B;
-$color-button: #1B998B;
+$color-button: $midnight-blue-dark;
 //$color-button-hover: #17274d;
-$color-button-hover: #49ADA2;
+$color-button-hover: $midnight-blue-medium;
 //$color-button-call-to-action: #138808;
-$color-button-call-to-action: #F2BB05;
+$color-button-call-to-action: $midnight-blue-dark;
 //$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
-$color-button-call-to-action-hover: #F5C937;
+$color-button-call-to-action-hover: $midnight-blue-medium;
 
-$color-footer-background: #7D7DA6;
+$color-footer-background: $persian-green-light;
 $color-footer-text: $raisin-black-dark;
 
 //$color-header: #6A2060;
 $color-header: #26266B;
 
 //$color-highlight-box-other-border: #99AFE2;
-$color-highlight-box-other-border: #515189;
+$color-highlight-box-other-border: $magenta-medium;
 //$color-highlight-box-other-background: #E3E9F7;
-$color-highlight-box-other-background: #7D7DA6;
+$color-highlight-box-other-background: $magenta-light;
 //$color-highlight-box-nluug-border: #6A2060;
-$color-highlight-box-nluug-border: #515189;
+$color-highlight-box-nluug-border: $magenta-medium;
 //$color-highlight-box-nluug-background: #F5E1ED;
-$color-highlight-box-nluug-background: #7D7DA6;
+$color-highlight-box-nluug-background: $magenta-light;
 
 //$color-border: #6A2060;
 $color-border: #26266B;

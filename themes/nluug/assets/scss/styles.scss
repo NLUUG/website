@@ -81,11 +81,11 @@ h4, h5, strong, b {
 // Events voor alleen NLUUG-leden krijgen een andere kleur dan events in samenwerking met of die extra aandacht nodig hebben.
 .highlight-box-nluug {
   background-color: $color-highlight-box-nluug-background;
-  border: 2px solid $color-highlight-box-nluug-border;
+  border: 1px solid $color-highlight-box-nluug-border;
 }
 .highlight-box-other {
   background-color: $color-highlight-box-other-background;
-  border: 2px solid $color-highlight-box-other-border;
+  border: 1px solid $color-highlight-box-other-border;
 }
 
 
@@ -130,8 +130,8 @@ a.button:hover, a.button:active {
   background-color: $color-button-call-to-action-hover;
 }
 
-.darkgreen {
-  color: darkgreen;
+.persian-green-dark {
+  color: $persian-green-dark;
 }
 
 .darkred {

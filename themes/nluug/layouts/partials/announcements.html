@@ -9,7 +9,7 @@
     <div class="max-width ta-r">
         {{ range $index,$key := .status }}
           {{ if eq $.Site.Language.Lang .language }}
-            <span class="darkgreen bold">{{ .message }}</span>
+            <span class="persian-green-dark bold">{{ .message }}</span>
             {{ range .links }}
               <small>
               {{ if .link }}[<a href="{{ relref $context .link }}">{{ .name }}</a>]{{ end }}

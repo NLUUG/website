@@ -119,7 +119,7 @@
 
   {{ $cfp_open := .Scratch.Get "cfp_open" }}
   {{ if $cfp_open }}
-    <p class="darkgreen">De CFP is geopend!</p>
+    <p>De CFP is geopend!</p>
     <p>Wil je graag een bepaalde spreker zien? Contacteer onze <a href="{{ relref . "organisatie/commissies/pc/index.md" }}">programmacommissie</a>.</p>
     <p>Heb je zelf een leuke presentatie in gedachten? Dien dan een voorstel in!</p>
     <a class="btn btn-cta" href="{{ if .Params.event_cfp_link }}{{ .Params.event_cfp_link }}{{ else }}https://cfp.nluug.nl/{{ end }}" rel="nofollow noopener">Voorstel indienen</a>
