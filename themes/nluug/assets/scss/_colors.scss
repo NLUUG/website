@@ -1,15 +1,19 @@
+// Main colors of our website
 
 // Old colors:
-// purple: #6A2060
-// light purple-grey: #DCC9DB
-// darkblue: #1D3160
+//   purple: #6A2060
+//   light purple-grey: #DCC9DB
+//   darkblue: #1D3160
 
 // New colors (2024)
 // Primary colours are Midnight blue (HEX: #26266B) and Magenta (HEX: #FA198B)
+// Filters created with https://isotropic.co/tool/hex-color-to-css-filter/
 
 // Mignight blue:
 // Original: #26266B
+//   CSS filter: filter: invert(19%) sepia(64%) saturate(973%) hue-rotate(209deg) brightness(83%) contrast(105%);
 // Medium:   #515189
+//   CSS filter: filter: invert(32%) sepia(28%) saturate(906%) hue-rotate(201deg) brightness(91%) contrast(86%);
 // Light:    #7D7DA6
 
 // Magenta
@@ -28,9 +32,9 @@
 // Light:    #F7D669
 
 // Raisin black
-// Original: #222226
-// Medium:   #4E4E51
-// Light:    #7A7A7D
+$raisin-black-dark: #222226;
+$raisin-black-medium: #4E4E51;
+$raisin-black-light: #7A7A7D;
 
 // Ghost white
 // Original: #FAFAFF
@@ -46,6 +50,9 @@ $color-button-hover: #49ADA2;
 $color-button-call-to-action: #F2BB05;
 //$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
 $color-button-call-to-action-hover: #F5C937;
+
+$color-footer-background: #7D7DA6;
+$color-footer-text: $raisin-black-dark;
 
 //$color-header: #6A2060;
 $color-header: #26266B;
