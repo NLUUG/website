@@ -1,19 +1,70 @@
 
+// Old colors:
 // purple: #6A2060
 // light purple-grey: #DCC9DB
 // darkblue: #1D3160
 
-$color-button: #1D3160;
-$color-button-hover: #17274d;
-$color-button-call-to-action: #138808;
-$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
-$color-header: #6A2060;
-$color-highlight-box-other-border: #99AFE2;
-$color-highlight-box-other-background: #E3E9F7;
-$color-highlight-box-nluug-border: #6A2060;
-$color-highlight-box-nluug-background: #F5E1ED;
-$color-border: #6A2060;
-$color-text-inverse: white;
-$color-tags-background: #6A2060;
-$color-tags-text: white;
+// New colors (2024)
+// Primary colours are Midnight blue (HEX: #26266B) and Magenta (HEX: #FA198B)
+
+// Mignight blue:
+// Original: #26266B
+// Medium:   #515189
+// Light:    #7D7DA6
+
+// Magenta
+// Original: #FA198B
+// Medium:   #FB47A2
+// Light:    #FC75B9
+
+// Persian green
+// Original: #1B998B
+// Medium:   #49ADA2
+// Light:    #76C2B9
+
+// Amber
+// Original: #F2BB05
+// Medium:   #F5C937
+// Light:    #F7D669
+
+// Raisin black
+// Original: #222226
+// Medium:   #4E4E51
+// Light:    #7A7A7D
+
+// Ghost white
+// Original: #FAFAFF
+// Medium:   #FBFBFF
+// Light:    #FCFCFF
+
+
+//$color-button: #26266B;
+$color-button: #1B998B;
+//$color-button-hover: #17274d;
+$color-button-hover: #49ADA2;
+//$color-button-call-to-action: #138808;
+$color-button-call-to-action: #F2BB05;
+//$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
+$color-button-call-to-action-hover: #F5C937;
+
+//$color-header: #6A2060;
+$color-header: #26266B;
+
+//$color-highlight-box-other-border: #99AFE2;
+$color-highlight-box-other-border: #515189;
+//$color-highlight-box-other-background: #E3E9F7;
+$color-highlight-box-other-background: #7D7DA6;
+//$color-highlight-box-nluug-border: #6A2060;
+$color-highlight-box-nluug-border: #515189;
+//$color-highlight-box-nluug-background: #F5E1ED;
+$color-highlight-box-nluug-background: #7D7DA6;
+
+//$color-border: #6A2060;
+$color-border: #26266B;
+//$color-text-inverse: white;
+$color-text-inverse: #FAFAFF;
+//$color-tags-background: #6A2060;
+$color-tags-background: #26266B;
+//$color-tags-text: white;
+$color-tags-text: #FAFAFF;
 
