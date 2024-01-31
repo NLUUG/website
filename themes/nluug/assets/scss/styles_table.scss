@@ -14,7 +14,7 @@ table thead tr {
 }
 
 table thead th {;
-    background: #324960;
+    background: $midnight-blue-medium;
     color: #ffffff;
 }
 
@@ -26,10 +26,10 @@ tr:nth-child(even) {
     background: #F8F8F8;
 }
 tbody tr {
-    border-bottom: 1px solid #DDDDDD;
+    border-bottom: 1px solid #F8F8F8;
 }
 tbody tr:last-of-type {
-    border-bottom: 2px solid #324960;
+    border-bottom: 2px solid $midnight-blue-dark;
 }
 
 /*
@@ -67,12 +67,12 @@ tbody tr:last-of-type {
 
 .fl-table thead th {
     color: #ffffff;
-    background: #324960;
+    background: $midnight-blue-medium;
 }
 
 .fl-table thead th:nth-child(odd) {
     color: #ffffff;
-    background: #324960;
+    background: $midnight-blue-medium;
 }
 
 .fl-table tr:nth-child(even) {
