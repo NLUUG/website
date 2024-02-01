@@ -9,7 +9,7 @@ slug:
 title: "Statuten"
 ---
 
-In 2023 zijn de statuten voor het laatst bijgewerkt door middel van onderstaande wijziging:
+De statuten, het [huishoudelijk reglement]({{< relref "huishoudelijk-reglement.md" >}}) en de [huisregels]({{< relref "huisregels.md" >}}) vormen samen de basis voor de vereniging. Onderstaand is de meest recente versie (2023) van de statuten beschikbaar.
 
 ## Statutenwijziging vereniging
 
