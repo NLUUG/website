@@ -2,6 +2,9 @@
   {{ .Scratch.Set "cfp_open" false }}
   <div>{{ .Content }}</div>
 
+
+
+
   {{ if isset .Params "event_start" }}
 
     {{ $event_start := .Params.event_start | time }}
@@ -196,7 +199,15 @@
     {{ else }}
       <p>Het programma komt later beschikbaar.</p>
     {{ end }}
+
   {{ else }}
     <p>Waarschuwing: dit conferentieprogramma is niet goed geconfigureerd in de front matter.</p>
   {{ end }}
+
+  {{ if .Params.event_sponsors }}
+      <h2>Sponsoren</h2>
+      {{ .Scratch.Set "event_sponsors" .Params.event_sponsors }}
+      {{ partial "include-event-sponsors" . }}
+  {{ end }}
+
 {{ end }}
