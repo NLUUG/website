@@ -8,7 +8,7 @@ slug:
 title: "Huishoudelijk reglement"
 ---
 
-Reglement behorende bij de [Statuten]({{< relref "statuten.md" >}}) van de “Nederlandse Lokale UNIX-Systems Gebruikers Groep (Nluug)”, kortweg vereniging “NLUUG”. Naast het huishoudelijk reglement hebben we ook [huisregels]({{< relref "huisregels.md" >}}) als aanvulling met de nadruk op de omgangsvormen binnen de vereniging.
+Reglement behorende bij de [Statuten]({{< relref "statuten.md" >}}) van de “Nederlandse Lokale UNIX-Systems Gebruikers Groep (Nluug)”, kortweg vereniging “NLUUG”. Naast het huishoudelijk reglement hebben we ook [huisregels]({{< relref "huisregels.md" >}}). Deze dienen als aanvulling en leggen de nadruk op de gewenste omgangsvormen binnen onze vereniging.
 
 Versie 2022-01-12
 
