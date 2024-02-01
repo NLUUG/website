@@ -9,7 +9,7 @@ slug:
 title: "Sponsoring"
 ---
 
-Onze vereniging kan haar activiteiten mede ontplooien door de inkomsten uit lidmaatschapsgelden en sponsorcontracten. Door sponsoring kunnen we onze evenementen exclusiever maken en extra diensten verlenen richting onze leden. Op deze pagina delen we de voordelen voor onze sponsoren en leden.
+Onze vereniging kan haar activiteiten mede ontplooien door de inkomsten uit lidmaatschapsgelden en sponsorcontracten. Door sponsoring kunnen we onze evenementen nog uitgebreider maken en extra diensten verlenen richting onze leden. Op deze pagina delen we de voordelen voor onze sponsoren en leden.
 
 ## Vormen van sponsoring
 
