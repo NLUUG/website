@@ -36,6 +36,8 @@ event_organizers:
 event_register_start_date: 2023-06-20
 event_register_end_date: 2023-11-29
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
+event_sponsors:
+- at-computing
 event_status: "scheduled"
 event_schedule:
   title: Programma
