@@ -25,6 +25,8 @@ event_attendance_mode: "offline"
 event_description: "Najaarsconferentie 2021 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_images:
 - /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
+event_sponsors:
+- at-computing
 event_members_only: true
 event_organizers:
 - organizer:

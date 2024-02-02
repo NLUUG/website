@@ -30,6 +30,8 @@ event_images:
 event_description: "Voorjaarsconferentie 2022 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_members_only: true
 event_register_link: "https://nluug.nl/aanmelden/index.cgi?action=event"
+event_sponsors:
+- at-computing
 event_status: "scheduled"
 event_schedule:
   title: Programma

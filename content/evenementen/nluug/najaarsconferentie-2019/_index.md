@@ -29,6 +29,8 @@ event_address:
   city: "Utrecht"
   country_name: "The Netherlands"
 event_members_only: true
+event_sponsors:
+- at-computing
 event_status: "scheduled"
 event_schedule:
   title: Programma
