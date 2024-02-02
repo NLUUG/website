@@ -1,12 +1,12 @@
 ---
 categories:
-- conferenties
+- meetup
 - evenementen
 date: 2023-11-30T11:17:47+02:00
 description: "De NLUUG nieuwjaarsborrel is gepland op 10 januari 2024 in de Eenhoorn te Amersfoort."
 is_event: true
 tags:
-- conferenties
+- meetup
 slug:
 title: "NLUUG nieuwjaarsborrel 2024"
 layout: schedule-event
