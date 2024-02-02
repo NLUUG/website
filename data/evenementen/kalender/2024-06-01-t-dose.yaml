@@ -1,0 +1,19 @@
+id: 2024-06-01-t-dose
+date_start: 2024-06-01
+date_end: 2024-06-02
+event_address:
+  street_address: Molenstraat 23
+  postal_code: 5664 HV
+  city: Geldrop
+  country: NL
+event_start: 2024-06-01T10:00:00+0200
+event_end: 2024-06-02T17:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_location: "Weeffabriek"
+name: T-DOSE
+event_organizer: T-DOSE Foundation (Technical Dutch Open Source Event)
+event_organizer_url: https://t-dose.org/2024/
+event_url: https://t-dose.org/2024/schedule/
+event_free_access: false
+event_is_online: false
