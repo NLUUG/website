@@ -12,21 +12,66 @@ tags:
 title: "Stijlgids"
 ---
 
+De stijlgids is in 2023 geïntroduceerd door onze nieuwe webmasters met als doel het gebruik van taal, kleuren en afbeeldingen zo uniform mogelijk te gebruiken binnen onze vereniging.
+
+## Logo
+
+Het huidige logo is sinds januari 2024 in gebruik genomen.
+
+### Logo normaal
+
+* [Logo (png)](/afbeeldingen/logo/nluug-logo.png)
+* [Logo (svg)](/afbeeldingen/logo/nluug-logo.svg) (aanbevolen formaat)
+* [Logo (webp)](/afbeeldingen/logo/nluug-logo.webp)
+
+### Logo mono
+
+Het logo kan ook op donkere achtergronden worden gebruikt en hiervoor is de mono-versie beter geschikt.
+
+* [Logo mono (png)](/afbeeldingen/logo/nluug-logo-mono.png)
+* [Logo mono (svg)](/afbeeldingen/logo/nluug-logo-mono.svg) (aanbevolen formaat)
+
+### Mark
+
+We hebben ook het icoon (mark) beschikbaar als losse afbeelding
+* [Mark (png)](/afbeeldingen/logo/nluug-logo-mark.png)
+* [Mark (svg)](/afbeeldingen/logo/nluug-logo-mark.svg) (aanbevolen formaat)
+
 ## Kleuren
 
-We gebruiken zoveel mogelijk de kleurstelling zoals die ooit in de oude website werd toegepast.
+In 2024 hebben we een nieuwe huisstijl gekregen, inclusief de bijbehorende kleuren. Deze kleuren bestaan uit een set die elkaar ondersteunen. Onderstaand de namen, de variabelen zoals we ze gebruiken binnen SCSS en de kleurcodes (HEX).
 
-* Donkerblauw: #1D3160
-* Extra donkere versie van donkerblauw: #17274d
-* Groen (voor call-to-action): #138808
-* Donkergroen voor call-to-action (hover): #0F6D06
-* Paars: #6A2060;
-* Lichtpaars (uitgangspunt 6A2060): #EBBCE5
+De twee hoofdkleuren zijn Midnight Blue en Magenta.
 
-Nog te benoemen:
+### Midnight Blue
+* $midnight-blue-dark: #26266B;
+* $midnight-blue-medium: #515189;
+* $midnight-blue-light: #7D7DA6;
 
-* #99AFE2
-* #E3E9F7
+### Magenta
+* $magenta-dark: #FA198B;
+* $magenta-medium: #FB47A2;
+* $magenta-light: #FC75B9;
+
+### Persian Green
+* $persian-green-dark: #1B998B;
+* $persian-green-medium: #49ADA2;
+* $persian-green-light: #76C2B9;
+
+### Amber
+* $amber-dark: #F2BB05;
+* $amber-medium: #F5C937;
+* $amber-light: #F7D669;
+
+### Raisin Black
+* $raisin-black-dark: #222226;
+* $raisin-black-medium: #4E4E51;
+* $raisin-black-light: #7A7A7D;
+
+### Ghost White
+* $ghost-white-dark: #FAFAFF;
+* $ghost-white-medium: #FBFBFF;
+* $ghost-white-light: #FCFCFF;
 
 ## Headings
 
@@ -60,6 +105,10 @@ Waar mogelijk gebruiken we iconen in het SVG-formaat. Deze zijn compact en relat
 Om de iconen te kleuren maken we gebruik van een CSS-filter. Aangezien het hierbij niet mogelijk is om deze direct te kleuren aan de hand van de hex-waarde, worden deze omgezet.
 
 Tool: https://isotropic.co/tool/hex-color-to-css-filter/
+
+De kleuren uit ons logo:
+* Midnight Blue ($midnight-blue-dark) is CSS filter `filter: invert(19%) sepia(64%) saturate(973%) hue-rotate(209deg) brightness(83%) contrast(105%);`
+* Magenta ($magenta-dark) is CSS filter `filter: invert(32%) sepia(28%) saturate(906%) hue-rotate(201deg) brightness(91%) contrast(86%);`
 
 ### Ondersteunende afbeeldingen
 
