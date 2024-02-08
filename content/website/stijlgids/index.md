@@ -73,6 +73,12 @@ De twee hoofdkleuren zijn Midnight Blue en Magenta.
 * $ghost-white-medium: #FBFBFF;
 * $ghost-white-light: #FCFCFF;
 
+## Fonts
+
+Als onderdeel van onze huisstijl gebruiken we het lettertype [Inter](https://rsms.me/inter/) voor teksten. Dit lettertype is vrij beschikbaar en open onder de voorwaarden van SIL Open Font License 1.1.
+
+Ook op de website gebruiken we het lettertype Inter, echter als onderdeel van een zogeheten "font stack". Hierdoor kunnen we op andere lettertypes terugvallen als het primaire font niet aanwezig is. We hebben gekozen voor een stack met fonts die vaak standaard aanwezig zijn: `Inter, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,Roboto,noto,"Helvetica Neue",helvetica,arial,sans-serif;`
+
 ## Headings
 
 Binnen de website maken we vooral gebruik van H1, H2, H3, H4.
