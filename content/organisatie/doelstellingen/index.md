@@ -12,7 +12,7 @@ tags:
 title: "Doelstellingen"
 ---
 
-Het volgende staat beschreven in de [Statuten]({{< relref "statuten.md" >}}) van NLUUG:
+Het volgende staat beschreven in de [Statuten]({{< relref "statuten.md" >}}) van onze vereniging:
 
 ## Definities
 
