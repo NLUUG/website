@@ -12,7 +12,7 @@ tags:
 title: "Doelstellingen"
 ---
 
-Het volgende staat beschreven in de [Statuten]({{< relref "statuten.md" >}}) van NLUUG, over de doelstellingen van de vereniging:
+Het volgende staat beschreven in de [Statuten]({{< relref "statuten.md" >}}) van NLUUG:
 
 ## Definities
 
