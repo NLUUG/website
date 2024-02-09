@@ -9,7 +9,7 @@ slug:
 title: "Statuten"
 ---
 
-De statuten, het [huishoudelijk reglement]({{< relref "huishoudelijk-reglement.md" >}}) en de [huisregels]({{< relref "huisregels.md" >}}) vormen samen de basis voor de vereniging. Onderstaand is de meest recente versie (2023) van de statuten beschikbaar.
+De statuten, het [huishoudelijk reglement]({{< relref "huishoudelijk-reglement.md" >}}) en de [huisregels]({{< relref "huisregels.md" >}}) vormen samen de basis voor de vereniging. Hieronder de meest recente versie.
 
 ## Statutenwijziging vereniging
 
