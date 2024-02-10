@@ -97,7 +97,7 @@ event_schedule:
     - column:
       talk:
         speaker: Rick van Rein
-        title: LillyDAP: Making LDAP small `n' simple
+        title: "LillyDAP: Making LDAP small `n' simple"
         link: 
     - column:
       talk:
