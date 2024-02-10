@@ -27,7 +27,7 @@ event_organizers:
 event_attendance_mode: "offline"
 event_images:
 - /afbeeldingen/locaties/bunnik/postillion-hotel-bunnik-baan-van-fectio.jpg
-event_description: "Voorjaarsconferentie 2018 van de vereniging NLUUG in het Postillion Hotel te Bunnik"
+event_description: "Voorjaarsconferentie 2017 van de vereniging NLUUG in het Postillion Hotel te Bunnik"
 event_members_only: true
 event_register_link: "https://nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
@@ -76,9 +76,9 @@ event_schedule:
     - column:
       talk:
         speaker: Jane Stewart Adams
-        title: "Simple, Distributed, Scalable: What ants, starlings, and slime mold can teach us about computers."
+        title: "Simple, Distributed, Scalable: What ants, starlings, and slime mold can teach us about computers"
         keynote: true
-        link: 
+        link: talks/jane-stewart-adams-simple-distributed-scalable/
       center: true
       size: 3
   - row:
