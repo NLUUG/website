@@ -5,8 +5,8 @@ date: 2017-05-16T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-- cloud
-- workloads
+- algorithms
+- computational-problems
 title: "Jane Stewart Adams - Simple, Distributed, Scalable: What ants, starlings, and slime mold can teach us about computers"
 speakers:
 - jane-stewart-adams
