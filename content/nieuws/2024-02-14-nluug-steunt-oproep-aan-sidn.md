@@ -2,7 +2,7 @@
 author: bjorn-wijers
 categories:
 - nieuws
-date: 2024-02-02T16:59:49+02:00
+date: 2024-02-14T13:37:49+01:00
 description: "Vereniging NLUUG ondersteunt oproep aan SIDN om infrastructuur niet bij Amazon onder te brengen"
 slug: nluug-ondersteunt-oproep-internet-society-nederland
 tags:
