@@ -1,0 +1,19 @@
+id: 2024-07-20-IETF-120
+date_start: 2024-07-20
+date_end: 2024-07-26
+event_address:
+  street_address: 655 Burrard St
+  postal_code: BC V6C 2R7
+  city: Vancouver
+  country: CA
+event_start: 2024-07-20T09:00:00-0800
+event_end: 2024-07-26T18:00:00-0800
+event_timezone: America/Vancouver
+event_attendance_mode: offline
+event_location: Hyatt Regency Vancouver
+name: IETF 120
+event_organizer: Internet Engineering Task Force
+event_organizer_url: https://ietf.org/
+event_url: https://www.ietf.org/how/meetings/120/
+event_free_access: false
+event_is_online: true
