@@ -6,7 +6,7 @@ content_types:
 date: 2023-06-16T16:41:30+02:00
 description: "All information related to our Call for Proposals (CFP) is listed on this page, including tips on how to convince our programme committee and event visitors."
 review:
-  last_review: 2023-11-30
+  last_review: 2024-02-16
   reviewed_by: michael-boelen
   period: 365
 url: events/nluug/cfp/
@@ -31,7 +31,7 @@ For our conferences we like the following subjects (and more):
 * Information security
 * Internet (standards, technical aspects)
 * Interesting events and historie
-* Netwerk (analyze, firewalls)
+* Network (analyze, firewalls)
 * Open source
 * Open standards
 * Operating systems
