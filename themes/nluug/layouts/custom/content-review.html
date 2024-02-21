@@ -45,7 +45,7 @@
                        Onbekend
                     {{ end }}
                 </td>
-                <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+		<td>{{ .Page.Language.Lang }}</td>
                 <td>{{ with .File }}{{ .Path }}{{ end }}</td>
               </tr>
             {{ end }}
@@ -72,7 +72,7 @@
               <tr>
                 <td><a href="{{ .RelPermalink }}">{{ .Title | default .Site.Params.textNoTitle }}</a></td>
                 <td><time datetime="{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}">{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</time></td>
-                <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+		<td>{{ .Page.Language.Lang }}</td>
                 <td>{{ with .File }}{{ .Path }}{{ end }}</td>
               </tr>
           {{ end }}
