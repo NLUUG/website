@@ -29,7 +29,7 @@ event_organizers:
   id: nluug
   name: NLUUG
 event_register_start_date: 2024-02-02
-event_register_end_date: 2024-03-01
+event_register_end_date: 2024-03-03
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
 event_schedule:
@@ -37,8 +37,5 @@ event_schedule:
 ---
 
 Op maandagavond 4 maart organiseren NLUUG en AT Computing samen een NLUUG bijeenkomst over NixOS. AT Computing is zo vriendelijk om niet alleen de locatie ter beschikking te stellen, maar biedt ons ook een stapeltje pizza's en drinken aan. Je kan dus gelijk vanuit je werk door naar deze bijeenkomst. De spreker van de avond is Robert Hensing die ons alles kan vertellen over NixOS. Als je maar enige interesse hebt in NixOS dan wil je deze bijeenkomst echt niet missen!
-
-
-Meld je aan _vóór maandag 19 feb_
 
 LET OP: Er is ruimte voor maximaal 50 personen. Bij meer aanmeldingen maken we gebruik van een wachtlijst. Bij minder dan 20 aanmeldingen gaat de bijeenkomst niet door.
