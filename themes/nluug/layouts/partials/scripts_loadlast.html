@@ -1,6 +1,6 @@
-{{ $assetBusting := not .Site.Params.disableAssetsBusting }}
-{{ $scripts := getJSON "assets/js/scripts.json" }}
 {{ $.Scratch.Set "jslibs" slice }}
+{{ $assetBusting := not .Site.Params.disableAssetsBusting }}
+{{ $scripts := resources.Get "js/scripts.json" | unmarshal }}
 
 {{ range $scripts.scripts }}
   {{ $.Scratch.Add "jslibs" (resources.Get . ) }}
