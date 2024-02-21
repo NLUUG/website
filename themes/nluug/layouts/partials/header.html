@@ -19,7 +19,7 @@
             {{ $webpPathStatic:= printf "assets/%s" $webpPath }}
 
             {{ if (fileExists $webpPathStatic) -}}
-              <source srcset="/{{ $webpPath | safeURL }}" type="image/webp">
+              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
             {{- end }}
           {{- end }}
 
@@ -28,7 +28,7 @@
             {{ $webpPathStatic:= printf "assets/%s" $webpPath }}
 
             {{ if (fileExists $webpPathStatic) -}}
-              <source srcset="/{{ $webpPath | safeURL }}" type="image/webp">
+              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
             {{- end }}
           {{- end }}
 
