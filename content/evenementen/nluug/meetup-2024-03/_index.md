@@ -21,7 +21,7 @@ event_address:
   city: "Nieuwegein"
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
-event_description: "NLUUG bijeenkomst met als thema NixOS."
+event_description: "NLUUG-bijeenkomst in samenwerking met AT Computing met als thema NixOS."
 event_images:
 event_members_only: true
 event_organizers:
@@ -29,7 +29,7 @@ event_organizers:
   id: nluug
   name: NLUUG
 event_register_start_date: 2024-02-02
-event_register_end_date: 2024-03-03
+event_register_end_date: 2024-02-27
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
 event_schedule:
