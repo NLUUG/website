@@ -5,7 +5,7 @@
     {{ $upcoming_events := .Site.Data.evenementen.kalender }}
     {{ $upcoming_events := sort $upcoming_events ".date_start" "asc" }}
     <div class="three-column-grid">
-    {{ range first 50 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
+    {{ range first 50 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
       <div id="{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">
         <h3>{{ .name }}</h3>
         {{ if .organizer }}<small><em>Georganiseerd door {{ .organizer }}</em></small>{{ end }}
