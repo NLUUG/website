@@ -23,8 +23,9 @@
     <h2>Aankomende evenementen</h2>
     <div class="three-column-grid">
     {{ range $upcoming_events }}
-      {{ $date_start := .date_start | time }}
-      {{ if ge $date_start now }}
+      {{ $date_start := .date_start | time.Format "2006-01-02" }}
+      {{ $t := time.Now | time.Format "2006-01-02" }}
+      {{ if ge $date_start $t }}
         {{ if eq .highlight_on_homepage true }}
         <div class="highlight-box highlight-box-{{ if .nluug_event }}nluug{{ else }}other{{end }}">
             <h3>{{ .name }}</h3>
