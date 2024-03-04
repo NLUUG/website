@@ -6,7 +6,7 @@ event_address:
   postal_code: 3438 MR
   city: Nieuwegein
   country: NL
-event_start: 2024-03-0T18:30:00+0100
+event_start: 2024-03-04T18:30:00+0100
 event_end: 2024-03-04T21:00:00+0100
 event_attendance_mode: offline
 event_free_access: false
