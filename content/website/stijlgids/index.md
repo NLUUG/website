@@ -12,17 +12,22 @@ tags:
 title: "Stijlgids"
 ---
 
-De stijlgids is in 2023 geïntroduceerd door onze nieuwe webmasters met als doel het gebruik van taal, kleuren en afbeeldingen zo uniform mogelijk te gebruiken binnen onze vereniging.
+De stijlgids is in 2023 geïntroduceerd door onze nieuwe webmasters met als doel het gebruik van taal, kleuren en afbeeldingen zo uniform mogelijk te gebruiken binnen onze vereniging. Deze stijlgids maakt gebruikt van de basis zoals die ook is opgenomen door onze designer. Waar nodig is de [designer brand guide](/pdf/nluug/nluug-brand-guide.pdf) te raadplegen voor aanvullende tips qua gebruik van het logo en de kleuren.
 
 ## Logo
 
-Het huidige logo is sinds januari 2024 in gebruik genomen.
+Het huidige logo is sinds januari 2024 in gebruik genomen. Waar mogelijk, is het logo in SVG-formaat aanbevolen vanwege de bestandsgrootte en weergave.
 
 ### Logo normaal
 
 * [Logo (png)](/afbeeldingen/logo/nluug-logo.png)
 * [Logo (svg)](/afbeeldingen/logo/nluug-logo.svg) (aanbevolen formaat)
 * [Logo (webp)](/afbeeldingen/logo/nluug-logo.webp)
+
+Een aantal tips:
+* Gebruik White of Ghost White als achtergrond
+* Gebruik het gekleurde logo niet op een gekleurde achtergrond
+* Hanteer marges die ruim genoeg zijn zodat het logo goed tot zijn recht komt
 
 ### Logo mono
 
@@ -33,7 +38,8 @@ Het logo kan ook op donkere achtergronden worden gebruikt en hiervoor is de mono
 
 ### Mark
 
-We hebben ook het icoon (mark) beschikbaar als losse afbeelding
+We hebben ook het icoon (mark) beschikbaar als losse afbeelding.
+
 * [Mark (png)](/afbeeldingen/logo/nluug-logo-mark.png)
 * [Mark (svg)](/afbeeldingen/logo/nluug-logo-mark.svg) (aanbevolen formaat)
 
