@@ -28,7 +28,7 @@ De structuur binnen NLUUG is enige jaren geleden gewijzigd en is er gekozen voor
 #### English
 
 In the early 90's Fred got involved with Unix through his employer and because of that became involved with NLUUG.
-Since the beginning of this century Fred has been active as a freelance infrastructure architect, project manager and Unis system administrator. During this period most Unix variants have been touched, like BSD, SystemV and Linux.
+Since the beginning of this century Fred has been active as a freelance infrastructure architect, project manager and Unix system administrator. During this period most Unix variants have been touched, like BSD, SystemV and Linux.
 
 Fred's NLUUG involvement began in 1992, both as a regular member and in various other roles.
 
