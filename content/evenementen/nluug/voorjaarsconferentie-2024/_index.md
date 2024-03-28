@@ -259,5 +259,30 @@ event_schedule:
       size: 3
 ---
 
-De Call for Proposals is binnenkort weer actief. Zet in de tussentijd alvast de datum in je agenda!
+De programmacommissie heeft alle inzendingen bekeken. De volgende sprekers zijn inmiddels bekend:
+
+- Alain van Hoof
+- Alexios Zavras
+- Armijn Hemel
+- Ben de Haan
+- Eelco Maljaars
+- Jeroen v. Wijck
+- Jeroen Baten
+- Jeroen Willemsen
+- Joeri de Ruiter
+- Joost Gadellaa
+- Joost Grunwald
+- Klaas van Gend
+- Kris Buytaert
+- Matt Baer
+- Niels Hatzmann
+- Patrick Kuin
+- Paul K. Gerke
+- Peter Honeyman
+- Robbert Schep
+- Rudi van Drunen
+- Stefan Ubbink
+- Tom Lyon
+
+Het programma komt binnenkort online. Zet in de tussentijd alvast de datum in je agenda!
 
