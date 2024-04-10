@@ -39,7 +39,7 @@ event_sponsors:
 - at-computing
 event_status: "scheduled"
 event_schedule:
-  hidden: true
+  hidden: false
   title: Programma
   description:
   columns: 4
@@ -83,10 +83,10 @@ event_schedule:
       time: 09:30
     - column:
       talk:
-        speaker:
-        title:
+        speaker: Peter Honeyman
+        title: Money for Nothing, Chips for Free
         keynote: true
-        link:
+        link: talks/peter-honeyman-money-for-nothing-chips-for-free/
       center: true
       size: 3
   - row:
@@ -149,6 +149,15 @@ event_schedule:
     - column:
       textfield:
         text: Lunch
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 12:35
+    - column:
+      textfield:
+        text: Algemene Ledenvergadering (ALV)
       center: true
       size: 3
   - row:
@@ -259,7 +268,10 @@ event_schedule:
       size: 3
 ---
 
-De programmacommissie heeft alle inzendingen bekeken. De volgende sprekers zijn inmiddels bekend:
+
+De programmacommissie heeft alle inzendingen bekeken. De keynote zal worden verzorgd door Peter Honeyman!
+
+Het volledige programma komt binnenkort online. De volgende sprekers zijn inmiddels bekend:
 
 - Alain van Hoof
 - Alexios Zavras
@@ -278,11 +290,9 @@ De programmacommissie heeft alle inzendingen bekeken. De volgende sprekers zijn 
 - Niels Hatzmann
 - Patrick Kuin
 - Paul K. Gerke
-- Peter Honeyman
 - Robbert Schep
 - Rudi van Drunen
 - Stefan Ubbink
 - Tom Lyon
 
-Het programma komt binnenkort online. Zet in de tussentijd alvast de datum in je agenda!
 

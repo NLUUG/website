@@ -1,0 +1,21 @@
+{
+  "id": "peter-honeyman",
+  "name": "Peter Honeyman",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "American",
+  "profile_page": "",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/peter-honeyman-200x200.jpg"
+}
