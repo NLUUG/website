@@ -104,19 +104,19 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Alain van Hoof
+        title: Kubernetes from Scratch, The Hard Way
+        link: talks/alain-van-hoof-kubernetes-from-scratch-the-hard-way/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Jeroen Baten
+        title: Making Ansible Playbooks to Configure Single Sign-on for Popular Open Source Applications
+        link: talks/jeroen-baten-making-ansible-playbooks-to-configure-single-sign-on-for-popular-open-source-applications/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Joost Gadellaa
+        title: Oh nee, Schaduw-ICT!
+        link: talks/joost-gadellaa-oh-nee-schaduw-ict/
   - row:
     columns:
     - column:

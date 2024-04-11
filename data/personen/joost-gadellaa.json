@@ -1,10 +1,10 @@
 {
-  "id": "peter-honeyman",
-  "name": "Peter Honeyman",
+  "id": "joost-gadellaa",
+  "name": "Joost Gadellaa",
   "email": "",
   "gender": "Male",
   "honorary_member": false,
-  "nationality": "American",
+  "nationality": "Dutch",
   "profile_page": "",
   "sameas": "",
   "social": {
@@ -17,5 +17,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/peter-honeyman-200x200.jpg"
+  "thumbnail": "/afbeeldingen/personen/joost-gadellaa-200x200.jpg"
 }
