@@ -5,7 +5,7 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Paul K. Gerke - Building and Replacing On-prem Deep Learning Infrastructure for Medical Image Analysis "
+title: "Paul K. Gerke - Building and Replacing On-prem Deep Learning Infrastructure for Medical Image Analysis"
 speakers:
 - paul-k-gerke
 ---

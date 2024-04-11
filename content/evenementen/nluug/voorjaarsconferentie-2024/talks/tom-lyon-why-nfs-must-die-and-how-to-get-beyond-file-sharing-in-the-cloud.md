@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 - nfs
-title: "Tom Lyon Why NFS must die, and how to get Beyond File Sharing in the Cloud."
+title: "Tom Lyon - Why NFS must die, and how to get Beyond File Sharing in the Cloud."
 speakers:
 - tom-lyon
 ---

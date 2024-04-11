@@ -1,0 +1,21 @@
+{
+  "id": "matt-baer",
+  "name": "Matt Baer",
+  "email": "",
+  "gender": "",
+  "honorary_member": false,
+  "nationality": "",
+  "profile_page": "",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/matt-baer-200x200.jpg"
+}

@@ -5,7 +5,7 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Stefan Ubbink - De Algoritme-rollover voor .nl "
+title: "Stefan Ubbink - De Algoritme-rollover voor .nl"
 speakers:
 - stefan-ubbink
 ---

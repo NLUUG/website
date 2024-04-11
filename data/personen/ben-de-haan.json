@@ -1,0 +1,21 @@
+{
+  "id": "ben-de-haan",
+  "name": "Ben de Haan",
+  "email": "",
+  "gender": "",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/ben-de-haan-200x200.jpg"
+}

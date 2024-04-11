@@ -1,0 +1,21 @@
+{
+  "id": "tom-lyon",
+  "name": "",
+  "email": "",
+  "gender": "",
+  "honorary_member": false,
+  "nationality": "",
+  "profile_page": "",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/tom-lyon-200x200.jpg"
+}

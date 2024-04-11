@@ -129,19 +129,19 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Rudi van Drunen
+        title: Precision Timekeeping for the Masses
+        link: talks/rudi-van-drunen-precision-timekeeping-for-the-masses/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Klaas van Gend
+        title: Parallelization of C++ Code Using C++17
+        link: talks/klaas-van-gend-parallelization-of-c-code-using-c17/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Stefan Ubbink
+        title: De Algoritme-rollover voor .nl
+        link: talks/stefan-ubbink-de-algoritme-rollover-voor-nl/
   - row:
     columns:
     - column:
@@ -166,19 +166,19 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Matt Baer
+        title: Federated Blogging with WriteFreely
+        link: talks/matt-baer-federated-blogging-with-writefreely/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Kris Buytaert
+        title: Open Source Monitoring and Observability, where are we now
+        link: talks/kris-buytaert-open-source-monitoring-and-observability-where-are-we-now/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Armijn Hemel
+        title: Having Fun with the ZIP File Format
+        link: talks/armijn-hemel-having-fun-with-the-zip-file-format/
   - row:
     columns:
     - column:
@@ -191,19 +191,19 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Eelco Maljaars
+        title: "Platform building in the Fediverse: creating the actual Social Social Web"
+        link: talks/eelco-maljaars-platform-building-in-the-fediverse-creating-the-actual-social-social-web/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Robbert Schep and Jeroen v. Wijck
+        title: A proposal for Local Smartphone-based Adhoc Network in Disaster Areas.
+        link: talks/robbert-schep-jeroen-v-wijck-a-proposal-for-local-smartphone-based-adhoc-network-in-disaster-areas/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Ben de Haan and Jeroen Willemsen
+        title: How to (not) Use Secrets with OWASP WrongSecrets
+        link: talks/ben-de-haan-jeroen-willemsen-how-to-not-use-secrets-with-owasp-wrongsecrets/
   - row:
     columns:
     - column:
@@ -219,19 +219,19 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Joeri de Ruiter
+        title: Privacy-vriendelijk loggen voor Incident-response
+        link: talks/joeri-de-ruiter-privacy-vriendelijk-loggen-voor-incident-response/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Tom Lyon
+        title: Why NFS must die, and how to get Beyond File Sharing in the Cloud.
+        link: talks/tom-lyon-why-nfs-must-die-and-how-to-get-beyond-file-sharing-in-the-cloud/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Joost Grunwald and Patrick Kuin
+        title: Harnessing AI and Open-Source Tools for Enhanced IT Security Vulnerability Assessment
+        link: talks/joost-grunwald-patrick-kuin-harnessing-ai-and-open-source-tools-for-enhanced-it-security-vulnerability-assessment/
   - row:
     columns:
     - column:
@@ -244,19 +244,19 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Alexios Zavras
+        title: The Increasing Importance of SBOMs and the Latest Developments
+        link: talks/alexios-zavras-the-increasing-importance-of-sboms-and-the-latest-developments/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Niels Hatzmann
+        title: "Kiesraad: Nieuwe Uitslagensoftware voor de Verkiezingen"
+        link: talks/niels-hatzmann-kiesraad-nieuwe-uitslagensoftware-voor-de-verkiezingen/
     - column:
       talk:
-        speaker:
-        title:
-        link:
+        speaker: Paul K. Gerke
+        title: Building and Replacing On-prem Deep Learning Infrastructure for Medical Image Analysis
+        link: talks/paul-k-gerke-building-and-replacing-on-prem-deep-learning-infrastructure-for-medical-image-analysis/
   - row:
     columns:
     - column:
