@@ -269,30 +269,4 @@ event_schedule:
 ---
 
 
-De programmacommissie heeft alle inzendingen bekeken. De keynote zal worden verzorgd door Peter Honeyman!
-
-Het volledige programma komt binnenkort online. De volgende sprekers zijn inmiddels bekend:
-
-- Alain van Hoof
-- Alexios Zavras
-- Armijn Hemel
-- Ben de Haan
-- Eelco Maljaars
-- Jeroen v. Wijck
-- Jeroen Baten
-- Jeroen Willemsen
-- Joeri de Ruiter
-- Joost Gadellaa
-- Joost Grunwald
-- Klaas van Gend
-- Kris Buytaert
-- Matt Baer
-- Niels Hatzmann
-- Patrick Kuin
-- Paul K. Gerke
-- Robbert Schep
-- Rudi van Drunen
-- Stefan Ubbink
-- Tom Lyon
-
-
+De programmacommissie heeft alle inzendingen bekeken uit de vele inzendingen een mooi programma samengesteld. De keynote zal worden verzorgd door Peter Honeyman!
