@@ -2,7 +2,7 @@
 author: rudi-van-drunen
 categories:
 - nieuws
-date: 2024-04-29T08:28:43+01:00
+date: 2024-04-29T08:26:43+02:00
 description: "Erelid Frances Brazier onderscheiden met ridderorde in de orde van de gouden leeuw"
 slug: erelid-frances-brazier-ridderorde
 tags:
