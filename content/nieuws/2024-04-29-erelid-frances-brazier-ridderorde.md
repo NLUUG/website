@@ -3,14 +3,14 @@ author: rudi-van-drunen
 categories:
 - nieuws
 date: 2024-04-29T08:26:43+02:00
-description: "Erelid Frances Brazier onderscheiden met ridderorde in de orde van de gouden leeuw"
+description: "Erelid Frances Brazier onderscheiden met Ridderorde in de Orde van de Nederlandse Leeuw"
 slug: erelid-frances-brazier-ridderorde
 tags:
 - ereleden
 title: "Erelid Frances Brazier onderscheiden met ridderorde in de orde van de gouden leeuw"
 ---
 
-Frances Brazier, erelid van NLUUG en een van de medeoprichters van NLnet is onderscheden met de ridderorde in de orde van de gouden leeuw.
+Frances Brazier, erelid van NLUUG en een van de medeoprichters van NLnet is onderscheden met de Ridderorde in de Orde van de Nederlandse Leeuw.
 
 Frances Brazier is bekend als een van de oprichters van NLnet, de eerste internetprovider in Nederland en een van de eerste in Europa. Frances is sinds 2009 werkzaam als hoogleraar systems engineering foundations aan de Technische Universiteit Delft en richt zich met name op informatica en kunstmatige intelligentie.
 
