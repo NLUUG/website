@@ -7,7 +7,7 @@ description: "Erelid Frances Brazier onderscheiden met Ridderorde in de Orde van
 slug: erelid-frances-brazier-ridderorde
 tags:
 - ereleden
-title: "Erelid Frances Brazier onderscheiden met ridderorde in de orde van de gouden leeuw"
+title: "Erelid Frances Brazier onderscheiden met Ridderorde in de Orde van de Nederlandse Leeuw"
 ---
 
 Frances Brazier, erelid van NLUUG en een van de medeoprichters van NLnet is onderscheden met de Ridderorde in de Orde van de Nederlandse Leeuw.
