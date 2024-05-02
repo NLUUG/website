@@ -18,7 +18,7 @@ One of the most important lessons learned in distributed computing and concurren
 to **provide a shared mutable data space**.
 There are many other problems with the NFS model at cloud scale.
 NFS remains popular because its killer feature is access to large data sets,
-by network-unaware applications, without having to frst copy them.
+by network-unaware applications, without having to first copy them.
 Using existing file systems, *OverlayFS*, and *NVMe-Over-Fabrics*,
 we propose a new approach to achieve blazing-fast, highly scalable, and consistent access to
 dynamic data sets.  We solicit contributors.
