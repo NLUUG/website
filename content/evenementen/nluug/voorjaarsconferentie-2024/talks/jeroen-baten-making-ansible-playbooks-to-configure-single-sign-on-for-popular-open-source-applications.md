@@ -12,9 +12,9 @@ speakers:
 
 ## Abstract
 
-TL;DR: I spend 11 month developing a set of playbooks to configure SSO for several open source application and/to a Keycloak identity server. In my talk I present the process and some gotchas.
+TL;DR: I spend 11 months developing a set of playbooks to configure SSO for several open source applications and/to a Keycloak identity server. In my talk I present the process and some gotchas.
 
-The Dutch Onestein organization (specialized in Odoo implementations) invested 11 month of research. Goal was to create a set of easy to use Ansible playbooks to configure single sign-on (SSO) for popular open source applications. This would enable them to authenticate to a Keycloak server as the central identity provider.
+The Dutch Onestein organization (specialized in Odoo implementations) invested 11 months of research. Goal was to create a set of easy to use Ansible playbooks to configure single sign-on (SSO) for popular open source applications. This would enable them to authenticate to a Keycloak server as the central identity provider.
 
 These playbooks have been published on https://github.com/onesteinbv/project_single_sign_on and are meant to be a starting point.
 
