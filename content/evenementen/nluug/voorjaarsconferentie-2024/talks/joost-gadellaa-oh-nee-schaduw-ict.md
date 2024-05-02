@@ -14,8 +14,8 @@ speakers:
 
 Schaduw-ICT is een terugkerend fenomeen in allerlei discussies over informatiebeveiliging, privacy en compliance. Voor SURF heb ik onderzoek gedaan naar mogelijke risico’s die het veroorzaakt in het hoger onderwijs en denk dat de bevindingen breed toepasbaar zijn.
 Schaduw-ICT verwijst naar ICT-middelen die zonder officiële goedkeuring of zelfs kennis van een ICT-afdeling worden gebruikt. Bestaand onderzoek suggereert dat dit verlies van controle ernstige gevolgen heeft voor de cyberbeveiliging, maar over technische details (of oplossingen) van die gevolgen blijft het vaak op de vlakte.
-Mijn afstudeeronderzoek bij SURF omvatte een literatuurstudie en interviews met elf informatiebeveiligingsprofessionals over hun ervaringen met schaduw-ICT. Uitkomsten tonen aan dat schaduw-IT veelvormig is en in alle lagen van allerlei organisaties voorkomt en een boel risico’s met zich mee kan brengen, maar ook dat de oplossingen niet ver weg zijn.
-De resultaten leidden tot de identificatie van verschillende typen risicos en mogelijke tegenmaatregelen. Het blijkt dat een verantwoorde omgang met schaduw-ICT heel haalbaar is, mits organisaties hun bestaande verdedigingsmaatregelen aanpassen. Verbieden van schaduw-IT is noch haalbaar noch wenselijk; de uitkomsten van dit onderzoek geven aanbevelingen om verantwoord Schaduw-ICT toe te laten.
+Mijn afstudeeronderzoek bij SURF omvatte een literatuurstudie en interviews met elf informatiebeveiligingsprofessionals over hun ervaringen met schaduw-ICT. Uitkomsten tonen aan dat schaduw-ICT veelvormig is en in alle lagen van allerlei organisaties voorkomt en een boel risico’s met zich mee kan brengen, maar ook dat de oplossingen niet ver weg zijn.
+De resultaten leidden tot de identificatie van verschillende typen risicos en mogelijke tegenmaatregelen. Het blijkt dat een verantwoorde omgang met schaduw-ICT heel haalbaar is, mits organisaties hun bestaande verdedigingsmaatregelen aanpassen. Verbieden van schaduw-ICT is noch haalbaar noch wenselijk; de uitkomsten van dit onderzoek geven aanbevelingen om verantwoord Schaduw-ICT toe te laten.
 
 ## Biografie
 
