@@ -20,4 +20,4 @@ During the presentation I showcase the specific setups and discuss different har
 
 ## Biography
 
-Professional software developer trying to cover the in the entire software and hardware stack "from wire to website". Working professionally at the Diagnostic Image Analysis Group (Radboudumc Nijmegen) for 10 years after finishing my Master of Science in Artificial Intelligence at the Radboud University Nijmegen.
+Professional software developer trying to cover the entire software and hardware stack "from wire to website". Working professionally at the Diagnostic Image Analysis Group (Radboudumc Nijmegen) for 10 years after finishing my Master of Science in Artificial Intelligence at the Radboud University Nijmegen.
