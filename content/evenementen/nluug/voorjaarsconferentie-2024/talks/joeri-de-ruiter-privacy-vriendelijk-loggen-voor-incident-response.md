@@ -12,7 +12,7 @@ speakers:
 
 ## Abstract
 
-Om mogelijke besmette of gecompromitteerde systemen binnen een netwerk op te sporen kunnen DNS queries erg nuttig zijn. Bij een incident zou je dan ook graag terug willen zoeken welke systemen een bepaalde hostname, bijvoorbeeld voor een bepaalde command&control server, hebben opgevraagd. Het zou dus erg handig zijn een een uitgebreide log bij te houden van alle queries op de resolvers om mogelijke problemen op te sporen. Een log van alle DNS queries laat echter ook, bijvoorbeeld, zien welke websites een gebruiker heeft bezocht. Het is dus een nuttige informatiebron die tegelijk privacy-gevoelige gegevens kan bevatten.
+Om mogelijke besmette of gecompromitteerde systemen binnen een netwerk op te sporen kunnen DNS queries erg nuttig zijn. Bij een incident zou je dan ook graag terug willen zoeken welke systemen een bepaalde hostname, bijvoorbeeld voor een bepaalde command&control server, hebben opgevraagd. Het zou dus erg handig zijn een uitgebreide log bij te houden van alle queries op de resolvers om mogelijke problemen op te sporen. Een log van alle DNS queries laat echter ook, bijvoorbeeld, zien welke websites een gebruiker heeft bezocht. Het is dus een nuttige informatiebron die tegelijk privacy-gevoelige gegevens kan bevatten.
 
 Met behulp van cryptografische technieken hebben we een systeem ontworpen waarin deze DNS queries op een privacy-vriendelijkere manier kunnen worden opgeslagen en gebruikt voor incident response doeleinden. Hierbij is het wel nog mogelijk om op te zoeken welke systemen een bepaalde hostname hebben opgevraagd, maar kan niet worden opgezocht welke opvragingen een bepaalde gebruiker allemaal heeft gedaan.
 
