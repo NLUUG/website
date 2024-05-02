@@ -154,7 +154,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 12:35
+      time: 13:10
     - column:
       textfield:
         text: Algemene Ledenvergadering (ALV)
