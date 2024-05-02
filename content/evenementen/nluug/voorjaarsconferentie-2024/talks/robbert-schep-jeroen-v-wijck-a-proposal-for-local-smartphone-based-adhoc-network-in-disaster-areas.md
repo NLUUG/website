@@ -17,9 +17,6 @@ In the last couple of years several large-scale natural disasters have happened 
 A possible solution to the problem of lack of easy data communication could be the use of battery powered hardware using a communication chip. From February to September of 2023, we have attempted to create a workable protocol that can build ad hoc wireless network using smartphones to share data between Wi-Fi enabled devices without the need for any external hardware.
 Our solution leverages STA/AP concurrency to establish a multi node network without the need for external hardware.
 
-In the last couple of years several large-scale natural disasters have happened across the globe. During those events much if not all the communication infrastructure was either offline due to loss of power or outright destroyed. Communication lines that can and often are vital to render aid quickly and effectively in these areas.
-A possible solution to the problem of lack of easy data communication could be the use of battery powered hardware using a communication chip. From February to September of 2023, we have attempted to create a workable protocol that can build ad hoc wireless network using smartphones to share data between Wi-Fi enabled devices without the need for any external hardware.
-Our solution leverages STA/AP concurrency to establish a multi node network without the need for external hardware.
 
 ## Biography
 
