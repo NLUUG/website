@@ -46,4 +46,4 @@ Nederland
 
 * KvK: 40533872
 * BTW-nummer: NL803474386B01
-* Vestiging: Sweelincklaan 8, 6815BH, Arnhem
+* Vestiging: Zuidzijde 68, 9515PK, Gasselternijveenschemond
