@@ -36,6 +36,7 @@ event_register_start_date: 2024-08-01
 event_register_end_date: 2024-11-05
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
+- at-computing
 event_status: "scheduled"
 event_schedule:
   hidden: true
