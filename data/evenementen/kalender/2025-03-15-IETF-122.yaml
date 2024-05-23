@@ -1,0 +1,19 @@
+id: 2025-03-15-IETF-122
+date_start: 2025-03-15
+date_end: 2025-03-21
+event_address:
+  street_address: 199 Sukhumvit Alley 22, Khlong Tan, Khlong Toei
+  postal_code: 10110
+  city: Bangkok
+  country: TH
+event_start: 2025-03-15T09:00:00+0000
+event_end: 2025-03-21T18:00:00+0000
+event_timezone: Asia/Bangkok
+event_attendance_mode: offline
+event_location: Marriott Marquis Queen's Park
+name: IETF 122
+event_organizer: Internet Engineering Task Force
+event_organizer_url: https://ietf.org/
+event_url: https://www.ietf.org/how/meetings/122/
+event_free_access: false
+event_is_online: true

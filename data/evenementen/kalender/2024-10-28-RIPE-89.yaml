@@ -1,0 +1,16 @@
+id: 2024-10-28-RIPE-89
+date_start: 2024-10-28
+date_end: 2024-11-01
+event_address:
+  city: Prague
+  country: CZ
+event_start: 2024-10-28T09:00:00+0100
+event_end: 2024-11-01T18:00:00+0100
+event_timezone: Europe/Prague
+event_attendance_mode: offline
+name: RIPE 89
+event_organizer: Réseaux IP Européens
+event_organizer_url: https://ripe.net/
+event_url: https://ripe89.ripe.net/
+event_free_access: false
+event_is_online: true
