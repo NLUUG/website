@@ -25,9 +25,14 @@ Het bestuur is volgens de wet ook verplicht om alle benodigde informatie te vers
 * Naleven van wettelijke regels
 * Signaleren van risico's voor de vereniging
 
-## Voorgaande jaren
+## Eerdere invulling
 
-| Jaar | Personen |
-| ---- | -------- |
+Minimaal twee personen vervullen de rol van KCC. In het verleden o.a. door de volgende personen:
+
+| Jaar | Commissieleden |
+| ---- | -------------- |
 | 2023 | Brenda Langedijk, Jeroen Baten, Michael Boelen |
 | 2022 | Brenda Langedijk, Peter Spekreijse |
+| 2021 | Michael Boelen, Peter Spekreijse |
+| 2020 | Alain van Hoof, Michael Boelen, Walter Belgers |
+| 2019 | Alain van Hoof, Walter Belgers |
