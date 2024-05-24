@@ -58,6 +58,8 @@
           {{ $image := replace .thumbnail "200x200" "150x150" }}
           {{ $alttext := printf "Foto van %s" .name }}
           {{ partial "show-image.html" (dict "context" . "image" $image "alt" $alttext "figcaption" .name "link" .profile_page) }}
+	{{ else }}
+	  <span>{{ .name }}</span>
         {{ end }}
       </div>
     {{ end }}
