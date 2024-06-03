@@ -1,10 +1,10 @@
 {
-  "id": "alexios-zavras",
-  "name": "Alexios Zavras",
+  "id": "",
+  "name": "",
   "email": "",
   "gender": "",
   "honorary_member": false,
-  "nationality": "",
+  "nationality": "Dutch",
   "profile_page": "",
   "sameas": "",
   "social": {
@@ -17,5 +17,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/alexios-zavras-200x200.jpg"
+  "thumbnail": "/afbeeldingen/personen/a-b-200x200.jpg"
 }
