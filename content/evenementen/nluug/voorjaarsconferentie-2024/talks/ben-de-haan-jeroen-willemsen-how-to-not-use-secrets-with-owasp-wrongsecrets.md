@@ -9,6 +9,8 @@ title: "Ben de Haan and Jeroen Willemsen - How to (not) Use Secrets with OWASP W
 speakers:
 - ben-de-haan
 - jeroen-willemsen 
+presentation:
+  filename: 2024-05-21-ben-de-haan-jeroen-willemsen-how-to-not-use-secrets-with-owasp-wrongsecrets.pdf
 ---
 
 ## Abstract

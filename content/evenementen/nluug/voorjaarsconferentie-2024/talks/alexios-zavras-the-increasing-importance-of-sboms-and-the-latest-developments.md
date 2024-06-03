@@ -8,6 +8,8 @@ tags:
 title: "Alexios Zavras - The Increasing Importance of SBOMs and the Latest Developments"
 speakers:
 - alexios-zavras
+presentation:
+  filename: 2024-05-21-alexios-zavras-the-increasing-importance-of-sboms-and-the-latest-developments.pdf
 ---
 
 ## Abstract

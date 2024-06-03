@@ -8,6 +8,8 @@ tags:
 title: "Armijn Hemel - Having Fun with the ZIP File Format"
 speakers:
 - armijn-hemel 
+presentation:
+  filename: 2024-05-21-armijn-hemel-having-fun-with-the-zip-file-format.pdf
 ---
 
 ## Abstract
