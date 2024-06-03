@@ -8,6 +8,8 @@ tags:
 title: "Eelco Maljaars - Platform building in the Fediverse: creating the actual Social Social Web"
 speakers:
 - eelco-maljaars
+presentation:
+  filename: 2024-05-21-eelco-maljaars-platform-building-in-the-fediverse-creating-the-actual-social-social-web.pdf
 ---
 
 ## Abstract

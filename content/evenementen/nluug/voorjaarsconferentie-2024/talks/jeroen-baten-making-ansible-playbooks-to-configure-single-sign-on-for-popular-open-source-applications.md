@@ -8,6 +8,8 @@ tags:
 title: "Jeroen Baten - Making Ansible Playbooks to Configure Single Sign-on for Popular Open Source Applications"
 speakers:
 - jeroen-baten
+presentation:
+  filename: 2024-05-21-jeroen-baten-making-ansible-playbooks-to-configure-single-sign-on-for-popular-open-source-applications.pdf
 ---
 
 ## Abstract

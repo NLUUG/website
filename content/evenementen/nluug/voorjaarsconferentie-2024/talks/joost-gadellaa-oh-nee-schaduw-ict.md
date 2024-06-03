@@ -8,6 +8,8 @@ tags:
 title: "Joost Gadellaa - Oh nee, Schaduw-ICT!"
 speakers:
 - joost-gadellaa
+presentation:
+  filename: 2024-05-21-joost-gadellaa-oh-nee-schaduw-ict.pdf
 ---
 
 ## Abstract

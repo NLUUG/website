@@ -8,6 +8,8 @@ tags:
 title: "Joeri de Ruiter - Privacy-vriendelijk loggen voor Incident-response"
 speakers:
 - joeri-de-ruiter
+presentation:
+  filename: 2024-05-21-joeri-de-ruiter-privacy-vriendelijk-loggen-voor-incident-response.pdf
 ---
 
 ## Abstract

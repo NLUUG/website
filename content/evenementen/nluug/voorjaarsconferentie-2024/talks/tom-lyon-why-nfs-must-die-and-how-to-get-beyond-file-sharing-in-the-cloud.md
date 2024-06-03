@@ -9,6 +9,8 @@ tags:
 title: "Tom Lyon - Why NFS must die, and how to get Beyond File Sharing in the Cloud."
 speakers:
 - tom-lyon
+presentation:
+  filename: 2024-05-21-tom-lyon-why-nfs-must-die-and-how-to-get-beyond-file-sharing-in-the-cloud.pdf
 ---
 
 ## Abstract

@@ -8,6 +8,8 @@ tags:
 title: "Open Source Monitoring and Observability, where are we now"
 speakers:
 - kris-buytaert
+presentation:
+  filename: 2024-05-21-kris-buytaert-open-source-monitoring-and-observability-where-are-we-now.pdf
 ---
 
 ## Abstract

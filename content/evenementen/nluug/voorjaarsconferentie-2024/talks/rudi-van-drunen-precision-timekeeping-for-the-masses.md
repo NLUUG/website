@@ -9,6 +9,8 @@ tags:
 title: "Rudi van Drunen - Precision Timekeeping for the Masses"
 speakers:
 - rudi-van-drunen
+presentation:
+  filename: 2024-05-21-rudi-van-drunen-precision-timekeeping-for-the-masses.pdf
 ---
 
 ## Abstract

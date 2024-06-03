@@ -10,6 +10,8 @@ tags:
 title: "Klaas van Gend - Parallelization of C++ Code Using C++17"
 speakers:
 - klaas-van-gend
+presentation:
+  filename: 2024-05-21-klaas-van-gend-parallelization-of-c-code-using-c17.pdf
 ---
 
 ## Abstract

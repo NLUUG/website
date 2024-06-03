@@ -9,6 +9,8 @@ title: "Robbert Schep and Jeroen v. Wijck - A proposal for Local Smartphone-base
 speakers:
 - robbert-schep
 - jeroen-v-wijck
+presentation:
+  filename: 2024-05-21-robbert-schep-jeroen-v-wijck-a-proposal-for-local-smartphone-based-adhoc-network-in-disaster-areas.pdf
 ---
 
 ## Abstract
