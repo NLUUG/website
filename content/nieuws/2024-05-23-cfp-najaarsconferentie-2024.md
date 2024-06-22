@@ -11,7 +11,7 @@ tags:
 title: "Call for Proposals najaarsconferentie 2024 geopend"
 ---
 
-De [najaarsconferentie]({{< relref "evenementen/nluug/najaarsconferentie-2024/_index.md" >}}) is gepland op dinsdag 5 november 2025 en sinds vandaag is de [Call for Proposals](https://cfp.nluug.nl/nluug-najaarsconferentie-2024/) geopend. Namens onze programmacommissie de oproep: wees creatief en deel jullie inzendingen!
+De [najaarsconferentie]({{< relref "evenementen/nluug/najaarsconferentie-2024/_index.md" >}}) is gepland op dinsdag 5 november 2024 en sinds vandaag is de [Call for Proposals](https://cfp.nluug.nl/nluug-najaarsconferentie-2024/) geopend. Namens onze programmacommissie de oproep: wees creatief en deel jullie inzendingen!
 
 ## Wat voor talks zoeken we?
 
