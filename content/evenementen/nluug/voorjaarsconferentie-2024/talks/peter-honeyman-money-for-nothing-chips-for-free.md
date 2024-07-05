@@ -8,6 +8,8 @@ tags:
 title: "Peter Honeyman - Money for Nothing, Chips for Free"
 speakers:
 - peter-honeyman 
+presentation:
+  filename: 2024-05-21-peter-honeyman-money-for-nothing-chips-for-free.pdf
 ---
 
 ## Abstract

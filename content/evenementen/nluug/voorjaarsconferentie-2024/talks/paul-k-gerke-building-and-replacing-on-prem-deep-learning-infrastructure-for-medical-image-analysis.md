@@ -8,6 +8,8 @@ tags:
 title: "Paul K. Gerke - Building and Replacing On-prem Deep Learning Infrastructure for Medical Image Analysis"
 speakers:
 - paul-k-gerke
+presentation:
+  filename: 2024-05-21-paul-k-gerke-building-and-replacing-on-prem-deep-learning-infrastructure-for-medical-image-analysis.pdf
 ---
 
 ## Abstract
