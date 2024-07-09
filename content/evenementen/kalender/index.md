@@ -12,13 +12,6 @@ tags:
 title: "Evenementenkalender"
 type: calendar
 no-ics-file: true
+lastmod: 2024-07-09T17:12:08+00:00
 ---
 
-Op deze kalender verzamelen we de evenementen in de regio met onderwerpen zoals:
-
-- Open source software
-- Open standaarden
-- Software development
-- Informatiebeveiliging
-
-Heb je een suggestie of mis je een event dat voor onze doelgroep ook relevant is? Deel hem met onze [webmasters]({{< relref "organisatie/commissies/website/index.md" >}})!
