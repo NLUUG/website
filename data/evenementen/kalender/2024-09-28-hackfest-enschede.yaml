@@ -15,5 +15,5 @@ event_location: "Drukpershal Enschede"
 event_organizer: Stichting MakeFest
 event_organizer_url: https://hackfest.nl
 event_url: https://hackfest.nl
-event_free_access: true
+event_free_access: false
 name: "HackFest"
