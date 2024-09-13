@@ -32,7 +32,7 @@ event_organizers:
 - organizer:
   id: nluug
   name: NLUUG
-event_register_start_date: 2024-08-01
+event_register_start_date: 2024-10-01
 event_register_end_date: 2024-11-05
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
@@ -60,5 +60,4 @@ event_schedule:
     width: 30
 ---
 
-De CFP is namens de programmacommissie weer geopend. Graag zien we een zo breed mogelijk inzendingen, qua onderwerp en sprekers! Deze keer kijken we ook extra naar de diversiteit binnen de inzendingen en het programma, zodat we hopelijk ook weer wat meer dames in het programma mogen verwelkomen.
-
+We zijn de inzendingen aan het beoordelen, maar kunnen alvast de keynote verklappen: **From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques** door Gunes Acar.
