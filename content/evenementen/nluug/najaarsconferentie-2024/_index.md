@@ -32,7 +32,7 @@ event_organizers:
 - organizer:
   id: nluug
   name: NLUUG
-event_register_start_date: 2024-10-01
+event_register_start_date: 2024-09-15
 event_register_end_date: 2024-11-05
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
