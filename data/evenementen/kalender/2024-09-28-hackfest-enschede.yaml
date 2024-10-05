@@ -1,0 +1,19 @@
+id: 2024-09-28-hackfest-enschede
+date_start: 2024-09-28
+date_end: 2024-09-29
+event_address:
+  street_address: Getfertsingel 41
+  postal_code: 7513 GA
+  city: Enschede
+  country: NL
+event_start: 2024-09-28T12:00:00+0200
+event_end: 2024-09-29T17:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_is_online: false
+event_location: "Drukpershal Enschede"
+event_organizer: Stichting MakeFest
+event_organizer_url: https://hackfest.nl
+event_url: https://hackfest.nl
+event_free_access: false
+name: "HackFest"

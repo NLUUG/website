@@ -1,0 +1,21 @@
+{
+  "id": "sake-blok",
+  "name": "Sake Blok",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/sake-blok/",
+  "social": {
+    "facebook": "",
+    "github": "syn-bit",
+    "gitlab": "SYN-bit",
+    "instagram": "kolbekas70",
+    "keybase": "synbit",
+    "linkedin": "https://www.linkedin.com/in/sakeblok/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "SYNbit"
+  },
+  "thumbnail": "/afbeeldingen/personen/sake-blok-200x200.jpg"
+}

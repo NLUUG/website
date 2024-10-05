@@ -5,28 +5,33 @@
     <!-- Accessibility: skip-link voor mobiele apparaten -->
     <a class="skip-link" href="#main">Ga naar hoofd</a>
       <main id="main">
+        {{ partial "announcements.html" . }}
+        {{ partialCached "header.html" . }}
+        {{ partial "breadcrumb.html" . }}
         <div class="content">
-          {{ partialCached "header.html" . }}
-          {{ partial "breadcrumb.html" . }}
-            <h1 class="post">{{ .Title }}</h1>
+            <h1 class="post speakable">{{ .Title }}</h1>
+            <div class="speakable">
             {{- block "main" . }}
                 {{ .Content }}
             {{- end }}
+            </div>
 
             {{ partial "show-call-to-action.html" . }}
 
             {{ if isset .Params "show_child_pages" }}
               {{ if eq .Params.show_child_pages true }}
-                <section>
-                  <h3>Gerelateerde pagina's</h3>
-                  <ul>
-                    {{ range .Pages.ByTitle }}
-                      <li>
-                        <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
-                      </li>
-                      {{ end }}
-                  </ul>
-                </section>
+                {{ if (gt (.Pages | len) 0) }}
+                  <section>
+                    <h3>Gerelateerde pagina's</h3>
+                    <ul>
+                      {{ range .Pages.ByTitle }}
+                        <li>
+                          <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | default .Site.Params.textNoTitle }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                  </section>
+                {{ end }}
               {{ end }}
             {{ end }}
 

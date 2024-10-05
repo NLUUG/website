@@ -10,17 +10,19 @@
   "websites": [{
     "id": 1,
     "name": "michaelboelen.com",
+    "sameas": true,
     "url": "https://michaelboelen.com/"
   },{
     "id": 2,
     "name": "Linux security blog",
     "url": "https://linux-audit.com/"
   }],
+  "sameas": "https://www.wikidata.org/wiki/Q52008175",
   "social": {
     "facebook": "",
     "github": "mboelen",
     "instagram": "",
-    "linkedin": "michael-boelen",
+    "linkedin": "https://www.linkedin.com/in/mboelen/",
     "mastodon": "@mboelen@mastodon.social",
     "mastodon_url": "https://mastodon.social/@mboelen",
     "twitter": "mboelen"

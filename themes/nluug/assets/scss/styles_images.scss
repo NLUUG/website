@@ -8,7 +8,8 @@ img.max-width {
 //}
 
 .icon {
-  filter: invert(18%) sepia(32%) saturate(1326%) hue-rotate(183deg) brightness(93%) contrast(95%);
+  //filter: invert(18%) sepia(32%) saturate(1326%) hue-rotate(183deg) brightness(93%) contrast(95%);
+  filter: invert(19%) sepia(64%) saturate(973%) hue-rotate(209deg) brightness(83%) contrast(105%);
   margin: 3px;
 }
 
@@ -19,7 +20,8 @@ img.max-width {
   text-decoration: none;
 }
 .icon:hover {
-  filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(338deg) brightness(106%) contrast(109%);
+  //filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(338deg) brightness(106%) contrast(109%);
+  filter: invert(32%) sepia(28%) saturate(906%) hue-rotate(201deg) brightness(91%) contrast(86%);
   text-decoration: none;
 }
 .icon:active {

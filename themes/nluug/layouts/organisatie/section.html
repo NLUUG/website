@@ -3,7 +3,7 @@
 
   {{ if .Params.active_members }}
     <section>
-      <h2>Actieve leden</h2>
+      <h2>Actieve personen binnen de vereniging</h2>
       {{ .Scratch.Set "active_members" .Params.active_members }}
       {{ partial "show-active-members-small.html" . }}
     </section>

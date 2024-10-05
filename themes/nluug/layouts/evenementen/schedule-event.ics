@@ -1,0 +1,31 @@
+{{ if not (isset .Params "no-ics-file") }}{{ if (isset .Params "event_start") }}BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:{{ sha256 .RelPermalink | upper }}
+SUMMARY:{{ .Params.event_title | default .Title }}
+DESCRIPTION:Voor meer informatie zie {{ .Permalink }}
+DTSTART;TZID=Europe/Amsterdam:{{ dateFormat "20060102T150405" .Params.event_start }}
+DTEND;TZID=Europe/Amsterdam:{{ dateFormat "20060102T150405" .Params.event_end }}
+{{ if .Params.event_address }}LOCATION:{{ .Params.event_address.street_address }}, {{ .Params.event_address.city }}, {{ .Params.event_address.country_name }}{{ end }}
+END:VEVENT
+END:VCALENDAR{{ end }}{{ end }}

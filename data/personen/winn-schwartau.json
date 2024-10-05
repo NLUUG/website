@@ -4,7 +4,6 @@
   "email": "",
   "gender": "Male",
   "honorary_member": false,
-  "keynote_speaker": true,
   "nationality": "American",
   "profile_page": "/evenementen/sprekers/winn-schwartau/",
   "social": {
@@ -15,6 +14,5 @@
     "mastodon_url": "",
     "twitter": "WinnSchwartau"
   },
-  "speaker": true,
   "thumbnail": "/afbeeldingen/personen/winn-schwartau-200x200.jpg"
 }

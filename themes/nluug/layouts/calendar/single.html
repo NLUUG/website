@@ -1,25 +1,103 @@
 {{ define "main" }}
-  {{ .Content }}
+
+Op deze kalender verzamelen we de evenementen in de regio met onderwerpen zoals:
+
+<ul>
+	<li>Open source software</li>
+	<li>Open standaarden</li>
+<li>Software development</li>
+<li>Informatiebeveiliging</li>
+</ul>
+
+<p>Heb je een suggestie of mis je een event dat voor onze doelgroep ook relevant is? Deel hem met onze webmasters!</p>
+
+<a class="btn btn-cta" href="{{ relref . "website/feedback/evenementenkalender/index.md" }}">Nieuw evenement aanmelden</a>
 
   <h2>Aankomende evenementen</h2>
     {{ $upcoming_events := .Site.Data.evenementen.kalender }}
     {{ $upcoming_events := sort $upcoming_events ".date_start" "asc" }}
-    {{ range first 50 (where $upcoming_events "date_start" "gt" (dateFormat "2006-01-02" now)) }}
-    <div id="{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}" style="border: 1px solid darkgray; border-radius: 2px; padding:10px; margin:2px;">
-      <h3>{{ .date_start | dateFormat "02-01-2006" }} - {{ .name }}</h3>
-      {{ with .organizer }}<p><em>Georganizeerd door {{ .}}</em></p>{{ end }}
-      {{ if ne .date_start .date_end }}
-      <p>Event van meerdere dagen: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | dateFormat "02-01-2006" }}</time> t/m <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_end }}">{{ .date_end | dateFormat "02-01-2006" }}</time></p>
-      {{ end }}
-      {{ $event_location := .event_location | default "Locatie onbekend" }}
-      {{ with .event_address }}
-      <h4>Locatie en adres</h4>
-      <p><strong>{{ $event_location }}</strong><br>{{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}</p>
-      <a href="https://www.openstreetmap.org/search?query={{ with .street_address }}{{ . | urlquery }}{{ end }},{{ with .postal_code }}{{ . | urlquery }}{{ end }}{{ with .city }},%20{{ . | urlquery }}{{ end }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "map-location-dot" "title" "Bekijk locatie op OpenStreetMap") }}</a>
-      {{ end }}
-      {{ with .link_external }}
-      <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie (externe link)</a></p>
-      {{ end }}
-      </div>
+    <div class="three-column-grid">
+    {{ range first 50 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
+      <div id="{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">
+        <h3>{{ .name }}</h3>
+        {{ if .organizer }}<small><em>Georganiseerd door {{ .organizer }}</em></small>{{ end }}
+        {{ if .event_organizer }}<small><em>Georganiseerd door {{ if .event_organizer_url }}<a href="{{ .event_organizer_url }}" rel="nofollow noopener">{{ .event_organizer }}</a>{{ else }}{{ .event_organizer }}{{ end }}</em></small>{{ end }}
+        {{ if ne .date_start .date_end }}
+        <p>Event van meerdere dagen: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" }}</time> t/m <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_end }}">{{ .date_end | time.Format ":date_full" }}</time></p>
+        {{ else }}
+          <p>Datum: <time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" }}</time></p>
+        {{ end }}
+        {{ $event_location := .event_location | default "Locatie onbekend" }}
+        {{ with .event_address }}
+        <h4>Locatie en adres</h4>
+        <p><strong>{{ $event_location }}</strong><br>{{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}</p>
+        <a href="https://www.openstreetmap.org/search?query={{ with .street_address }}{{ . | urlquery }}{{ end }},{{ with .postal_code }}{{ . | urlquery }}{{ end }}{{ with .city }},%20{{ . | urlquery }}{{ end }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "map-location-dot" "title" "Bekijk locatie op OpenStreetMap") }}</a>
+        {{ end }}
+        {{ with .link_external }}
+          <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie</a> (externe link)</p>
+        {{ end }}
+        {{ with .event_url }}
+          {{ if findRE `^http` . 1 }}
+            <p>&raquo; <a href="{{ . }}" rel="nofollow">Meer informatie</a> (externe link)</p>
+          {{ else }}
+            <p>&raquo; <a href="{{ . }}">Meer informatie</a></p>
+          {{ end }}
+        {{ end }}
+        </div>
+
+          <script type="application/ld+json">
+              {
+                  "@context": "https://schema.org",
+                  "@type": "Event",
+                  "name": "{{ .name }}",
+                  "startDate": "{{ .date_start | dateFormat "02-01-2006" }}",
+                  "endDate": "{{ .date_end | dateFormat "02-01-2006" }}",
+                  "eventAttendanceMode": "https://schema.org/{{ if .event_attendance_mode }}{{ .event_attendance_mode | strings.FirstUpper }}{{ else }}Offline{{ end }}EventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  {{ if .event_address }}
+                  "location": {
+                      "@type": "Place",
+                      "address": {
+                          "@type": "PostalAddress",
+                          {{ with .event_address.city }}"addressLocality": "{{ . }}",{{ end }}
+                          {{ with .event_address.street_address }}"streetAddress": "{{ . }}",{{ end }}
+                          {{ with .event_address.postal_code }}"postalCode": "{{ . }}",{{ end }}
+                          "addressCountry": "{{ if .country }}{{ .country }}{{ else }}The Netherlands{{ end }}"
+                      },
+                      "name": "{{ .event_location | default "Niet ingevuld" }}"
+                  },
+                  {{ end }}
+                  {{ if .event_virtual_location }}
+                      "location": {
+                          "@type": "VirtualLocation",
+                          "url": "{{ . }}"
+                      },
+                  {{ end }}
+                  {{ with .event_image }}
+                  "image": [
+                      "{{ .url }}"
+                  ],
+                  {{ end }}
+                  "description": "{{ if .event_description }}{{ .event_description }}{{ else }}{{ default .name }}{{ with .event_location}} @ {{ . }}{{ end }}{{ end }}",
+                  {{ if .event_organizer }}
+                  "performer": {
+                      "@type": "Organization",
+                      "name": "{{ .event_organizer }}"
+                  },
+                  "organizer": {
+                      "@type": "Organization",
+                      "name": "{{ .event_organizer }}",
+                      "url": "{{ .event_organizer_url }}"
+                  },
+                  {{ end }}
+                  {{ if .event_url }}
+                      "url": "{{ .event_url }}",
+                  {{ else if .link_external }}
+                      "url": "{{ .link_external }}",
+                  {{ end }}
+                  "isAccessibleForFree": {{ if .event_free_access }}true{{ else }}false{{ end }}
+              }
+          </script>
     {{ end }}
+    </div>
 {{ end }}

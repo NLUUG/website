@@ -4,7 +4,7 @@ categories:
 date: 2023-05-23T15:01:46+02:00
 description: "Op 11 mei 2023 heeft Bert Hubert de NLUUG Award uitgereikt gekregen namens onze vereniging."
 tags:
-- award
+- nluug-award
 title: "NLUUG Award voor Bert Hubert"
 related_person: bert-hubert
 ---
@@ -41,7 +41,7 @@ data verzameld uit open bronnen. Zojuist heeft Bert hier een lezing gehouden ove
 learning, weer zo'n onderwerp wat voor velen vaag was, maar nu na de duidelijke uitleg voor ons te
 begrijpen en "geopend" is.
 
-Verder heeft Bert aan de wieg gestaan van enkele Tientallen (andere) open source projecten die vaak
+Verder heeft Bert aan de wieg gestaan van enkele tientallen (andere) open source projecten die vaak
 te vatten zijn onder de noemer security, privacy, en vooral openheid in alle lagen van de technologie
 stack maar ook daar buiten. Waarden die in onze community heel normaal en vanzelfsprekend zijn,
 maar waaraan bij het grotere publiek en in de "echte" wereld nog veel werk te verrichten is. Deze
@@ -57,8 +57,8 @@ hebben bijgedragen aan de verbetering of bevordering (van het gebruik van) van O
 Open standaarden, en bestaat uit een sculptuur en eeuwig durende roem en waardering binnen en
 buiten onze community.
 
-Hierbij schaar je in het al dan niet illustere gezelschap van onder anderen Michiel Leenaars, Olaf
-Kolkman, Wietze Venema en Andy Tanenbaum.
+Hierbij schaar je je in het al dan niet illustere gezelschap van onder anderen Michiel Leenaars, Olaf
+Kolkman, Wietse Venema en Andy Tanenbaum.
 
-Van Harte gefeliciteerd met deze erkenning
+Van harte gefeliciteerd met deze erkenning
 ```

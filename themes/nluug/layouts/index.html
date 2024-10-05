@@ -8,7 +8,7 @@
       <ul class="list">
         {{ range (first 5 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
           <li>
-            <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
             <hr class="hr-list">
             <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02-01-2006" .Date }}</time>
           </li>
@@ -23,28 +23,32 @@
     <h2>Aankomende evenementen</h2>
     <div class="three-column-grid">
     {{ range $upcoming_events }}
-      {{ if eq .highlight_on_homepage true }}
-      <div class="highlight-box highlight-box-{{ if .nluug_event }}nluug{{ else }}other{{end }}">
-          <h3>{{ .name }}</h3>
-          <p><strong>Datum</strong><br><time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" | strings.FirstUpper }}</time></p>
-          <!-- <div class="m-b-sm"> -->
-          {{ if .event_location }}
-            <p><strong>Locatie</strong><br>
-            {{ with .event_location }}{{ . }}<br>{{ end }}
-            {{ with .event_address }}
-              {{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}
+      {{ $date_start := .date_start | time.Format "2006-01-02" }}
+      {{ $t := time.Now | time.Format "2006-01-02" }}
+      {{ if ge $date_start $t }}
+        {{ if eq .highlight_on_homepage true }}
+        <div class="highlight-box highlight-box-{{ if .nluug_event }}nluug{{ else }}other{{end }}">
+            <h3>{{ .name }}</h3>
+            <p><strong>Datum</strong><br><time class="g time" datetime="{{ dateFormat "2006-01-02" .date_start }}">{{ .date_start | time.Format ":date_full" | strings.FirstUpper }}</time></p>
+            <!-- <div class="m-b-sm"> -->
+            {{ if .event_location }}
+              <p><strong>Locatie</strong><br>
+              {{ with .event_location }}{{ . }}<br>{{ end }}
+              {{ with .event_address }}
+                {{ with .street_address }}{{ . }}{{ end }}<br>{{ with .postal_code }}{{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}{{ with .country }}, {{ . }}{{ end }}
+              {{ end }}
+              </p>
             {{ end }}
-            </p>
-          {{ end }}
-          {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
-        </div>
+            {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
+          </div>
+        {{ end }}
       {{ end }}
     {{ end }}
     </div>
     <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda.</p>
     <ul>
       {{ range first 10 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
-      <li><time datetime="{{ .date_start | dateFormat "2006-01-02" }}">{{ .date_start | dateFormat "02-01-2006" }}</time> - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
+      <li><time class="time" datetime="{{ .date_start | dateFormat "2006-01-02" }}">{{ .date_start | dateFormat "02-01-2006" }}</time> - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
     <p>&raquo; <a href="/evenementen/kalender/">Volledige evenementenkalender</a></p>

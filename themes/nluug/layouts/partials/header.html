@@ -4,47 +4,76 @@
 <header>
   <div class="header-content">
 
+    <!-- Logo wordt nu benoemd als URL, dus we strippen de eerste slash, vervolgens halen we deze uit de assets directory -->
+    <!-- Logo staat zowel in assets als static, zodat deze gekopieerd worden. Dit is een TODO om te ontdubbelen -->
     {{ $logoresource := resources.Get (.Site.Params.logoNormal | replaceRE "^/" "") }}
 
-    <a href="{{ "/" | relLangURL }}" class="logo" title="{{ strings.FirstUpper (i18n "back_to_home") }}"><img class="max-width" src="{{ $logoresource | relURL }}" alt="NLUUG-logo" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}"></a>
+    <a class="logo" href="{{ "/" | relLangURL }}" title="{{ strings.FirstUpper (i18n "back_to_home") }}">
+      <figure>
+        <picture>
+          {{ $isJPG := eq (path.Ext $logoresource) ".jpg" }}
+          {{ $isPNG := eq (path.Ext $logoresource) ".png" }}
+
+          {{ if ($isJPG) -}}
+            {{ $webpPath:= replace $logoresource ".jpg" ".webp" }}
+            {{ $webpPathStatic:= printf "assets/%s" $webpPath }}
+
+            {{ if (fileExists $webpPathStatic) -}}
+              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+            {{- end }}
+          {{- end }}
+
+          {{ if ($isPNG) -}}
+            {{ $webpPath:= replace $logoresource ".png" ".webp" }}
+            {{ $webpPathStatic:= printf "assets/%s" $webpPath }}
+
+            {{ if (fileExists $webpPathStatic) -}}
+              <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+            {{- end }}
+          {{- end }}
+
+          <img class="max-width" src="{{ .Site.Params.logoNormal | safeURL }}" alt="NLUUG-logo" decoding="async" width="{{ $logoresource.Width }}" height="{{ $logoresource.Height }}">
+        </picture>
+      </figure>
+    </a>
 
     <input type="checkbox" id="hamburger" aria-label="menu button">
-    <label for="hamburger"><span></span></label>
+    <label for="hamburger" aria-hidden="true"><span>&nbsp;</span></label>
 
-    <nav aria-label="Main navigation">
+    <nav aria-label="Hoofdmenu">
 
-       <ul class="menus menu">
+       <ul class="menus menu" role="menubar" aria-label="Menu bovenzijde">
            {{ $currentPage := . }}
            {{ range .Site.Menus.main }}
              {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
              {{ if .Children }}
-               <li>
+               <li role="none">
                  <!-- <button type="button" aria-haspopup="true" aria-expanded="true" aria-controls="dropdown-{{ $.Scratch.Get "counter" }}" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button> -->
-                 <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a>
-                 <ul class="dropdown" id="dropdown-{{ $.Scratch.Get "counter" }}">
+                 <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}" role="menuitem" aria-haspopup="true" aria-expanded="true">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a>
+                 <ul class="dropdown" id="dropdown-{{ $.Scratch.Get "counter" }}" role="menu">
                    {{ range .Children }}
-                     <li><a href="{{ .URL }}">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a></li>
+                     <li role="none"><a href="{{ .URL }}" role="menuitem">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a></li>
                    {{ end }}
                  </ul>
                </li>
              {{ else }}
-             <li>
+             <li role="none">
                <!-- <button type="button" aria-haspopup="true" aria-expanded="true" aria-labelledby="button-link-{{ $.Scratch.Get "counter" }}"></button> -->
-               <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a>
+               <a id="button-link-{{ $.Scratch.Get "counter" }}" href="{{ .URL }}" role="menuitem">{{ or (T .Identifier) .Name | strings.FirstUpper | safeHTML }}</a>
              </li>
              {{ end }}
            {{ end }}
-           <li>
+           <li role="none">
              {{ $search := safeHTML (strings.FirstUpper (i18n "search")) }}
              <!-- <button type="button" aria-haspopup="false" aria-expanded="true" aria-label="{{ $search }}"></button> -->
-             <a href="{{ relLangURL "/zoeken/" }}">
-               {{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass" "title" $search) }}
+             <a href="{{ relLangURL "/zoeken/" }}" role="menuitem" aria-label="{{ $search }}">
+               {{ partial "show-svg-icon.html" (dict "context" . "icon" "magnifying-glass" "alt" "Icoon om te zoeken" "title" $search) }}
              </a>
            </li>
-           <li>
-             {{ $text := safeHTML (strings.FirstUpper (i18n "ledendeel")) }}
-             <a href="https://leden.nluug.nl/leden/">
-               {{ partial "show-svg-icon.html" (dict "context" . "icon" "user" "title" $text) }}
+           <li role="none">
+             {{ $text := safeHTML (strings.FirstUpper (i18n "members_area")) }}
+             <a href="https://leden.nluug.nl/leden/" role="menuitem" aria-label="{{ $text }}">
+               {{ partial "show-svg-icon.html" (dict "context" . "icon" "user" "alt" "Icoon om naar ledendeel te gaan" "title" $text) }}
              </a>
            </li>
          </ul>

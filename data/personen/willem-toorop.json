@@ -1,16 +1,17 @@
 {
+  "id": "willem-toorop",
   "name": "Willem Toorop",
-  "email": "",
+  "email": "nluug@willem.toorop.net",
   "gender": "male",
   "nationality": "Dutch",
   "profile_page": "/organisatie/personen/willem-toorop/",
   "thumbnail": "/afbeeldingen/personen/willem-toorop-200x200.png",
   "social": {
-    "github": "",
+    "github": "wtoorop",
     "twitter": "",
     "instagram": "",
     "linkedin": "",
-    "mastodon": "",
-    "mastodon_url": ""
+    "mastodon": "@willem@social.secret-wg.org",
+    "mastodon_url": "https://social.secret-wg.org/@willem"
   }
 }

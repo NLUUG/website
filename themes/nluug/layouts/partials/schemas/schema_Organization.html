@@ -3,6 +3,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "NGO",
+    "id": "{{ .Site.BaseURL }}#organization",
     "url": "{{ .Site.BaseURL }}",
     "name": "{{ .Site.Title }}",
     "logo": {
@@ -21,6 +22,33 @@
       "postalCode": "{{ .postalcode | default .Site.Params.textNoValue }}"
     },
 {{- end -}}
-    "telephone":"{{ .Site.Params.phone }}"
+    "sameAs": {{ .Site.Params.organization_sameas }},
+    "telephone":"{{ .Site.Params.phone }}",
+  "contactPoint" : [
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Bestuur",
+    "email" : "bestuur@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   },
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Buro",
+    "email" : "buro@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   },
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Programmacommissie",
+    "email" : "pc@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   },
+   {
+    "@type" : "ContactPoint",
+    "contactType" : "Webmasters",
+    "email" : "website@nluug.nl",
+    "availableLanguage": ["en", "nl"]
+   }
+  ]
   }
 </script>

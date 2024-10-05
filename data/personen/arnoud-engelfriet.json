@@ -1,0 +1,23 @@
+{
+  "id": "arnoud-engelfriet",
+  "name": "Arnoud Engelfriet",
+  "email": "",
+  "gender": "male",
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/arnoud-engelfriet/",
+  "thumbnail": "/afbeeldingen/personen/arnoud-engelfriet-200x200.jpg",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/arnoudengelfriet/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "ictrecht"
+  },
+  "websites": [{
+    "id": 1,
+    "name": "Blog (ICT-recht)",
+    "url": "https://blog.iusmentis.com/"
+  }]
+}

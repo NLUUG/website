@@ -23,7 +23,7 @@
     {{- end }}
     {{ $img := imageConfig (add "/static" (.image | safeURL)) }}
 
-      <img src="{{ .image | safeURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
+    <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
   </picture>
   {{ if .figcaption }}
     <figcaption>

@@ -1,0 +1,19 @@
+id: tdb-notacamp-2023-07-07
+date_start: 2023-07-07
+date_end: 2023-07-09
+event_address:
+  street_address: G.J. Scheurleerweg 212c
+  postal_code: 1027 BA
+  city: Amsterdam
+  country: NL
+event_attendance_mode: offline
+event_start: 2023-07-07T12:00:00+0200
+event_end: 2023-07-09T16:00:00+0200
+event_free_access: true
+event_is_online: false
+event_location: Het Groene Veld
+event_organizer: "[tbd]"
+event_organizer_url: https://notacamp.tbd.camp
+event_url: https://notacamp.tbd.camp
+event_timezone: Europe/Amsterdam
+name: "[tbd] NOTACAMP"

@@ -1,45 +1,78 @@
-{{ if isset .Params "author" }}
-{{ $author := index .Site.Data.team .Params.author }}
+{{ $author := index .Site.Data.personen (substr $.File.LogicalName 0 -3) }}
 {{ $location := index .Site.Data.location .Site.Params.primarylocation }}
+{{ $sameas := slice }}
+{{ if $author.sameas }}{{ $sameas = $sameas | append ($author.sameas) }}{{ end }}
+{{ if $author.websites }}
+  {{ range index ($author.websites) }}
+    {{ if eq .sameas true }}
+      {{ $sameas = $sameas | append (.url) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if $author.social }}
+  {{ if $author.social.github }}
+    {{ $sameas = $sameas | append (printf "https://github.com/%s" $author.social.github) }}
+  {{ end }}
+  {{ if $author.social.linkedin }}
+    {{ $sameas = $sameas | append ($author.social.linkedin) }}
+  {{ end }}
+  {{ if $author.social.mastodon }}
+    {{ $sameas = $sameas | append ($author.social.mastodon_url) }}
+  {{ end }}
+  {{ if $author.social.twitter }}
+    {{ $sameas = $sameas | append (printf "https://twitter.com/%s" $author.social.twitter) }}
+  {{ end }}
+{{ end }}
 <script type="application/ld+json">
 {
-"@context": "https://www.schema.org",
-"@type": "Person",
-"@id": "{{ .Permalink }}",
-"name": "{{ $author.name | default .Site.Params.textEmptyValue }}",
-"alternateName": "{{ $author.name }}",
-{{ if $author.nationality }}"nationality": "{{ $author.nationality }}",{{ end }}
-"affiliation": [
- {
-  "@type": "Organization",
-  "name": "{{ .Site.Params.name }}",
-  "sameAs": [ {{ partial "schemas/schema_Social.html" .Site.Params }}
-  ]
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "@id": "{{ .Permalink }}#person",
+ "url": "{{ .Permalink }}",
+ "name": "{{ $author.name | default .Site.Params.textEmptyValue }}",
+ {{ if $author.nationality }}"nationality": "{{ $author.nationality }}",{{ end }}
+ {{ if $author.gender }}"gender": "{{ $author.gender }}",{{ end }}
+ {{ if $author.jobfunction }}"Description": "{{ $author.jobfunction }}",{{ end }}
+ {{ if $author.description }}"disambiguatingDescription": "{{ $author.description }}",{{ end }}
+ {{ if $author.jobtitle }}"jobTitle": "{{ $author.jobtitle }}",{{ end }}
+ {{ if $author.worksfor }}
+ "worksFor": [
+  {
+   "@type": "Organization",
+   "name": "{{ .Site.Params.name | default .Site.Params.textEmptyValue }}"
+  }
+ ],
+ {{ end }}
+ {{ if $sameas }}
+   "sameAs": [{{ range $i, $e := $sameas }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}],
+ {{ end }}
+ {{ if $author.address }}
+ "address": {
+  "@type": "PostalAddress",
+  "addressLocality": "{{ $author.address.city }}",
+  "addressRegion": "{{ $author.address.region }}",
+  "addressCountry": "{{ $author.address.country }}"
+ },{{ end }}
+ "image": "{{ $author.thumbnail | absURL }}",
+ "mainEntityOfPage": {
+  "@type": "ProfilePage",
+  "@id": "{{ .Permalink }}#profilepage",
+  "url": "{{ .Permalink }}",
+  "name": "{{ .Title }}",
+  "mainContentOfPage": {
+   "@type": "WebPageElement",
+   "cssSelector": ".content"
+   },
+  "speakable": {
+   "@type": "SpeakableSpecification",
+   "cssSelector": ".speakable"
+  },
+  "isPartOf": {
+   "@type": "WebSite",
+   "@id": "{{ .Site.BaseURL }}#website",
+   "url": "{{ .Site.BaseURL }}",
+   "name": "{{ .Site.Title | default .Site.Params.textNoTitle }}"
+  }
  }
-],
-{{ if $author.gender }}"gender": "{{ $author.gender }}",{{ end }}
-{{ if $author.jobfunction }}"Description": "{{ $author.jobfunction }}",{{ end }}
-{{ if $author.description }}"disambiguatingDescription": "{{ $author.description }},{{ end }}
-{{ if $author.jobtitle }}"jobTitle": "{{ $author.jobtitle }}",{{ end }}
-"worksFor": [
- {
-  "@type": "Organization",
-  "name": "{{ .Site.Params.name | default .Site.Params.textEmptyValue }}",
-  "sameAs": [ {{ partial "schemas/schema_Social.html" .Site.Params }}
-  ]
- }
-],
-"url": "{{ .Site.BaseURL }}",
-"image": "{{ $author.thumbnail | absURL }}",
-{{ if $author.address }}
-"address": {
- "@type": "PostalAddress",
- "addressLocality": "{{ $author.address.city }}",
- "addressRegion": "{{ $author.address.region }}",
- "addressCountry": "{{ $author.address.country }}"
-},{{ end }}
-"sameAs": [ {{ partial "schemas/schema_Social.html" $author }}
- ]
 }
 </script>
-{{ end }}

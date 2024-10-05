@@ -1,0 +1,19 @@
+id: 2024-11-05-waag-mobifree
+date_start: 2024-07-25
+date_end: 2024-07-25
+event_address:
+  street_address: Nieuwmarkt 4
+  postal_code: 1012 CR
+  city: Amsterdam
+  country: NL
+event_start: 2024-06-06T18:00:00+0200
+event_end: 2024-06-07T21:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_is_online: false
+event_location: "Waag"
+event_organizer: Waag
+event_organizer_url: https://publicspaces.net/
+event_url: https://www.waag.org/nl/event/developers-meet-app-stores-op-basis-van-publieke-waarden/
+event_free_access: true
+name: "Developers meet-up: mobile app stores op basis van publieke waarden"

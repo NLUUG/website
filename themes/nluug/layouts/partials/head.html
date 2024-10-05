@@ -7,6 +7,9 @@
     <!-- Social media -->
     {{ partial "opengraph/opengraph.html" . }}
     {{ partial "opengraph/twitter_cards.html" . }}
+    {{ if .Site.Params.mastodon_instance }}
+      <link rel="me" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}">
+    {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" href="{{ absURL "assets/favicon.ico" }}">
     <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ absURL "atom.xml" }}">

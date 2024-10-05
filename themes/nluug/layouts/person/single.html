@@ -5,7 +5,10 @@
 
   {{ with (index .Site.Data.personen (substr $.File.LogicalName 0 -3)) }}
     {{ $personid := .id }}
-    {{ if .thumbnail }}<img src="{{ .thumbnail }}" alt="Foto van {{ .name }}">{{ end }}
+    {{ if .thumbnail }}
+      {{ $alttext := printf "Foto van %s" .name }}
+      {{ partial "show-image.html" (dict "context" . "image" .thumbnail "above_the_fold" true "alt" $alttext) }}
+    {{ end }}
     {{ $text }}
 
     {{ range where $.Site.RegularPages.ByTitle "Section" "organisatie" }}
@@ -55,15 +58,27 @@
       </ul>
     {{ end }}
 
-    {{ if or (.social.mastodon) (.social.twitter) }}
+    {{ if or (.social.hubzilla) (.social.github) (.social.gitlab) (.social.linkedin) (.social.mastodon) (.social.twitter) }}
       <h2>Social media</h2>
 
       <ul class="list">
+      {{ if .social.github }}
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/github.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="GitHub-icoon"> <a href="https://github.com/{{ .social.github }}">{{ .social.github }}</a></li>
+      {{ end }}
+      {{ if .social.gitlab }}
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/gitlab.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="GitLab-icoon"> <a href="https://gitlab.com/{{ .social.gitlab }}">{{ .social.gitlab }}</a></li>
+      {{ end }}
+      {{ if .social.hubzilla }}
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/message.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Hubzilla-icoon"> <a href="{{ .social.hubzilla_url }}">{{ .social.hubzilla }}</a></li>
+      {{ end }}
+      {{ if .social.linkedin }}
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/linkedin.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="LinkedIn-icoon"> <a href="{{ .social.linkedin }}">LinkedIn</a></li>
+      {{ end }}
       {{ if .social.mastodon }}
-        <li><img src="/afbeeldingen/iconen/mastodon.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Mastodon"> <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a></li>
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/mastodon.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Mastodon-icoon"> <a href="{{ .social.mastodon_url }}">{{ .social.mastodon }}</a></li>
       {{ end }}
       {{ if .social.twitter }}
-        <li><img src="/afbeeldingen/iconen/twitter.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Twitter"> <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a></li>
+        <li><img class="m-r-small" src="/afbeeldingen/iconen/twitter.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Twitter-icoon"> <a href="https://twitter.com/{{ .social.twitter }}">{{ .social.twitter }}</a></li>
       {{ end }}
       </ul>
     {{ end }}

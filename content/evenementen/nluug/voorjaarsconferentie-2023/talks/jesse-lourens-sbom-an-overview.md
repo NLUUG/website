@@ -21,4 +21,4 @@ In de afgelopen jaren is het softwareontwikkelingsproces versimpeld en versneld 
 
 ## Biography
 
-Jesse Lourens is een 24 jaar oud en student aan de Hanze Hogeschool Groningen HBO-ICT – Business, IT & Management. Voor zijn stage is hij in de wereld gedoken van de Software Bill of Material en in het verlengde de Vulnerability Exploitability eXchange. Voor de opdracht is met experts gesproken op het gebied van SBOM om achter het doel en de wettelijke eisen van de SBOM te komen.
+Jesse Lourens is 24 jaar oud en student aan de Hanze Hogeschool Groningen HBO-ICT – Business, IT & Management. Voor zijn stage is hij in de wereld gedoken van de Software Bill of Material en in het verlengde de Vulnerability Exploitability eXchange. Voor de opdracht is met experts gesproken op het gebied van SBOM om achter het doel en de wettelijke eisen van de SBOM te komen.

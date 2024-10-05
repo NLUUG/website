@@ -1,0 +1,27 @@
+{
+  "id": "andreas-hulsing",
+  "name": "Andreas Hülsing",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/andreas-hulsing/",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "cr_yp_to"
+  },
+  "thumbnail": "/afbeeldingen/personen/andreas-hulsing-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Persoonlijke website",
+    "sameas": true,
+    "url": "https://huelsing.net/"
+  }]
+}

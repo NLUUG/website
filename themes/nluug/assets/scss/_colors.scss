@@ -1,19 +1,81 @@
+// Main colors of our website
 
-// purple: #6A2060
-// light purple-grey: #DCC9DB
-// darkblue: #1D3160
+// Old colors:
+//   purple: #6A2060
+//   light purple-grey: #DCC9DB
+//   darkblue: #1D3160
 
-$color-button: #1D3160;
-$color-button-hover: #17274d;
-$color-button-call-to-action: #138808;
-$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
-$color-header: #6A2060;
-$color-highlight-box-other-border: #99AFE2;
-$color-highlight-box-other-background: #E3E9F7;
-$color-highlight-box-nluug-border: #6A2060;
-$color-highlight-box-nluug-background: #EBBCE5; // omgezet naar lichtere kleur via https://encycolorpedia.com/6a2060
-$color-border: #6A2060;
-$color-text-inverse: white;
-$color-tags-background: #6A2060;
-$color-tags-text: white;
+// New colors (2024)
+// Primary colours are Midnight blue (HEX: #26266B) and Magenta (HEX: #FA198B)
+// Filters created with https://isotropic.co/tool/hex-color-to-css-filter/
+
+// Mignight blue:
+// Original: #26266B
+$midnight-blue-dark: #26266B;
+//   CSS filter: filter: invert(19%) sepia(64%) saturate(973%) hue-rotate(209deg) brightness(83%) contrast(105%);
+$midnight-blue-medium: #515189;
+//   CSS filter: filter: invert(32%) sepia(28%) saturate(906%) hue-rotate(201deg) brightness(91%) contrast(86%);
+$midnight-blue-light: #7D7DA6;
+
+// Magenta
+// Original: #FA198B
+// Medium:   #FB47A2
+// Light:    #FC75B9
+$magenta-dark: #FA198B;
+$magenta-medium: #FB47A2;
+$magenta-light: #FC75B9;
+
+// Persian green
+$persian-green-dark: #1B998B;
+$persian-green-medium: #49ADA2;
+$persian-green-light: #76C2B9;
+
+// Amber
+$amber-dark: #F2BB05;
+$amber-medium: #F5C937;
+$amber-light: #F7D669;
+
+// Raisin black
+$raisin-black-dark: #222226;
+$raisin-black-medium: #4E4E51;
+$raisin-black-light: #7A7A7D;
+
+// Ghost white
+$ghost-white-dark: #FAFAFF;
+$ghost-white-medium: #FBFBFF;
+$ghost-white-light: #FCFCFF;
+
+
+//$color-button: #26266B;
+$color-button: $midnight-blue-dark;
+//$color-button-hover: #17274d;
+$color-button-hover: $midnight-blue-medium;
+//$color-button-call-to-action: #138808;
+$color-button-call-to-action: $midnight-blue-dark;
+//$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
+$color-button-call-to-action-hover: $midnight-blue-medium;
+
+$color-footer-background: $persian-green-light;
+$color-footer-text: $raisin-black-dark;
+
+//$color-header: #6A2060;
+$color-header: #26266B;
+
+//$color-highlight-box-other-border: #99AFE2;
+$color-highlight-box-other-border: $magenta-medium;
+//$color-highlight-box-other-background: #E3E9F7;
+$color-highlight-box-other-background: $magenta-light;
+//$color-highlight-box-nluug-border: #6A2060;
+$color-highlight-box-nluug-border: $magenta-medium;
+//$color-highlight-box-nluug-background: #F5E1ED;
+$color-highlight-box-nluug-background: $magenta-light;
+
+//$color-border: #6A2060;
+$color-border: #26266B;
+//$color-text-inverse: white;
+$color-text-inverse: #FAFAFF;
+//$color-tags-background: #6A2060;
+$color-tags-background: #26266B;
+//$color-tags-text: white;
+$color-tags-text: #FAFAFF;
 

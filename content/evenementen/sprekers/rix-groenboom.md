@@ -9,3 +9,5 @@ slug:
 title: "Rix Groenboom"
 type: person
 ---
+
+Rix Groenboom leads the research group New Business & ICT within the Hanze University of Applied Science; with innovation in Artificial Intelligence, Connectivity (5G), Cyber Security, and Smart Industry. He has over 25 years of experience in SW quality in academic, commercial, and industrial environments.

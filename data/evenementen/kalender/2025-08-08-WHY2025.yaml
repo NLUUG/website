@@ -1,0 +1,16 @@
+id: 2025-08-08-WHY2025
+date_start: 2025-08-08
+date_end: 2025-08-12
+event_address:
+  city: Geestmerambacht
+event_start: 2025-08-08T07:00:00+0200
+event_end: 2025-08-12T21:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_location: "Geestmerambacht (nabij Heerhugowaard)"
+name: WHY2025 - What Hackers Yearn 2025
+event_organizer: IFCAT
+event_organizer_url: https://ifcat.org/
+event_url: https://why2025.org
+event_free_access: false
+event_is_online: false

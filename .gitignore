@@ -1,7 +1,9 @@
 .doit.db.db
+.hugo_build.lock
 __pycache__/
 cache/
+check-all-links.tmp
+data/personen/template.json
 output/
-.hugo_build.lock
 public/
 resources/_gen/

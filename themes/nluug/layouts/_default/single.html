@@ -1,3 +1,19 @@
 {{ define "main" }}
   <div>{{ .Content }}</div>
+
+{{ if .IsTranslated }}
+<aside>
+  <h2 lang="en">Page translation</h2>
+  <div lang="en">This page is also available in the following translations:</div>
+  <nav>
+    {{ range .Translations }}
+      {{ if eq .Language.Lang "en" }}🇬🇧
+      {{ else if eq .Language.Lang "nl" }}🇳🇱
+      {{ end }}
+      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end}}
+  </nav>
+</aside>
+{{ end }}
+
 {{ end }}

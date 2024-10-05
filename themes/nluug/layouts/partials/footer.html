@@ -15,19 +15,16 @@
       <h2>Volg ons</h2>
 
       <nav aria-label="Social media">
-      {{ with .Site.Params.twitter_handle }}
-        <a class="icon" href="https://twitter.com/{{ . }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "twitter" "iconsize" $iconsize_footer "title" "Twitter mee") }}</a>
-      {{ end }}
       {{ if and
         (.Site.Params.mastodon_handle)
         (.Site.Params.mastodon_instance)
       }}
-      <a class="icon" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer "title" "Toots van NLUUG") }}</a>
+      <a class="icon" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "mastodon" "iconsize" $iconsize_footer "alt" "Icoon van Mastodon" "title" "Toots van NLUUG") }}</a>
       {{ end }}
-      <a class="icon" href="https://www.linkedin.com/groups/130891/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "linkedin" "iconsize" $iconsize_footer "title" "Vind ons op LinkedIn") }}</a>
-      <a class="icon" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer "title" "Bekijk onze geplande evenementen") }}</a>
-      <a class="icon" href="{{ absURL "atom.xml" }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "rss" "iconsize" $iconsize_footer "title" "RSS-feed voor nieuwsberichten") }}</a>
-      <a class="icon" href="{{ absURL "feed.json" }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "database" "iconsize" $iconsize_footer "title" "JSON Feed voor actueel nieuws") }}</a>
+      <a class="icon" href="https://www.linkedin.com/groups/130891/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "linkedin" "iconsize" $iconsize_footer "alt" "Icoon van LinkedIn" "title" "Vind ons op LinkedIn") }}</a>
+      <a class="icon" href="https://www.meetup.com/nluug-dutch-unix-linux-user-group/">{{ partial "show-svg-icon.html" (dict "context" . "icon" "meetup" "iconsize" $iconsize_footer "alt" "Icoon van Meetup" "title" "Bekijk onze geplande evenementen") }}</a>
+      <a class="icon" href="{{ absURL "atom.xml" }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "rss" "iconsize" $iconsize_footer "alt" "Icoon van Atom-feed" "title" "RSS-feed voor nieuwsberichten") }}</a>
+      <a class="icon" href="{{ absURL "feed.json" }}">{{ partial "show-svg-icon.html" (dict "context" . "icon" "database" "iconsize" $iconsize_footer "alt" "Icoon van JSON-feed" "title" "JSON Feed voor actueel nieuws") }}</a>
       </nav>
     </div>
     <div>
@@ -35,14 +32,16 @@
       <nav aria-label="Footer links">
         <ul>
           <li><a href="{{ relURL "contact/" }}">Contact</a></li>
+          <li><a href="{{ relURL "huisregels/" }}">Huisregels</a></li>
           <li><a href="{{ relURL "privacy/" }}">Privacy</a></li>
+          <li><a href="https://archief-website.nluug.nl/" rel="nofollow noopener">Archief (oude website)</a></li>
         </ul>
       </nav>
     </div>
   </div>
-  <small>Voor meer informatie over deze {{ with .Site.GetPage "/website/" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, zie de {{ with .Site.GetPage "/website/sitemap" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, {{ with .Site.GetPage "/website/laatste-wijzigingen.rst" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }} en de {{ with .Site.GetPage "/website/stats-for-nerds" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</small>
+  <small>Voor meer informatie {{ with .Site.GetPage "/website" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, zie de {{ with .Site.GetPage "/website/sitemap" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }}, {{ with .Site.GetPage "/website/laatste-wijzigingen" }}<a href="{{ .Permalink }}">{{ .Title | lower }}</a>{{ end }} en de {{ with .Site.GetPage "/website/stats-for-nerds" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</small>
 
-{{ if .Site.IsServer }}
+{{ if hugo.IsServer }}
   <div style="background-color: yellow; border: 2px solid black; padding: 10px; margin-top: 20px;">
     <strong>Ingebouwde webserver van Hugo gedetecteerd. Deze melding zal niet in productie worden getoond en is voor ontwikkeling.</strong><br>
     <ul>
@@ -53,6 +52,7 @@
       <li>BundleType = {{ .BundleType }}</li>
       <li>IsPage = {{ .IsPage }}</li>
       <li>IsSection = {{ .IsSection }}</li>
+      <li>Content types = {{ .Params.content_types }}</li>
     </ul>
   </div>
 {{ end }}

@@ -6,3 +6,5 @@ event_start: 2023-05-11T09:00:00+0200
 event_end: 2023-05-11T17:00:00+0200
 name: NLUUG voorjaarsconferentie 2023
 nluug_event: true
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/

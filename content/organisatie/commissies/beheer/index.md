@@ -1,6 +1,7 @@
 ---
 categories:
 - organisatie
+contact_email: beheer@nluug.nl
 date: 2023-06-05T18:16:02+02:00
 description: "Het beheerteam voert het technisch beheer uit op alle systemen van NLUUG"
 slug:

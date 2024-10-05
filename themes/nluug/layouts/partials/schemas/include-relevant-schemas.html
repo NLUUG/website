@@ -2,11 +2,27 @@
 
   {{ partial "schemas/schema_Organization.html" . }}
   {{ partial "schemas/schema_WebSite.html" . }}
+  {{ partial "schemas/schema_WebPage.html" . }}
 
 {{- else if .IsPage -}}
 
-  {{ if or (in .Params.content_types "Person") }}
+  {{ if .Params.is_event }}
+    {{ partial "schemas/schema_Event.html" . }}
+  {{ else if in .Params.content_types "person" }}
     {{ partial "schemas/schema_Person.html" . }}
+  {{ else }}
+    {{ if gt .WordCount 100 }}
+      {{ partial "schemas/schema_Article.html" . }}
+    {{ else }}
+      {{ partial "schemas/schema_WebPage.html" . }}
+    {{ end }}
+  {{ end }}
+
+{{- else if .IsSection -}}
+  {{ if .Params.is_event }}
+    {{ partial "schemas/schema_Event.html" . }}
   {{ end }}
 
 {{ end }}
+
+{{ partial "schemas/schema_BreadcrumbList.html" . }}

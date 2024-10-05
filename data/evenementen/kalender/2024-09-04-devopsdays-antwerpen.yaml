@@ -1,0 +1,19 @@
+id: 2024-09-devopsdays-antwerpen
+date_start: 2024-09-04
+date_end: 2024-09-05
+event_address:
+  street_address: Koningin Astridplein 20-26
+  postal_code: 2018
+  city: Antwerpen
+  country: BE
+event_start: 2024-09-04T08:30:00+0200
+event_end: 2024-09-05T17:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_is_online: false
+event_location: "Room with a ZOO"
+event_organizer: Devopsdays
+event_organizer_url: https://devopsdays.org/about
+event_url: https://devopsdays.org/events/2024-antwerp/welcome/
+event_free_access: false
+name: "Devopsdays 15 year anniversary celebration: Antwerp"

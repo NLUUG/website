@@ -8,6 +8,11 @@ event_address:
   country: NL
 event_start: 2023-11-28T08:30:00+0200
 event_end: 2023-11-28T18:00:00+0200
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/
 event_url: "/evenementen/nluug/najaarsconferentie-2023/"
 event_location: Van der Valk Hotel Utrecht
 event_timezone: Europe/Amsterdam

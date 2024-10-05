@@ -53,7 +53,7 @@
             Laatste wijziging op de website (Git)
           </td>
           <td headers="website-content value">
-            {{ .Site.LastChange }}
+            {{ .Site.Lastmod }}
           </td>
         </tr>
         <tr>
@@ -70,6 +70,14 @@
           </td>
           <td headers="website-content value">
             {{ .Site.Sections }}
+          </td>
+        </tr>
+        <tr>
+          <td headers="website-content key">
+            Pagina-URL
+          </td>
+          <td headers="website-content value">
+            {{ .Page.RelPermalink }}
           </td>
         </tr>
         <tr>

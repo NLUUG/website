@@ -9,3 +9,5 @@ slug:
 title: "Jan Willem Brandenburg"
 type: person
 ---
+
+As a long-time security and opensource enthusiast and engineer Jan Willem currently works at Fox-IT as principle developer where all 3 fields are currently combined working on the dissect project.

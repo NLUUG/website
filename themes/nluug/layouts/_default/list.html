@@ -1,9 +1,9 @@
 {{ define "main" }}
   <section>
     <ul class="list">
-      {{ range .Pages }}
+      {{ range .Pages.ByTitle }}
         <li>
-          <a class="link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
           <hr class="hr-list">
           <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02-01-2006" .Date }}</time>
         </li>

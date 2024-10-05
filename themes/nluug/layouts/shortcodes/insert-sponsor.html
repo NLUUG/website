@@ -1,0 +1,12 @@
+{{ $id := .Get "id" }}
+{{ with (index $.Site.Data.sponsoren $id) }}
+    <div>
+        <strong>{{ .name }}</strong>
+        {{ if .icon_small }}
+            {{ $alttext := printf "Logo van %s" .name }}
+            {{ if .url }}<a href="{{ .url }}" rel="nofollow">{{ end }}
+            {{ partial "show-image.html" (dict "context" . "image" .icon_small "alt" $alttext) }}
+            {{ if .url }}</a>{{ end }}
+        {{ end }}
+    </div>
+{{ end }}

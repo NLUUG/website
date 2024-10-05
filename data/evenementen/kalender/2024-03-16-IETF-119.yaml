@@ -1,0 +1,18 @@
+id: 2024-03-16-IETF-119
+date_start: 2024-03-16
+date_end: 2024-03-22
+event_address:
+  street_address: Cnr Merivale Street and Grey Street
+  city: Brisbane
+  country: AU
+event_start: 2024-03-16T09:00:00+1000
+event_end: 2024-03-22T18:00:00+1000
+event_timezone: Australia/Brisbane
+event_attendance_mode: offline
+event_location: Brisbane Convention & Exhibition Center
+name: IETF 119
+event_organizer: Internet Engineering Task Force
+event_organizer_url: https://ietf.org/
+event_url: https://www.ietf.org/how/meetings/119/
+event_free_access: false
+event_is_online: true

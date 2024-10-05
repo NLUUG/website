@@ -15,6 +15,6 @@ title: "Nieuwe functionaliteit website: Content Review"
 
 Een website goed up-to-date houden is best wel uitdagend. Sinds vandaag hebben we daarom code en gestructureerde data toegevoegd. Met behulp van deze code worden alle relevante pagina's meegenomen in een terugkerende reviewcyclus. Op deze manier kunnen bestuur, commissieleden en onze webmasters eenvoudiger zien welke documenten weer een "frisse blik" kunnen gebruiken.
 
-Benieuwd naar hoe het werkt? In de sectie [Beheer en Onderhoud]({{< relref "website/beheer-en-onderhoud/" >}}) gaan we dit nader toelichten. Op de pagina [Content Review]({{< relref "website/beheer-en-onderhoud/content-review/index.md" >}}) is al wel een overzicht te zien van pagina's die meegenomen worden in de review.
+Benieuwd naar hoe het werkt? In de sectie [Beheer en Onderhoud]({{< relref "website/beheer-en-onderhoud/_index.md" >}}) gaan we dit nader toelichten. Op de pagina [Content Review]({{< relref "website/beheer-en-onderhoud/content-review/index.md" >}}) is al wel een overzicht te zien van pagina's die meegenomen worden in de review.
 
 Toch nog een stuk tekst gevonden met verouderde of onjuiste informatie? Dan [horen]({{< relref "contact" >}}) we dat natuurlijk graag!

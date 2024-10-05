@@ -9,3 +9,9 @@ slug:
 title: "Bert Hubert"
 type: person
 ---
+
+Bert is the founder of PowerDNS. These days he also cares a lot about keeping the internet open. In addition, he can’t help document or explain open technologies.
+
+## Awards
+
+In 2023 Bert received the NLUUG Award for his work within our community.

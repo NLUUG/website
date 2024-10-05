@@ -1,0 +1,21 @@
+id: nluug-meetup-2024-03-04
+date_start: 2024-03-04
+date_end: 2024-03-04
+event_address:
+  street_address: Iepenhoeve 9A
+  postal_code: 3438 MR
+  city: Nieuwegein
+  country: NL
+event_start: 2024-03-04T18:30:00+0100
+event_end: 2024-03-04T21:00:00+0100
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/
+event_url: "/evenementen/nluug/meetup-2024-03/"
+event_location: AT Computing / Vijfhart training center
+event_timezone: Europe/Amsterdam
+name: NLUUG 'Nix' Meetup maart 2024
+nluug_event: true
+highlight_on_homepage: true

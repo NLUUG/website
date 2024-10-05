@@ -1,4 +1,5 @@
 {
+  "id": "aschwin-marsman",
   "name": "Aschwin Marsman",
   "email": "",
   "gender": "male",
@@ -6,7 +7,7 @@
   "profile_page": "/organisatie/personen/aschwin-marsman/",
   "thumbnail": "/afbeeldingen/personen/aschwin-marsman-200x200.jpg",
   "social": {
-    "github": "https://github.com/amarsman",
+    "github": "amarsman",
     "twitter": "aschwinmarsman",
     "instagram": "",
     "linkedin": "https://www.linkedin.com/in/aschwinmarsman/",

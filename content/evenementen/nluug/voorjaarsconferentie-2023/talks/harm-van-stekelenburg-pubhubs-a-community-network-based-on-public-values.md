@@ -17,8 +17,8 @@ recording:
 
 ## Abstract
 
-PubHubs.net is a new academic and civil society effort to design a new community (social) network based on public values. It is open source and value-driven. It is centered around groups, not around individuals. It aims to provide an online platform especially for public organisations and their audiences. The talk will presents the main ideas behind PubHubs, how we are going about its' development and demonstrates some of its first features.
+PubHubs.net is a new academic and civil society effort to design a new community (social) network based on public values. It is open source and value-driven. It is centered around groups, not around individuals. It aims to provide an online platform especially for public organisations and their audiences. The talk will presents the main ideas behind PubHubs, how we are going about its development and demonstrates some of its first features.
 
 ## Biography
 
-I'm a software developer working on PubHubs a new community network developed at iHub.
+I'm a software developer working on PubHubs, a new community network developed at iHub.

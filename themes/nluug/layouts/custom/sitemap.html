@@ -18,7 +18,7 @@
           <tr>
             <th>Datum</th>
             <th>Titel</th>
-            {{ if .Site.IsServer }}
+            {{ if hugo.IsServer }}
               <th>Taal</th>
               <th>Bestandsnaam</th>
             {{ end }}
@@ -29,8 +29,8 @@
       <tr>
         <td><time datetime="{{ .Lastmod | dateFormat "2006-01-02T15:04:05" }}">{{ .Lastmod | dateFormat "2006-01-02 15:04:05" }}</a></td>
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-        {{ if .Site.IsServer }}
-          <td>{{ with .File }}{{ .Lang }}{{ end }}</td>
+        {{ if hugo.IsServer }}
+	  <td>{{ .Page.Language.Lang }}</td>
           <td>{{ with .File }}{{ .Path }}{{ end }}</td>
         {{ end }}
       </tr>

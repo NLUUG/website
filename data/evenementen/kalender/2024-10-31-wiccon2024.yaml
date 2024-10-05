@@ -1,0 +1,19 @@
+id: 2024-10-31-WICCON2024
+date_start: 2024-10-31
+date_end: 2024-11-01
+event_address:
+  street_address: Energieplein 73
+  postal_code: 2031 TC
+  city: Haarlem
+  country: NL
+event_start: 2024-10-31T09:00:00+0200
+event_end: 2024-11-01T19:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_location: "Lichtfabriek"
+name: WICCON 2024
+event_organizer: WICCA
+event_organizer_url: https://womenofwicca.nl/
+event_url: https://wiccon.nl/
+event_free_access: false
+event_is_online: false

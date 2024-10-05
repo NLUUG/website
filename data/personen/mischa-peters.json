@@ -1,4 +1,5 @@
 {
+  "id": "mischa-peters",
   "name": "Mischa Peters",
   "email": "",
   "gender": "male",
@@ -6,7 +7,7 @@
   "profile_page": "/organisatie/personen/mischa-peters/",
   "thumbnail": "/afbeeldingen/personen/mischa-peters-200x200.jpg",
   "social": {
-    "github": "https://github.com/mischapeters",
+    "github": "mischapeters",
     "twitter": "",
     "instagram": "",
     "linkedin": "https://www.linkedin.com/in/mischapeters/",

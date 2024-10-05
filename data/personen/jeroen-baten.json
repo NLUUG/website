@@ -4,7 +4,7 @@
   "email": "",
   "gender": "male",
   "nationality": "Dutch",
-  "thumbnail": "/afbeeldingen/personen/jeroen-baten-200x200.png",
+  "profile_page": "/evenementen/sprekers/jeroen-baten/",
   "websites": [{
     "id": 1,
     "name": "Persoonlijke website",
@@ -17,5 +17,11 @@
     "mastodon": "@JeroenBaten@mastodon.cloud",
     "mastodon_url": "https://mastodon.cloud/@JeroenBaten",
     "twitter": ""
-  }
+  },
+  "thumbnail": "/afbeeldingen/personen/jeroen-baten-200x200.png",
+  "websites": [{
+    "id": 1,
+    "name": "Persoonlijke website",
+    "url": "https://www.jeroenbaten.nl/"
+  }]
 }

@@ -1,0 +1,19 @@
+id: 2024-02-07-pvib-2024
+date_start: 2024-02-07
+date_end: 2024-02-07
+event_address:
+  street_address: Winthontlaan 4
+  postal_code: 3526 KV
+  city: Utrecht
+  country: NL
+event_start: 2024-02-07T18:00:00+0200
+event_end: 2024-02-07T21:30:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_location: Van der Valk hotel
+name: "Themabijeenkomst: Sourcing"
+event_organizer: Platform voor InformatieBeveiliging
+event_organizer_url: https://pvib.nl/
+event_url: https://www.pvib.nl/actueel/evenementen/themabijeenkomst-sourcing
+event_free_access: false
+event_is_online: false

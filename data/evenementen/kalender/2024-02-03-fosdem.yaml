@@ -1,0 +1,19 @@
+id: 2024-02-03-fosdem-2024
+date_start: 2024-02-03
+date_end: 2024-02-04
+event_address:
+  street_address: Avenue Franklin Roosevelt 50
+  postal_code: 1050
+  city: Brussel
+  country: BE
+event_start: 2024-02-03T09:30:00+0200
+event_end: 2024-02-04T18:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_location: ULB Campus du Solbosch
+name: Fosdem 2024
+event_organizer: Fosdem
+event_organizer_url: https://fosdem.org/
+event_url: https://fosdem.org/2024/schedule/
+event_free_access: false
+event_is_online: true

@@ -1,0 +1,25 @@
+id: cfp-is-open
+date_start: 2024-05-22
+date_end: 2024-08-05
+status:
+  - language: en
+    message: "Our CFP is active!"
+    links:
+      - id: 0
+        name: CFP portal
+        link_external: https://cfp.nluug.nl/
+      - id: 1
+        name: CFP tips
+        link: "evenementen/nluug/cfp/index.en.md"
+  - language: nl
+    message: "Onze CFP is geopend!"
+    links:
+      - id: 0
+        name: Evenement
+        link: "evenementen/nluug/najaarsconferentie-2024/_index.md"
+      - id: 1
+        name: CFP-portaal
+        link_external: https://cfp.nluug.nl/
+      - id: 2
+        name: CFP details en tips
+        link: "evenementen/nluug/cfp/index.md"

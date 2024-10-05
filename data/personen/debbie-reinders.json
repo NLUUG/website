@@ -1,0 +1,25 @@
+{
+  "id": "debbie-reinders",
+  "name": "Debbie Reinders",
+  "email": "d.reinders@debbiereinders.nl",
+  "gender": "Female",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/organisatie/personen/debbie-reinders/",
+  "thumbnail": "/afbeeldingen/personen/debbie-reinders-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Zakelijke website",
+    "sameas": true,
+    "url": "https://debbiereinders.nl/"
+  }],
+  "social": {
+    "facebook": "https://www.facebook.com/people/Debbie-Reinders-pr-communicatie-en-organisatieactiviteiten/100063628328109/",
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/debbie-reinders-b539522/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": "DebbieReinders"
+  }
+}

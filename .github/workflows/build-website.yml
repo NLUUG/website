@@ -16,12 +16,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - name: Install Nikola
-        run: |
-          echo pip install "Nikola[extras]"
-      - name: Run nikola build
-        run: |
-          echo nikola build
       - name: Start content sync (webhook)
         uses: distributhor/workflow-webhook@v3
         env:

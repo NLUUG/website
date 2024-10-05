@@ -1,1 +1,1 @@
-<img{{ if .class }} class="{{ .class }}"{{ end }} src="/afbeeldingen/iconen/{{ .icon }}.svg" height="{{ .iconsize | default 20 }}" width="{{ .iconsize | default 20 }}" alt="{{ .icon | default .Site.Params.textNoTitle }}"{{ with .title }} title="{{ . }}"{{ end }}>
+<img{{ if .class }} class="{{ .class }}"{{ end }} src="/afbeeldingen/iconen/{{ .icon }}.svg" height="{{ .iconsize | default 20 }}" width="{{ .iconsize | default 20 }}" alt="{{ .alt | default $.context.Site.Params.textEmptyValue }}"{{ with .title }} title="{{ . }}"{{ end }}>

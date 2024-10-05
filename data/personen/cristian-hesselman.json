@@ -6,7 +6,6 @@
   "honorary_member": false,
   "nationality": "Dutch",
   "profile_page": "/evenementen/sprekers/cristian-hesselman/",
-  "thumbnail": "/afbeeldingen/personen/cristian-hesselman-200x200.jpg",
   "social": {
     "github": "",
     "instagram": "",
@@ -15,5 +14,5 @@
     "mastodon_url": "https://mastodon.social/@hesselma",
     "twitter": "hesselma"
   },
-  "speaker": true
+  "thumbnail": "/afbeeldingen/personen/cristian-hesselman-200x200.jpg"
 }

@@ -1,0 +1,47 @@
+<div>
+  <div class="highlight-box highlight-box-nluug">
+    <h3>{{ .Params.event_title }}</h3>
+
+    {{ $event_start := .Params.event_start | time }}
+
+    {{ if le now $event_start }}
+      {{ if .Params.event_cfp_link }}
+        {{ if .Params.event_cfp_start_date }}
+          {{ $event_cfp_start_date := .Params.event_cfp_start_date | time }}
+          {{ if le now $event_cfp_start_date }}
+            <p>De Call for Proposals opent op {{ .Params.event_cfp_start_date | time.Format ":date_full" }}.</p>
+          {{ else }}
+            {{ if .Params.event_cfp_close_date }}
+              {{ $event_cfp_close_date := .Params.event_cfp_close_date | time }}
+              {{ if le now $event_cfp_close_date }}
+                  <p>CFP: <strong><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
+              {{ end }}
+            {{ else }}
+              <p>CFP: <strong><a href="{{ .Params.event_cfp_link }}">Geopend</a></strong></p>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+
+      <h3>{{ .Params.event_location }}</h3>
+      <p>{{ .Params.event_address.street_address }}<br>{{ .Params.event_address.postal_code }}, {{ .Params.event_address.city }}<br>{{ .Params.event_address.country_name }}</p>
+
+      {{ $compare_event_start_date := .Params.event_start | time.Format "2006-01-02" }}
+      {{ $compare_event_end_date := .Params.event_end | time.Format "2006-01-02" }}
+      {{ if eq $compare_event_start_date $compare_event_end_date }}
+        <h3>Datum en tijd</h3>
+        <p>Dit evenement {{ if ge now $event_start }}vond{{ else }}vindt{{ end}} plaats op {{ .Params.event_start | time.Format ":date_full" }} ({{ .Params.event_start | time.Format "15:04" }}-{{ .Params.event_end | time.Format "15:04" }}).</p>
+      {{ else }}
+        <h3>Data</h3>
+        <ul>
+          <li>Start evenement: {{ .Params.event_start | time.Format "2006-01-02 15:04" }}</li>
+          <li>Einde evenement: {{ .Params.event_end | time.Format "2006-01-02 15:04" }}</li>
+        </ul>
+      {{ end }}
+
+
+      <p><a class="button" href="{{ .RelPermalink }}">Meer informatie</a></p>
+    </div>
+</div>

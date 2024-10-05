@@ -3,18 +3,18 @@
 {{ if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end }}
 {{ if not $featured }}
     {{ $featured = resources.Get "/opengraph/background.png" }}
-    {{ $size := 80 }}
+    {{ $size := 60 }}
     {{ $title := $.LinkTitle }}
     {{ if gt (len $title) 20 }}
-    {{ $size = 70 }}
+    {{ $size = 50 }}
     {{ end }}
 
     {{ $text := $title }}
-                {{ $textOptions := dict 
-                    "color" "#1D3160"
+                {{ $textOptions := dict
+                    "color" "#221F5F"
                     "size" $size
                     "lineSpacing" 10
-                    "x" 65 "y" 80
+                    "x" 45 "y" 140
                     "font" (resources.Get "/opengraph/mulish-black.ttf")
                 }}
 

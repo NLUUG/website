@@ -3,7 +3,7 @@
 
   {{ if .Params.contact_email }}
     <h2>Contact</h2>
-    <p>Wil je iets weten of heb je een suggestie voor ons?</p>
+    <p>Wil je iets weten of heb je een suggestie?</p>
     <a href="mailto:{{ .Params.contact_email }}" class="button">Neem contact op</a>
   {{ end }}
 
@@ -58,6 +58,8 @@
           {{ $image := replace .thumbnail "200x200" "150x150" }}
           {{ $alttext := printf "Foto van %s" .name }}
           {{ partial "show-image.html" (dict "context" . "image" $image "alt" $alttext "figcaption" .name "link" .profile_page) }}
+	{{ else }}
+	  <span>{{ .name }}</span>
         {{ end }}
       </div>
     {{ end }}

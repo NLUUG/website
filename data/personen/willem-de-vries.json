@@ -1,10 +1,12 @@
 {
   "id": "willem-de-vries",
   "name": "Willem de Vries",
+  "death_date": "2024-03-16",
   "email": "",
   "gender": "",
   "honorary_member": true,
   "nationality": "Dutch",
+  "profile_page": "/organisatie/personen/willem-de-vries/",
   "thumbnail": "",
   "social": {
     "github": "",

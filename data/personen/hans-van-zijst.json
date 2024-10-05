@@ -9,11 +9,12 @@
   "thumbnail": "/afbeeldingen/personen/hans-van-zijst-200x200.jpg",
   "social": {
     "github": "",
-    "twitter": "",
+    "hubzilla": "@hans@social.woefdram.nl",
+    "hubzilla_url": "https://social.woefdram.nl/@hans",
     "instagram": "",
     "linkedin": "https://www.linkedin.com/in/hans-van-zijst-a2a1366/",
     "mastodon": "",
     "mastodon_url": "",
-    "twitter": "WoefdramCX"
+    "twitter": ""
   }
 }

@@ -1,7 +1,29 @@
 {{ define "main" }}
+
+  {{ $.Scratch.Set "highlighted_events" slice }}
+
+  {{ range (.Pages.ByParam "event_start").Reverse }}
+    {{ if isset .Params "event_start" }}
+      {{ $event_start := .Params.event_start | time }}
+      {{ if le now $event_start }}
+        {{ $.Scratch.Add "highlighted_events" . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ if (gt ($.Scratch.Get "highlighted_events" | len) 0) }}
+  <h2>Aankomende evenementen</h2>
+    <div class="three-column-grid">
+      {{ range $.Scratch.Get "highlighted_events" }}
+        {{ partial "show-highlighted-event.html" . }}
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <h2>Overzicht</h2>
   <section>
     <ul class="list">
-      {{ range .Pages }}
+      {{ range (.Pages.ByParam "event_start").Reverse }}
         <li>
           <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
           <hr class="hr-list">
@@ -9,7 +31,7 @@
           <time class="g time" datetime="{{ dateFormat "02-01-2006" .Params.event_start }}">{{ dateFormat "02-01-2006" .Params.event_start }}</time>
           {{ end }}
         </li>
-        {{ end }}
+      {{ end }}
     </ul>
   </section>
 {{ end }}

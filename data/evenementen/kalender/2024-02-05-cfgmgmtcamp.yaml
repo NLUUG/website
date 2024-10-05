@@ -1,0 +1,19 @@
+id: 2024-02-03-cfgmgmtcamp-2024
+date_start: 2024-02-05
+date_end: 2024-02-07
+event_address:
+  street_address: Valentin Vaerwyckweg 1
+  postal_code: 9000
+  city: Gent
+  country: BE
+event_start: 2024-02-05T09:00:00+0200
+event_end: 2024-02-07T18:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_location: HoGent - Campus SchoonMeersen
+name: Configuration Management Camp 2024
+event_organizer: Configuration Management Camp
+event_organizer_url: https://cfgmgmtcamp.eu/
+event_url: https://cfgmgmtcamp.eu/ghent2024/schedule/
+event_free_access: false
+event_is_online: false

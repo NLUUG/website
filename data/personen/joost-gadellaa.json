@@ -1,0 +1,21 @@
+{
+  "id": "joost-gadellaa",
+  "name": "Joost Gadellaa",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/joost-gadellaa-200x200.jpg"
+}

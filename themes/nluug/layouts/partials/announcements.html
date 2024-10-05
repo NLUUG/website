@@ -1,0 +1,23 @@
+{{ $context := . }}
+{{ range $.Site.Data.announcements }}
+    {{ $date_end := .date_end | time }}
+    {{ $date_start := .date_start | time }}
+    {{ if and
+      (ge now $date_start)
+      (le now $date_end)
+    }}
+    <div class="max-width ta-r">
+        {{ range $index,$key := .status }}
+          {{ if eq $.Site.Language.Lang .language }}
+            <span class="persian-green-dark bold">{{ .message }}</span>
+            {{ range .links }}
+              <small>
+              {{ if .link }}[<a href="{{ relref $context .link }}">{{ .name }}</a>]{{ end }}
+              {{ if .link_external }}[<a href="{{ .link_external }}" rel="nofollow noopener">{{ .name }}</a>]{{ end }}
+              </small>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+{{ end }}

@@ -4,6 +4,8 @@
   translation: contact
 - id: events
   translation: evenementen
+- id: members_area
+  translation: ledendeel
 - id: membership
   translation: lidmaatschap
 - id: news

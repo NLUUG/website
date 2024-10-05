@@ -1,10 +1,12 @@
 {
   "id": "chel-van-gennip",
   "name": "Chel van Gennip",
+  "death_date": "2008-12-12",
   "email": "",
-  "gender": "",
+  "gender": "male",
   "honorary_member": true,
   "nationality": "Dutch",
+  "profile_page": "/organisatie/personen/chel-van-gennip/",
   "thumbnail": "",
   "social": {
     "github": "",

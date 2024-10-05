@@ -1,0 +1,13 @@
+<div class="grid-team-members-small-photos">
+  {{ range $key,$val := .Scratch.Get "related_speakers" }}
+    {{ with (index $.Site.Data.personen .) }}
+      <div>
+        {{ if .thumbnail }}
+          {{ $image := replace .thumbnail "200x200" "150x150" }}
+          {{ $alttext := printf "Foto van %s" .name }}
+          {{ partial "show-image.html" (dict "context" . "image" $image "alt" $alttext "figcaption" .name "link" .profile_page) }}
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+</div>

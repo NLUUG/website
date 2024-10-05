@@ -1,0 +1,21 @@
+{
+  "id": "geert-rolf",
+  "name": "Geert Rolf",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/geert-rolf/",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/geert-rolf-200x200.jpg"
+}

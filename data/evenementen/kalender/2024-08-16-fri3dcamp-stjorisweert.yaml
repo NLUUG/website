@@ -1,0 +1,19 @@
+id: 2024-08-16-fri3dcamp-stjorisweert
+date_start: 2024-08-16
+date_end: 2024-08-18
+event_address:
+  street_address: Kluis 1
+  postal_code: 3051
+  city: St.-Joris-Weert
+  country: BE
+event_start: 2024-08-16T10:00:00+0200
+event_end: 2024-08-18T15:00:00+0200
+event_timezone: Europe/Amsterdam
+event_attendance_mode: offline
+event_is_online: false
+event_location: "De Kluis"
+event_organizer: Fri3d VZW
+event_organizer_url: https://fri3d.be/contact/
+event_url: https://fri3d.be/
+event_free_access: false
+name: "Fri3dCamp"

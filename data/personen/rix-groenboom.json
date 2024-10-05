@@ -6,7 +6,6 @@
   "honorary_member": false,
   "nationality": "Dutch",
   "profile_page": "/evenementen/sprekers/rix-groenboom/",
-  "thumbnail": "/afbeeldingen/personen/rix-groenboom-200x200.jpg",
   "social": {
     "github": "",
     "instagram": "",
@@ -15,5 +14,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "speaker": true
+  "thumbnail": "/afbeeldingen/personen/rix-groenboom-200x200.jpg"
 }
