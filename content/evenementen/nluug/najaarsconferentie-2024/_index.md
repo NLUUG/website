@@ -60,4 +60,23 @@ event_schedule:
     width: 30
 ---
 
-We zijn de inzendingen aan het beoordelen, maar kunnen alvast de keynote verklappen: **From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques** door Gunes Acar.
+De keynote: **From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques** door Gunes Acar.
+
+Andere lezingen (onder voorbehoud):
+* Bootstrapping a Museum with Open Source (Arnout Engelen)
+* Course as Code 2.0: what we have learned and done since Nov 2022 (Marcel Kornegoor)
+* Ervaringen met Open Source implementaties voor openEHR (Rix Groenboom, Nils)
+* Introduction to WebAssembly: from browser-based to server-side (Alessandro Vozza)
+* The Zero-trust hoax (Rogier Spoor)
+* Netflow-informatie snel doorzoekbaar maken (Remco Poortinga)
+* Build your own Sustainable Cloud Unit from Scratch (Nick Hooijberg)
+* Introductie MQTT, Tasmota & Node-RED (Ad)
+* Zwartboek Chatcontrol (Helma de Boer)
+* Samen een open mobiel ecosysteem voor publieke organisaties ontwerpen (Marit Hoefsloot)
+* Performance analyse op basis van Linux cgroups (v2) (Gerlof Langeveld)
+* De wet en de vrije software  (Valentijn Sessink)
+* OPNsense - ontwerp en architectuur (Ad Schellevis)
+* Snakes in the grass! How to improve code quality and development processes (Arjen Lentz, Tobias Eggendorfer)
+* Hacking - 30 jaar geleden (Walter Belgers)
+* Detecting VPN Traffic: Techniques and Insights from Traffic Analysis (Joyatee Datta)
+* FreeBSD and the absurdities of security compliance (Eirik Øverby)
