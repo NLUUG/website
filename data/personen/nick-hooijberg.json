@@ -1,0 +1,21 @@
+{
+  "id": "nick-hooijberg",
+  "name": "Nick Hooijberg",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/nick-hooijberg/",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/nick-hooijberg-05436133/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo-200x200.png"
+}

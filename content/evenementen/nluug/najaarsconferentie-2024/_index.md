@@ -64,7 +64,7 @@ De keynote: **From Cookies to Keyloggers: Understanding Modern Online Tracking T
 
 Andere lezingen (onder voorbehoud):
 * Bootstrapping a Museum with Open Source (Arnout Engelen)
-* Course as Code 2.0: what we have learned and done since Nov 2022 (Marcel Kornegoor)
+* [Course as Code 2.0: what we have learned and done since Nov 2022]({{< relref "talks/marcel-kornegoor-course-as-code-20-what-we-have-learned-and-done-since-nov-2022.md" >}}) (Marcel Kornegoor)
 * Ervaringen met Open Source implementaties voor openEHR (Rix Groenboom, Nils)
 * Introduction to WebAssembly: from browser-based to server-side (Alessandro Vozza)
 * The Zero-trust hoax (Rogier Spoor)
