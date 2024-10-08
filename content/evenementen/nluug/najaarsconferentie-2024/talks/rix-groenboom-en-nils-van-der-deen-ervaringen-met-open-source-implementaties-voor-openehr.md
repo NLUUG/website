@@ -5,7 +5,7 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Rix Groenboom en Nils van der Deen- Ervaringen met Open Source implementaties voor openEHR"
+title: "Rix Groenboom en Nils van der Deen - Ervaringen met Open Source implementaties voor openEHR"
 speakers:
 - nils-van-der-deen
 - rix-groenboom
