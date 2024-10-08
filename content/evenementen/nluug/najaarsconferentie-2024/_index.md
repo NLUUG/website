@@ -63,9 +63,9 @@ event_schedule:
 De keynote: **From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques** door Gunes Acar.
 
 Andere lezingen (onder voorbehoud):
-* Bootstrapping a Museum with Open Source (Arnout Engelen)
+* [Bootstrapping a Museum with Open Source]({{< relref "talks/arnout-engelen-bootstrapping-a-museum-with-open-source.md" >}}) (Arnout Engelen)
 * [Course as Code 2.0: what we have learned and done since Nov 2022]({{< relref "talks/marcel-kornegoor-course-as-code-20-what-we-have-learned-and-done-since-nov-2022.md" >}}) (Marcel Kornegoor)
-* Ervaringen met Open Source implementaties voor openEHR (Rix Groenboom, Nils)
+* [Ervaringen met Open Source implementaties voor openEHR]({{< relref "talks/rix-groenboom-en-nils-van-der-deen-ervaringen-met-open-source-implementaties-voor-openehr.md" >}}) (Rix Groenboom, Nils van der Deen)
 * Introduction to WebAssembly: from browser-based to server-side (Alessandro Vozza)
 * The Zero-trust hoax (Rogier Spoor)
 * Netflow-informatie snel doorzoekbaar maken (Remco Poortinga)
