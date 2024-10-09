@@ -13,7 +13,7 @@ event_attendance_mode: hybrid
 event_location: "World Forum"
 name: Ubuntu Summit 2024
 event_organizer: Canonical
-event_organizer_url: https://womenofwicca.nl/
+event_organizer_url: https://canonical.com/
 event_url: https://events.canonical.com/event/51/
 event_free_access: true
 event_is_online: true
