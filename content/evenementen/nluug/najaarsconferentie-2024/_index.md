@@ -39,7 +39,6 @@ event_sponsors:
 - at-computing
 event_status: "scheduled"
 event_schedule:
-  hidden: true
   title: Programma
   description:
   columns: 4
@@ -58,25 +57,206 @@ event_schedule:
     text: Zaal 3
     center: true
     width: 30
+  rows:
+  - row:
+    columns:
+    - column:
+      time: 08:30
+    - column:
+      textfield:
+        text: Inschrijving, ontvangst, koffie
+      size: 3
+      center: true
+  - row:
+    columns:
+    - column:
+      time: 09:15
+    - column:
+      textfield:
+        text: Openingswoord
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 09:30
+    - column:
+      talk:
+        speaker: Gunes Acar
+        title: "From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques"
+        keynote: true
+        link: 
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 10:30
+    - column:
+      textfield:
+        text: Koffiepauze
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 11:00
+    - column:
+      talk:
+        speaker: Rogier Spoor
+        title: The Zero-trust hoax 
+        link: talks/rogier-spoor-the-zero-trust-hoax/
+    - column:
+      talk:
+        speaker: Helma de Boer
+        title: Zwartboek Chatcontrol 
+        link: talks/helma-de-boer-zwartboek-chatcontrol/ 
+    - column:
+      talk:
+        speaker: Nick Hooijberg
+        title: Build your own Sustainable Cloud Unit from Scratch
+        link: talks/nick-hooijberg-build-your-own-sustainable-cloud-unit-from-scratch/
+  - row:
+    columns:
+    - column:
+      time: 11:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 11:50
+    - column:
+      talk:
+        speaker: Joyatee Datta
+        title: "Detecting VPN Traffic: Techniques and Insights from Traffic Analysis"
+        link: 
+    - column:
+      talk:
+        speaker: Robert Frans van der Willigen
+        title: Verantwoord gebruik van ChatGPT en andere Generative AI-modellen
+        link: 
+    - column:
+      talk:
+        speaker: Ad Schellevis
+        title: OPNsense - ontwerp en architectuur
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 12:35
+    - column:
+      textfield:
+        text: Lunch
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 14:00
+    - column:
+      talk:
+        speaker: Eirik Øverby
+        title: FreeBSD and the absurdities of security compliance
+        link: 
+    - column:
+      talk:
+        speaker: Marcel Kornegoor
+        title: "Course as Code 2.0: what we have learned and done since Nov 2022"
+        link: talks/marcel-kornegoor-course-as-code-20-what-we-have-learned-and-done-since-nov-2022/
+    - column:
+      talk:
+        speaker: Marit Hoefsloot
+        title: Samen een open mobiel ecosysteem voor publieke organisaties ontwerpen
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 14:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 14:50
+    - column:
+      talk:
+        speaker: Ad
+        title: Introductie MQTT, Tasmota & Node-RED
+        link: talks/ad-introductie-mqtt-tasmota-and-node-red/ 
+    - column:
+      talk:
+        speaker: Remco Poortinga
+        title: Netflow-informatie snel doorzoekbaar maken 
+        link: talks/remco-poortinga-netflow-informatie-snel-doorzoekbaar-maken/
+    - column:
+      talk:
+        speaker: Gerlof Langeveld
+        title: Performance analyse op basis van Linux cgroups (v2)
+        link: talks/gerlof-langeveld-performance-analyse-op-basis-van-linux-cgroups-v2/ 
+  - row:
+    columns:
+    - column:
+      time: 15:35
+    - column:
+      textfield:
+        text: Koffiepauze
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 16:00
+    - column:
+      talk:
+        speaker: Arjen Lentz / Tobias Eggendorfer
+        title: Snakes in the grass! How to improve code quality and development processes
+        link: 
+    - column:
+      talk:
+        speaker: Valentijn Sessink
+        title: De wet en de vrije software
+        link: talks/valentijn-sessink-de-wet-en-de-vrije-software/
+    - column:
+      talk:
+        speaker: Rix Groenboom / Nils van der Deen 
+        title: Ervaringen met Open Source implementaties voor openEHR
+        link: talks/rix-groenboom-en-nils-van-der-deen-ervaringen-met-open-source-implementaties-voor-openehr/
+  - row:
+    columns:
+    - column:
+      time: 16:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 16:50
+    - column:
+      talk:
+        speaker: Alessandro Vozza 
+        title: "Introduction to WebAssembly: from browser-based to server-side"
+        link: talks/alessandro-vozza-introduction-to-webassembly-from-browser-based-to-server-side/
+    - column:
+      talk:
+        speaker: Walter Belgers
+        title: Hacking - 30 jaar geleden
+        link: talks/walter-belgers-hacking-30-jaar-geleden/
+        not_recorded: true
+    - column:
+      talk:
+        speaker: Arnout Engelen 
+        title: Bootstrapping a Museum with Open Source
+        link: talks/arnout-engelen-bootstrapping-a-museum-with-open-source/
+  - row:
+    columns:
+    - column:
+      time: 17:35
+    - column:
+      textfield:
+        text: Borrel, gesponsord door AT Computing
+      center: true
+      size: 3
 ---
 
-De keynote: **From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques** door Gunes Acar.
 
-Andere lezingen (onder voorbehoud):
-* [Bootstrapping a Museum with Open Source]({{< relref "talks/arnout-engelen-bootstrapping-a-museum-with-open-source.md" >}}) (Arnout Engelen)
-* [Course as Code 2.0: what we have learned and done since Nov 2022]({{< relref "talks/marcel-kornegoor-course-as-code-20-what-we-have-learned-and-done-since-nov-2022.md" >}}) (Marcel Kornegoor)
-* [Ervaringen met Open Source implementaties voor openEHR]({{< relref "talks/rix-groenboom-en-nils-van-der-deen-ervaringen-met-open-source-implementaties-voor-openehr.md" >}}) (Rix Groenboom, Nils van der Deen)
-* [Introduction to WebAssembly: from browser-based to server-side]({{< relref "talks/alessandro-vozza-introduction-to-webassembly-from-browser-based-to-server-side.md" >}}) (Alessandro Vozza)
-* [The Zero-trust hoax]({{< relref "talks/rogier-spoor-the-zero-trust-hoax.md" >}}) (Rogier Spoor)
-* [Netflow-informatie snel doorzoekbaar maken]({{< relref "talks/remco-poortinga-netflow-informatie-snel-doorzoekbaar-maken.md" >}}) (Remco Poortinga)
-* [Build your own Sustainable Cloud Unit from Scratch]({{< relref "talks/nick-hooijberg-build-your-own-sustainable-cloud-unit-from-scratch.md" >}}) (Nick Hooijberg)
-* [Introductie MQTT, Tasmota & Node-RED]({{< relref "talks/ad-introductie-mqtt-tasmota-and-node-red.md" >}}) (Ad)
-* [Zwartboek Chatcontrol]({{< relref "talks/helma-de-boer-zwartboek-chatcontrol.md" >}}) (Helma de Boer)
-* Samen een open mobiel ecosysteem voor publieke organisaties ontwerpen (Marit Hoefsloot)
-* [Performance analyse op basis van Linux cgroups (v2)]({{< relref "talks/gerlof-langeveld-performance-analyse-op-basis-van-linux-cgroups-v2.md" >}}) (Gerlof Langeveld)
-* [De wet en de vrije software]({{< relref "talks/valentijn-sessink-de-wet-en-de-vrije-software.md" >}}) (Valentijn Sessink)
-* OPNsense - ontwerp en architectuur (Ad Schellevis)
-* Snakes in the grass! How to improve code quality and development processes (Arjen Lentz, Tobias Eggendorfer)
-* Hacking - 30 jaar geleden (Walter Belgers)
-* Detecting VPN Traffic: Techniques and Insights from Traffic Analysis (Joyatee Datta)
-* FreeBSD and the absurdities of security compliance (Eirik Øverby)
