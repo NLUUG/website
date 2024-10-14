@@ -85,7 +85,7 @@ event_schedule:
         speaker: Gunes Acar
         title: "From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques"
         keynote: true
-        link: 
+        link: talks/gunes-acar-from-cookies-to-keyloggers-understanding-modern-online-tracking-techniques/ 
       center: true
       size: 3
   - row:
