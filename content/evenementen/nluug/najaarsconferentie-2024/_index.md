@@ -130,17 +130,17 @@ event_schedule:
       talk:
         speaker: Joyatee Datta
         title: "Detecting VPN Traffic: Techniques and Insights from Traffic Analysis"
-        link: 
+        link: talks/joyatee-datta-detecting-vpn-traffic-techniques-and-insights-from-traffic-analysis/ 
     - column:
       talk:
         speaker: Robert Frans van der Willigen
         title: Verantwoord gebruik van ChatGPT en andere Generative AI-modellen
-        link: 
+        link: talks/robert-frans-van-der-willigen-verantwoord-gebruik-van-chatgpt-en-andere-generative-ai-modellen/ 
     - column:
       talk:
         speaker: Ad Schellevis
         title: OPNsense - ontwerp en architectuur
-        link: 
+        link: talks/ad-schellevis-opnsense-ontwerp-en-architectuur/ 
   - row:
     columns:
     - column:
@@ -158,7 +158,7 @@ event_schedule:
       talk:
         speaker: Eirik Øverby
         title: FreeBSD and the absurdities of security compliance
-        link: 
+        link: talks/eirik-overby-freebsd-and-the-absurdities-of-security-compliance/ 
     - column:
       talk:
         speaker: Marcel Kornegoor
@@ -168,7 +168,7 @@ event_schedule:
       talk:
         speaker: Marit Hoefsloot
         title: Samen een open mobiel ecosysteem voor publieke organisaties ontwerpen
-        link: 
+        link: talks/marit-hoefsloot-samen-een-open-mobiel-ecosysteem-voor-publieke-organisaties-ontwerpen/ 
   - row:
     columns:
     - column:
@@ -211,7 +211,7 @@ event_schedule:
       talk:
         speaker: Arjen Lentz / Tobias Eggendorfer
         title: Snakes in the grass! How to improve code quality and development processes
-        link: 
+        link: talks/arjen-lentz-and-tobias-eggendorfer-snakes-in-the-grass-how-to-improve-code-quality-and-development-processes/ 
     - column:
       talk:
         speaker: Valentijn Sessink
