@@ -183,7 +183,7 @@ event_schedule:
       talk:
         speaker: Ad uit 't Noorden
         title: Introductie MQTT, Tasmota & Node-RED
-        link: talks/ad-introductie-mqtt-tasmota-and-node-red/ 
+        link: talks/ad-uit-t-noorden-introductie-mqtt-tasmota-and-node-red/ 
     - column:
       talk:
         speaker: Remco Poortinga

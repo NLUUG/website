@@ -5,8 +5,9 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Ad - Introductie MQTT, Tasmota & Node-RED"
+title: "Ad uit 't Noorden - Introductie MQTT, Tasmota & Node-RED"
 speakers:
+- ad-uit-t-noorden
 ---
 
 ## Abstract
