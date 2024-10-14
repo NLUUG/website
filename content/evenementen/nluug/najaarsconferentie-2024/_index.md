@@ -181,7 +181,7 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker: Ad
+        speaker: Ad uit 't Noorden
         title: Introductie MQTT, Tasmota & Node-RED
         link: talks/ad-introductie-mqtt-tasmota-and-node-red/ 
     - column:
