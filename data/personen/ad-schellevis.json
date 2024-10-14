@@ -1,0 +1,21 @@
+{
+  "id": "ad-schellevis",
+  "name": "Ad Schellevis",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/ad-schellevis/",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/ad-schellevis-088b53/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/ad-schellevis-200x200.jpg"
+}
