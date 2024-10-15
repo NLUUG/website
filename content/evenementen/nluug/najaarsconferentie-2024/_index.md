@@ -37,6 +37,7 @@ event_register_end_date: 2024-11-05
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
 - at-computing
+- opnsense
 event_status: "scheduled"
 event_schedule:
   title: Programma
