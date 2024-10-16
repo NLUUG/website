@@ -1,11 +1,11 @@
 {
-  "id": "nils-van-der-deen",
-  "name": "Nils van der Deen",
+  "id": "arjen-lentz",
+  "name": "Arjen Lentz",
   "email": "",
-  "gender": "",
+  "gender": "Male",
   "honorary_member": false,
   "nationality": "Dutch",
-  "profile_page": "/evenementen/sprekers/nils-van-der-deen/",
+  "profile_page": "/evenementen/sprekers/arjen-lentz/",
   "sameas": "",
   "social": {
     "facebook": "",
@@ -17,5 +17,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/nils-van-der-deen-200x200.jpg"
+  "thumbnail": "/afbeeldingen/personen/arjen-lentz-200x200.png"
 }
