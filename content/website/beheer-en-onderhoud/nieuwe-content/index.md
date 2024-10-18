@@ -2,7 +2,7 @@
 author: michael-boelen
 categories:
 - website
-date: 2023-06-11T1r31:05:23+02:00
+date: 2023-06-11T13:05:23+02:00
 description: "Het toevoegen van nieuwe content aan de website dient zorgvuldig te gebeuren. Deze pagina legt het proces uit en op welke zaken men dient te letten."
 review:
   last_review: 2023-06-11
