@@ -5,6 +5,7 @@ enableInlineShortcodes = false
 [exec]
   allow = [
       '^dart-sass-embedded$',
+      '^git$',
       '^go$',
       '^npx$',
       '^postcss$'
