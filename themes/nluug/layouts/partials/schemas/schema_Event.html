@@ -114,6 +114,13 @@
  ],
  "startDate": {{ $.Params.event_start | time.Format "2006-01-02" }},
  "endDate": {{ $.Params.event_end | time.Format "2006-01-02" }},
+ "offers": [
+  {
+   "@type": "Offer",
+   "name": "Free access for members attending the conference",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }],
  "performer": [
     {{- range $index, $element := $value.Params.speakers -}}
     {{- if ne $index 0 -}}, {{ end }}
