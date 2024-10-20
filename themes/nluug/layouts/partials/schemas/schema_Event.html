@@ -12,6 +12,8 @@
  {{ else }}
  "eventStatus": "EventScheduled",
  {{ end }}
+{{- $featured := partial "opengraph/get-featured-image.html" . }}
+ "image": "{{ $featured.Permalink }}",
  "organizer": [
   {
    "@type": "Organization",
@@ -73,6 +75,8 @@
  "description": "{{ (delimit (findRE "(?s)(<p.*?>.*?</p>)" .Content) "[&hellip;] ") | plainify | truncate 500 }}",
  "eventAttendanceMode": "https://schema.org/{{ if eq $.Params.event_attendance_mode "hybrid" }}Mixed{{ else if eq $.Params.event_attendance_mode "mixed" }}Mixed{{ else if eq $.Params.event_attendance_mode "online" }}Online{{ else }}Offline{{ end }}EventAttendanceMode",
  "eventStatus": "EventScheduled",
+{{- $featured := partial "opengraph/get-featured-image.html" . }}
+ "image": "{{ $featured.Permalink }}",
 {{ if $.Params.online_event }}
  "location": {
   "@type": "VirtualLocation",
