@@ -12,8 +12,6 @@
  {{ else }}
  "eventStatus": "EventScheduled",
  {{ end }}
-{{- $featured := partial "opengraph/get-featured-image.html" . }}
- "image": "{{ $featured.Permalink }}",
  "organizer": [
   {
    "@type": "Organization",
@@ -63,7 +61,10 @@
     {{ $image.Permalink -}}
     {{- end }}
     ],
-  {{ end -}}
+{{ else }}
+{{- $featured := partial "opengraph/get-featured-image.html" . }}
+ "image": "{{ $featured.Permalink }}",
+{{ end -}}
  {{ $list := where .Pages "Params.speakers" "!=" nil }}
  {{ if gt (len $list) 0 }}"subEvent": [{{ end }}
  {{ range $key, $value := $list }}
