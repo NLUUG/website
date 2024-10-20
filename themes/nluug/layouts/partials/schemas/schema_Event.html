@@ -8,9 +8,9 @@
  "startDate": {{ .Params.event_start }},
  "endDate": {{ .Params.event_end }},
  {{ if .Params.event_status }}
- "eventStatus":"Event{{ .Params.event_status | strings.FirstUpper }}",
+ "eventStatus": "Event{{ .Params.event_status | strings.FirstUpper }}",
  {{ else }}
- "eventStatus":"EventScheduled",
+ "eventStatus": "EventScheduled",
  {{ end }}
  "organizer": [
   {
@@ -70,7 +70,36 @@
  "@type": "Event",
  "name": "{{ $value.Title }}",
  "url": "{{ $value.Permalink }}",
- "location": "{{ $.Params.event_location }}",
+ "description": "{{ (delimit (findRE "(?s)(<p.*?>.*?</p>)" .Content) "[&hellip;] ") | plainify | truncate 500 }}",
+ "eventAttendanceMode": "https://schema.org/{{ if eq $.Params.event_attendance_mode "hybrid" }}Mixed{{ else if eq $.Params.event_attendance_mode "mixed" }}Mixed{{ else if eq $.Params.event_attendance_mode "online" }}Online{{ else }}Offline{{ end }}EventAttendanceMode",
+ "eventStatus": "EventScheduled",
+{{ if $.Params.online_event }}
+ "location": {
+  "@type": "VirtualLocation",
+  "url": "{{ $.Params.online_event_stream_url }}"
+ },
+{{ else }}
+ "location": {
+  "@type": "Place",
+  "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "{{ $.Params.event_address.city }}",
+   {{ if $.Params.event_address.region }}"addressRegion": "{{ $.Params.event_address.region }}",{{ end }}
+   "streetAddress": "{{ $.Params.event_address.street_address }}",
+   "postalCode": "{{ $.Params.event_address.postal_code }}",
+   "addressCountry": {{ $.Params.event_address.country_name }}
+  },
+  "name": "{{ $.Params.event_location }}"
+ },
+{{ end }}
+ "organizer": [
+  {
+   "@type": "Organization",
+   "name": "NLUUG",
+   "id": "{{ .Site.BaseURL }}#organization",
+   "url": "{{ .Site.BaseURL }}"
+  }
+ ],
  "startDate": {{ $.Params.event_start | time.Format "2006-01-02" }},
  "endDate": {{ $.Params.event_end | time.Format "2006-01-02" }},
  "performer": [
