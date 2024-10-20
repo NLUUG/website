@@ -21,7 +21,7 @@
   }
  ],
  "audience": ["software developers", "network engineers", "system administrators"],
- "eventAttendanceMode": "https://schema.org/{{ if eq .Params.event_attendance_mode "mix" }}Mix{{ else if eq .Params.event_attendance_mode "online" }}Online{{ else }}Offline{{ end }}EventAttendanceMode",
+ "eventAttendanceMode": "https://schema.org/{{ if eq .Params.event_attendance_mode "hybrid" }}Mixed{{ else if eq .Params.event_attendance_mode "mixed" }}Mixed{{ else if eq .Params.event_attendance_mode "online" }}Online{{ else }}Offline{{ end }}EventAttendanceMode",
  "isAccessibleForFree": true,
  "about": ["automation","configuration management","DevOps","internet","Linux","open source","open standards","security","web"],
  "inLanguage": ["en", "nl"],
