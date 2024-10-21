@@ -47,15 +47,15 @@ event_schedule:
   - header:
     width: 10
   - header:
-    text: Zaal 1
+    text: Zaal 1 (Oudegracht 1)
     center: true
     width: 30
   - header:
-    text: Zaal 2
+    text: Zaal 2 (Oudegracht 2)
     center: true
     width: 30
   - header:
-    text: Zaal 3
+    text: Zaal 3 (Oudegracht 3)
     center: true
     width: 30
   rows:
