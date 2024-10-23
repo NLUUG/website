@@ -161,9 +161,9 @@ event_schedule:
         link: talks/wouter-de-vries-anycast-what-is-it-and-how-to-measure-it/
     - column:
       talk:
-        speaker: Eiger Jonker
+        speaker: Elger Jonker
         title: May Contain Hackers 2022, the Dutch hacker camp after SHA
-        link: talks/eiger-jonker-may-contain-hackers-2022-the-dutch-hacker-camp-after-sha/
+        link: talks/elger-jonker-may-contain-hackers-2022-the-dutch-hacker-camp-after-sha/
   - row:
     columns:
     - column:

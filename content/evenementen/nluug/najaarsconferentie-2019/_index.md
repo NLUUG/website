@@ -229,7 +229,7 @@ event_schedule:
       talk:
         speaker: Pieter Lexis
         title: Running containers with systemd-nspawn
-        link: talks/peter-lexis-running-containers-with-systemd-nspawn/
+        link: talks/pieter-lexis-running-containers-with-systemd-nspawn/
     - column:
       talk:
         speaker: Eric Verheul

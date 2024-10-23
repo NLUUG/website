@@ -5,9 +5,9 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Eiger Jonker - May Contain Hackers 2022, the Dutch hacker camp after SHA"
+title: "Elger Jonker - May Contain Hackers 2022, the Dutch hacker camp after SHA"
 speakers:
-- eiger-jonker
+- elger-jonker
 presentation:
   filename:
 recording:

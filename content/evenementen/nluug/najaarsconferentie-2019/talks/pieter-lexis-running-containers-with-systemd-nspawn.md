@@ -5,9 +5,9 @@ date: 2019-11-21T10:31:43+02:00
 description: ""
 layout: event-talk
 tags:
-title: "Peter Lexis - Running containers with systemd-nspawn"
+title: "Pieter Lexis - Running containers with systemd-nspawn"
 speakers:
-- peter-lexis
+- pieter-lexis
 presentation:
   filename: 2019-11-21-peter-lexis-running-containers-with-systemd-nspawn.pdf
 recording:
