@@ -127,6 +127,7 @@
     {
     "@type": "Person",
     {{ $speaker := index $.Site.Data.personen ($element) }}
+    {{ if not $speaker.name }}{{ errorf "Empty speaker name. File /data/personen/%s.json should be created or name field filled in." ($element) }}{{ end }}
     "name": "{{ $speaker.name }}"
     {{ if $speaker.profile_page }},"url":"{{ $speaker.profile_page | absURL }}"{{ end }}
     }
