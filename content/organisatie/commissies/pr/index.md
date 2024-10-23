@@ -11,13 +11,14 @@ slug:
 title: "PR-team"
 type: team
 team_members:
+- eelco-mulder
 - koen-de-jonge
 - patrick-reijnen
 ---
 
 ## PR en Social Media
 
-Om de zichtbaarheid van onze vereniging te vergroten hebben we enkele leden die actief zijn binnen ons PR-team. Hierbij hebben we een onderlinge verdeling gemaakt, waarbij Koen de Jonge zich richt op de contacten met andere organisaties. Michael en Patrick vervullen de dagelijkse activiteiten, van het publiceren van nieuws tot het beheer van de social media.
+Om de zichtbaarheid van onze vereniging te vergroten hebben we enkele leden die actief zijn binnen ons PR-team. De focus van dit team ligt op social media en interactie met andere organisaties, leden en niet-leden.
 
 ## Social Media
 
