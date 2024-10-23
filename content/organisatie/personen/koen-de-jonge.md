@@ -11,4 +11,4 @@ title: "Koen de Jonge"
 type: person
 ---
 
-Koen is algemeen bestuurslid en richt zich voornamelijk op de externe communicatie waaronder sponsoring en het leggen van relevante contacten voor onze vereniging.
+Koen is algemeen bestuurslid en richt zich voornamelijk op de externe communicatie waaronder het leggen van relevante contacten voor onze vereniging.
