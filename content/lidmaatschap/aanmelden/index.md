@@ -28,7 +28,7 @@ U kunt op de volgende manieren lid worden van de vereniging:
 
 * Als u op persoonlijke titel lid wil worden, en dus ook zelf betaalt, stuur dan een e-mail aan het [buro]({{< relref "organisatie/commissies/buro/index.md" >}}). Zet daarin uw naam, uw e-mailadres (bij voorkeur uw eigen e-mailadres i.p.v. zakelijk), adres, postcode en woonplaats. Als u aantoonbaar voltijdstudent bent komt u in aanmerking voor een Studentlidmaatschap. Geef in dat geval dit duidelijk aan. U ontvangt van ons een factuur voor de contributie. Uw lidmaatschap gaat pas in als de factuur betaald is.
 * Als u gebruik wilt maken van de lidmaatschapsruimte van uw organisatie (Bedrijfsregeling), neem dan ook contact op met ons buro. In dat geval graag naast uw naam en eigen e-mailadres ook de naam van uw organisatie vermelden. Let op: het lidmaatschap is persoonlijk, dus als u van werkgever verandert moet u dat zelf aangeven. Als uw nieuwe werkgever geen Bedrijfsregeling heeft getroffen dan moet u het lidmaatschap verder zelf betalen.
-* U kunt ook naar een dag-conferentie komen, en daar ter plaatse lid worden. U dient dan met PIN ter plaatse de lidmaatschapscontributie te voldoen. Deze optie is €25,-- exclusief BTW duurder wegens administratiekosten. U kunt nadien bij de penningmeester een pro-forma BTW-factuur opvragen voor uw boekhouding of declaratie.
+* U kunt ook naar een dag-conferentie komen, en daar ter plaatse lid worden. Na inschrijving ontvangt u direct een factuur per mail. Zodra deze (per iDEAL) is betaald kunt u deelnemen aan de conferentie. Pinnen is (helaas) niet mogelijk.
 
 ## Aanmelden voor een Bedrijfsregeling voor Organisaties
 
