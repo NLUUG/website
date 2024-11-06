@@ -11,8 +11,8 @@ speakers:
 presentation:
   filename: 2023-05-11-ed-schouten-buildbarn-a-distributed-build-cluster.pdf
 recording:
-  platform: youtube
-  url:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-1/03_Ed_schouten_-_Buildbarn__a_distributed_build_cluster_quality-5procent.webm
 ---
 
 ## Abstract

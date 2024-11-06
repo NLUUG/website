@@ -8,6 +8,9 @@ tags:
 title: "Alain van Hoof - Kubernetes from Scratch, The Hard Way"
 speakers:
 - alain-van-hoof
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-05-21-vj24/Zaal-1/NLUUG-VJ24-AlainVanHoof-KubernetesFromScratch.mkv
 ---
 
 ## Abstract
