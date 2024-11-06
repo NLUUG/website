@@ -1,0 +1,18 @@
+{
+  "id": "fred-van-galen",
+  "name": "Fred van Galen",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/organisatie/personen/fred-van-galen/",
+  "thumbnail": "/afbeeldingen/personen/fred-van-galen-200x200.jpg",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/fred-van-galen-3b31a032/",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  }
+}

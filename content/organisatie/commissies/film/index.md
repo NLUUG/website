@@ -12,6 +12,7 @@ slug:
 title: "Filmteam"
 type: team
 team_members:
+- fred-van-galen
 - jeroen-jonkman
 - luc-nieland
 - mark-janssen
@@ -19,6 +20,6 @@ team_members:
 - reinoud-van-leeuwen
 ---
 
-Het filmteam is vooral actief op de conferentie. Bij voldoende capaciteit wordt in alle zalen gefilmd.
+Het filmteam is vooral actief op de conferentie, waarbij zij opnames en foto's maken van het evenement. Bij voldoende capaciteit wordt in alle zalen gefilmd.
 
 

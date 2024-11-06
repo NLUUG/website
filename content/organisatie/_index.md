@@ -13,6 +13,7 @@ active_members:
 - bjorn-wijers
 - debbie-reinders
 - eelco-mulder
+- fred-van-galen
 - hans-van-de-looy
 - jan-christiaan-van-winkel
 - jan-sepp
