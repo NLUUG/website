@@ -11,11 +11,9 @@ show_child_pages: true
 active_members:
 - aschwin-marsman
 - bjorn-wijers
-- brenda-langedijk
 - debbie-reinders
-- fred-donck
+- eelco-mulder
 - hans-van-de-looy
-- hans-van-zijst
 - jan-christiaan-van-winkel
 - jan-sepp
 - jeroen-jonkman
@@ -24,13 +22,13 @@ active_members:
 - mark-janssen
 - michael-boelen
 - mike-hulsman
-- mischa-peters
 - nick-cohn
 - patrick-reijnen
 - reinoud-van-leeuwen
 - rogier-spoor
 - ronny-lam
 - rudi-van-drunen
+- toshaan-bharvani
 - willem-toorop
 ---
 
