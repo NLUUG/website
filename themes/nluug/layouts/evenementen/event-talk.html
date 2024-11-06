@@ -25,7 +25,13 @@
     {{ end }}
   {{ end }}
 
-  {{ if .Params.recording.url }}
+  {{ if .Params.recording.embed.link }}
+      <h2>Opname</h2>
+      <video width="640" controls>
+        <source src="{{ .Params.recording.embed.link }}">
+      </video>
+      <p>Directe link naar video indien video niet of niet volledig werkt (b.v. geen audio): <a href="{{ .Params.recording.embed.link }}">{{ .Title }}</a></p>
+  {{ else if .Params.recording.url }}
     <h2>Opname</h2>
     {{ if .Params.recording.platform }}
       {{ if eq .Params.recording.platform "youtube" }}{{ partial "show-svg-icon.html" (dict "context" . "icon" "youtube" "alt" "YouTube-icoon") }}{{ end }}
