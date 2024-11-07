@@ -24,9 +24,9 @@
         {{ end }}
     {{ end }}
     {{ $cfp_open := .Scratch.Get "cfp_open" }}
+
     {{ if $cfp_open }}
         <h2>Call for Proposals</h2>
-        <p>Een goed programma is afhankelijk van sprekers met interessante lezingen. Wil je bijdragen aan dit programma, dan verwelkomen we graag je inzending(en)!</p>
         {{ if .Params.event_cfp_start_date }}
             {{ $event_cfp_start_date := .Params.event_cfp_start_date | time }}
             {{ if le now $event_cfp_start_date }}
@@ -36,12 +36,16 @@
                 {{ if ge now $event_cfp_close_date }}
                     <p>De Call for Proposals is gesloten na {{ $event_cfp_close_date }}. Mocht je toch nog een inzending hebben, neem dan contact op met de programmacommissie.</p>
                 {{ else }}
-                    <a href="{{ .Params.event_cfp_link }}" class="button">Naar CFP</a>
+		<p>CFP status: <strong>Open</strong></p>
                 {{ end }}
             {{ end }}
         {{ end }}
+        <p>Een goed programma is afhankelijk van sprekers met interessante lezingen. Wil je bijdragen aan dit programma, dan verwelkomen we graag je inzending(en)!</p>
+	<p>Wil je graag een bepaalde spreker zien? Contacteer onze <a href="{{ relref . "organisatie/commissies/pc/index.md" }}">programmacommissie</a>.</p>
+	<p>Heb je zelf een leuke presentatie in gedachten? Dien dan een voorstel in!</p>
+	<p><strong>Leestip</strong>: <a href="{{ relref . "evenementen/nluug/cfp/index.md" }}">tips voor sprekers en onze werkwijze</a>.</p>
+	<a class="btn btn-cta" href="{{ if .Params.event_cfp_link }}{{ .Params.event_cfp_link }}{{ else }}https://cfp.nluug.nl/{{ end }}" rel="nofollow noopener">Voorstel indienen</a>
     {{ end }}
-
 
     <h2>Locatie, datum en tijden</h2>
     <div class="highlight-box highlight-box-nluug">
@@ -120,14 +124,6 @@
 
   <h2>Programma</h2>
 
-  {{ $cfp_open := .Scratch.Get "cfp_open" }}
-  {{ if $cfp_open }}
-    <p>De CFP is geopend!</p>
-    <p>Wil je graag een bepaalde spreker zien? Contacteer onze <a href="{{ relref . "organisatie/commissies/pc/index.md" }}">programmacommissie</a>.</p>
-    <p>Heb je zelf een leuke presentatie in gedachten? Dien dan een voorstel in!</p>
-    <a class="btn btn-cta" href="{{ if .Params.event_cfp_link }}{{ .Params.event_cfp_link }}{{ else }}https://cfp.nluug.nl/{{ end }}" rel="nofollow noopener">Voorstel indienen</a>
-    <p><strong>Leestip</strong>: <a href="{{ relref . "evenementen/nluug/cfp/index.md" }}">tips voor sprekers en onze werkwijze</a>.</p>
-  {{ end }}
   {{ $.Scratch.Set "counter" 0 }}
   {{ with .Params.event_schedule }}
     {{ if ne .hidden true }}
