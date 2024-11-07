@@ -1,0 +1,16 @@
+{{ $context := . }}
+{{ $id := .Get "id" }}
+{{ with (index $.Site.Data.call_to_actions $id) }}
+{{ $language := $.Site.Language.Lang }}
+    <div>
+	{{ $string := "Tekst" }}
+	{{- range $key, $value := .items -}}
+	    {{ if eq $value.language $language }}
+	        {{ $string = $value.text }}
+                {{ if .page }}<a class="button" href="{{ relref $context .page }}">{{ end }}
+			<span>{{ $string }}</span>
+                {{ if .page }}</a>{{ end }}
+	    {{ end }}
+	{{ end }}
+    </div>
+{{ end }}

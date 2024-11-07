@@ -1,0 +1,9 @@
+id: lid-worden
+items:
+  - item: en
+    language: en
+    text: Become a member!
+  - item: nl
+    language: nl
+    text: Word lid!
+    page: "lidmaatschap/aanmelden/index.md"
