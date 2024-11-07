@@ -1,0 +1,16 @@
+id: 2025-05-12-RIPE-90
+date_start: 2025-05-12
+date_end: 2022-05-16
+event_address:
+  city: Lisbon
+  country: PT
+event_start: 2025-05-12T09:00:00+0100
+event_end: 2025-05-16T18:00:00+0100
+event_timezone: Europe/Lisbon
+event_attendance_mode: offline
+name: RIPE 90
+event_organizer: Réseaux IP Européens
+event_organizer_url: https://ripe.net/
+event_url: https://ripe90.ripe.net/
+event_free_access: false
+event_is_online: true
