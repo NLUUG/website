@@ -42,4 +42,4 @@ event_schedule:
 ---
 
 
-De programmacommissie opent binnenkort de nieuwe Call for Proposals. Heb jij een leuk idee of inzending? We horen het graag!
+De Call for Proposal is geopend sinds 6 november. Heb jij een leuk idee of inzending? We horen het graag!
