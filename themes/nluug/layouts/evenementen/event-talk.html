@@ -27,11 +27,11 @@
 
   {{ if .Params.recording.embed.link }}
       <h2>Opname</h2>
-      <video width="100%" controls>
+      <video width="100%" controls crossorigin="anonymous">
 	  <source src="{{ .Params.recording.embed.link }}"{{ with .Params.recording.embed.type }} type="{{ . }}"{{ else }} type="video/mp4"{{ end }}>
 	  {{ if .Params.recording.embed.subtitles }}
 	  {{ range $key, $value := .Params.recording.embed.subtitles }}
-	  <track label="{{ .label }}" kind="subtitles" srclang="{{ .language }}" src="{{ .link }}">
+	  <track{{ if eq $key 0 }} default{{ end }} label="{{ .label }}" kind="subtitles" srclang="{{ .language }}" src="{{ .link }}">
 	  {{ end }}
 	  {{ end }}
       </video>
