@@ -8,6 +8,9 @@ tags:
 title: "Marit Hoefsloot - Samen een open mobiel ecosysteem voor publieke organisaties ontwerpen"
 speakers:
 - marit-hoefsloot
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-MaritHoefsloot-SamenEenOpenMobielEcosysteemOntwerpen.mkv
 ---
 
 ## Abstract

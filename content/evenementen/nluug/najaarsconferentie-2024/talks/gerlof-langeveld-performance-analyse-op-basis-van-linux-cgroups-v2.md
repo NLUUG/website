@@ -8,6 +8,9 @@ tags:
 title: "Gerlof Langeveld - Performance analyse op basis van Linux cgroups (v2)"
 speakers:
 - gerlof-langeveld
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-GerlofLangeveld-PerformanceAnalyseMetCGroups.mkv
 ---
 
 ## Abstract

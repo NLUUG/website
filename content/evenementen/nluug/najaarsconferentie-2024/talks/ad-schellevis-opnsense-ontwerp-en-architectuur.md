@@ -8,6 +8,9 @@ tags:
 title: "Ad Schellevis - OPNsense - ontwerp en architectuur"
 speakers:
 - ad-schellevis
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-AdSchellevis-OPNSense.mkv
 ---
 
 ## Abstract
