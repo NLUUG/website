@@ -27,7 +27,9 @@
 
   {{ if .Params.recording.embed.link }}
       <h2>Opname</h2>
-      <video width="640" controls src="{{ .Params.recording.embed.link }}"{{ with .Params.recording.embed.type }} type="{{ . }}"{{ end }}></video>
+      <video width="100%" controls>
+	  <source src="{{ .Params.recording.embed.link }}"{{ with .Params.recording.embed.type }} type="{{ . }}"{{ else }} type="video/mp4"{{ end }}>
+      </video>
       <p>Directe link naar video indien video niet of niet volledig werkt (b.v. geen audio): <a href="{{ .Params.recording.embed.link }}">{{ .Title }}</a></p>
   {{ else if .Params.recording.url }}
     <h2>Opname</h2>
