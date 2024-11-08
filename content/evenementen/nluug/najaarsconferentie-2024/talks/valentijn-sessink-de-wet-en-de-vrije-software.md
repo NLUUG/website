@@ -8,6 +8,13 @@ tags:
 title: "Valentijn Sessink - De wet en de vrije software"
 speakers:
 - valentijn-sessink
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-ValentijnSessink-DeWetEnVrijeSoftware.mkv
+    subtitles:
+      - language: nl
+        label: Dutch
+        link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-ValentijnSessink-DeWetEnVrijeSoftware.srt
 ---
 
 ## Abstract

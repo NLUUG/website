@@ -8,6 +8,10 @@ tags:
 title: "Marcel Kornegoor - Course as Code 2.0: what we have learned and done since Nov 2022"
 speakers:
 - marcel-kornegoor
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-MarcelKornegoor-CourseAsCode2.mkv
+    subtitles: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-MarcelKornegoor-CourseAsCode2.srt
 ---
 
 ## Abstract

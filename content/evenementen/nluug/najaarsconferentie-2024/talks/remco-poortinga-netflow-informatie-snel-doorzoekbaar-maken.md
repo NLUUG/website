@@ -8,6 +8,9 @@ tags:
 title: "Remco Poortinga - Netflow-informatie snel doorzoekbaar maken"
 speakers:
 - remco-poortinga
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-RemcoPoortinga-NetflowInformatieDoorzoekbaarMaken.mkv
 ---
 
 ## Abstract

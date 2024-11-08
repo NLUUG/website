@@ -9,6 +9,9 @@ title: "Arjen Lentz and Tobias Eggendorfer - Snakes in the grass! How to improve
 speakers:
 - arjen-lentz
 - tobias-eggendorfer
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-ArjenLentzTobiasEggendorfer-SnakesInTheGrass.mkv
 ---
 
 ## Abstract

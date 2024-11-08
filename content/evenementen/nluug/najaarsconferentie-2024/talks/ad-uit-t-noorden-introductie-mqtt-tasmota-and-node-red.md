@@ -8,6 +8,9 @@ tags:
 title: "Ad uit 't Noorden - Introductie MQTT, Tasmota & Node-RED"
 speakers:
 - ad-uit-t-noorden
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-AdUitNoorden-IntroductieMQTT.mkv
 ---
 
 ## Abstract

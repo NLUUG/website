@@ -8,6 +8,9 @@ tags:
 title: "Eirik Øverby - FreeBSD and the absurdities of security compliance"
 speakers:
 - eirik-overby
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-Eirik%c3%98verby-FreeBSDAndTheAbsurditiesOfSecurityCompliance.mkv
 ---
 
 ## Abstract

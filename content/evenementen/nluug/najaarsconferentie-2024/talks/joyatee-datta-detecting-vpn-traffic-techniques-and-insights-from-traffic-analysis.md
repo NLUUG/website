@@ -8,6 +8,9 @@ tags:
 title: "Joyatee Datta - Detecting VPN Traffic: Techniques and Insights from Traffic Analysis"
 speakers:
 - joyatee-datta
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-JoyateeDatta-DetectingVPNTraffic.mkv
 ---
 
 ## Abstract

@@ -8,6 +8,9 @@ tags:
 title: "Rogier Spoor - The Zero-trust hoax"
 speakers:
 - rogier-spoor
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-RogierSpoor-TheZeroTrustHoax.mkv
 ---
 
 ## Abstract
