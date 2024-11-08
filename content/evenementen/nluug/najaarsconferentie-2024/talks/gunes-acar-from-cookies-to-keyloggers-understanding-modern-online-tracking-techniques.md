@@ -8,6 +8,10 @@ tags:
 title: "Gunes Acar - From Cookies to Keyloggers: Understanding Modern Online Tracking Techniques"
 speakers:
 - gunes-acar
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/preprod/opening.mp4
+    type: "video/mp4"
 ---
 
 ## Abstract
