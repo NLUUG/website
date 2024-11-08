@@ -4,7 +4,7 @@
 
   {{ if gt (len (where .Site.RegularPages "Section" "nieuws")) 0 }}
     <section>
-      <h2>Laatste nieuws</h2>
+      <h2>{{ i18n "header_latest_news" | default "Laatste nieuws" }}</h2>
       <ul class="list">
         {{ range (first 5 (where .Site.RegularPages "Section" "nieuws").ByDate.Reverse) }}
           <li>
@@ -20,7 +20,7 @@
   <section>
     {{ $upcoming_events := sort .Site.Data.evenementen.kalender "date_start" "asc" }}
 
-    <h2>Aankomende evenementen</h2>
+    <h2>{{ i18n "header_upcoming_events" | default "Aankomende evenementen" }}</h2>
     <div class="three-column-grid">
     {{ range $upcoming_events }}
       {{ $date_start := .date_start | time.Format "2006-01-02" }}
@@ -45,7 +45,7 @@
       {{ end }}
     {{ end }}
     </div>
-    <p>Naast de door ons georganiseerde evenementen staat er meer op de agenda.</p>
+    <p>{{ i18n "sentence_more_events_planned" | default "Naast de door ons georganiseerde evenementen staat er meer op de agenda" }}.</p>
     <ul>
       {{ range first 10 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
       <li><time class="time" datetime="{{ .date_start | dateFormat "2006-01-02" }}">{{ .date_start | dateFormat "02-01-2006" }}</time> - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>

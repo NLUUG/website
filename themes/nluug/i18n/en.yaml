@@ -1,0 +1,6 @@
+- id: header_latest_news
+  translation: "Latest news"
+- id: header_upcoming_events
+  translation: "Upcoming events"
+- id: sentence_more_events_planned
+  translation: "Besides these events by us, there are additional events planned in the near future"
