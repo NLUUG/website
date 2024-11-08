@@ -29,6 +29,11 @@
       <h2>Opname</h2>
       <video width="100%" controls>
 	  <source src="{{ .Params.recording.embed.link }}"{{ with .Params.recording.embed.type }} type="{{ . }}"{{ else }} type="video/mp4"{{ end }}>
+	  {{ if .Params.recording.embed.subtitles }}
+	  {{ range $key, $value := .Params.recording.embed.subtitles }}
+	  <track label="{{ .label }}" kind="subtitles" srclang="{{ .language }}" src="{{ .link }}">
+	  {{ end }}
+	  {{ end }}
       </video>
       <p>Directe link naar video indien video niet of niet volledig werkt (b.v. geen audio): <a href="{{ .Params.recording.embed.link }}">{{ .Title }}</a></p>
   {{ else if .Params.recording.url }}
