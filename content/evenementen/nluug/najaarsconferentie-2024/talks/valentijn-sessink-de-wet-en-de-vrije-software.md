@@ -10,11 +10,11 @@ speakers:
 - valentijn-sessink
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-ValentijnSessink-DeWetEnVrijeSoftware.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/preprod/NLUUG-NJ24-AdUitNoorden-IntroductieMQTT.mp4
     subtitles:
-      - language: nl
-        label: Dutch
-        link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-ValentijnSessink-DeWetEnVrijeSoftware.srt
+    - language: en
+      label: English
+      link: /evenementen/nluug/najaarsconferentie-2024/subtitles/subtitles_marcel-kornegoor-course-as-code-20-what-we-have-learned-and-done-since-nov-2022_en.srt
 ---
 
 ## Abstract

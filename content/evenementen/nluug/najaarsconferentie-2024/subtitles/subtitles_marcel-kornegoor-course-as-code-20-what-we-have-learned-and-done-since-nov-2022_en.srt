@@ -1,0 +1,5012 @@
+1
+00:00:00,270 --> 00:00:04,650
+the
+
+2
+00:00:08,700 --> 00:00:12,030
+welcome i will start english because marshall
+
+3
+00:00:12,090 --> 00:00:14,490
+wants to continue on english don't know
+
+4
+00:00:14,490 --> 00:00:15,660
+what i will try to
+
+5
+00:00:19,350 --> 00:00:21,990
+and abroad to present marshal because
+
+6
+00:00:23,340 --> 00:00:25,470
+you can eighty have a very long
+
+7
+00:00:25,470 --> 00:00:28,170
+and warm relationship and we will continue
+
+8
+00:00:28,170 --> 00:00:30,240
+on this boss and i am very
+
+9
+00:00:30,240 --> 00:00:31,110
+interested in
+
+10
+00:00:32,760 --> 00:00:34,380
+yeah well in their stock
+
+11
+00:00:35,520 --> 00:00:39,055
+to or any non dutch speakers otherwise
+
+12
+00:00:39,060 --> 00:00:40,170
+it can be in dutch with i
+
+13
+00:00:40,170 --> 00:00:43,036
+guess alexandre you can understand it or
+
+14
+00:00:43,063 --> 00:00:43,560
+totally does
+
+15
+00:00:44,910 --> 00:00:47,010
+beth so-so if if if there are
+
+16
+00:00:47,070 --> 00:00:48,600
+questions in dutch it it's fine but
+
+17
+00:00:48,630 --> 00:00:49,590
+i will i will do it in
+
+18
+00:00:49,590 --> 00:00:51,210
+english showa welcome all
+
+19
+00:00:52,530 --> 00:00:54,510
+yes today is about a cautious coast
+
+20
+00:00:54,690 --> 00:00:58,920
+two point oh and it's extra assured
+
+21
+00:00:58,920 --> 00:01:01,170
+of a second episode of the talk
+
+22
+00:01:01,170 --> 00:01:03,420
+i held two years ago so it's
+
+23
+00:01:03,420 --> 00:01:04,710
+a bit of a stepchild between then
+
+24
+00:01:04,710 --> 00:01:05,430
+and now
+
+25
+00:01:07,800 --> 00:01:09,390
+this assert this is me i work
+
+26
+00:01:09,390 --> 00:01:11,400
+for eighty computing i'm going to go
+
+27
+00:01:11,400 --> 00:01:14,220
+owners and director of the company and
+
+28
+00:01:14,460 --> 00:01:15,990
+in the past six years i have
+
+29
+00:01:15,990 --> 00:01:17,940
+transformed from a normal guy to an
+
+30
+00:01:17,940 --> 00:01:20,970
+absurd nerd so it's a bit more
+
+31
+00:01:20,970 --> 00:01:22,890
+technical than it used to be before
+
+32
+00:01:23,220 --> 00:01:24,420
+but i have a lot of fun
+
+33
+00:01:24,540 --> 00:01:26,100
+working at a company and working together
+
+34
+00:01:26,100 --> 00:01:26,640
+with a great team
+
+35
+00:01:27,000 --> 00:01:29,520
+so yeah a bit about me and
+
+36
+00:01:31,500 --> 00:01:33,660
+about eighty computing we were founded back
+
+37
+00:01:33,660 --> 00:01:35,670
+in nineteen eighty five the founders actually
+
+38
+00:01:35,670 --> 00:01:37,920
+here in the in the room and
+
+39
+00:01:38,190 --> 00:01:39,450
+it's now part of what's called to
+
+40
+00:01:39,810 --> 00:01:41,070
+their group which is a group of
+
+41
+00:01:41,250 --> 00:01:43,110
+trading providing companies
+
+42
+00:01:44,520 --> 00:01:46,470
+we provide training as well and also
+
+43
+00:01:46,470 --> 00:01:49,350
+consultancy and we do only open source
+
+44
+00:01:49,560 --> 00:01:51,930
+technology so a linux and everything above
+
+45
+00:01:51,990 --> 00:01:55,590
+which evolves infrastructure as code containerization etc
+
+46
+00:01:56,100 --> 00:01:58,620
+so we have a strong focus on
+
+47
+00:01:58,620 --> 00:02:01,710
+devils and bathroom engineering and this is
+
+48
+00:02:01,710 --> 00:02:03,000
+some of the tools we have for
+
+49
+00:02:03,720 --> 00:02:04,200
+expertise
+
+50
+00:02:05,340 --> 00:02:07,260
+so we also developed some some learning
+
+51
+00:02:07,440 --> 00:02:10,110
+paths which are visible at our booth
+
+52
+00:02:10,170 --> 00:02:11,640
+so if you like it please drop
+
+53
+00:02:11,640 --> 00:02:13,440
+by and this is this is what
+
+54
+00:02:13,440 --> 00:02:16,050
+we do and what our core businesses
+
+55
+00:02:16,470 --> 00:02:17,910
+and this is also the reason why
+
+56
+00:02:17,910 --> 00:02:20,160
+i'm here today because the way we
+
+57
+00:02:20,160 --> 00:02:22,860
+develop our training courses has changed quite
+
+58
+00:02:22,860 --> 00:02:24,030
+a bit over the last couple of
+
+59
+00:02:24,030 --> 00:02:24,330
+years
+
+60
+00:02:24,750 --> 00:02:26,790
+and i would like to take you
+
+61
+00:02:26,790 --> 00:02:28,500
+along a bit of a journey how
+
+62
+00:02:28,500 --> 00:02:30,930
+we got to the point we are
+
+63
+00:02:30,930 --> 00:02:31,410
+today
+
+64
+00:02:33,090 --> 00:02:35,190
+so to get started we will travel
+
+65
+00:02:35,190 --> 00:02:37,470
+back in time because it's now twenty
+
+66
+00:02:37,470 --> 00:02:39,720
+twenty four and i was here two
+
+67
+00:02:39,720 --> 00:02:41,790
+years ago in twenty twenty two and
+
+68
+00:02:41,790 --> 00:02:43,080
+one of the slides i showed back
+
+69
+00:02:43,080 --> 00:02:46,650
+then was this one and this was
+
+70
+00:02:46,650 --> 00:02:49,080
+basically the id we had back then
+
+71
+00:02:49,140 --> 00:02:50,820
+so we said well if we have
+
+72
+00:02:50,820 --> 00:02:52,800
+a training course why why
+
+73
+00:02:52,800 --> 00:02:54,030
+don't we see it as being an
+
+74
+00:02:54,030 --> 00:02:56,460
+application which is written in some form
+
+75
+00:02:56,460 --> 00:02:59,100
+of goat and with some automation like
+
+76
+00:02:59,100 --> 00:03:01,260
+she actually pipelines we can deploy that
+
+77
+00:03:01,260 --> 00:03:03,720
+goat and thus the training inside an
+
+78
+00:03:03,720 --> 00:03:07,380
+online learning platform and this id was
+
+79
+00:03:08,580 --> 00:03:09,930
+filled in with some tools so we
+
+80
+00:03:09,930 --> 00:03:11,100
+said well we are going to write
+
+81
+00:03:11,130 --> 00:03:13,770
+to the courses in restructured text we're
+
+82
+00:03:13,770 --> 00:03:16,560
+going to build a container that's transforming
+
+83
+00:03:16,650 --> 00:03:19,110
+the source code into what's called artifacts
+
+84
+00:03:19,170 --> 00:03:20,280
+so it can be a pdf it
+
+85
+00:03:20,280 --> 00:03:22,620
+can be html or it can be
+
+86
+00:03:22,710 --> 00:03:25,470
+an e-learning package which there are two
+
+87
+00:03:25,470 --> 00:03:27,330
+main open standards for which is eight
+
+88
+00:03:27,330 --> 00:03:28,560
+five b and
+
+89
+00:03:28,560 --> 00:03:31,110
+scorm they both are some kind of
+
+90
+00:03:31,230 --> 00:03:35,130
+archive type of package which contains all
+
+91
+00:03:35,130 --> 00:03:37,860
+the relevant content for delivering an e-learning
+
+92
+00:03:38,850 --> 00:03:40,050
+and back then we had the idea
+
+93
+00:03:40,170 --> 00:03:42,120
+that we would use moodle which is
+
+94
+00:03:42,120 --> 00:03:44,400
+an open source learning management system or
+
+95
+00:03:44,400 --> 00:03:47,400
+lms and use that as a as
+
+96
+00:03:47,400 --> 00:03:48,720
+a provider for
+
+97
+00:03:48,840 --> 00:03:51,390
+one or many other lms us to
+
+98
+00:03:51,480 --> 00:03:53,640
+actually display the course content to the
+
+99
+00:03:53,910 --> 00:03:54,900
+user or the trainee
+
+100
+00:03:55,980 --> 00:03:57,210
+and the reason to use a new
+
+101
+00:03:57,210 --> 00:04:00,480
+spring which a proprietary lms is because
+
+102
+00:04:00,480 --> 00:04:02,640
+we already used it back then in
+
+103
+00:04:02,640 --> 00:04:04,680
+our group of training companies so it
+
+104
+00:04:04,680 --> 00:04:06,390
+made sense to say well let's use
+
+105
+00:04:06,390 --> 00:04:08,310
+what we have and build something before
+
+106
+00:04:08,310 --> 00:04:10,680
+it to actually automate it so this
+
+107
+00:04:10,680 --> 00:04:11,880
+was the idea back then and we
+
+108
+00:04:11,880 --> 00:04:14,490
+had a bit of this income stopped
+
+109
+00:04:14,490 --> 00:04:16,080
+working so we had to restructure that
+
+110
+00:04:16,200 --> 00:04:18,026
+parts are working and some get applied
+
+111
+00:04:18,026 --> 00:04:20,430
+pipelines but that was about it so
+
+112
+00:04:20,700 --> 00:04:23,400
+there was nothing functioning on that date
+
+113
+00:04:23,850 --> 00:04:24,240
+but
+
+114
+00:04:27,360 --> 00:04:29,010
+we had a goal and that is
+
+115
+00:04:29,070 --> 00:04:30,840
+that we wanted to change the way
+
+116
+00:04:30,840 --> 00:04:33,570
+we use hands on training laps during
+
+117
+00:04:33,570 --> 00:04:35,280
+our courses because that's one of the
+
+118
+00:04:35,280 --> 00:04:36,990
+big parts of our training that you
+
+119
+00:04:36,990 --> 00:04:39,270
+actually do some exercises in the hands
+
+120
+00:04:39,270 --> 00:04:40,740
+on level five minutes to get acquainted
+
+121
+00:04:40,740 --> 00:04:41,490
+with technology
+
+122
+00:04:43,020 --> 00:04:45,240
+then since gulf times there is a
+
+123
+00:04:45,240 --> 00:04:47,400
+virtual classroom so if we have a
+
+124
+00:04:47,400 --> 00:04:49,410
+classroom training there's not only a physical
+
+125
+00:04:49,740 --> 00:04:52,740
+an option to attend but you can
+
+126
+00:04:52,740 --> 00:04:55,680
+also join online and the third is
+
+127
+00:04:55,680 --> 00:04:57,120
+that we have the course content as
+
+128
+00:04:57,120 --> 00:04:58,440
+i just mentioned that was like the
+
+129
+00:04:58,440 --> 00:05:00,952
+first starter can we automate the way
+
+130
+00:05:00,960 --> 00:05:02,640
+we produce the course content and deliberate
+
+131
+00:05:02,880 --> 00:05:03,300
+part way
+
+132
+00:05:04,740 --> 00:05:06,540
+and the way we do it today
+
+133
+00:05:06,750 --> 00:05:08,910
+is that we from eti computing have
+
+134
+00:05:08,910 --> 00:05:11,370
+built our own custom cloud lips so
+
+135
+00:05:11,520 --> 00:05:13,830
+it's based on virtual machines which are
+
+136
+00:05:13,830 --> 00:05:16,470
+deployed with terraform in google cloud and
+
+137
+00:05:16,470 --> 00:05:18,120
+if you join a training of course
+
+138
+00:05:18,180 --> 00:05:19,680
+you're using the leps from a from
+
+139
+00:05:19,680 --> 00:05:22,380
+a browser and it's it's working pretty
+
+140
+00:05:22,380 --> 00:05:24,210
+fine but it has some drawbacks when
+
+141
+00:05:24,210 --> 00:05:24,480
+it comes
+
+142
+00:05:24,510 --> 00:05:27,510
+to speed of deployment and flexibility
+
+143
+00:05:29,430 --> 00:05:32,130
+for the federal classroom we are up
+
+144
+00:05:32,130 --> 00:05:34,590
+to date use go to trading which
+
+145
+00:05:34,590 --> 00:05:37,350
+is also a proprietary solution it works
+
+146
+00:05:37,410 --> 00:05:39,840
+perfectly fine but it's a separate system
+
+147
+00:05:40,980 --> 00:05:43,320
+and for the core software as mentioned
+
+148
+00:05:43,454 --> 00:05:45,210
+of course contents it's a new spring
+
+149
+00:05:45,270 --> 00:05:48,060
+which is used to deliver the workbook
+
+150
+00:05:48,060 --> 00:05:48,720
+for the industry
+
+151
+00:05:48,780 --> 00:05:49,620
+concerned nowadays
+
+152
+00:05:51,720 --> 00:05:53,760
+and the hottest thing for attendees is
+
+153
+00:05:53,760 --> 00:05:55,830
+this all these three tools have their
+
+154
+00:05:55,830 --> 00:05:57,810
+own credentials so if you want to
+
+155
+00:05:57,810 --> 00:05:59,220
+lose the lap you will have username
+
+156
+00:05:59,220 --> 00:06:00,930
+and password if you want to use
+
+157
+00:06:01,110 --> 00:06:02,880
+the online session you will have the
+
+158
+00:06:02,880 --> 00:06:04,380
+online classroom you will have username and
+
+159
+00:06:04,380 --> 00:06:06,240
+password and if you're going to use
+
+160
+00:06:06,240 --> 00:06:07,560
+the of course content that's is a
+
+161
+00:06:07,560 --> 00:06:09,240
+separate system with a separate username and
+
+162
+00:06:09,240 --> 00:06:10,800
+password you can in
+
+163
+00:06:10,800 --> 00:06:12,960
+imagine that there are some people less
+
+164
+00:06:13,140 --> 00:06:14,730
+chevy with this kind of stuff than
+
+165
+00:06:14,730 --> 00:06:17,250
+others so it takes around thirty minutes
+
+166
+00:06:17,250 --> 00:06:18,600
+to get a classroom up and running
+
+167
+00:06:19,080 --> 00:06:21,180
+because somebody loses an email containing the
+
+168
+00:06:21,180 --> 00:06:22,979
+credentials or they do not understand which
+
+169
+00:06:22,979 --> 00:06:25,380
+system is what so that's a big
+
+170
+00:06:25,380 --> 00:06:27,270
+struggle for our our customers
+
+171
+00:06:29,670 --> 00:06:30,150
+so
+
+172
+00:06:31,830 --> 00:06:33,630
+and other trends why i'm here again
+
+173
+00:06:33,720 --> 00:06:36,240
+is that our customers say we don't
+
+174
+00:06:36,240 --> 00:06:39,180
+want classroom training only we want what's
+
+175
+00:06:39,180 --> 00:06:40,590
+called blended learning and that's why the
+
+176
+00:06:40,590 --> 00:06:42,990
+blender is here nobody knows exactly what
+
+177
+00:06:42,990 --> 00:06:45,060
+it is but everybody wants it and
+
+178
+00:06:45,150 --> 00:06:46,710
+you can see it as a mixture
+
+179
+00:06:46,710 --> 00:06:49,800
+of different types of learning methods so
+
+180
+00:06:49,800 --> 00:06:51,360
+it can be partly gloss
+
+181
+00:06:51,360 --> 00:06:53,580
+from training but also learning and maybe
+
+182
+00:06:53,580 --> 00:06:55,050
+also some training on the job or
+
+183
+00:06:55,620 --> 00:06:57,120
+something like that and the combination is
+
+184
+00:06:57,120 --> 00:06:59,730
+what's called blended learning and this means
+
+185
+00:06:59,730 --> 00:07:01,830
+that the the need for us to
+
+186
+00:07:01,830 --> 00:07:04,290
+automate and be more flexible has increased
+
+187
+00:07:04,290 --> 00:07:06,090
+because we see an increased demand for
+
+188
+00:07:06,090 --> 00:07:08,730
+customers to say i don't want classroom
+
+189
+00:07:08,730 --> 00:07:10,800
+training only i want a mixture but
+
+190
+00:07:10,830 --> 00:07:11,520
+i want your code
+
+191
+00:07:11,580 --> 00:07:13,350
+then because you will deliver great content
+
+192
+00:07:15,480 --> 00:07:17,250
+so we deliver have we now set
+
+193
+00:07:17,250 --> 00:07:19,020
+a new goal and the new goal
+
+194
+00:07:19,110 --> 00:07:21,840
+is that we combine the lips the
+
+195
+00:07:21,840 --> 00:07:23,940
+course content and the virtual classroom altogether
+
+196
+00:07:24,000 --> 00:07:26,100
+in one lms and as you can
+
+197
+00:07:26,100 --> 00:07:29,340
+see it's moodle so we are focusing
+
+198
+00:07:29,340 --> 00:07:31,350
+to make everything work in moodle which
+
+199
+00:07:31,350 --> 00:07:34,080
+is the open-source elements and i will
+
+200
+00:07:34,080 --> 00:07:34,530
+drop by
+
+201
+00:07:34,560 --> 00:07:36,780
+why we made this choice but in
+
+202
+00:07:36,780 --> 00:07:37,830
+the end for the customer it means
+
+203
+00:07:37,830 --> 00:07:39,270
+they will only receive one set of
+
+204
+00:07:39,270 --> 00:07:41,340
+credentials if you can log into moodle
+
+205
+00:07:41,400 --> 00:07:42,810
+you're good to go and everything else
+
+206
+00:07:42,870 --> 00:07:44,340
+is within the elements
+
+207
+00:07:47,130 --> 00:07:49,290
+and to get there we've come a
+
+208
+00:07:49,290 --> 00:07:52,470
+long way but also we've come pretty
+
+209
+00:07:52,470 --> 00:07:55,800
+far and this is a timeline of
+
+210
+00:07:55,800 --> 00:07:58,410
+what we had to endure between the
+
+211
+00:07:58,410 --> 00:07:59,970
+last time was here and now
+
+212
+00:08:01,260 --> 00:08:02,970
+so in january two thousand and twenty
+
+213
+00:08:02,970 --> 00:08:05,250
+three which was right after the presentation
+
+214
+00:08:05,550 --> 00:08:08,100
+we started working with a group of
+
+215
+00:08:08,100 --> 00:08:10,440
+four people on like the first iteration
+
+216
+00:08:10,440 --> 00:08:12,150
+of this id so we actually started
+
+217
+00:08:12,180 --> 00:08:15,360
+building and we used moodle esa as
+
+218
+00:08:15,360 --> 00:08:17,580
+our lms and together with a new
+
+219
+00:08:17,580 --> 00:08:19,860
+spring as mentioned and we still used
+
+220
+00:08:19,950 --> 00:08:21,300
+the vm labs
+
+221
+00:08:21,360 --> 00:08:24,270
+so they are used through apache guacamole
+
+222
+00:08:24,570 --> 00:08:27,600
+which enables it to make a streamer
+
+223
+00:08:27,630 --> 00:08:29,190
+for a full browser base to use
+
+224
+00:08:29,580 --> 00:08:31,470
+and that's how we could deliver a
+
+225
+00:08:31,470 --> 00:08:34,860
+desktop experience or a terminal emulator and
+
+226
+00:08:34,860 --> 00:08:36,330
+you can use the lecture that way
+
+227
+00:08:36,780 --> 00:08:39,390
+so this was the first try but
+
+228
+00:08:39,450 --> 00:08:41,190
+we bumped into quite a lot of
+
+229
+00:08:41,520 --> 00:08:44,940
+issues mainly on the new spring site
+
+230
+00:08:45,480 --> 00:08:47,730
+because the api i was not working
+
+231
+00:08:48,240 --> 00:08:50,250
+as we hoped so i talked to
+
+232
+00:08:50,250 --> 00:08:51,750
+the developers for new springs at bulk
+
+233
+00:08:51,780 --> 00:08:53,449
+we want a ph that have posted
+
+234
+00:08:53,449 --> 00:08:55,590
+requests so we can upload content automatically
+
+235
+00:08:55,590 --> 00:08:58,650
+and configure courses automatically it was all
+
+236
+00:08:58,680 --> 00:09:00,390
+impossible and they did not have it
+
+237
+00:09:00,390 --> 00:09:01,650
+on the roadmap because there was
+
+238
+00:09:01,710 --> 00:09:04,050
+for their situation no business case to
+
+239
+00:09:04,050 --> 00:09:05,940
+implemented because they say well you want
+
+240
+00:09:05,940 --> 00:09:07,590
+to develop your course content in our
+
+241
+00:09:07,590 --> 00:09:10,860
+platform that's our business model we said
+
+242
+00:09:10,860 --> 00:09:12,300
+well we're not going to do it
+
+243
+00:09:12,360 --> 00:09:14,550
+we want to have our own of
+
+244
+00:09:14,550 --> 00:09:16,680
+course development and we want your platform
+
+245
+00:09:16,680 --> 00:09:18,540
+just to play it out but not
+
+246
+00:09:18,540 --> 00:09:21,090
+to develop your platform so that was
+
+247
+00:09:21,180 --> 00:09:21,840
+quite a bitch
+
+248
+00:09:21,930 --> 00:09:23,700
+challenge to see can we work around
+
+249
+00:09:23,700 --> 00:09:25,320
+it and still use a new spring
+
+250
+00:09:25,890 --> 00:09:28,050
+but it turned out after two months
+
+251
+00:09:28,050 --> 00:09:29,940
+of trying that it was not really
+
+252
+00:09:29,940 --> 00:09:32,550
+feasible so we had quite a bit
+
+253
+00:09:32,550 --> 00:09:35,490
+of a disappointment because we could not
+
+254
+00:09:35,550 --> 00:09:36,960
+make it work because there was a
+
+255
+00:09:36,960 --> 00:09:39,091
+too little openness of the of the
+
+256
+00:09:39,091 --> 00:09:39,480
+apia
+
+257
+00:09:41,520 --> 00:09:42,360
+then in the summer
+
+258
+00:09:43,470 --> 00:09:44,970
+we struggled still a bit with it
+
+259
+00:09:45,150 --> 00:09:47,400
+so we had done some research on
+
+260
+00:09:47,580 --> 00:09:48,090
+additional
+
+261
+00:09:49,200 --> 00:09:51,540
+the looks on other lms if that
+
+262
+00:09:51,540 --> 00:09:53,580
+were available remarks you can we work
+
+263
+00:09:53,580 --> 00:09:56,580
+around it but we soon noticed noticed
+
+264
+00:09:56,640 --> 00:09:58,320
+that a lot of lms us have
+
+265
+00:09:58,320 --> 00:10:02,250
+this shame and proprietary limitation so there
+
+266
+00:10:02,250 --> 00:10:04,170
+are only a few lms us that
+
+267
+00:10:04,170 --> 00:10:05,850
+have an open ai which you can
+
+268
+00:10:05,850 --> 00:10:08,190
+create content cautious of course contend with
+
+269
+00:10:08,760 --> 00:10:09,360
+and one of them is
+
+270
+00:10:10,115 --> 00:10:12,695
+and it's maybe a bit of a
+
+271
+00:10:12,815 --> 00:10:14,345
+of a dragon of a product but
+
+272
+00:10:14,345 --> 00:10:16,415
+it can do everything you want to
+
+273
+00:10:16,415 --> 00:10:17,525
+do and it has a ph for
+
+274
+00:10:17,525 --> 00:10:19,655
+everything so it's really open and really
+
+275
+00:10:19,655 --> 00:10:22,175
+flexible so the big choice we made
+
+276
+00:10:22,175 --> 00:10:23,615
+in the summer so we're going to
+
+277
+00:10:23,615 --> 00:10:26,075
+drop into spring it's not the way
+
+278
+00:10:26,075 --> 00:10:28,055
+forward for us and we're not going
+
+279
+00:10:28,055 --> 00:10:29,705
+to use it and the fun thing
+
+280
+00:10:29,705 --> 00:10:29,915
+is
+
+281
+00:10:30,035 --> 00:10:31,984
+that's after we decided to drop a
+
+282
+00:10:31,984 --> 00:10:33,785
+new spring within two weeks we had
+
+283
+00:10:33,785 --> 00:10:36,335
+actually a running concept because now we
+
+284
+00:10:36,335 --> 00:10:37,895
+knew we were going to use moodle
+
+285
+00:10:37,955 --> 00:10:40,115
+and we can start to integrate some
+
+286
+00:10:40,115 --> 00:10:41,555
+other things because we do not need
+
+287
+00:10:41,555 --> 00:10:44,165
+to worry about another platform that's that's
+
+288
+00:10:44,165 --> 00:10:46,415
+going along with this also during the
+
+289
+00:10:46,415 --> 00:10:48,485
+same time we dropped the the old
+
+290
+00:10:48,485 --> 00:10:49,685
+fear-based laps
+
+291
+00:10:50,195 --> 00:10:51,755
+and we went to contain a base
+
+292
+00:10:51,755 --> 00:10:53,645
+left and we started using that's the
+
+293
+00:10:53,645 --> 00:10:56,615
+icon there google cloud run which is
+
+294
+00:10:56,615 --> 00:10:59,795
+their simplest container runtime mo service so
+
+295
+00:10:59,795 --> 00:11:02,435
+she can we use the same lap
+
+296
+00:11:02,435 --> 00:11:04,655
+concept and run electrical diner because the
+
+297
+00:11:04,655 --> 00:11:06,780
+startup time is way way better than
+
+298
+00:11:07,145 --> 00:11:09,755
+for vms and this way after summer
+
+299
+00:11:09,935 --> 00:11:10,355
+we had a
+
+300
+00:11:10,355 --> 00:11:12,395
+our first version life so we had
+
+301
+00:11:12,395 --> 00:11:14,675
+an lms with course content and with
+
+302
+00:11:14,885 --> 00:11:17,495
+lapsed at work container based animals integrated
+
+303
+00:11:17,495 --> 00:11:18,905
+so you can use the laps from
+
+304
+00:11:19,025 --> 00:11:21,785
+from moodle and with this this version
+
+305
+00:11:21,875 --> 00:11:23,855
+we actually shipped a pilot to a
+
+306
+00:11:23,855 --> 00:11:25,820
+customer and they did so much from
+
+307
+00:11:25,835 --> 00:11:28,475
+illinois we did and we're pretty satisfied
+
+308
+00:11:28,505 --> 00:11:30,515
+with the learning experience so we were
+
+309
+00:11:30,575 --> 00:11:34,025
+on the right track but we also
+
+310
+00:11:34,145 --> 00:11:37,205
+noticed that we had some limitations because
+
+311
+00:11:37,505 --> 00:11:39,845
+google cloud run is quite limited with
+
+312
+00:11:39,845 --> 00:11:40,685
+what you can do it in the
+
+313
+00:11:40,685 --> 00:11:43,715
+container so root privilege it's elevated extra
+
+314
+00:11:43,727 --> 00:11:46,505
+system the running services running containerized workloads
+
+315
+00:11:46,505 --> 00:11:48,485
+in the container it's all not supported
+
+316
+00:11:48,995 --> 00:11:50,526
+and that is what we need for
+
+317
+00:11:50,555 --> 00:11:50,675
+three
+
+318
+00:11:50,675 --> 00:11:52,415
+many quarters because we have a docker
+
+319
+00:11:52,685 --> 00:11:54,185
+of course and it will be quite
+
+320
+00:11:54,185 --> 00:11:56,135
+hard to use docker without a being
+
+321
+00:11:56,135 --> 00:11:56,975
+able to use docker
+
+322
+00:11:59,195 --> 00:12:01,445
+so that's why in january we did
+
+323
+00:12:01,505 --> 00:12:05,105
+another iteration another sprint of development and
+
+324
+00:12:05,465 --> 00:12:07,595
+we said well we're going to use
+
+325
+00:12:07,685 --> 00:12:10,025
+communities as a platform for our trading
+
+326
+00:12:10,025 --> 00:12:12,755
+laps and that means like a second
+
+327
+00:12:12,785 --> 00:12:15,725
+complete redesign of our functions but now
+
+328
+00:12:15,725 --> 00:12:17,795
+we had a good direction so we
+
+329
+00:12:17,795 --> 00:12:18,275
+had a lot of
+
+330
+00:12:18,305 --> 00:12:20,915
+experience in the meantime we knew moodle
+
+331
+00:12:20,915 --> 00:12:23,345
+back and forwards up to the source-code
+
+332
+00:12:23,375 --> 00:12:24,995
+we we understand how the system works
+
+333
+00:12:25,715 --> 00:12:27,905
+so we knew how to solve certain
+
+334
+00:12:27,905 --> 00:12:30,155
+problems and with cuban eddies which now
+
+335
+00:12:30,155 --> 00:12:32,135
+runs on an gk even in the
+
+336
+00:12:32,135 --> 00:12:33,875
+community scouts will we ever hosted kubernetes
+
+337
+00:12:33,875 --> 00:12:36,695
+cluster we can now run all kinds
+
+338
+00:12:36,695 --> 00:12:38,435
+of workloads based on on cuba
+
+339
+00:12:38,465 --> 00:12:40,985
+eddies which in a voss also nested
+
+340
+00:12:40,985 --> 00:12:41,915
+containers etc
+
+341
+00:12:44,345 --> 00:12:45,455
+and this means that we now have
+
+342
+00:12:45,845 --> 00:12:47,225
+version two point oh and that's why
+
+343
+00:12:47,225 --> 00:12:48,695
+i'm here again because we have had
+
+344
+00:12:48,695 --> 00:12:51,365
+some cool work who stuff and now
+
+345
+00:12:51,485 --> 00:12:52,655
+we can say well we nailed it
+
+346
+00:12:52,715 --> 00:12:54,905
+the the direction we have chosen is
+
+347
+00:12:55,115 --> 00:12:56,705
+the right one are we going forward
+
+348
+00:12:56,945 --> 00:12:57,995
+in this day in this direction
+
+349
+00:12:59,495 --> 00:13:01,115
+now you see a strange b that
+
+350
+00:13:01,115 --> 00:13:03,875
+comes up and that's part of a
+
+351
+00:13:04,628 --> 00:13:06,665
+of an ecosystem i will explain that
+
+352
+00:13:06,665 --> 00:13:08,285
+later on because that's a tool we
+
+353
+00:13:08,315 --> 00:13:10,475
+developed in-house to make this all work
+
+354
+00:13:11,855 --> 00:13:12,875
+so what does it look like
+
+355
+00:13:14,105 --> 00:13:18,455
+we actually built everything being a git
+
+356
+00:13:18,455 --> 00:13:20,484
+repo so we use git lab as
+
+357
+00:13:20,495 --> 00:13:24,455
+an git repository and in the git
+
+358
+00:13:24,455 --> 00:13:27,305
+leper environment for every training course there
+
+359
+00:13:27,305 --> 00:13:30,935
+is a repository and as repository contains
+
+360
+00:13:30,995 --> 00:13:32,645
+everything that's needed for a training course
+
+361
+00:13:33,275 --> 00:13:34,115
+so that means ever
+
+362
+00:13:34,115 --> 00:13:35,945
+the thing is there for the workbook
+
+363
+00:13:35,945 --> 00:13:37,415
+for the exercises but also for the
+
+364
+00:13:37,415 --> 00:13:39,895
+lips and with a push towards the
+
+365
+00:13:39,895 --> 00:13:41,977
+the repo a pipeline is triggered and
+
+366
+00:13:41,977 --> 00:13:43,775
+as will deploy the lips we deploy
+
+367
+00:13:44,045 --> 00:13:47,165
+the hiv packages to moodle so it's
+
+368
+00:13:47,165 --> 00:13:49,325
+all in one repository it's all code-based
+
+369
+00:13:49,325 --> 00:13:51,785
+so it's truly cautious growth and i
+
+370
+00:13:51,790 --> 00:13:53,705
+will hopefully have a working demo on
+
+371
+00:13:53,705 --> 00:13:54,245
+how it's all
+
+372
+00:13:54,275 --> 00:13:54,755
+coconuts
+
+373
+00:13:57,695 --> 00:14:00,065
+so as mentioned this does not work
+
+374
+00:14:00,095 --> 00:14:02,105
+out of the box so we do
+
+375
+00:14:02,285 --> 00:14:04,055
+from the start had to division that
+
+376
+00:14:04,085 --> 00:14:05,015
+if there is a two on the
+
+377
+00:14:05,015 --> 00:14:06,815
+market available we will use it and
+
+378
+00:14:06,815 --> 00:14:08,045
+we're not going to develop it on
+
+379
+00:14:08,045 --> 00:14:09,635
+our own but in the end you'll
+
+380
+00:14:09,635 --> 00:14:11,645
+end up developing on your own so
+
+381
+00:14:11,795 --> 00:14:13,745
+that's what we did and we have
+
+382
+00:14:14,105 --> 00:14:15,965
+created three tools three separate tools
+
+383
+00:14:16,385 --> 00:14:18,305
+the first one to show scottish then
+
+384
+00:14:18,305 --> 00:14:20,795
+we have the sphinx and proctor which
+
+385
+00:14:20,795 --> 00:14:22,355
+is to beat at you so sure
+
+386
+00:14:22,355 --> 00:14:22,715
+before
+
+387
+00:14:23,885 --> 00:14:25,535
+so kuch this is what you use
+
+388
+00:14:25,655 --> 00:14:27,935
+as a course developer and it's an
+
+389
+00:14:27,935 --> 00:14:29,705
+acronym for a course it's called trading
+
+390
+00:14:29,765 --> 00:14:32,465
+update software and it's it's what you
+
+391
+00:14:32,465 --> 00:14:33,905
+use when you create a new trading
+
+392
+00:14:34,025 --> 00:14:35,405
+or where you want to work to
+
+393
+00:14:35,405 --> 00:14:38,195
+test your training locally and it's a
+
+394
+00:14:39,155 --> 00:14:41,585
+created especially to make the whole process
+
+395
+00:14:41,585 --> 00:14:43,955
+more human friendly because without the altitude
+
+396
+00:14:43,955 --> 00:14:45,335
+two it involves a lot of creating
+
+397
+00:14:45,335 --> 00:14:48,455
+repositories creating ship modules and gets complex
+
+398
+00:14:48,605 --> 00:14:50,855
+stuff and this two of the way
+
+399
+00:14:53,555 --> 00:14:56,345
+the second two is an add on
+
+400
+00:14:56,465 --> 00:14:59,465
+to the existing sphinx library that's python-based
+
+401
+00:14:59,465 --> 00:15:02,165
+to a text processor and this is
+
+402
+00:15:02,165 --> 00:15:04,805
+what we use to make sure that
+
+403
+00:15:04,835 --> 00:15:07,115
+everything we write in our social source
+
+404
+00:15:07,115 --> 00:15:09,875
+code is converted to a working training
+
+405
+00:15:09,875 --> 00:15:12,035
+package so we have decouple
+
+406
+00:15:12,035 --> 00:15:13,685
+old the source code and the templating
+
+407
+00:15:13,685 --> 00:15:15,365
+for instance so this makes sure that
+
+408
+00:15:15,485 --> 00:15:17,405
+the source code gets in a nice
+
+409
+00:15:17,405 --> 00:15:18,875
+layout the way we wanted to to
+
+410
+00:15:18,875 --> 00:15:20,345
+have look and feel but it also
+
+411
+00:15:20,345 --> 00:15:22,625
+means that if we change a branding
+
+412
+00:15:22,625 --> 00:15:24,395
+or we want to have a white
+
+413
+00:15:24,395 --> 00:15:26,495
+label aversion that we can that can
+
+414
+00:15:26,495 --> 00:15:29,075
+create it from out a sphinx this
+
+415
+00:15:29,075 --> 00:15:31,985
+also has some custom directives because we
+
+416
+00:15:31,985 --> 00:15:32,165
+have
+
+417
+00:15:32,405 --> 00:15:34,895
+quite some specific needs for instance how
+
+418
+00:15:34,895 --> 00:15:36,455
+are you going to integrate a lap
+
+419
+00:15:36,485 --> 00:15:38,135
+so we created a custom directive for
+
+420
+00:15:38,135 --> 00:15:39,875
+it so you can just type that
+
+421
+00:15:39,875 --> 00:15:41,825
+you want to lap and the software
+
+422
+00:15:41,825 --> 00:15:43,625
+will know what you mean and will
+
+423
+00:15:43,895 --> 00:15:44,315
+render it
+
+424
+00:15:47,765 --> 00:15:49,745
+now this this is not really funny
+
+425
+00:15:49,745 --> 00:15:51,545
+after nimble to the image issue is
+
+426
+00:15:51,545 --> 00:15:53,735
+a bit of a joke but the
+
+427
+00:15:53,767 --> 00:15:55,355
+sphinx is an existing too but we
+
+428
+00:15:55,445 --> 00:15:55,925
+adapted it
+
+429
+00:15:58,625 --> 00:15:59,375
+that was an all things now
+
+430
+00:16:00,695 --> 00:16:02,585
+and the third and last one is
+
+431
+00:16:02,585 --> 00:16:04,925
+maybe the most important and it's called
+
+432
+00:16:04,955 --> 00:16:07,475
+proctor and this is actually the two
+
+433
+00:16:07,505 --> 00:16:09,515
+that does quite a lot when it
+
+434
+00:16:09,575 --> 00:16:12,695
+involves the denzel let because it takes
+
+435
+00:16:12,815 --> 00:16:15,125
+care of authentication so it makes sure
+
+436
+00:16:15,125 --> 00:16:16,265
+that if you have an account in
+
+437
+00:16:16,265 --> 00:16:18,275
+moodle and you are enrolled in a
+
+438
+00:16:18,275 --> 00:16:20,195
+given course that you also can do
+
+439
+00:16:20,195 --> 00:16:20,615
+the laps
+
+440
+00:16:20,705 --> 00:16:23,107
+so it connects moodle and an the
+
+441
+00:16:23,107 --> 00:16:25,385
+the the authentication from proctor so that
+
+442
+00:16:25,385 --> 00:16:26,225
+you do not have to log in
+
+443
+00:16:26,225 --> 00:16:28,655
+again and that it stays up to
+
+444
+00:16:28,655 --> 00:16:30,425
+date that you have actually rights to
+
+445
+00:16:30,425 --> 00:16:33,995
+use the leftists evolved also it provides
+
+446
+00:16:33,995 --> 00:16:36,845
+a dashboard so that you can check
+
+447
+00:16:36,875 --> 00:16:38,075
+if a lab is running or you
+
+448
+00:16:38,075 --> 00:16:40,835
+can start one an instantly today
+
+449
+00:16:40,835 --> 00:16:42,125
+tested or to see if everything you
+
+450
+00:16:42,125 --> 00:16:43,385
+say is working so that's a that's
+
+451
+00:16:43,385 --> 00:16:45,395
+a nice feature for for development but
+
+452
+00:16:45,395 --> 00:16:46,865
+it's also done with her with proctor
+
+453
+00:16:47,285 --> 00:16:48,725
+and under the hood it uses a
+
+454
+00:16:48,785 --> 00:16:50,735
+key cloak which is an open-source an
+
+455
+00:16:50,735 --> 00:16:52,835
+altercation or two to make sure that
+
+456
+00:16:52,835 --> 00:16:56,315
+everything ft works and this evolved quite
+
+457
+00:16:56,315 --> 00:16:59,165
+so much development because we wrote a
+
+458
+00:16:59,165 --> 00:17:00,995
+custom plugin for moodle but also
+
+459
+00:17:00,995 --> 00:17:03,515
+also contributed to a plugin for authentication
+
+460
+00:17:03,515 --> 00:17:05,525
+that was already there but had some
+
+461
+00:17:06,035 --> 00:17:08,645
+less elegant solutions in it so we
+
+462
+00:17:08,645 --> 00:17:10,115
+pushed it back to the developments that
+
+463
+00:17:10,115 --> 00:17:12,245
+well be i think we improved the
+
+464
+00:17:12,605 --> 00:17:12,965
+deployment
+
+465
+00:17:15,635 --> 00:17:17,675
+what prosor also does is the lep
+
+466
+00:17:17,675 --> 00:17:19,835
+orchestration so it actually talks with the
+
+467
+00:17:19,835 --> 00:17:22,715
+kubernetes cluster and starts jobs and every
+
+468
+00:17:22,745 --> 00:17:24,875
+training has it's own unique jobs so
+
+469
+00:17:25,175 --> 00:17:26,615
+this way you talked to proctor and
+
+470
+00:17:26,615 --> 00:17:28,685
+say i want to lab proctor says
+
+471
+00:17:29,135 --> 00:17:31,355
+to communities start this leapt with this
+
+472
+00:17:31,355 --> 00:17:33,785
+specification and it will pop up
+
+473
+00:17:35,165 --> 00:17:36,215
+and this is done by a config
+
+474
+00:17:36,245 --> 00:17:39,665
+file so every training course repo has
+
+475
+00:17:39,725 --> 00:17:43,055
+this a jamo stellt coffee and this
+
+476
+00:17:43,055 --> 00:17:45,245
+is actually a lab definition so you
+
+477
+00:17:45,245 --> 00:17:46,295
+could say i want a lap and
+
+478
+00:17:46,295 --> 00:17:47,135
+this should be the name of the
+
+479
+00:17:47,135 --> 00:17:49,085
+lap it can consist of a single
+
+480
+00:17:49,085 --> 00:17:51,035
+container or it can consist of multiple
+
+481
+00:17:51,035 --> 00:17:54,515
+danish so this example is for a
+
+482
+00:17:54,545 --> 00:17:56,255
+docker lap but you have a registry
+
+483
+00:17:56,255 --> 00:17:58,355
+container an additional container so you can
+
+484
+00:17:58,565 --> 00:18:00,005
+push and pull images from from one
+
+485
+00:18:00,005 --> 00:18:03,095
+to the other within one lap and
+
+486
+00:18:03,125 --> 00:18:04,445
+this should make sure that the proctor
+
+487
+00:18:04,445 --> 00:18:06,905
+knows what to deploy an incumbent elissa
+
+488
+00:18:07,445 --> 00:18:07,865
+on the hood
+
+489
+00:18:11,495 --> 00:18:13,715
+and as mentioned we use communities and
+
+490
+00:18:14,315 --> 00:18:16,115
+the reason is not because we are
+
+491
+00:18:16,265 --> 00:18:18,125
+the biggest fantasy of community because it's
+
+492
+00:18:18,125 --> 00:18:20,315
+so easy but because it can do
+
+493
+00:18:20,315 --> 00:18:22,325
+a lot on an issue and so
+
+494
+00:18:22,325 --> 00:18:24,335
+there is for our use case not
+
+495
+00:18:24,335 --> 00:18:26,435
+truly an alternative that s the same
+
+496
+00:18:26,435 --> 00:18:29,075
+flexibility and same options so
+
+497
+00:18:29,075 --> 00:18:32,855
+so a running near vm stuff root
+
+498
+00:18:32,855 --> 00:18:35,225
+access etc it's all possible and communities
+
+499
+00:18:35,465 --> 00:18:37,445
+and we did not found any other
+
+500
+00:18:37,445 --> 00:18:40,745
+solution with the same support an ecosystem
+
+501
+00:18:41,885 --> 00:18:43,565
+so this is a a high level
+
+502
+00:18:43,955 --> 00:18:46,205
+design of how this works i'm not
+
+503
+00:18:46,205 --> 00:18:47,645
+going to step through it in in
+
+504
+00:18:47,645 --> 00:18:49,835
+too much detail but we have as
+
+505
+00:18:49,835 --> 00:18:53,435
+mentioned a gcp managed control plane and
+
+506
+00:18:53,675 --> 00:18:55,835
+we run a couple of notes that
+
+507
+00:18:56,045 --> 00:18:58,745
+dynamically scale up different workloads depending on
+
+508
+00:18:58,745 --> 00:19:01,565
+what your needs are and if necessary
+
+509
+00:19:01,565 --> 00:19:01,955
+if we have a
+
+510
+00:19:01,955 --> 00:19:05,015
+a lot of concurrent chinese it'll scale
+
+511
+00:19:05,015 --> 00:19:07,805
+out automatically to make sure we deliver
+
+512
+00:19:07,805 --> 00:19:10,445
+what's what's needed and we use the
+
+513
+00:19:10,445 --> 00:19:13,293
+google cloud secret manager for all secrets
+
+514
+00:19:13,385 --> 00:19:15,725
+to use of it's mainly integrated in
+
+515
+00:19:15,725 --> 00:19:18,125
+the google ecosystem but that makes it
+
+516
+00:19:18,425 --> 00:19:20,315
+easier from a management perspective because we
+
+517
+00:19:20,315 --> 00:19:22,085
+have a third form a template that
+
+518
+00:19:22,115 --> 00:19:24,155
+can redeploy the complete environment when needed
+
+519
+00:19:24,155 --> 00:19:26,495
+so it's it's all infrastructure as code
+
+520
+00:19:26,615 --> 00:19:27,995
+for the for the platform itself
+
+521
+00:19:30,275 --> 00:19:32,675
+let's see for the rest there is
+
+522
+00:19:33,065 --> 00:19:35,255
+nothing truly special about the design this
+
+523
+00:19:35,255 --> 00:19:37,895
+is a pretty textbook stuff and best
+
+524
+00:19:37,895 --> 00:19:40,415
+practice when it comes to networking but
+
+525
+00:19:40,505 --> 00:19:42,455
+we have some awesome specific to stick
+
+526
+00:19:42,455 --> 00:19:45,155
+to to make sure these work so
+
+527
+00:19:45,935 --> 00:19:48,575
+we need external dns because every lap
+
+528
+00:19:48,605 --> 00:19:49,145
+should be
+
+529
+00:19:49,475 --> 00:19:51,635
+available to the internet so we need
+
+530
+00:19:51,635 --> 00:19:53,885
+unique your else so we use this
+
+531
+00:19:54,785 --> 00:19:56,315
+this to to make sure that every
+
+532
+00:19:56,315 --> 00:19:58,625
+lab gets a unique euro that's resolvable
+
+533
+00:19:58,625 --> 00:19:59,525
+to to the cluster
+
+534
+00:20:00,785 --> 00:20:03,455
+also we use shut miniature to make
+
+535
+00:20:03,455 --> 00:20:04,685
+sure that all the leps are
+
+536
+00:20:05,825 --> 00:20:08,045
+dispatch with tls so there's encryption not
+
+537
+00:20:08,045 --> 00:20:10,445
+in place it's not and we do
+
+538
+00:20:10,445 --> 00:20:12,755
+not have any special data about disaster
+
+539
+00:20:12,845 --> 00:20:14,045
+it's nice to do and it prevents
+
+540
+00:20:14,045 --> 00:20:15,095
+warnings in the in the browser
+
+541
+00:20:17,375 --> 00:20:19,415
+also where we as mentioned do a
+
+542
+00:20:19,415 --> 00:20:20,735
+lot for also read the first one
+
+543
+00:20:20,735 --> 00:20:23,255
+was the secrets operator and that's is
+
+544
+00:20:23,255 --> 00:20:24,395
+what i mentioned we use a google
+
+545
+00:20:24,395 --> 00:20:25,865
+c to a secret engine but we
+
+546
+00:20:25,865 --> 00:20:27,575
+have a plugin on communities to interact
+
+547
+00:20:27,575 --> 00:20:29,225
+with it and this is for dns
+
+548
+00:20:29,285 --> 00:20:31,325
+so we every lab has it's unique
+
+549
+00:20:31,895 --> 00:20:32,525
+dns entry
+
+550
+00:20:34,505 --> 00:20:37,085
+ingress is done by the engine extra
+
+551
+00:20:37,145 --> 00:20:39,905
+ingress controller and last but not least
+
+552
+00:20:40,145 --> 00:20:42,095
+we use a special runtime and that's
+
+553
+00:20:42,095 --> 00:20:44,765
+called chatbox chatbox is an open source
+
+554
+00:20:44,765 --> 00:20:47,045
+project that enables you to run system
+
+555
+00:20:47,045 --> 00:20:51,155
+d workloads and near vm experiences on
+
+556
+00:20:51,155 --> 00:20:53,825
+kubernetes show it's an alternative
+
+557
+00:20:53,855 --> 00:20:56,195
+to cryo or owls whose goals i
+
+558
+00:20:56,195 --> 00:20:57,665
+believe contain a d which is also
+
+559
+00:20:57,725 --> 00:20:59,525
+runtimes for our communities but we use
+
+560
+00:20:59,525 --> 00:21:02,135
+this box for for our desired workloads
+
+561
+00:21:03,245 --> 00:21:05,885
+and as mentioned proctor our special orchestrator
+
+562
+00:21:06,575 --> 00:21:10,205
+for for this so if the democrats
+
+563
+00:21:10,235 --> 00:21:11,615
+are a bit well willing i will
+
+564
+00:21:11,615 --> 00:21:13,805
+show how this works in practice so
+
+565
+00:21:14,225 --> 00:21:16,415
+what i'm going to do is here
+
+566
+00:21:16,475 --> 00:21:18,365
+life create a new training course from
+
+567
+00:21:18,365 --> 00:21:20,885
+scratch so there's nothing running now and
+
+568
+00:21:20,885 --> 00:21:22,805
+let's see if we can get it
+
+569
+00:21:23,045 --> 00:21:23,345
+working
+
+570
+00:21:23,345 --> 00:21:23,465
+ng
+
+571
+00:21:28,565 --> 00:21:29,195
+let's see
+
+572
+00:21:30,725 --> 00:21:34,025
+alright so i'm in a directory here
+
+573
+00:21:34,385 --> 00:21:35,375
+and what i'm going to do is
+
+574
+00:21:35,375 --> 00:21:38,465
+use your cactus so uncles a cactus
+
+575
+00:21:38,465 --> 00:21:42,365
+create an eye for sneak because i
+
+576
+00:21:42,365 --> 00:21:44,825
+do not nautical ments all my heart
+
+577
+00:21:45,215 --> 00:21:46,115
+let's see
+
+578
+00:21:49,715 --> 00:21:52,625
+i'm not a machine but this a
+
+579
+00:21:52,839 --> 00:21:54,665
+creates a new course
+
+580
+00:21:56,435 --> 00:21:58,265
+so i will explain what it does
+
+581
+00:21:58,955 --> 00:22:00,395
+it will say create a new course
+
+582
+00:22:00,485 --> 00:22:02,735
+choose a language which is english or
+
+583
+00:22:02,735 --> 00:22:05,555
+dutch give it a release or initial
+
+584
+00:22:05,585 --> 00:22:07,985
+initial release give it a title and
+
+585
+00:22:08,075 --> 00:22:09,755
+give it a unique name so in
+
+586
+00:22:09,755 --> 00:22:11,045
+this case i will call it an
+
+587
+00:22:11,045 --> 00:22:12,815
+aloof and that's all i need to
+
+588
+00:22:12,815 --> 00:22:14,975
+do and a cactus now we will
+
+589
+00:22:14,975 --> 00:22:15,395
+create
+
+590
+00:22:15,935 --> 00:22:18,065
+in the back everything that's needed for
+
+591
+00:22:18,125 --> 00:22:19,595
+our trading skeleton
+
+592
+00:22:20,795 --> 00:22:22,295
+so here we go it will clone
+
+593
+00:22:22,295 --> 00:22:24,845
+some awesome default some templates or repositories
+
+594
+00:22:25,445 --> 00:22:28,805
+of a burp yeah it is complains
+
+595
+00:22:28,805 --> 00:22:30,035
+a bit i'm not saying we are
+
+596
+00:22:30,035 --> 00:22:31,955
+bug free but it's a it's working
+
+597
+00:22:32,975 --> 00:22:35,133
+and now this is a this is
+
+598
+00:22:35,135 --> 00:22:36,905
+get lap if i refresh the browser
+
+599
+00:22:37,655 --> 00:22:38,885
+we now see that we have a
+
+600
+00:22:38,885 --> 00:22:40,235
+new trading gold and luke
+
+601
+00:22:41,105 --> 00:22:43,655
+and there is some templating already in
+
+602
+00:22:43,655 --> 00:22:46,415
+the in the repo and now we
+
+603
+00:22:46,415 --> 00:22:48,125
+have a basic scaffolding for it for
+
+604
+00:22:48,125 --> 00:22:49,595
+the trading so you see the conficker
+
+605
+00:22:49,625 --> 00:22:51,245
+file weird so read me there's a
+
+606
+00:22:51,245 --> 00:22:53,945
+makefile for for building the lab and
+
+607
+00:22:53,945 --> 00:22:56,476
+now we have our our course in
+
+608
+00:22:58,445 --> 00:22:58,775
+a hit
+
+609
+00:22:59,945 --> 00:23:02,075
+but we still need to do something
+
+610
+00:23:02,075 --> 00:23:03,605
+else and that's that we need to
+
+611
+00:23:03,605 --> 00:23:06,545
+add a topic or a chapter to
+
+612
+00:23:06,635 --> 00:23:08,165
+the course so
+
+613
+00:23:09,485 --> 00:23:11,735
+of course normally in our classrooms reservation
+
+614
+00:23:12,185 --> 00:23:15,515
+is built up around chapters unification yes
+
+615
+00:23:24,905 --> 00:23:27,933
+and doesn't matter in this case shoot
+
+616
+00:23:27,933 --> 00:23:29,255
+the students should have met her i
+
+617
+00:23:29,255 --> 00:23:29,615
+guess
+
+618
+00:23:36,305 --> 00:23:38,795
+yeah i could try it it will
+
+619
+00:23:38,825 --> 00:23:40,385
+it will fail probably if it's not
+
+620
+00:23:40,385 --> 00:23:42,455
+working it might be two things it
+
+621
+00:23:42,455 --> 00:23:43,715
+works or it will say you're not
+
+622
+00:23:43,715 --> 00:23:45,905
+in the right directory so let's see
+
+623
+00:23:46,175 --> 00:23:48,125
+about what i'm going to do now
+
+624
+00:23:48,125 --> 00:23:49,805
+is to add a new directory or
+
+625
+00:23:49,805 --> 00:23:52,265
+a new show technically it's a short
+
+626
+00:23:52,265 --> 00:23:54,305
+module with a new in this case
+
+627
+00:23:54,335 --> 00:23:56,405
+a new topic and this is called
+
+628
+00:23:56,735 --> 00:23:58,085
+zero on the demo this is the
+
+629
+00:23:58,085 --> 00:23:59,345
+name of the topic but it can
+
+630
+00:23:59,345 --> 00:24:02,015
+be anything else and i referring to
+
+631
+00:24:02,015 --> 00:24:04,025
+a specific branch here and that's because
+
+632
+00:24:04,238 --> 00:24:06,095
+version three point o is our stable
+
+633
+00:24:06,095 --> 00:24:07,985
+branch and that makes it work so
+
+634
+00:24:07,985 --> 00:24:09,485
+let's see what it does it's a
+
+635
+00:24:09,485 --> 00:24:10,295
+you're right
+
+636
+00:24:12,425 --> 00:24:13,295
+so this should work
+
+637
+00:24:14,855 --> 00:24:17,345
+so now it's closer the the the
+
+638
+00:24:17,345 --> 00:24:19,505
+chapter or the topic of repo and
+
+639
+00:24:19,505 --> 00:24:20,975
+now if you go back to kit
+
+640
+00:24:21,965 --> 00:24:24,455
+and go to docs and refresh it
+
+641
+00:24:24,965 --> 00:24:25,805
+there should be
+
+642
+00:24:26,945 --> 00:24:27,755
+there should be
+
+643
+00:24:29,615 --> 00:24:30,305
+there should be
+
+644
+00:24:31,535 --> 00:24:31,789
+another
+
+645
+00:24:33,275 --> 00:24:35,045
+i dunno it's it's true yep it's
+
+646
+00:24:35,105 --> 00:24:36,365
+a bit quirky but now i have
+
+647
+00:24:36,365 --> 00:24:36,665
+to
+
+648
+00:24:37,985 --> 00:24:40,505
+to push it to to edit
+
+649
+00:24:42,605 --> 00:24:43,895
+so i need to add the new
+
+650
+00:24:44,405 --> 00:24:45,755
+module to it
+
+651
+00:24:47,015 --> 00:24:48,815
+the first commute
+
+652
+00:24:50,675 --> 00:24:51,275
+and push it
+
+653
+00:24:52,505 --> 00:24:54,065
+we're still working on like this flow
+
+654
+00:24:54,395 --> 00:24:57,575
+to have some extra arguments for cactus
+
+655
+00:24:57,605 --> 00:25:00,035
+that this is done ultimately but now
+
+656
+00:25:00,035 --> 00:25:02,105
+it shoots contain
+
+657
+00:25:05,435 --> 00:25:07,085
+mom can do it yes there it
+
+658
+00:25:07,085 --> 00:25:08,855
+is so now the shop window is
+
+659
+00:25:08,855 --> 00:25:11,195
+connected to the course and we have
+
+660
+00:25:11,408 --> 00:25:12,095
+have our trading
+
+661
+00:25:13,895 --> 00:25:15,785
+up and running so now i need
+
+662
+00:25:15,785 --> 00:25:18,215
+to copy some some stuff so i
+
+663
+00:25:18,215 --> 00:25:19,235
+will make sure i'm in the right
+
+664
+00:25:19,235 --> 00:25:19,775
+directory
+
+665
+00:25:22,175 --> 00:25:24,395
+and what i'm going to do now
+
+666
+00:25:24,395 --> 00:25:27,335
+i prepared a small coffee file i
+
+667
+00:25:27,335 --> 00:25:29,375
+will copy it and i prepared a
+
+668
+00:25:29,375 --> 00:25:31,985
+small demo course which i'm going to
+
+669
+00:25:31,985 --> 00:25:33,575
+copy and
+
+670
+00:25:35,225 --> 00:25:37,025
+this otherwise would have taken a lot
+
+671
+00:25:37,025 --> 00:25:37,445
+of time
+
+672
+00:25:40,415 --> 00:25:41,585
+why is it not working
+
+673
+00:25:43,355 --> 00:25:43,775
+michigan
+
+674
+00:25:47,615 --> 00:25:48,395
+two
+
+675
+00:25:50,285 --> 00:25:50,555
+she
+
+676
+00:25:52,355 --> 00:25:53,165
+should be
+
+677
+00:25:58,805 --> 00:26:00,785
+cannot stand my eyes and working
+
+678
+00:26:03,965 --> 00:26:04,685
+she
+
+679
+00:26:06,695 --> 00:26:06,965
+yep
+
+680
+00:26:09,155 --> 00:26:11,465
+hmm
+
+681
+00:26:13,025 --> 00:26:15,215
+now it's working we need to edit
+
+682
+00:26:15,225 --> 00:26:15,785
+again
+
+683
+00:26:16,865 --> 00:26:19,745
+the roach and confused
+
+684
+00:26:22,175 --> 00:26:23,555
+in addition to going to work
+
+685
+00:26:25,595 --> 00:26:26,855
+i need to edit here too
+
+686
+00:26:28,295 --> 00:26:30,905
+show first push the shipping will do
+
+687
+00:26:32,585 --> 00:26:33,785
+vertical mirror for this one
+
+688
+00:26:35,915 --> 00:26:36,965
+our second commit we are this is
+
+689
+00:26:36,965 --> 00:26:38,165
+a sub module this is the first
+
+690
+00:26:38,165 --> 00:26:38,315
+one
+
+691
+00:26:40,775 --> 00:26:44,525
+let's see an hour to two days
+
+692
+00:26:45,095 --> 00:26:45,785
+and coffee
+
+693
+00:26:47,075 --> 00:26:48,335
+can we get any names
+
+694
+00:26:50,615 --> 00:26:51,065
+hello
+
+695
+00:26:54,365 --> 00:26:56,915
+i need to type it right
+
+696
+00:26:58,175 --> 00:27:00,815
+alright so now we have our scaffolding
+
+697
+00:27:00,815 --> 00:27:03,605
+for for training and let's see what
+
+698
+00:27:03,605 --> 00:27:06,425
+it's what it looks like so we
+
+699
+00:27:06,425 --> 00:27:08,195
+have this just like our course based
+
+700
+00:27:08,195 --> 00:27:11,075
+directory and this contain said the the
+
+701
+00:27:11,075 --> 00:27:13,235
+getting up cfl but this only contains
+
+702
+00:27:13,265 --> 00:27:15,336
+a reference to a default pipeline that
+
+703
+00:27:15,336 --> 00:27:16,775
+said we didn't get lap so not
+
+704
+00:27:16,775 --> 00:27:18,095
+every training has a unique
+
+705
+00:27:18,305 --> 00:27:20,615
+a huge pipeline fell but it only
+
+706
+00:27:20,615 --> 00:27:23,285
+refers to a standard pipeline we have
+
+707
+00:27:23,285 --> 00:27:24,635
+in and get left so we have
+
+708
+00:27:25,025 --> 00:27:27,095
+a separated the infrastructure part from the
+
+709
+00:27:27,245 --> 00:27:29,525
+course development part so that as a
+
+710
+00:27:29,525 --> 00:27:30,664
+trainer if you are developing the of
+
+711
+00:27:30,664 --> 00:27:32,375
+course it's more of a creative process
+
+712
+00:27:32,705 --> 00:27:34,295
+you need to worry as little as
+
+713
+00:27:34,295 --> 00:27:36,995
+possible around older infrastructure and stuff that's
+
+714
+00:27:36,995 --> 00:27:38,465
+needed on the on the background so
+
+715
+00:27:38,675 --> 00:27:40,475
+there is a separate team working on
+
+716
+00:27:40,505 --> 00:27:42,455
+the infrastructure and a separate team working
+
+717
+00:27:42,609 --> 00:27:43,415
+on the course content
+
+718
+00:27:44,885 --> 00:27:46,565
+then we have to convert film and
+
+719
+00:27:46,565 --> 00:27:48,815
+this contains all the settings that we
+
+720
+00:27:48,815 --> 00:27:51,245
+require for our training course so in
+
+721
+00:27:51,245 --> 00:27:52,730
+this case it will take contain a
+
+722
+00:27:52,748 --> 00:27:55,895
+trading gold trading name the language and
+
+723
+00:27:56,075 --> 00:27:57,365
+in this case an h five b
+
+724
+00:27:57,365 --> 00:27:59,135
+settings so we can decide if you
+
+725
+00:27:59,135 --> 00:28:02,525
+have a simple question should it contain
+
+726
+00:28:02,525 --> 00:28:03,905
+the answer or not so you can
+
+727
+00:28:03,905 --> 00:28:04,205
+use it
+
+728
+00:28:04,625 --> 00:28:06,215
+as as a quiz or you can
+
+729
+00:28:06,215 --> 00:28:07,625
+use it as a as an xml
+
+730
+00:28:07,655 --> 00:28:09,605
+for instance so these are all settings
+
+731
+00:28:09,605 --> 00:28:11,135
+that you can adapt and as you
+
+732
+00:28:11,135 --> 00:28:12,845
+can see here there's also a lecture
+
+733
+00:28:12,943 --> 00:28:15,965
+directive that's defining what the left should
+
+734
+00:28:15,965 --> 00:28:17,255
+look like while base image the original
+
+735
+00:28:17,255 --> 00:28:19,505
+dockerfile to restore to use and in
+
+736
+00:28:19,505 --> 00:28:20,825
+this case there will be a demo
+
+737
+00:28:20,825 --> 00:28:23,585
+rockefeller to build to the library environment
+
+738
+00:28:24,935 --> 00:28:27,695
+so within the docs directory there is
+
+739
+00:28:27,785 --> 00:28:30,485
+the demo directory and there's the rst
+
+740
+00:28:30,485 --> 00:28:32,705
+file so this is actually the course
+
+741
+00:28:32,795 --> 00:28:36,065
+content so now we have a slight
+
+742
+00:28:36,155 --> 00:28:38,015
+which has hello all and there is
+
+743
+00:28:38,015 --> 00:28:39,665
+a multiple choice question in here there
+
+744
+00:28:39,665 --> 00:28:41,855
+is an image and here there is
+
+745
+00:28:43,205 --> 00:28:45,665
+ilab so this is accustomed directive this
+
+746
+00:28:45,665 --> 00:28:46,655
+is all you need to do to
+
+747
+00:28:46,655 --> 00:28:48,365
+say i want a lap here and
+
+748
+00:28:49,025 --> 00:28:50,225
+put it in the inequality
+
+749
+00:28:51,815 --> 00:28:53,675
+and of course we have a left
+
+750
+00:28:53,795 --> 00:28:56,585
+directory and that contains an example dockerfile
+
+751
+00:28:56,774 --> 00:28:58,175
+i'm not going to show the demo
+
+752
+00:28:58,175 --> 00:29:00,005
+dockerfile because it contains some stuff that
+
+753
+00:29:00,005 --> 00:29:02,285
+makes you able to to change the
+
+754
+00:29:02,285 --> 00:29:04,865
+outcome of your trading so what it
+
+755
+00:29:04,865 --> 00:29:07,865
+looks like it's just a normal dockerfile
+
+756
+00:29:07,865 --> 00:29:09,665
+so there's nothing special here it's just
+
+757
+00:29:09,665 --> 00:29:11,555
+a dockerfile and it contains
+
+758
+00:29:12,065 --> 00:29:13,415
+some are special think so
+
+759
+00:29:13,985 --> 00:29:16,295
+we copied the home directory where you
+
+760
+00:29:16,295 --> 00:29:18,095
+can put the exercises in and we
+
+761
+00:29:18,095 --> 00:29:20,765
+copy if you have a test so
+
+762
+00:29:20,765 --> 00:29:23,165
+you can test your lap and we
+
+763
+00:29:23,165 --> 00:29:25,145
+use technical mumbo to check if you
+
+764
+00:29:25,145 --> 00:29:27,365
+have done something if it's actually working
+
+765
+00:29:27,365 --> 00:29:28,835
+so that is also copied and we
+
+766
+00:29:28,835 --> 00:29:30,695
+run some post install script to make
+
+767
+00:29:30,695 --> 00:29:31,775
+sure that the settings from the lab
+
+768
+00:29:31,805 --> 00:29:33,695
+are all defined as as we need
+
+769
+00:29:34,175 --> 00:29:37,925
+so this should be always your rockefeller
+
+770
+00:29:38,045 --> 00:29:39,695
+but for the rest you can build
+
+771
+00:29:39,695 --> 00:29:41,555
+custom images you can do as everything
+
+772
+00:29:41,555 --> 00:29:43,265
+you would normally do with with docker
+
+773
+00:29:44,945 --> 00:29:46,235
+in this case i have written some
+
+774
+00:29:46,235 --> 00:29:48,395
+tests so this is just a shell
+
+775
+00:29:48,395 --> 00:29:50,435
+script are doing some muslim actions and
+
+776
+00:29:50,435 --> 00:29:54,035
+changing some checking showing muslim values and
+
+777
+00:29:54,035 --> 00:29:56,135
+this is actually the way we we
+
+778
+00:29:56,166 --> 00:29:57,875
+write a check it's it's called best
+
+779
+00:29:57,875 --> 00:30:00,425
+units which is a besh based testing
+
+780
+00:30:00,425 --> 00:30:02,075
+framework so in this way we can
+
+781
+00:30:02,075 --> 00:30:04,322
+let see what the desired outcomes should
+
+782
+00:30:04,322 --> 00:30:04,595
+be
+
+783
+00:30:04,805 --> 00:30:06,125
+and if it corresponds with what you
+
+784
+00:30:06,125 --> 00:30:07,235
+have done in the in the lab
+
+785
+00:30:08,615 --> 00:30:12,875
+and and also there is a home
+
+786
+00:30:12,875 --> 00:30:14,645
+directory is here and just to show
+
+787
+00:30:14,645 --> 00:30:16,565
+that it's a unique directory this contains
+
+788
+00:30:16,565 --> 00:30:18,755
+fl company named hello
+
+789
+00:30:19,750 --> 00:30:21,760
+andalusia aspects fixing it so just to
+
+790
+00:30:21,760 --> 00:30:22,990
+show that it's a unique lap
+
+791
+00:30:24,430 --> 00:30:25,840
+alright so now we have everything up
+
+792
+00:30:25,840 --> 00:30:27,190
+and running and all the rest all
+
+793
+00:30:27,190 --> 00:30:29,380
+the other files are just necessary for
+
+794
+00:30:29,560 --> 00:30:31,210
+making this stuff works i'm not going
+
+795
+00:30:31,210 --> 00:30:32,770
+to talk in detail because that's all
+
+796
+00:30:32,770 --> 00:30:35,140
+the infrastructure stuff that's a that's a
+
+797
+00:30:35,140 --> 00:30:36,640
+geostationary you do not have to worry
+
+798
+00:30:36,640 --> 00:30:37,900
+about it as a as a traitor
+
+799
+00:30:38,770 --> 00:30:40,570
+but we can have some some fun
+
+800
+00:30:40,570 --> 00:30:42,700
+with this because i now have this
+
+801
+00:30:42,700 --> 00:30:44,110
+trading and i can use
+
+802
+00:30:44,290 --> 00:30:44,590
+this
+
+803
+00:30:45,940 --> 00:30:48,940
+two lens to see if everything is
+
+804
+00:30:49,092 --> 00:30:50,860
+is good so now it's it's working
+
+805
+00:30:50,860 --> 00:30:53,560
+so this training course has fell it's
+
+806
+00:30:53,680 --> 00:30:55,840
+a syntax so they're enormous no mistakes
+
+807
+00:30:55,840 --> 00:30:57,340
+in it but if i now for
+
+808
+00:30:57,340 --> 00:31:00,460
+instance a let's see in the coffee
+
+809
+00:31:01,360 --> 00:31:02,680
+diaper something here
+
+810
+00:31:03,910 --> 00:31:05,920
+again it will produce an error who
+
+811
+00:31:05,920 --> 00:31:08,530
+say well there is something wrong with
+
+812
+00:31:08,530 --> 00:31:11,200
+your visual foul because i expect this
+
+813
+00:31:11,320 --> 00:31:13,240
+these failures and you have something else
+
+814
+00:31:13,690 --> 00:31:15,940
+so this is really helpful from a
+
+815
+00:31:15,940 --> 00:31:18,220
+software development perspective that you can test
+
+816
+00:31:18,220 --> 00:31:20,830
+locally if your syntax is a is
+
+817
+00:31:20,830 --> 00:31:22,300
+ok before you push it to the
+
+818
+00:31:22,330 --> 00:31:22,990
+to get regular
+
+819
+00:31:24,280 --> 00:31:26,230
+so it should be find out and
+
+820
+00:31:26,230 --> 00:31:28,840
+the same goes for the hsbc index
+
+821
+00:31:28,840 --> 00:31:31,420
+if you mess up a directive it
+
+822
+00:31:31,420 --> 00:31:33,010
+will produce an error so this has
+
+823
+00:31:33,010 --> 00:31:35,170
+served us political and what i now
+
+824
+00:31:35,170 --> 00:31:37,360
+can do is use a local version
+
+825
+00:31:37,360 --> 00:31:39,400
+of the out a sphinx to actually
+
+826
+00:31:39,400 --> 00:31:39,850
+make
+
+827
+00:31:41,200 --> 00:31:43,360
+this training course so i'll now building
+
+828
+00:31:43,360 --> 00:31:45,100
+it and i can use it locally
+
+829
+00:31:46,150 --> 00:31:47,380
+it's bills
+
+830
+00:31:49,031 --> 00:31:52,060
+it's called phoenix so now i've built
+
+831
+00:31:52,180 --> 00:31:54,940
+the e-learning course locally and i can
+
+832
+00:31:54,940 --> 00:31:56,290
+use leumi which is an open source
+
+833
+00:31:56,290 --> 00:31:59,410
+tool for viewing hsp or auditing and
+
+834
+00:31:59,410 --> 00:32:01,120
+now i have my training course so
+
+835
+00:32:01,300 --> 00:32:04,000
+this is a working learning containing the
+
+836
+00:32:04,390 --> 00:32:06,520
+the picture i can provide an answer
+
+837
+00:32:06,790 --> 00:32:07,180
+check it
+
+838
+00:32:08,230 --> 00:32:11,740
+and i also have my lepanto here
+
+839
+00:32:12,580 --> 00:32:13,660
+with the question
+
+840
+00:32:14,980 --> 00:32:16,420
+but the laps do not work locally
+
+841
+00:32:16,420 --> 00:32:18,250
+this way because of altercation etc i'm
+
+842
+00:32:18,250 --> 00:32:21,010
+not running running kubernetes nor proctor but
+
+843
+00:32:21,010 --> 00:32:23,170
+you can see that it's detecting there
+
+844
+00:32:23,170 --> 00:32:24,130
+should be a lap here
+
+845
+00:32:25,720 --> 00:32:26,980
+so this is really powerful that you
+
+846
+00:32:26,980 --> 00:32:29,410
+can offline completely on your laptop check
+
+847
+00:32:29,440 --> 00:32:30,580
+if everything's working
+
+848
+00:32:31,750 --> 00:32:32,770
+but what is also possible
+
+849
+00:32:33,940 --> 00:32:35,710
+is if we go to the
+
+850
+00:32:36,970 --> 00:32:41,140
+the next directory i can run the
+
+851
+00:32:41,140 --> 00:32:43,180
+laps locally so i can loose i'm
+
+852
+00:32:43,181 --> 00:32:45,220
+using padma that also works with with
+
+853
+00:32:45,220 --> 00:32:45,580
+docker
+
+854
+00:32:46,630 --> 00:32:47,770
+i have to come on here this
+
+855
+00:32:47,830 --> 00:32:48,280
+easier
+
+856
+00:32:49,840 --> 00:32:50,470
+to be here
+
+857
+00:32:51,700 --> 00:32:52,360
+true to do
+
+858
+00:32:54,010 --> 00:32:55,960
+that works quite well up to now
+
+859
+00:32:55,960 --> 00:32:57,610
+so our drinks to probably
+
+860
+00:32:58,900 --> 00:33:01,510
+yep i can just use the dockerfile
+
+861
+00:33:01,540 --> 00:33:02,950
+and build it locally so i'm using
+
+862
+00:33:02,950 --> 00:33:06,100
+the demo dockerfile and do not show
+
+863
+00:33:06,130 --> 00:33:07,720
+what it actually does because of her
+
+864
+00:33:08,530 --> 00:33:10,840
+secrets that it contains but i'm taking
+
+865
+00:33:10,840 --> 00:33:13,330
+it with the luke and now it
+
+866
+00:33:13,330 --> 00:33:16,180
+shoots to build it and i can
+
+867
+00:33:16,180 --> 00:33:16,750
+run it
+
+868
+00:33:19,540 --> 00:33:21,610
+so there we go it's now running
+
+869
+00:33:21,970 --> 00:33:23,590
+and if i open a browser locally
+
+870
+00:33:24,280 --> 00:33:25,600
+and i go to the port i
+
+871
+00:33:25,600 --> 00:33:28,210
+published that now we have a trading
+
+872
+00:33:28,210 --> 00:33:31,660
+lap running containerized on our laptop so
+
+873
+00:33:31,660 --> 00:33:33,310
+this way you can also test all
+
+874
+00:33:33,310 --> 00:33:35,830
+the training exercises locally on your laptop
+
+875
+00:33:35,830 --> 00:33:37,990
+just in your browser so i
+
+876
+00:33:37,990 --> 00:33:39,820
+prefer written the test script which was
+
+877
+00:33:39,820 --> 00:33:42,070
+cold and aloof and i can show
+
+878
+00:33:42,070 --> 00:33:43,990
+it this contains the demo directory
+
+879
+00:33:45,550 --> 00:33:48,070
+which contains the hello file and if
+
+880
+00:33:48,070 --> 00:33:49,600
+i got it it says in luke
+
+881
+00:33:49,600 --> 00:33:51,670
+shaw everything we have defined isha is
+
+882
+00:33:51,670 --> 00:33:54,790
+there but as mentioned i've written a
+
+883
+00:33:54,790 --> 00:33:56,590
+test so if i now say check
+
+884
+00:33:57,760 --> 00:33:59,620
+with test it will provide an answer
+
+885
+00:33:59,890 --> 00:34:01,330
+but i have not done the exercise
+
+886
+00:34:01,360 --> 00:34:02,800
+yet so this is the wrong answer
+
+887
+00:34:03,610 --> 00:34:04,810
+but if i now run the script
+
+888
+00:34:04,870 --> 00:34:06,670
+to test it which was cold and
+
+889
+00:34:06,670 --> 00:34:07,030
+aloof
+
+890
+00:34:08,650 --> 00:34:10,360
+it will now create that directory and
+
+891
+00:34:10,360 --> 00:34:12,910
+create a file that wasn't there before
+
+892
+00:34:13,180 --> 00:34:14,860
+and it will say the correct answer
+
+893
+00:34:14,860 --> 00:34:17,470
+should be this answer so now we
+
+894
+00:34:17,470 --> 00:34:19,660
+have tested the lep exercise and we
+
+895
+00:34:19,660 --> 00:34:21,610
+know that it's actually executable that are
+
+896
+00:34:21,610 --> 00:34:23,650
+no mistakes and that it actually performs
+
+897
+00:34:23,650 --> 00:34:25,120
+the way we expect it to to
+
+898
+00:34:25,120 --> 00:34:27,040
+perform so now if i again run
+
+899
+00:34:27,040 --> 00:34:27,880
+the check command
+
+900
+00:34:29,080 --> 00:34:30,580
+it will provide the correct answer because
+
+901
+00:34:30,580 --> 00:34:32,200
+we now have actually done the exercise
+
+902
+00:34:32,710 --> 00:34:33,850
+and this is all done locally so
+
+903
+00:34:33,850 --> 00:34:35,740
+this prevents a lot of pulling and
+
+904
+00:34:35,740 --> 00:34:37,930
+pushing towards get left because you can
+
+905
+00:34:37,960 --> 00:34:39,640
+just dessert and push it back then
+
+906
+00:34:40,690 --> 00:34:43,870
+so this looks pretty good so now
+
+907
+00:34:43,870 --> 00:34:46,210
+we have working of a coarser content
+
+908
+00:34:46,240 --> 00:34:47,710
+we have a working lab and now
+
+909
+00:34:47,710 --> 00:34:48,550
+we can push it to
+
+910
+00:34:48,640 --> 00:34:50,170
+to to get lip but before we
+
+911
+00:34:50,170 --> 00:34:52,300
+do are any questions so far
+
+912
+00:34:53,980 --> 00:34:54,250
+yes
+
+913
+00:34:58,270 --> 00:34:58,540
+yes
+
+914
+00:35:04,450 --> 00:35:07,150
+i'm going to show it because uh
+
+915
+00:35:07,153 --> 00:35:08,110
+yeah there is a lot of this
+
+916
+00:35:08,115 --> 00:35:09,940
+debate and discussion but in anti computing
+
+917
+00:35:10,180 --> 00:35:12,040
+whether to use them or not because
+
+918
+00:35:12,040 --> 00:35:16,900
+they're quite complex abstracts they are bitter
+
+919
+00:35:17,350 --> 00:35:18,760
+and friendly sometimes but
+
+920
+00:35:20,560 --> 00:35:22,900
+i will show it immediately why why
+
+921
+00:35:22,900 --> 00:35:24,190
+we use it and why it's fun
+
+922
+00:35:25,750 --> 00:35:27,250
+let's go back to the
+
+923
+00:35:29,080 --> 00:35:30,040
+train the directory yep
+
+924
+00:35:30,910 --> 00:35:33,100
+the reason why we used to use
+
+925
+00:35:33,100 --> 00:35:35,110
+this is because we can do this
+
+926
+00:35:37,360 --> 00:35:39,640
+we can add another topic but not
+
+927
+00:35:39,640 --> 00:35:42,220
+a chapter from a completely different rating
+
+928
+00:35:42,700 --> 00:35:44,140
+so in this case i'm going to
+
+929
+00:35:44,140 --> 00:35:46,690
+add it my and luke training course
+
+930
+00:35:47,020 --> 00:35:49,960
+a directory from our python threading which
+
+931
+00:35:49,960 --> 00:35:51,310
+is a completely different rating but it's
+
+932
+00:35:51,310 --> 00:35:52,960
+also gets something to do so if
+
+933
+00:35:52,960 --> 00:35:53,470
+i do this
+
+934
+00:35:54,790 --> 00:35:56,767
+is when our clone it into the
+
+935
+00:35:56,767 --> 00:35:58,330
+docs directory and now i have zero
+
+936
+00:35:58,330 --> 00:36:00,790
+too and this has the same structure
+
+937
+00:36:01,000 --> 00:36:01,930
+this is a bit of a different
+
+938
+00:36:01,930 --> 00:36:03,340
+training so it has some more stuff
+
+939
+00:36:03,340 --> 00:36:05,920
+to it but this is now added
+
+940
+00:36:05,980 --> 00:36:09,430
+to my content so if i go
+
+941
+00:36:09,430 --> 00:36:13,509
+back to this directory and create a
+
+942
+00:36:13,509 --> 00:36:14,320
+build directory
+
+943
+00:36:16,270 --> 00:36:17,620
+and create a trophy again
+
+944
+00:36:19,090 --> 00:36:19,630
+there we go
+
+945
+00:36:21,040 --> 00:36:23,650
+a b produce some warnings but that's
+
+946
+00:36:23,650 --> 00:36:26,020
+not too bad i now am i
+
+947
+00:36:26,020 --> 00:36:27,370
+build directory f
+
+948
+00:36:28,840 --> 00:36:29,590
+zero two
+
+949
+00:36:31,300 --> 00:36:32,380
+it's a second chapter
+
+950
+00:36:35,470 --> 00:36:38,350
+and there we go now we have
+
+951
+00:36:38,410 --> 00:36:40,870
+python training as part of our training
+
+952
+00:36:40,870 --> 00:36:42,820
+course so this is the reason why
+
+953
+00:36:42,820 --> 00:36:45,010
+we use automobiles because if we have
+
+954
+00:36:45,010 --> 00:36:46,360
+a customer that says well i want
+
+955
+00:36:46,360 --> 00:36:47,830
+some topics from this writing have some
+
+956
+00:36:47,830 --> 00:36:49,540
+topics on the training we can now
+
+957
+00:36:49,540 --> 00:36:51,250
+say well aware this is your menu
+
+958
+00:36:51,520 --> 00:36:53,560
+choice just edit and
+
+959
+00:36:53,590 --> 00:36:55,600
+render a completely unique new e-learning
+
+960
+00:36:58,180 --> 00:36:58,480
+meaning
+
+961
+00:36:59,110 --> 00:37:02,050
+yes guess it's a bit of an
+
+962
+00:37:02,080 --> 00:37:04,780
+idealism because you need to make sure
+
+963
+00:37:04,780 --> 00:37:07,870
+that this course content has like a
+
+964
+00:37:07,870 --> 00:37:08,920
+head and a tail on it's own
+
+965
+00:37:09,220 --> 00:37:11,110
+because if it's a ongoing story it's
+
+966
+00:37:11,151 --> 00:37:12,460
+pretty hard to say well i want
+
+967
+00:37:12,460 --> 00:37:16,600
+the middle part but it's technically feasible
+
+968
+00:37:16,600 --> 00:37:18,790
+and especially if you're having
+
+969
+00:37:18,790 --> 00:37:21,820
+in some smaller topics you can conduct
+
+970
+00:37:22,236 --> 00:37:24,670
+an own unique trading pretty easily this
+
+971
+00:37:24,670 --> 00:37:26,620
+way so this this is why we
+
+972
+00:37:26,650 --> 00:37:27,520
+why we use it and how we
+
+973
+00:37:27,520 --> 00:37:27,790
+use it
+
+974
+00:37:38,230 --> 00:37:38,500
+guess
+
+975
+00:37:40,600 --> 00:37:41,890
+nope we've dropped by
+
+976
+00:37:44,020 --> 00:37:45,580
+because they upload a pretty badly
+
+977
+00:37:48,430 --> 00:37:50,020
+but the fun thing is that also
+
+978
+00:37:50,020 --> 00:37:52,000
+this a training course contains a lap
+
+979
+00:37:52,030 --> 00:37:54,460
+so i'm not sure if it's here
+
+980
+00:37:55,810 --> 00:37:56,830
+i don't know the course
+
+981
+00:37:58,870 --> 00:38:00,100
+my top of my mind but there
+
+982
+00:38:00,100 --> 00:38:01,780
+should be also if if there's leps
+
+983
+00:38:01,780 --> 00:38:03,370
+in this course it should also work
+
+984
+00:38:03,370 --> 00:38:04,420
+because it's part of the of the
+
+985
+00:38:04,420 --> 00:38:04,780
+course
+
+986
+00:38:05,860 --> 00:38:07,750
+alright so now i need to add
+
+987
+00:38:07,870 --> 00:38:11,890
+this to the repo so good and
+
+988
+00:38:11,950 --> 00:38:12,460
+dogs
+
+989
+00:38:13,540 --> 00:38:15,340
+and it's commute again
+
+990
+00:38:17,470 --> 00:38:18,220
+and biotin
+
+991
+00:38:20,110 --> 00:38:22,577
+bush and now switch over to get
+
+992
+00:38:22,577 --> 00:38:25,780
+that because now there should be pipelines
+
+993
+00:38:25,780 --> 00:38:26,110
+running
+
+994
+00:38:27,190 --> 00:38:28,630
+where is it here
+
+995
+00:38:31,450 --> 00:38:33,340
+there we go so it's now running
+
+996
+00:38:33,340 --> 00:38:35,950
+a pipeline i see it filled not
+
+997
+00:38:35,950 --> 00:38:37,480
+sure why but we'll see
+
+998
+00:38:38,710 --> 00:38:41,320
+and this actually is a now failing
+
+999
+00:38:41,320 --> 00:38:41,710
+orleans
+
+1000
+00:38:43,030 --> 00:38:44,440
+that's interesting why is it
+
+1001
+00:38:46,497 --> 00:38:47,200
+it's a demo
+
+1002
+00:38:48,550 --> 00:38:51,400
+unable to access it has some permission
+
+1003
+00:38:51,400 --> 00:38:54,040
+issues going to have one quick look
+
+1004
+00:38:55,120 --> 00:38:57,340
+might be that at the the module
+
+1005
+00:38:57,340 --> 00:38:57,850
+is one
+
+1006
+00:38:59,830 --> 00:39:04,420
+the privates should be internal i guess
+
+1007
+00:39:07,810 --> 00:39:08,560
+this is annoying
+
+1008
+00:39:10,540 --> 00:39:12,340
+we came pretty far it should be
+
+1009
+00:39:12,340 --> 00:39:13,360
+internal i guess
+
+1010
+00:39:14,920 --> 00:39:16,030
+i will run it again to see
+
+1011
+00:39:16,030 --> 00:39:17,440
+if this assaulted
+
+1012
+00:39:21,610 --> 00:39:22,030
+let's see
+
+1013
+00:39:27,475 --> 00:39:28,060
+run again
+
+1014
+00:39:30,580 --> 00:39:31,300
+there you go
+
+1015
+00:39:32,650 --> 00:39:34,420
+if it survives linting face it should
+
+1016
+00:39:34,420 --> 00:39:34,810
+be fine
+
+1017
+00:39:38,200 --> 00:39:40,390
+because everything else we have tested locally
+
+1018
+00:39:40,450 --> 00:39:42,670
+and hit repos testing locally is a
+
+1019
+00:39:42,670 --> 00:39:43,960
+bit hard to it now produces a
+
+1020
+00:39:43,960 --> 00:39:44,920
+warning which is
+
+1021
+00:39:49,510 --> 00:39:51,730
+all right so complaining about summer some
+
+1022
+00:39:51,730 --> 00:39:53,260
+layouts or stuff so that's not a
+
+1023
+00:39:53,260 --> 00:39:54,520
+breaking change i guess
+
+1024
+00:39:56,350 --> 00:39:59,380
+or breaking a thing it's still running
+
+1025
+00:39:59,380 --> 00:40:00,580
+so this this is good this is
+
+1026
+00:40:00,580 --> 00:40:02,170
+good so what i will do in
+
+1027
+00:40:02,170 --> 00:40:04,630
+the meantime is show you our this
+
+1028
+00:40:04,630 --> 00:40:06,760
+is our testing environment for our moodle
+
+1029
+00:40:07,600 --> 00:40:09,399
+environment so this is actually moodle and
+
+1030
+00:40:09,399 --> 00:40:11,410
+we've customized it to a bit for
+
+1031
+00:40:11,410 --> 00:40:13,450
+look and feel but i already created
+
+1032
+00:40:13,540 --> 00:40:15,220
+an aloof demo where trading
+
+1033
+00:40:15,910 --> 00:40:18,460
+of course and this will contain the
+
+1034
+00:40:18,588 --> 00:40:20,320
+the h five p in a bit
+
+1035
+00:40:20,650 --> 00:40:22,360
+so we will have to wait for
+
+1036
+00:40:22,540 --> 00:40:25,210
+the pipeline to where to run if
+
+1037
+00:40:25,222 --> 00:40:26,770
+are any questions in the meantime please
+
+1038
+00:40:26,770 --> 00:40:28,570
+feel free it will take a couple
+
+1039
+00:40:28,570 --> 00:40:28,960
+of minutes
+
+1040
+00:40:33,260 --> 00:40:34,580
+it's it's done through the pipeline so
+
+1041
+00:40:34,580 --> 00:40:36,350
+the pipeline connects to the the the
+
+1042
+00:40:36,350 --> 00:40:37,937
+moodle a b i and will upload
+
+1043
+00:40:37,940 --> 00:40:38,480
+the hiv
+
+1044
+00:40:45,560 --> 00:40:47,660
+now it's a hsp it's just a
+
+1045
+00:40:47,660 --> 00:40:50,053
+package for moto moto has the capabilities
+
+1046
+00:40:50,053 --> 00:40:51,980
+of displaying a trophy it doesn't need
+
+1047
+00:40:51,980 --> 00:40:54,110
+to know anything else so we will
+
+1048
+00:40:54,110 --> 00:40:55,520
+see how it's how it works but
+
+1049
+00:40:55,520 --> 00:40:58,340
+now if the pipeline is completed it
+
+1050
+00:40:58,340 --> 00:40:58,593
+will
+
+1051
+00:40:59,780 --> 00:41:00,830
+it's taken quite long show
+
+1052
+00:41:03,740 --> 00:41:05,120
+might be that the user information that
+
+1053
+00:41:05,120 --> 00:41:07,280
+we fished or it's building the laps
+
+1054
+00:41:07,280 --> 00:41:08,060
+now so
+
+1055
+00:41:09,140 --> 00:41:12,110
+it's now building the container left but
+
+1056
+00:41:12,110 --> 00:41:13,160
+it will push the d h five
+
+1057
+00:41:13,160 --> 00:41:14,600
+b to the to the test environment
+
+1058
+00:41:19,070 --> 00:41:21,140
+and disaster at the dashboard i mentioned
+
+1059
+00:41:21,230 --> 00:41:22,610
+and if i refresh it it should
+
+1060
+00:41:22,610 --> 00:41:25,160
+contain the luther lap within a couple
+
+1061
+00:41:25,160 --> 00:41:25,520
+of minutes
+
+1062
+00:41:29,600 --> 00:41:30,650
+it's taking a bit long
+
+1063
+00:41:31,760 --> 00:41:32,420
+you can do it
+
+1064
+00:41:34,970 --> 00:41:36,800
+it's always quick when you don't need
+
+1065
+00:41:36,800 --> 00:41:36,920
+it
+
+1066
+00:41:42,350 --> 00:41:42,740
+go on
+
+1067
+00:41:44,660 --> 00:41:46,220
+while we have five minutes left shower
+
+1068
+00:41:47,840 --> 00:41:50,090
+there is already the the demo created
+
+1069
+00:41:50,090 --> 00:41:51,290
+i'm not sure if it will run
+
+1070
+00:41:51,620 --> 00:41:55,520
+because it's still creating but proctor knows
+
+1071
+00:41:55,550 --> 00:41:56,720
+that the lab has been edit
+
+1072
+00:41:58,850 --> 00:41:59,180
+yes
+
+1073
+00:42:03,260 --> 00:42:03,530
+yes
+
+1074
+00:42:09,620 --> 00:42:11,480
+and as far as i know it's
+
+1075
+00:42:12,080 --> 00:42:13,880
+a bit out of my comfort zone
+
+1076
+00:42:13,880 --> 00:42:15,650
+but i think it's wonky cloak instance
+
+1077
+00:42:15,650 --> 00:42:18,920
+which is referred to with it's synced
+
+1078
+00:42:18,950 --> 00:42:20,360
+with the moodle accounts
+
+1079
+00:42:23,690 --> 00:42:24,530
+yes just
+
+1080
+00:42:26,750 --> 00:42:29,120
+let's see it's not doing anything yet
+
+1081
+00:42:29,120 --> 00:42:31,520
+so the lepage center there is a
+
+1082
+00:42:31,520 --> 00:42:32,750
+bit annoying that it takes so long
+
+1083
+00:42:33,140 --> 00:42:35,000
+because there's normally it goes faster it's
+
+1084
+00:42:35,000 --> 00:42:37,460
+now says that it should be there
+
+1085
+00:42:37,670 --> 00:42:39,800
+so let's go back and refresh this
+
+1086
+00:42:42,920 --> 00:42:43,370
+alright
+
+1087
+00:42:44,765 --> 00:42:45,380
+i started
+
+1088
+00:42:46,820 --> 00:42:49,520
+yes so now it's a actually from
+
+1089
+00:42:49,520 --> 00:42:51,770
+the dashboard deploying the new let we
+
+1090
+00:42:51,770 --> 00:42:54,080
+created so the stakes are because it's
+
+1091
+00:42:54,080 --> 00:42:55,970
+now actually deploying on the kubernetes cluster
+
+1092
+00:42:56,570 --> 00:42:58,790
+twenty seconds ish tool to deploy that
+
+1093
+00:42:58,790 --> 00:43:00,890
+up there it is and now we
+
+1094
+00:43:00,890 --> 00:43:03,260
+have the lab running and if you
+
+1095
+00:43:03,560 --> 00:43:04,880
+opened it in the browser it will
+
+1096
+00:43:04,880 --> 00:43:06,740
+work it will work the reason
+
+1097
+00:43:06,770 --> 00:43:08,960
+i did not have to authenticate is
+
+1098
+00:43:08,964 --> 00:43:10,670
+because i already locked in to moodle
+
+1099
+00:43:10,730 --> 00:43:13,070
+so it uses a cookie and is
+
+1100
+00:43:13,070 --> 00:43:14,480
+already knows that i'm enrolled in this
+
+1101
+00:43:14,480 --> 00:43:15,800
+course that i have the permission to
+
+1102
+00:43:15,800 --> 00:43:17,600
+use the lab but if you open
+
+1103
+00:43:17,602 --> 00:43:18,830
+this on your own laptop it will
+
+1104
+00:43:18,830 --> 00:43:21,050
+say it will show up the the
+
+1105
+00:43:21,050 --> 00:43:22,550
+locking screen like we saw in the
+
+1106
+00:43:22,640 --> 00:43:23,780
+in the local demo
+
+1107
+00:43:25,610 --> 00:43:27,530
+let's see is it finished
+
+1108
+00:43:29,000 --> 00:43:29,390
+it's failed
+
+1109
+00:43:31,190 --> 00:43:32,780
+oh no why did it feel
+
+1110
+00:43:33,860 --> 00:43:35,570
+i feel to build a comp the
+
+1111
+00:43:35,570 --> 00:43:38,600
+contents and that's a shame but i
+
+1112
+00:43:38,600 --> 00:43:41,270
+have an older version already here so
+
+1113
+00:43:41,270 --> 00:43:42,740
+this is what it should look like
+
+1114
+00:43:42,830 --> 00:43:46,310
+a let's see now it's not there
+
+1115
+00:43:46,370 --> 00:43:48,530
+maybe there's an older version that i
+
+1116
+00:43:48,530 --> 00:43:50,300
+can use because this is where you
+
+1117
+00:43:50,330 --> 00:43:52,370
+actually connect the hf befell to the
+
+1118
+00:43:52,430 --> 00:43:54,020
+trading course so here
+
+1119
+00:43:54,170 --> 00:43:56,390
+search the package and i can delete
+
+1120
+00:43:56,390 --> 00:43:59,210
+it because we have a placeholder and
+
+1121
+00:43:59,210 --> 00:44:00,680
+now there should be an aloof
+
+1122
+00:44:01,760 --> 00:44:03,110
+there it is maybe there's an old
+
+1123
+00:44:03,110 --> 00:44:05,486
+version because i've already tested it's a
+
+1124
+00:44:06,200 --> 00:44:08,000
+couple of days so it's a shame
+
+1125
+00:44:08,000 --> 00:44:08,480
+fell
+
+1126
+00:44:09,740 --> 00:44:10,790
+now if a display it you will
+
+1127
+00:44:10,790 --> 00:44:12,170
+see the same content that we saw
+
+1128
+00:44:12,170 --> 00:44:14,150
+locally here it is so now it's
+
+1129
+00:44:14,150 --> 00:44:15,680
+in our learning platform and we can
+
+1130
+00:44:15,680 --> 00:44:17,360
+use it to ship to wear to
+
+1131
+00:44:17,360 --> 00:44:19,250
+our customers and here you can see
+
+1132
+00:44:19,250 --> 00:44:21,320
+there is a lap and it's also
+
+1133
+00:44:21,890 --> 00:44:23,360
+knows that i already have a leapt
+
+1134
+00:44:23,360 --> 00:44:25,280
+for this training running so this is
+
+1135
+00:44:25,280 --> 00:44:26,840
+the same lap as here so if
+
+1136
+00:44:26,840 --> 00:44:27,770
+i say hello
+
+1137
+00:44:29,270 --> 00:44:30,590
+you see hello here so it's it's
+
+1138
+00:44:30,590 --> 00:44:31,850
+the same connection
+
+1139
+00:44:34,940 --> 00:44:37,130
+yes we do and it has technical
+
+1140
+00:44:37,130 --> 00:44:38,750
+reasons i'm not too aware of but
+
+1141
+00:44:39,108 --> 00:44:40,760
+we tested the last of this works
+
+1142
+00:44:41,630 --> 00:44:43,970
+best with key strokes and this kind
+
+1143
+00:44:43,971 --> 00:44:45,170
+of stuff because we had some trouble
+
+1144
+00:44:50,030 --> 00:44:52,310
+and that's possible because you have to
+
+1145
+00:44:52,310 --> 00:44:54,800
+shame the shame you out so i'm
+
+1146
+00:44:54,800 --> 00:44:57,080
+actually now this can be the traitor
+
+1147
+00:44:57,170 --> 00:44:58,910
+from the dashboard and i can have
+
+1148
+00:44:58,910 --> 00:45:01,700
+the same session as the twenty so
+
+1149
+00:45:01,700 --> 00:45:03,920
+that's possible because if i go back
+
+1150
+00:45:03,920 --> 00:45:06,500
+to the dashboard i can see one
+
+1151
+00:45:06,530 --> 00:45:08,330
+the active leps here so i can
+
+1152
+00:45:08,330 --> 00:45:08,900
+just join us
+
+1153
+00:45:10,220 --> 00:45:11,930
+so while i'm looking with you now
+
+1154
+00:45:12,920 --> 00:45:14,180
+that's why this one of the main
+
+1155
+00:45:14,180 --> 00:45:15,500
+reasons we have the dashboard as well
+
+1156
+00:45:15,710 --> 00:45:18,200
+too for student support yep so now
+
+1157
+00:45:18,200 --> 00:45:19,970
+i can run the same script and
+
+1158
+00:45:19,970 --> 00:45:21,588
+it should work because we tested it
+
+1159
+00:45:21,588 --> 00:45:22,670
+to already offline
+
+1160
+00:45:24,740 --> 00:45:27,890
+so now we have in our lms
+
+1161
+00:45:27,950 --> 00:45:30,200
+our open source lms completely as course
+
+1162
+00:45:30,200 --> 00:45:33,230
+built of course that didn't exist before
+
+1163
+00:45:33,230 --> 00:45:34,700
+the session and now russia is life
+
+1164
+00:45:34,700 --> 00:45:37,040
+running in our learning platform it's all
+
+1165
+00:45:37,040 --> 00:45:39,500
+open source based and we also have
+
+1166
+00:45:39,500 --> 00:45:40,850
+the ambition to open source the tools
+
+1167
+00:45:40,850 --> 00:45:43,550
+we developed in-house to if you would
+
+1168
+00:45:43,550 --> 00:45:43,940
+like it
+
+1169
+00:45:43,940 --> 00:45:45,770
+i can build this yourself or with
+
+1170
+00:45:45,770 --> 00:45:47,930
+some some additional knowledge of communities google
+
+1171
+00:45:47,930 --> 00:45:49,730
+cloud and as she actually pipelines
+
+1172
+00:45:52,160 --> 00:45:53,990
+all right so we have one minute
+
+1173
+00:45:53,990 --> 00:45:56,720
+left but that's not too bad because
+
+1174
+00:45:56,990 --> 00:45:59,090
+the last two slides are are a
+
+1175
+00:45:59,102 --> 00:46:00,920
+roadmap we have still some challenges
+
+1176
+00:46:01,970 --> 00:46:02,870
+maybe ish
+
+1177
+00:46:04,100 --> 00:46:06,350
+as you have seen it's still has
+
+1178
+00:46:06,350 --> 00:46:07,730
+some rough edges we still need to
+
+1179
+00:46:07,730 --> 00:46:10,010
+polish on things we also have some
+
+1180
+00:46:10,310 --> 00:46:12,650
+challenges when it comes to a persistency
+
+1181
+00:46:12,650 --> 00:46:14,660
+and startup times of the lips so
+
+1182
+00:46:14,660 --> 00:46:16,220
+weird a tweaking to make them even
+
+1183
+00:46:16,220 --> 00:46:18,950
+faster and also if you're taking a
+
+1184
+00:46:18,950 --> 00:46:21,080
+course of multiple days it would be
+
+1185
+00:46:21,080 --> 00:46:22,970
+nice that you have persistent data between
+
+1186
+00:46:22,970 --> 00:46:24,260
+the first second and third day
+
+1187
+00:46:24,290 --> 00:46:26,150
+so that has some challenges for some
+
+1188
+00:46:26,150 --> 00:46:28,310
+muslim laps and also we have some
+
+1189
+00:46:28,310 --> 00:46:30,980
+worries about realistic real to real-world scenarios
+
+1190
+00:46:30,980 --> 00:46:32,900
+for terraform and ansible how are you
+
+1191
+00:46:32,930 --> 00:46:35,390
+going to deploy a real resources or
+
+1192
+00:46:35,390 --> 00:46:38,810
+provision so muslim infrastructure and also how
+
+1193
+00:46:38,870 --> 00:46:40,490
+are we going to run kubernetes winning
+
+1194
+00:46:40,490 --> 00:46:44,150
+communities to host our communities training in
+
+1195
+00:46:44,150 --> 00:46:44,360
+this
+
+1196
+00:46:44,450 --> 00:46:45,860
+leps as well so we're not there
+
+1197
+00:46:45,860 --> 00:46:47,750
+yet but we can do docker we
+
+1198
+00:46:47,750 --> 00:46:49,910
+can do that didn't show with but
+
+1199
+00:46:49,940 --> 00:46:52,100
+we can run nested containers and have
+
+1200
+00:46:52,160 --> 00:46:54,530
+a docker leper in in this distribution
+
+1201
+00:46:54,530 --> 00:46:56,810
+as well so it's pretty cool and
+
+1202
+00:46:56,990 --> 00:46:58,460
+we are looking at two feared to
+
+1203
+00:46:58,460 --> 00:47:01,010
+see if we can make things even
+
+1204
+00:47:01,250 --> 00:47:01,910
+even better
+
+1205
+00:47:04,010 --> 00:47:08,180
+and from mortal course site and we're
+
+1206
+00:47:08,330 --> 00:47:10,520
+trying to ultimate as well the course
+
+1207
+00:47:10,520 --> 00:47:13,130
+creation in moodle because i've done it
+
+1208
+00:47:13,130 --> 00:47:14,720
+by hand now but we are writing
+
+1209
+00:47:14,720 --> 00:47:15,770
+our own terraform
+
+1210
+00:47:16,850 --> 00:47:20,120
+plugin devil can talk provision of course
+
+1211
+00:47:20,150 --> 00:47:22,190
+in moodle fire terraform so that's a
+
+1212
+00:47:22,280 --> 00:47:24,740
+that's on the roadmap and also we
+
+1213
+00:47:24,740 --> 00:47:28,040
+have some issues with reporting scaling also
+
+1214
+00:47:28,040 --> 00:47:29,840
+web to the teaching this idea to
+
+1215
+00:47:29,840 --> 00:47:31,580
+our colleagues from other companies that are
+
+1216
+00:47:31,670 --> 00:47:33,650
+a bit less less tech savvy his
+
+1217
+00:47:33,650 --> 00:47:35,210
+challenge to to say that this is
+
+1218
+00:47:35,210 --> 00:47:36,890
+quite elegant and andy
+
+1219
+00:47:37,490 --> 00:47:38,780
+so we have some awesome things to
+
+1220
+00:47:38,780 --> 00:47:38,960
+do
+
+1221
+00:47:40,940 --> 00:47:42,830
+but there were making steps and we
+
+1222
+00:47:42,830 --> 00:47:45,290
+have also under meanwhile contributed to quite
+
+1223
+00:47:45,290 --> 00:47:47,118
+some open source projects because we fixed
+
+1224
+00:47:47,118 --> 00:47:49,430
+bugs we found some interesting quirks and
+
+1225
+00:47:49,430 --> 00:47:51,950
+features so it has been a great
+
+1226
+00:47:51,950 --> 00:47:53,450
+journey to where to get where we
+
+1227
+00:47:53,450 --> 00:47:53,630
+are
+
+1228
+00:47:55,100 --> 00:47:57,650
+alright any questions i think we have
+
+1229
+00:47:57,920 --> 00:47:58,850
+zero seconds left
+
+1230
+00:48:00,620 --> 00:48:02,990
+yes got one sorry
+
+1231
+00:48:04,310 --> 00:48:07,640
+yes it does pdf html hiv and
+
+1232
+00:48:08,060 --> 00:48:09,710
+maybe some other formats as well yep
+
+1233
+00:48:11,570 --> 00:48:12,380
+any other questions
+
+1234
+00:48:15,860 --> 00:48:19,100
+i can i can i can shoot
+
+1235
+00:48:23,150 --> 00:48:24,800
+so the question was how does a
+
+1236
+00:48:24,800 --> 00:48:26,540
+big blue button for the federal classroom
+
+1237
+00:48:26,540 --> 00:48:28,730
+fit in this is actually something i'm
+
+1238
+00:48:28,730 --> 00:48:29,750
+not sure if it's in a test
+
+1239
+00:48:29,750 --> 00:48:30,440
+environment
+
+1240
+00:48:31,610 --> 00:48:33,320
+it's integrated as well with the within
+
+1241
+00:48:33,320 --> 00:48:35,600
+moodle so we are going to run
+
+1242
+00:48:35,600 --> 00:48:38,030
+a pilot's course this week
+
+1243
+00:48:39,140 --> 00:48:41,810
+where is it's i think here
+
+1244
+00:48:43,490 --> 00:48:45,560
+yep so this is just a topic
+
+1245
+00:48:45,590 --> 00:48:46,610
+in a moodle and this is the
+
+1246
+00:48:46,610 --> 00:48:49,070
+virtual classroom so if you join session
+
+1247
+00:48:49,070 --> 00:48:50,990
+here you will go to the physical
+
+1248
+00:48:50,990 --> 00:48:53,210
+classroom so it's all integrated in the
+
+1249
+00:48:53,210 --> 00:48:53,600
+institute
+
+1250
+00:48:55,580 --> 00:48:57,860
+alright i'm here for the rest of
+
+1251
+00:48:57,860 --> 00:48:59,240
+today so if you have some questions
+
+1252
+00:48:59,240 --> 00:49:04,853
+left but thank you for attending the
+
+1253
+00:49:04,853 --> 00:49:05,576
+thank you
+

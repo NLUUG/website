@@ -11,7 +11,10 @@ speakers:
 recording:
   embed:
     link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-MarcelKornegoor-CourseAsCode2.mkv
-    subtitles: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-MarcelKornegoor-CourseAsCode2.srt
+    subtitles:
+      - language: en
+        label: English
+        link: /evenementen/nluug/najaarsconferentie-2024/subtitles/subtitles_marcel-kornegoor-course-as-code-20-what-we-have-learned-and-done-since-nov-2022_en.srt
 ---
 
 ## Abstract
