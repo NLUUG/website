@@ -14,5 +14,5 @@ Tijdens de SFSCON (South Tyrol Free Software Conference) op 8 november 2024 hebb
 
 NLUUG onderschrijft de betekenis van Bram Moolenaar voor de Free Software community als geheel en de VIM community in het bijzonder. NLUUG sluit zich dan ook aan bij het applaus voor Bram Moolenaar en feliciteert zijn familie met de postume toekenning van de Europese SFS Award 2024.
 
-Het volledige bericht met de motivatie voor de toekenning kan gelezen worden op [European SFS Award 2024](https://www.sfscon.it/awards/european-sfs-award-2024/)
+Het volledige bericht met de motivatie voor de toekenning kan gelezen worden op [European SFS Award 2024](https://www.sfscon.it/awards/european-sfs-award-2024/) en de [FSFE site](https://fsfe.org/news/2024/news-20241108-01.nl.html)
 
