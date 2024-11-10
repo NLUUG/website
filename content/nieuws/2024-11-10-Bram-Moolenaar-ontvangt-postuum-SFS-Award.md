@@ -2,9 +2,9 @@
 author: patrick-reijnen
 categories:
 - nieuws
-date: 2024-11-07T13:43:24+00:00
+date: 2024-11-10T13:43:24+00:00
 description: "VIM ontwikkelaar en NLUUG erelid Bram Moolenaar ontvangt postuum SFS Award"
-slug: cfp-voorjaarsconferentie-2025
+slug: Postuum-SFS-Award-voor-Bram-Moolenaar
 tags:
 - erelid
 title: "Postuum SFS Award voor VIM ontwikkelaar en NLUUG erelid Bram Moolenaar"
