@@ -10,7 +10,7 @@ speakers:
 - gerlof-langeveld
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-GerlofLangeveld-PerformanceAnalyseMetCGroups.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-GerlofLangeveld-PerformanceAnalyseMetCGroups.mp4
 ---
 
 ## Abstract

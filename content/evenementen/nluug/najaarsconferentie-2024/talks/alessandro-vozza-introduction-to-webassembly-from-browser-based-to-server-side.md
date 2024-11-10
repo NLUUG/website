@@ -10,7 +10,7 @@ speakers:
 - alessandro-vozza
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-AllessandroVozza-IntroductionToWebAssembly.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-AllessandroVozza-IntroductionToWebAssembly.mp4
 ---
 
 ## Abstract

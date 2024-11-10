@@ -10,7 +10,7 @@ speakers:
 - marcel-kornegoor
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-MarcelKornegoor-CourseAsCode2.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-MarcelKornegoor-CourseAsCode2.mp4
     subtitles:
       - language: en
         label: English

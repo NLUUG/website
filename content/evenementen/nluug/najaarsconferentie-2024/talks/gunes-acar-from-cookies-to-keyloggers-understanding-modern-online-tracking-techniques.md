@@ -10,7 +10,7 @@ speakers:
 - gunes-acar
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-GunesAcar-FromCookiesToKeyloggers.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-GunesAcar-FromCookiesToKeyloggers.mp4
 ---
 
 ## Abstract

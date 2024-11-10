@@ -10,7 +10,7 @@ speakers:
 - helma-de-boer
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-HelmaDeBoer-ZwartboekChatcontrol.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-HelmaDeBoer-ZwartboekChatcontrol.mp4
 ---
 
 ## Abstract

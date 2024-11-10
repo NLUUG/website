@@ -11,7 +11,7 @@ speakers:
 - rix-groenboom
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-RixGroenboomNilsvdDeen-ErvaringenMetOpenSourceOpenEHR.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-RixGroenboomNilsvdDeen-ErvaringenMetOpenSourceOpenEHR.mp4
 ---
 
 ## Abstract

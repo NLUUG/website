@@ -10,7 +10,7 @@ speakers:
 - nick-hooijberg
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-NickHooijberg-BuildYourOwnSustainableCloud.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-3/NLUUG-NJ24-NickHooijberg-BuildYourOwnSustainableCloud.mp4
     type: "video/webm"
 ---
 

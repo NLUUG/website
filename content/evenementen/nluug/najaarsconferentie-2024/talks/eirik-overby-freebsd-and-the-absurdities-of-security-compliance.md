@@ -10,7 +10,7 @@ speakers:
 - eirik-overby
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-Eirik%c3%98verby-FreeBSDAndTheAbsurditiesOfSecurityCompliance.mkv
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-1/NLUUG-NJ24-Eirik%c3%98verby-FreeBSDAndTheAbsurditiesOfSecurityCompliance.mp4
 ---
 
 ## Abstract
