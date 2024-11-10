@@ -16,4 +16,4 @@ Frances Brazier is bekend als één van de oprichters van NLnet, de eerste inter
 
 Door het oprichten van Stichting NLnet Labs droeg Frances bij aan het versterken van de internationale internet infrastructuur. Dit deed zij door het stimuleren en ondersteunen van de ontwikkeling van open source software die gebruikt wordt voor de basis van het hedendaagse internet.
 
-Wij feliciteren Frances van harte met haar onderscheiding die ook zal bijdagen aan de doelstellingen en waarden van NLUUG.
+Wij feliciteren Frances van harte met haar onderscheiding die ook zal bijdragen aan de doelstellingen en waarden van NLUUG.
