@@ -8,6 +8,9 @@ tags:
 title: "Robert Frans van der Willigen - Verantwoord gebruik van ChatGPT en andere Generative AI-modellen"
 speakers:
 - robert-frans-van-der-willigen
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2024-11-05-nj24/Zaal-2/NLUUG-NJ24-RobertFransvanderWilligen-VerantwoordGebruikVanChatGPT.mp4
 ---
 
 ## Abstract
