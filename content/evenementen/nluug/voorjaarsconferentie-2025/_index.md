@@ -3,13 +3,16 @@ categories:
 - conferenties
 - evenementen
 date: 2023-11-30T11:17:47+02:00
-description: "De NLUUG voorjaarsconferentie is gepland op dinsdag 21 mei 2024 in het Van der Valk Hotel Utrecht."
+description: "De NLUUG voorjaarsconferentie is gepland op dinsdag 22 mei 2025 in het Van der Valk Hotel Utrecht."
 is_event: true
 tags:
 - conferenties
 slug:
 title: "NLUUG voorjaarsconferentie 2025"
 layout: schedule-event
+call_to_action_top_of_content:
+  id: nieuwe-pc-leden
+  expires_after: 2025-02-01
 event_title: "NLUUG voorjaarsconferentie 2025"
 event_start: 2025-05-22T08:30:00+02:00
 event_end: 2025-05-22T18:00:00+02:00
@@ -42,4 +45,4 @@ event_schedule:
 ---
 
 
-De Call for Proposal is geopend sinds 6 november. Heb jij een leuk idee of inzending? We horen het graag!
+De Call for Proposal is geopend! Heb jij een leuk idee of inzending?
