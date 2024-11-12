@@ -1,0 +1,31 @@
+{{ if .Params.call_to_action_top_of_content }}
+{{ $context := . }}
+    <aside>
+    {{ if .Params.call_to_action_top_of_content.id }}
+        {{ $show := true }}
+	{{ if .Params.call_to_action_top_of_content.expires_after }}
+            {{ $cta_expires_after := .Params.call_to_action_top_of_content.expires_after | time }}
+            {{ if ge now $cta_expires_after }}
+	        {{ $show = false }}
+	    {{ end }}
+	{{ end }}
+	{{ if $show }}
+  	    {{ $id := .Params.call_to_action_top_of_content.id }}
+            {{ with (index $.Site.Data.call_to_actions $id) }}
+	        {{ $language := $.Site.Language.Lang }}
+	        <div class="highlight-box highlight-box-nluug">
+	            {{- range $key, $value := .items -}}
+		        {{ if eq $value.language $language }}
+		            <h2>{{ $value.title }}</h2>
+		            <p>{{ $value.text_long }}</p> 
+			    {{ if .page }}<a class="button" href="{{ relref $context .page }}">{{ end }}<span>{{ $value.button_text }}</span>{{ if .page }}</a>{{ end }}
+		        {{ end }}
+		    {{ end }}
+		</div>
+            {{ end }}
+	{{ end }}
+    {{ else }}
+        {{ errorf "ID van CTA ontbreekt (call_to_action_top_of_content.id)" }}
+    {{ end }}
+    <aside>
+{{ end }}

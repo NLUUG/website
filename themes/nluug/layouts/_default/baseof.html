@@ -9,6 +9,7 @@
         {{ partialCached "header.html" . }}
         {{ partial "breadcrumb.html" . }}
         <div class="content">
+	    {{ partial "show-call-to-action-top-of-content.html" . }}
             <h1 class="post speakable">{{ .Title }}</h1>
             <div class="speakable">
             {{- block "main" . }}
