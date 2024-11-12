@@ -1,0 +1,8 @@
+id: nieuwe-pc-leden
+items:
+  - item: nl
+    language: nl
+    button_text: Bekijk wat we doen
+    page: "organisatie/commissies/pc/index.md"
+    text_long: "De programmacommissie is op zoek naar extra leden. Meer weten over deze commissie?"
+    title: Nieuwe PC-leden gevraagd
