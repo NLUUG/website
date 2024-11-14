@@ -38,8 +38,8 @@ Als je werkgever deelneemt aan een Bedrijfsregeling dan kan de lidmaatschapsbijd
 
 | Type              | Excl. BTW | Incl. BTW |
 | ---               | --------: | --------: |
-| Lid (persoon)     | €152,89   | €185,00   |
-| Student (voltijd) | €28,93    | €35,00    |
+| Lid (persoon)     | €157,02   | €190,00   |
+| Student (voltijd) | €30,99    | €37,50    |
 
 Als jouw werkgever wel bij ons bekend is, maar geen Bedrijfsregeling heeft, dan staat de naam van de werkgever op de persoonlijke contributie-factuur. Bij sommige werkgevers kan de contributie aan de NLUUG worden gedeclareerd.
 
@@ -73,11 +73,11 @@ Onderstaande tabel toont de tarieven voor een Bedrijfsregeling, waarbij de klein
 
 | Code | Leden | Excl. BTW | Incl. BTW |
 | ---  | ---   | --------: | --------: |
-| D1   | 1     | €152,89   | €185,00   |
-| D2   | 3     | €305,78   | €370,00   |
-| D4   | 5     | €611,57   | €740,00   |
-| D8   | 10    | €1223,14  | €1480,00  |
-| DP   | 18    | €2140,49  | €2590,00  |
+| D1   | 1     | €157,02   | €190,00   |
+| D2   | 3     | €314,05   | €380,00   |
+| D4   | 5     | €628,10   | €760,00   |
+| D8   | 10    | €1256,20  | €1520,00  |
+| DP   | 18    | €2512,40  | €3040,00  |
 
 ### Wijzigingen
 
