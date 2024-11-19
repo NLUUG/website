@@ -1,19 +1,19 @@
-id: 2025-03-15-ietf-123
-date_start: 2025-03-15
-date_end: 2025-03-21
+id: 2025-07-19-ietf-123
+date_start: 2025-07-19
+date_end: 2025-07-25
 event_address:
-  street_address: 199 Sukhumvit Alley 22, Khlong Tan, Khlong Toei
-  postal_code: 10110
-  city: Bangkok
-  country: TH
-event_start: 2025-03-15T09:00:00+0000
-event_end: 2025-03-21T18:00:00+0000
-event_timezone: Asia/Bangkok
+  street_address: C. del Poeta Joan Maragall, 43, Tetuán
+  postal_code: 28020
+  city: Madrid
+  country: SP
+event_start: 2025-07-19T09:00:00+0000
+event_end: 2025-07-25T18:00:00+0000
+event_timezone: Europe/Madrid
 event_attendance_mode: offline
-event_location: Marriott Marquis Queen's Park
+event_location: Melia Castilla
 name: IETF 123
 event_organizer: Internet Engineering Task Force
 event_organizer_url: https://ietf.org/
-event_url: https://www.ietf.org/how/meetings/122/
+event_url: https://www.ietf.org/meeting/123/
 event_free_access: false
 event_is_online: true
