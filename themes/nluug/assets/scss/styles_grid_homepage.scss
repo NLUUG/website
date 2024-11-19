@@ -1,0 +1,27 @@
+@media (min-width: 1023px) {
+  .grid-row {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr auto;
+        column-gap: 1.5em;
+  }
+}
+.grid-fourth {
+        grid-column: auto / span 3;
+}
+
+.grid-third {
+        grid-column: auto / span 4;
+}
+
+.grid-two-thirds {
+        grid-column: auto / span 8;
+}
+
+.grid-half {
+        grid-column: auto / span 6;
+}
+
+.grid-three-fourths {
+        grid-column: auto / span 9;
+}
