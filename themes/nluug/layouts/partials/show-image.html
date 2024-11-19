@@ -3,6 +3,7 @@
   <picture>
     {{ $isJPG := eq (path.Ext .image) ".jpg" }}
     {{ $isPNG := eq (path.Ext .image) ".png" }}
+    {{ $isSVG := eq (path.Ext .image) ".svg" }}
 
     {{ if ($isJPG) -}}
       {{ $webpPath:= replace .image ".jpg" ".webp" }}
@@ -21,9 +22,13 @@
         <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
       {{- end }}
     {{- end }}
-    {{ $img := imageConfig (add "/static" (.image | safeURL)) }}
 
-    <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
+    {{ if or ($isJPG) ($isPNG) }}
+        {{ $img := imageConfig (add "/static" (.image | safeURL)) }}
+        <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
+    {{ else if ($isSVG) }}
+        <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="200" height="200">
+    {{ end }}
   </picture>
   {{ if .figcaption }}
     <figcaption>
