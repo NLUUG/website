@@ -129,6 +129,80 @@
     {{ if ne .hidden true }}
       {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
       {{ with .name }}<h3>{{$.Scratch.Get "counter"}}. {{ . }}</h3>{{ end }}
+      <div class="prog-container">
+	  <div class="prog-item prog-header">Tijd</div>
+	  <div class="prog-item prog-header prog-mob">Event</div>
+	  <div class="prog-item prog-header prog-mob">Zaal</div>
+	  <div class="prog-item prog-header prog-desk">Zaal 1</div>
+	  <div class="prog-item prog-header prog-desk">Zaal 2</div>
+	  <div class="prog-item prog-header prog-desk">Zaal 3</div>
+      {{ with .rows }}
+        {{ range . }}
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+            {{ with .description }}<blockquote>{{ . }}</blockquote>{{ end }}
+            {{ with .columns }}
+                {{ $.Scratch.Set "counter2" 0 }}
+		{{ $line := . }}
+                {{ range . }}
+		    {{ $size := 1 }}
+		    {{ if .size }}{{ $size = .size }}{{ end }}
+
+		    {{ if .time }}
+		        <div class="prog-item prog-tijd">{{ .time }}</div>
+                    {{ else if .talk }}
+		        {{ $talk := .talk }}
+		        {{ range seq $size }}
+			    {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+			    <div class="prog-item">
+			    {{ with $talk.speaker }}<strong>{{ . }}</strong><br>{{ end }}
+			    {{ if and ($talk.title) ($talk.link) }}
+			        {{ if $talk.link }}
+				    {{ if $talk.keynote }}<strong>Keynote:</strong> {{ end }}<a href="{{ $talk.link }}">{{ $talk.title }}</a>
+			        {{ else }}
+			            <em>{{ $talk }}</em>
+			        {{ end }}
+			    {{ else }}
+			        {{ if $talk.title }}{{ if $talk.keynote }}<strong>Keynote:</strong> {{ end }}<em>{{ $talk.title }}</em>{{ end }}
+			    {{ end }}
+			    {{ if eq $talk.language "nl" }}🇳{{ end }}
+			    {{ if $talk.not_recorded }}
+			      <img class="m-r-small" src="/afbeeldingen/iconen/video-slash.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Deze presentatie zal niet worden gefilmd">
+			    {{ end }}
+			    </div>
+		            <div class="prog-item prog-mob"><span class="prog-zaal">{{ $.Scratch.Get "counter2" }}</span></div>
+		        {{ end }}
+		    {{ else if .textfield }}
+			{{ $textfield := .textfield }}
+		        {{ range seq $size }}
+                            {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+			    <div class="prog-item">
+                            {{ if $textfield.text }}
+                                {{ if and ($textfield.text) ($textfield.link) }}
+                                   <em><a href="{{ $textfield.link }}">{{ $textfield.text }}</a></em>
+                                {{ else }}
+                                   {{ with $textfield.text }}<em>{{ . }}</em><br>{{ end }}
+                                {{ end }}
+                            {{ end }}
+                            </div>
+		            <div class="prog-item prog-mob"><span class="prog-zaal">{{ $.Scratch.Get "counter2" }}</span></div>
+		         {{ end }}
+		    {{ else }}
+		        {{ range seq $size }}
+                            {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+			    <div class="prog-item"></div>
+		            <div class="prog-item prog-mob"><span class="prog-zaal">{{ $.Scratch.Get "counter2" }}</span></div>
+			{{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+      {{ end }}
+      </div>
+
+<h2>Programma (oude format)</h2>
+
+<p>We zijn verbeteringen aan het doorvoeren op onze website. Het programma zal hierdoor dubbel worden gepresenteerd, in een moderne versie en als tabel.</p>
+
       <div class="table-wrapper">
       <table class="fl-table">
       {{ with .headers }}
