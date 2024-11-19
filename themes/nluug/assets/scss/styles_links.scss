@@ -1,0 +1,67 @@
+.link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+a.button:link, a.button:visited {
+  background-color: $color-button;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: $color-button-hover;
+}
+
+// Button
+.btn:link, .btn:visited {
+  border-radius: 4px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+// Button voor call-to-action, <a href="#" class="btn btn-cta">#</a>
+.btn-cta:link, .btn-cta:visited {
+  background-color: $color-button-call-to-action;
+}
+.btn-cta:hover, .btn-cta:active {
+  background-color: $color-button-call-to-action-hover;
+}
+
+// Button voor call-to-action, tweede kleurstelling
+.btn-cta2:link, .btn-cta2:visited {
+  background-color: $color-button-call-to-action2;
+  font-weight: bold;
+}
+.btn-cta2:hover, .btn-cta2:active {
+  background-color: $color-button-call-to-action2-hover;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+a:hover,
+a.heading-link {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a.event {
+	color: $magenta-dark;
+	font-weight: bold;
+	text-decoration: none;
+}
+
