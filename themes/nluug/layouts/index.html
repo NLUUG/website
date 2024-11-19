@@ -42,7 +42,7 @@
               {{ end }}
               </p>
             {{ end }}
-            {{ with .event_url }}<a href="{{ . }}" class="button">Meer informatie</a>{{ end }}
+            {{ with .event_url }}<a href="{{ . }}" class="btn btn-cta2">Meer informatie</a>{{ end }}
           </div>
         {{ end }}
       {{ end }}
@@ -51,10 +51,13 @@
     <p>{{ i18n "sentence_more_events_planned" | default "Naast de door ons georganiseerde evenementen staat er meer op de agenda" }}.</p>
     <ul>
       {{ range first 10 (where $upcoming_events "date_start" "ge" (dateFormat "2006-01-02" now)) }}
-      <li><time class="time" datetime="{{ .date_start | dateFormat "2006-01-02" }}">{{ .date_start | dateFormat "02-01-2006" }}</time> - <a href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a></li>
+        <li>
+	  <a class="event" href="/evenementen/kalender/#{{ anchorize (.date_start | dateFormat "2006-01-02") }}-{{ anchorize .name }}">{{ .name }}</a><br>
+	  <time class="time" datetime="{{ .date_start | dateFormat "2006-01-02" }}">{{ .date_start | dateFormat "02-01-2006" }}</time>
+	</li>
       {{ end }}
     </ul>
-    <p>&raquo; <a href="/evenementen/kalender/">Volledige evenementenkalender</a></p>
+    <a class="btn btn-cta" href="{{ relref . "/evenementen/kalender/" }}">Bekijk kalender</a>
 
   </section>
   </div>
