@@ -24,6 +24,7 @@ $midnight-blue-light: #7D7DA6;
 $magenta-dark: #FA198B;
 $magenta-medium: #FB47A2;
 $magenta-light: #FC75B9;
+$magenta-lightest: #FFDCEE;
 
 // Persian green
 $persian-green-dark: #1B998B;
@@ -55,6 +56,10 @@ $color-button-call-to-action: $midnight-blue-dark;
 //$color-button-call-to-action-hover: #0F6D06; // %25 donkerder dan #138808 met encycolorpedia
 $color-button-call-to-action-hover: $midnight-blue-medium;
 
+// Variatie CTA-knop
+$color-button-call-to-action2: $magenta-dark;
+$color-button-call-to-action2-hover: $magenta-medium;
+
 $color-footer-background: $persian-green-light;
 $color-footer-text: $raisin-black-dark;
 
@@ -68,7 +73,7 @@ $color-highlight-box-other-background: $magenta-light;
 //$color-highlight-box-nluug-border: #6A2060;
 $color-highlight-box-nluug-border: $magenta-medium;
 //$color-highlight-box-nluug-background: #F5E1ED;
-$color-highlight-box-nluug-background: $magenta-light;
+$color-highlight-box-nluug-background: $magenta-lightest;
 
 //$color-border: #6A2060;
 $color-border: #26266B;
