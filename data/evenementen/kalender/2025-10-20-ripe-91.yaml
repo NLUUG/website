@@ -1,0 +1,15 @@
+id: 2025-10-20-ripe-91
+date_start: 2025-10-20
+date_end: 2022-10-20
+event_address:
+  city: Bucharest
+  country: RO
+event_start: 2025-10-20T09:00:00+0200
+event_end: 2025-10-24T18:00:00+0200
+event_timezone: Europe/Bucharest
+event_attendance_mode: offline
+name: RIPE 91
+event_organizer: Réseaux IP Européens
+event_organizer_url: https://ripe.net/
+event_free_access: false
+event_is_online: true

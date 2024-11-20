@@ -1,0 +1,19 @@
+id: 2025-11-01-ietf-124
+date_start: 2025-11-01
+date_end: 2025-11-07
+event_address:
+  street_address: 900 Rene Levesque Blvd W
+  postal_code: H3B 4A5
+  city: Montreal
+  country: CA
+event_start: 2025-11-01T09:00:00-0500
+event_end: 2025-11-07T18:00:00-0500
+event_timezone: America/Montreal
+event_attendance_mode: offline
+event_location: Fairmont The Queen Elizabeth
+name: IETF 124
+event_organizer: Internet Engineering Task Force
+event_organizer_url: https://ietf.org/
+event_url: https://www.ietf.org/meeting/124/
+event_free_access: false
+event_is_online: true
