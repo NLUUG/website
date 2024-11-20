@@ -1,0 +1,19 @@
+id: 2025-02-01-fosdem-2025
+date_start: 2025-02-01
+date_end: 2022-02-02
+event_address:
+  street_address: Av. F. D. Roosevelt 50
+  postal_code: 1050
+  city: Brussels
+  country: BE
+event_start: 2025-10-20T09:00:00+0100
+event_end: 2025-10-24T18:00:00+0100
+event_timezone: Europe/Brussels
+event_attendance_mode: offline
+event_location: ULB Campus du Solbosch
+name: FOSDEM'25
+event_organizer: The community for the community
+event_organizer_url: https://fosdem.org/
+event_url: https://fosdem.org/2025/
+event_free_access: true
+event_is_online: true
