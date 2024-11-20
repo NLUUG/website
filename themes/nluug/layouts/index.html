@@ -1,6 +1,16 @@
 {{ define "main" }}
 <article>
 
+	<div class="banner">
+	    <div>
+		<ul class="nomarkup">
+		<li>Open source</li>
+		<li>Open systemen</li>
+		<li>Open standaarden</li>
+		</ul>
+	    </div>
+	</div>
+
 <div class="grid-row">
   <div class="grid-two-thirds">{{ .Content }}
 
@@ -57,7 +67,7 @@
 	</li>
       {{ end }}
     </ul>
-    <a class="btn btn-cta" href="{{ relref . "/evenementen/kalender/" }}">Bekijk kalender</a>
+    <a class="btn btn-cta" href="/evenementen/kalender/">Bekijk kalender</a>
 
   </section>
   </div>

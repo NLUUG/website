@@ -1,0 +1,29 @@
+div.banner {
+    @media (max-width: 768px) {
+        display: none;
+    }
+    @media (min-width: 768px) {
+        background-color: $midnight-blue-dark;
+	background-image: url("/afbeeldingen/achtergronden/banner.svg");
+	background-size: cover;
+	border-radius: 5px;
+	align-content: center;
+	display: visible;
+        height: auto;
+        margin: 0 auto;
+	margin-bottom: 2rem;
+        position: relative;
+	div {
+	        margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+	        ul {
+		        display: block;
+		        color: white;
+		        font-size: 2.2em;
+		        font-weight: bold;
+		        padding: 2rem;
+	        }
+	}
+    }
+}
