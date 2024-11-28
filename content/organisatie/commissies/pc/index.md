@@ -18,6 +18,7 @@ team_members:
 - aschwin-marsman
 - hans-van-de-looy
 - rogier-spoor
+- roy-van-leeuwen
 - rudi-van-drunen
 - willem-toorop
 ---
