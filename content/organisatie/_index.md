@@ -28,6 +28,7 @@ active_members:
 - reinoud-van-leeuwen
 - rogier-spoor
 - ronny-lam
+- roy-van-leeuwen
 - rudi-van-drunen
 - toshaan-bharvani
 - willem-toorop
