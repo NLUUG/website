@@ -20,6 +20,12 @@ Deze instelling gaf echter problemen voor sommige distributies, zoals Debian en 
 
 De beheer-commissie was dus al een aantal maal gevraagd om deze instelling ongedaan te maken, echter vonden wij dit geen geschikte oplossing. Nu net is er een workaround uitgerold, die hopelijk voor alle partijen een geschikt resultaat opleverd. We sturen nog altijd al het http verkeer direct door naar het https-endpoint, maar met één enkele uitzondering, verkeer komende van 'apt', geïdentificeerd met de 'APT+HTTP' string in de user-agent header redirecten we naar een nieuwe vhost: "insecure.nluug.nl".
 
+```
+if ($http_user_agent ~* "APT-HTTP") {
+    rewrite ^/(.*)$ http://insecure.nluug.nl/$1 permanent;
+}
+```
+
 Mocht je nou perse unencrypted het archief willen benaderen, dan kan je die URL dus ook in je browser of client opgeven, maar voor apt is de redirect verder transparant. Iedere normale webbrowser zal dus gebruik blijven maken van https.
 
 De debian (of kali) gebruikers die hun sources.list file hebben aangepast en de repo via https benaderen zullen ook via https hun packages kunnen (blijven) downloaden, maar de gebruikers met de default 'http' instelling zullen ook nog altijd hun packages kunnen downloaden, maar zien in de output van apt hooguit dat de verzoeken via 'http://insecure.nluug.nl' gaan.
