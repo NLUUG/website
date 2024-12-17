@@ -14,7 +14,7 @@ related_members:
   - mike-hulsman
 ---
 
-De [FTP-server](https://ftp.nluug.nl/) van de NLUUG heeft sinds zijn herinstallatie al het inkomende http-verkeer een redirect gestuurd naar https. Dit is (en vinden wij als beheer-commissie) een zeer goed idee. We sturen ook een HSTS header mee in alle requests naar (al) onze website(s), zodat browsers bij vervolg-bezoeken direct naar de https versie van de websites gaan.
+De [FTP-server](https://ftp.nluug.nl/) van de NLUUG heeft sinds zijn herinstallatie al het inkomende http-verkeer een redirect gestuurd naar https. Dit is (en vinden wij als beheer-commissie) een zeer goed idee. We zien graag dat websites een 100% score halen op de tests van [internet.nl](https://internet.nl/site/ftp.nluug.nl/3083796/) en [ssllabs.com](https://www.ssllabs.com/ssltest/analyze.html?d=ftp.nluug.nl&s=2001%3a67c%3a6ec%3a221%3a145%3a220%3a21%3a40), zo sturen we ook een HSTS header mee in alle requests naar onze website(s), zodat browsers bij vervolg-bezoeken direct naar de https versie van de websites gaan.
 
 Deze instelling gaf echter problemen voor sommige distributies, zoals Debian en afgeleide distrbuties (kali), die schijnbaar nog altijd niet out-of-the-box https ondersteunen voor package-downloads. (In het geval van deze distributies is dat op te lossen met `apt install apt-transport-https`.
 
