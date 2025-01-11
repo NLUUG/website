@@ -1,6 +1,17 @@
+---
+categories:
+- nieuws
+date: 2025-01-11T16:00:00+02:00
+tags:
+- nieuws
+- bigtech
+- socialemedia
+title: "NLUUG onderschrijft oproep aan de Nederlandse overheid om te stoppen met bigtech sociale media"
+---
+
 # NLUUG onderschrijft oproep aan de Nederlandse overheid om te stoppen met bigtech sociale media
 
-Op op tien januari 2025 hebben [Bits of Freedom](https://www.bitsoffreedom.nl/), [PublicSpaces](https://publicspaces.net/), [DeGoedeZaak](https://www.degoedezaak.org/), [SETUP](https://www.setup.nl/) en [Waag Futurelab](https://waag.org/nl/) de Nederlandse overheid [opgeroepen](https://nos.nl/nieuwsuur/artikel/2551204-internetorganisaties-roepen-overheid-op-te-stoppen-met-sociale-media) om per direct van bigtech sociale media platformen zoals X (voorheen Twitter),  Instagram en Facebook af te stappen. 
+Op 10 januari 2025 hebben [Bits of Freedom](https://www.bitsoffreedom.nl/), [PublicSpaces](https://publicspaces.net/), [DeGoedeZaak](https://www.degoedezaak.org/), [SETUP](https://www.setup.nl/) en [Waag Futurelab](https://waag.org/nl/) de Nederlandse overheid [opgeroepen](https://nos.nl/nieuwsuur/artikel/2551204-internetorganisaties-roepen-overheid-op-te-stoppen-met-sociale-media) om per direct van big tech sociale media platformen zoals X (voorheen Twitter), Instagram en Facebook af te stappen. 
 
 In [de oproep](https://www.bitsoffreedom.nl/2025/01/10/oproep-nederlandse-overheid-vertrek-van-de-sociale-media-van-big-tech/) wordt verwezen naar [recente ontwikkelingen rondom het bewust stoppen met moderatie door Meta](https://nos.nl/artikel/2550996-er-waait-een-nieuwe-wind-op-facebook-en-instagram-vs-is-conservatiever-geworden), het onbeschaamd zoeken naar [politieke macht door de eigenaar van X](https://nos.nl/op3/video/2551296-de-politieke-macht-van-elon-musk) en het gevaar dat dit oplevert voor onze democratische rechtsstaat en vrijheid.   
 
