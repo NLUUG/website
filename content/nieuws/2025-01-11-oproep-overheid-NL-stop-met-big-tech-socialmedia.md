@@ -1,4 +1,5 @@
 ---
+author: bjorn-wijers
 categories:
 - nieuws
 date: 2025-01-11T16:00:00+02:00
@@ -7,10 +8,7 @@ tags:
 - bigtech
 - socialemedia
 title: "NLUUG onderschrijft oproep aan de Nederlandse overheid om te stoppen met bigtech sociale media"
-author: bjorn-wijers
 ---
-
-# NLUUG onderschrijft oproep aan de Nederlandse overheid om te stoppen met bigtech sociale media
 
 Op 10 januari 2025 hebben [Bits of Freedom](https://www.bitsoffreedom.nl/), [PublicSpaces](https://publicspaces.net/), [DeGoedeZaak](https://www.degoedezaak.org/), [SETUP](https://www.setup.nl/), [Noorderlicht](https://noorderlicht.com/) en [Waag Futurelab](https://waag.org/nl/) de Nederlandse overheid [opgeroepen](https://nos.nl/nieuwsuur/artikel/2551204-internetorganisaties-roepen-overheid-op-te-stoppen-met-sociale-media) om per direct van big tech sociale media platformen zoals X (voorheen Twitter), Instagram en Facebook af te stappen. 
 
