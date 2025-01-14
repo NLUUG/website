@@ -23,7 +23,9 @@ Een open overheid zou geen gebruik moeten maken van gesloten systemen. De mogeli
 [Eind 2023 nam NLUUG afscheid van X en toen al schreven we:](https://nluug.nl/nieuws/nluug-stopt-met-x-voorheen-twitter/)
 >“Door de komst en toenemende populariteit van Mastodon en Fediverse is er een goed alternatief ontstaan voor X. Deze software is opgebouwd uit open standaarden en open componenten, iets dat helemaal past bij onze vereniging en waar wij voor staan.”    
 
-Wij roepen naast de Nederlandse overheid, ook alle andere organisaties uit om te stoppen met bigtech sociale media. We nodigen u uit om de mogelijkheden voor samenwerking en communicatie op basis van open source software te onderzoeken. Investeer in échte sociale media op basis van open systemen, open source software en open standaarden. Daarmee bevorderen we flexibiliteit, veiligheid, de mogelijkheid tot innoveren en onze digitale autonomie. Onze leden dragen hier graag aan bij. 
+Wij roepen naast de Nederlandse overheid, ook alle andere organisaties uit om te stoppen met bigtech sociale media. 
+
+We nodigen u uit om de mogelijkheden voor samenwerking en communicatie op basis van open source software te onderzoeken. Investeer in échte sociale media op basis van open systemen, open source software en open standaarden. Daarmee bevorderen we flexibiliteit, veiligheid, de mogelijkheid tot innoveren, het maatschappelijke debat en onze digitale autonomie. Onze leden dragen hier graag aan bij. 
 
 Bijvoorbeeld met [Mastodon](https://joinmastodon.org/), [Pixelfed](https://pixelfed.org/), [PeerTube](https://joinpeertube.org/), [Hubzilla](https://zotlabs.org/page/hubzilla/hubzilla-project), [NextCloud](https://nextcloud.com/) en [vele andere](https://fediverse.party/en/miscellaneous/) open source software applicaties op basis van open standaarden zoals [ActivityPub](https://www.w3.org/TR/activitypub/). 
 
