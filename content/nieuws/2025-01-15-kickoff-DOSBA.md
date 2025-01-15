@@ -1,3 +1,12 @@
+---
+author: bjorn-wijers
+categories:
+- nieuws
+tags:
+- nieuws
+title: "Kickoff Dutch Open Source Business Alliance (DOSBA)"
+---
+
 Op 16 januari 2025 zal de kick-off plaatsvinden van de “Dutch Open Source Business Alliance”, afgekort tot [DOSBA](https://dosba.nl/). Het doel van de DOSBA is om een herkenbare brancheorganisatie van professionele open-sourcebedrijven te zijn. Dé gesprekspartner voor iedereen die behoefte heeft aan professionele open-source kennis & kunde.  
 
 [Boris van Hoytema](https://www.vanhoytema.com/#Work), kwartiermaker van de Open Source Program Office binnen het ministerie van binnenlandse zaken, heeft weleens geroepen dat hij behoefte heeft aan "het telefoonnummer van Open Source". Met de oprichting van DOSBA heeft Open Source Nederland dat telefoon nummer gekregen. Iedereen die behoefte heeft aan professionele open-source kennis & kunde kan vanaf nu bij DOSBA terecht.  
