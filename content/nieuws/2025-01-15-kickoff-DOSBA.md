@@ -16,13 +16,12 @@ Op het programma voor de kickoff in Nieuwegein staan:
 
 *   Boris van Hoyetema, kwartiermaker Open Source Program Office Ministerie van Binnenlandse Zaken. Hij zal iets meer vertellen over de behoefte aan een telefoon nummer van Open Source  
          
-*   Vanuit [APELL (Association Professionnelle Européenne du Logiciel Libre)](https://apell.info/) - de overkoepelende Europese vereniging van professionele open-source business associations, waartoe DOSBA ook zal toebehoren - horen we meer over welke open-source belangen er in Europa spelen, zoals de ontwikkeling van nieuwe wetgeving en de belangen in de Europese administratie. Zo heeft APELL recent nog een bijdrage geleverd aan de [Cyber Resilience Act](https://en.wikipedia.org/wiki/Cyber_Resilience_Act).  
+*   Vanuit [APELL (Association Professionnelle Européenne du Logiciel Libre)](https://apell.info/) - de overkoepelende Europese vereniging van professionele open-source business associations, waartoe DOSBA ook zal toebehoren - zal [Sebastian Raible](https://raible.be/), politiek consultant en vertegenwoordiger van APELL ons meer vertellen over welke open-source belangen er in Europa spelen, zoals de ontwikkeling van nieuwe wetgeving en de belangen in de Europese administratie. Zo heeft APELL recent nog een bijdrage geleverd aan de [Cyber Resilience Act](https://en.wikipedia.org/wiki/Cyber_Resilience_Act).  
         
 *   De overdracht van het APPELL lidmaatschap van NLUUG aan DOSBA  
        
 *   Tenslotte nog een mooie verrassing met iemand die al sinds de motie Vendrik, weet u nog: "Open Source, tenzij..." actief is in het open-source wereldje in Nederland.  
     
-
 De kick-off zal plaatsvinden op 16 januari om 15:00 bij AT-computing in Nieuwegein. Organisaties actief op het gebied van open-source zijn van harte welkom om langs te komen. 
 
 Meld je aan via e-mail op:  
