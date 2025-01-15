@@ -16,7 +16,7 @@ Op het programma voor de kickoff in Nieuwegein staan:
 
 *   Boris van Hoyetema, kwartiermaker Open Source Program Office Ministerie van Binnenlandse Zaken. Hij zal iets meer vertellen over de behoefte aan een telefoon nummer van Open Source  
          
-*   Vanuit [APELL (Association Professionnelle Européenne du Logiciel Libre)](https://apell.info/) - de overkoepelende Europese vereniging van professionele open-source business waartoe DOSBA ook zal toebehoren - horen we meer over welke open-source belangen er in Europa spelen, zoals de ontwikkeling van nieuwe wetgeving en de belangen in de Europese administratie. Zo heeft APELL recent nog een bijdrage geleverd aan de [Cyber Resilience Act](https://en.wikipedia.org/wiki/Cyber_Resilience_Act).  
+*   Vanuit [APELL (Association Professionnelle Européenne du Logiciel Libre)](https://apell.info/) - de overkoepelende Europese vereniging van professionele open-source business associations, waartoe DOSBA ook zal toebehoren - horen we meer over welke open-source belangen er in Europa spelen, zoals de ontwikkeling van nieuwe wetgeving en de belangen in de Europese administratie. Zo heeft APELL recent nog een bijdrage geleverd aan de [Cyber Resilience Act](https://en.wikipedia.org/wiki/Cyber_Resilience_Act).  
         
 *   De overdracht van het APPELL lidmaatschap van NLUUG aan DOSBA  
        
