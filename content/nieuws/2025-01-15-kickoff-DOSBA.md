@@ -20,7 +20,7 @@ Op het programma voor de kickoff in Nieuwegein staan:
         
 *   De overdracht van het APPELL lidmaatschap van NLUUG aan DOSBA  
        
-*   Tenslotte nog een mooie verrassing met iemand die al sinds de motie Vendrik, weet u nog: "Open Source, tenzij..." actief is in het open-source wereldje in Nederland.  
+*   Tenslotte nog een mooie verrassing met iemand die al sinds de motie Vendrik, weet u nog: "Open Source, tenzij..." actief is in het open-source wereldje in Nederland...  
     
 De kick-off zal plaatsvinden op 16 januari om 15:00 bij AT-computing in Nieuwegein. Organisaties actief op het gebied van open-source zijn van harte welkom om langs te komen. 
 
