@@ -1,0 +1,19 @@
+id: nllgg-2025-09-20
+date_start: 2025-09-20
+date_end: 2025-09-20
+event_address:
+  street_address: Eykmanlaan 1200
+  postal_code: 3571 KH
+  city: Utrecht
+  country: NL
+event_attendance_mode: offline
+event_start: 2025-09-20T10:00:00+0200
+event_end: 2025-09-20T16:30:00+0200
+event_free_access: true
+event_is_online: false
+event_organizer: NLLGG
+event_organizer_url: https://nllgg.nl/
+event_url: https://nllgg.nl/bijeenkomst
+event_location: Gerrit Rietveld College
+event_timezone: Europe/Amsterdam
+name: NLLGG bijeenkomst
