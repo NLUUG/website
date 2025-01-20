@@ -35,7 +35,7 @@ event_organizers:
 - organizer:
   id: nluug
   name: NLUUG
-event_register_start_date: 2025-02-01
+event_register_start_date: 2025-01-20
 event_register_end_date: 2025-05-22
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
