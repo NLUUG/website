@@ -1,6 +1,5 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
@@ -11,7 +10,10 @@
       <link rel="me" href="{{ .Site.Params.mastodon_instance }}@{{ .Site.Params.mastodon_handle }}">
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="icon" href="{{ absURL "assets/favicon.ico" }}">
+    <!-- <link rel="icon" href="{{ absURL "assets/favicon.ico" }}"> -->
+    <link rel="icon" type="image/svg+xml" href="{{ absURL "afbeeldingen/logo/nluug-logo-mono.svg" }}" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/svg+xml" href="{{ absURL "afbeeldingen/logo/nluug-logo-mark.svg" }}" media="(prefers-color-scheme: light)">
+  
     <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ absURL "atom.xml" }}">
     <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ absURL "feed.json" }}">
     {{ partialCached "style.html" . }}
