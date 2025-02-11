@@ -3,7 +3,7 @@ author: bjorn-wijers
 categories:
   - nieuws
 description: "Interview met Ronny Lam - bestuurslid NLUUG - op Opensourcewerken.nl naar aanleiding van de oprichting van de Dutch Open Source Business Alliance"
-slug: interview-ronny-lam-nav-oprichting-dutch-open-source-business-alliance
+slug: interview-ronny-lam-over-dosba
 tags:
   - nieuws
 title: "Interview met Ronny Lam - bestuurslid NLUUG - op Opensourcewerken.nl nav oprichting DOSBA"
