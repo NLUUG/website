@@ -11,7 +11,6 @@ contact_email: bestuur@nluug.nl
 type: team
 team_members:
 - bjorn-wijers
-- hans-van-de-looy
 - koen-de-jonge
 - ronny-lam
 - rudi-van-drunen
