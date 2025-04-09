@@ -41,8 +41,223 @@ event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
 event_status: "scheduled"
 event_schedule:
-  hidden: true
+  title: Programma
+  description:
+  columns: 4
+  headers:
+  - header:
+    width: 10
+  - header:
+    text: Zaal 1 (Oudegracht 1)
+    center: true
+    width: 30
+  - header:
+    text: Zaal 2 (Oudegracht 2)
+    center: true
+    width: 30
+  - header:
+    text: Zaal 3 (Oudegracht 3)
+    center: true
+    width: 30
+  rows:
+  - row:
+    columns:
+    - column:
+      time: 08:30
+    - column:
+      textfield:
+        text: Inschrijving, ontvangst, koffie
+      size: 3
+      center: true
+  - row:
+    columns:
+    - column:
+      time: 09:15
+    - column:
+      textfield:
+        text: Openingswoord
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 09:30
+    - column:
+      talk:
+        speaker: Geoff Bennett
+        title: "Artificial Intelligence: A High Level Perspective on Environmental Aspects"
+        keynote: true
+        link: 
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 10:30
+    - column:
+      textfield:
+        text: Koffiepauze
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 11:00
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 11:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 11:50
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 12:35
+    - column:
+      textfield:
+        text: Lunch
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 14:00
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 14:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 14:50
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 15:35
+    - column:
+      textfield:
+        text: Koffiepauze
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 16:00
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 16:45
+    - column:
+      size: 3
+  - row:
+    columns:
+    - column:
+      time: 16:50
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+    - column:
+      talk:
+        speaker: 
+        title: 
+        link: 
+  - row:
+    columns:
+    - column:
+      time: 17:35
+    - column:
+      textfield:
+        text: Borrel
+      center: true
+      size: 3
 ---
 
-
-De Call for Proposal is geopend! Heb jij een leuk idee of inzending?
+Het programma is bekend! Via onze [CFP-pagina](https://cfp.nluug.nl/nluug-voorjaarsconferentie-2025/schedule/) is het gehele programma al te zien. Binnenkort ook hier op de website zichtbaar.
