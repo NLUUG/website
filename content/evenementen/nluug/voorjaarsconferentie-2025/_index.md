@@ -105,18 +105,18 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Geert-Jan Meewisse and Raoul Kramer 
+        title: Presenting the FOSS stack for schools
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Nicole Wajer
+        title: "IPv6: The Internet's Best Kept Secret"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Max Roeleveld and David Visscher
+        title: "From Complexity to Simplicity: Our Cloud Infrastructure Redesign"
         link: 
   - row:
     columns:
