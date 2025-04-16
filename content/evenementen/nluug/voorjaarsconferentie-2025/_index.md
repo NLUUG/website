@@ -211,8 +211,8 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Adrianus Warmenhoven
+        title: "Get off my lawn! A curmudgeon of a proxy..."
         link: 
     - column:
       talk:
