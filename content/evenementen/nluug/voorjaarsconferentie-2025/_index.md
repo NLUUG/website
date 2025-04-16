@@ -130,18 +130,18 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Marijke Luttekes 
+        title: Introduction to Django
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Jeroen Wijenbergh
+        title: ProxyGuard - WireGuard behind a reverse proxy 
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Jelle Raaijmakers 
+        title: Ladybird - a new, independent browser and web engine
         link: 
   - row:
     columns:
@@ -158,18 +158,18 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Gábor Nyers 
+        title: Documentation as code
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Sake Blok
+        title: "Stratoshark: Wireshark for system calls"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Jos Poortvliet
+        title: A different approach to AI
         link: 
   - row:
     columns:
@@ -183,18 +183,18 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Jessica Tran
+        title: Weg bij Big Tech
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Winfried de Heiden
+        title: "OpenSSH public/private key login: risico’s en mitigatie"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Luuk van Drunen 
+        title: Hoe open is open-source AI nou echt?
         link: 
   - row:
     columns:
