@@ -39,6 +39,7 @@ event_register_start_date: 2025-01-20
 event_register_end_date: 2025-05-22
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_sponsors:
+- at-computing
 event_status: "scheduled"
 event_schedule:
   title: Programma
@@ -255,7 +256,7 @@ event_schedule:
       time: 17:35
     - column:
       textfield:
-        text: Borrel, gesponsord door AT Computing
+        text: Borrel
       center: true
       size: 3
 ---
