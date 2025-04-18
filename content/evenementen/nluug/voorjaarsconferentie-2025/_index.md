@@ -255,7 +255,7 @@ event_schedule:
       time: 17:35
     - column:
       textfield:
-        text: Borrel
+        text: Borrel, gesponsord door AT Computing
       center: true
       size: 3
 ---
