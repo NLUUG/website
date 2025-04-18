@@ -48,11 +48,11 @@ event_schedule:
   - header:
     width: 10
   - header:
-    text: Zaal 1 (Oudegracht 1)
+    text: Zaal 1 (Nieuwe gracht 2)
     center: true
     width: 30
   - header:
-    text: Zaal 2 (Oudegracht 2)
+    text: Zaal 2 (Oude gracht 1 en 2)
     center: true
     width: 30
   - header:
