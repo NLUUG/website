@@ -217,13 +217,13 @@ event_schedule:
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Michael Boelen
+        title: "Application security: sandboxing features of the Linux kernel and systemd"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Kairo de Araujo
+        title: "Securing the Software Supply Chain: Open Source for the SDLC"
         link: 
   - row:
     columns:
@@ -237,18 +237,18 @@ event_schedule:
       time: 16:50
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Ben Stewart
+        title: "Observability is just Contextualized Monitoring. Change my mind."
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Marco Davids
+        title: "Ever Thought About Your NTP Setup? Meet TimeNL"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Daniël van Eeden
+        title: "TiDB: under the hood"
         link: 
   - row:
     columns:
