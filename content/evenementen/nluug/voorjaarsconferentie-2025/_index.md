@@ -156,6 +156,15 @@ event_schedule:
   - row:
     columns:
     - column:
+      time: 13:10
+    - column:
+      textfield:
+        text: Algemene Ledenvergadering (ALV)
+      center: true
+      size: 3
+  - row:
+    columns:
+    - column:
       time: 14:00
     - column:
       talk:
