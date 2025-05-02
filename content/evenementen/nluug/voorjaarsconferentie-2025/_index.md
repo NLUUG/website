@@ -204,7 +204,7 @@ event_schedule:
     - column:
       talk:
         speaker: Luuk van Drunen 
-        title: Hoe open is open-source AI nou echt?
+        title: 'How truly open is “open-source” AI in reality?'
         link: 
   - row:
     columns:
