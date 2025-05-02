@@ -108,7 +108,7 @@ event_schedule:
       talk:
         speaker: Geert-Jan Meewisse and Raoul Kramer 
         title: Presenting the FOSS stack for schools
-        link: 
+        link: "talks/geert-jan-meewisse-and-raoul-kramer-presenting-the-foss-stack-for-schools/" 
     - column:
       talk:
         speaker: Nicole Wajer
