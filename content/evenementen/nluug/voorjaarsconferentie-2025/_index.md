@@ -113,12 +113,12 @@ event_schedule:
       talk:
         speaker: Nicole Wajer
         title: "IPv6: The Internet's Best Kept Secret"
-        link: 
+        link: "talks/nicole-wajer-ipv6-the-internets-best-kept-secret/"
     - column:
       talk:
         speaker: Max Roeleveld and David Visscher
         title: "From Complexity to Simplicity: Our Cloud Infrastructure Redesign"
-        link: 
+        link: "talks/max-roeleveld-and-david-visscher-from-complexity-to-simplicity-our-cloud-infrastructure-redesign/" 
   - row:
     columns:
     - column:
