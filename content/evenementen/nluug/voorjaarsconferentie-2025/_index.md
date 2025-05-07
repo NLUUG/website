@@ -133,17 +133,17 @@ event_schedule:
       talk:
         speaker: Marijke Luttekes 
         title: Introduction to Django
-        link: 
+        link: "talks/marijke-luttekes-introduction-to-django/"
     - column:
       talk:
         speaker: Jeroen Wijenbergh
         title: ProxyGuard - WireGuard behind a reverse proxy 
-        link: 
+        link: "talks/jeroen-wijenbergh-proxyguard-wireguard-behind-a-reverse-proxy/"
     - column:
       talk:
         speaker: Jelle Raaijmakers 
         title: Ladybird - a new, independent browser and web engine
-        link: 
+        link: "talks/jelle-raaijmakers-ladybird-a-new-independent-browser-and-web-engine/"
   - row:
     columns:
     - column:
@@ -170,17 +170,17 @@ event_schedule:
       talk:
         speaker: Gábor Nyers 
         title: Documentation as code
-        link: 
+        link: "talks/gabor-nyers-documentation-as-code/" 
     - column:
       talk:
         speaker: Sake Blok
         title: "Stratoshark: Wireshark for system calls"
-        link: 
+        link: "talks/sake-blok-stratoshark-wireshark-for-system-calls/"
     - column:
       talk:
         speaker: Jos Poortvliet
         title: A different approach to AI
-        link: 
+        link: "talks/jos-poortvliet-a-different-approach-to-ai/"
   - row:
     columns:
     - column:
