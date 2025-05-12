@@ -195,17 +195,17 @@ event_schedule:
       talk:
         speaker: Jessica Tran
         title: Weg bij Big Tech
-        link: 
+        link: "talks/jessica-tran-weg-bij-big-tech/" 
     - column:
       talk:
         speaker: Winfried de Heiden
         title: "OpenSSH public/private key login: risico’s en mitigatie"
-        link: 
+        link: "talks/winfried-de-heiden-openssh-publicprivate-key-login-risicos-en-mitigatie/"
     - column:
       talk:
         speaker: Luuk van Drunen 
         title: 'How truly open is “open-source” AI in reality?'
-        link: 
+        link: "talks/luuk-van-drunen-how-truly-open-is-open-source-ai-in-reality/" 
   - row:
     columns:
     - column:
@@ -223,17 +223,17 @@ event_schedule:
       talk:
         speaker: Adrianus Warmenhoven
         title: "Get off my lawn! A curmudgeon of a proxy..."
-        link: 
+        link: "talks/adrianus-warmenhoven-get-off-my-lawn-a-curmudgeon-of-a-proxy/" 
     - column:
       talk:
         speaker: Michael Boelen
         title: "Application security: sandboxing features of the Linux kernel and systemd"
-        link: 
+        link: "talks/michael-boelen-application-security-sandboxing-features-of-the-linux-kernel-and-systemd/" 
     - column:
       talk:
         speaker: Kairo de Araujo
         title: "Securing the Software Supply Chain: Open Source for the SDLC"
-        link: 
+        link: "talks/kairo-de-araujo-securing-the-software-supply-chain-open-source-for-the-sdlc/"
   - row:
     columns:
     - column:
