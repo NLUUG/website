@@ -248,17 +248,17 @@ event_schedule:
       talk:
         speaker: Ben Stewart
         title: "Observability is just Contextualized Monitoring. Change my mind."
-        link: 
+        link: "talks/ben-stewart-observability-is-just-contextualized-monitoring-change-my-mind/" 
     - column:
       talk:
         speaker: Marco Davids
         title: "Ever Thought About Your NTP Setup? Meet TimeNL"
-        link: 
+        link: "talks/marco-davids-ever-thought-about-your-ntp-setup-meet-timenl/" 
     - column:
       talk:
         speaker: Daniël van Eeden
         title: "TiDB: under the hood"
-        link: 
+        link: "talks/daniel-van-eeden-tidb-under-the-hood/" 
   - row:
     columns:
     - column:
