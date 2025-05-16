@@ -12,7 +12,7 @@ speakers:
 
 ## Abstract
 
-The Linux kernel has some great security features, such as capabilities, namespaces, and seccomp. Unfortunately, most software running on a Linux system does not leverage these features. Time to introduce a tool that took some time for me to like a little bit better: systemd.
+The Linux kernel has some great security features, such as capabilities, namespaces, and seccomp. Unfortunately, most software running on a Linux system does not leverage these features. Time to introduce a tool, that took some time for me to like a little bit better: systemd.
 
 Systemd version 1 was released in 2010 and many Linux system administrators disliked the idea of a monolithic beast eating up their precious init scripts. Now, 15 years later, systemd is the default in most mainstream Linux distributions. Love it or hate it, but systemd provides us with interesting options, including for security purposes. Systemd allows access to security features provided by the Linux kernel. Combined, they can greatly increase the security level of our applications. It can restrict access to resources and apply powerful sandboxing capabilities. The downside? There are a good number of kernel features and even more systemd unit settings to choose from, and it is not always easy to understand or apply them. More concerning, most of these settings are still not applied by default in our favorite Linux distributions or applied when we install a new application. It’s time to change that!
 
