@@ -34,3 +34,8 @@ In de presentatie wordt stilgestaan bij deze risico’s en worden in een **live 
 
 ## Biography
 
+Als Linux/Open Source consultant en trainer bij AT Computing heb ik een bijzondere belangstelling voor Linux, Open Source en Security. Behalve het geven van een security awareness trainigen richt ik mijn aandacht graag op te technische beveiliging van Linuxsystemen zoals bijvoorbeeld implementatie van CIS Level II, Identitiy Management of aanscherping van priviledged access management.
+
+Hoewel OpenSSH als de facto standaard kan worden beschouwd voor toegang tot Linux/Unix systemen kom ik in mijn dagelijkse praktijk als consultant en trainer vaak slordigheden tegen waardoor toegang tot systemen relatief eenvoudig gecompromitteerd kan worden. Promotie van veiliger gebruik van OpenSSH is daarmee één van mijn aandachtsgebieden.
+
+Met meer dan 25 jaar Unix en Linux ervaring in grote organisaties wil ik deze kennis graag delen op de NLUUG conferentie!
