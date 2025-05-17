@@ -15,7 +15,7 @@ speakers:
 
 The current digital educational system is dominated by tech giants. Fundamental rights, like the privacy, freedom, and sovereignty of children, parents, and educators are insufficiently secured. Ed-tech is mainly closed source and full of vendor lock-ins. Products are either overpriced, harvesting data, or both. The time to replace surveillance capitalist based Ed-tech by ethical open source alternatives is now.
 
-All the open source building blocks to create a fantastic sovereign public-values-by-design school IT environment are already out there. All that needs to be done is integrate it, tell schools that it's not as scary as one might think, ans say goodbye to BigTech.  
+All the open source building blocks to create a fantastic sovereign public-values-by-design school IT environment are already out there. All that needs to be done is integrate it, tell schools that it's not as scary as one might think, and say goodbye to BigTech.  
 
 In this presentation we'll present the FOSS stack for schools, and the plan how to get there.
 
