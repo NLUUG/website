@@ -252,8 +252,8 @@ event_schedule:
     - column:
       talk:
         speaker: Marco Davids
-        title: "Ever Thought About Your NTP Setup? Meet TimeNL"
-        link: "talks/marco-davids-ever-thought-about-your-ntp-setup-meet-timenl/" 
+        title: "Ooit nagedacht over je NTP-setup? Maak kennis met TimeNL"
+	link: "talks/marco-davids-ooit-nagedacht-over-je-ntp-setup-meet-timenl/"
     - column:
       talk:
         speaker: Daniël van Eeden
