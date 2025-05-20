@@ -251,6 +251,7 @@ event_schedule:
         link: "talks/ben-stewart-observability-is-just-contextualized-monitoring-change-my-mind/" 
     - column:
       talk:
+        language: nl
         speaker: Marco Davids
         title: "Ever Thought About Your NTP Setup? Meet TimeNL"
         link: "talks/marco-davids-ever-thought-about-your-ntp-setup-meet-timenl/" 
