@@ -89,8 +89,8 @@ event_schedule:
         title: "Artificial Intelligence: A High Level Perspective on Environmental Aspects"
         keynote: true
         link: "talks/geoff-bennett-artificial-intelligence-a-high-level-perspective-on-environmental-aspects/"
-      center: true
-      size: 3
+    - column:
+    - column:
   - row:
     columns:
     - column:
