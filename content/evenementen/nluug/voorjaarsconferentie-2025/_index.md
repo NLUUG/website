@@ -193,11 +193,13 @@ event_schedule:
       time: 14:50
     - column:
       talk:
+        language: nl
         speaker: Jessica Tran
         title: Weg bij Big Tech
         link: "talks/jessica-tran-weg-bij-big-tech/" 
     - column:
       talk:
+        language: nl
         speaker: Winfried de Heiden
         title: "OpenSSH public/private key login: risico’s en mitigatie"
         link: "talks/winfried-de-heiden-openssh-publicprivate-key-login-risicos-en-mitigatie/"
