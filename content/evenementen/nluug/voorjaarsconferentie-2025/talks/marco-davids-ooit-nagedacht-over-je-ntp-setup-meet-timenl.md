@@ -5,7 +5,7 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Ooit nagedacht over je NTP-setup? Meet TimeNL"
+title: "Ooit nagedacht over je NTP-setup? Meet TimeNL!"
 speakers:
 - marco-davids
 ---
@@ -16,7 +16,7 @@ This presentation will be in Dutch.
 
 Nauwkeurige tijdsynchronisatie is een fundament van het internet, maar toch wordt de betrouwbaarheid en veiligheid van de NTP-setup door veel organisaties over het hoofd gezien. Van veilige transacties tot systeemlogs en netwerkcoördinatie: exacte timing is essentieel. Maar hoe zorg je ervoor dat je tijdsbron nauwkeurig, veilig en robuust is?
 
-In deze presentatie bespreken we de cruciale rol van NTP bij het onderhouden van een gesynchroniseerd internet en de potentiële risico's van het vertrouwen op niet-geverifieerde tijdsbronnen. We introduceren TimeNL, een Nederlands initiatief dat een zeer nauwkeurige en robuuste NTP-service biedt op basis van atoomklokken en meerdere GNSS-signalen. Ontdek hoe een goede NTP-strategie de betrouwbaarheid van de tijdssynchronisatie in uw netwerk kan verbeteren en waarom het kiezen van de juiste tijdsbron belangrijker is dan u denkt.
+In deze presentatie bespreken we de cruciale rol van NTP bij het onderhouden van een gesynchroniseerd internet en de potentiële risico's van het vertrouwen op niet-geverifieerde tijdsbronnen. We introduceren TimeNL, een Nederlands initiatief dat een zeer nauwkeurige en robuuste NTP-service biedt op basis van atoomklokken en meerdere GNSS-signalen. Ontdek hoe een goede NTP-strategie de betrouwbaarheid van de tijdssynchronisatie in jouw netwerk kan verbeteren en waarom het kiezen van de juiste tijdsbron belangrijker is dan je denkt.
 
 ## Biography
 

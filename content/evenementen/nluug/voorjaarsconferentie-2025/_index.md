@@ -255,7 +255,7 @@ event_schedule:
       talk:
         language: nl
         speaker: Marco Davids
-        title: "Ooit nagedacht over je NTP-setup? Maak kennis met TimeNL"
+        title: "Ooit nagedacht over je NTP-setup? Meet TimeNL!"
         link: "talks/marco-davids-ooit-nagedacht-over-je-ntp-setup-meet-timenl/"
     - column:
       talk:
