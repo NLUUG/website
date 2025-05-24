@@ -32,4 +32,4 @@ event_organizers:
 event_status: "scheduled"
 ---
 
-
+Meer informatie over de Najaarsconferentie volgt.
