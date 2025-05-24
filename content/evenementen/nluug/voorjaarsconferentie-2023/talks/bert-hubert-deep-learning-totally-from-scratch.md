@@ -11,6 +11,8 @@ speakers:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=hnpY8SQ4JZ0
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-2/NLUUG23VJ-DeepLearningHubert.mp4
 ---
 
 ## Abstract
