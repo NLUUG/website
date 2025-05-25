@@ -13,6 +13,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=ik7FX_WwCns
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-11-29-nj22/Videos/nluug22nj-KrisBuytaert-HelpMyDataCenterIsOnFire.mp4
 ---
 
 ## Abstract

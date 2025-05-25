@@ -13,6 +13,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=z4T5P_LpN3E
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-11-29-nj22/Videos/nluug22nj-JoostVanDijk-FromPasswordsToPasskeys.mp4
 ---
 
 ## Abstract
