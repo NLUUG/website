@@ -11,8 +11,8 @@ speakers:
 presentation:
   filename:
 recording:
-  platform: youtube
-  url:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-1/02_Maarten_Aertsen_-_The_EU_regulating_open_source_software__the_proposed_Cyber_Resilience_Act.webm
 ---
 
 ## Abstract
