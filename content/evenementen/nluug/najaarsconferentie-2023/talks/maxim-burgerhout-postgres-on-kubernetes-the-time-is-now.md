@@ -12,7 +12,7 @@ speakers:
 - maxim-burgerhout
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-3/NJ23_-_Zaal_3_-_Maxim_Burgerhout_-_Postgres_on_Kubernetes,_the_Time_is_Now.mp4
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-3/NJ23_-_Zaal_3_-_Maxim_Burgerhout_-_Postgres_on_Kubernetes,_the_Time_is_Now.mp4
 ---
 
 ## Abstract

@@ -13,7 +13,7 @@ speakers:
 - lukas-mocek
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-1/nj23_zaal-1_06_Collaboration_kills_Competition_-_Lukas_Mocek.webm
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-1/nj23_zaal-1_06_Collaboration_kills_Competition_-_Lukas_Mocek.webm
 ---
 
 ## Abstract

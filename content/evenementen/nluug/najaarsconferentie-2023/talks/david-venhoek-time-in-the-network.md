@@ -14,7 +14,7 @@ presentation:
   filename: 2023-11-28-david-venhoek-time-in-the-network.pdf
 recording:
   embed:
-    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-1/nj23_zaal-1_01_Time_in_the_Network_-_David_Venhoek.webm
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-1/nj23_zaal-1_01_Time_in_the_Network_-_David_Venhoek.webm
 ---
 
 ## Abstract
