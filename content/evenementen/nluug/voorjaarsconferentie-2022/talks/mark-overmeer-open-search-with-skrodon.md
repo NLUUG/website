@@ -14,6 +14,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=gMM6nGq1hEU
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-05-10-vj22/Zaal-2/nluug22vj-MarkOvermeer-OpenSearch.webm
 ---
 
 ## Abstract
