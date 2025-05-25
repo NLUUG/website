@@ -13,6 +13,9 @@ speakers:
 - patrick-reijnen
 presentation:
   filename: 2023-11-28-michael-boelen-patrick-reijnen-oops-we-overhauled-the-website.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-3/NJ23_-_Zaal_3_-_Michael_Boelen_en_Patrick_Reijnen_-_Oops_we_Overhauled_the_Website.mp4
 ---
 
 ## Abstract

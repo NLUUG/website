@@ -14,6 +14,9 @@ speakers:
 - lech-bialek
 presentation:
   filename: 2023-11-28-jan-jacob-pebesma-en-lech-bialek-presentation-energy-system-simulation-in-the-cloud.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-3/NJ23_-_Zaal_3_-_Jan_Jacob_Pebesma_en_Lech_Bialek_-_Energy_Systems_Simulation_in_the_Cloud.mp4
 ---
 
 ## Abstract

@@ -12,6 +12,9 @@ speakers:
 - maja-reissner
 - mendel-mobach
 - lisette-meij
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-2/nj23-Maja_Reissner_Lord_Mobach_Lisette_Meij-WOOt_Does_the_Government_do.mp4
 ---
 
 ## Abstract

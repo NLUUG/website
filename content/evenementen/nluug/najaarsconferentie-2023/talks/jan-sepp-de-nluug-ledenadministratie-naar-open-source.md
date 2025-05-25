@@ -12,6 +12,9 @@ speakers:
 - jan-sepp
 presentation:
   filename: 2023-11-28-jan-sepp-nluug-ledenadministratie.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-3/NJ23_-_Zaal_3_-_Jan_Sepp_-_De_NLUUG_Ledenadministratie_naar_Open_Source.mp4
 ---
 
 ## Abstract

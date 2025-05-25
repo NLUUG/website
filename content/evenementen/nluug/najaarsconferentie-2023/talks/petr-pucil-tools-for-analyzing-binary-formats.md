@@ -11,6 +11,9 @@ speakers:
 - petr-pucil
 presentation:
   filename: 2023-11-28-petr-pucilpetr-pucil-tools-for-analyzing-binary-formats.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Zaal-1/nj23_zaal-1_05_Tools_for_analyzing_binary_formats_-_Petr_Pucil.webm
 ---
 
 ## Abstract
