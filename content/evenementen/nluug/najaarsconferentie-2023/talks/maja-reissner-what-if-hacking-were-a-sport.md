@@ -11,6 +11,9 @@ speakers:
 - maja-reissner
 presentation:
   filename: 2023-11-28-maja-reissner-what-if-hacking-were-a-sport.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-2/nj23-Maja_Reissner_What_If_Hacking_Were_A_Sport.mp4
 ---
 
 ## Abstract

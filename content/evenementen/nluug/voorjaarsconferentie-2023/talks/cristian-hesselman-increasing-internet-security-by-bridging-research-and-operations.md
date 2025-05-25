@@ -13,6 +13,8 @@ presentation:
 recording:
   platform: youtube
   url:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-1/05_Cristian_Hesselman_-_Increasing_Internet_security_by_bridging_research_and_operations.webm
 ---
 
 ## Abstract

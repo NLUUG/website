@@ -10,6 +10,11 @@ speakers:
 - jan-ainali
 presentation:
   filename: 2023-05-11-jan-ainali-introduction-to-public-code.pdf
+recording:
+  platform: youtube
+  url:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-1/01_Jan_Ainali_-_Introduction_to_public_code.webm
 ---
 
 ## Abstract

@@ -11,6 +11,10 @@ speakers:
 - jan-willem-brandenburg
 presentation:
   filename: 2023-05-11-paul-moller-en-jan-willem-brandenburg-dissect-the-open-source-framework-for-large-scale-host-investigations.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-1/06_Paul_Moller_and_Jan_Willem_Brandenburg_-_Dissect__The_open_source_framework_for_large_scale_host_investigations.webm
+
 ---
 
 ## Abstract

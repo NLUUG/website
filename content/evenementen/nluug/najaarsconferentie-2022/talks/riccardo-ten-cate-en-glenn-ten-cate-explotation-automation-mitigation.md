@@ -14,6 +14,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=CH2ntnZxZks
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-11-29-nj22/Videos/nluug22nj-RiccardoTenCate-ExploitationAutomationMitigation.mp4
 ---
 
 ## Abstract

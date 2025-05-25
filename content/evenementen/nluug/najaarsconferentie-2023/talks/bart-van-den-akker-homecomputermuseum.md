@@ -11,6 +11,9 @@ speakers:
 - bart-van-den-akker
 presentation:
   filename: 2023-11-28-bart-van-den-akker-home-computer-museum.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-3/NJ23_-_Zaal_3_-_Bart_van_den_Akker_-_HomeComputerMuseum,_What_we_Are_and_How_we_Share_the_History.mp4
 ---
 
 ## Abstract

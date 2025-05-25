@@ -14,6 +14,9 @@ speakers:
 - koen-van-hove
 presentation:
   filename: 2023-11-28-koen-van-hove-spoofd.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-2/nj23-Koen_van_Hove-SPooFD_How_to_Spoof_Mails.mp4
 ---
 
 ## Abstract

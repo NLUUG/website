@@ -12,6 +12,11 @@ speakers:
 - arnoud-engelfriet
 presentation:
   filename: 2023-11-28-arnoud-engelfriet-open-minds-open-source.pdf
+recording:
+  platform: youtube
+  url: https://www.youtube.com/watch?v=-NLD-jrm6ok
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-2/nj23_Keynote_Arnoud_Engelfriet_OpenMindsOpenSource_Navigating_AI_in_the_new_Frontier.mp4
 ---
 
 ## Abstract
