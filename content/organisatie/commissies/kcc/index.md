@@ -31,6 +31,7 @@ Minimaal twee personen vervullen de rol van KCC. In het verleden o.a. door de vo
 
 | Jaar | Commissieleden |
 | ---- | -------------- |
+| 2024 | Harald Paterek, Mark Huizer |
 | 2023 | Brenda Langedijk, Jeroen Baten, Michael Boelen |
 | 2022 | Brenda Langedijk, Peter Spekreijse |
 | 2021 | Michael Boelen, Peter Spekreijse |
