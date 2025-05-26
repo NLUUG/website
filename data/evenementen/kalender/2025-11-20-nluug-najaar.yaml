@@ -18,4 +18,4 @@ event_location: Van der Valk Hotel Utrecht
 event_timezone: Europe/Amsterdam
 name: NLUUG najaarsconferentie 2025
 nluug_event: true
-highlight_on_homepage: false
+highlight_on_homepage: true
