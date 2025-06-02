@@ -8,6 +8,9 @@ tags:
 title: "Daniël van Eeden - TiDB: under the hood "
 speakers:
 - daniel-van-eeden
+#recording:
+#  embed:
+#    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-DanielVanEeden-TiDBUnderTheHood.mp4
 ---
 
 ## Abstract

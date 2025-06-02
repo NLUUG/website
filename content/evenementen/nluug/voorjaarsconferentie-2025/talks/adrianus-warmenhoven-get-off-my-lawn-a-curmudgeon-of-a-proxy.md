@@ -8,6 +8,9 @@ tags:
 title: "Adrianus Warmenhoven - Get off my lawn! A curmudgeon of a proxy..."
 speakers:
 - adrianus-warmenhoven
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-AdrianusWarmenhoven-GetOffMyLawn.mp4
 ---
 
 ## Abstract

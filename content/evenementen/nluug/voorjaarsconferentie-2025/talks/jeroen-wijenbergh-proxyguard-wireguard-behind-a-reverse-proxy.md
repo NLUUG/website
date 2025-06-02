@@ -8,6 +8,9 @@ tags:
 title: "Jeroen Wijenbergh - ProxyGuard - WireGuard behind a reverse proxy"
 speakers:
 - jeroen-wijenbergh
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-JeroenWijenbergh-ProxyGuardWireguardBehindReverseProxy.mp4
 ---
 
 ## Abstract

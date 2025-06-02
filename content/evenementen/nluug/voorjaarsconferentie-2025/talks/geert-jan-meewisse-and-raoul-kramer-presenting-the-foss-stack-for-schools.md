@@ -9,6 +9,9 @@ title: "Geert-Jan Meewisse and Raoul Kramer - Presenting the FOSS stack for scho
 speakers:
 - geert-jan-meewisse
 - raoul-kramer
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Geert-JanMeewisseRaoulKramer-PresentingTheFOSSStackForSchools.mp4
 ---
 
 ## Abstract
