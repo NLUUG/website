@@ -8,6 +8,9 @@ tags:
 title: "Geoff Bennett - Artificial Intelligence: A High Level Perspective on Environmental Aspects"
 speakers:
 - geoff-bennett 
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-GeoffBennett-ArtificialIntelligence-PerspectiveOnTheEnvironment.mp4
 ---
 
 ## Abstract

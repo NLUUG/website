@@ -8,6 +8,9 @@ tags:
 title: "Sake Blok - Stratoshark: Wireshark for system calls"
 speakers:
 - sake-blok
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-SakeBlok-StratosharkWiresharkForSyscalls.mp4
 ---
 
 ## Abstract

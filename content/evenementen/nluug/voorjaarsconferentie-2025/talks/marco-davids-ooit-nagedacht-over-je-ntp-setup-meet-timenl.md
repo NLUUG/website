@@ -5,9 +5,12 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Ooit nagedacht over je NTP-setup? Meet TimeNL!"
+title: "Marco Davids - Ooit nagedacht over je NTP-setup? Meet TimeNL!"
 speakers:
 - marco-davids
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-MarcoDavids-OoitNagedachtOverNTPTimeNL.mp4
 ---
 
 This presentation will be in Dutch.

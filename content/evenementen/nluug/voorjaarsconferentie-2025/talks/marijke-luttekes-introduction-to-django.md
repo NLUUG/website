@@ -8,6 +8,9 @@ tags:
 title: "Marijke Luttekes - Introduction to Django"
 speakers:
 - marijke-luttekes
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-MarijkeLuttekes-IntroductieDjango.mp4
 ---
 
 ## Abstract

@@ -8,6 +8,9 @@ tags:
 title: "Nicole Wajer - IPv6: The Internet's Best Kept Secret"
 speakers:
 - nicole-wajer
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-NicoleWajer-IPv6InternetBestKeptSecret.mp4
 ---
 
 ## Abstract
