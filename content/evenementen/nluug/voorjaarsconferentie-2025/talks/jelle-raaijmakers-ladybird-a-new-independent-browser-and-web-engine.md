@@ -8,6 +8,8 @@ tags:
 title: "Jelle Raaijmakers - Ladybird - a new, independent browser and web engine"
 speakers:
 - jelle-raaijmakers
+presentation:
+  filename: 2025-05-22-jelle-raaijmakers-ladybird-a-new-independent-browser-and-web-engine.pdf
 ---
 
 ## Abstract

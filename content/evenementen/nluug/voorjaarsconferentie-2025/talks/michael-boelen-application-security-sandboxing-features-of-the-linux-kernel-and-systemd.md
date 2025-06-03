@@ -8,6 +8,8 @@ tags:
 title: "Michael Boelen - Application security: sandboxing features of the Linux kernel and systemd"
 speakers:
 - michael-boelen
+presentation:
+  filename: 2025-05-22-michael-boelen-application-security-sandboxing-features-of-the-linux-kernel-and-systemd.pdf
 recording:
   embed:
     link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-MichaelBoelen-ApplicationSecuritySandboxingFeatures.mp4

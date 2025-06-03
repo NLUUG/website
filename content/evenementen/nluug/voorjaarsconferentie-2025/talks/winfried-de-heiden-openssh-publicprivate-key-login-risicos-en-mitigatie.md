@@ -8,6 +8,8 @@ tags:
 title: "Winfried de Heiden - OpenSSH public/private key login: risico’s en mitigatie"
 speakers:
 - winfried-de-heiden
+presentation:
+  filename: 2025-05-22-winfried-de-heiden-openssh-publicprivate-key-login-risicos-en-mitigatie.pdf
 recording:
   embed:
     link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-WinfriedDeHeiden-OpenSSHKeyLogin.mp4

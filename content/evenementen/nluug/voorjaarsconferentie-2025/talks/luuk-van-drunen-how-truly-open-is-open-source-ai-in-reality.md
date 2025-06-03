@@ -8,6 +8,8 @@ tags:
 title: 'Luuk van Drunen - How truly open is “open-source” AI in reality?'
 speakers:
 - luuk-van-drunen
+presentation:
+  filename: 2025-05-22-luuk-van-drunen-how-truly-open-is-open-source-ai-in-reality.pdf
 ---
 
 ## Abstract

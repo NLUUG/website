@@ -9,6 +9,8 @@ title: "Max Roeleveld and David Visscher - From Complexity to Simplicity: Our Cl
 speakers:
 - max-roeleveld
 - david-visscher
+presentation:
+  filename: 2025-05-22-max-roeleveld-and-david-visscher-from-complexity-to-simplicity-our-cloud-infrastructure-redesign.pdf
 ---
 
 ## Abstract
