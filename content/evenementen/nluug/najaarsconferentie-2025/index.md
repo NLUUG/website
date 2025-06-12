@@ -21,7 +21,10 @@ event_address:
   city: "Utrecht"
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
-event_description: "Najaarsconferentie 2024 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
+event_cfp_start_date: 2025-06-12
+event_cfp_close_date: 2025-09-11
+event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2025/cfp
+event_description: "Najaarsconferentie 2025 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_images:
 - /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
 event_members_only: true
@@ -32,4 +35,4 @@ event_organizers:
 event_status: "scheduled"
 ---
 
-Meer informatie over de Najaarsconferentie volgt.
+De Call for Proposal is geopend! Heb jij een leuk idee of inzending?
