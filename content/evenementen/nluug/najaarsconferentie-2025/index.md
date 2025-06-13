@@ -37,6 +37,7 @@ event_register_end_date: 2025-11-20
 event_register_link: "https://leden.nluug.nl/aanmelden/index.cgi?action=event"
 event_status: "scheduled"
 event_schedule:
+  hidden: true
 ---
 
 De Call for Proposal is geopend! Heb jij een leuk idee of inzending?
