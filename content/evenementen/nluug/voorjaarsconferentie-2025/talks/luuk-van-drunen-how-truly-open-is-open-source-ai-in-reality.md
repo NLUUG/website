@@ -10,6 +10,9 @@ speakers:
 - luuk-van-drunen
 presentation:
   filename: 2025-05-22-luuk-van-drunen-how-truly-open-is-open-source-ai-in-reality.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Luuk_van_Drunen_Hoe_open_is_open_source_AI_nou_echt.mp4
 ---
 
 ## Abstract

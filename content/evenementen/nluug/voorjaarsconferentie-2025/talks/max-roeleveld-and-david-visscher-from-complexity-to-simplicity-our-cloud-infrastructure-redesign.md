@@ -11,6 +11,9 @@ speakers:
 - david-visscher
 presentation:
   filename: 2025-05-22-max-roeleveld-and-david-visscher-from-complexity-to-simplicity-our-cloud-infrastructure-redesign.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Roeleveld_and_Visscher_From_Complexity_to_Simplicity.mp4
 ---
 
 ## Abstract

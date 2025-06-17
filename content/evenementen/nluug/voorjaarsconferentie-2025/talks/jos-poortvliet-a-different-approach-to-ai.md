@@ -10,6 +10,9 @@ speakers:
 - jos-poortvliet
 presentation:
   filename: 2025-05-22-jos-poortvliet-a-different-approach-to-ai.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Jos_Poortvliet_A_Different_Approache_to_AI.mp4
 ---
 
 ## Abstract
