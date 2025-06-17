@@ -10,9 +10,9 @@ speakers:
 - daniel-van-eeden
 presentation:
   filename: 2025-05-22-daniel-van-eeden-tidb-under-the-hood.pdf
-#recording:
-#  embed:
-#    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-DanielVanEeden-TiDBUnderTheHood.mp4
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Daniel_van_Eeden_TIDB_Under_the_hood.mp4
 ---
 
 ## Abstract
