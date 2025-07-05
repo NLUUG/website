@@ -103,7 +103,7 @@ event_schedule:
       talk:
         speaker: Maxim Burgerhout
         title: Developing containerized applications with the container development kit
-        link: 
+        link: talks/maxim-burgerhout-developing-containerized-applications-with-the-container-development-kit/
     - column:
       talk:
         speaker: Cor Nouws

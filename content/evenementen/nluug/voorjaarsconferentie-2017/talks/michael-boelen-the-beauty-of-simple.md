@@ -11,7 +11,7 @@ title: "Michael Boelen - The Beauty of Simple"
 speakers:
 - michael-boelen
 presentation:
-  filename: 2017-05-16-michael-boelen-the-beauty-of-simple
+  filename: 2017-05-16-michael-boelen-the-beauty-of-simple.pdf
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=3Cdg93wySpI
