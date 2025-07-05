@@ -202,7 +202,7 @@ event_schedule:
       talk:
         speaker: Kashyap Chamarthy
         title: A practical look at QEMU and libvirt block layer primitives
-        link: 
+        link: talks/kashyap-chamarthy-a-practical-look-at-qemu-and-libvirt-block-layer-primitives/
   - row:
     columns:
     - column:
