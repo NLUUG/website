@@ -127,7 +127,7 @@ event_schedule:
       talk:
         speaker: Michael Boelen
         title: The Beauty of Simple
-        link: 
+        link: talks/michael-boelen-the-beauty-of-simple/
   - row:
     columns:
     - column:
