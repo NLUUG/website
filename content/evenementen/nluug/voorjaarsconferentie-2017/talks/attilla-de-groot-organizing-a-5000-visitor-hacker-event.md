@@ -7,7 +7,7 @@ layout: event-talk
 tags:
 - sha2017
 - hacker-event
-title: "Attilla de Groot - organizing a 5000 visitor hacker event"
+title: "Attilla de Groot - Organizing a 5000 visitor hacker event"
 speakers:
 - attilla-de-groot
 presentation:
