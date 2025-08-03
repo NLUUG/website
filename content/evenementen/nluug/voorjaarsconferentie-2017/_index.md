@@ -145,7 +145,7 @@ event_schedule:
       talk:
         speaker: Attilla de Groot
         title: "Building an IP-EVPN fabric with Cumulus Linux"
-        link: 
+        link: talks/attilla-de-groot-building-an-ip-evpn-fabric-with-cumulus-Linux/
     - column:
       talk:
         speaker: Greg Slepak
