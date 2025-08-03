@@ -197,7 +197,7 @@ event_schedule:
       talk:
         speaker: Edward Lewis
         title: "2017 DNSSEC KSK Rollover"
-        link: 
+        link: talks/edward-lewis-2017-dnssec-ksk-rollover/
     - column:
       talk:
         speaker: Kashyap Chamarthy

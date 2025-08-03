@@ -6,7 +6,7 @@ description: ""
 layout: event-talk
 tags:
 - docker
-title: "Erwin de Keijzer en Roy Bauweraerts Running-docker-in-production"
+title: "Erwin de Keijzer en Roy Bauweraerts - Running-docker-in-production"
 speakers:
 - erwin-de-keijzer
 - roy-bauweraerts
