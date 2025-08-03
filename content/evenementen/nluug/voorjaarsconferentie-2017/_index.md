@@ -169,7 +169,7 @@ event_schedule:
       talk:
         speaker: Erwin de Keijzer en Roy Bauweraerts
         title: Running Docker in Production
-        link: talks/erwin-de-keijzer-roy-bauweraerts-running-docker-in-production/
+        link: talks/erwin-de-keijzer-roy-bauweraerts-running-docker-in-production/ 
     - column:
       talk:
         speaker: Ed Schouten
