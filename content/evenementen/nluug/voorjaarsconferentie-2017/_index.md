@@ -164,7 +164,7 @@ event_schedule:
       talk:
         speaker: Andrew Nelson
         title: "Lessons from deploying a multi-site application (IdM) using Ansible"
-        link: 
+        link: talks/andrew-nelson-lessons-from-deploying-a-multi-site-application-idm-using-ansible/
     - column:
       talk:
         speaker: Erwin de Keijzer en Roy Bauweraerts
