@@ -108,7 +108,7 @@ event_schedule:
       talk:
         speaker: Cor Nouws
         title: "LibreOffice Online"
-        link: 
+        link: talks/cor-nouws-libreoffice-and-collabora-online/
   - row:
     columns:
     - column:
