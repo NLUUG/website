@@ -216,7 +216,7 @@ event_schedule:
       talk:
         speaker: Tobias Oetiker
         title: "What's new with RRDtool and other stories from my GitHub repo"
-        link: 
+        link: talks/tobias-oetiker-whats-new-with-rrdtool-and-other-stories-from-my-github/
     - column:
       talk:
         speaker: Jean-Paul Saman
