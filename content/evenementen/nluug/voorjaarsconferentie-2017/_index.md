@@ -117,7 +117,7 @@ event_schedule:
       talk:
         speaker: Frank Scholten
         title: "Chroot on steroids - Lightweight containers with systemd-nspawn"
-        link: 
+        link: talks/frank-scholten-chroot-on-steroids-lightweight-containers-with-systemd-nspawn/
     - column:
       talk:
         speaker: Albert Witteveen
