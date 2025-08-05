@@ -4,7 +4,7 @@ categories:
 date: 2023-05-07T17:36:06+02:00
 description: "NLUUG Activiteiten"
 tags:
-- ftp
+- ftp-server
 - activiteiten
 title: "Activiteiten"
 ---

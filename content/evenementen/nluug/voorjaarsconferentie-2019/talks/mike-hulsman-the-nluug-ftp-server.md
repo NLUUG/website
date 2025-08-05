@@ -5,7 +5,7 @@ date: 2019-05-23T10:31:43+02:00
 description: "Een presentatie gegeven door Mike Hulsman over de FTP-server van de NLUUG. Over de geschiedenis van deze dienst en hoe operationeel beheer in zijn werk gaat."
 layout: event-talk
 tags:
-- ftp
+- ftp-server
 title: "Mike Hulsman - The NLUUG FTP server"
 speakers:
 - mike-hulsman

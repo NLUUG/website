@@ -6,7 +6,7 @@ date: 2024-12-17T16:14:12+00:00
 description: "Vanaf heden zal verkeer op onze FTP-server (ftp.nluug.nl) automatisch een redirect krijgen naar HTTPS. Alleen apt-clients zoals Debian, zal voor nu HTTP blijven."
 slug: ftp-server-standaard-via-https-beschikbaar
 tags:
-  - ftp
+  - ftp-server
 title: "FTP-server: ftp.nluug.nl standaard redirect naar HTTPS"
 related_members:
   - koen-de-jonge
