@@ -153,9 +153,9 @@ event_schedule:
         link: 
     - column:
       talk:
-        speaker: Ted Schipper en Tom Scholten
+        speaker: Tom Scholten
         title: Snow EV-meter, opensource thuislaad oplossing
-        link: 
+        link: talks/tom-scholten-snow-ev-meter-een-opensource-thuislaad-oplossing/
   - row:
     columns:
     - column:
