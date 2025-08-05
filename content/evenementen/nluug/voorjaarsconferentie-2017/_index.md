@@ -221,7 +221,7 @@ event_schedule:
       talk:
         speaker: Jean-Paul Saman
         title: VLC plays it all
-        link: 
+        link: talks/jean-paul-saman-vlc-plays-it-all/
   - row:
     columns:
     - column:
