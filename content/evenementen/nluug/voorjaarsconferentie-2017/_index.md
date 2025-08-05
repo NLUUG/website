@@ -98,7 +98,7 @@ event_schedule:
       talk:
         speaker: Rick van Rein
         title: "LillyDAP: Making LDAP small `n' simple"
-        link: 
+        link: talks/rick-van-rein-quick-der-and-lillydap/
     - column:
       talk:
         speaker: Maxim Burgerhout
