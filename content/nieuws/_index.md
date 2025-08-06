@@ -6,6 +6,7 @@ cascade:
     disabled: true
     disabled_by: Michael Boelen
 title: "Nieuwsberichten"
+layout: news
 type: section
 ---
 
