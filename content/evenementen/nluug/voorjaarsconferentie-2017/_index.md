@@ -150,7 +150,7 @@ event_schedule:
       talk:
         speaker: Greg Slepak
         title: "DNSChain and the future of DNS"
-        link: 
+        link: talks/greg-slepak-dnschain-and-the-future-of-dns/
     - column:
       talk:
         speaker: Tom Scholten
