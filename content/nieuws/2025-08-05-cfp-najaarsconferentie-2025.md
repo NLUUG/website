@@ -1,7 +1,7 @@
 ---
 author: patrick-reijnen
 categories:
-- nieuws
+- conferentie
 date: 2025-08-05T23:59:24+00:00
 description: "De Call for Proposals voor de najaarsconferentie 2025 is nog open tot 11 september! Wacht niet te lang en dien een voorstel in."
 slug: cfp-najaarsconferentie-2025
