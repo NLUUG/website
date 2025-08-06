@@ -9,7 +9,7 @@ tags:
 - thuisladen
 title: "Tom Scholten - Snow EV-meter, een opensource thuislaad oplossing"
 speakers:
-- tom-schouten
+- tom-scholten
 presentation: 
   filename: 
 recording:
