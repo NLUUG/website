@@ -192,7 +192,7 @@ event_schedule:
       talk:
         speaker: Zeger-Jan van de Weg
         title: "Faster from idea to production with GitLab"
-        link: 
+        link: talks/zeger-jan-van-de-weg-faster-from-idea-to-production-with-gitLab/
     - column:
       talk:
         speaker: Edward Lewis
