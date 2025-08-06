@@ -1,7 +1,7 @@
 {{ define "main" }}
   <section>
     <ul class="list">
-      {{ range .Pages.ByDate.Reverse }}
+      {{ range .Pages.ByPublishDate.Reverse }}
         <li>
           <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
           <hr class="hr-list">
