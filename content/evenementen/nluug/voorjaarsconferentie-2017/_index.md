@@ -122,7 +122,7 @@ event_schedule:
       talk:
         speaker: Albert Witteveen
         title: Using Elastic or Splunk for collaboration
-        link: 
+        link: talks/albert-witteveen-using-elastic-or-splunk-for-collaboration/
     - column:
       talk:
         speaker: Michael Boelen
