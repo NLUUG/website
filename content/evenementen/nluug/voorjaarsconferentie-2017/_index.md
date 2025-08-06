@@ -174,7 +174,7 @@ event_schedule:
       talk:
         speaker: Ed Schouten
         title: "Prometheus: een modern en schaalbaar monitoringsysteem"
-        link: 
+        link: talks/ed-schouten-prometheus-een-modern-en-schaalbaar-monitoringsysteem/
   - row:
     columns:
     - column:
