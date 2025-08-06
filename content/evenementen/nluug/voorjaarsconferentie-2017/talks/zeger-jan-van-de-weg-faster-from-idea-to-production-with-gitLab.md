@@ -12,7 +12,7 @@ title: "Zeger-Jan van de Weg - Faster from idea to production with GitLab"
 speakers:
 - zeger-jan-van-de-weg
 presentation: 
-  filename: 2017-05-16-zeger-jan-van-de-weg-faster-from-idea-to-production-with-gitLab.pdf
+  filename: 2017-05-16-zeger-jan-van-de-weg-faster-from-idea-to-production-with-gitlab.pdf
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=IS3qUpv_bqI
