@@ -25,7 +25,7 @@ In this talk I want to talk both about general ethical considerations, and speci
 
 RIPE Atlas is an extensive measurement network, where the vantage points (sources of measurements) are hosted by volunteers: mostly individuals at home, but also some institutions (ISPs, IXPs, academia, various other businesses). RIPE Atlas users are using someone else's Internet connection to do measurements.
 
-In order to recognise ethical considerations surrounding use of RIPE Atlas, we looked both into the historical considerations of engineers and scientists, and into practical constraints users should keep in mind, and we published some findings in this article. (https://labs.ripe.net/author/kistel/ethics-of-ripe-atlas-measurements/)
+In order to recognise ethical considerations surrounding use of RIPE Atlas, we looked both into the historical considerations of engineers and scientists, and into practical constraints users should keep in mind, and we published some findings at https://labs.ripe.net/author/kistel/ethics-of-ripe-atlas-measurements/
 
 ## Biography
 
