@@ -201,7 +201,7 @@ event_schedule:
       talk:
         speaker: John van Krieken
         title: "What's up in modern C++"
-        link: 
+        link: talks/john-van-krieken-whats-up-in-modern-cplusplus/
     - column:
       talk:
         speaker: Willem Jan Withagen
