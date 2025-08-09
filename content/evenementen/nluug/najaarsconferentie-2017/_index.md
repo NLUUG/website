@@ -173,7 +173,7 @@ event_schedule:
       talk:
         speaker: Daniel Kiper
         title: "EFI Secure Boot, shim, GRUB2"
-        link: 
+        link: talks/daniel-kiper-efi-secure-boot-shim-grub2/
     - column:
       talk:
         speaker: Ed Schouten en Ron Lievens
