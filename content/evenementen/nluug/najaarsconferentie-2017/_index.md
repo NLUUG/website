@@ -108,7 +108,7 @@ event_schedule:
       talk:
         speaker: Vesna Manojlovic
         title: "Ethics in Technology"
-        link: 
+        link: talks/vesna-manojlovic-ethics-in-technology/
   - row:
     columns:
     - column:
