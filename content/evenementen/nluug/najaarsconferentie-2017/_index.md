@@ -78,7 +78,7 @@ event_schedule:
         speaker: Teus Hagen
         title: "NLUUG: 35 tinten grijs"
         keynote: true
-        link: 
+        link: talks/teus-hagen-35-shades-of-grey-with-notes/
       center: true
       size: 3
   - row:
