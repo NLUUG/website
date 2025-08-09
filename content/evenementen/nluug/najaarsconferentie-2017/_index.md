@@ -98,7 +98,7 @@ event_schedule:
       talk:
         speaker: Sake Blok
         title: "Challenge: Can you esPcape?"
-        link: 
+        link: talks/sake-blok-challenge-can-you-espcape/
     - column:
       talk:
         speaker: Mike Place
