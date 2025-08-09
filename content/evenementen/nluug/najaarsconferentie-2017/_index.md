@@ -220,7 +220,7 @@ event_schedule:
       talk:
         speaker: Anne Jan Brouwer en Bas van Sisseren
         title: SHA2017 badge
-        link: 
+        link: talks/anne-jan-brouwer-en-bas-van-sisseren-sha2017-badge/
     - column:
       talk:
         speaker: Christine Yen
