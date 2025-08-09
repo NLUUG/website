@@ -154,7 +154,7 @@ event_schedule:
       talk:
         speaker: Rudi van Drunen
         title: "Things on the Internet: An introduction to the REAL world"
-        link: 
+        link: talks/rudi-van-drunen-things-on-the-internet-an-introduction-to-the-real-world/
     - column:
       talk:
         speaker: Noud Aldenhoven
