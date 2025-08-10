@@ -6,7 +6,7 @@
   "honorary_member": true,
   "nationality": "Dutch",
   "profile_page": "/evenementen/sprekers/teus-hagen/",
-  "thumbnail": "",
+  "sameas": "",
   "social": {
     "github": "",
     "twitter": "",
@@ -15,4 +15,5 @@
     "mastodon": "",
     "mastodon_url": ""
   }
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo-200x200.png"
 }
