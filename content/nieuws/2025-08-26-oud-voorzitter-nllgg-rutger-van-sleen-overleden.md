@@ -10,4 +10,6 @@ tags:
 title: "Oud voorzitter NLLGG Rutger Van Sleen overleden"
 ---
 
-Ons bereikte het tragische bericht dat vorige week Rutger van Sleen (DJSlash) is overleden. Hij was als Linux icoon binnen Nederland van 2010 tot 2022 bestuurslid en voorzitter van een van onze zusterverenigingen: de NLLGG (Nederlandse Linux Gebruikers Groep). Hiermee heeft hij bijgedragen aan de groei en het voortbestaan van de NLLGG, en het zowel hobbymatige als professionele gebruik van Linux en OpenSource in het bijzonder binnen Nederland en daarbuiten. We herinneren hem als iemand die de Community voorop stelde, maar zelf vaak op de achtergrond bleef. We wensen zijn familie, in het bijzonder zijn vrouw en kinderen veel sterkte in deze moeilijke tijd.
+Ons bereikte het tragische bericht dat vorige week Rutger van Sleen (DJSlash) is overleden. Hij was als Linux icoon binnen Nederland van 2010 tot 2022 bestuurslid en voorzitter van een van onze zusterverenigingen: de NLLGG (Nederlandse Linux Gebruikers Groep). Hiermee heeft hij bijgedragen aan de groei en het voortbestaan van de NLLGG, en het zowel hobbymatige als professionele gebruik van Linux en OpenSource in het bijzonder binnen Nederland en daarbuiten. 
+
+We herinneren hem als iemand die de Community voorop stelde, maar zelf vaak op de achtergrond bleef. We wensen zijn familie, in het bijzonder zijn vrouw en kinderen veel sterkte in deze moeilijke tijd.
