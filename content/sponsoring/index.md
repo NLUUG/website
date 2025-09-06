@@ -2,10 +2,13 @@
 categories:
 date: 2024-02-01T11:39:06+01:00
 description: "Sponsoring vormt samen met lidmaatschapsgelden de basis voor onze inkomsten. Op deze pagina beschrijven we welke opties er zijn qua sponsoring en de voordelen voor onze sponsors."
+review:
+  last_review: 2025-09-06
+  reviewed_by:
+  period: 365
 tags:
-- sponsoring
-- vereniging
-slug:
+  - sponsoring
+  - vereniging
 title: "Sponsoring"
 ---
 
@@ -17,7 +20,7 @@ Binnen onze vereniging kennen we meerdere soorten sponsoren. Hierbij valt te den
 
 ### Technisch
 
-[ProcoliX](https://www.procolix.com/) voorziet onze vereniging van de technische infrastructuur. Zaken zoals virtuele systemen, DNS en email zijn enkele voorbeelden die worden geleverd aan onze vereniging. Door deze vorm van sponsoring besparen we op operationele kosten voor de infrastructuur. Ons beheerteam bestaat gedeeltelijk uit leden die werkzaam zijn voor deze sponsor.
+ProcoliX voorziet onze vereniging van de technische infrastructuur. Zaken zoals virtuele systemen, DNS en email zijn enkele voorbeelden die worden geleverd aan onze vereniging. Door deze vorm van sponsoring besparen we op operationele kosten voor de infrastructuur. Ons beheerteam bestaat gedeeltelijk uit leden die werkzaam zijn voor deze sponsor.
 
 {{< insert-sponsor id="procolix" >}}
 
