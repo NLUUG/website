@@ -4,7 +4,7 @@
   "email": "",
   "gender": "male",
   "nationality": "Dutch",
-  "profile_page": "",
+  "profile_page": "/evenementen/sprekers/andrew-tanenbaum/",
   "thumbnail": "",
   "websites": [{
     "id": 1,
@@ -19,5 +19,7 @@
     "mastodon": "",
     "mastodon_url": "",
     "twitter": ""
-  }
+  },
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo.svg"
+
 }

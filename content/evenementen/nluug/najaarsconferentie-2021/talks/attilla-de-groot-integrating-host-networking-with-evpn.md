@@ -5,6 +5,8 @@ description:
 layout: event-talk
 slug:
 tags:
+- evpn
+- host-bast-networking
 title: "Attilla de Groot - Integrating host networking with EVPN"
 speakers:
 - attilla-de-groot

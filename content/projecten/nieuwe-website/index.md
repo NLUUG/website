@@ -9,7 +9,7 @@ tags:
 slug:
 title: "Project: Nieuwe website"
 project:
-  title: Vernieuwen website
+  title: Vernieuwen website (AFGEROND)
   description: Onze huidige website is verouderd qua techniek en content. Dit project zal de onderliggende techniek vervangen en alle content herzien. De huidige website blijft beschikbaar als archief en tevens als fallback indien bepaalde content (nog) niet is overgezet.
   tasks:
   - task:
@@ -58,7 +58,7 @@ project:
     name: Aanbrengen van Structured Data (Schema.org)
     description: Schema.org is een methode om data, content en elementen te markeren binnen webpagina's. Het is een initiatief sinds juni 2011 van bedrijven zoals Google, Microsoft, Yahoo en Yandex om de beschikbare data beter te kunnen verwerken.
     goal: Betere indexering van onze data en content
-    finished: false
+    finished: true
     subtasks:
     - name: Template aanmaken zodat dynamisch het juiste Schema geactiveerd wordt
       finished: true
@@ -69,7 +69,7 @@ project:
     - name: Toevoegen Schema Event
       finished: true
     - name: Toevoegen Schema FAQ
-      finished: false
+      finished: true
     - name: Toevoegen Schema Person
       finished: true
     - name: Toevoegen Schema SiteNavigationElement
@@ -99,7 +99,7 @@ project:
       url: /website/sitemap/
     - name: Sitemap aanmelden bij zoekmachines
       description: Nadat website live staat mag XML-sitemap aangemeld worden bij zoekmachines voor snellere (her)indexering.
-      finished: false
+      finished: true
   - task:
     name: Implementeren van feeds
     description: Toevoegen van RSS/Atom/JSON-feed
@@ -122,17 +122,17 @@ project:
     name: Documenteren van website-structuur en -techniek
     description: Beschrijven van de diverse componenten binnen de website, inclusief hoe men kan bijdragen aan het geheel.
     goal: Volledig inzicht geven aan leden en bezoekers over hoe onze website is opgebouwd. Hierbij is dan te denken aan de techniek, maar ook het bijbehorende beheer.
-    finished: false
+    finished: true
     subtasks:
     - name: Beheer en Onderhoud
       description: Beschrijven welk onderhoud er nodig is aan de webserver, de website zelf en de gebruikte softwarecomponenten.
-      finished: false
+      finished: true
       link:
         name: Beheer en Onderhoud
         url: /website/beheer-en-onderhoud/
     - name: Tips voor het leveren van een bijdrage aan de website
       description: Artikel over op welke manier leden en niet-leden een bijdrage kunnen leveren, zoals het indienen van een nieuw evenement, het melden van een foutje in de tekst, etc.
-      finished: false
+      finished: true
     - name: Stijlgids
       description: Beschrijven van gebruikte kleuren, hoe content opgebouwd dient te worden aan de hand van headings, tabellen, afbeeldingen, etc
       comment: Eerste versie van stijlgids staat online, dit zal een document worden dat gedurende de tijd bijgewerkt wordt.
@@ -146,5 +146,5 @@ project:
       link:
         name: Stats for Nerds
         url: /website/stats-for-nerds/
-  finished: false
+  finished: true
 ---

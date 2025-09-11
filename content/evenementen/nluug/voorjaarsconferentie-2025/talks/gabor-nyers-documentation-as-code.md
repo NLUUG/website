@@ -8,6 +8,8 @@ tags:
 title: "Gábor Nyers - Documentation as code"
 speakers:
 - gabor-nyers
+presentation:
+  filename: 2025-05-22-gabor-nyers-documentation-as-code.pdf
 ---
 
 ## Abstract

@@ -8,6 +8,8 @@ tags:
 title: "Marco Davids - Ooit nagedacht over je NTP-setup? Meet TimeNL!"
 speakers:
 - marco-davids
+presentation:
+  filename: 2025-05-22-marco-davids-ooit-nagedacht-over-je-ntp-setup-meet-timenl.pdf
 recording:
   embed:
     link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-MarcoDavids-OoitNagedachtOverNTPTimeNL.mp4

@@ -1,0 +1,6 @@
+# Mediatypes
+
+['application/atom+xml']
+  suffixes = ['atom']
+
+# EOF

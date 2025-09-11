@@ -22,13 +22,13 @@ project:
     goal: Data één-op-één gelijk tussen beide servers
     finished: true
   - task:
-    name: Glasvezel connectie tussen Protagio en Surf
-    goal: Hergebruik van de internetconnectie van Surf, met een snelle glasvezel verbinding tussen Protagio en Surf
+    name: Glasvezel connectie Surf naar 100GB
+    goal: Hergebruik van de internetconnectie van Surf, met een glasvezel connectie upgrade naar 100GB
     finished: false
   - task:
     name: Inrichten updates van alle pakketten
     description: Het updaten van pakketten vanaf de bron moet weer ingeregeld worden, zodat de nieuwe FTP omgeving weer bij de tijd is met pakketversies
     goal: Alle pakketten weer in sync met hun bron
     state: in-progress
-    finished: false
+    finished: true
 ---

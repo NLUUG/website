@@ -7,7 +7,7 @@ description: "Leer meer over het FTP server beheerteam. Zij dragen zorg voor tec
 slug:
 tags:
 - organisatie
-- ftp
+- ftp-server
 title: "FTP-beheerteam"
 type: team
 team_members:

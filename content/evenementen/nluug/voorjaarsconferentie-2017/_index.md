@@ -98,17 +98,17 @@ event_schedule:
       talk:
         speaker: Rick van Rein
         title: "LillyDAP: Making LDAP small `n' simple"
-        link: 
+        link: talks/rick-van-rein-quick-der-and-lillydap/
     - column:
       talk:
         speaker: Maxim Burgerhout
         title: Developing containerized applications with the container development kit
-        link: 
+        link: talks/maxim-burgerhout-developing-containerized-applications-with-the-container-development-kit/
     - column:
       talk:
         speaker: Cor Nouws
         title: "LibreOffice Online"
-        link: 
+        link: talks/cor-nouws-libreoffice-and-collabora-online/
   - row:
     columns:
     - column:
@@ -117,17 +117,17 @@ event_schedule:
       talk:
         speaker: Frank Scholten
         title: "Chroot on steroids - Lightweight containers with systemd-nspawn"
-        link: 
+        link: talks/frank-scholten-chroot-on-steroids-lightweight-containers-with-systemd-nspawn/
     - column:
       talk:
         speaker: Albert Witteveen
         title: Using Elastic or Splunk for collaboration
-        link: 
+        link: talks/albert-witteveen-using-elastic-or-splunk-for-collaboration/
     - column:
       talk:
         speaker: Michael Boelen
         title: The Beauty of Simple
-        link: 
+        link: talks/michael-boelen-the-beauty-of-simple/
   - row:
     columns:
     - column:
@@ -145,17 +145,17 @@ event_schedule:
       talk:
         speaker: Attilla de Groot
         title: "Building an IP-EVPN fabric with Cumulus Linux"
-        link: 
+        link: talks/attilla-de-groot-building-an-ip-evpn-fabric-with-cumulus-linux/
     - column:
       talk:
         speaker: Greg Slepak
         title: "DNSChain and the future of DNS"
-        link: 
+        link: talks/greg-slepak-dnschain-and-the-future-of-dns/
     - column:
       talk:
-        speaker: Ted Schipper en Tom Scholten
+        speaker: Tom Scholten
         title: Snow EV-meter, opensource thuislaad oplossing
-        link: 
+        link: talks/tom-scholten-snow-ev-meter-een-opensource-thuislaad-oplossing/
   - row:
     columns:
     - column:
@@ -164,17 +164,17 @@ event_schedule:
       talk:
         speaker: Andrew Nelson
         title: "Lessons from deploying a multi-site application (IdM) using Ansible"
-        link: 
+        link: talks/andrew-nelson-lessons-from-deploying-a-multi-site-application-idm-using-ansible/
     - column:
       talk:
         speaker: Erwin de Keijzer en Roy Bauweraerts
         title: Running Docker in Production
-        link: 
+        link: talks/erwin-de-keijzer-roy-bauweraerts-running-docker-in-production/ 
     - column:
       talk:
         speaker: Ed Schouten
         title: "Prometheus: een modern en schaalbaar monitoringsysteem"
-        link: 
+        link: talks/ed-schouten-prometheus-een-modern-en-schaalbaar-monitoringsysteem/
   - row:
     columns:
     - column:
@@ -192,17 +192,17 @@ event_schedule:
       talk:
         speaker: Zeger-Jan van de Weg
         title: "Faster from idea to production with GitLab"
-        link: 
+        link: talks/zeger-jan-van-de-weg-faster-from-idea-to-production-with-gitlab/
     - column:
       talk:
         speaker: Edward Lewis
         title: "2017 DNSSEC KSK Rollover"
-        link: 
+        link: talks/edward-lewis-2017-dnssec-ksk-rollover/
     - column:
       talk:
         speaker: Kashyap Chamarthy
         title: A practical look at QEMU and libvirt block layer primitives
-        link: 
+        link: talks/kashyap-chamarthy-a-practical-look-at-qemu-and-libvirt-block-layer-primitives/
   - row:
     columns:
     - column:
@@ -211,17 +211,17 @@ event_schedule:
       talk:
         speaker: Attilla de Groot
         title: Organizing a 5000 visitor hacker event
-        link: 
+        link: talks/attilla-de-groot-organizing-a-5000-visitor-hacker-event/
     - column:
       talk:
         speaker: Tobias Oetiker
         title: "What's new with RRDtool and other stories from my GitHub repo"
-        link: 
+        link: talks/tobias-oetiker-whats-new-with-rrdtool-and-other-stories-from-my-github/
     - column:
       talk:
         speaker: Jean-Paul Saman
         title: VLC plays it all
-        link: 
+        link: talks/jean-paul-saman-vlc-plays-it-all/
   - row:
     columns:
     - column:

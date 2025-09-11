@@ -10,6 +10,9 @@ speakers:
 - jelle-raaijmakers
 presentation:
   filename: 2025-05-22-jelle-raaijmakers-ladybird-a-new-independent-browser-and-web-engine.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Jelle_Raaijmakers_Ladybird.mp4
 ---
 
 ## Abstract

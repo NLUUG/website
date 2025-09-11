@@ -8,6 +8,9 @@ tags:
 title: "Kairo de Araujo - Securing the Software Supply Chain: Open Source for the SDLC"
 speakers:
 - kairo-de-araujo
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2025-05-22-vj25/NLUUG-VJ25-Kairo_de_Araujo_Securing_the_Software_Supply_Chain.mp4
 ---
 
 ## Abstract
