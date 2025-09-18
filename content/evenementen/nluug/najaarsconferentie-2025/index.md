@@ -22,7 +22,7 @@ event_address:
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
 event_cfp_start_date: 2025-06-12
-event_cfp_close_date: 2025-09-11
+event_cfp_close_date: 2025-10-07
 event_cfp_link: https://cfp.nluug.nl/nluug-najaarsconferentie-2025/cfp
 event_description: "Najaarsconferentie 2025 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_images:
