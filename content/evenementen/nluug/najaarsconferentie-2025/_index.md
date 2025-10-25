@@ -101,18 +101,18 @@ event_schedule:
       time: 11:00
     - column:
       talk:
-        speaker: 
-        title:  
+        speaker: Cheryl Andrea
+        title: "Traffic at 3am?"
         link: 
     - column:
       talk:
-        speaker: 
-        title:  
+        speaker: Michael Boelen
+        title: "Linux speedrun: systemd"
         link:  
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Riccardo Stagni
+        title: "IPv6 - Are we there yet? No. Are we moving? Mostly"
         link: 
   - row:
     columns:
@@ -126,18 +126,18 @@ event_schedule:
       time: 11:50
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Joost Grunwald
+        title: "Beyond the Prompt: Architecting Agentic LLMs for Autonomous Security Testing"
         link:  
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Albert Witteveen
+        title: "Librelivre.nl PDF to Epub conversion on a GTX 970"
         link:  
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Kristof Provost
+        title: "A packet's journey through pf"
         link:  
   - row:
     columns:
@@ -146,6 +146,13 @@ event_schedule:
     - column:
       textfield:
         text: Lunch
+      center: true
+      size: 3
+    - column:
+      time: 13:10
+    - column:
+      textfield:
+        text: ALV
       center: true
       size: 3
   - row:
