@@ -108,7 +108,7 @@ event_schedule:
       talk:
         speaker: Michael Boelen
         title: "Linux speedrun: systemd"
-        link:  
+        link: talks/michael-boelen-linux-speedrun-systemd/
     - column:
       talk:
         speaker: Riccardo Stagni
@@ -170,7 +170,7 @@ event_schedule:
       talk:
         speaker: Erik Mols
         title: "One Lomiri to rule all"
-        link: 
+        link: talks/erik-mols-one-lomiri-to-rule-all/
     - column:
       talk:
         speaker: Ijskimo (Marcel van der Velde)
@@ -195,7 +195,7 @@ event_schedule:
       talk:
         speaker: Joost van Dijk
         title: "OpenSSH + FIDO"
-        link: 
+        link: talks/joost-van-dijk-openssh-fido/
     - column:
       talk:
         speaker: Alex Hoyau
@@ -222,8 +222,8 @@ event_schedule:
     - column:
       talk:
         speaker: Kris Buytaert
-        title: Bow for me , for I am Coroot
-        link: 
+        title: Bow for me, for I am Coroot
+        link: talks/kris-buytaert-bow-for-me-for-I-am-coroot/
     - column:
       talk:
         speaker: Henro Veijer
