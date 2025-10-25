@@ -5,9 +5,8 @@ description:
 layout: event-talk
 slug:
 tags:
-- Cryptography
-- PQC
-- Post Quantum Cryptography
+- Information Security
+- Air-gapped
 title: "Algemene Inlichtingen- en Veiligheidsdienst - De paradox van informatiebeveiliging in zeer hoog beveiligde air-gapped IT landschap"
 speakers:
 - aivd
