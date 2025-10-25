@@ -148,6 +148,8 @@ event_schedule:
         text: Lunch
       center: true
       size: 3
+  - row:
+    columns:
     - column:
       time: 13:10
     - column:
@@ -161,18 +163,18 @@ event_schedule:
       time: 14:00
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Frank Breedijk
+        title: "Frank talks AI, keynote style"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Erik Mols
+        title: "One Lomiri to rule all"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Ijskimo (Marcel van der Velde)
+        title: "Maar we dóen al phishing tests hoor!"
         link:  
   - row:
     columns:
@@ -186,18 +188,18 @@ event_schedule:
       time: 14:50
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Ewald Beekman
+        title: "AI Tips, Tricks & Demo's"
         link:  
     - column:
       talk:
-        speaker: 
-        title:  
+        speaker: Joost van Dijk
+        title: "OpenSSH + FIDO"
         link: 
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Alex Hoyau
+        title: "Less Maintenance, More Freedom: Rethinking website production with Silex and WordPress"
         link:  
   - row:
     columns:
@@ -214,18 +216,18 @@ event_schedule:
       time: 16:00
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Vitaly Wool
+        title: "Moving kernel swapping infrastructure to Rust"
         link:  
     - column:
       talk:
-        speaker: 
-        title: 
+        speaker: Kris Buytaert
+        title: Bow for me , for I am Coroot
         link: 
     - column:
       talk:
-        speaker:  
-        title: 
+        speaker: Henro Veijer
+        title: "Omweg naar Open: Mijn FOSS-avontuur tussen gemak en autonomie"
         link: 
   - row:
     columns:
@@ -236,26 +238,19 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 16:50
+      time: 16:55
     - column:
       talk:
-        speaker:  
-        title: 
+        speaker: Algemene Inlichtingen- en Veiligheidsdienst
+        title: "De paradox van informatiebeveiliging in zeer hoog beveiligde air-gapped IT landschap"
+        keynote: true
         link: 
-    - column:
-      talk:
-        speaker: 
-        title: 
-        link: 
-    - column:
-      talk:
-        speaker: 
-        title: 
-        link: 
+      center: true
+      size: 3
   - row:
     columns:
     - column:
-      time: 17:35
+      time: 17:40
     - column:
       textfield:
         text: Borrel, gesponsord door AT Computing
