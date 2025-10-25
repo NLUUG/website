@@ -83,7 +83,7 @@ event_schedule:
         speaker: Oscar Koeroo
         title: "Post quantum crypto: a current state of affaires"
         keynote: true
-        link:  
+        link: talks/oscar-koeroo-post-quantum-crypto-a-current-state-of-affaires/
       center: true
       size: 3
   - row:
@@ -244,7 +244,7 @@ event_schedule:
         speaker: Algemene Inlichtingen- en Veiligheidsdienst
         title: "De paradox van informatiebeveiliging in zeer hoog beveiligde air-gapped IT landschap"
         keynote: true
-        link: 
+        link: talks/aivd-de-paradox-van-informatiebeveiliging-in-zeer-hoog-beveiligde-air-gapped-it-landschap/
       center: true
       size: 3
   - row:
