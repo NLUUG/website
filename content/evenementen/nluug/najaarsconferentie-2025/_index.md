@@ -133,7 +133,7 @@ event_schedule:
       talk:
         speaker: Albert Witteveen
         title: "Librelivre.nl PDF to Epub conversion on a GTX 970"
-        link:  
+        link:  talks/albert-witteveen-librelivre-nl-pdf-to-epub-conversion-on-a-gtx-970/
     - column:
       talk:
         speaker: Kristof Provost
