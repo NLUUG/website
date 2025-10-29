@@ -128,7 +128,7 @@ event_schedule:
       talk:
         speaker: Joost Grunwald
         title: "Beyond the Prompt: Architecting Agentic LLMs for Autonomous Security Testing"
-        link:  
+        link:  talks/joost-grunwald-beyond-the-prompt-architecting-agentic-llms-for-autonomous-security-testing/
     - column:
       talk:
         speaker: Albert Witteveen
@@ -138,7 +138,7 @@ event_schedule:
       talk:
         speaker: Kristof Provost
         title: "A packet's journey through pf"
-        link:  
+        link:  talks/kristof-provost-a-packets-journey-through-pf/
   - row:
     columns:
     - column:
