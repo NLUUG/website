@@ -218,7 +218,7 @@ event_schedule:
       talk:
         speaker: Vitaly Wool
         title: "Moving kernel swapping infrastructure to Rust"
-        link:  
+        link: talks/vitaly-wool-moving-kernel-swapping-infrastructure-to-rust/ 
     - column:
       talk:
         speaker: Kris Buytaert
