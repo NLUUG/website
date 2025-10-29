@@ -103,7 +103,7 @@ event_schedule:
       talk:
         speaker: Cheryl Andrea
         title: "Traffic at 3am?"
-        link: 
+        link: talks/cheryl-andrea-traffic-at-3am/
     - column:
       talk:
         speaker: Michael Boelen
@@ -113,7 +113,7 @@ event_schedule:
       talk:
         speaker: Riccardo Stagni
         title: "IPv6 - Are we there yet? No. Are we moving? Mostly"
-        link: 
+        link: talks/riccardo-stagni-ipv6-are-we-there-yet-no-are-we-moving-mostly/
   - row:
     columns:
     - column:

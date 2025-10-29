@@ -1,0 +1,21 @@
+{
+  "id": "cheryl-andrea",
+  "name": "Cheryl Andrea",
+  "email": "",
+  "gender": "female",
+  "honorary_member": false,
+  "nationality": "",
+  "profile_page": "",
+  "sameas": "",
+  "social": {
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo.svg"
+}
