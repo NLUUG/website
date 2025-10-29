@@ -165,7 +165,7 @@ event_schedule:
       talk:
         speaker: Frank Breedijk
         title: "Frank talks AI, keynote style"
-        link: 
+        link: talks/frank-breedijk-frank-talks-ai-keynote-style/
     - column:
       talk:
         speaker: Erik Mols
@@ -175,7 +175,7 @@ event_schedule:
       talk:
         speaker: Ijskimo (Marcel van der Velde)
         title: "Maar we dóen al phishing tests hoor!"
-        link:  
+        link:  talks/ijskimo-marcel-van-der-velde-maar-we-doen-al-phishing-tests-hoor/
   - row:
     columns:
     - column:
