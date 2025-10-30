@@ -190,7 +190,7 @@ event_schedule:
       talk:
         speaker: Ewald Beekman
         title: "AI Tips, Tricks & Demo's"
-        link:  
+        link:  talks/ewald-beekman-ai-tips-tricks-and-demos/
     - column:
       talk:
         speaker: Joost van Dijk
@@ -200,7 +200,7 @@ event_schedule:
       talk:
         speaker: Alex Hoyau
         title: "Less Maintenance, More Freedom: Rethinking website production with Silex and WordPress"
-        link:  
+        link:  talks/alex-hoyau-less-maintenance-more-freedom-rethinking-website-production-with-silex-and-wordpress/
   - row:
     columns:
     - column:
@@ -228,7 +228,7 @@ event_schedule:
       talk:
         speaker: Henro Veijer
         title: "Omweg naar Open: Mijn FOSS-avontuur tussen gemak en autonomie"
-        link: 
+        link: talks/henro-veijer-omweg-naar-open-mijn-foss-avontuur-tussen-gemak-en-autonomie/
   - row:
     columns:
     - column:
