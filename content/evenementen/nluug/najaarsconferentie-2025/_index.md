@@ -223,7 +223,7 @@ event_schedule:
       talk:
         speaker: Kris Buytaert
         title: Bow for me, for I am Coroot
-        link: talks/kris-buytaert-bow-for-me-for-I-am-coroot/
+        link: talks/kris-buytaert-bow-for-me-for-i-am-coroot/
     - column:
       talk:
         speaker: Henro Veijer
