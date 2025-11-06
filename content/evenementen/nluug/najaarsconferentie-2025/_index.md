@@ -47,11 +47,11 @@ event_schedule:
   - header:
     width: 10
   - header:
-    text: Zaal 1 (Oudegracht 1)
+    text: Zaal 1 (Oudegracht 1 en 2)
     center: true
     width: 30
   - header:
-    text: Zaal 2 (Oudegracht 2)
+    text: Zaal 2 (Nieuwegracht 2)
     center: true
     width: 30
   - header:
@@ -256,7 +256,7 @@ event_schedule:
       time: 17:40
     - column:
       textfield:
-        text: Borrel, gesponsord door AT Computing
+        text: Borrel
       center: true
       size: 3
 ---
