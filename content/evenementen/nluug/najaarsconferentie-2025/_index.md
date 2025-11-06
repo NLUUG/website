@@ -84,6 +84,7 @@ event_schedule:
     - column:
       talk:
         speaker: Oscar Koeroo
+        speaker_id: oscar-koeroo
         title: "Post quantum crypto: a current state of affaires"
         keynote: true
         link: talks/oscar-koeroo-post-quantum-crypto-a-current-state-of-affaires/
@@ -105,16 +106,19 @@ event_schedule:
     - column:
       talk:
         speaker: Cheryl Andrea
+        speaker_id: cheryl-andrea
         title: "Traffic at 3am?"
         link: talks/cheryl-andrea-traffic-at-3am/
     - column:
       talk:
         speaker: Michael Boelen
+        speaker_id: michael-boelen
         title: "Linux speedrun: systemd"
         link: talks/michael-boelen-linux-speedrun-systemd/
     - column:
       talk:
         speaker: Riccardo Stagni
+        speaker_id: riccardo-stagni
         title: "IPv6 - Are we there yet? No. Are we moving? Mostly"
         link: talks/riccardo-stagni-ipv6-are-we-there-yet-no-are-we-moving-mostly/
   - row:
@@ -130,16 +134,19 @@ event_schedule:
     - column:
       talk:
         speaker: Joost Grunwald
+        speaker_id: joost-grunwald
         title: "Beyond the Prompt: Architecting Agentic LLMs for Autonomous Security Testing"
         link:  talks/joost-grunwald-beyond-the-prompt-architecting-agentic-llms-for-autonomous-security-testing/
     - column:
       talk:
         speaker: Albert Witteveen
+        speaker_id: albert-witteveen
         title: "Librelivre.nl PDF to Epub conversion on a GTX 970"
         link:  talks/albert-witteveen-librelivre-nl-pdf-to-epub-conversion-on-a-gtx-970/
     - column:
       talk:
         speaker: Kristof Provost
+        speaker_id: kristof-provost
         title: "A packet's journey through pf"
         link:  talks/kristof-provost-a-packets-journey-through-pf/
   - row:
@@ -167,11 +174,13 @@ event_schedule:
     - column:
       talk:
         speaker: Frank Breedijk
+        speaker_id: frank-breedijk
         title: "Frank talks AI, keynote style"
         link: talks/frank-breedijk-frank-talks-ai-keynote-style/
     - column:
       talk:
         speaker: Erik Mols
+        speaker_id: erik-mols
         title: "One Lomiri to rule all"
         link: talks/erik-mols-one-lomiri-to-rule-all/
     - column:
@@ -192,16 +201,19 @@ event_schedule:
     - column:
       talk:
         speaker: Ewald Beekman
+        speaker_id: ewald-beekman
         title: "AI Tips, Tricks & Demo's"
         link:  talks/ewald-beekman-ai-tips-tricks-and-demos/
     - column:
       talk:
         speaker: Joost van Dijk
+        speaker_id: joost-van-dijk
         title: "OpenSSH + FIDO"
         link: talks/joost-van-dijk-openssh-fido/
     - column:
       talk:
         speaker: Alex Hoyau
+        speaker_id: alex-hoyau
         title: "Less Maintenance, More Freedom: Rethinking website production with Silex and WordPress"
         link:  talks/alex-hoyau-less-maintenance-more-freedom-rethinking-website-production-with-silex-and-wordpress/
   - row:
@@ -220,16 +232,19 @@ event_schedule:
     - column:
       talk:
         speaker: Vitaly Wool
+        speaker_id: vitaly-wool
         title: "Moving kernel swapping infrastructure to Rust"
         link: talks/vitaly-wool-moving-kernel-swapping-infrastructure-to-rust/ 
     - column:
       talk:
         speaker: Kris Buytaert
+        speaker_id: kris-buytaert
         title: Bow for me, for I am Coroot
         link: talks/kris-buytaert-bow-for-me-for-i-am-coroot/
     - column:
       talk:
         speaker: Henro Veijer
+        speaker_id: henro-veijer
         title: "Omweg naar Open: Mijn FOSS-avontuur tussen gemak en autonomie"
         link: talks/henro-veijer-omweg-naar-open-mijn-foss-avontuur-tussen-gemak-en-autonomie/
   - row:
