@@ -1,0 +1,30 @@
+{
+  "id": "marcel-van-der-velde",
+  "name": "Marcel van der Velde",
+  "email": "",
+  "gender": "Male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "profile_page": "/evenementen/sprekers/marcel-van-der-velde/",
+  "sameas": "",
+  "social": {
+    "gitlab": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/marcelvandervelde/",
+    "mastodon": "@ijskimo@pixelfed.com",
+    "mastodon_url": "",
+    "twitter": ""
+  },
+  "thumbnail": "/afbeeldingen/personen/marcel-van-der-velde-200x200.jpg",
+  "websites": [{
+    "id": 1,
+    "name": "Angrynerds Podcast",
+    "sameas": true,
+    "url": "https://angrynerdspodcast.nl/"
+    },{
+    "id": 2,
+    "name": "Persoonlijke Website",
+    "sameas": true,
+    "url": "https://marcelvandervelde.nl/"    
+    }]
+}
