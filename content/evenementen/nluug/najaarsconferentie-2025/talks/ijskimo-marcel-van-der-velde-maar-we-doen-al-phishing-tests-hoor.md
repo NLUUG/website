@@ -8,7 +8,7 @@ tags:
 - phishing
 title: "IJskimo (Marcel van der Velde) - Maar we dóen al phishing tests hoor!"
 speakers:
-- frank-breedijk
+- marcel-van-der-velde
 recording:
   embed:
     link: 
