@@ -13,6 +13,8 @@ presentation:
 recording:
   platform:
   url:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-1/04_Jesse_Lourens_-_SBOM__an_overview.webm
 ---
 
 ## Abstract

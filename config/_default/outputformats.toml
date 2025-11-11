@@ -1,9 +1,10 @@
 # Configuratie tbv exporteerde formaten
 
-# RSS-feed (Atom)
-[RSS]
+# RSS-feed (Atom) - /atom.xml
+[Atom]
   mediatype = "application/xml"
   baseName = "atom"
+  noUgly = true
 
 # JSON Feed: feed.json
 [JSON]

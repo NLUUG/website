@@ -11,7 +11,7 @@
     "url": "{{ .Site.BaseURL }}"
   },
   "items": [
-    {{ $list := (where .Site.RegularPages "Type" "posts") }}
+    {{ $list := (where .Site.RegularPages.ByDate.Reverse "Type" "posts") | first 10 }}
     {{ $len := (len $list) }}
 
     {{ range $index, $element := $list }}

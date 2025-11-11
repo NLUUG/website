@@ -14,6 +14,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=0HjsoMrqlF4
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-11-29-nj22/Videos/nluug22nj-AndreasHulsing-NistPostQuantumCrypto.mp4
 ---
 
 ## Abstract

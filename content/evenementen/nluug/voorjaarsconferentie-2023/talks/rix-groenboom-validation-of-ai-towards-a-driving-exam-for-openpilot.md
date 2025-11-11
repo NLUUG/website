@@ -13,6 +13,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=ik9XV2NZv9s
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-2/NLUUG23VJ-OpenPilot.mp4
 ---
 
 ## Abstract

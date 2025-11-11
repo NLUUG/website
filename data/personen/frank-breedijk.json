@@ -1,0 +1,17 @@
+{
+  "id": "frank-breedijk",
+  "name": "Frank Breedijk",
+  "email": "",
+  "gender": "male",
+  "honorary_member": false,
+  "nationality": "Dutch",
+  "thumbnail": "/afbeeldingen/personen/frank-breedijk-200x200.webp",
+  "social": {
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "mastodon": "",
+    "mastodon_url": "",
+    "twitter": ""
+  }
+}

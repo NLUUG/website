@@ -6,7 +6,7 @@ date: 2025-01-11T16:00:00+02:00
 tags:
 - nieuws
 - bigtech
-- socialemedia
+- social-media
 title: "NLUUG onderschrijft oproep aan de Nederlandse overheid om te stoppen met bigtech sociale media"
 ---
 

@@ -5,7 +5,7 @@
   "gender": "",
   "honorary_member": false,
   "nationality": "",
-  "profile_page": "",
+  "profile_page": "/evenementen/sprekers/kashyap-chamarthy/",
   "sameas": "",
   "social": {
     "facebook": "",
@@ -17,5 +17,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/no-profile-photo-200x200.png"
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo.svg"
 }

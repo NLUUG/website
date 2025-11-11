@@ -2,9 +2,6 @@
   {{ .Scratch.Set "cfp_open" false }}
   <div>{{ .Content }}</div>
 
-
-
-
   {{ if isset .Params "event_start" }}
 
     {{ $event_start := .Params.event_start | time }}
@@ -154,7 +151,17 @@
 		        {{ range seq $size }}
 			    {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
 			    <div class="prog-item">
-			    {{ with $talk.speaker }}<strong>{{ . }}</strong><br>{{ end }}
+			    {{ with $talk.speaker_id }}
+				{{ with (index $.Site.Data.personen .) }}
+				    {{ if not .name }}{{ errorf "speaker_id heeft een lege naam in data-bestand (.)" }}{{ end }}
+				    <img style="float:right;" src="{{ .thumbnail }}" height="50" width="50" alt="Image of {{ .name }}">
+				    <strong>{{ .name }}</strong><br>
+				{{ else }}
+				    {{ errorf "speaker_id opgegeven binnen evenement maar is ongeldig (%s)" . }}
+				{{ end }}
+			    {{ else }}
+			        {{ with $talk.speaker }}<strong>{{ . }}</strong><br>{{ end }}
+			    {{ end }}
 			    {{ if and ($talk.title) ($talk.link) }}
 			        {{ if $talk.link }}
 				    {{ if $talk.keynote }}<strong>Keynote:</strong> {{ end }}<a href="{{ $talk.link }}">{{ $talk.title }}</a>
@@ -164,7 +171,7 @@
 			    {{ else }}
 			        {{ if $talk.title }}{{ if $talk.keynote }}<strong>Keynote:</strong> {{ end }}<em>{{ $talk.title }}</em>{{ end }}
 			    {{ end }}
-			    {{ if eq $talk.language "nl" }}🇳{{ end }}
+			    {{ if eq $talk.language "nl" }}🇳🇱{{ end }}
 			    {{ if $talk.not_recorded }}
 			      <img class="m-r-small" src="/afbeeldingen/iconen/video-slash.svg" height="{{ $.Site.Params.smallIconSize }}" width="{{ $.Site.Params.smallIconSize }}" alt="Deze presentatie zal niet worden gefilmd">
 			    {{ end }}
@@ -198,10 +205,26 @@
         {{ end }}
       {{ end }}
       </div>
+      <p><small>Disclaimer: de inhoud van het programma kan te allen tijde worden aangepast. Door onverwachte ontwikkelingen rondom het evenement of sprekers kan het zijn dat er een verschil is met het daadwerkelijke programma. Relevante wijzigingen zullen wij zo spoedig mogelijk delen of op de dag van het evenement zelf. Ons filmteam probeert zoveel mogelijk presentaties op te nemen. Sprekers kunnen echter aangeven dat hun lezing niet opgenomen mag worden. Ook blijven we afhankelijk van de capaciteit van het team en de techniek. We kunnen derhalve niet garanderen dat er voor iedere lezing een filmopname beschikbaar komt.</small></p>
+    {{ else }}
+      <p>Het programma komt later beschikbaar.</p>
+  {{ end }}
+  {{ end }}
 
-<h2>Programma (oude format)</h2>
+  {{ if .Params.event_sponsors }}
+      <h2>Sponsoren</h2>
+      <p>Dit evenement is mede mogelijk dankzij de sponsoring van:</p>
+      {{ .Scratch.Set "event_sponsors" .Params.event_sponsors }}
+      <div class="three-column-grid">
+      {{ partial "include-event-sponsors" . }}
+      </div>
+      <p>Ook sponsor worden? Meer informatie kunt u vinden op onze pagina <a href="{{ relURL "/sponsoring/" }}">sponsoring</a>.
+  {{ end }}
 
-<p>We zijn verbeteringen aan het doorvoeren op onze website. Het programma zal hierdoor dubbel worden gepresenteerd, in een moderne versie en als tabel.</p>
+  {{ with .Params.event_schedule }}
+  <br><br><br>
+     <h2>Programma (oude stijl)</h2>
+     <p>We zijn verbeteringen aan het doorvoeren op onze website zodat het programma op zowel grote schermen als mobiel goed getoond kan worden. Werkt er onverhoopts iets niet goed? Dan is hier het programma in het oude formaat:</p>
 
       <div class="table-wrapper">
       <table class="fl-table">
@@ -265,19 +288,7 @@
       </tbody>
       </table>
       </div>
-      <small>Disclaimer: de inhoud van het programma kan te allen tijden worden aangepast. Door onverwachte ontwikkelingen rondom het evenement of sprekers kan het zijn dat er een verschil is met het daadwerkelijke programma. Relevante wijzigingen zullen wij zo spoedig mogelijk delen of op de dag van het evenement zelf. Ons filmteam probeert zoveel mogelijk presentaties op te nemen. Sprekers kunnen echter aangeven dat hun lezing niet opgenomen mag worden. Ook blijven we afhankelijk van de capaciteit van het team en de techniek. We kunnen derhalve niet garanderen dat er voor iedere lezing een filmopname beschikbaar komt.</small>
-    {{ else }}
-      <p>Het programma komt later beschikbaar.</p>
     {{ end }}
 
-  {{ else }}
-    <p>Waarschuwing: dit conferentieprogramma is niet goed geconfigureerd in de front matter.</p>
-  {{ end }}
-
-  {{ if .Params.event_sponsors }}
-      <h2>Sponsoren</h2>
-      {{ .Scratch.Set "event_sponsors" .Params.event_sponsors }}
-      {{ partial "include-event-sponsors" . }}
-  {{ end }}
 
 {{ end }}

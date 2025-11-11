@@ -102,7 +102,7 @@ event_schedule:
         link: talks/pieter-jenniskens-microservices-containers-and-kubernetes/
     - column:
       talk:
-        speaker: Jan-Piet Mens
+        speaker: "Jan-Piet Mens"
         title: The Story of OwnTracks
         link: talks/jan-piet-mens-the-story-of-owntracks/
     - column:

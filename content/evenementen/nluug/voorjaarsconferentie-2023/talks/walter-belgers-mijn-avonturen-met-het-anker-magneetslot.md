@@ -13,6 +13,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=ky6pdWFVQTI
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-2/NLUUG23VJ-MagneticLocks.mp4
 ---
 
 ## Abstract

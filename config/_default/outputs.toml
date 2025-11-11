@@ -1,8 +1,8 @@
 # Configuratie tbv exporteerde formaten
 
-# Voor de home-page maken we een HTML, RSS en JSON Feed
+# Voor de home-page maken we een HTML, RSS (Atom) en JSON Feed
 # Secties alleen in HTML en voor pagina's in zowel HTML als CalendarEvent (iCAL) waar het van toepassing is
-home = ["HTML", "RSS", "JSON", "IndexNow", "SearchIndex"]
+home = ["Atom", "HTML", "JSON", "IndexNow", "SearchIndex"]
 page = ["HTML"]
 section = ["HTML", "CalendarEvent"]
 

@@ -14,6 +14,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=M0sk4SjEuBU
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-05-10-vj22/Zaal-1/NLUUG22VJ-EmileAben-InternetInUkraine.webm
 ---
 
 ## Abstract

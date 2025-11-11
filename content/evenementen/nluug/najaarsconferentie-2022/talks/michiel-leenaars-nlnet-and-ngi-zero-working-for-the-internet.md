@@ -13,6 +13,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=xaEP29OZR3U
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2022-11-29-nj22/Videos/nluug22nj-MichielLeenaars-NLnetandNGI-WorkingForTheInternet.mp4
 ---
 
 ## Abstract

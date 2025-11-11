@@ -12,6 +12,9 @@ speakers:
 - eirik-overby
 presentation:
   filename: 2023-11-28-eirik-overby-on-freebsd-ddos-and-getting-up-from-under-the-bus.pdf
+recording:
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-11-28-nj23/Videos/Zaal-1/nj23_zaal-1_04_On_FreeBSD_DDoS_and_getting_up_from_under_the_bus_-_Eirik_Overby.webm
 ---
 
 ## Abstract

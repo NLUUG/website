@@ -78,7 +78,7 @@ event_schedule:
         speaker: Teus Hagen
         title: "NLUUG: 35 tinten grijs"
         keynote: true
-        link: 
+        link: talks/teus-hagen-35-shades-of-grey/
       center: true
       size: 3
   - row:
@@ -98,7 +98,7 @@ event_schedule:
       talk:
         speaker: Sake Blok
         title: "Challenge: Can you esPcape?"
-        link: 
+        link: talks/sake-blok-challenge-can-you-espcape/
     - column:
       talk:
         speaker: Mike Place
@@ -108,7 +108,7 @@ event_schedule:
       talk:
         speaker: Vesna Manojlovic
         title: "Ethics in Technology"
-        link: 
+        link: talks/vesna-manojlovic-ethics-in-technology/
   - row:
     columns:
     - column:
@@ -119,7 +119,7 @@ event_schedule:
         link: 
     - column:
       talk:
-        speaker: Jan-Piet Mens
+        speaker: "Jan-Piet Mens"
         title: "Introducing Ansible AWX - The Open Source 'Tower'"
         link: 
     - column:
@@ -154,7 +154,7 @@ event_schedule:
       talk:
         speaker: Rudi van Drunen
         title: "Things on the Internet: An introduction to the REAL world"
-        link: 
+        link: talks/rudi-van-drunen-things-on-the-internet-an-introduction-to-the-real-world/
     - column:
       talk:
         speaker: Noud Aldenhoven
@@ -173,7 +173,7 @@ event_schedule:
       talk:
         speaker: Daniel Kiper
         title: "EFI Secure Boot, shim, GRUB2"
-        link: 
+        link: talks/daniel-kiper-efi-secure-boot-shim-grub2/
     - column:
       talk:
         speaker: Ed Schouten en Ron Lievens
@@ -201,7 +201,7 @@ event_schedule:
       talk:
         speaker: John van Krieken
         title: "What's up in modern C++"
-        link: 
+        link: talks/john-van-krieken-whats-up-in-modern-cplusplus/
     - column:
       talk:
         speaker: Willem Jan Withagen
@@ -220,7 +220,7 @@ event_schedule:
       talk:
         speaker: Anne Jan Brouwer en Bas van Sisseren
         title: SHA2017 badge
-        link: 
+        link: talks/anne-jan-brouwer-en-bas-van-sisseren-sha2017-badge/
     - column:
       talk:
         speaker: Christine Yen

@@ -14,6 +14,8 @@ presentation:
 recording:
   platform: youtube
   url: https://www.youtube.com/watch?v=oc_maOysQPk
+  embed:
+    link: https://ftp.nluug.nl/video/nluug/2023-05-11-vj23/Videos/Zaal-2/NLUUG23VJ-OperationRubicon.mp4
 ---
 
 ## Abstract

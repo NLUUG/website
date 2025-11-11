@@ -9,7 +9,6 @@ event_address:
 event_timezone: Europe/Amsterdam
 event_start: 2023-06-21T00:00:00+0200
 event_end: 2023-06-23T23:59:59+0200
-event_timezone: Europe/Amsterdam
 event_location: Pakhuis de Zwijger - Amsterdam
 link_external: https://devopsdays.org/events/2023-amsterdam/welcome/
 name: Devopsdays Amsterdam

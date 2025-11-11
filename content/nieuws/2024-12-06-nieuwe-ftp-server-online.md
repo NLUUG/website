@@ -6,7 +6,7 @@ date: 2024-12-06T09:18:27+00:00
 description: "De FTP-server van de NLUUG, de vereniging voor open standaarden, is vernieuwd. Met meer capaciteit en betere performance, kunnen we meer projecten aanbieden."
 slug: nieuwe-ftp-server-online
 tags:
-  - ftp
+  - ftp-server
 title: "Nieuwe FTP-server online!"
 related_members:
   - jan-christiaan-van-winkel
