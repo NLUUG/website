@@ -185,7 +185,8 @@ event_schedule:
         link: talks/erik-mols-one-lomiri-to-rule-all/
     - column:
       talk:
-        speaker: Ijskimo (Marcel van der Velde)
+        speaker: Marcel van der Velde
+        speaker_id: marcel-van-der-velde
         title: "Maar we dóen al phishing tests hoor!"
         link:  talks/ijskimo-marcel-van-der-velde-maar-we-doen-al-phishing-tests-hoor/
   - row:
