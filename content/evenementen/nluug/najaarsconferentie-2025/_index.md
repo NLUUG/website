@@ -188,7 +188,7 @@ event_schedule:
         speaker: Marcel van der Velde
         speaker_id: marcel-van-der-velde
         title: "Maar we dóen al phishing tests hoor!"
-        link:  talks/ijskimo-marcel-van-der-velde-maar-we-doen-al-phishing-tests-hoor/
+        link:  talks/marcel-van-der-velde-maar-we-doen-al-phishing-tests-hoor/
   - row:
     columns:
     - column:
@@ -244,10 +244,10 @@ event_schedule:
         link: talks/kris-buytaert-bow-for-me-for-i-am-coroot/
     - column:
       talk:
-        speaker: Henro Veijer
-        speaker_id: henro-veijer
-        title: "Omweg naar Open: Mijn FOSS-avontuur tussen gemak en autonomie"
-        link: talks/henro-veijer-omweg-naar-open-mijn-foss-avontuur-tussen-gemak-en-autonomie/
+        speaker: 
+        speaker_id: 
+        title: 
+        link: 
   - row:
     columns:
     - column:

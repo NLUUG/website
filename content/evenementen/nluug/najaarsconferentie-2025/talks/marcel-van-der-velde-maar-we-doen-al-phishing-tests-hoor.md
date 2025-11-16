@@ -6,7 +6,7 @@ layout: event-talk
 slug:
 tags:
 - phishing
-title: "IJskimo (Marcel van der Velde) - Maar we dóen al phishing tests hoor!"
+title: "Marcel van der Velde - Maar we dóen al phishing tests hoor!"
 speakers:
 - marcel-van-der-velde
 recording:
