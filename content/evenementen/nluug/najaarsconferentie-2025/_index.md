@@ -85,9 +85,9 @@ event_schedule:
       talk:
         speaker: Oscar Koeroo
         speaker_id: oscar-koeroo
-        title: "Post quantum crypto: a current state of affaires"
+        title: "Post quantum crypto: a current state of affairs"
         keynote: true
-        link: talks/oscar-koeroo-post-quantum-crypto-a-current-state-of-affaires/
+        link: talks/oscar-koeroo-post-quantum-crypto-a-current-state-of-affairs/
       center: true
       size: 3
   - row:

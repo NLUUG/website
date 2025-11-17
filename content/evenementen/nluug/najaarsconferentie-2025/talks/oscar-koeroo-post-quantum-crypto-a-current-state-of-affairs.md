@@ -5,12 +5,12 @@ description:
 layout: event-talk
 slug:
 tags:
-- Cryptography
-- PQC
-- Post Quantum Cryptography
-title: "Oscar Koeroo - Post quantum crypto: a current state of affaires"
+  - Cryptography
+  - PQC
+  - Post Quantum Cryptography
+title: "Oscar Koeroo - Post quantum crypto: a current state of affairs"
 speakers:
-- oscar-koeroo
+  - oscar-koeroo
 recording:
   embed:
     link: 
