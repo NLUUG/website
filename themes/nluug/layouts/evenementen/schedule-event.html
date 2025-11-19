@@ -154,7 +154,7 @@
 			    {{ with $talk.speaker_id }}
 				{{ with (index $.Site.Data.personen .) }}
 				    {{ if not .name }}{{ errorf "speaker_id heeft een lege naam in data-bestand (.)" }}{{ end }}
-				    <img style="float:right;" src="{{ .thumbnail }}" height="50" width="50" alt="Image of {{ .name }}">
+				    <img style="float:right;border-radius:3px;margin:3px;" src="{{ .thumbnail }}" height="50" width="50" alt="Image of {{ .name }}">
 				    <strong>{{ .name }}</strong><br>
 				{{ else }}
 				    {{ errorf "speaker_id opgegeven binnen evenement maar is ongeldig (%s)" . }}
