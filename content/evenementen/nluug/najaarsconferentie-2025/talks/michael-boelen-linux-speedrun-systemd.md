@@ -9,9 +9,12 @@ tags:
 title: "Michael Boelen - Linux speedrun: systemd"
 speakers:
 - michael-boelen
+presentation:
+  link: https://michaelboelen.com/files/presentations/2025-11-20-nluug-linux-speedrun-systemd.pdf
 recording:
   embed:
     link: 
+lastmod: 2025-11-21T08:17:14+00:00
 ---
 
 ## Abstract
