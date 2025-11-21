@@ -8,6 +8,7 @@ tags:
 slug:
 title: "Joyce Mellens"
 type: person
+alias: /evenementen/sprekers/joyce-mellens/
 ---
 
 Joyce Mellens is young lecturer and researcher at the Hanze University of Applied Sciences, where she teaches students the foundations of computing architecture and cybersecurity. As a researcher she specializes in the Internet of Things, preferring to focus on the challenges of marrying cybersecurity with useability for consumers who don’t know what that word means.
