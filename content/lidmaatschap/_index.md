@@ -77,13 +77,13 @@ Een lid is lid voor een heel kalenderjaar, een introducé mag per conferentie wo
 
 Onderstaande tabel toont de tarieven voor een Bedrijfsregeling, waarbij de kleinste regeling (Bedrijfsregeling-1) de code D1 heeft en de grootste (Bedrijfsregeling-16) de code DP.
 
-| Code | Leden | Excl. BTW | Incl. BTW |
-| ---  | ---   | --------: | --------: |
-| D1   | 1     | €165,00   | €199,65   |
-| D2   | 3     | €330,00   | €399,30   |
-| D4   | 5     | €660,00   | €798,60   |
-| D8   | 10    | €1320,00  | €1597,20  |
-| DP   | 18    | €2640,00  | €3194,40  |
+| Code | Personen | Excl. BTW | Incl. BTW |
+| ---  | ------   | --------: | --------: |
+| D1   | 1        | €165,00   | €199,65   |
+| D2   | 3        | €330,00   | €399,30   |
+| D4   | 5        | €660,00   | €798,60   |
+| D8   | 10       | €1320,00  | €1597,20  |
+| DP   | 18       | €2640,00  | €3194,40  |
 
 ### Wijzigingen
 
