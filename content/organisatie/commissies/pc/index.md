@@ -17,6 +17,7 @@ type: team
 team_members:
 - aschwin-marsman
 - hans-van-de-looy
+- joyce-mellens
 - rogier-spoor
 - roy-van-leeuwen
 - rudi-van-drunen
