@@ -1,4 +1,8 @@
 {{ if .link }}<a href="{{ .link }}">{{ end }}
+{{ $height := 200 }}
+{{ $width := 200 }}
+{{ if .height }}{{ $height = .height }}{{ end }}
+{{ if .width }}{{ $width = .width }}{{ end }}
 <figure>
   <picture>
     {{ $isJPG := eq (path.Ext .image) ".jpg" }}
@@ -27,7 +31,7 @@
         {{ $img := imageConfig (add "/static" (.image | safeURL)) }}
         <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}">
     {{ else if ($isSVG) }}
-        <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="200" height="200">
+    <img src="{{ .image | safeURL }}" alt="{{ .alt }}"{{ if not .above_the_fold }} loading="lazy"{{ end }} decoding="async" width="{{ $width | default 200 }}" height="{{ $height | default 200 }}">
     {{ end }}
   </picture>
   {{ if .figcaption }}
