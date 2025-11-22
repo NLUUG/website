@@ -3,3 +3,8 @@ name: ProcoliX
 url: https://procolix.eu/
 icon: /afbeeldingen/sponsoren/procolix-icon-squared.svg
 icon_small: /afbeeldingen/sponsoren/procolix-icon-squared.svg
+flags:
+  - sponsor
+  - sponsor-d8
+  - sponsor-technical
+last_reviewed: 2025-11-22

@@ -3,3 +3,6 @@ name: AIVD
 url: https://www.aivd.nl/
 icon: /afbeeldingen/sponsoren/aivd-icon-200x200.png
 icon_small: /afbeeldingen/sponsoren/aivd-icon-100x100.png
+flags:
+  - sponsor
+last_reviewed: 2025-11-22

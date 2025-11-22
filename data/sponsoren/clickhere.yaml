@@ -1,0 +1,9 @@
+id: clickhere
+name: Clickhere
+url: https://www.clickhere.nl/
+icon: /afbeeldingen/sponsoren/clickhere-icon.svg
+icon_small: /afbeeldingen/sponsoren/clickhere-icon.svg
+flags:
+  - sponsor
+  - sponsor-dp
+last_reviewed: 2025-11-22

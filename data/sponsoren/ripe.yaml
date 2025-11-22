@@ -1,0 +1,9 @@
+id: ripe
+name: RIPE NCC
+url: https://www.ripe.net/
+icon: /afbeeldingen/sponsoren/ripe-ncc-icon.svg
+icon_small: /afbeeldingen/sponsoren/ripe-ncc-icon.svg
+flags:
+  - sponsor
+  - sponsor-dp
+last_reviewed: 2025-11-22
