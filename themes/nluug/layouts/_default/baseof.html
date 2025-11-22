@@ -51,6 +51,11 @@
               </section>
             {{ end }}
         </div>
+	<aside style="margin-top:3em;">
+            <p>Onze activiteiten zijn mede mogelijk door de inzet van onze actieve vrijwilligers, donateurs, sponsoren en partners:</p>
+	    <div class="smart-grid">{{ partial "include-sponsors.html" (dict "context" . "filter" "sponsor,partner") }}</div>
+	    <p>Is jouw organisatie ook actief met open source en open standaarden? <strong>Word ook <a href="{{ relURL "/sponsoring/" }}">sponsor</a>!</strong></p>
+	</aside>
       </main>
       {{ partial "footer.html" . }}
       {{ if findRE `[zZ]oek|[sS]earch` .Title 1 }}
