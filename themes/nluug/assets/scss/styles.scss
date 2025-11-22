@@ -234,6 +234,19 @@ ul, ol {
     }
 }
 
+.smart-grid {
+    //grid: 100px 300px / auto-flow 200px;
+    display: grid;
+    grid: minmax(200px, min-content) / repeat(auto-fill, minmax(150px, 1fr));
+    column-gap: 2em;
+}
+
+.smart-grid > div > * {
+  display: block;
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
 /* Width definitions */
 .w-10 { width: 10%; }
 .w-20 { width: 20%; }
