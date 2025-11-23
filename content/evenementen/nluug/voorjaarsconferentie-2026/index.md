@@ -24,9 +24,9 @@ event_address:
   city: "Utrecht"
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
-event_cfp_start_date: 
-event_cfp_close_date: 
-event_cfp_link: 
+event_cfp_start_date: 2025-11-22T00:00:00+02:00
+event_cfp_close_date: 2026-03-06T23:59:59+02:00
+event_cfp_link: https://cfp.nluug.nl/nluug-voorjaarsconferentie-2026/cfp
 event_description: "Voorjaarsconferentie 2026 van de vereniging NLUUG in het Van der Valk Hotel te Utrecht"
 event_images:
 - /afbeeldingen/locaties/utrecht/hotel-van-der-valk-utrecht-winthontlaan.jpg
@@ -41,4 +41,5 @@ event_register_link: "Inschrijving voor deze conferentie zal op een later moment
 event_sponsors:
 event_status: "scheduled"
 ---
-Call for Papers link en aanmeldmogelijkheid voor deze conferentie zullen op een later moment bekend gemaakt worden.
+
+De aanmeldmogelijkheid voor deze conferentie zal op een later moment bekend gemaakt worden.
