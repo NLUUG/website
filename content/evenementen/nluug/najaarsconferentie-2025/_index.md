@@ -3,7 +3,7 @@ categories:
   - conferenties
   - evenementen
 date: 2025-05-24T17:10:15+00:00
-description: "De NLUUG najaarsconferentie is gepland op donderdag 20 november 2025 in het Van der Valk Hotel Utrecht."
+description: "De NLUUG najaarsconferentie heeft plaatsgevonden op donderdag 20 november 2025 in het Van der Valk Hotel Utrecht. Bekijk hier de presentaties en opnames."
 is_event: true
 tags:
   - conferenties
