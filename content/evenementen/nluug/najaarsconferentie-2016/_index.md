@@ -112,7 +112,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 11:50
+      time: 11:45
     - column:
       talk:
         title: 
@@ -130,7 +130,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 12:35
+      time: 12:30
     - column:
       textfield:
         text: Lunch
@@ -168,7 +168,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 14:50
+      time: 14:45
     - column:
       talk:
         speaker: 
@@ -187,7 +187,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 15:35
+      time: 15:30
     - column:
       textfield:
         text: Koffiepauze
@@ -215,7 +215,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 16:50
+      time: 16:45
     - column:
       talk:
         speaker: 
@@ -234,7 +234,7 @@ event_schedule:
   - row:
     columns:
     - column:
-      time: 17:35
+      time: 17:30
     - column:
       textfield:
         text: Borrel, gesponsord door SNOW
