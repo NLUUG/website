@@ -1,6 +1,6 @@
 id: cfp-is-open
-date_start: 2024-11-06
-date_end: 2025-02-22
+date_start: 2025-11-27
+date_end: 2026-03-01
 status:
   - language: en
     message: "Our CFP is active!"
@@ -16,7 +16,7 @@ status:
     links:
       - id: 0
         name: Evenement
-        link: "evenementen/nluug/voorjaarsconferentie-2025/_index.md"
+        link: "evenementen/nluug/voorjaarsconferentie-2026/_index.md"
       - id: 1
         name: CFP-portaal
         link_external: https://cfp.nluug.nl/
