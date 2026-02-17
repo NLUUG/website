@@ -28,7 +28,6 @@ De vereniging houdt zich bezig met het verspreiden van kennis en het samenbrenge
 
 We kennen het lidmaatschap voor personen (met stemrecht) en een Bedrijfsregeling voor organisaties (voor commerciële bedrijven, instellingen, stichtingen en kenniscentra).
 
-<a id="Personen"></a>
 ### Lidmaatschap voor Personen ("L") en Studenten ("S")
 
 De vereniging richt zich op personen. Leden zijn natuurlijke personen en alleen leden hebben stemrecht. Zij kunnen tegen gereduceerd tarief deelnemen aan onze conferenties.
@@ -44,7 +43,6 @@ Als je werkgever deelneemt aan een Bedrijfsregeling (zie hieronder) dan kan de l
 
 Als je werkgever geen Bedrijfsregeling met ons heeft getroffen, maar wel bij ons bekend is, dan zetten de naam van de werkgever op je persoonlijke contributie-factuur. Bij sommige werkgevers kan de contributie aan de NLUUG worden gedeclareerd.
 
-<a id="Bedrijfsregeling"></a>
 ### Bedrijfsregeling voor Organisaties ("D1" t/m "DP")
 
 Organisaties (bedrijven, instellingen, stichtingen, etc.) kunnen de NLUUG structureel financieel ondersteunen. Organisaties zelf hebben geen stemrecht, maar zij kunnen medewerkers van het bedrijf inschrijven als Lid. Die leden hebben natuurlijk wel stemrecht, en ze hebben ook verder dezelfde rechten als persoonlijke leden.
@@ -75,7 +73,6 @@ Stel, we hebben een organisatie die een D4 Bedrijfsregeling met de NLUUG getroff
 
 Een lid is lid voor een heel kalenderjaar, een introducé mag per conferentie worden aangemeld. 
 
-<a id="Tarieven"></a>
 #### Tarieven voor Bedrijfsregeling
 
 Onderstaande tabel toont de tarieven voor een Bedrijfsregeling. De eerste kolom toont het type Bedrijfsregeling (D1 tot en met DP), de tweede kolom geeft aan hoeveel mensen mogen worden afgevaardigd (Leden, Studentleden en Introducés), de derde en de vierde kolom tonen de jaarlijks bijdrage voor dat type.  
