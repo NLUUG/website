@@ -36,7 +36,7 @@ event_organizers:
   id: nluug
   name: NLUUG
 event_register_start_date: 2025-11-20
-event_register_end_date: 2025-11-20
+event_register_end_date: 2026-05-07
 event_register_link: "Inschrijving voor deze conferentie zal op een later moment geopend worden"
 event_sponsors:
 event_status: "scheduled"
