@@ -1,6 +1,6 @@
 ---
 call_to_action: "Word lid"
-call_to_action_url: "lidmaatschap/aanmelden/index.md"
+call_to_action_url: "https://ledenadmin.nluug.nl/enroll.php"
 categories:
 - lidmaatschap
 date: 2023-05-05T19:00:45+02:00

@@ -1,4 +1,6 @@
 ---
+call_to_action: "Aanmelden als nieuw lid"
+call_to_action_url: "https://ledenadmin.nluug.nl/enroll.php"
 categories:
 - lidmaatschap
 date: 2023-05-05T19:00:45+02:00
@@ -18,11 +20,14 @@ Ben je een professional op het gebied van Unix/Linux, open standaarden, open sou
 
 ## Het lidmaatschap
 
-Eerst nog wat meer weten over de verschillende mogelijkheden? Raadpleeg dan de pagina [Lidmaatschap]({{< relref "lidmaatschap/_index.md" >}}).
+Eerst nog wat meer weten over de verschillende mogelijkheden? Raadpleeg dan de pagina [Lidmaatschap]({{< relref "lidmaatschap/_index.md" >}}). Hier staan ook alle details rondom het lidmaatschap, zoals de voordelen, tarieven en doorvoeren van administratieve wijzigingen. Vragen kunnen gesteld worden aan ons [buro]({{< relref "organisatie/commissies/buro/index.md" >}}).
 
+Goed om te weten:
 Het NLUUG lidmaatschap loopt per kalenderjaar en gaat in als we de betaling hebben ontvangen.
 
-## Aanmelden voor individuele leden
+## Aanmelden
+
+### Voor individuele leden
 
 U kunt op de volgende manieren lid worden van de vereniging:
 
@@ -30,10 +35,8 @@ U kunt op de volgende manieren lid worden van de vereniging:
 * Als u gebruik wilt maken van de lidmaatschapsruimte van uw organisatie (Bedrijfsregeling), neem dan ook contact op met ons buro. In dat geval graag naast uw naam en eigen e-mailadres ook de naam van uw organisatie vermelden. Let op: het lidmaatschap is persoonlijk, dus als u van werkgever verandert moet u dat zelf aangeven. Als uw nieuwe werkgever geen Bedrijfsregeling heeft getroffen dan moet u het lidmaatschap verder zelf betalen.
 * U kunt ook naar een dag-conferentie komen, en daar ter plaatse lid worden. Na inschrijving ontvangt u direct een factuur per mail. Zodra deze (per iDEAL) is betaald kunt u deelnemen aan de conferentie. Pinnen is (helaas) niet mogelijk.
 
-## Aanmelden voor een Bedrijfsregeling voor Organisaties
+### Voor een Bedrijfsregeling (voor organisaties)
 
 Neem contact op met ons [buro](mailto:buro@nluug.nl) als uw bedrijf of organisatie de NLUUG wil ondersteunen. Via de Bedrijfsregeling kunt u de contributies van werknemers in één (verzamel-)factuur voldoen. Maar belangrijker nog, via de Bedrijfsregeling toont u dat uw bedrijf de NLUUG steunt om het "Open" gedachtegoed uit te dragen.
 
-## Meer weten?
 
-Op de pagina [lidmaatschap]({{< relref "lidmaatschap/_index.md" >}}) vindt u alle details rondom het lidmaatschap, zoals de voordelen, tarieven en doorvoeren van administratieve wijzigingen. Heeft u alsnog een vraag, ons [buro]({{< relref "organisatie/commissies/buro/index.md" >}}) helpt u graag verder.
