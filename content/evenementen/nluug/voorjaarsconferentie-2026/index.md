@@ -34,7 +34,7 @@ event_organizers:
   name: NLUUG
 event_register_start_date: 2025-11-20
 event_register_end_date: 2026-05-07
-event_register_link: https://ledenadmin.nluug.nl/enroll.php
+event_register_link: https://leden.nluug.nl/aanmelden/index.cgi?action=event
 event_sponsors:
 event_status: "scheduled"
 ---
