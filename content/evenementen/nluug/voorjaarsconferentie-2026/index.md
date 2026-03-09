@@ -10,9 +10,6 @@ tags:
 slug:
 title: "NLUUG voorjaarsconferentie 2026"
 layout: schedule-event
-call_to_action_top_of_content:
-  id: nieuwe-pc-leden
-  expires_after: 2025-03-01
 event_title: "NLUUG voorjaarsconferentie 2026"
 event_start: 2026-05-07T08:30:00+02:00
 event_end: 2026-05-07T18:00:00+02:00
@@ -37,9 +34,8 @@ event_organizers:
   name: NLUUG
 event_register_start_date: 2025-11-20
 event_register_end_date: 2026-05-07
-event_register_link: "Inschrijving voor deze conferentie zal op een later moment geopend worden"
+event_register_link: https://ledenadmin.nluug.nl/enroll.php
 event_sponsors:
 event_status: "scheduled"
 ---
 
-De aanmeldmogelijkheid voor deze conferentie zal op een later moment bekend gemaakt worden.
