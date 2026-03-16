@@ -10,11 +10,7 @@
         {{ partial "breadcrumb.html" . }}
         <div class="content">
 	    {{ partial "show-call-to-action-top-of-content.html" . }}
-	    {{ if .IsHome }}
-	        <h1>Digital Commons</h1>
-            {{ else }}
-	        <h1 class="post speakable">{{ .Title }}</h1>
-            {{ end }}
+            <h1 class="post speakable">{{ .Title }}</h1>
             <div class="speakable">
             {{- block "main" . }}
                 {{ .Content }}
