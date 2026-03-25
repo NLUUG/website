@@ -1,6 +1,5 @@
 {{ define "main" }}
   {{ .Scratch.Set "cfp_open" false }}
-  <div>{{ .Content }}</div>
 
   {{ if isset .Params "event_start" }}
 
@@ -120,6 +119,9 @@
   {{ end }}
 
   <h2>Programma</h2>
+
+  <div>{{ .Content }}</div>
+
 
   {{ $.Scratch.Set "counter" 0 }}
   {{ with .Params.event_schedule }}
