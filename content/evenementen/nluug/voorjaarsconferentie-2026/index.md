@@ -4,6 +4,8 @@ categories:
 - evenementen
 date: 2025-11-21T11:17:47+02:00
 description: "De NLUUG voorjaarsconferentie is gepland op donderdag 7 mei 2026 in het Van der Valk Hotel Utrecht."
+x_call_to_action: Naar volledig programma
+x_call_to_action_url: https://cfp.nluug.nl/nluug-voorjaarsconferentie-2026/
 is_event: true
 tags:
 - conferenties
@@ -38,4 +40,25 @@ event_register_link: https://leden.nluug.nl/aanmelden/index.cgi?action=event
 event_sponsors:
 event_status: "scheduled"
 ---
+
+### Sprekers en onderwerpen
+
+* Jan-Piet Mens: The Cascade DNSSEC Signing Solution
+* Mike: Digital Sovereignty in Action: Migrating Virtual Servers Without a Vendor Lock-In
+* failbaitr: OpenKAT, a living digital twin that you can query over time.
+* Niels Hatzmann: Praktijkervaringen met de verkiezingssoftware Abacus
+* JP. Sablerolle: S23k Reversibility Playbook
+* Victor Julien: Suricata: 10 years later
+* Jeroen Baten: Getting started with CI/CD using Forgejo Actions and why this is important AF
+* Jessica Tran: AsteroidOS - Linux on your smartwatch
+* Beau Woods: Outside In Guide to Engaging with Public Policy
+* Jon Sneyers: JPEG XL: a deep dive
+* Jacco Brouwer: Platform- en leveranciers onafhankelijke Cloud met Haven
+* Marcel-Jan Krijgsman: Building a data lakehouse in the European cloud
+* Jorrit Geels: Unlocking Efficient Workflows Through Accessibility
+* Winfried de Heiden: Linux & TPM2 - praktische toepassingen
+* Katie Noble en Jeroen van der Ham-de Vos: The CVE Illusion: Behind the Metadata Curtain
+* Arjen Lentz: Crystal Ball Vulnerability Prediction: A Wizard’s Guide to Foreseeing the Unseen
+* Frank van Vliet: What could -possibly- go wrong? Applying the Hacker Mindset to Kubernetes and GenAI.
+* Bart: postmarketOS, freeing yourself from big tech with a proper Linux distribution doing it "the right way"
 
