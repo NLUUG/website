@@ -30,6 +30,7 @@ active_members:
 - ronny-lam
 - roy-van-leeuwen
 - rudi-van-drunen
+- tess-sluijter-stek
 - toshaan-bharvani
 - willem-toorop
 ---
