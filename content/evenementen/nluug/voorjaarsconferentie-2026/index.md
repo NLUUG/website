@@ -4,8 +4,8 @@ categories:
 - evenementen
 date: 2025-11-21T11:17:47+02:00
 description: "De NLUUG voorjaarsconferentie is gepland op donderdag 7 mei 2026 in het Van der Valk Hotel Utrecht."
-x_call_to_action: Naar volledig programma
-x_call_to_action_url: https://cfp.nluug.nl/nluug-voorjaarsconferentie-2026/
+call_to_action: Bekijk het programma
+call_to_action_url: https://cfp.nluug.nl/nluug-voorjaarsconferentie-2026/schedule/
 is_event: true
 tags:
 - conferenties
