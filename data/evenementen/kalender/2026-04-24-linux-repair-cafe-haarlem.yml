@@ -1,0 +1,19 @@
+id: linux-repair-cafe-haarlem-2026-04-24
+date_start: 2026-04-24
+date_end: 2026-04-24
+event_address:
+  street_address: [Professor Boumanstraat 1A]
+  postal_code: [2035 AS]
+  city: Haarlem
+  country: NL
+event_attendance_mode: offline
+event_start: 2026-04-24T10:00:00+0200
+event_end: 2026-04-24T12:00:00+0200
+event_free_access: true
+event_is_online: false
+event_organizer: Linux Café Haarlem
+event_organizer_url: [https://t.me/+6RERHbiTNRk5MjQ0]
+event_url: [https://www.facebook.com/share/g/1AsSsdYVUD/]
+event_location: [Het Open Huis Haarlem]
+event_timezone: Europe/Amsterdam
+name: Linux Café Haarlem
