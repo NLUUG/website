@@ -1,0 +1,8 @@
+id: speakup
+name: Speakup
+url: https://speakup.nl/
+icon: /afbeeldingen/sponsoren/speakup.svg
+icon_small: /afbeeldingen/sponsoren/speakup.svg
+flags:
+  - sponsor
+last_reviewed: 2026-04-21
