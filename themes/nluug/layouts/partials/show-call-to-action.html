@@ -1,5 +1,5 @@
 {{ if isset .Params "call_to_action" }}
 	<div class="m-top-big">
-            <a class="btn btn-cta2" href="{{ if hasPrefix .Params.call_to_action_url "https://" }}{{ .Params.call_to_action_url }}{{ else }}{{ relref . .Params.call_to_action_url }}{{ end }}">{{ .Params.call_to_action }}</a>
+            <a class="btn btn-cta2" href="{{ if or (hasPrefix .Params.call_to_action_url "https://") (hasPrefix .Params.call_to_action_url "mailto:") }}{{ .Params.call_to_action_url }}{{ else }}{{ relref . .Params.call_to_action_url }}{{ end }}">{{ .Params.call_to_action }}</a>
 	</div>
 {{ end }}
