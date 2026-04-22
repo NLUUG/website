@@ -1,11 +1,15 @@
 ---
 categories:
+call_to_action: "Word sponsor"
+call_to_action_url: "mailto:sponsoring@nluug.nl"
 date: 2024-02-01T11:39:06+01:00
 description: "Sponsoring vormt samen met lidmaatschapsgelden de basis voor onze inkomsten. Op deze pagina beschrijven we welke opties er zijn qua sponsoring en de voordelen voor onze sponsors."
+hide_tags: true
 review:
-  last_review: 2025-09-06
+  last_review: 2026-04-22
   reviewed_by:
   period: 365
+show_all_sponsors: true
 tags:
   - sponsoring
   - vereniging
@@ -16,13 +20,11 @@ Onze vereniging kan haar activiteiten mede ontplooien door de inkomsten uit lidm
 
 ## Vormen van sponsoring
 
-Binnen onze vereniging kennen we meerdere soorten sponsoren. Hierbij valt te denken aan een eenmalige sponsor voor een evenement, terugkerend, of een technische sponsor.
+Binnen onze vereniging kennen we meerdere soorten sponsoren. Hierbij valt te denken aan een eenmalige sponsor voor een evenement, terugkerend, of bijvoorbeeld een technische sponsor.
 
 ### Technisch
 
-ProcoliX voorziet onze vereniging van de technische infrastructuur. Zaken zoals virtuele systemen, DNS en email zijn enkele voorbeelden die worden geleverd aan onze vereniging. Door deze vorm van sponsoring besparen we op operationele kosten voor de infrastructuur. Ons beheerteam bestaat gedeeltelijk uit leden die werkzaam zijn voor deze sponsor.
-
-{{< insert-sponsor id="procolix" >}}
+ProcoliX voorziet onze vereniging van de technische infrastructuur. Zaken zoals virtuele systemen, DNS en email zijn enkele voorbeelden die worden geleverd aan onze vereniging. Door deze vorm van sponsoring besparen we op operationele kosten voor de infrastructuur.
 
 ### Evenementen
 

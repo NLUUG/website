@@ -36,7 +36,7 @@
               {{ end }}
             {{ end }}
 
-            {{ if .Params.tags }}
+            {{ if and (.Params.tags) (not .Params.hide_tags) }}
               <section>
                 <h3>Tags</h3>
                 <div class="tags">
@@ -51,11 +51,17 @@
               </section>
             {{ end }}
         </div>
-	{{ if .IsHome }}
+	{{ if or (.IsHome) (eq .Params.show_all_sponsors true) }}
 	<aside style="margin-top:3em;">
-            <p>Onze activiteiten zijn mede mogelijk door de inzet van onze actieve vrijwilligers, donateurs, sponsoren en partners:</p>
-	    <div class="smart-grid">{{ partial "include-sponsors.html" (dict "context" . "filter" "sponsor,partner") }}</div>
-	    <p>Is jouw organisatie ook actief met open source en open standaarden? <strong>Word ook <a href="{{ relURL "/sponsoring/" }}">sponsor</a>!</strong></p>
+	    {{ if .IsHome }}
+                <p>Onze activiteiten zijn mede mogelijk door de inzet van onze actieve vrijwilligers, donateurs, sponsoren en partners:</p>
+	        <div class="smart-grid">{{ partial "include-sponsors.html" (dict "context" . "filter" "sponsor,partner") }}</div>
+	        <p>Is jouw organisatie ook actief met open source en open standaarden? <strong>Word ook <a href="{{ relURL "/sponsoring/" }}">sponsor</a>!</strong></p>
+	    {{ else if eq .Params.show_all_sponsors true }}
+	    <h2>Sponsoren</h2>
+	        <p>Dit zijn onze huidige sponsoren. Mogen we jouw organisatie ook verwelkomen?</p>
+	        <div class="smart-grid">{{ partial "include-sponsors.html" (dict "context" . "filter" "sponsor") }}</div>
+	    {{ end }}
 	</aside>
 	{{ end }}
       </main>
