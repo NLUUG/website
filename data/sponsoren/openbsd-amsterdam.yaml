@@ -1,8 +1,8 @@
 id: openbsd-amsterdam
 name: OpenBSD Amsterdam
 url: https://openbsd.amsterdam/
-icon: /afbeeldingen/sponsoren/openbsd-amsterdam-icon-200x200.png
-icon_small: /afbeeldingen/sponsoren/openbsd-amsterdam-icon-100x100.png
+icon: /afbeeldingen/sponsoren/openbsd-amsterdam.svg
+icon_small: /afbeeldingen/sponsoren/openbsd-amsterdam.svg
 flags:
   - sponsor
 last_reviewed: 2026-04-21
