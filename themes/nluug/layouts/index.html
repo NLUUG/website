@@ -73,16 +73,5 @@
   </div>
 </div>
 
-  {{ if gt (len (.Site.Data.projecten.open)) 0 }}
-    <section>
-      <h2>Lopende projecten</h2>
-      <ul>
-        {{ range $.Site.Data.projecten.open }}
-          <li>{{ .name }} ({{ .description_short }})</li>
-        {{ end }}
-      </ul>
-      <p>Op de pagina <a href="/projecten/">Projecten</a> beschrijven we deze en andere projecten. Meehelpen? Contacteer een actief projectlid voor meer informatie.</p>
-    </section>
-  {{ end }}
 </article>
 {{ end }}

@@ -9,7 +9,6 @@ event_address:
 event_timezone: Europe/Amsterdam
 event_start: 2024-10-22T09:00:00+0200
 event_end: 2024-10-22T16:59:59+0200
-event_timezone: Europe/Amsterdam
 event_attendance_mode: offline
 event_location: Podium Mozaïek
 event_organizer: Stichting NLNOG

@@ -70,7 +70,7 @@
   [[main]]
     identifier = "lidmaatschap-aanmelden"
     name = "Aanmelden"
-    url = "/lidmaatschap/aanmelden/"
+    url = "https://ledenadmin.nluug.nl/enroll.php"
     parent = "lidmaatschap"
     weight = 31
 

@@ -119,7 +119,7 @@ event_schedule:
         link: 
     - column:
       talk:
-        speaker: Jan-Piet Mens
+        speaker: "Jan-Piet Mens"
         title: "Introducing Ansible AWX - The Open Source 'Tower'"
         link: 
     - column:

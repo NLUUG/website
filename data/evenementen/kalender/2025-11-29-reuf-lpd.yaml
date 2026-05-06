@@ -1,0 +1,19 @@
+id: reuf-lpd-2025-11-29
+date_start: 2025-11-29
+date_end: 2025-11-29
+event_address:
+  street_address: Rijnhoutplein 3
+  postal_code: 3014 TZ
+  city: Rotterdam
+  country: NL
+event_start: 2025-11-29T10:00:00+0200
+event_end: 2025-11-29T16:00:00+0200
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: REUF
+event_organizer_url: https://www.reuf.nl/lpd/
+event_url: https://www.reuf.nl/lpd/
+event_location: Leeszaal Rotterdam West
+event_timezone: Europe/Amsterdam
+name: Linux Presentation Day

@@ -13,7 +13,7 @@ De NLUUG is dé vereniging voor (professionele) gebruikers van UNIX/Linux, Open 
 
 De basis van de huisregels van de NLUUG is dat we ervanuit gaan dat je anderen behandeld zoals jij ook behandeld wilt worden. Met geduld, respect en empathie ongeacht alle verschillen die er tussen mensen kunnen zijn. Kort gezegd: *be excellent to each other!*
 
-Van iedereen die meewerkt en/of deelneemt aan evenementen van de NLUUG wordt verwacht dat zij op de hoogte zijn van deze huisregels en zich hier ook aan houden. Dit geldt voor leden en organisatie van de NLUUG, maar ook voor introducees, sponsors, sprekers en alle anderen die betrokken zijn bij de NLUUG. Deze huisregels zijn ook van toepassing op de (online) diensten waar leden en niet-leden van gebruik kunnen maken, zoals bijvoorbeeld de mailinglisten en ftp-server.
+Van iedereen die meewerkt en/of deelneemt aan evenementen van de NLUUG wordt verwacht dat zij op de hoogte zijn van deze huisregels en zich hier ook aan houden. Dit geldt voor leden en organisatie van de NLUUG, maar ook voor introducés, sponsors, sprekers en alle anderen die betrokken zijn bij de NLUUG. Deze huisregels zijn ook van toepassing op de (online) diensten waar leden en niet-leden van gebruik kunnen maken, zoals bijvoorbeeld de mailinglisten en ftp-server.
 
 We tolereren geen intimidatie van deelnemers of discriminerend gedrag in welke vorm dan ook. Om  een beeld te vormen van ongewenst gedrag volgt hier een niet uitputtende lijst:
 

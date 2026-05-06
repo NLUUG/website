@@ -2,7 +2,7 @@
 author: willem-toorop
 categories:
 - conferentie
-date: 2025-09-11T14:00:00+00:00
+date: 2025-08-05T23:59:24+00:00
 description: "De Call for Proposals voor de najaarsconferentie 2025 is nog open tot 7 oktober! Wacht niet te lang en dien een voorstel in."
 slug: cfp-najaarsconferentie-2025
 tags:

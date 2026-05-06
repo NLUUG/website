@@ -16,7 +16,6 @@ team_members:
 - jeroen-jonkman
 - luc-nieland
 - mark-janssen
-- nick-cohn
 - reinoud-van-leeuwen
 ---
 

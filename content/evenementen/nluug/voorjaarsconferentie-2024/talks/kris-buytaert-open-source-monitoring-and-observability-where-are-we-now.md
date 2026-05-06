@@ -5,7 +5,7 @@ description:
 layout: event-talk
 slug:
 tags:
-title: "Open Source Monitoring and Observability, where are we now"
+title: "Kris Buytaert - Open Source Monitoring and Observability, where are we now"
 speakers:
 - kris-buytaert
 presentation:

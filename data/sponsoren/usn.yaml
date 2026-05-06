@@ -1,0 +1,9 @@
+id: usn
+name: USN
+url: https://usn.nl/
+icon: /afbeeldingen/sponsoren/usn-logo-200-200.png
+icon_small: /afbeeldingen/sponsoren/usn-logo-100x100.png
+flags:
+  - sponsor
+  - sponsor-d8
+last_reviewed: 2025-11-22

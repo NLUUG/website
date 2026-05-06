@@ -2,7 +2,6 @@
   "id": "hagen-bauer",
   "name": "Hagen Bauer",
   "email": "",
-  "gender": "",
   "honorary_member": false,
   "nationality": "",
   "profile_page": "",
@@ -17,5 +16,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/no-profile-photo-200x200.png"
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo.svg"
 }

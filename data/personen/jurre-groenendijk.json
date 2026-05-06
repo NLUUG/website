@@ -2,7 +2,6 @@
   "id": "jurre-groenendijk",
   "name": "Jurre Groenendijk",
   "email": "",
-  "gender": "",
   "honorary_member": false,
   "nationality": "Dutch",
   "profile_page": "",
@@ -17,5 +16,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/no-profile-photo-200x200.png"
+  "thumbnail": "/afbeeldingen/personen/no-profile-photo.svg"
 }

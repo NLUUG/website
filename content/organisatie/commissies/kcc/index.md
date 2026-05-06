@@ -12,6 +12,7 @@ type: team
 team_members:
 - harald-paterek
 - mark-huizer
+- niels-vogels
 ---
 
 De kascontrolecommissie, afgekort KCC, is de enige commissie die verplicht is voor een vereniging. Tijdens een algemene ledenvergadering brengt zij verslag uit van haar bevindingen.
@@ -31,6 +32,7 @@ Minimaal twee personen vervullen de rol van KCC. In het verleden o.a. door de vo
 
 | Jaar | Commissieleden |
 | ---- | -------------- |
+| 2025 | Niels Vogels, Harald Paterek, Mark Huizer |
 | 2024 | Harald Paterek, Mark Huizer |
 | 2023 | Brenda Langedijk, Jeroen Baten, Michael Boelen |
 | 2022 | Brenda Langedijk, Peter Spekreijse |

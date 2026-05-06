@@ -2,7 +2,6 @@
   "id": "albert-witteveen",
   "name": "Albert Witteveen",
   "email": "",
-  "gender": "",
   "honorary_member": false,
   "nationality": "",
   "profile_page": "/evenementen/sprekers/albert-witteveen/",
@@ -17,5 +16,5 @@
     "mastodon_url": "",
     "twitter": ""
   },
-  "thumbnail": "/afbeeldingen/personen/no-profile-photo.svg"
+  "thumbnail": "/afbeeldingen/personen/albert-witteveen-200x200.jpg"
 }

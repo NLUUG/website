@@ -42,10 +42,12 @@ a.button:hover, a.button:active {
 // Button voor call-to-action, tweede kleurstelling
 .btn-cta2:link, .btn-cta2:visited {
   background-color: $color-button-call-to-action2;
+  color: $ghost-white-dark;
   font-weight: bold;
 }
 .btn-cta2:hover, .btn-cta2:active {
   background-color: $color-button-call-to-action2-hover;
+  color: $ghost-white-dark;
 }
 
 a,

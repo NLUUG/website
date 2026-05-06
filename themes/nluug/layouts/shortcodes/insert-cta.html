@@ -7,9 +7,11 @@
 	{{- range $key, $value := .items -}}
 	    {{ if eq $value.language $language }}
 	        {{ $string = $value.text }}
-                {{ if .page }}<a class="button" href="{{ relref $context .page }}">{{ end }}
-			<span>{{ $string }}</span>
-                {{ if .page }}</a>{{ end }}
+		{{ if .page }}<a class="button" href="{{ relref $context .page }}">{{ $string }}</a>
+	        {{ else if .url }}<a class="button" href="{{ .url }}">{{ $string }}</a>
+		{{ else }}
+	            <span>{{ $string }}</span>
+		{{ end }}
 	    {{ end }}
 	{{ end }}
     </div>

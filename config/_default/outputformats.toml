@@ -16,8 +16,8 @@
   mediatype = "application/json"
   baseName = "indexnow"
 
-# CalendarEvent genereerd een iCal-bestand voor evenementen
-[CalendarEvent]
+# Calendar genereert een iCal-bestand voor evenementen
+[Calendar]
   mediaType = "text/calendar"
   baseName = "calendar"
 
