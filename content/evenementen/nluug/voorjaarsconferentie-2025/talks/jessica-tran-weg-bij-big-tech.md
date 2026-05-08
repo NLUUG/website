@@ -30,4 +30,4 @@ Jessica Tran is sinds een jaar of 6 oud met computers bezig, en al jaren Linux g
 De afgelopen 2,5 jaar heeft ze er een hobbyproject van gemaakt om van Big Tech af te stappen naar privacyvriendelijke alternatieven, met een voorkeur voor FOSS opties. Eind 2024 is dit afgerond met het verwijderen van haar laatste Big Tech account. Maar, dat zegt niet dat er niks meer te halen valt op dat vlak.
 
 Jessica is te vinden op haar persoonlijke website https://cambionn.nl/
-Of op Mastodon als @Cambion@mastodon.nl (https://mastodon.nl/@Cambion).
+Of op Mastodon als [@Cambion@mastodon.nl](https://mastodon.nl/@Cambion).
