@@ -10,7 +10,8 @@ title: "Board"
 contact_email: bestuur@nluug.nl
 type: team
 team_members:
-- bjorn-wijers
+- jessica-tran
+- michael-boelen
 - nick-cohn
 - ronny-lam
 - rudi-van-drunen
