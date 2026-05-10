@@ -10,7 +10,6 @@ title: "Organisatie"
 show_child_pages: true
 active_members:
 - aschwin-marsman
-- bjorn-wijers
 - debbie-reinders
 - eelco-mulder
 - fred-van-galen
@@ -18,6 +17,7 @@ active_members:
 - jan-christiaan-van-winkel
 - jan-sepp
 - jeroen-jonkman
+- jessica-tran
 - koen-de-jonge
 - luc-nieland
 - mark-janssen
