@@ -1,0 +1,21 @@
+id: nluug-2027-voorjaarsconferentie
+date_start: 2027-04-13
+date_end: 2027-04-13
+event_address:
+  street_address: Mekelweg 5
+  postal_code: 2628 CC
+  city: Delft
+  country: NL
+event_start: 2027-04-13T08:30:00+0200
+event_end: 2027-04-13T18:00:00+0200
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/
+event_url: "/evenementen/nluug/voorjaarsconferentie-2027/"
+event_location: Aula TU Delft 
+event_timezone: Europe/Amsterdam
+name: NLUUG voorjaarsconferentie 2027
+nluug_event: true
+highlight_on_homepage: true
