@@ -1,5 +1,0 @@
-Contact: mailto:bestuur@nluug.nl
-Expires: 2026-12-31T23:59:00.000Z
-Acknowledgments: https://nluug.nl/security/
-Preferred-Languages: en, nl
-Policy: https://nluug.nl/security/
