@@ -15,6 +15,8 @@ Als organisatie met vrijwel alleen vrijwilligers, zijn wij afhankelijk van hun i
 
 De NLUUG heeft geen speciaal beloningsprogramma voor gemelde beveiligingslekken. Serieuze zaken die netjes gemeld zijn, belonen wij wel graag met een bedankje op deze pagina.
 
-## Speciale vermelding
+## Speciale vermeldingen
 
-* O. voor het melden van een (beperkt) informatielek in ons ledensysteem
+We danken de volgende personen voor hun bijdrage om onze vereniging weer iets veiliger te maken:
+
+* Oliver Verver voor het melden van een (beperkt) informatielek in ons ledensysteem
