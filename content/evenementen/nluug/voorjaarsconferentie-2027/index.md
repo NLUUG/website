@@ -24,7 +24,7 @@ event_address:
   city: "Utrecht"
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
-event_cfp_start_date: 2026-05-30T00:00:00+02:00
+event_cfp_start_date: 2027-01-01T00:00:00+02:00
 event_cfp_close_date: 2027-03-06T23:59:59+02:00
 event_cfp_link: https://cfp.nluug.nl/nluug-voorjaarsconferentie-2027/cfp
 event_description: "Voorjaarsconferentie 2027 van de vereniging NLUUG in aula van TU Delft"
