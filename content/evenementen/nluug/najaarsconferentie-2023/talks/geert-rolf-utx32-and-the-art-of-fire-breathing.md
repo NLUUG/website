@@ -21,7 +21,7 @@ Last year a simulator for the SEL-32 systems, SIMH/sel32, was released. The lega
 
 My paper contains a lot of "deja-vu" moments for people who actually used the SEL/Gould systems in the 80s and 90s. To address todays Unix/Linux public, I will adapt my talk and among others bring some interesting topics of the SIMH/sel32 implementation that brought this legacy system back to life. I will illustrate the world of big iron computers with some pictures though.
 
-The paper is here: https://geerol.home.xs4all.nl/DownLoad/UTX-paper.pdf
+The paper is here: https://www.wijvannr6.nl/DownLoad/UTX-paper.pdf
 
 ## Biografie
 
