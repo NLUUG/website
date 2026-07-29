@@ -20,8 +20,8 @@ event_location: Aula TU Delft
 event_location_id: aula_tu_delft
 event_address:
   street_address: "Mekelweg 5"
-  postal_code: "3526 KV"
-  city: "Utrecht"
+  postal_code: "2628 CC"
+  city: "Delft"
   country_name: "The Netherlands"
 event_attendance_mode: "offline"
 event_cfp_start_date: 2027-01-01T00:00:00+02:00
