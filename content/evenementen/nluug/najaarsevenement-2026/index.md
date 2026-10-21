@@ -40,4 +40,5 @@ In 2026 stond 1 conferentie gepland. Samen met de TU Delft en Debbie Reinders or
 
 Let op: het aantal aanmeldingen voor deze middag is beperkt tot 100.
 
+Bekijk het [programma](https://cfp.nluug.nl/nluug-fall-event-2026/schedule/).
 
