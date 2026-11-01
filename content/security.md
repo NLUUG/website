@@ -20,3 +20,4 @@ De NLUUG heeft geen speciaal beloningsprogramma voor gemelde beveiligingslekken.
 We danken de volgende personen voor hun bijdrage om onze vereniging weer iets veiliger te maken:
 
 * Oliver Verver voor het melden van een (beperkt) informatielek in ons ledensysteem
+* kta1kri voor het melden van onvoldoende rechten op bepaalde wiki-pagina's en daarbij behorende gevoelige informatie
