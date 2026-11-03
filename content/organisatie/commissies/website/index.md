@@ -12,7 +12,6 @@ type: team
 team_members:
 - michael-boelen
 - patrick-reijnen
-- toshaan-bharvani
 contact_email: "website@nluug.nl"
 ---
 
