@@ -11,8 +11,8 @@ slug:
 title: "NLUUG najaarsevenement 2026"
 layout: schedule-event
 event_title: "NLUUG najaarsevenement 2026"
-event_start: 2026-11-26T14:00:00+01:00
-event_end: 2026-11-26T17:00:00+01:00
+event_start: 2026-11-26T12:00:00+01:00
+event_end: 2026-11-26T18:00:00+01:00
 event_timezone: Europe/Amsterdam
 event_location: Aula TU Delft
 event_location_id: aula_tu_delft
