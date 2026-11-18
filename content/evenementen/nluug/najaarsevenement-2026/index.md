@@ -38,7 +38,9 @@ event_status: "scheduled"
 
 In 2026 stond 1 conferentie gepland. Samen met de TU Delft en Debbie Reinders organiseren we alsnog een extra evenement voor onze leden.
 
-Let op: het aantal aanmeldingen voor deze middag is beperkt tot 100.
+Let op:
+* Het aantal aanmeldingen voor deze middag is beperkt tot 100
+* Er is **geen lunch** deze middag 
 
 Bekijk het [programma](https://cfp.nluug.nl/nluug-fall-event-2026/schedule/).
 
