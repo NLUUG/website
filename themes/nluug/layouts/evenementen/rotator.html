@@ -1,0 +1,14 @@
+<html>
+	<head>
+            <meta name="robots" content="noindex">
+	    {{ if .Params.rotator }}
+                <meta http-equiv="refresh" content="{{ .Params.rotator.time | default "3" }};url={{ .Params.rotator.next | default "https://nluug.nl/" }}">
+            {{ end }}
+	</head>
+	<body>
+		{{ if .Params.rotator.image }}
+		<img src="{{ .Params.rotator.image }}" width="100%">
+		{{ end }}
+		{{ .Content }}
+	</body>
+</html>
