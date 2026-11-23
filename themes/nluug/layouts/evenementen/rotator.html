@@ -4,10 +4,63 @@
 	    {{ if .Params.rotator }}
                 <meta http-equiv="refresh" content="{{ .Params.rotator.time | default "3" }};url={{ .Params.rotator.next | default "https://nluug.nl/" }}">
             {{ end }}
+            <style>
+	:root {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 2rem;
+	padding: 2rem;
+	background: linear-gradient(45deg, #26266B 0%, #26266B 5%, #FA198B 5%, #FA198B 10%, #FFF 10%, #FFF 100%);
+	/*background: linear-gradient(90deg, rgb(253, 230, 138) 0px, rgb(253, 230, 138) 30%, rgb(190, 18, 60) 30%, rgb(190, 18, 60) 70%, rgb(76, 5, 25) 70%);*/
+	background-repeat: repeat;
+	height: 100vh;
+}
+                h1 {
+		    font-weight: bold;
+		    text-align: center;
+                }
+
+		.grid-two-columns {
+			max-width: 100ch;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			margin: 0 auto;
+    gap: 4rem;
+                    div {
+			  outline: 3px solid #FA198B;
+			   border-radius: 9px;
+			  outline-offset: 3px;
+			  padding: 1rem;
+		    }
+
+		}
+		.bold { font-weight: bold; }
+
+		</style>
+
 	</head>
 	<body>
 		{{ if .Params.rotator.image }}
 		<img src="{{ .Params.rotator.image }}" width="100%">
+		{{ end }}
+
+		{{ if .Params.rotator.text_header }}
+		    <img src="/afbeeldingen/logo/nluug-logo.svg" alt="NLUUG-logo" decoding="async" width="600">
+		    <h1>{{ .Params.rotator.text_header }}</h1>
+		<div class="grid-two-columns">
+			<div>
+				<p class="bold">{{ .Params.rotator.text_line1 }}</p>
+				<p>{{ .Params.rotator.text_line2 }}</p>
+				<p>{{ .Params.rotator.text_line3 }}</p>
+			</div>
+		    <div>
+		        <p class="bold">{{ .Params.rotator.text_cta_line1 }}</p>
+		        <p>{{ .Params.rotator.text_cta_line2 }}</p>
+		    </div>
+                </div>
 		{{ end }}
 		{{ .Content }}
 	</body>
