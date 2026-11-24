@@ -15,7 +15,7 @@
 body {
 	
 	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 2rem;
+	font-size: 2.5rem;
 	padding: 0;
 	background: linear-gradient(45deg, #26266B 0%, #26266B 5%, #FA198B 5%, #FA198B 10%, #FFF 10%, #FFF 100%);
 	/*background: linear-gradient(90deg, rgb(253, 230, 138) 0px, rgb(253, 230, 138) 30%, rgb(190, 18, 60) 30%, rgb(190, 18, 60) 70%, rgb(76, 5, 25) 70%);*/
@@ -28,6 +28,10 @@ body {
 		    font-weight: bold;
 		    text-align: center;
                 }
+		p {
+	            line-height: 3rem;
+	        }
+
                 .banner {
 			background-color: #26266b;
     background-image: url(/afbeeldingen/achtergronden/banner.svg);
@@ -38,10 +42,19 @@ body {
     width:90vw;
                     position: absolute;
                     left: 50%;
-                    top: 50%;
+                    top: 30%;
                     margin: 0 auto;
                     margin-left: -45vw;
                     margin-right: -45vw;
+			    padding: 1.5rem;
+		    h2 {
+				    color: white;
+		    }
+
+		    p {
+			    color: white;
+		    }
+
                     div > ul {
 		        list-style-type: none; color: white; font-size:5rem;
 		    }
@@ -56,7 +69,7 @@ body {
                     div {
 			background-color: var(--color1);
 			color: white;
-			  outline: 3px solid #FA198B;
+			  outline: 8px solid #FA198B;
 			   border-radius: 9px;
 			  outline-offset: 3px;
 			  padding: 2em;
@@ -88,16 +101,24 @@ body {
 		    </div>
                     </div>
 		{{ else if .Params.rotator.banner }}
-
-	            <div class="banner">
-	                <div>
-		        <ul class="nomarkup">
-		<li>Open source</li>
-		<li>Open systemen</li>
-		<li>Open standaarden</li>
-		</ul>
-	    </div>
-	</div> 
+		    {{ if eq .Params.rotator.banner "hashtag-nluug" }}
+				<h1>Social media</h1>
+	                <div class="banner">
+				<p>Een nuttig inzicht of weetje geleerd? <strong>Deel het op Mastodon!</strong></p>
+				<p>Onze hashtag: <strong>#nluug</strong></p>
+			</div>
+		    {{ else }}
+		            <h1>Wij zijn... OPEN!</h1>
+	                <div class="banner">
+	                    <div>
+		            <ul class="nomarkup">
+		                    <li>Open source</li>
+		                    <li>Open systemen</li>
+		                    <li>Open standaarden</li>
+		            </ul>
+	                    </div>
+	                </div> 
+		    {{ end }}
 		{{ end }}
 		{{ .Content }}
 		<a style="position:absolute;right:0;bottom:0;text-decoration:none;padding:0.5em;" href="{{ .Params.rotator.next }}">&raquo;</a>
