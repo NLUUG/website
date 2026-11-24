@@ -1,39 +1,65 @@
+<!DOCTYPE html>
 <html>
 	<head>
             <meta name="robots" content="noindex">
 	    {{ if .Params.rotator }}
-                <meta http-equiv="refresh" content="{{ .Params.rotator.time | default "3" }};url={{ .Params.rotator.next | default "https://nluug.nl/" }}">
+                <meta http-equiv="refresh" content="{{ .Params.rotator.time | default "30" }};url={{ .Params.rotator.next | default "https://nluug.nl/" }}">
             {{ end }}
             <style>
 	:root {
 	box-sizing: border-box;
+	--color1: #26266B;
+	--color2: #FA198B;
 }
 
 body {
+	
 	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 2rem;
-	padding: 2rem;
+	padding: 0;
 	background: linear-gradient(45deg, #26266B 0%, #26266B 5%, #FA198B 5%, #FA198B 10%, #FFF 10%, #FFF 100%);
 	/*background: linear-gradient(90deg, rgb(253, 230, 138) 0px, rgb(253, 230, 138) 30%, rgb(190, 18, 60) 30%, rgb(190, 18, 60) 70%, rgb(76, 5, 25) 70%);*/
 	background-repeat: repeat;
 	height: 100vh;
+	width: 100%;
+	margin: 0;
 }
                 h1 {
 		    font-weight: bold;
 		    text-align: center;
                 }
-
+                .banner {
+			background-color: #26266b;
+    background-image: url(/afbeeldingen/achtergronden/banner.svg);
+    background-size: cover;
+    border-radius: 5px;
+    align-content: center;
+    height: auto;
+    width:90vw;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin: 0 auto;
+                    margin-left: -45vw;
+                    margin-right: -45vw;
+                    div > ul {
+		        list-style-type: none; color: white; font-size:5rem;
+		    }
+		}
 		.grid-two-columns {
+			margin-top: 3rem;
 			max-width: 100ch;
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			margin: 0 auto;
     gap: 4rem;
                     div {
+			background-color: var(--color1);
+			color: white;
 			  outline: 3px solid #FA198B;
 			   border-radius: 9px;
 			  outline-offset: 3px;
-			  padding: 1rem;
+			  padding: 2em;
 		    }
 
 		}
@@ -43,14 +69,14 @@ body {
 
 	</head>
 	<body>
-		{{ if .Params.rotator.image }}
-		<img src="{{ .Params.rotator.image }}" width="100%">
-		{{ end }}
-
-		{{ if .Params.rotator.text_header }}
+		{{ if .Params.rotator.logo }}
 		    <img src="/afbeeldingen/logo/nluug-logo.svg" alt="NLUUG-logo" decoding="async" width="600">
+		{{ end }}
+		{{ if .Params.rotator.image }}
+		    <img src="{{ .Params.rotator.image }}" style="width:100vw;height:auto;">
+		{{ else if .Params.rotator.text_header }}
 		    <h1>{{ .Params.rotator.text_header }}</h1>
-		<div class="grid-two-columns">
+		    <div class="grid-two-columns">
 			<div>
 				<p class="bold">{{ .Params.rotator.text_line1 }}</p>
 				<p>{{ .Params.rotator.text_line2 }}</p>
@@ -60,8 +86,20 @@ body {
 		        <p class="bold">{{ .Params.rotator.text_cta_line1 }}</p>
 		        <p>{{ .Params.rotator.text_cta_line2 }}</p>
 		    </div>
-                </div>
+                    </div>
+		{{ else if .Params.rotator.banner }}
+
+	            <div class="banner">
+	                <div>
+		        <ul class="nomarkup">
+		<li>Open source</li>
+		<li>Open systemen</li>
+		<li>Open standaarden</li>
+		</ul>
+	    </div>
+	</div> 
 		{{ end }}
 		{{ .Content }}
+		<a style="position:absolute;right:0;bottom:0;text-decoration:none;padding:0.5em;" href="{{ .Params.rotator.next }}">&raquo;</a>
 	</body>
 </html>
