@@ -24,7 +24,7 @@ Onze vereniging heeft, naast het bestuur, verschillende commissies in wisselende
 * Programmacommissie: pc@nluug.nl
 * Website: website@nluug.nl
 
-Niet zeker aan wie de e-mail te adresseren? Gebruik dan info@nluug.nl.
+Niet zeker aan wie de e-mail te adresseren? Stuur het dan naar ons **bestuur**.
 
 ## Post
 
